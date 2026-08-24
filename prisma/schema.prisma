@@ -1,0 +1,715 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | ENUMS
+ * |--------------------------------------------------------------------------
+ */
+
+enum MerchantStatus {
+  ACTIVE
+  INACTIVE
+  NEEDS_REVIEW
+  ARCHIVED
+}
+
+enum GiftCardStatus {
+  DRAFT
+  ACTIVE
+  HIDDEN
+  EXPIRED
+  ARCHIVED
+}
+
+enum VerificationStatus {
+  DISCOVERED
+  PENDING
+  VERIFIED
+  NEEDS_REVIEW
+  EXPIRED
+  REJECTED
+}
+
+enum GiftCardVariantType {
+  DIGITAL
+  PHYSICAL
+  DIGITAL_AND_PHYSICAL
+  CORPORATE
+  EXPERIENCE
+  THIRD_PARTY_PREPAID
+}
+
+enum RedemptionChannel {
+  ONLINE
+  PHYSICAL_STORE
+  APP
+  PHONE
+  EMAIL
+}
+
+enum DeliveryMethod {
+  EMAIL
+  SMS
+  VIBER
+  PHYSICAL_DELIVERY
+  STORE_PICKUP
+  INSTANT_CODE
+  PRINTABLE
+}
+
+enum SourceType {
+  OFFICIAL
+  AGGREGATOR
+  SEARCH_ENGINE
+  MARKETPLACE
+  MANUAL
+  OTHER
+}
+
+enum DiscoveryStatus {
+  DISCOVERED
+  QUEUED
+  VERIFYING
+  VERIFIED
+  REJECTED
+  DUPLICATE
+  ERROR
+}
+
+enum VerificationResult {
+  PASSED
+  FAILED
+  CHANGED
+  UNAVAILABLE
+  PARTIAL
+}
+
+enum MediaUsageStatus {
+  UNKNOWN
+  APPROVED
+  OWNED
+  GENERATED
+  DO_NOT_USE
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | MERCHANT / BUSINESS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Ένα merchant = μία επιχείρηση / brand / retailer.
+ * |
+ * | Public
+ * | Sephora
+ * | AEGEAN
+ * | SKY express
+ * | Prénatal
+ * | μικρό spa
+ * | ξενοδοχείο
+ * |--------------------------------------------------------------------------
+ */
+
+model Merchant {
+  id          String  @id @default(cuid())
+  name        String
+  slug        String  @unique
+  legalName   String?
+  description String?
+
+  websiteUrl String?
+  country    String  @default("GR")
+
+  logoUrl       String?
+  logoSourceUrl String?
+
+  status MerchantStatus @default(ACTIVE)
+
+  featured Boolean @default(false)
+
+  seoTitle        String?
+  metaDescription String?
+
+  giftCards GiftCard[]
+
+  sources     SourceRecord[]
+  mediaAssets MediaAsset[]
+  clicks      OutboundClick[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([name])
+  @@index([status])
+  @@index([featured])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | GIFT CARD
+ * |--------------------------------------------------------------------------
+ * |
+ * | Canonical gift card.
+ * |
+ * | Π.χ.
+ * | "Sephora Gift Card"
+ * | "AEGEAN Gift Card"
+ * |
+ * | Κάτω από αυτήν μπορεί να υπάρχουν:
+ * | Digital
+ * | Physical
+ * | Corporate
+ * | κτλ.
+ * |--------------------------------------------------------------------------
+ */
+
+model GiftCard {
+  id         String   @id @default(cuid())
+  merchantId String
+  merchant   Merchant @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+
+  title String
+  slug  String @unique
+
+  shortDescription String?
+  description      String?
+
+  status             GiftCardStatus     @default(DRAFT)
+  verificationStatus VerificationStatus @default(DISCOVERED)
+
+  officialUrl String?
+
+  corporateAvailable       Boolean @default(false)
+  personalizationAvailable Boolean @default(false)
+
+  validityMonths Int?
+  validityText   String?
+
+  termsUrl String?
+
+  featured Boolean @default(false)
+
+  lastVerifiedAt DateTime?
+  nextReviewAt   DateTime?
+
+  seoTitle        String?
+  metaDescription String?
+
+  variants    GiftCardVariant[]
+  categories  GiftCardCategory[]
+  occasions   GiftCardOccasion[]
+  sources     SourceRecord[]
+  mediaAssets MediaAsset[]
+  clicks      OutboundClick[]
+
+  verificationEvents VerificationEvent[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([merchantId])
+  @@index([status])
+  @@index([verificationStatus])
+  @@index([featured])
+  @@index([lastVerifiedAt])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | GIFT CARD VARIANTS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Το ίδιο GiftCard μπορεί να έχει:
+ * |
+ * | Sephora
+ * | ├── Digital
+ * | ├── Physical
+ * | └── Corporate
+ * |
+ * |--------------------------------------------------------------------------
+ */
+
+model GiftCardVariant {
+  id         String   @id @default(cuid())
+  giftCardId String
+  giftCard   GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+
+  name String?
+
+  type GiftCardVariantType
+
+  currency String @default("EUR")
+
+  minValue Decimal? @db.Decimal(12, 2)
+  maxValue Decimal? @db.Decimal(12, 2)
+
+  customValueAllowed Boolean @default(false)
+
+  purchaseUrl String?
+
+  validityMonths Int?
+  validityText   String?
+
+  active Boolean @default(true)
+
+  values      GiftCardValue[]
+  redemptions GiftCardRedemption[]
+  deliveries  GiftCardDelivery[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([giftCardId])
+  @@index([type])
+  @@index([active])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | FIXED VALUES
+ * |--------------------------------------------------------------------------
+ * |
+ * | π.χ.
+ * | €10
+ * | €20
+ * | €50
+ * | €100
+ * |--------------------------------------------------------------------------
+ */
+
+model GiftCardValue {
+  id        String          @id @default(cuid())
+  variantId String
+  variant   GiftCardVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  value Decimal @db.Decimal(12, 2)
+
+  createdAt DateTime @default(now())
+
+  @@unique([variantId, value])
+  @@index([variantId])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | REDEMPTION CHANNELS
+ * |--------------------------------------------------------------------------
+ */
+
+model GiftCardRedemption {
+  id        String          @id @default(cuid())
+  variantId String
+  variant   GiftCardVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  channel RedemptionChannel
+
+  @@unique([variantId, channel])
+  @@index([channel])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | DELIVERY METHODS
+ * |--------------------------------------------------------------------------
+ */
+
+model GiftCardDelivery {
+  id        String          @id @default(cuid())
+  variantId String
+  variant   GiftCardVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  method DeliveryMethod
+
+  @@unique([variantId, method])
+  @@index([method])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | CATEGORIES
+ * |--------------------------------------------------------------------------
+ */
+
+model Category {
+  id String @id @default(cuid())
+
+  name String
+  slug String @unique
+
+  description String?
+  icon        String?
+
+  sortOrder Int @default(0)
+
+  active Boolean @default(true)
+
+  seoTitle        String?
+  metaDescription String?
+
+  giftCards GiftCardCategory[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active])
+  @@index([sortOrder])
+}
+
+model GiftCardCategory {
+  giftCardId String
+  categoryId String
+
+  giftCard GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  primary Boolean @default(false)
+
+  @@id([giftCardId, categoryId])
+  @@index([categoryId])
+  @@index([primary])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | OCCASIONS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Birthday
+ * | Wedding
+ * | New Baby
+ * | Christmas
+ * | For Her
+ * | κτλ.
+ * |--------------------------------------------------------------------------
+ */
+
+model Occasion {
+  id String @id @default(cuid())
+
+  name String
+  slug String @unique
+
+  description String?
+  icon        String?
+
+  sortOrder Int @default(0)
+
+  active Boolean @default(true)
+
+  seoTitle        String?
+  metaDescription String?
+
+  giftCards GiftCardOccasion[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active])
+  @@index([sortOrder])
+}
+
+model GiftCardOccasion {
+  giftCardId String
+  occasionId String
+
+  giftCard GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+  occasion Occasion @relation(fields: [occasionId], references: [id], onDelete: Cascade)
+
+  relevance Int @default(50)
+
+  @@id([giftCardId, occasionId])
+  @@index([occasionId])
+  @@index([relevance])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | SOURCE RECORDS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Πολύ σημαντικό.
+ * |
+ * | Δεν κρατάμε απλώς "βρήκα αυτήν την gift card".
+ * | Κρατάμε ΠΟΥ τη βρήκαμε.
+ * |
+ * | BestPrice
+ * | Official Site
+ * | Google
+ * | Wolt
+ * | Baladeur
+ * | κτλ.
+ * |--------------------------------------------------------------------------
+ */
+
+model SourceRecord {
+  id String @id @default(cuid())
+
+  sourceType SourceType
+
+  sourceName String
+  sourceUrl  String
+
+  merchantId String?
+  merchant   Merchant? @relation(fields: [merchantId], references: [id], onDelete: SetNull)
+
+  giftCardId String?
+  giftCard   GiftCard? @relation(fields: [giftCardId], references: [id], onDelete: SetNull)
+
+  externalId String?
+
+  rawTitle       String?
+  rawDescription String?
+
+  firstSeenAt DateTime @default(now())
+  lastSeenAt  DateTime @default(now())
+
+  active Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sourceType])
+  @@index([sourceName])
+  @@index([merchantId])
+  @@index([giftCardId])
+  @@index([lastSeenAt])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | DISCOVERY QUEUE
+ * |--------------------------------------------------------------------------
+ * |
+ * | Εδώ θα μπαίνουν τα "raw" αποτελέσματα του crawler.
+ * |
+ * | Δεν πάνε κατευθείαν production.
+ * |--------------------------------------------------------------------------
+ */
+
+model DiscoveryItem {
+  id String @id @default(cuid())
+
+  sourceType SourceType
+  sourceName String
+
+  sourceUrl String
+
+  title        String?
+  merchantName String?
+
+  status DiscoveryStatus @default(DISCOVERED)
+
+  possibleOfficialUrl String?
+
+  fingerprint String? @unique
+
+  notes String?
+
+  discoveredAt DateTime  @default(now())
+  processedAt  DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([sourceType])
+  @@index([merchantName])
+  @@index([discoveredAt])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | VERIFICATION HISTORY
+ * |--------------------------------------------------------------------------
+ * |
+ * | Για να έχουμε audit trail:
+ * |
+ * | 01/09 verified
+ * | 10/12 changed
+ * | 15/12 verified
+ * |
+ * |--------------------------------------------------------------------------
+ */
+
+model VerificationEvent {
+  id String @id @default(cuid())
+
+  giftCardId String
+  giftCard   GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+
+  result VerificationResult
+
+  url String?
+
+  notes String?
+
+  checkedAt DateTime @default(now())
+
+  @@index([giftCardId])
+  @@index([result])
+  @@index([checkedAt])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | MEDIA ASSETS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Σημαντικό για copyright / μελλοντική πώληση.
+ * |
+ * | Δεν θέλω να έχουμε χύμα εικόνες και μετά να μη ξέρουμε
+ * | από πού προήλθαν.
+ * |--------------------------------------------------------------------------
+ */
+
+model MediaAsset {
+  id String @id @default(cuid())
+
+  merchantId String?
+  merchant   Merchant? @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+
+  giftCardId String?
+  giftCard   GiftCard? @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+
+  url String
+
+  sourceUrl String?
+
+  altText String?
+
+  usageStatus MediaUsageStatus @default(UNKNOWN)
+
+  isPrimary Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([merchantId])
+  @@index([giftCardId])
+  @@index([usageStatus])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | OUTBOUND CLICK TRACKING
+ * |--------------------------------------------------------------------------
+ * |
+ * | Από τα σημαντικότερα business metrics.
+ * |--------------------------------------------------------------------------
+ */
+
+model OutboundClick {
+  id String @id @default(cuid())
+
+  merchantId String?
+  merchant   Merchant? @relation(fields: [merchantId], references: [id], onDelete: SetNull)
+
+  giftCardId String?
+  giftCard   GiftCard? @relation(fields: [giftCardId], references: [id], onDelete: SetNull)
+
+  destinationUrl String
+
+  sessionId String?
+
+  referrer  String?
+  userAgent String?
+
+  source   String?
+  campaign String?
+
+  clickedAt DateTime @default(now())
+
+  @@index([merchantId])
+  @@index([giftCardId])
+  @@index([clickedAt])
+  @@index([source])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | IMPORT SOURCES / CRAWLER JOBS
+ * |--------------------------------------------------------------------------
+ */
+
+model ImportSource {
+  id String @id @default(cuid())
+
+  name String @unique
+
+  sourceType SourceType
+
+  baseUrl String?
+
+  enabled Boolean @default(true)
+
+  totalDiscovered Int @default(0)
+  totalImported   Int @default(0)
+  totalRejected   Int @default(0)
+
+  lastRunAt DateTime?
+  nextRunAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([enabled])
+}
+
+model CrawlJob {
+  id String @id @default(cuid())
+
+  sourceName String
+
+  startedAt  DateTime  @default(now())
+  finishedAt DateTime?
+
+  pagesScanned    Int @default(0)
+  itemsDiscovered Int @default(0)
+  itemsCreated    Int @default(0)
+  errors          Int @default(0)
+
+  successful Boolean?
+
+  notes String?
+
+  createdAt DateTime @default(now())
+
+  @@index([sourceName])
+  @@index([startedAt])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | SEARCH ANALYTICS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Αυτό μετά θα μας πει τι ζητά πραγματικά ο κόσμος:
+ * |
+ * | "δώρο για γυναίκα"
+ * | "gift card 50 ευρώ"
+ * | "gaming"
+ * |--------------------------------------------------------------------------
+ */
+
+model SearchEvent {
+  id String @id @default(cuid())
+
+  query String
+
+  resultsCount Int @default(0)
+
+  sessionId String?
+
+  clickedGiftCardId String?
+
+  searchedAt DateTime @default(now())
+
+  @@index([searchedAt])
+  @@index([query])
+}
