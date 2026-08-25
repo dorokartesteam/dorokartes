@@ -1,0 +1,3357 @@
+[
+  {
+    "seed": {
+      "merchantName": "Public",
+      "websiteUrl": "https://public.gr",
+      "category": "technology"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Public",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.public.gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Plaisio",
+      "websiteUrl": "https://plaisio.gr",
+      "category": "technology"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Germanos",
+      "websiteUrl": "https://germanos.gr",
+      "category": "technology"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Germanos",
+        "merchantWebsite": "https://germanos.gr",
+        "domain": "germanos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.germanos.gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Kotsovolos",
+      "websiteUrl": "https://www.kotsovolos.gr",
+      "category": "technology"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Kotsovolos",
+        "merchantWebsite": "https://www.kotsovolos.gr",
+        "domain": "kotsovolos.gr",
+        "category": "technology",
+        "candidateUrl": "https://www.kotsovolos.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "iStorm",
+      "websiteUrl": "https://www.istorm.gr",
+      "category": "technology"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "You.gr",
+      "websiteUrl": "https://www.you.gr",
+      "category": "technology"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "e-shop.gr",
+      "websiteUrl": "https://www.e-shop.gr",
+      "category": "technology"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Cosmos Sport",
+      "websiteUrl": "https://www.cosmossport.gr",
+      "category": "sports"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Sneaker10",
+      "websiteUrl": "https://www.sneaker10.gr",
+      "category": "fashion"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Zakcret",
+      "websiteUrl": "https://www.zakcret.gr",
+      "category": "sports"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Hall of Brands",
+      "websiteUrl": "https://www.hallofbrands.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Cosmossport Outlet",
+      "websiteUrl": "https://www.cosmossport.gr",
+      "category": "sports"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Intersport",
+      "websiteUrl": "https://www.intersport.gr",
+      "category": "sports"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "JD Sports Greece",
+      "websiteUrl": "https://www.jdsports.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "JD Sports Greece",
+        "merchantWebsite": "https://www.jdsports.gr",
+        "domain": "jdsports.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.jdsports.gr/el/304016-dorokarta-jd.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:dorokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "JD Sports Greece",
+        "merchantWebsite": "https://www.jdsports.gr",
+        "domain": "jdsports.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.jdsports.gr/el/cms/333/gift-cards",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Nike Greece",
+      "websiteUrl": "https://www.nike.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Nike Greece",
+        "merchantWebsite": "https://www.nike.com/gr",
+        "domain": "nike.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.nike.com/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Adidas Greece",
+      "websiteUrl": "https://www.adidas.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Puma Greece",
+      "websiteUrl": "https://eu.puma.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Puma Greece",
+        "merchantWebsite": "https://eu.puma.com/gr",
+        "domain": "puma.com",
+        "category": "fashion",
+        "candidateUrl": "https://giftcard.puma.com",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Puma Greece",
+        "merchantWebsite": "https://eu.puma.com/gr",
+        "domain": "puma.com",
+        "category": "fashion",
+        "candidateUrl": "https://eu.puma.com/gr/en/pd/digital-gift-card",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Under Armour Greece",
+      "websiteUrl": "https://www.underarmour.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Bodytalk",
+      "websiteUrl": "https://www.bodytalk.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Funky Buddha",
+      "websiteUrl": "https://www.funky-buddha.com",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards/giftcard-happy-birthday-egiftcard-0004.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards/giftcard-thank-you-egiftcard-0006.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards/giftcard-congrats-egiftcard-0003.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards/valentine-s-day/giftcard-love-you.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards/giftcard-happy-nameday-egiftcard-0005.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/giftcards/nameday.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/search/giftcard?amnoroute",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/search/egift?amnoroute",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:egift",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/search/dorokarta?amnoroute",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:dorokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/search/dwrokarta?amnoroute",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:dwrokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Funky Buddha",
+        "merchantWebsite": "https://www.funky-buddha.com",
+        "domain": "funky-buddha.com",
+        "category": "fashion",
+        "candidateUrl": "https://www.funky-buddha.com/el/search/doroepitagi?amnoroute",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitagi",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Celestino",
+      "websiteUrl": "https://www.celestino.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Celestino",
+        "merchantWebsite": "https://www.celestino.gr",
+        "domain": "celestino.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.celestino.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Celestino",
+        "merchantWebsite": "https://www.celestino.gr",
+        "domain": "celestino.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.celestino.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Celestino",
+        "merchantWebsite": "https://www.celestino.gr",
+        "domain": "celestino.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.celestino.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Celestino",
+        "merchantWebsite": "https://www.celestino.gr",
+        "domain": "celestino.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.celestino.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Celestino",
+        "merchantWebsite": "https://www.celestino.gr",
+        "domain": "celestino.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.celestino.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Toi&moi",
+      "websiteUrl": "https://www.toi-moi.com",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Attrattivo",
+      "websiteUrl": "https://www.attrattivo.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "BSB",
+      "websiteUrl": "https://www.bsbfashion.com",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Lynne",
+      "websiteUrl": "https://www.lynneshop.com",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Pink Woman",
+      "websiteUrl": "https://www.pinkwoman-fashion.com",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Sinsay Greece",
+      "websiteUrl": "https://www.sinsay.com/gr/el",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "H&M Greece",
+      "websiteUrl": "https://www2.hm.com/el_gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Zara Greece",
+      "websiteUrl": "https://www.zara.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Bershka Greece",
+      "websiteUrl": "https://www.bershka.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Pull&Bear Greece",
+      "websiteUrl": "https://www.pullandbear.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Stradivarius Greece",
+      "websiteUrl": "https://www.stradivarius.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Massimo Dutti Greece",
+      "websiteUrl": "https://www.massimodutti.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Mango Greece",
+      "websiteUrl": "https://shop.mango.com/gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Marks & Spencer Greece",
+      "websiteUrl": "https://www.marksandspencer.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "attica",
+      "websiteUrl": "https://www.atticadps.gr",
+      "category": "department-store"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Hondos Center",
+      "websiteUrl": "https://www.hondoscenter.com",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Sephora Greece",
+      "websiteUrl": "https://www.sephora.gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "The Body Shop",
+      "websiteUrl": "https://www.thebodyshop.gr",
+      "category": "beauty"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Notino Greece",
+      "websiteUrl": "https://www.notino.gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Galerie de Beauté",
+      "websiteUrl": "https://www.galeriedebeaute.gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Galerie de Beauté",
+        "merchantWebsite": "https://www.galeriedebeaute.gr",
+        "domain": "galeriedebeaute.gr",
+        "category": "beauty",
+        "candidateUrl": "https://www.galeriedebeaute.gr/el-gr/giftcard",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Dust+Cream",
+      "websiteUrl": "https://www.dustandcream.gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "KIKO Milano Greece",
+      "websiteUrl": "https://www.kikocosmetics.com/el-gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "MAC Cosmetics Greece",
+      "websiteUrl": "https://www.maccosmetics.gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "NYX Greece",
+      "websiteUrl": "https://www.nyxcosmetics.gr",
+      "category": "beauty"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Pharm24",
+      "websiteUrl": "https://www.pharm24.gr",
+      "category": "pharmacy"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Vita4you",
+      "websiteUrl": "https://www.vita4you.gr",
+      "category": "pharmacy"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Ofarmakopoiosmou",
+      "websiteUrl": "https://www.ofarmakopoiosmou.gr",
+      "category": "pharmacy"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Pharmacy295",
+      "websiteUrl": "https://www.pharmacy295.gr",
+      "category": "pharmacy"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "ToFarmakeioMou",
+      "websiteUrl": "https://www.tofarmakeiomou.gr",
+      "category": "pharmacy"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "IKEA Greece",
+      "websiteUrl": "https://www.ikea.gr",
+      "category": "home"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "JYSK Greece",
+      "websiteUrl": "https://jysk.gr",
+      "category": "home"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "JYSK Greece",
+        "merchantWebsite": "https://jysk.gr",
+        "domain": "jysk.gr",
+        "category": "home",
+        "candidateUrl": "https://jysk.gr/giftcard",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Leroy Merlin Greece",
+      "websiteUrl": "https://www.leroymerlin.gr",
+      "category": "home"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Praktiker Greece",
+      "websiteUrl": "https://www.praktiker.gr",
+      "category": "home"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "HomeMarkt",
+      "websiteUrl": "https://www.homemarkt.gr",
+      "category": "home"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Kulina",
+      "websiteUrl": "https://www.kulina.gr",
+      "category": "home"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Zara Home Greece",
+      "websiteUrl": "https://www.zarahome.com/gr",
+      "category": "home"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Nakas",
+      "websiteUrl": "https://www.nakas.gr",
+      "category": "music"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Public Books",
+      "websiteUrl": "https://public.gr",
+      "category": "books"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Public Books",
+        "merchantWebsite": "https://public.gr",
+        "domain": "public.gr",
+        "category": "books",
+        "candidateUrl": "https://www.public.gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Ianos",
+      "websiteUrl": "https://www.ianos.gr",
+      "category": "books"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Ianos",
+        "merchantWebsite": "https://www.ianos.gr",
+        "domain": "ianos.gr",
+        "category": "books",
+        "candidateUrl": "https://www.ianos.gr/mageworx_giftcards/account/cardlist",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Ianos",
+        "merchantWebsite": "https://www.ianos.gr",
+        "domain": "ianos.gr",
+        "category": "books",
+        "candidateUrl": "https://www.ianos.gr/dorokarta-ianos",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Politeia",
+      "websiteUrl": "https://www.politeianet.gr",
+      "category": "books"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:egift",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:dorokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:dwrokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitagi",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Politeia",
+        "merchantWebsite": "https://www.politeianet.gr",
+        "domain": "politeianet.gr",
+        "category": "books",
+        "candidateUrl": "https://www.politeianet.gr/el/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitage",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Protoporia",
+      "websiteUrl": "https://www.protoporia.gr",
+      "category": "books"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Evripidis",
+      "websiteUrl": "https://www.evripidis.gr",
+      "category": "books"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Evripidis",
+        "merchantWebsite": "https://www.evripidis.gr",
+        "domain": "evripidis.gr",
+        "category": "books",
+        "candidateUrl": "https://www.evripidis.gr/gift-card.htm",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Evripidis",
+        "merchantWebsite": "https://www.evripidis.gr",
+        "domain": "evripidis.gr",
+        "category": "books",
+        "candidateUrl": "https://www.evripidis.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Prenatal",
+      "websiteUrl": "https://www.prenatal.gr",
+      "category": "kids"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Mothercare Greece",
+      "websiteUrl": "https://www.mothercare.gr",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/advice/doroepitages",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitage",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/content/pos-mporo-na-agoraso-apoktiso-mia-doroepitagi",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitagi",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/what-minimum-and-maximum-purchase-amount-gift-voucher",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/does-gift-voucher-have-expiration-date",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/can-i-buy-and-send-gift-voucher-online",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/what-policy-using-gift-voucher",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/can-i-use-gift-voucher-combination-discount-products-or-offers",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:e-gift",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/can-i-use-gift-voucher-and-get-discount-my-loyalty-card",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:e-gift",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/can-i-use-gift-voucher-buy-products-value-lower-or-higher-listed-amount",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:e-gift",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/gift-voucher-code-does-not-work-who-could-i-contact",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/can-i-return-gift-voucher-i-bought-or-was-given",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Mothercare Greece",
+        "merchantWebsite": "https://www.mothercare.gr",
+        "domain": "mothercare.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.mothercare.gr/el/faq/can-gift-voucher-be-returned-and-i-receive-corresponding-amount-money",
+        "discoveryMethod": "SITEMAP",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Lapin House",
+      "websiteUrl": "https://www.lapinkids.com",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Lapin House",
+        "merchantWebsite": "https://www.lapinkids.com",
+        "domain": "lapinkids.com",
+        "category": "kids",
+        "candidateUrl": "https://www.lapinkids.com/el/e-gift-card.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Lapin House",
+        "merchantWebsite": "https://www.lapinkids.com",
+        "domain": "lapinkids.com",
+        "category": "kids",
+        "candidateUrl": "https://www.lapinkids.com/el/about-gift-cards",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "DPAM Greece",
+      "websiteUrl": "https://www.dpam.gr",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "DPAM Greece",
+        "merchantWebsite": "https://www.dpam.gr",
+        "domain": "dpam.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.dpam.gr/giftcard/buy",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Moustakas Toys",
+      "websiteUrl": "https://www.moustakastoys.gr",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Moustakas Toys",
+        "merchantWebsite": "https://www.moustakastoys.gr",
+        "domain": "moustakastoys.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.moustakastoys.gr/upiresies/gift-cards",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Moustakas Toys",
+        "merchantWebsite": "https://www.moustakastoys.gr",
+        "domain": "moustakastoys.gr",
+        "category": "kids",
+        "candidateUrl": "https://www.moustakastoys.gr/upiresies/gift-cards/e-gift-card",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Jumbo",
+      "websiteUrl": "https://www.e-jumbo.gr",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Max Stores",
+      "websiteUrl": "https://www.maxstores.gr",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Lego Greece",
+      "websiteUrl": "https://www.lego.com/en-gr",
+      "category": "kids"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Lego Greece",
+        "merchantWebsite": "https://www.lego.com/en-gr",
+        "domain": "lego.com",
+        "category": "kids",
+        "candidateUrl": "https://www.lego.com/en-gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "e-tennis",
+      "websiteUrl": "https://www.e-tennis.gr",
+      "category": "sports"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Rundome",
+      "websiteUrl": "https://www.rundome.gr",
+      "category": "sports"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Decathlon Greece",
+      "websiteUrl": "https://www.decathlon.com.gr",
+      "category": "sports"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Decathlon Greece",
+        "merchantWebsite": "https://www.decathlon.com.gr",
+        "domain": "decathlon.com.gr",
+        "category": "sports",
+        "candidateUrl": "https://www.decathlon.com.gr/el/content/36-gift-card",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Wolt",
+      "websiteUrl": "https://www.wolt.com",
+      "category": "food-delivery"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "efood",
+      "websiteUrl": "https://www.e-food.gr",
+      "category": "food-delivery"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "BOX",
+      "websiteUrl": "https://box.gr",
+      "category": "food-delivery"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "BOX",
+        "merchantWebsite": "https://box.gr",
+        "domain": "box.gr",
+        "category": "food-delivery",
+        "candidateUrl": "https://box.gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Starbucks Greece",
+      "websiteUrl": "https://www.starbucks.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Coffee Island",
+      "websiteUrl": "https://www.coffeeisland.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Gregory's",
+      "websiteUrl": "https://www.gregorys.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Everest",
+      "websiteUrl": "https://www.everest.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Goody's Burger House",
+      "websiteUrl": "https://www.goodys.com",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Pizza Fan",
+      "websiteUrl": "https://www.pizzafan.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:giftcard",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-card",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:egift",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:gift-voucher",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:dorokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:dwrokarta",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitagi",
+          "greek-locale"
+        ]
+      },
+      {
+        "merchantName": "Pizza Fan",
+        "merchantWebsite": "https://www.pizzafan.gr",
+        "domain": "pizzafan.gr",
+        "category": "food",
+        "candidateUrl": "https://www.pizzafan.gr/el/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 25,
+        "reasons": [
+          "gift-token:doroepitage",
+          "greek-locale"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Domino's Greece",
+      "websiteUrl": "https://www.dominos.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Domino's Greece",
+        "merchantWebsite": "https://www.dominos.gr",
+        "domain": "dominos.gr",
+        "category": "food",
+        "candidateUrl": "https://www.dominos.gr/giftcard",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "McDonald's Greece",
+      "websiteUrl": "https://mcdonalds.gr",
+      "category": "food"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "AB Vassilopoulos",
+      "websiteUrl": "https://www.ab.gr",
+      "category": "supermarket"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Sklavenitis",
+      "websiteUrl": "https://www.sklavenitis.gr",
+      "category": "supermarket"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "My market",
+      "websiteUrl": "https://www.mymarket.gr",
+      "category": "supermarket"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Masoutis",
+      "websiteUrl": "https://www.masoutis.gr",
+      "category": "supermarket"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Masoutis",
+        "merchantWebsite": "https://www.masoutis.gr",
+        "domain": "masoutis.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.masoutis.gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Lidl Greece",
+      "websiteUrl": "https://www.lidl-hellas.gr",
+      "category": "supermarket"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Lidl Greece",
+        "merchantWebsite": "https://www.lidl-hellas.gr",
+        "domain": "lidl-hellas.gr",
+        "category": "supermarket",
+        "candidateUrl": "https://www.lidl-hellas.gr/c/dwrokarta-lidl/s10019973",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "AEGEAN",
+      "websiteUrl": "https://el.aegeanair.com",
+      "category": "travel"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "SKY express",
+      "websiteUrl": "https://www.skyexpress.gr",
+      "category": "travel"
+    },
+    "skipped": "already-production",
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Blue Star Ferries",
+      "websiteUrl": "https://www.bluestarferries.com",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Seajets",
+      "websiteUrl": "https://www.seajets.com",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Minoan Lines",
+      "websiteUrl": "https://www.minoan.gr",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Hellenic Seaways",
+      "websiteUrl": "https://www.hellenicseaways.gr",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Ferryhopper",
+      "websiteUrl": "https://www.ferryhopper.com",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Booking.com",
+      "websiteUrl": "https://www.booking.com",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Airbnb",
+      "websiteUrl": "https://www.airbnb.com",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Airbnb",
+        "merchantWebsite": "https://www.airbnb.com",
+        "domain": "airbnb.com",
+        "category": "travel",
+        "candidateUrl": "https://www.airbnb.com/giftcards",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Hotels.com",
+      "websiteUrl": "https://www.hotels.com",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Hertz Greece",
+      "websiteUrl": "https://www.hertz.gr",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Avis Greece",
+      "websiteUrl": "https://www.avis.gr",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Sixt Greece",
+      "websiteUrl": "https://www.sixt.gr",
+      "category": "travel"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Village Cinemas",
+      "websiteUrl": "https://www.villagecinemas.gr",
+      "category": "entertainment"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Cineplexx Greece",
+      "websiteUrl": "https://www.cineplexx.gr",
+      "category": "entertainment"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/giftcard",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Cineplexx Greece",
+        "merchantWebsite": "https://www.cineplexx.gr",
+        "domain": "cineplexx.gr",
+        "category": "entertainment",
+        "candidateUrl": "https://www.cineplexx.gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Netflix",
+      "websiteUrl": "https://www.netflix.com/gr",
+      "category": "digital"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/gift-cards",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fgift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fe-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fegift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fgift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fgift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fdorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fdwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fdoroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Netflix",
+        "merchantWebsite": "https://www.netflix.com/gr",
+        "domain": "netflix.com",
+        "category": "digital",
+        "candidateUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fdoroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Spotify",
+      "websiteUrl": "https://www.spotify.com/gr",
+      "category": "digital"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/e-gift-card",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/egift",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:egift"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/gift-voucher",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/gift-vouchers",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-voucher"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/dorokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dorokarta"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/dwrokarta",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:dwrokarta"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/doroepitagi",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitagi"
+        ]
+      },
+      {
+        "merchantName": "Spotify",
+        "merchantWebsite": "https://www.spotify.com/gr",
+        "domain": "spotify.com",
+        "category": "digital",
+        "candidateUrl": "https://www.spotify.com/gr/doroepitage",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:doroepitage"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "PlayStation Greece",
+      "websiteUrl": "https://www.playstation.com/el-gr",
+      "category": "gaming"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Xbox Greece",
+      "websiteUrl": "https://www.xbox.com/el-GR",
+      "category": "gaming"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Nintendo",
+      "websiteUrl": "https://www.nintendo.com",
+      "category": "gaming"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Steam",
+      "websiteUrl": "https://store.steampowered.com",
+      "category": "gaming"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Steam",
+        "merchantWebsite": "https://store.steampowered.com",
+        "domain": "steampowered.com",
+        "category": "gaming",
+        "candidateUrl": "https://store.steampowered.com/digitalgiftcards/selectgiftcard?snr=1_4_4_",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Google Play",
+      "websiteUrl": "https://play.google.com",
+      "category": "digital"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Google Play",
+        "merchantWebsite": "https://play.google.com",
+        "domain": "google.com",
+        "category": "digital",
+        "candidateUrl": "https://play.google.com/about/giftcards",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Apple",
+      "websiteUrl": "https://www.apple.com/gr",
+      "category": "digital"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Apple",
+        "merchantWebsite": "https://www.apple.com/gr",
+        "domain": "apple.com",
+        "category": "digital",
+        "candidateUrl": "https://www.apple.com/shop/gift-cards",
+        "discoveryMethod": "KNOWN_PATH",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Roblox",
+      "websiteUrl": "https://www.roblox.com",
+      "category": "gaming"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/de/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/es/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/fr/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/id/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/it/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/ja/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/ko/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/pl/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/pt/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/th/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      },
+      {
+        "merchantName": "Roblox",
+        "merchantWebsite": "https://www.roblox.com",
+        "domain": "roblox.com",
+        "category": "gaming",
+        "candidateUrl": "https://www.roblox.com/tr/giftcards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:giftcard"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Fortnite",
+      "websiteUrl": "https://www.fortnite.com",
+      "category": "gaming"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Zalando",
+      "websiteUrl": "https://www.zalando.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Zalando",
+        "merchantWebsite": "https://www.zalando.gr",
+        "domain": "zalando.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.zalando.gr/faq/gift-cards-and-vouchers-general-info.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      },
+      {
+        "merchantName": "Zalando",
+        "merchantWebsite": "https://www.zalando.gr",
+        "domain": "zalando.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.zalando.gr/faq/how-to-redeem-a-gift-card.html",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "About You Greece",
+      "websiteUrl": "https://www.aboutyou.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Answear Greece",
+      "websiteUrl": "https://answear.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Answear Greece",
+        "merchantWebsite": "https://answear.gr",
+        "domain": "answear.gr",
+        "category": "fashion",
+        "candidateUrl": "https://answear.gr/gift-cards",
+        "discoveryMethod": "SITEMAP",
+        "score": 20,
+        "reasons": [
+          "gift-token:gift-card"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Modivo Greece",
+      "websiteUrl": "https://modivo.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "epapoutsia",
+      "websiteUrl": "https://epapoutsia.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Lacoste Greece",
+      "websiteUrl": "https://www.lacoste.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Tommy Hilfiger Greece",
+      "websiteUrl": "https://gr.tommy.com",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Calvin Klein Greece",
+      "websiteUrl": "https://www.calvinklein.gr",
+      "category": "fashion"
+    },
+    "skipped": null,
+    "candidates": [
+      {
+        "merchantName": "Calvin Klein Greece",
+        "merchantWebsite": "https://www.calvinklein.gr",
+        "domain": "calvinklein.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.calvinklein.gr/the-gift-edit/gunaika",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:e-gift"
+        ]
+      },
+      {
+        "merchantName": "Calvin Klein Greece",
+        "merchantWebsite": "https://www.calvinklein.gr",
+        "domain": "calvinklein.gr",
+        "category": "fashion",
+        "candidateUrl": "https://www.calvinklein.gr/the-gift-edit/andras",
+        "discoveryMethod": "HOMEPAGE_LINK",
+        "score": 20,
+        "reasons": [
+          "gift-token:e-gift"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": {
+      "merchantName": "Pandora Greece",
+      "websiteUrl": "https://gr.pandora.net",
+      "category": "jewelry"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Swarovski Greece",
+      "websiteUrl": "https://www.swarovski.com/el-GR",
+      "category": "jewelry"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Kessaris",
+      "websiteUrl": "https://www.kessaris.gr",
+      "category": "jewelry"
+    },
+    "skipped": null,
+    "candidates": []
+  },
+  {
+    "seed": {
+      "merchantName": "Links of London Greece",
+      "websiteUrl": "https://www.linksoflondon.gr",
+      "category": "jewelry"
+    },
+    "skipped": null,
+    "candidates": []
+  }
+]

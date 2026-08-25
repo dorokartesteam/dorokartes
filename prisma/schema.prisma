@@ -99,6 +99,55 @@ enum MediaUsageStatus {
   DO_NOT_USE
 }
 
+
+enum VerificationMethod {
+  HTTP
+  PLAYWRIGHT
+  LLM
+  MANUAL
+}
+
+enum VerificationAttemptResult {
+  PASSED
+  FAILED
+  AMBIGUOUS
+  BLOCKED
+  ERROR
+}
+
+enum VerificationPageRole {
+  CANONICAL_PURCHASE
+  CHECKOUT
+  TERMS
+  PROMOTION
+  CONTENT
+  GIFT_GUIDE
+  GAMING_VOUCHER
+  GENERIC
+  UNKNOWN
+}
+
+enum ReviewFlagType {
+  ROLE_CHANGED
+  CANONICAL_URL_CHANGED
+  FETCH_UNSTABLE
+  CONTENT_CHANGED
+}
+
+enum ReviewFlagStatus {
+  OPEN
+  RESOLVED
+  DISMISSED
+}
+
+enum RediscoveryTaskStatus {
+  PENDING
+  RUNNING
+  RESOLVED
+  MANUAL_REVIEW
+  FAILED
+}
+
 /**
  * |--------------------------------------------------------------------------
  * | MERCHANT / BUSINESS
@@ -218,6 +267,8 @@ model GiftCard {
   @@index([verificationStatus])
   @@index([featured])
   @@index([lastVerifiedAt])
+
+  reviewFlags ProductionReviewFlag[]
 }
 
 /**
@@ -511,6 +562,8 @@ model DiscoveryItem {
 
   notes String?
 
+  verificationAttempts DiscoveryVerificationAttempt[]
+
   discoveredAt DateTime  @default(now())
   processedAt  DateTime?
 
@@ -521,6 +574,227 @@ model DiscoveryItem {
   @@index([sourceType])
   @@index([merchantName])
   @@index([discoveredAt])
+
+  fetchObservations VerificationFetchObservation[]
+}
+
+
+/**
+ * |--------------------------------------------------------------------------
+ * | PIPELINE GOVERNANCE / OVERRIDES
+ * |--------------------------------------------------------------------------
+ */
+
+model ManualCanonicalOverride {
+  id String @id @default(cuid())
+
+  merchantDomain String @unique
+
+  forcedUrl          String
+  forcedMerchantName String?
+
+  reason String
+  setBy  String
+
+  active Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active])
+  @@index([merchantDomain])
+}
+
+model ScoringModelVersion {
+  id String @id @default(cuid())
+
+  key         String @unique
+  description String?
+  config      Json
+
+  active Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active])
+}
+
+model CanonicalizationRun {
+  id String @id @default(cuid())
+
+  scoringModelKey String
+  dryRun          Boolean @default(true)
+
+  startedAt  DateTime  @default(now())
+  finishedAt DateTime?
+
+  domainsProcessed Int @default(0)
+  winnersSelected  Int @default(0)
+  overridesApplied Int @default(0)
+  errors           Int @default(0)
+
+  notes String?
+
+  decisions CanonicalizationDecision[]
+
+  @@index([scoringModelKey])
+  @@index([startedAt])
+}
+
+model CanonicalizationDecision {
+  id String @id @default(cuid())
+
+  runId String
+  run   CanonicalizationRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+
+  merchantDomain String
+  candidateUrl   String
+  candidateKind  String
+  score          Int
+
+  selected        Boolean @default(false)
+  overrideApplied Boolean @default(false)
+
+  reasonCodes Json
+  notes       String?
+
+  createdAt DateTime @default(now())
+
+  @@index([runId])
+  @@index([merchantDomain])
+  @@index([selected])
+  @@index([overrideApplied])
+}
+
+/**
+ * |--------------------------------------------------------------------------
+ * | DISCOVERY VERIFICATION ATTEMPTS
+ * |--------------------------------------------------------------------------
+ * |
+ * | Immutable evidence/audit trail for HTTP -> Playwright -> LLM verification.
+ * |--------------------------------------------------------------------------
+ */
+
+model DiscoveryVerificationAttempt {
+  id String @id @default(cuid())
+
+  discoveryItemId String
+  discoveryItem   DiscoveryItem @relation(fields: [discoveryItemId], references: [id], onDelete: Cascade)
+
+  method VerificationMethod
+  result VerificationAttemptResult
+  pageRole VerificationPageRole @default(UNKNOWN)
+
+  requestedUrl String
+  finalUrl     String?
+
+  httpStatus Int?
+
+  confidence Float?
+
+  modelName String?
+  promptVersion String?
+  contentHash String?
+
+  temperature Float?
+
+  inputTokens  Int?
+  outputTokens Int?
+  totalTokens  Int?
+
+  cacheHit Boolean @default(false)
+
+  reasonCodes Json
+  evidence    Json
+
+  errorMessage String?
+
+  checkedAt DateTime @default(now())
+
+  @@index([discoveryItemId])
+  @@index([method])
+  @@index([result])
+  @@index([pageRole])
+  @@index([checkedAt])
+}
+
+
+/**
+ * |--------------------------------------------------------------------------
+ * | MANUAL VERIFICATION OVERRIDES
+ * |--------------------------------------------------------------------------
+ */
+model ManualVerificationOverride {
+  id String @id @default(cuid())
+  sourceUrl String @unique
+  forcedStatus DiscoveryStatus
+  forcedPageRole VerificationPageRole
+  forcedMerchantName String?
+  reason String
+  setBy String
+  contentHash String?
+  lockUntilContentChanges Boolean @default(true)
+  active Boolean @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active])
+  @@index([forcedStatus])
+}
+
+model DomainRediscoveryTask {
+  id String @id @default(cuid())
+  merchantDomain String
+  merchantName String?
+  triggerUrl String
+  triggerReason String
+  status RediscoveryTaskStatus @default(PENDING)
+  attempts Int @default(0)
+  lastAttemptAt DateTime?
+  resolvedUrl String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([merchantDomain])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model VerificationFetchObservation {
+  id String @id @default(cuid())
+
+  discoveryItemId String
+  discoveryItem DiscoveryItem @relation(fields: [discoveryItemId], references: [id], onDelete: Cascade)
+
+  preflightKind String
+  contentHash String?
+  httpStatus Int?
+  fetchTier String?
+  observedAt DateTime @default(now())
+
+  @@index([discoveryItemId, observedAt])
+  @@index([preflightKind])
+}
+
+model ProductionReviewFlag {
+  id String @id @default(cuid())
+
+  giftCardId String
+  giftCard GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+
+  type ReviewFlagType
+  status ReviewFlagStatus @default(OPEN)
+
+  oldValue String?
+  newValue String?
+  reason String
+
+  createdAt DateTime @default(now())
+  resolvedAt DateTime?
+
+  @@index([giftCardId, status])
+  @@index([type, status])
 }
 
 /**

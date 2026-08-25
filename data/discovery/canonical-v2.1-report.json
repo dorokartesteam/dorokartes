@@ -1,0 +1,1498 @@
+[
+  {
+    "domain": "aegeanair.com",
+    "merchant": "AEGEAN",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvag0005l0iyjxpt1xdz",
+      "url": "https://el.aegeanair.com/flight-deals/gift-card",
+      "score": 110,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvag0005l0iyjxpt1xdz",
+        "url": "https://el.aegeanair.com/flight-deals/gift-card",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "atticadps.gr",
+    "merchant": "attica E",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt7168w00015cgiyhub0ug7d",
+      "url": "https://atticadps.gr/gift-card",
+      "score": 110,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt7168w00015cgiyhub0ug7d",
+        "url": "https://atticadps.gr/gift-card",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt71fv6b0003l0iy338t6xo8",
+        "url": "https://atticadps.gr/attica-dwrokarta",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt7169450019cgiy6urpivbf",
+        "url": "https://www.atticadps.gr/attica-egift-card-landing-page/",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt71698b001bcgiyrlg3b7xg",
+        "url": "https://www.atticadps.gr/en/attica-dwrokarta/",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168y30016cgiysfnqy64w",
+        "url": "https://www.atticadps.gr/attica-dwrokarta/",
+        "score": 60,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt71691x0018cgiy8u0d4gpb",
+        "url": "https://www.atticadps.gr/attica-egift-card-checkout/",
+        "score": 30,
+        "kind": "CHECKOUT",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+10 checkout",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt7169sy001lcgiyj1bnnw0y",
+        "url": "https://atticadps.gr/attica-egift-card-checkout/",
+        "score": 30,
+        "kind": "CHECKOUT",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+10 checkout",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt7169020017cgiy6wblzgpc",
+        "url": "https://www.atticadps.gr/oroi-hrisis-attica-e-gift-card/",
+        "score": 30,
+        "kind": "TERMS",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-40 terms",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt71696g001acgiy7aqy1n7e",
+        "url": "https://www.atticadps.gr/carolina-herrera-holiday-gifts/",
+        "score": -30,
+        "kind": "PROMO",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-80 promo"
+        ]
+      },
+      {
+        "id": "cmt7168tt0014cgiyay4stpcc",
+        "url": "https://atticadps.gr",
+        "score": -35,
+        "kind": "HOMEPAGE",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-20 homepage",
+          "-20 homepage-like title",
+          "-45 redirected/resolved to homepage"
+        ]
+      },
+      {
+        "id": "cmt7169gn001fcgiyyxh5xvc0",
+        "url": "https://www.atticadps.gr/events/personalizeyour-gift/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169mt001icgiyx5q81uu0",
+        "url": "https://www.atticadps.gr/events/personalize-your-gift/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169p7001jcgiy1cgmgh2o",
+        "url": "https://www.atticadps.gr/events/special-gifts-by-boss/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169eo001ecgiymsmf9d6j",
+        "url": "https://www.atticadps.gr/events/neo-valmont-corner-gifts/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169ac001ccgiy3k2cc0vd",
+        "url": "https://www.atticadps.gr/events/happy-socks-gift-packaging/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169km001hcgiylvojfkmi",
+        "url": "https://www.atticadps.gr/events/carolina-herrera-engraving-gift-wrapping/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169r3001kcgiyrz6u5q9k",
+        "url": "https://www.atticadps.gr/events/unique-gifts-by-maison-francis-kurkdjian/",
+        "score": -70,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content"
+        ]
+      },
+      {
+        "id": "cmt7169in001gcgiyer58y93b",
+        "url": "https://www.atticadps.gr/events/attica-xmas-gift-shop-pop-up/",
+        "score": -80,
+        "kind": "PROMO",
+        "status": "REJECTED",
+        "reasons": [
+          "-80 promo"
+        ]
+      },
+      {
+        "id": "cmt7169ch001dcgiyoqatzrue",
+        "url": "https://www.atticadps.gr/events/xmas-at-attica-personalizeyour-gift/",
+        "score": -80,
+        "kind": "PROMO",
+        "status": "REJECTED",
+        "reasons": [
+          "-80 promo"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "cosmossport.gr",
+    "merchant": "Cosmos Sport",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvyh000hl0iyf7hkh2ns",
+      "url": "https://cosmossport.gr/el/304016-dorokarta-cosmossport.html",
+      "score": 122,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title",
+        "+12 Greek locale"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvyh000hl0iyf7hkh2ns",
+        "url": "https://cosmossport.gr/el/304016-dorokarta-cosmossport.html",
+        "score": 122,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title",
+          "+12 Greek locale"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "e-tennis.gr",
+    "merchant": "e-tennis",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvp2000cl0iy183i4whb",
+      "url": "https://e-tennis.gr/axesouar/personal-accessories/gift-cards.html",
+      "score": 90,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvp2000cl0iy183i4whb",
+        "url": "https://e-tennis.gr/axesouar/personal-accessories/gift-cards.html",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "germanos.gr",
+    "merchant": "germanos.gr",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt7168pm0012cgiy6dpni9iq",
+      "url": "https://www.germanos.gr/product/germanos-e-gift-card/?productId=29905080",
+      "score": 58,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+40 canonical URL",
+        "+18 concrete gift-card product"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt7168pm0012cgiy6dpni9iq",
+        "url": "https://www.germanos.gr/product/germanos-e-gift-card/?productId=29905080",
+        "score": 58,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "+18 concrete gift-card product"
+        ]
+      },
+      {
+        "id": "cmt7168bi000vcgiyap2wvmoq",
+        "url": "https://germanos.gr/gift-card",
+        "score": 55,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168dd000wcgiyxw5r626u",
+        "url": "https://germanos.gr/giftcard",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168ja000zcgiyltgdlmnz",
+        "url": "https://germanos.gr/dwrokarta",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168la0010cgiyearlvw3s",
+        "url": "https://germanos.gr/dorokarta",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168fb000xcgiycewpaxrk",
+        "url": "https://germanos.gr/gift-cards",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168ng0011cgiyaqwxir1c",
+        "url": "https://germanos.gr/doroepitagi",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt7168h9000ycgiysa9y71t5",
+        "url": "https://germanos.gr/voucher",
+        "score": 0,
+        "kind": "OTHER",
+        "status": "DUPLICATE",
+        "reasons": []
+      },
+      {
+        "id": "cmt7168rp0013cgiymgfap7ky",
+        "url": "https://www.germanos.gr/product/asurmato-xeiristirio-sony-dualsense-ps5-leuko-ea-sports-fc-24-kodikos-voucher/?productId=20426557",
+        "score": 0,
+        "kind": "OTHER",
+        "status": "DUPLICATE",
+        "reasons": []
+      }
+    ]
+  },
+  {
+    "domain": "homemarkt.gr",
+    "merchant": "HomeMarkt",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvl0000al0iyol9vn4dd",
+      "url": "https://homemarkt.gr/el/consents/dorokarta-",
+      "score": 87,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+15 QUEUED",
+        "+40 canonical URL",
+        "+20 strong title",
+        "+12 Greek locale"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvl0000al0iyol9vn4dd",
+        "url": "https://homemarkt.gr/el/consents/dorokarta-",
+        "score": 87,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL",
+          "+20 strong title",
+          "+12 Greek locale"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "hondoscenter.com",
+    "merchant": "Hondos Center",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvwk000gl0iy0xc90lei",
+      "url": "https://hondoscenter.com/el/gift-card.html",
+      "score": 67,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+15 QUEUED",
+        "+40 canonical URL",
+        "+12 Greek locale"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvwk000gl0iy0xc90lei",
+        "url": "https://hondoscenter.com/el/gift-card.html",
+        "score": 67,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL",
+          "+12 Greek locale"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "ikea.gr",
+    "merchant": "IKEA",
+    "decision": "MANUAL_REVIEW",
+    "rows": [
+      {
+        "id": "cmt71fw2g000jl0iyj3smgyza",
+        "sourceName": "IKEA",
+        "sourceUrl": "https://ikea.gr/files/Services/en/IKEA_Gift_Card_-_Terms_and_Conditions.pdf",
+        "merchantName": "IKEA",
+        "title": "IKEA Gift Card",
+        "status": "REJECTED",
+        "notes": "Exact official URL verifier error: TypeError: fetch failed. Manual/browser review required. | Canonicalizer: rejected group; no strong canonical candidate.",
+        "discoveredAt": "2026-08-24T09:33:02.104Z",
+        "domain": "ikea.gr",
+        "kind": "TERMS",
+        "score": -20,
+        "reasons": [
+          "-40 terms",
+          "+20 strong title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "kulina.gr",
+    "merchant": "Kulina",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvuo000fl0iygua30wtv",
+      "url": "https://kulina.gr/gift-vouchers",
+      "score": 90,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvuo000fl0iygua30wtv",
+        "url": "https://kulina.gr/gift-vouchers",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "lentiamo.gr",
+    "merchant": "Lentiamo",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvn8000bl0iykv89kn1t",
+      "url": "https://lentiamo.gr/doroepitage.html",
+      "score": 110,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvn8000bl0iykv89kn1t",
+        "url": "https://lentiamo.gr/doroepitage.html",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "notino.gr",
+    "merchant": "Notino",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fveh0007l0iy8i6elgk6",
+      "url": "https://notino.gr/doroepitagi",
+      "score": 75,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+15 QUEUED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fveh0007l0iy8i6elgk6",
+        "url": "https://notino.gr/doroepitagi",
+        "score": 75,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "pharm24.gr",
+    "merchant": "Pharm24",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fviw0009l0iy5m83etn5",
+      "url": "https://pharm24.gr/dwrokarta-pharm24-p-27732.html",
+      "score": 110,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fviw0009l0iy5m83etn5",
+        "url": "https://pharm24.gr/dwrokarta-pharm24-p-27732.html",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "plaisio.gr",
+    "merchant": "Plaisio",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fv870004l0iygiuotj9h",
+      "url": "https://plaisio.gr/help/purchaseinformation/paymentmethods/plaisiogiftcard",
+      "score": 110,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fv870004l0iygiuotj9h",
+        "url": "https://plaisio.gr/help/purchaseinformation/paymentmethods/plaisiogiftcard",
+        "score": 110,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt71684i000scgiy8z40crjv",
+        "url": "https://www.plaisio.gr/help/generalinformation/legalframework/marketingandcontestterms/2026/siskeves-plisis-doro-sistima-sideromatos-singer-2408",
+        "score": 10,
+        "kind": "TERMS",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-40 terms"
+        ]
+      },
+      {
+        "id": "cmt716871000tcgiy47sdulve",
+        "url": "https://plaisio.gr/collection/20260824-tvs-doroepitagi",
+        "score": -10,
+        "kind": "PROMO",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-80 promo",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt716894000ucgiyz4off8bl",
+        "url": "https://plaisio.gr/collection/20260819-siskeves-kouzinas-doroepitagi",
+        "score": -10,
+        "kind": "PROMO",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-80 promo",
+          "+20 strong title"
+        ]
+      },
+      {
+        "id": "cmt71682j000rcgiyp2kg6qhj",
+        "url": "https://plaisio.gr",
+        "score": -65,
+        "kind": "HOMEPAGE",
+        "status": "REJECTED",
+        "reasons": [
+          "-20 homepage",
+          "-45 redirected/resolved to homepage"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "prenatal.gr",
+    "merchant": "Gift Card",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt7169x0001ncgiyow1ybmuu",
+      "url": "https://prenatal.gr/gift-card",
+      "score": 90,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+20 strong title",
+        "-20 homepage-like title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt7169x0001ncgiyow1ybmuu",
+        "url": "https://prenatal.gr/gift-card",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71fvst000el0iyatowb8my",
+        "url": "https://prenatal.gr/gift-card",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+20 strong title",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7169z3001ocgiyfs9dinn0",
+        "url": "https://prenatal.gr/gift-card-prenatal/",
+        "score": 70,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt716a78001scgiycbgq6mc1",
+        "url": "https://prenatal.gr/gift-card-2/",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "+20 strong title",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt716a95001tcgiyz1s1kg26",
+        "url": "https://prenatal.gr/product-category/gift-card/",
+        "score": 40,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "+20 strong title",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7169ux001mcgiyqoh3jsrh",
+        "url": "https://prenatal.gr",
+        "score": -35,
+        "kind": "HOMEPAGE",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-20 homepage",
+          "-20 homepage-like title",
+          "-45 redirected/resolved to homepage"
+        ]
+      },
+      {
+        "id": "cmt716a11001pcgiyj6fhj85u",
+        "url": "https://prenatal.gr/gift-finder/",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt716a59001rcgiy670a3iza",
+        "url": "https://prenatal.gr/spring-gifts-%ce%bc%ce%b5-%cf%84%ce%b7-mam/",
+        "score": -100,
+        "kind": "PROMO",
+        "status": "REJECTED",
+        "reasons": [
+          "-80 promo",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt716a3d001qcgiy4nr75a8z",
+        "url": "https://prenatal.gr/spring-gifts-%ce%bc%ce%b5-%cf%84%ce%b7%ce%bd-avent/",
+        "score": -100,
+        "kind": "PROMO",
+        "status": "REJECTED",
+        "reasons": [
+          "-80 promo",
+          "-20 homepage-like title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "public.gr",
+    "merchant": "Public",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fuo40000l0iykwuquswa",
+      "url": "https://public.gr/send-gift-card",
+      "score": 53,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+15 QUEUED",
+        "+40 canonical URL",
+        "+18 explicit send-gift-card landing",
+        "-20 homepage-like title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fuo40000l0iykwuquswa",
+        "url": "https://public.gr/send-gift-card",
+        "score": 53,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL",
+          "+18 explicit send-gift-card landing",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7165rq0001cgiyp9ukc3id",
+        "url": "https://public.gr/gift-card",
+        "score": 35,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7166o50002cgiyj4en6zky",
+        "url": "https://public.gr/giftcard",
+        "score": 20,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7166uh0005cgiyk6wl6icv",
+        "url": "https://public.gr/dwrokarta",
+        "score": 20,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7166wm0006cgiy19ktb99w",
+        "url": "https://public.gr/dorokarta",
+        "score": 20,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7166q90003cgiym3ggik0d",
+        "url": "https://public.gr/gift-cards",
+        "score": 20,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7166yk0007cgiybehwr5s7",
+        "url": "https://public.gr/doroepitagi",
+        "score": 20,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7166se0004cgiy4emf4jmv",
+        "url": "https://public.gr/voucher",
+        "score": -20,
+        "kind": "OTHER",
+        "status": "DUPLICATE",
+        "reasons": [
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167qf000lcgiy4vajh9v1",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/ksustra-roarr/1436337",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71672k0009cgiykmijdk27",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/mini-kopidi-legami-karoto/1573736",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167ey000fcgiylxnmyyem",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/poluergaleio-legami-7-se-1/1209114",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71678s000ccgiydxaflm7f",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/usb-sfurixtra-legami-kokkino/1336506",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71674n000acgiy28vhrjhq",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/mprelok-legami-no-touch-clean/1573727",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167we000ocgiy3cezj3cp",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/roloi-kouzinas-legami-avocado/1492279",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167sh000mcgiy1cqn0648",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/back-scratcher-legami-mr-tickle/1436333",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167ix000hcgiykhs0iyr9",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/panaki-katharismou-othonis-legami/1209267",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167h1000gcgiyxrms657j",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/simeiomatario-legami-password-book/1209113",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167kr000icgiyejss1qkx",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/pagosakoula-legami-feel-better-map/1293519",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167oh000kcgiy4qmnwc9o",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/legami-mousepad--follow-your-dreams/1209104",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167mt000jcgiyfhtragrf",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/legami-milano-travel-mouse-pad-210mm/1293685",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71670j0008cgiyls1afq58",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/retro-mini-konsola-legami-arcade-mini/1573735",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167ug000ncgiya75uqzki",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/retro-mini-konsola-legami-arcade-zone/1624809",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167ap000dcgiykl62dhr4",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/usb-skoupaki-gia-pliktrologio-legami-mple/1293579",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167yd000pcgiyq2gunnxx",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/thermantiki-basi-legami-usb-mug-warmer--cookie/1293682",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71680i000qcgiytelkkvej",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/legami-cute-pcs0004-kasetina-silikonis-prasino/1436336",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt71676r000bcgiy6m24utdw",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/forito-ixeio-legami-milano-singing-in-the-shower--poluxromo/1608865",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      },
+      {
+        "id": "cmt7167cq000ecgiy0v1bouqz",
+        "url": "https://www.public.gr/product/dora/lifestyle-accessories/gift-gadgets/legami-stationary-set0001-mini-set-grafikis-ulis-enjoy-the-little-things/1293577",
+        "score": -90,
+        "kind": "CONTENT",
+        "status": "REJECTED",
+        "reasons": [
+          "-70 content",
+          "-20 homepage-like title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "rundome.gr",
+    "merchant": "Rundome",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvqx000dl0iyl6sr5ny7",
+      "url": "https://rundome.gr/el/content/239-giftcards-rundome",
+      "score": 102,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+12 Greek locale"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvqx000dl0iyl6sr5ny7",
+        "url": "https://rundome.gr/el/content/239-giftcards-rundome",
+        "score": 102,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+12 Greek locale"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "sephora.gr",
+    "merchant": "Sephora",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fv4d0002l0iyelnh7duc",
+      "url": "https://sephora.gr/Gift-Card.html",
+      "score": 75,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+15 QUEUED",
+        "+40 canonical URL",
+        "+20 strong title"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fv4d0002l0iyelnh7duc",
+        "url": "https://sephora.gr/Gift-Card.html",
+        "score": 75,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL",
+          "+20 strong title"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "skyexpress.gr",
+    "merchant": "Αεροπορικά Εισιτήρια",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt716ab9001ucgiyf4mabv9a",
+      "url": "https://www.skyexpress.gr/en/book/sky-gift",
+      "score": 90,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt716ab9001ucgiyf4mabv9a",
+        "url": "https://www.skyexpress.gr/en/book/sky-gift",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt716ahg001xcgiym11dm48r",
+        "url": "https://www.skyexpress.gr/fr/book/sky-gift",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt716an70020cgiy24tmv9hp",
+        "url": "https://www.skyexpress.gr/el/book/sky-gift/buy-now",
+        "score": 72,
+        "kind": "CHECKOUT",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+10 checkout",
+          "+12 Greek locale"
+        ]
+      },
+      {
+        "id": "cmt71fvck0006l0iyj54uj8bt",
+        "url": "https://skyexpress.gr/el/book/sky-gift/buy-now",
+        "score": 72,
+        "kind": "CHECKOUT",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+10 checkout",
+          "+12 Greek locale"
+        ]
+      },
+      {
+        "id": "cmt716alb001zcgiyb27e7k3u",
+        "url": "https://www.skyexpress.gr/en/book/sky-gift/buy-now",
+        "score": 60,
+        "kind": "CHECKOUT",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+10 checkout"
+        ]
+      },
+      {
+        "id": "cmt716at40023cgiysmfilenm",
+        "url": "https://www.skyexpress.gr/it/book/sky-gift/buy-now",
+        "score": 60,
+        "kind": "CHECKOUT",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+10 checkout"
+        ]
+      },
+      {
+        "id": "cmt716afc001wcgiyz9yyayj9",
+        "url": "https://www.skyexpress.gr/de/book/sky-gift",
+        "score": 55,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt716ajh001ycgiyf5qh6ir6",
+        "url": "https://www.skyexpress.gr/it/book/sky-gift",
+        "score": 55,
+        "kind": "CANONICAL",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+40 canonical URL"
+        ]
+      },
+      {
+        "id": "cmt716ade001vcgiye6xugf4v",
+        "url": "https://www.skyexpress.gr/el/book/sky-gift",
+        "score": 52,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "+12 Greek locale"
+        ]
+      },
+      {
+        "id": "cmt716b5l0029cgiydl46s1ed",
+        "url": "https://skyexpress.gr/el/book/sky-gift",
+        "score": 52,
+        "kind": "CANONICAL",
+        "status": "DUPLICATE",
+        "reasons": [
+          "+40 canonical URL",
+          "+12 Greek locale"
+        ]
+      },
+      {
+        "id": "cmt716ap20021cgiywxn4qulg",
+        "url": "https://www.skyexpress.gr/de/book/sky-gift/buy-now",
+        "score": 25,
+        "kind": "CHECKOUT",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+10 checkout"
+        ]
+      },
+      {
+        "id": "cmt716ar90022cgiybki4nl8i",
+        "url": "https://www.skyexpress.gr/fr/book/sky-gift/buy-now",
+        "score": 25,
+        "kind": "CHECKOUT",
+        "status": "QUEUED",
+        "reasons": [
+          "+15 QUEUED",
+          "+10 checkout"
+        ]
+      },
+      {
+        "id": "cmt716auz0024cgiyin9qf45c",
+        "url": "https://www.skyexpress.gr/el/articles/sky-gift-terms",
+        "score": 22,
+        "kind": "TERMS",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-40 terms",
+          "+12 Greek locale"
+        ]
+      },
+      {
+        "id": "cmt716awx0025cgiyysszhmtm",
+        "url": "https://www.skyexpress.gr/en/articles/sky-gift-terms",
+        "score": 10,
+        "kind": "TERMS",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "-40 terms"
+        ]
+      },
+      {
+        "id": "cmt716ayz0026cgiysonl79ek",
+        "url": "https://www.skyexpress.gr/it/articles/sky-gift-terms",
+        "score": -40,
+        "kind": "TERMS",
+        "status": "REJECTED",
+        "reasons": [
+          "-40 terms"
+        ]
+      },
+      {
+        "id": "cmt716b1b0027cgiyihh13837",
+        "url": "https://www.skyexpress.gr/fr/articles/sky-gift-terms",
+        "score": -40,
+        "kind": "TERMS",
+        "status": "REJECTED",
+        "reasons": [
+          "-40 terms"
+        ]
+      },
+      {
+        "id": "cmt716b3g0028cgiypdn9ptsz",
+        "url": "https://www.skyexpress.gr/de/articles/sky-gift-terms",
+        "score": -40,
+        "kind": "TERMS",
+        "status": "REJECTED",
+        "reasons": [
+          "-40 terms"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "sneaker10.gr",
+    "merchant": "Sneaker10",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fw0d000il0iyhhvej0lr",
+      "url": "https://sneaker10.gr/el/304016-dorokarta-sneaker10.html",
+      "score": 102,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+12 Greek locale"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fw0d000il0iyhhvej0lr",
+        "url": "https://sneaker10.gr/el/304016-dorokarta-sneaker10.html",
+        "score": 102,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+12 Greek locale"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "thebodyshop.gr",
+    "merchant": "The Body Shop",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fvgq0008l0iytg9ildwy",
+      "url": "https://thebodyshop.gr/gift-cards",
+      "score": 90,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fvgq0008l0iytg9ildwy",
+        "url": "https://thebodyshop.gr/gift-cards",
+        "score": 90,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "wolt.com",
+    "merchant": "Wolt",
+    "decision": "CANONICAL_SELECTED",
+    "canonical": {
+      "id": "cmt71fv2e0001l0iy70fef553",
+      "url": "https://life.wolt.com/el/grc/howto/wolt-gift-card",
+      "score": 102,
+      "kind": "CANONICAL",
+      "reasons": [
+        "+50 VERIFIED",
+        "+40 canonical URL",
+        "+12 Greek locale"
+      ]
+    },
+    "rows": [
+      {
+        "id": "cmt71fv2e0001l0iy70fef553",
+        "url": "https://life.wolt.com/el/grc/howto/wolt-gift-card",
+        "score": 102,
+        "kind": "CANONICAL",
+        "status": "VERIFIED",
+        "reasons": [
+          "+50 VERIFIED",
+          "+40 canonical URL",
+          "+12 Greek locale"
+        ]
+      }
+    ]
+  }
+]

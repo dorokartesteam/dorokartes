@@ -102,6 +102,54 @@ export type SourceRecord = Prisma.SourceRecordModel
  */
 export type DiscoveryItem = Prisma.DiscoveryItemModel
 /**
+ * Model ManualCanonicalOverride
+ * 
+ */
+export type ManualCanonicalOverride = Prisma.ManualCanonicalOverrideModel
+/**
+ * Model ScoringModelVersion
+ * 
+ */
+export type ScoringModelVersion = Prisma.ScoringModelVersionModel
+/**
+ * Model CanonicalizationRun
+ * 
+ */
+export type CanonicalizationRun = Prisma.CanonicalizationRunModel
+/**
+ * Model CanonicalizationDecision
+ * 
+ */
+export type CanonicalizationDecision = Prisma.CanonicalizationDecisionModel
+/**
+ * Model DiscoveryVerificationAttempt
+ * 
+ */
+export type DiscoveryVerificationAttempt = Prisma.DiscoveryVerificationAttemptModel
+/**
+ * Model ManualVerificationOverride
+ * *
+ *  * |--------------------------------------------------------------------------
+ *  * | MANUAL VERIFICATION OVERRIDES
+ *  * |--------------------------------------------------------------------------
+ */
+export type ManualVerificationOverride = Prisma.ManualVerificationOverrideModel
+/**
+ * Model DomainRediscoveryTask
+ * 
+ */
+export type DomainRediscoveryTask = Prisma.DomainRediscoveryTaskModel
+/**
+ * Model VerificationFetchObservation
+ * 
+ */
+export type VerificationFetchObservation = Prisma.VerificationFetchObservationModel
+/**
+ * Model ProductionReviewFlag
+ * 
+ */
+export type ProductionReviewFlag = Prisma.ProductionReviewFlagModel
+/**
  * Model VerificationEvent
  * 
  */

@@ -63,6 +63,15 @@ export const ModelName = {
   GiftCardOccasion: 'GiftCardOccasion',
   SourceRecord: 'SourceRecord',
   DiscoveryItem: 'DiscoveryItem',
+  ManualCanonicalOverride: 'ManualCanonicalOverride',
+  ScoringModelVersion: 'ScoringModelVersion',
+  CanonicalizationRun: 'CanonicalizationRun',
+  CanonicalizationDecision: 'CanonicalizationDecision',
+  DiscoveryVerificationAttempt: 'DiscoveryVerificationAttempt',
+  ManualVerificationOverride: 'ManualVerificationOverride',
+  DomainRediscoveryTask: 'DomainRediscoveryTask',
+  VerificationFetchObservation: 'VerificationFetchObservation',
+  ProductionReviewFlag: 'ProductionReviewFlag',
   VerificationEvent: 'VerificationEvent',
   MediaAsset: 'MediaAsset',
   OutboundClick: 'OutboundClick',
@@ -275,6 +284,157 @@ export const DiscoveryItemScalarFieldEnum = {
 export type DiscoveryItemScalarFieldEnum = (typeof DiscoveryItemScalarFieldEnum)[keyof typeof DiscoveryItemScalarFieldEnum]
 
 
+export const ManualCanonicalOverrideScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  forcedUrl: 'forcedUrl',
+  forcedMerchantName: 'forcedMerchantName',
+  reason: 'reason',
+  setBy: 'setBy',
+  active: 'active',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type ManualCanonicalOverrideScalarFieldEnum = (typeof ManualCanonicalOverrideScalarFieldEnum)[keyof typeof ManualCanonicalOverrideScalarFieldEnum]
+
+
+export const ScoringModelVersionScalarFieldEnum = {
+  id: 'id',
+  key: 'key',
+  description: 'description',
+  config: 'config',
+  active: 'active',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type ScoringModelVersionScalarFieldEnum = (typeof ScoringModelVersionScalarFieldEnum)[keyof typeof ScoringModelVersionScalarFieldEnum]
+
+
+export const CanonicalizationRunScalarFieldEnum = {
+  id: 'id',
+  scoringModelKey: 'scoringModelKey',
+  dryRun: 'dryRun',
+  startedAt: 'startedAt',
+  finishedAt: 'finishedAt',
+  domainsProcessed: 'domainsProcessed',
+  winnersSelected: 'winnersSelected',
+  overridesApplied: 'overridesApplied',
+  errors: 'errors',
+  notes: 'notes'
+} as const
+
+export type CanonicalizationRunScalarFieldEnum = (typeof CanonicalizationRunScalarFieldEnum)[keyof typeof CanonicalizationRunScalarFieldEnum]
+
+
+export const CanonicalizationDecisionScalarFieldEnum = {
+  id: 'id',
+  runId: 'runId',
+  merchantDomain: 'merchantDomain',
+  candidateUrl: 'candidateUrl',
+  candidateKind: 'candidateKind',
+  score: 'score',
+  selected: 'selected',
+  overrideApplied: 'overrideApplied',
+  reasonCodes: 'reasonCodes',
+  notes: 'notes',
+  createdAt: 'createdAt'
+} as const
+
+export type CanonicalizationDecisionScalarFieldEnum = (typeof CanonicalizationDecisionScalarFieldEnum)[keyof typeof CanonicalizationDecisionScalarFieldEnum]
+
+
+export const DiscoveryVerificationAttemptScalarFieldEnum = {
+  id: 'id',
+  discoveryItemId: 'discoveryItemId',
+  method: 'method',
+  result: 'result',
+  pageRole: 'pageRole',
+  requestedUrl: 'requestedUrl',
+  finalUrl: 'finalUrl',
+  httpStatus: 'httpStatus',
+  confidence: 'confidence',
+  modelName: 'modelName',
+  promptVersion: 'promptVersion',
+  contentHash: 'contentHash',
+  temperature: 'temperature',
+  inputTokens: 'inputTokens',
+  outputTokens: 'outputTokens',
+  totalTokens: 'totalTokens',
+  cacheHit: 'cacheHit',
+  reasonCodes: 'reasonCodes',
+  evidence: 'evidence',
+  errorMessage: 'errorMessage',
+  checkedAt: 'checkedAt'
+} as const
+
+export type DiscoveryVerificationAttemptScalarFieldEnum = (typeof DiscoveryVerificationAttemptScalarFieldEnum)[keyof typeof DiscoveryVerificationAttemptScalarFieldEnum]
+
+
+export const ManualVerificationOverrideScalarFieldEnum = {
+  id: 'id',
+  sourceUrl: 'sourceUrl',
+  forcedStatus: 'forcedStatus',
+  forcedPageRole: 'forcedPageRole',
+  forcedMerchantName: 'forcedMerchantName',
+  reason: 'reason',
+  setBy: 'setBy',
+  contentHash: 'contentHash',
+  lockUntilContentChanges: 'lockUntilContentChanges',
+  active: 'active',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type ManualVerificationOverrideScalarFieldEnum = (typeof ManualVerificationOverrideScalarFieldEnum)[keyof typeof ManualVerificationOverrideScalarFieldEnum]
+
+
+export const DomainRediscoveryTaskScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  merchantName: 'merchantName',
+  triggerUrl: 'triggerUrl',
+  triggerReason: 'triggerReason',
+  status: 'status',
+  attempts: 'attempts',
+  lastAttemptAt: 'lastAttemptAt',
+  resolvedUrl: 'resolvedUrl',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type DomainRediscoveryTaskScalarFieldEnum = (typeof DomainRediscoveryTaskScalarFieldEnum)[keyof typeof DomainRediscoveryTaskScalarFieldEnum]
+
+
+export const VerificationFetchObservationScalarFieldEnum = {
+  id: 'id',
+  discoveryItemId: 'discoveryItemId',
+  preflightKind: 'preflightKind',
+  contentHash: 'contentHash',
+  httpStatus: 'httpStatus',
+  fetchTier: 'fetchTier',
+  observedAt: 'observedAt'
+} as const
+
+export type VerificationFetchObservationScalarFieldEnum = (typeof VerificationFetchObservationScalarFieldEnum)[keyof typeof VerificationFetchObservationScalarFieldEnum]
+
+
+export const ProductionReviewFlagScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  type: 'type',
+  status: 'status',
+  oldValue: 'oldValue',
+  newValue: 'newValue',
+  reason: 'reason',
+  createdAt: 'createdAt',
+  resolvedAt: 'resolvedAt'
+} as const
+
+export type ProductionReviewFlagScalarFieldEnum = (typeof ProductionReviewFlagScalarFieldEnum)[keyof typeof ProductionReviewFlagScalarFieldEnum]
+
+
 export const VerificationEventScalarFieldEnum = {
   id: 'id',
   giftCardId: 'giftCardId',
@@ -374,6 +534,13 @@ export const SortOrder = {
 export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
 
 
+export const JsonNullValueInput = {
+  JsonNull: JsonNull
+} as const
+
+export type JsonNullValueInput = (typeof JsonNullValueInput)[keyof typeof JsonNullValueInput]
+
+
 export const QueryMode = {
   default: 'default',
   insensitive: 'insensitive'
@@ -388,4 +555,13 @@ export const NullsOrder = {
 } as const
 
 export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
+
+
+export const JsonNullValueFilter = {
+  DbNull: DbNull,
+  JsonNull: JsonNull,
+  AnyNull: AnyNull
+} as const
+
+export type JsonNullValueFilter = (typeof JsonNullValueFilter)[keyof typeof JsonNullValueFilter]
 

@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dorokartes Manual Override + Superseded Trigger Fix
 
-## Getting Started
+The latest run exposed two real bugs.
 
-First, run the development server:
+## Bug 1 — manual overrides were checked too late
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Sephora and Hondos had valid `ManualVerificationOverride` rows, but the verifier ran
+fetch/preflight first. Because those pages are BLOCKED / ACCESS_DENIED, execution
+continued before the manual override lookup.
+
+Fix:
+
+- `lockUntilContentChanges=false` manual overrides now run BEFORE any fetch/preflight.
+- This means source-backed manual verification of blocked official pages consumes:
+  - 0 Playwright calls
+  - 0 LLM calls
+
+Hash-bound manual overrides (`lockUntilContentChanges=true`) still run later because
+they need current page content to compare the hash.
+
+## Bug 2 — old rediscovery trigger URLs came back after task resolution
+
+Germanos old dead product URL and HomeMarkt TERMS URL re-entered the verifier because
+their rediscovery tasks became RESOLVED, and the existing skip logic only skipped open tasks.
+
+Fix:
+
+- all rediscovery trigger URLs remain skipped even after the task becomes RESOLVED.
+- a superseded/dead trigger URL never re-enters normal verification.
+
+## Install
+
+Copy over `D:\dorokartes`, then run:
+
+```powershell
+node scripts/pipeline/patch-manual-override-superseded.mjs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+No migration. No Prisma generate.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Apply the existing manual overrides
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Now run:
 
-## Learn More
+```powershell
+npm run pipeline:verify -- --apply
+```
 
-To learn more about Next.js, take a look at the following resources:
+Expected current behavior:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+Sephora
+  -> VERIFIED UNCONDITIONAL_MANUAL_LOCK role=CHECKOUT
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Hondos Center
+  -> VERIFIED UNCONDITIONAL_MANUAL_LOCK role=CANONICAL_PURCHASE
 
-## Deploy on Vercel
+NEW LLM calls: 0
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The old Germanos/HomeMarkt trigger URLs should no longer appear.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Then:
+
+```powershell
+npm run pipeline:rediscovery-reconcile
+```
+
+Expected:
+
+```text
+[RESOLVABLE] Sephora
+[RESOLVABLE] Hondos Center
+```
+
+Then:
+
+```powershell
+npm run pipeline:rediscovery-reconcile -- --apply
+npm run pipeline:rediscovery-summary
+```
+
+Target:
+
+```text
+Open rediscovery tasks: 0
+```
