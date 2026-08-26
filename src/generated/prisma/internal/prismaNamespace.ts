@@ -418,12 +418,14 @@ export const ModelName = {
   DomainRediscoveryTask: 'DomainRediscoveryTask',
   VerificationFetchObservation: 'VerificationFetchObservation',
   ProductionReviewFlag: 'ProductionReviewFlag',
+  ProductionVerificationSnapshot: 'ProductionVerificationSnapshot',
   VerificationEvent: 'VerificationEvent',
   MediaAsset: 'MediaAsset',
   OutboundClick: 'OutboundClick',
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
-  SearchEvent: 'SearchEvent'
+  SearchEvent: 'SearchEvent',
+  MerchantDiscoveryScan: 'MerchantDiscoveryScan'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -439,7 +441,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "merchant" | "giftCard" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent"
+    modelProps: "merchant" | "giftCard" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -1997,6 +1999,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    ProductionVerificationSnapshot: {
+      payload: Prisma.$ProductionVerificationSnapshotPayload<ExtArgs>
+      fields: Prisma.ProductionVerificationSnapshotFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.ProductionVerificationSnapshotFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.ProductionVerificationSnapshotFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>
+        }
+        findFirst: {
+          args: Prisma.ProductionVerificationSnapshotFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.ProductionVerificationSnapshotFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>
+        }
+        findMany: {
+          args: Prisma.ProductionVerificationSnapshotFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>[]
+        }
+        create: {
+          args: Prisma.ProductionVerificationSnapshotCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>
+        }
+        createMany: {
+          args: Prisma.ProductionVerificationSnapshotCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.ProductionVerificationSnapshotCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>[]
+        }
+        delete: {
+          args: Prisma.ProductionVerificationSnapshotDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>
+        }
+        update: {
+          args: Prisma.ProductionVerificationSnapshotUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>
+        }
+        deleteMany: {
+          args: Prisma.ProductionVerificationSnapshotDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.ProductionVerificationSnapshotUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.ProductionVerificationSnapshotUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>[]
+        }
+        upsert: {
+          args: Prisma.ProductionVerificationSnapshotUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ProductionVerificationSnapshotPayload>
+        }
+        aggregate: {
+          args: Prisma.ProductionVerificationSnapshotAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateProductionVerificationSnapshot>
+        }
+        groupBy: {
+          args: Prisma.ProductionVerificationSnapshotGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.ProductionVerificationSnapshotGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.ProductionVerificationSnapshotCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.ProductionVerificationSnapshotCountAggregateOutputType> | number
+        }
+      }
+    }
     VerificationEvent: {
       payload: Prisma.$VerificationEventPayload<ExtArgs>
       fields: Prisma.VerificationEventFieldRefs
@@ -2441,6 +2517,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    MerchantDiscoveryScan: {
+      payload: Prisma.$MerchantDiscoveryScanPayload<ExtArgs>
+      fields: Prisma.MerchantDiscoveryScanFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantDiscoveryScanFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantDiscoveryScanFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantDiscoveryScanFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantDiscoveryScanFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantDiscoveryScanFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantDiscoveryScanCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantDiscoveryScanCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantDiscoveryScanCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantDiscoveryScanDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>
+        }
+        update: {
+          args: Prisma.MerchantDiscoveryScanUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantDiscoveryScanDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantDiscoveryScanUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantDiscoveryScanUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantDiscoveryScanUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantDiscoveryScanPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantDiscoveryScanAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantDiscoveryScan>
+        }
+        groupBy: {
+          args: Prisma.MerchantDiscoveryScanGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantDiscoveryScanGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantDiscoveryScanCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantDiscoveryScanCountAggregateOutputType> | number
+        }
+      }
+    }
   }
 } & {
   other: {
@@ -2819,6 +2969,22 @@ export const ProductionReviewFlagScalarFieldEnum = {
 export type ProductionReviewFlagScalarFieldEnum = (typeof ProductionReviewFlagScalarFieldEnum)[keyof typeof ProductionReviewFlagScalarFieldEnum]
 
 
+export const ProductionVerificationSnapshotScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  officialUrl: 'officialUrl',
+  contentHash: 'contentHash',
+  pageRole: 'pageRole',
+  httpStatus: 'httpStatus',
+  fetchTier: 'fetchTier',
+  preflightKind: 'preflightKind',
+  source: 'source',
+  observedAt: 'observedAt'
+} as const
+
+export type ProductionVerificationSnapshotScalarFieldEnum = (typeof ProductionVerificationSnapshotScalarFieldEnum)[keyof typeof ProductionVerificationSnapshotScalarFieldEnum]
+
+
 export const VerificationEventScalarFieldEnum = {
   id: 'id',
   giftCardId: 'giftCardId',
@@ -2908,6 +3074,24 @@ export const SearchEventScalarFieldEnum = {
 } as const
 
 export type SearchEventScalarFieldEnum = (typeof SearchEventScalarFieldEnum)[keyof typeof SearchEventScalarFieldEnum]
+
+
+export const MerchantDiscoveryScanScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  merchantName: 'merchantName',
+  websiteUrl: 'websiteUrl',
+  category: 'category',
+  status: 'status',
+  candidateCount: 'candidateCount',
+  requestCount: 'requestCount',
+  lastError: 'lastError',
+  lastScannedAt: 'lastScannedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantDiscoveryScanScalarFieldEnum = (typeof MerchantDiscoveryScanScalarFieldEnum)[keyof typeof MerchantDiscoveryScanScalarFieldEnum]
 
 
 export const SortOrder = {
@@ -3270,6 +3454,20 @@ export type EnumMediaUsageStatusFieldRefInput<$PrismaModel> = FieldRefInputType<
 export type ListEnumMediaUsageStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MediaUsageStatus[]'>
     
 
+
+/**
+ * Reference to a field of type 'DiscoveryScanStatus'
+ */
+export type EnumDiscoveryScanStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DiscoveryScanStatus'>
+    
+
+
+/**
+ * Reference to a field of type 'DiscoveryScanStatus[]'
+ */
+export type ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DiscoveryScanStatus[]'>
+    
+
 /**
  * Batch Payload for updateMany & deleteMany & createMany
  */
@@ -3442,12 +3640,14 @@ export type GlobalOmitConfig = {
   domainRediscoveryTask?: Prisma.DomainRediscoveryTaskOmit
   verificationFetchObservation?: Prisma.VerificationFetchObservationOmit
   productionReviewFlag?: Prisma.ProductionReviewFlagOmit
+  productionVerificationSnapshot?: Prisma.ProductionVerificationSnapshotOmit
   verificationEvent?: Prisma.VerificationEventOmit
   mediaAsset?: Prisma.MediaAssetOmit
   outboundClick?: Prisma.OutboundClickOmit
   importSource?: Prisma.ImportSourceOmit
   crawlJob?: Prisma.CrawlJobOmit
   searchEvent?: Prisma.SearchEventOmit
+  merchantDiscoveryScan?: Prisma.MerchantDiscoveryScanOmit
 }
 
 /* Types for Logging */

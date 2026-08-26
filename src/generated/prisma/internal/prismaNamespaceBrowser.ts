@@ -72,12 +72,14 @@ export const ModelName = {
   DomainRediscoveryTask: 'DomainRediscoveryTask',
   VerificationFetchObservation: 'VerificationFetchObservation',
   ProductionReviewFlag: 'ProductionReviewFlag',
+  ProductionVerificationSnapshot: 'ProductionVerificationSnapshot',
   VerificationEvent: 'VerificationEvent',
   MediaAsset: 'MediaAsset',
   OutboundClick: 'OutboundClick',
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
-  SearchEvent: 'SearchEvent'
+  SearchEvent: 'SearchEvent',
+  MerchantDiscoveryScan: 'MerchantDiscoveryScan'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -435,6 +437,22 @@ export const ProductionReviewFlagScalarFieldEnum = {
 export type ProductionReviewFlagScalarFieldEnum = (typeof ProductionReviewFlagScalarFieldEnum)[keyof typeof ProductionReviewFlagScalarFieldEnum]
 
 
+export const ProductionVerificationSnapshotScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  officialUrl: 'officialUrl',
+  contentHash: 'contentHash',
+  pageRole: 'pageRole',
+  httpStatus: 'httpStatus',
+  fetchTier: 'fetchTier',
+  preflightKind: 'preflightKind',
+  source: 'source',
+  observedAt: 'observedAt'
+} as const
+
+export type ProductionVerificationSnapshotScalarFieldEnum = (typeof ProductionVerificationSnapshotScalarFieldEnum)[keyof typeof ProductionVerificationSnapshotScalarFieldEnum]
+
+
 export const VerificationEventScalarFieldEnum = {
   id: 'id',
   giftCardId: 'giftCardId',
@@ -524,6 +542,24 @@ export const SearchEventScalarFieldEnum = {
 } as const
 
 export type SearchEventScalarFieldEnum = (typeof SearchEventScalarFieldEnum)[keyof typeof SearchEventScalarFieldEnum]
+
+
+export const MerchantDiscoveryScanScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  merchantName: 'merchantName',
+  websiteUrl: 'websiteUrl',
+  category: 'category',
+  status: 'status',
+  candidateCount: 'candidateCount',
+  requestCount: 'requestCount',
+  lastError: 'lastError',
+  lastScannedAt: 'lastScannedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantDiscoveryScanScalarFieldEnum = (typeof MerchantDiscoveryScanScalarFieldEnum)[keyof typeof MerchantDiscoveryScanScalarFieldEnum]
 
 
 export const SortOrder = {

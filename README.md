@@ -1,87 +1,46 @@
-# Dorokartes Manual Override + Superseded Trigger Fix
+# Dorokartes Google Wave2 Clean + Import v1
 
-The latest run exposed two real bugs.
+Processes:
 
-## Bug 1 — manual overrides were checked too late
+```text
+data/discovery/google/google-serper-wave2-domains-v4.csv
+```
 
-Sephora and Hondos had valid `ManualVerificationOverride` rows, but the verifier ran
-fetch/preflight first. Because those pages are BLOCKED / ACCESS_DENIED, execution
-continued before the manual override lookup.
+It:
+- checks production DB first;
+- checks existing DiscoveryItems;
+- applies a strict deterministic quality filter;
+- separates into `HIGH_SAFE`, `REVIEW`, `REJECT`;
+- optionally imports only `HIGH_SAFE`.
 
-Fix:
-
-- `lockUntilContentChanges=false` manual overrides now run BEFORE any fetch/preflight.
-- This means source-backed manual verification of blocked official pages consumes:
-  - 0 Playwright calls
-  - 0 LLM calls
-
-Hash-bound manual overrides (`lockUntilContentChanges=true`) still run later because
-they need current page content to compare the hash.
-
-## Bug 2 — old rediscovery trigger URLs came back after task resolution
-
-Germanos old dead product URL and HomeMarkt TERMS URL re-entered the verifier because
-their rediscovery tasks became RESOLVED, and the existing skip logic only skipped open tasks.
-
-Fix:
-
-- all rediscovery trigger URLs remain skipped even after the task becomes RESOLVED.
-- a superseded/dead trigger URL never re-enters normal verification.
+No web calls, no Serper calls, no OpenAI.
 
 ## Install
 
-Copy over `D:\dorokartes`, then run:
-
 ```powershell
-node scripts/pipeline/patch-manual-override-superseded.mjs
+node scripts/pipeline/install-google-wave2-clean-v1.mjs
 ```
 
-No migration. No Prisma generate.
-
-## Apply the existing manual overrides
-
-Now run:
+## PLAN
 
 ```powershell
-npm run pipeline:verify -- --apply
+npm run pipeline:clean-google-wave2
 ```
 
-Expected current behavior:
+## Write CSV
+
+```powershell
+npm run pipeline:clean-google-wave2 -- --apply
+```
+
+## Import only HIGH_SAFE
+
+```powershell
+npm run pipeline:clean-google-wave2 -- --apply --import-safe
+```
+
+Output:
 
 ```text
-Sephora
-  -> VERIFIED UNCONDITIONAL_MANUAL_LOCK role=CHECKOUT
-
-Hondos Center
-  -> VERIFIED UNCONDITIONAL_MANUAL_LOCK role=CANONICAL_PURCHASE
-
-NEW LLM calls: 0
-```
-
-The old Germanos/HomeMarkt trigger URLs should no longer appear.
-
-Then:
-
-```powershell
-npm run pipeline:rediscovery-reconcile
-```
-
-Expected:
-
-```text
-[RESOLVABLE] Sephora
-[RESOLVABLE] Hondos Center
-```
-
-Then:
-
-```powershell
-npm run pipeline:rediscovery-reconcile -- --apply
-npm run pipeline:rediscovery-summary
-```
-
-Target:
-
-```text
-Open rediscovery tasks: 0
+data/discovery/google/google-wave2-clean-v1.csv
 ```

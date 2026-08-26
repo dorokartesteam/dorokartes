@@ -572,6 +572,23 @@ export type EnumReviewFlagStatusWithAggregatesFilter<$PrismaModel = never> = {
   _max?: Prisma.NestedEnumReviewFlagStatusFilter<$PrismaModel>
 }
 
+export type EnumVerificationPageRoleNullableFilter<$PrismaModel = never> = {
+  equals?: $Enums.VerificationPageRole | Prisma.EnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  in?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumVerificationPageRoleNullableFilter<$PrismaModel> | $Enums.VerificationPageRole | null
+}
+
+export type EnumVerificationPageRoleNullableWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.VerificationPageRole | Prisma.EnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  in?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumVerificationPageRoleNullableWithAggregatesFilter<$PrismaModel> | $Enums.VerificationPageRole | null
+  _count?: Prisma.NestedIntNullableFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumVerificationPageRoleNullableFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumVerificationPageRoleNullableFilter<$PrismaModel>
+}
+
 export type EnumVerificationResultFilter<$PrismaModel = never> = {
   equals?: $Enums.VerificationResult | Prisma.EnumVerificationResultFieldRefInput<$PrismaModel>
   in?: $Enums.VerificationResult[] | Prisma.ListEnumVerificationResultFieldRefInput<$PrismaModel>
@@ -617,6 +634,23 @@ export type BoolNullableWithAggregatesFilter<$PrismaModel = never> = {
   _count?: Prisma.NestedIntNullableFilter<$PrismaModel>
   _min?: Prisma.NestedBoolNullableFilter<$PrismaModel>
   _max?: Prisma.NestedBoolNullableFilter<$PrismaModel>
+}
+
+export type EnumDiscoveryScanStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.DiscoveryScanStatus | Prisma.EnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel> | $Enums.DiscoveryScanStatus
+}
+
+export type EnumDiscoveryScanStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.DiscoveryScanStatus | Prisma.EnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDiscoveryScanStatusWithAggregatesFilter<$PrismaModel> | $Enums.DiscoveryScanStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
 }
 
 export type NestedStringFilter<$PrismaModel = never> = {
@@ -1152,6 +1186,23 @@ export type NestedEnumReviewFlagStatusWithAggregatesFilter<$PrismaModel = never>
   _max?: Prisma.NestedEnumReviewFlagStatusFilter<$PrismaModel>
 }
 
+export type NestedEnumVerificationPageRoleNullableFilter<$PrismaModel = never> = {
+  equals?: $Enums.VerificationPageRole | Prisma.EnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  in?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumVerificationPageRoleNullableFilter<$PrismaModel> | $Enums.VerificationPageRole | null
+}
+
+export type NestedEnumVerificationPageRoleNullableWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.VerificationPageRole | Prisma.EnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  in?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.VerificationPageRole[] | Prisma.ListEnumVerificationPageRoleFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumVerificationPageRoleNullableWithAggregatesFilter<$PrismaModel> | $Enums.VerificationPageRole | null
+  _count?: Prisma.NestedIntNullableFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumVerificationPageRoleNullableFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumVerificationPageRoleNullableFilter<$PrismaModel>
+}
+
 export type NestedEnumVerificationResultFilter<$PrismaModel = never> = {
   equals?: $Enums.VerificationResult | Prisma.EnumVerificationResultFieldRefInput<$PrismaModel>
   in?: $Enums.VerificationResult[] | Prisma.ListEnumVerificationResultFieldRefInput<$PrismaModel>
@@ -1197,6 +1248,23 @@ export type NestedBoolNullableWithAggregatesFilter<$PrismaModel = never> = {
   _count?: Prisma.NestedIntNullableFilter<$PrismaModel>
   _min?: Prisma.NestedBoolNullableFilter<$PrismaModel>
   _max?: Prisma.NestedBoolNullableFilter<$PrismaModel>
+}
+
+export type NestedEnumDiscoveryScanStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.DiscoveryScanStatus | Prisma.EnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel> | $Enums.DiscoveryScanStatus
+}
+
+export type NestedEnumDiscoveryScanStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.DiscoveryScanStatus | Prisma.EnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DiscoveryScanStatus[] | Prisma.ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDiscoveryScanStatusWithAggregatesFilter<$PrismaModel> | $Enums.DiscoveryScanStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
 }
 
 

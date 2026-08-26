@@ -90,6 +90,17 @@ export const SourceType = {
 export type SourceType = (typeof SourceType)[keyof typeof SourceType]
 
 
+export const DiscoveryScanStatus = {
+  PENDING: 'PENDING',
+  SCANNED_NO_CANDIDATE: 'SCANNED_NO_CANDIDATE',
+  CANDIDATES_FOUND: 'CANDIDATES_FOUND',
+  BLOCKED: 'BLOCKED',
+  ERROR: 'ERROR'
+} as const
+
+export type DiscoveryScanStatus = (typeof DiscoveryScanStatus)[keyof typeof DiscoveryScanStatus]
+
+
 export const DiscoveryStatus = {
   DISCOVERED: 'DISCOVERED',
   QUEUED: 'QUEUED',

@@ -126,6 +126,11 @@ export type VerificationFetchObservation = Prisma.VerificationFetchObservationMo
  */
 export type ProductionReviewFlag = Prisma.ProductionReviewFlagModel
 /**
+ * Model ProductionVerificationSnapshot
+ * 
+ */
+export type ProductionVerificationSnapshot = Prisma.ProductionVerificationSnapshotModel
+/**
  * Model VerificationEvent
  * 
  */
@@ -155,3 +160,8 @@ export type CrawlJob = Prisma.CrawlJobModel
  * 
  */
 export type SearchEvent = Prisma.SearchEventModel
+/**
+ * Model MerchantDiscoveryScan
+ * 
+ */
+export type MerchantDiscoveryScan = Prisma.MerchantDiscoveryScanModel

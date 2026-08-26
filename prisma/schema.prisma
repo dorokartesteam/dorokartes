@@ -73,6 +73,14 @@ enum SourceType {
   OTHER
 }
 
+enum DiscoveryScanStatus {
+  PENDING
+  SCANNED_NO_CANDIDATE
+  CANDIDATES_FOUND
+  BLOCKED
+  ERROR
+}
+
 enum DiscoveryStatus {
   DISCOVERED
   QUEUED
@@ -269,6 +277,8 @@ model GiftCard {
   @@index([lastVerifiedAt])
 
   reviewFlags ProductionReviewFlag[]
+
+  productionVerificationSnapshots ProductionVerificationSnapshot[]
 }
 
 /**
@@ -797,6 +807,25 @@ model ProductionReviewFlag {
   @@index([type, status])
 }
 
+model ProductionVerificationSnapshot {
+  id String @id @default(cuid())
+
+  giftCardId String
+  giftCard GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+
+  officialUrl String
+  contentHash String?
+  pageRole VerificationPageRole?
+  httpStatus Int?
+  fetchTier String?
+  preflightKind String
+  source String
+  observedAt DateTime @default(now())
+
+  @@index([giftCardId, observedAt])
+  @@index([officialUrl])
+}
+
 /**
  * |--------------------------------------------------------------------------
  * | VERIFICATION HISTORY
@@ -986,4 +1015,25 @@ model SearchEvent {
 
   @@index([searchedAt])
   @@index([query])
+}
+
+
+model MerchantDiscoveryScan {
+  id String @id @default(cuid())
+
+  merchantDomain String @unique
+  merchantName String
+  websiteUrl String
+  category String?
+
+  status DiscoveryScanStatus @default(PENDING)
+  candidateCount Int @default(0)
+  requestCount Int @default(0)
+  lastError String?
+  lastScannedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status, lastScannedAt])
 }
