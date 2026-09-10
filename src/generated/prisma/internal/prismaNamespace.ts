@@ -398,7 +398,9 @@ type FieldRefInputType<Model, FieldType> = Model extends never ? never : FieldRe
 
 export const ModelName = {
   Merchant: 'Merchant',
+  MerchantLocation: 'MerchantLocation',
   GiftCard: 'GiftCard',
+  GiftCardLocationCapability: 'GiftCardLocationCapability',
   GiftCardVariant: 'GiftCardVariant',
   GiftCardValue: 'GiftCardValue',
   GiftCardRedemption: 'GiftCardRedemption',
@@ -441,7 +443,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "merchant" | "giftCard" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan"
+    modelProps: "merchant" | "merchantLocation" | "giftCard" | "giftCardLocationCapability" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -519,6 +521,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    MerchantLocation: {
+      payload: Prisma.$MerchantLocationPayload<ExtArgs>
+      fields: Prisma.MerchantLocationFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantLocationFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantLocationFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantLocationFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantLocationFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantLocationFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantLocationCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantLocationCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantLocationCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantLocationDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>
+        }
+        update: {
+          args: Prisma.MerchantLocationUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantLocationDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantLocationUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantLocationUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantLocationUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLocationPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantLocationAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantLocation>
+        }
+        groupBy: {
+          args: Prisma.MerchantLocationGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantLocationGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantLocationCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantLocationCountAggregateOutputType> | number
+        }
+      }
+    }
     GiftCard: {
       payload: Prisma.$GiftCardPayload<ExtArgs>
       fields: Prisma.GiftCardFieldRefs
@@ -590,6 +666,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         count: {
           args: Prisma.GiftCardCountArgs<ExtArgs>
           result: runtime.Types.Utils.Optional<Prisma.GiftCardCountAggregateOutputType> | number
+        }
+      }
+    }
+    GiftCardLocationCapability: {
+      payload: Prisma.$GiftCardLocationCapabilityPayload<ExtArgs>
+      fields: Prisma.GiftCardLocationCapabilityFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.GiftCardLocationCapabilityFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.GiftCardLocationCapabilityFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>
+        }
+        findFirst: {
+          args: Prisma.GiftCardLocationCapabilityFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.GiftCardLocationCapabilityFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>
+        }
+        findMany: {
+          args: Prisma.GiftCardLocationCapabilityFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>[]
+        }
+        create: {
+          args: Prisma.GiftCardLocationCapabilityCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>
+        }
+        createMany: {
+          args: Prisma.GiftCardLocationCapabilityCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.GiftCardLocationCapabilityCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>[]
+        }
+        delete: {
+          args: Prisma.GiftCardLocationCapabilityDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>
+        }
+        update: {
+          args: Prisma.GiftCardLocationCapabilityUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>
+        }
+        deleteMany: {
+          args: Prisma.GiftCardLocationCapabilityDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.GiftCardLocationCapabilityUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.GiftCardLocationCapabilityUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>[]
+        }
+        upsert: {
+          args: Prisma.GiftCardLocationCapabilityUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$GiftCardLocationCapabilityPayload>
+        }
+        aggregate: {
+          args: Prisma.GiftCardLocationCapabilityAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateGiftCardLocationCapability>
+        }
+        groupBy: {
+          args: Prisma.GiftCardLocationCapabilityGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.GiftCardLocationCapabilityGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.GiftCardLocationCapabilityCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.GiftCardLocationCapabilityCountAggregateOutputType> | number
         }
       }
     }
@@ -2651,6 +2801,32 @@ export const MerchantScalarFieldEnum = {
 export type MerchantScalarFieldEnum = (typeof MerchantScalarFieldEnum)[keyof typeof MerchantScalarFieldEnum]
 
 
+export const MerchantLocationScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  label: 'label',
+  countryCode: 'countryCode',
+  administrativeArea: 'administrativeArea',
+  city: 'city',
+  area: 'area',
+  addressLine: 'addressLine',
+  postalCode: 'postalCode',
+  latitude: 'latitude',
+  longitude: 'longitude',
+  normalizedKey: 'normalizedKey',
+  sourceUrl: 'sourceUrl',
+  sourceExcerpt: 'sourceExcerpt',
+  active: 'active',
+  verificationStatus: 'verificationStatus',
+  lastVerifiedAt: 'lastVerifiedAt',
+  nextReviewAt: 'nextReviewAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantLocationScalarFieldEnum = (typeof MerchantLocationScalarFieldEnum)[keyof typeof MerchantLocationScalarFieldEnum]
+
+
 export const GiftCardScalarFieldEnum = {
   id: 'id',
   merchantId: 'merchantId',
@@ -2676,6 +2852,23 @@ export const GiftCardScalarFieldEnum = {
 } as const
 
 export type GiftCardScalarFieldEnum = (typeof GiftCardScalarFieldEnum)[keyof typeof GiftCardScalarFieldEnum]
+
+
+export const GiftCardLocationCapabilityScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  merchantLocationId: 'merchantLocationId',
+  capability: 'capability',
+  available: 'available',
+  verificationStatus: 'verificationStatus',
+  sourceUrl: 'sourceUrl',
+  sourceExcerpt: 'sourceExcerpt',
+  lastVerifiedAt: 'lastVerifiedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type GiftCardLocationCapabilityScalarFieldEnum = (typeof GiftCardLocationCapabilityScalarFieldEnum)[keyof typeof GiftCardLocationCapabilityScalarFieldEnum]
 
 
 export const GiftCardVariantScalarFieldEnum = {
@@ -3190,16 +3383,16 @@ export type ListDateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaM
 
 
 /**
- * Reference to a field of type 'GiftCardStatus'
+ * Reference to a field of type 'Decimal'
  */
-export type EnumGiftCardStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'GiftCardStatus'>
+export type DecimalFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Decimal'>
     
 
 
 /**
- * Reference to a field of type 'GiftCardStatus[]'
+ * Reference to a field of type 'Decimal[]'
  */
-export type ListEnumGiftCardStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'GiftCardStatus[]'>
+export type ListDecimalFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Decimal[]'>
     
 
 
@@ -3218,6 +3411,20 @@ export type ListEnumVerificationStatusFieldRefInput<$PrismaModel> = FieldRefInpu
 
 
 /**
+ * Reference to a field of type 'GiftCardStatus'
+ */
+export type EnumGiftCardStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'GiftCardStatus'>
+    
+
+
+/**
+ * Reference to a field of type 'GiftCardStatus[]'
+ */
+export type ListEnumGiftCardStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'GiftCardStatus[]'>
+    
+
+
+/**
  * Reference to a field of type 'Int'
  */
 export type IntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int'>
@@ -3232,6 +3439,20 @@ export type ListIntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel,
 
 
 /**
+ * Reference to a field of type 'LocationCapabilityType'
+ */
+export type EnumLocationCapabilityTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'LocationCapabilityType'>
+    
+
+
+/**
+ * Reference to a field of type 'LocationCapabilityType[]'
+ */
+export type ListEnumLocationCapabilityTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'LocationCapabilityType[]'>
+    
+
+
+/**
  * Reference to a field of type 'GiftCardVariantType'
  */
 export type EnumGiftCardVariantTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'GiftCardVariantType'>
@@ -3242,20 +3463,6 @@ export type EnumGiftCardVariantTypeFieldRefInput<$PrismaModel> = FieldRefInputTy
  * Reference to a field of type 'GiftCardVariantType[]'
  */
 export type ListEnumGiftCardVariantTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'GiftCardVariantType[]'>
-    
-
-
-/**
- * Reference to a field of type 'Decimal'
- */
-export type DecimalFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Decimal'>
-    
-
-
-/**
- * Reference to a field of type 'Decimal[]'
- */
-export type ListDecimalFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Decimal[]'>
     
 
 
@@ -3620,7 +3827,9 @@ export interface PrismaClientOptionsWithAdapter extends PrismaClientBaseOptions 
 export type PrismaClientOptions = PrismaClientOptionsWithAccelerateUrl | PrismaClientOptionsWithAdapter
 export type GlobalOmitConfig = {
   merchant?: Prisma.MerchantOmit
+  merchantLocation?: Prisma.MerchantLocationOmit
   giftCard?: Prisma.GiftCardOmit
+  giftCardLocationCapability?: Prisma.GiftCardLocationCapabilityOmit
   giftCardVariant?: Prisma.GiftCardVariantOmit
   giftCardValue?: Prisma.GiftCardValueOmit
   giftCardRedemption?: Prisma.GiftCardRedemptionOmit

@@ -65,6 +65,14 @@ export const RedemptionChannel = {
 export type RedemptionChannel = (typeof RedemptionChannel)[keyof typeof RedemptionChannel]
 
 
+export const LocationCapabilityType = {
+  PURCHASE_IN_STORE: 'PURCHASE_IN_STORE',
+  REDEEM_IN_STORE: 'REDEEM_IN_STORE'
+} as const
+
+export type LocationCapabilityType = (typeof LocationCapabilityType)[keyof typeof LocationCapabilityType]
+
+
 export const DeliveryMethod = {
   EMAIL: 'EMAIL',
   SMS: 'SMS',

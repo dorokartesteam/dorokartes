@@ -352,6 +352,7 @@ export type GiftCardWhereInput = {
   mediaAssets?: Prisma.MediaAssetListRelationFilter
   clicks?: Prisma.OutboundClickListRelationFilter
   verificationEvents?: Prisma.VerificationEventListRelationFilter
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityListRelationFilter
   reviewFlags?: Prisma.ProductionReviewFlagListRelationFilter
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotListRelationFilter
 }
@@ -386,6 +387,7 @@ export type GiftCardOrderByWithRelationInput = {
   mediaAssets?: Prisma.MediaAssetOrderByRelationAggregateInput
   clicks?: Prisma.OutboundClickOrderByRelationAggregateInput
   verificationEvents?: Prisma.VerificationEventOrderByRelationAggregateInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityOrderByRelationAggregateInput
   reviewFlags?: Prisma.ProductionReviewFlagOrderByRelationAggregateInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotOrderByRelationAggregateInput
 }
@@ -423,6 +425,7 @@ export type GiftCardWhereUniqueInput = Prisma.AtLeast<{
   mediaAssets?: Prisma.MediaAssetListRelationFilter
   clicks?: Prisma.OutboundClickListRelationFilter
   verificationEvents?: Prisma.VerificationEventListRelationFilter
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityListRelationFilter
   reviewFlags?: Prisma.ProductionReviewFlagListRelationFilter
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotListRelationFilter
 }, "id" | "slug">
@@ -512,6 +515,7 @@ export type GiftCardCreateInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -545,6 +549,7 @@ export type GiftCardUncheckedCreateInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -578,6 +583,7 @@ export type GiftCardUpdateInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -611,6 +617,7 @@ export type GiftCardUncheckedUpdateInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -832,10 +839,6 @@ export type EnumGiftCardStatusFieldUpdateOperationsInput = {
   set?: $Enums.GiftCardStatus
 }
 
-export type EnumVerificationStatusFieldUpdateOperationsInput = {
-  set?: $Enums.VerificationStatus
-}
-
 export type NullableIntFieldUpdateOperationsInput = {
   set?: number | null
   increment?: number
@@ -844,8 +847,18 @@ export type NullableIntFieldUpdateOperationsInput = {
   divide?: number
 }
 
-export type NullableDateTimeFieldUpdateOperationsInput = {
-  set?: Date | string | null
+export type GiftCardCreateNestedOneWithoutLocationCapabilitiesInput = {
+  create?: Prisma.XOR<Prisma.GiftCardCreateWithoutLocationCapabilitiesInput, Prisma.GiftCardUncheckedCreateWithoutLocationCapabilitiesInput>
+  connectOrCreate?: Prisma.GiftCardCreateOrConnectWithoutLocationCapabilitiesInput
+  connect?: Prisma.GiftCardWhereUniqueInput
+}
+
+export type GiftCardUpdateOneRequiredWithoutLocationCapabilitiesNestedInput = {
+  create?: Prisma.XOR<Prisma.GiftCardCreateWithoutLocationCapabilitiesInput, Prisma.GiftCardUncheckedCreateWithoutLocationCapabilitiesInput>
+  connectOrCreate?: Prisma.GiftCardCreateOrConnectWithoutLocationCapabilitiesInput
+  upsert?: Prisma.GiftCardUpsertWithoutLocationCapabilitiesInput
+  connect?: Prisma.GiftCardWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.GiftCardUpdateToOneWithWhereWithoutLocationCapabilitiesInput, Prisma.GiftCardUpdateWithoutLocationCapabilitiesInput>, Prisma.GiftCardUncheckedUpdateWithoutLocationCapabilitiesInput>
 }
 
 export type GiftCardCreateNestedOneWithoutVariantsInput = {
@@ -1008,6 +1021,7 @@ export type GiftCardCreateWithoutMerchantInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -1040,6 +1054,7 @@ export type GiftCardUncheckedCreateWithoutMerchantInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -1097,6 +1112,154 @@ export type GiftCardScalarWhereInput = {
   updatedAt?: Prisma.DateTimeFilter<"GiftCard"> | Date | string
 }
 
+export type GiftCardCreateWithoutLocationCapabilitiesInput = {
+  id?: string
+  title: string
+  slug: string
+  shortDescription?: string | null
+  description?: string | null
+  status?: $Enums.GiftCardStatus
+  verificationStatus?: $Enums.VerificationStatus
+  officialUrl?: string | null
+  corporateAvailable?: boolean
+  personalizationAvailable?: boolean
+  validityMonths?: number | null
+  validityText?: string | null
+  termsUrl?: string | null
+  featured?: boolean
+  lastVerifiedAt?: Date | string | null
+  nextReviewAt?: Date | string | null
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  merchant: Prisma.MerchantCreateNestedOneWithoutGiftCardsInput
+  variants?: Prisma.GiftCardVariantCreateNestedManyWithoutGiftCardInput
+  categories?: Prisma.GiftCardCategoryCreateNestedManyWithoutGiftCardInput
+  occasions?: Prisma.GiftCardOccasionCreateNestedManyWithoutGiftCardInput
+  sources?: Prisma.SourceRecordCreateNestedManyWithoutGiftCardInput
+  mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
+  clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
+  verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
+  productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
+}
+
+export type GiftCardUncheckedCreateWithoutLocationCapabilitiesInput = {
+  id?: string
+  merchantId: string
+  title: string
+  slug: string
+  shortDescription?: string | null
+  description?: string | null
+  status?: $Enums.GiftCardStatus
+  verificationStatus?: $Enums.VerificationStatus
+  officialUrl?: string | null
+  corporateAvailable?: boolean
+  personalizationAvailable?: boolean
+  validityMonths?: number | null
+  validityText?: string | null
+  termsUrl?: string | null
+  featured?: boolean
+  lastVerifiedAt?: Date | string | null
+  nextReviewAt?: Date | string | null
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  variants?: Prisma.GiftCardVariantUncheckedCreateNestedManyWithoutGiftCardInput
+  categories?: Prisma.GiftCardCategoryUncheckedCreateNestedManyWithoutGiftCardInput
+  occasions?: Prisma.GiftCardOccasionUncheckedCreateNestedManyWithoutGiftCardInput
+  sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutGiftCardInput
+  mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
+  clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
+  verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
+  productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
+}
+
+export type GiftCardCreateOrConnectWithoutLocationCapabilitiesInput = {
+  where: Prisma.GiftCardWhereUniqueInput
+  create: Prisma.XOR<Prisma.GiftCardCreateWithoutLocationCapabilitiesInput, Prisma.GiftCardUncheckedCreateWithoutLocationCapabilitiesInput>
+}
+
+export type GiftCardUpsertWithoutLocationCapabilitiesInput = {
+  update: Prisma.XOR<Prisma.GiftCardUpdateWithoutLocationCapabilitiesInput, Prisma.GiftCardUncheckedUpdateWithoutLocationCapabilitiesInput>
+  create: Prisma.XOR<Prisma.GiftCardCreateWithoutLocationCapabilitiesInput, Prisma.GiftCardUncheckedCreateWithoutLocationCapabilitiesInput>
+  where?: Prisma.GiftCardWhereInput
+}
+
+export type GiftCardUpdateToOneWithWhereWithoutLocationCapabilitiesInput = {
+  where?: Prisma.GiftCardWhereInput
+  data: Prisma.XOR<Prisma.GiftCardUpdateWithoutLocationCapabilitiesInput, Prisma.GiftCardUncheckedUpdateWithoutLocationCapabilitiesInput>
+}
+
+export type GiftCardUpdateWithoutLocationCapabilitiesInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  title?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  shortDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumGiftCardStatusFieldUpdateOperationsInput | $Enums.GiftCardStatus
+  verificationStatus?: Prisma.EnumVerificationStatusFieldUpdateOperationsInput | $Enums.VerificationStatus
+  officialUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  corporateAvailable?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  personalizationAvailable?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  validityMonths?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  validityText?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  termsUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  lastVerifiedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  nextReviewAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  merchant?: Prisma.MerchantUpdateOneRequiredWithoutGiftCardsNestedInput
+  variants?: Prisma.GiftCardVariantUpdateManyWithoutGiftCardNestedInput
+  categories?: Prisma.GiftCardCategoryUpdateManyWithoutGiftCardNestedInput
+  occasions?: Prisma.GiftCardOccasionUpdateManyWithoutGiftCardNestedInput
+  sources?: Prisma.SourceRecordUpdateManyWithoutGiftCardNestedInput
+  mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
+  clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
+  verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
+  productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
+}
+
+export type GiftCardUncheckedUpdateWithoutLocationCapabilitiesInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  merchantId?: Prisma.StringFieldUpdateOperationsInput | string
+  title?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  shortDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumGiftCardStatusFieldUpdateOperationsInput | $Enums.GiftCardStatus
+  verificationStatus?: Prisma.EnumVerificationStatusFieldUpdateOperationsInput | $Enums.VerificationStatus
+  officialUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  corporateAvailable?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  personalizationAvailable?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  validityMonths?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  validityText?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  termsUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  lastVerifiedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  nextReviewAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  variants?: Prisma.GiftCardVariantUncheckedUpdateManyWithoutGiftCardNestedInput
+  categories?: Prisma.GiftCardCategoryUncheckedUpdateManyWithoutGiftCardNestedInput
+  occasions?: Prisma.GiftCardOccasionUncheckedUpdateManyWithoutGiftCardNestedInput
+  sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutGiftCardNestedInput
+  mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
+  clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
+  verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
+  productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
+}
+
 export type GiftCardCreateWithoutVariantsInput = {
   id?: string
   title: string
@@ -1125,6 +1288,7 @@ export type GiftCardCreateWithoutVariantsInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -1157,6 +1321,7 @@ export type GiftCardUncheckedCreateWithoutVariantsInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -1205,6 +1370,7 @@ export type GiftCardUpdateWithoutVariantsInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -1237,6 +1403,7 @@ export type GiftCardUncheckedUpdateWithoutVariantsInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -1269,6 +1436,7 @@ export type GiftCardCreateWithoutCategoriesInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -1301,6 +1469,7 @@ export type GiftCardUncheckedCreateWithoutCategoriesInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -1349,6 +1518,7 @@ export type GiftCardUpdateWithoutCategoriesInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -1381,6 +1551,7 @@ export type GiftCardUncheckedUpdateWithoutCategoriesInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -1413,6 +1584,7 @@ export type GiftCardCreateWithoutOccasionsInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -1445,6 +1617,7 @@ export type GiftCardUncheckedCreateWithoutOccasionsInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -1493,6 +1666,7 @@ export type GiftCardUpdateWithoutOccasionsInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -1525,6 +1699,7 @@ export type GiftCardUncheckedUpdateWithoutOccasionsInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -1557,6 +1732,7 @@ export type GiftCardCreateWithoutSourcesInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -1589,6 +1765,7 @@ export type GiftCardUncheckedCreateWithoutSourcesInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -1637,6 +1814,7 @@ export type GiftCardUpdateWithoutSourcesInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -1669,6 +1847,7 @@ export type GiftCardUncheckedUpdateWithoutSourcesInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -1702,6 +1881,7 @@ export type GiftCardCreateWithoutReviewFlagsInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
 
@@ -1734,6 +1914,7 @@ export type GiftCardUncheckedCreateWithoutReviewFlagsInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
 
@@ -1782,6 +1963,7 @@ export type GiftCardUpdateWithoutReviewFlagsInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
 
@@ -1814,6 +1996,7 @@ export type GiftCardUncheckedUpdateWithoutReviewFlagsInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
 
@@ -1846,6 +2029,7 @@ export type GiftCardCreateWithoutProductionVerificationSnapshotsInput = {
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
 }
 
@@ -1878,6 +2062,7 @@ export type GiftCardUncheckedCreateWithoutProductionVerificationSnapshotsInput =
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
 }
 
@@ -1926,6 +2111,7 @@ export type GiftCardUpdateWithoutProductionVerificationSnapshotsInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
 }
 
@@ -1958,6 +2144,7 @@ export type GiftCardUncheckedUpdateWithoutProductionVerificationSnapshotsInput =
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
 }
 
@@ -1989,6 +2176,7 @@ export type GiftCardCreateWithoutVerificationEventsInput = {
   sources?: Prisma.SourceRecordCreateNestedManyWithoutGiftCardInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -2021,6 +2209,7 @@ export type GiftCardUncheckedCreateWithoutVerificationEventsInput = {
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutGiftCardInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -2069,6 +2258,7 @@ export type GiftCardUpdateWithoutVerificationEventsInput = {
   sources?: Prisma.SourceRecordUpdateManyWithoutGiftCardNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -2101,6 +2291,7 @@ export type GiftCardUncheckedUpdateWithoutVerificationEventsInput = {
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutGiftCardNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -2133,6 +2324,7 @@ export type GiftCardCreateWithoutMediaAssetsInput = {
   sources?: Prisma.SourceRecordCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -2165,6 +2357,7 @@ export type GiftCardUncheckedCreateWithoutMediaAssetsInput = {
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutGiftCardInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -2213,6 +2406,7 @@ export type GiftCardUpdateWithoutMediaAssetsInput = {
   sources?: Prisma.SourceRecordUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -2245,6 +2439,7 @@ export type GiftCardUncheckedUpdateWithoutMediaAssetsInput = {
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -2277,6 +2472,7 @@ export type GiftCardCreateWithoutClicksInput = {
   sources?: Prisma.SourceRecordCreateNestedManyWithoutGiftCardInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotCreateNestedManyWithoutGiftCardInput
 }
@@ -2309,6 +2505,7 @@ export type GiftCardUncheckedCreateWithoutClicksInput = {
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutGiftCardInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutGiftCardInput
   verificationEvents?: Prisma.VerificationEventUncheckedCreateNestedManyWithoutGiftCardInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedCreateNestedManyWithoutGiftCardInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedCreateNestedManyWithoutGiftCardInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedCreateNestedManyWithoutGiftCardInput
 }
@@ -2357,6 +2554,7 @@ export type GiftCardUpdateWithoutClicksInput = {
   sources?: Prisma.SourceRecordUpdateManyWithoutGiftCardNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -2389,6 +2587,7 @@ export type GiftCardUncheckedUpdateWithoutClicksInput = {
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutGiftCardNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -2444,6 +2643,7 @@ export type GiftCardUpdateWithoutMerchantInput = {
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUpdateManyWithoutGiftCardNestedInput
 }
@@ -2476,6 +2676,7 @@ export type GiftCardUncheckedUpdateWithoutMerchantInput = {
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutGiftCardNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutGiftCardNestedInput
   verificationEvents?: Prisma.VerificationEventUncheckedUpdateManyWithoutGiftCardNestedInput
+  locationCapabilities?: Prisma.GiftCardLocationCapabilityUncheckedUpdateManyWithoutGiftCardNestedInput
   reviewFlags?: Prisma.ProductionReviewFlagUncheckedUpdateManyWithoutGiftCardNestedInput
   productionVerificationSnapshots?: Prisma.ProductionVerificationSnapshotUncheckedUpdateManyWithoutGiftCardNestedInput
 }
@@ -2516,6 +2717,7 @@ export type GiftCardCountOutputType = {
   mediaAssets: number
   clicks: number
   verificationEvents: number
+  locationCapabilities: number
   reviewFlags: number
   productionVerificationSnapshots: number
 }
@@ -2528,6 +2730,7 @@ export type GiftCardCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensio
   mediaAssets?: boolean | GiftCardCountOutputTypeCountMediaAssetsArgs
   clicks?: boolean | GiftCardCountOutputTypeCountClicksArgs
   verificationEvents?: boolean | GiftCardCountOutputTypeCountVerificationEventsArgs
+  locationCapabilities?: boolean | GiftCardCountOutputTypeCountLocationCapabilitiesArgs
   reviewFlags?: boolean | GiftCardCountOutputTypeCountReviewFlagsArgs
   productionVerificationSnapshots?: boolean | GiftCardCountOutputTypeCountProductionVerificationSnapshotsArgs
 }
@@ -2594,6 +2797,13 @@ export type GiftCardCountOutputTypeCountVerificationEventsArgs<ExtArgs extends r
 /**
  * GiftCardCountOutputType without action
  */
+export type GiftCardCountOutputTypeCountLocationCapabilitiesArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.GiftCardLocationCapabilityWhereInput
+}
+
+/**
+ * GiftCardCountOutputType without action
+ */
 export type GiftCardCountOutputTypeCountReviewFlagsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   where?: Prisma.ProductionReviewFlagWhereInput
 }
@@ -2636,6 +2846,7 @@ export type GiftCardSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs
   mediaAssets?: boolean | Prisma.GiftCard$mediaAssetsArgs<ExtArgs>
   clicks?: boolean | Prisma.GiftCard$clicksArgs<ExtArgs>
   verificationEvents?: boolean | Prisma.GiftCard$verificationEventsArgs<ExtArgs>
+  locationCapabilities?: boolean | Prisma.GiftCard$locationCapabilitiesArgs<ExtArgs>
   reviewFlags?: boolean | Prisma.GiftCard$reviewFlagsArgs<ExtArgs>
   productionVerificationSnapshots?: boolean | Prisma.GiftCard$productionVerificationSnapshotsArgs<ExtArgs>
   _count?: boolean | Prisma.GiftCardCountOutputTypeDefaultArgs<ExtArgs>
@@ -2725,6 +2936,7 @@ export type GiftCardInclude<ExtArgs extends runtime.Types.Extensions.InternalArg
   mediaAssets?: boolean | Prisma.GiftCard$mediaAssetsArgs<ExtArgs>
   clicks?: boolean | Prisma.GiftCard$clicksArgs<ExtArgs>
   verificationEvents?: boolean | Prisma.GiftCard$verificationEventsArgs<ExtArgs>
+  locationCapabilities?: boolean | Prisma.GiftCard$locationCapabilitiesArgs<ExtArgs>
   reviewFlags?: boolean | Prisma.GiftCard$reviewFlagsArgs<ExtArgs>
   productionVerificationSnapshots?: boolean | Prisma.GiftCard$productionVerificationSnapshotsArgs<ExtArgs>
   _count?: boolean | Prisma.GiftCardCountOutputTypeDefaultArgs<ExtArgs>
@@ -2747,6 +2959,7 @@ export type $GiftCardPayload<ExtArgs extends runtime.Types.Extensions.InternalAr
     mediaAssets: Prisma.$MediaAssetPayload<ExtArgs>[]
     clicks: Prisma.$OutboundClickPayload<ExtArgs>[]
     verificationEvents: Prisma.$VerificationEventPayload<ExtArgs>[]
+    locationCapabilities: Prisma.$GiftCardLocationCapabilityPayload<ExtArgs>[]
     reviewFlags: Prisma.$ProductionReviewFlagPayload<ExtArgs>[]
     productionVerificationSnapshots: Prisma.$ProductionVerificationSnapshotPayload<ExtArgs>[]
   }
@@ -3174,6 +3387,7 @@ export interface Prisma__GiftCardClient<T, Null = never, ExtArgs extends runtime
   mediaAssets<T extends Prisma.GiftCard$mediaAssetsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.GiftCard$mediaAssetsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$MediaAssetPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   clicks<T extends Prisma.GiftCard$clicksArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.GiftCard$clicksArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$OutboundClickPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   verificationEvents<T extends Prisma.GiftCard$verificationEventsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.GiftCard$verificationEventsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$VerificationEventPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  locationCapabilities<T extends Prisma.GiftCard$locationCapabilitiesArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.GiftCard$locationCapabilitiesArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$GiftCardLocationCapabilityPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   reviewFlags<T extends Prisma.GiftCard$reviewFlagsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.GiftCard$reviewFlagsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$ProductionReviewFlagPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   productionVerificationSnapshots<T extends Prisma.GiftCard$productionVerificationSnapshotsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.GiftCard$productionVerificationSnapshotsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$ProductionVerificationSnapshotPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
@@ -3792,6 +4006,30 @@ export type GiftCard$verificationEventsArgs<ExtArgs extends runtime.Types.Extens
   take?: number
   skip?: number
   distinct?: Prisma.VerificationEventScalarFieldEnum | Prisma.VerificationEventScalarFieldEnum[]
+}
+
+/**
+ * GiftCard.locationCapabilities
+ */
+export type GiftCard$locationCapabilitiesArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the GiftCardLocationCapability
+   */
+  select?: Prisma.GiftCardLocationCapabilitySelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the GiftCardLocationCapability
+   */
+  omit?: Prisma.GiftCardLocationCapabilityOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.GiftCardLocationCapabilityInclude<ExtArgs> | null
+  where?: Prisma.GiftCardLocationCapabilityWhereInput
+  orderBy?: Prisma.GiftCardLocationCapabilityOrderByWithRelationInput | Prisma.GiftCardLocationCapabilityOrderByWithRelationInput[]
+  cursor?: Prisma.GiftCardLocationCapabilityWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.GiftCardLocationCapabilityScalarFieldEnum | Prisma.GiftCardLocationCapabilityScalarFieldEnum[]
 }
 
 /**

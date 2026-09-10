@@ -23,10 +23,24 @@ export * from './enums';
  */
 export type Merchant = Prisma.MerchantModel
 /**
+ * Model MerchantLocation
+ * *
+ *  * A physical merchant point backed by an explicit source URL.
+ *  * Location presence alone never implies gift-card purchase or redemption.
+ */
+export type MerchantLocation = Prisma.MerchantLocationModel
+/**
  * Model GiftCard
  * 
  */
 export type GiftCard = Prisma.GiftCardModel
+/**
+ * Model GiftCardLocationCapability
+ * *
+ *  * Explicit evidence for a card's in-store capability at one location.
+ *  * No row means unknown; `available = false` is an evidenced negative claim.
+ */
+export type GiftCardLocationCapability = Prisma.GiftCardLocationCapabilityModel
 /**
  * Model GiftCardVariant
  * 

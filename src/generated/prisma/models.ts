@@ -9,7 +9,9 @@
  * 🟢 You can import this file directly.
  */
 export type * from './models/Merchant'
+export type * from './models/MerchantLocation'
 export type * from './models/GiftCard'
+export type * from './models/GiftCardLocationCapability'
 export type * from './models/GiftCardVariant'
 export type * from './models/GiftCardValue'
 export type * from './models/GiftCardRedemption'

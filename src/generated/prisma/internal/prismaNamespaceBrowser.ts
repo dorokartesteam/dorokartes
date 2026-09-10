@@ -52,7 +52,9 @@ export const AnyNull = runtime.AnyNull
 
 export const ModelName = {
   Merchant: 'Merchant',
+  MerchantLocation: 'MerchantLocation',
   GiftCard: 'GiftCard',
+  GiftCardLocationCapability: 'GiftCardLocationCapability',
   GiftCardVariant: 'GiftCardVariant',
   GiftCardValue: 'GiftCardValue',
   GiftCardRedemption: 'GiftCardRedemption',
@@ -119,6 +121,32 @@ export const MerchantScalarFieldEnum = {
 export type MerchantScalarFieldEnum = (typeof MerchantScalarFieldEnum)[keyof typeof MerchantScalarFieldEnum]
 
 
+export const MerchantLocationScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  label: 'label',
+  countryCode: 'countryCode',
+  administrativeArea: 'administrativeArea',
+  city: 'city',
+  area: 'area',
+  addressLine: 'addressLine',
+  postalCode: 'postalCode',
+  latitude: 'latitude',
+  longitude: 'longitude',
+  normalizedKey: 'normalizedKey',
+  sourceUrl: 'sourceUrl',
+  sourceExcerpt: 'sourceExcerpt',
+  active: 'active',
+  verificationStatus: 'verificationStatus',
+  lastVerifiedAt: 'lastVerifiedAt',
+  nextReviewAt: 'nextReviewAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantLocationScalarFieldEnum = (typeof MerchantLocationScalarFieldEnum)[keyof typeof MerchantLocationScalarFieldEnum]
+
+
 export const GiftCardScalarFieldEnum = {
   id: 'id',
   merchantId: 'merchantId',
@@ -144,6 +172,23 @@ export const GiftCardScalarFieldEnum = {
 } as const
 
 export type GiftCardScalarFieldEnum = (typeof GiftCardScalarFieldEnum)[keyof typeof GiftCardScalarFieldEnum]
+
+
+export const GiftCardLocationCapabilityScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  merchantLocationId: 'merchantLocationId',
+  capability: 'capability',
+  available: 'available',
+  verificationStatus: 'verificationStatus',
+  sourceUrl: 'sourceUrl',
+  sourceExcerpt: 'sourceExcerpt',
+  lastVerifiedAt: 'lastVerifiedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type GiftCardLocationCapabilityScalarFieldEnum = (typeof GiftCardLocationCapabilityScalarFieldEnum)[keyof typeof GiftCardLocationCapabilityScalarFieldEnum]
 
 
 export const GiftCardVariantScalarFieldEnum = {

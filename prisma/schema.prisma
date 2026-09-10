@@ -54,6 +54,11 @@ enum RedemptionChannel {
   EMAIL
 }
 
+enum LocationCapabilityType {
+  PURCHASE_IN_STORE
+  REDEEM_IN_STORE
+}
+
 enum DeliveryMethod {
   EMAIL
   SMS
@@ -106,7 +111,6 @@ enum MediaUsageStatus {
   GENERATED
   DO_NOT_USE
 }
-
 
 enum VerificationMethod {
   HTTP
@@ -195,6 +199,8 @@ model Merchant {
 
   giftCards GiftCard[]
 
+  locations MerchantLocation[]
+
   sources     SourceRecord[]
   mediaAssets MediaAsset[]
   clicks      OutboundClick[]
@@ -205,6 +211,45 @@ model Merchant {
   @@index([name])
   @@index([status])
   @@index([featured])
+}
+
+/**
+ * A physical merchant point backed by an explicit source URL.
+ * Location presence alone never implies gift-card purchase or redemption.
+ */
+model MerchantLocation {
+  id         String   @id @default(cuid())
+  merchantId String
+  merchant   Merchant @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+
+  label              String?
+  countryCode        String   @default("GR")
+  administrativeArea String?
+  city               String
+  area               String?
+  addressLine        String
+  postalCode         String?
+  latitude           Decimal? @db.Decimal(9, 6)
+  longitude          Decimal? @db.Decimal(9, 6)
+
+  normalizedKey String
+  sourceUrl     String
+  sourceExcerpt String?
+
+  active             Boolean            @default(true)
+  verificationStatus VerificationStatus @default(DISCOVERED)
+  lastVerifiedAt     DateTime?
+  nextReviewAt       DateTime?
+
+  giftCardCapabilities GiftCardLocationCapability[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([merchantId, normalizedKey])
+  @@index([countryCode, administrativeArea, city])
+  @@index([city, area])
+  @@index([verificationStatus, active])
 }
 
 /**
@@ -267,18 +312,46 @@ model GiftCard {
 
   verificationEvents VerificationEvent[]
 
+  locationCapabilities GiftCardLocationCapability[]
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  reviewFlags ProductionReviewFlag[]
+
+  productionVerificationSnapshots ProductionVerificationSnapshot[]
 
   @@index([merchantId])
   @@index([status])
   @@index([verificationStatus])
   @@index([featured])
   @@index([lastVerifiedAt])
+}
 
-  reviewFlags ProductionReviewFlag[]
+/**
+ * Explicit evidence for a card's in-store capability at one location.
+ * No row means unknown; `available = false` is an evidenced negative claim.
+ */
+model GiftCardLocationCapability {
+  id                 String                 @id @default(cuid())
+  giftCardId         String
+  giftCard           GiftCard               @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+  merchantLocationId String
+  merchantLocation   MerchantLocation       @relation(fields: [merchantLocationId], references: [id], onDelete: Cascade)
+  capability         LocationCapabilityType
+  available          Boolean                @default(true)
+  verificationStatus VerificationStatus     @default(DISCOVERED)
+  sourceUrl          String
+  sourceExcerpt      String?
+  lastVerifiedAt     DateTime?
 
-  productionVerificationSnapshots ProductionVerificationSnapshot[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([giftCardId, merchantLocationId, capability])
+  @@index([merchantLocationId, capability, available])
+  @@index([giftCardId, capability, available])
+  @@index([verificationStatus])
 }
 
 /**
@@ -580,14 +653,13 @@ model DiscoveryItem {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  fetchObservations VerificationFetchObservation[]
+
   @@index([status])
   @@index([sourceType])
   @@index([merchantName])
   @@index([discoveredAt])
-
-  fetchObservations VerificationFetchObservation[]
 }
-
 
 /**
  * |--------------------------------------------------------------------------
@@ -618,7 +690,7 @@ model ManualCanonicalOverride {
 model ScoringModelVersion {
   id String @id @default(cuid())
 
-  key         String @unique
+  key         String  @unique
   description String?
   config      Json
 
@@ -692,9 +764,9 @@ model DiscoveryVerificationAttempt {
   discoveryItemId String
   discoveryItem   DiscoveryItem @relation(fields: [discoveryItemId], references: [id], onDelete: Cascade)
 
-  method VerificationMethod
-  result VerificationAttemptResult
-  pageRole VerificationPageRole @default(UNKNOWN)
+  method   VerificationMethod
+  result   VerificationAttemptResult
+  pageRole VerificationPageRole      @default(UNKNOWN)
 
   requestedUrl String
   finalUrl     String?
@@ -703,9 +775,9 @@ model DiscoveryVerificationAttempt {
 
   confidence Float?
 
-  modelName String?
+  modelName     String?
   promptVersion String?
-  contentHash String?
+  contentHash   String?
 
   temperature Float?
 
@@ -729,42 +801,41 @@ model DiscoveryVerificationAttempt {
   @@index([checkedAt])
 }
 
-
 /**
  * |--------------------------------------------------------------------------
  * | MANUAL VERIFICATION OVERRIDES
  * |--------------------------------------------------------------------------
  */
 model ManualVerificationOverride {
-  id String @id @default(cuid())
-  sourceUrl String @unique
-  forcedStatus DiscoveryStatus
-  forcedPageRole VerificationPageRole
-  forcedMerchantName String?
-  reason String
-  setBy String
-  contentHash String?
-  lockUntilContentChanges Boolean @default(true)
-  active Boolean @default(true)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id                      String               @id @default(cuid())
+  sourceUrl               String               @unique
+  forcedStatus            DiscoveryStatus
+  forcedPageRole          VerificationPageRole
+  forcedMerchantName      String?
+  reason                  String
+  setBy                   String
+  contentHash             String?
+  lockUntilContentChanges Boolean              @default(true)
+  active                  Boolean              @default(true)
+  createdAt               DateTime             @default(now())
+  updatedAt               DateTime             @updatedAt
 
   @@index([active])
   @@index([forcedStatus])
 }
 
 model DomainRediscoveryTask {
-  id String @id @default(cuid())
+  id             String                @id @default(cuid())
   merchantDomain String
-  merchantName String?
-  triggerUrl String
-  triggerReason String
-  status RediscoveryTaskStatus @default(PENDING)
-  attempts Int @default(0)
-  lastAttemptAt DateTime?
-  resolvedUrl String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  merchantName   String?
+  triggerUrl     String
+  triggerReason  String
+  status         RediscoveryTaskStatus @default(PENDING)
+  attempts       Int                   @default(0)
+  lastAttemptAt  DateTime?
+  resolvedUrl    String?
+  createdAt      DateTime              @default(now())
+  updatedAt      DateTime              @updatedAt
 
   @@index([merchantDomain])
   @@index([status])
@@ -775,13 +846,13 @@ model VerificationFetchObservation {
   id String @id @default(cuid())
 
   discoveryItemId String
-  discoveryItem DiscoveryItem @relation(fields: [discoveryItemId], references: [id], onDelete: Cascade)
+  discoveryItem   DiscoveryItem @relation(fields: [discoveryItemId], references: [id], onDelete: Cascade)
 
   preflightKind String
-  contentHash String?
-  httpStatus Int?
-  fetchTier String?
-  observedAt DateTime @default(now())
+  contentHash   String?
+  httpStatus    Int?
+  fetchTier     String?
+  observedAt    DateTime @default(now())
 
   @@index([discoveryItemId, observedAt])
   @@index([preflightKind])
@@ -791,16 +862,16 @@ model ProductionReviewFlag {
   id String @id @default(cuid())
 
   giftCardId String
-  giftCard GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+  giftCard   GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
 
-  type ReviewFlagType
+  type   ReviewFlagType
   status ReviewFlagStatus @default(OPEN)
 
   oldValue String?
   newValue String?
-  reason String
+  reason   String
 
-  createdAt DateTime @default(now())
+  createdAt  DateTime  @default(now())
   resolvedAt DateTime?
 
   @@index([giftCardId, status])
@@ -811,16 +882,16 @@ model ProductionVerificationSnapshot {
   id String @id @default(cuid())
 
   giftCardId String
-  giftCard GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+  giftCard   GiftCard @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
 
-  officialUrl String
-  contentHash String?
-  pageRole VerificationPageRole?
-  httpStatus Int?
-  fetchTier String?
+  officialUrl   String
+  contentHash   String?
+  pageRole      VerificationPageRole?
+  httpStatus    Int?
+  fetchTier     String?
   preflightKind String
-  source String
-  observedAt DateTime @default(now())
+  source        String
+  observedAt    DateTime              @default(now())
 
   @@index([giftCardId, observedAt])
   @@index([officialUrl])
@@ -1017,20 +1088,19 @@ model SearchEvent {
   @@index([query])
 }
 
-
 model MerchantDiscoveryScan {
   id String @id @default(cuid())
 
-  merchantDomain String @unique
-  merchantName String
-  websiteUrl String
-  category String?
+  merchantDomain String  @unique
+  merchantName   String
+  websiteUrl     String
+  category       String?
 
-  status DiscoveryScanStatus @default(PENDING)
-  candidateCount Int @default(0)
-  requestCount Int @default(0)
-  lastError String?
-  lastScannedAt DateTime?
+  status         DiscoveryScanStatus @default(PENDING)
+  candidateCount Int                 @default(0)
+  requestCount   Int                 @default(0)
+  lastError      String?
+  lastScannedAt  DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

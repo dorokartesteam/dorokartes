@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dk-ink: #171826;
+  --dk-muted: #696f7f;
+  --dk-line: #e5e5ee;
+  --dk-canvas: #f7f7fa;
+  --dk-surface: #ffffff;
+  --dk-violet: #6847d9;
+  --dk-violet-dark: #43279f;
+  --dk-blue: #3777d6;
+  --dk-radius-lg: 24px;
+  --dk-shadow-sm: 0 10px 30px rgba(31, 27, 57, 0.06);
+  --dk-shadow-lg: 0 28px 80px rgba(31, 27, 57, 0.12);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--dk-canvas);
+  color: var(--dk-ink);
+  font-family: "Segoe UI Variable Text", "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(104, 71, 217, 0.2);
 }
