@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { cache } from "react";
 import { notFound } from "next/navigation";
 import GiftCardCard from "@/components/public/GiftCardCard";
+import MerchantLogo from "@/components/public/MerchantLogo";
 import PublicFooter from "@/components/public/PublicFooter";
 import PublicHeader from "@/components/public/PublicHeader";
 import { prisma } from "@/lib/prisma";
@@ -93,17 +93,7 @@ export default async function BrandPage({
 
           <section className="dk25-brand-hero">
             <div className="dk25-brand-logo">
-              {brand.logoUrl ? (
-                <Image
-                  src={brand.logoUrl}
-                  alt={`Λογότυπο ${brand.name}`}
-                  width={180}
-                  height={100}
-                  unoptimized
-                />
-              ) : (
-                <span>{brand.name.slice(0, 2).toUpperCase()}</span>
-              )}
+              <MerchantLogo name={brand.name} src={brand.logoUrl} variant="brand-hero" />
             </div>
 
             <div className="dk25-taxonomy-copy">

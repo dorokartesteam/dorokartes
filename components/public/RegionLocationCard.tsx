@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import MerchantLogo from "@/components/public/MerchantLogo";
 
 type RegionLocationCardProps = {
   distanceKm?: number | null;
@@ -58,11 +58,7 @@ export default function RegionLocationCard({ location, distanceKm }: RegionLocat
     <article className="dk28-location-card">
       <div className="dk28-location-brand">
         <div className="dk28-location-logo">
-          {location.merchant.logoUrl ? (
-            <Image src={location.merchant.logoUrl} alt={location.merchant.name} width={52} height={52} />
-          ) : (
-            <span>{location.merchant.name.slice(0, 2).toUpperCase()}</span>
-          )}
+          <MerchantLogo name={location.merchant.name} src={location.merchant.logoUrl} variant="location" />
         </div>
         <div>
           <span>{cardCount > 1 ? `${cardCount} διαθέσιμες δωροκάρτες` : category}</span>

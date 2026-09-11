@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import MerchantLogo from "@/components/public/MerchantLogo";
 
 type MerchantItem = {
   id: string;
@@ -25,17 +25,7 @@ export default function BrandsSection({ merchants }: { merchants: MerchantItem[]
           {merchants.slice(0, 14).map((merchant, index) => (
             <Link key={merchant.id} prefetch={false} href={`/brands/${merchant.slug}`} className={`tone-${index % 6}`}>
               <div className="dk20-brand-logo">
-                {merchant.logoUrl ? (
-                  <Image
-                    src={merchant.logoUrl}
-                    alt={`Λογότυπο ${merchant.name}`}
-                    width={120}
-                    height={70}
-                    unoptimized
-                  />
-                ) : (
-                  <span>{merchant.name.slice(0,2).toUpperCase()}</span>
-                )}
+                <MerchantLogo name={merchant.name} src={merchant.logoUrl} variant="brand-tile" />
               </div>
               <b>{merchant.name}</b>
               <small>{merchant._count?.giftCards || 0} δωροκάρτες</small>

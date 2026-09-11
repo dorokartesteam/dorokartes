@@ -15,6 +15,159 @@
   background: #f8f8fb;
 }
 
+/* Merchant identity fallback: every public card keeps a complete visual even
+   while an official, provenance-checked logo asset is still under review. */
+.dk-merchant-wordmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+  max-width: 100%;
+  color: #34256f;
+  background:
+    radial-gradient(circle at 88% 8%, rgba(224, 111, 166, 0.16), transparent 32%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(241, 238, 255, 0.98));
+  border: 1px solid rgba(105, 78, 203, 0.18);
+  box-shadow: 0 13px 34px rgba(56, 39, 119, 0.1);
+  text-align: center;
+}
+
+.dk-merchant-wordmark strong {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.96;
+}
+
+.dk-merchant-wordmark small {
+  color: #806fbd;
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  line-height: 1;
+}
+
+.dk-merchant-wordmark--card {
+  width: min(92%, 270px);
+  min-height: 92px;
+  padding: 17px 20px;
+  border-radius: 22px;
+}
+
+.dk-merchant-wordmark--card strong {
+  font-size: clamp(19px, 2.1vw, 28px);
+}
+
+.dk-merchant-wordmark--card.is-long strong {
+  font-size: clamp(17px, 1.8vw, 23px);
+  line-height: 1.02;
+}
+
+.dk-merchant-wordmark--card.is-very-long strong {
+  font-size: clamp(14px, 1.5vw, 19px);
+  line-height: 1.06;
+}
+
+.dk-merchant-wordmark--detail {
+  width: min(90%, 390px);
+  min-height: 158px;
+  padding: 28px 34px;
+  border-radius: 32px;
+}
+
+.dk-merchant-wordmark--detail strong {
+  font-size: clamp(30px, 4vw, 54px);
+}
+
+.dk-merchant-wordmark--detail.is-long strong {
+  font-size: clamp(25px, 3.2vw, 42px);
+  line-height: 1.02;
+}
+
+.dk-merchant-wordmark--detail.is-very-long strong {
+  font-size: clamp(20px, 2.5vw, 34px);
+  line-height: 1.06;
+}
+
+.dk-merchant-wordmark--brand-tile,
+.dk-merchant-wordmark--location,
+.dk-merchant-wordmark--brand-hero {
+  flex: 0 0 auto;
+  aspect-ratio: 1;
+}
+
+.dk-merchant-wordmark--brand-tile {
+  width: 48px;
+  border-radius: 14px;
+}
+
+.dk-merchant-wordmark--brand-tile strong {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+}
+
+.dk-merchant-wordmark--location {
+  width: 46px;
+  border-radius: 13px;
+  box-shadow: none;
+}
+
+.dk-merchant-wordmark--location strong {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+}
+
+.dk-merchant-wordmark--brand-hero {
+  width: 100%;
+  border: 0;
+  border-radius: 14px;
+  box-shadow: none;
+}
+
+.dk-merchant-wordmark--brand-hero strong {
+  font-size: 20px;
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 720px) {
+  .dk-merchant-wordmark--card {
+    min-height: 84px;
+    padding: 14px 17px;
+  }
+
+  .dk-merchant-wordmark--card strong {
+    font-size: clamp(18px, 7vw, 25px);
+  }
+
+  .dk-merchant-wordmark--card.is-long strong {
+    font-size: clamp(16px, 5.7vw, 21px);
+  }
+
+  .dk-merchant-wordmark--card.is-very-long strong {
+    font-size: clamp(13px, 4.8vw, 17px);
+  }
+
+  .dk-merchant-wordmark--detail {
+    min-height: 128px;
+    padding: 22px 24px;
+  }
+
+  .dk-merchant-wordmark--detail strong {
+    font-size: clamp(28px, 10vw, 44px);
+  }
+
+  .dk-merchant-wordmark--detail.is-long strong {
+    font-size: clamp(23px, 8vw, 34px);
+  }
+
+  .dk-merchant-wordmark--detail.is-very-long strong {
+    font-size: clamp(18px, 6.4vw, 27px);
+  }
+}
+
 .dk14-site a,
 .dk-public a {
   text-decoration: none;

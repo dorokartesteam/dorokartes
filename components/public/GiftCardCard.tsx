@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { PublicCard } from "@/lib/public/data";
+import MerchantLogo from "@/components/public/MerchantLogo";
 
 export default function GiftCardCard({ card }: { card: PublicCard }) {
   const category =
@@ -17,20 +17,11 @@ export default function GiftCardCard({ card }: { card: PublicCard }) {
           <div className="dk24-logo-glow two" />
 
           <div className="dk24-logo-center">
-            {merchantLogo ? (
-              <Image
-                src={merchantLogo}
-                alt={`Λογότυπο ${card.merchant?.name || "εμπόρου"}`}
-                width={220}
-                height={120}
-                sizes="(max-width: 720px) 60vw, 220px"
-                unoptimized
-              />
-            ) : (
-              <div className="dk24-initials">
-                {card.merchant?.name?.slice(0, 2).toUpperCase() || "GC"}
-              </div>
-            )}
+            <MerchantLogo
+              name={card.merchant?.name || "Gift Card"}
+              src={merchantLogo}
+              variant="card"
+            />
           </div>
 
           <div className="dk24-visual-top">

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import PublicHeader from "@/components/public/PublicHeader";
 import PublicFooter from "@/components/public/PublicFooter";
+import MerchantLogo from "@/components/public/MerchantLogo";
 import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
@@ -241,19 +241,7 @@ export default async function GiftCardPage({
               <div className="dk24-detail-glow two" />
 
               <div className="dk24-detail-logo">
-                {logo ? (
-                  <Image
-                    src={logo}
-                    alt={`Λογότυπο ${card.merchant.name}`}
-                    width={260}
-                    height={150}
-                    unoptimized
-                  />
-                ) : (
-                  <div className="dk24-detail-initials">
-                    {card.merchant.name.slice(0, 2).toUpperCase()}
-                  </div>
-                )}
+                <MerchantLogo name={card.merchant.name} src={logo} variant="detail" />
               </div>
 
               <div className="dk24-detail-visual-label">
