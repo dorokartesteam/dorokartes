@@ -24,6 +24,17 @@ export default function PublicFooter() {
           <Link href="/regions">Περιοχές</Link>
         </div>
 
+        <div className="dk14-footer-col dk14-footer-contact" id="contact">
+          <b>Επικοινωνία</b>
+          <p>Έχεις κατάστημα ή θέλεις να μας στείλεις μία διόρθωση;</p>
+          <a className="dk14-footer-email" href="mailto:info@dorokartes.gr">
+            info@dorokartes.gr
+          </a>
+          <Link href="/register-store">
+            Εγγραφή καταστήματος <span aria-hidden="true">→</span>
+          </Link>
+        </div>
+
         <div className="dk14-footer-col">
           <b>Σημαντικό</b>
           <p>Το Dorokartes δεν εκδίδει ούτε πωλεί δωροκάρτες. Οι τελικοί όροι και η διαθεσιμότητα επιβεβαιώνονται στον επίσημο έμπορο.</p>

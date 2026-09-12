@@ -1383,3 +1383,307 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Merchant registration and public contact */
+.dk14-header-cta.active {
+  box-shadow:
+    0 0 0 3px rgba(104, 71, 217, 0.12),
+    0 16px 30px rgba(66, 42, 144, 0.24);
+}
+
+.dk14-footer-grid {
+  grid-template-columns:
+    minmax(250px, 1.5fr)
+    minmax(140px, 0.7fr)
+    minmax(220px, 1fr)
+    minmax(240px, 1.15fr);
+  gap: 38px;
+}
+
+.dk14-footer-contact p {
+  max-width: 250px;
+}
+
+.dk14-footer-contact .dk14-footer-email {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  min-height: 37px;
+  margin: 10px 0 7px;
+  padding: 0 12px;
+  border: 1px solid rgba(104, 71, 217, 0.17);
+  border-radius: 10px;
+  color: #49349e;
+  background: rgba(255, 255, 255, 0.72);
+  font-weight: 760;
+  box-shadow: 0 7px 20px rgba(56, 39, 119, 0.05);
+}
+
+.dk30-register {
+  padding: 42px 0 86px;
+  background:
+    radial-gradient(circle at 8% 4%, rgba(104, 71, 217, 0.11), transparent 27%),
+    radial-gradient(circle at 93% 16%, rgba(221, 82, 157, 0.08), transparent 24%),
+    linear-gradient(180deg, #fafaff, #f7f7fa 64%, #fbfbfd);
+}
+
+.dk30-register-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(350px, 0.8fr);
+  gap: 54px;
+  align-items: center;
+  min-height: 610px;
+  padding: 66px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 34px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 88% 8%, rgba(174, 122, 255, 0.32), transparent 27%),
+    radial-gradient(circle at 5% 92%, rgba(45, 151, 226, 0.22), transparent 29%),
+    linear-gradient(138deg, #151521, #25203b 52%, #432873);
+  box-shadow: 0 36px 92px rgba(31, 25, 58, 0.21);
+}
+
+.dk30-register-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.14;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.13) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.13) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to right, #000, transparent 78%);
+}
+
+.dk30-register-copy,
+.dk30-register-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.dk30-register-kicker,
+.dk30-register-panel-label {
+  display: inline-flex;
+  align-items: center;
+  min-height: 29px;
+  color: #dcd3ff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.dk30-register-kicker {
+  padding: 0 11px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.dk30-register-copy h1 {
+  max-width: 720px;
+  margin: 21px 0 18px;
+  color: #fff;
+  font-size: clamp(46px, 5.4vw, 74px);
+  font-weight: 720;
+  line-height: 0.97;
+  letter-spacing: -0.065em;
+}
+
+.dk30-register-copy > p {
+  max-width: 650px;
+  margin: 0;
+  color: #cdc9d8;
+  font-size: 15px;
+  line-height: 1.72;
+}
+
+.dk30-register-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.dk30-register-actions a {
+  min-height: 49px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  border-radius: 13px;
+  font-size: 12.5px;
+  font-weight: 760;
+}
+
+.dk30-register-primary {
+  gap: 18px;
+  color: #211a38;
+  background: #fff;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+}
+
+.dk30-register-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.dk30-register-copy > small {
+  display: block;
+  max-width: 620px;
+  margin-top: 21px;
+  color: #a9a5b5;
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+.dk30-register-panel {
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.085);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 26px 62px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(18px);
+}
+
+.dk30-register-panel h2 {
+  margin: 8px 0 21px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.dk30-register-panel ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dk30-register-panel li {
+  display: grid;
+  grid-template-columns: 35px minmax(0, 1fr);
+  gap: 11px;
+  align-items: center;
+  min-height: 55px;
+  padding: 8px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.dk30-register-panel li > span {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: #d9d0ff;
+  background: rgba(255, 255, 255, 0.09);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.dk30-register-panel li p {
+  margin: 0;
+  color: #c5c1cf;
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+
+.dk30-register-panel li b {
+  color: #fff;
+}
+
+.dk30-register-email {
+  margin-top: 15px;
+  padding: 15px 16px;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.dk30-register-email span,
+.dk30-register-email a {
+  display: block;
+}
+
+.dk30-register-email span {
+  color: #8c8799;
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.dk30-register-email a {
+  margin-top: 4px;
+  color: #4f36a6;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+@media (max-width: 1100px) {
+  .dk14-footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dk30-register-hero {
+    gap: 34px;
+    padding: 48px;
+  }
+}
+
+@media (max-width: 860px) {
+  .dk30-register-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .dk14-header-cta {
+    max-width: 144px;
+    height: 40px;
+    padding: 0 11px;
+    font-size: 10.5px;
+    text-align: center;
+  }
+
+  .dk14-footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dk30-register {
+    padding: 14px 0 58px;
+  }
+
+  .dk30-register-hero {
+    gap: 30px;
+    padding: 32px 21px 22px;
+    border-radius: 25px;
+  }
+
+  .dk30-register-copy h1 {
+    margin-top: 17px;
+    font-size: clamp(39px, 12.5vw, 54px);
+  }
+
+  .dk30-register-copy > p {
+    font-size: 13px;
+  }
+
+  .dk30-register-actions a {
+    flex: 1 1 100%;
+  }
+
+  .dk30-register-panel {
+    padding: 20px;
+  }
+}

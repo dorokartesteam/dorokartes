@@ -13,6 +13,7 @@ export default function PublicHeader() {
   const categoriesActive = pathname.startsWith("/categories");
   const occasionsActive = pathname.startsWith("/occasions");
   const regionsActive = pathname.startsWith("/regions");
+  const storeRegistrationActive = pathname === "/register-store";
 
   return (
     <header className="dk14-header">
@@ -32,7 +33,13 @@ export default function PublicHeader() {
           <Link className={regionsActive ? "active" : ""} aria-current={regionsActive ? "page" : undefined} href="/regions">Περιοχές</Link>
         </nav>
 
-        <Link className="dk14-header-cta" href="/browse">Βρες δωροκάρτα</Link>
+        <Link
+          className={"dk14-header-cta" + (storeRegistrationActive ? " active" : "")}
+          aria-current={storeRegistrationActive ? "page" : undefined}
+          href="/register-store"
+        >
+          Εγγραφή καταστήματος
+        </Link>
       </div>
     </header>
   );
