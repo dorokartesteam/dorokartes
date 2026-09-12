@@ -9,8 +9,11 @@ type TaxonomyLandingProps = {
   kind: "category" | "occasion";
   name: string;
   slug: string;
+  heading?: string;
   description: string | null;
   icon: string | null;
+  relatedCategories?: readonly { name: string; slug: string }[];
+  relatedOccasions?: readonly { name: string; slug: string }[];
   cards: PublicCard[];
   totalCount: number;
   currentPage: number;
@@ -72,8 +75,11 @@ export default function TaxonomyLanding({
   kind,
   name,
   slug,
+  heading,
   description,
   icon,
+  relatedCategories,
+  relatedOccasions,
   cards,
   totalCount,
   currentPage,
@@ -82,6 +88,9 @@ export default function TaxonomyLanding({
   const isCategory = kind === "category";
   const label = isCategory ? "ΚΑΤΗΓΟΡΙΑ" : "ΠΕΡΙΣΤΑΣΗ";
   const browseParam = isCategory ? "category" : "occasion";
+  const relatedItems = isCategory ? relatedCategories : relatedOccasions;
+  const relatedLabel = isCategory ? "ΣΧΕΤΙΚΕΣ ΚΑΤΗΓΟΡΙΕΣ" : "ΣΧΕΤΙΚΕΣ ΠΕΡΙΣΤΑΣΕΙΣ";
+  const relatedBasePath = isCategory ? "/categories" : "/occasions";
   const fallback = isCategory
     ? `Ανακάλυψε ενεργές δωροκάρτες στην κατηγορία «${name}» και συνέχισε στον ιστότοπο του εμπόρου.`
     : `Ιδέες για δωροκάρτες που ταιριάζουν στην περίσταση «${name}», από καταστήματα και υπηρεσίες.`;
@@ -108,8 +117,24 @@ export default function TaxonomyLanding({
             </div>
             <div className="dk25-taxonomy-copy">
               <span>{label}</span>
-              <h1>{name}</h1>
+              <h1>{heading || name}</h1>
               <p>{description || fallback}</p>
+              {relatedItems?.length ? (
+                <div className="dk31-related-categories">
+                  <span>{relatedLabel}</span>
+                  <nav className="dk-public-filter-row" aria-label={`${relatedLabel.toLocaleLowerCase("el-GR")} για ${name}`}>
+                    {relatedItems.map((item) => (
+                      <Link
+                        key={item.slug}
+                        prefetch={false}
+                        href={`${relatedBasePath}/${encodeURIComponent(item.slug)}`}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </nav>
+                </div>
+              ) : null}
             </div>
             <Link href={`/browse?${browseParam}=${encodeURIComponent(slug)}`}>
               Προβολή στον κατάλογο <b>→</b>

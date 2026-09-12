@@ -3,7 +3,8 @@ import { cache } from "react";
 import { notFound } from "next/navigation";
 import TaxonomyLanding from "@/components/public/TaxonomyLanding";
 import { prisma } from "@/lib/prisma";
-import { getPublicCardPage, parsePublicPage } from "@/lib/public/data";
+import { getCategoryLandingContent } from "@/lib/public/category-landing-content";
+import { PUBLIC_CATALOG_PAGE_SIZE, getPublicCardPage, parsePublicPage } from "@/lib/public/data";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +18,9 @@ const getCategoryPage = cache(async (slug: string) => {
       icon: true,
       seoTitle: true,
       metaDescription: true,
+      _count: {
+        select: { giftCards: { where: { giftCard: { status: "ACTIVE" } } } },
+      },
     },
   });
 
@@ -24,6 +28,21 @@ const getCategoryPage = cache(async (slug: string) => {
 
   return category;
 });
+
+async function getRelatedCategories(slugs: readonly string[]) {
+  if (slugs.length === 0) return [];
+
+  const categories = await prisma.category.findMany({
+    where: { active: true, slug: { in: [...slugs] } },
+    select: { name: true, slug: true },
+  });
+  const bySlug = new Map(categories.map((category) => [category.slug, category]));
+
+  return slugs.flatMap((slug) => {
+    const category = bySlug.get(slug);
+    return category ? [category] : [];
+  });
+}
 
 export async function generateMetadata({
   params,
@@ -42,18 +61,27 @@ export async function generateMetadata({
     };
   }
 
-  const title = category.seoTitle ? { absolute: category.seoTitle } : `${category.name} – Δωροκάρτες`;
+  const landingContent = getCategoryLandingContent(category.slug);
+  const fallbackTitle = `${category.name} – Δωροκάρτες`;
+  const title = category.seoTitle
+    ? { absolute: category.seoTitle }
+    : landingContent?.seoTitle || fallbackTitle;
   const description =
     category.metaDescription ||
+    landingContent?.metaDescription ||
     category.description ||
     `Δωροκάρτες στην κατηγορία ${category.name}, συγκεντρωμένες στο Dorokartes.gr.`;
-  const canonical = `/categories/${encodeURIComponent(category.slug)}`;
+  const requestedPage = parsePublicPage(query.page);
+  const totalPages = Math.max(1, Math.ceil(category._count.giftCards / PUBLIC_CATALOG_PAGE_SIZE));
+  const canonicalPage = Math.min(requestedPage, totalPages);
+  const basePath = `/categories/${encodeURIComponent(category.slug)}`;
+  const canonical = canonicalPage === 1 ? basePath : `${basePath}?page=${canonicalPage}`;
   return {
     title,
     description,
     alternates: { canonical },
-    robots: { index: parsePublicPage(query.page) === 1, follow: true },
-    openGraph: { title: category.seoTitle || `${category.name} – Δωροκάρτες`, description, url: canonical },
+    robots: { index: requestedPage === 1 && category._count.giftCards > 0, follow: true },
+    openGraph: { title: category.seoTitle || landingContent?.seoTitle || fallbackTitle, description, url: canonical },
   };
 }
 
@@ -69,21 +97,27 @@ export default async function CategoryPage({
 
   if (!category) notFound();
 
-  const cardPage = await getPublicCardPage(
-    {
-      status: "ACTIVE",
-      categories: { some: { category: { slug, active: true } } },
-    },
-    parsePublicPage(query.page),
-  );
+  const landingContent = getCategoryLandingContent(category.slug);
+  const [cardPage, relatedCategories] = await Promise.all([
+    getPublicCardPage(
+      {
+        status: "ACTIVE",
+        categories: { some: { category: { slug, active: true } } },
+      },
+      parsePublicPage(query.page),
+    ),
+    getRelatedCategories(landingContent?.relatedSlugs ?? []),
+  ]);
 
   return (
     <TaxonomyLanding
       kind="category"
       name={category.name}
       slug={category.slug}
-      description={category.description}
+      heading={landingContent?.heading}
+      description={landingContent?.intro || category.description}
       icon={category.icon}
+      relatedCategories={relatedCategories}
       cards={cardPage.cards}
       totalCount={cardPage.totalCount}
       currentPage={cardPage.currentPage}

@@ -672,6 +672,35 @@
   box-shadow: 0 9px 24px rgba(81, 54, 165, 0.18);
 }
 
+.dk31-related-categories {
+  margin-top: 15px;
+}
+
+.dk31-related-categories > span {
+  display: block;
+  color: #817a96;
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.dk31-related-categories .dk-public-filter-row {
+  flex-wrap: wrap;
+  overflow: visible;
+  padding: 8px 0 0;
+}
+
+.dk31-related-categories .dk-public-filter-row a {
+  box-shadow: 0 6px 18px rgba(49, 40, 91, 0.045);
+  transition: transform 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.dk31-related-categories .dk-public-filter-row a:hover {
+  transform: translateY(-1px);
+  border-color: rgba(104, 71, 217, 0.32);
+  color: var(--dk27-violet-dark);
+}
+
 .dk14-footer {
   border-top-color: rgba(35, 31, 58, 0.09);
   background: #f2f2f6;
