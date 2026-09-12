@@ -109,7 +109,7 @@ export async function getHomeData(){
   const [cards,categories,occasions,merchants,totalCards]=await Promise.all([
     prisma.giftCard.findMany({where:{status:"ACTIVE"},orderBy:[{featured:"desc"},{updatedAt:"desc"}],take:18,select:publicCardSelect}),
     prisma.category.findMany({where:{active:true},orderBy:[{sortOrder:"asc"},{name:"asc"}],select:{id:true,name:true,slug:true,icon:true,_count:{select:{giftCards:{where:{giftCard:{status:"ACTIVE"}}}}}}}),
-    prisma.occasion.findMany({where:{active:true,giftCards:{some:{giftCard:{status:"ACTIVE"}}}},orderBy:[{sortOrder:"asc"},{name:"asc"}],take:12,select:{id:true,name:true,slug:true,icon:true,_count:{select:{giftCards:{where:{giftCard:{status:"ACTIVE"}}}}}}}),
+    prisma.occasion.findMany({where:{active:true,giftCards:{some:{giftCard:{status:"ACTIVE"}}}},orderBy:[{sortOrder:"asc"},{name:"asc"}],select:{id:true,name:true,slug:true,icon:true,_count:{select:{giftCards:{where:{giftCard:{status:"ACTIVE"}}}}}}}),
     prisma.merchant.findMany({where:{status:"ACTIVE",giftCards:{some:{status:"ACTIVE"}}},orderBy:[{featured:"desc"},{name:"asc"}],take:14,select:{id:true,name:true,slug:true,logoUrl:true,_count:{select:{giftCards:{where:{status:"ACTIVE"}}}}}}),
     prisma.giftCard.count({where:{status:"ACTIVE"}}),
   ]);

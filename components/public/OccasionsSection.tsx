@@ -43,7 +43,7 @@ export default function OccasionsSection({ occasions }: { occasions: OccasionIte
         </div>
 
         <div className="dk20-occasion-grid">
-          {occasions.slice(0, 12).map((occasion, index) => (
+          {occasions.map((occasion, index) => (
             <Link key={occasion.id} prefetch={false} href={`/occasions/${occasion.slug}`} className={`tone-${index % 6}`}>
               <div className="dk20-occasion-icon" aria-hidden="true">{occasionDisplayIcon(occasion.icon)}</div>
               <b>{occasion.name}</b>
