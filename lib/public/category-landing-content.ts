@@ -71,12 +71,12 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     relatedSlugs: ["fashion", "beauty", "gifts-concept-stores"],
   },
   "food-delivery": {
-    seoTitle: "Δωροκάρτες για Φαγητό & Delivery",
+    seoTitle: "Δωροκάρτες για Τρόφιμα, Ποτά & Delivery",
     metaDescription:
-      "Βρες δωροκάρτες για φαγητό και delivery, σύγκρινε ενεργές επιλογές και έλεγξε κάλυψη και όρους στον επίσημο πάροχο.",
-    heading: "Δωροκάρτες για φαγητό και delivery",
+      "Βρες δωροκάρτες για τρόφιμα, ποτά, delicatessen και delivery. Σύγκρινε ενεργές επιλογές και έλεγξε όρους στον επίσημο έμπορο.",
+    heading: "Δωροκάρτες για τρόφιμα, ποτά και delivery",
     intro:
-      "Ανακάλυψε δωροκάρτες για online παραγγελία φαγητού και delivery από διαθέσιμες υπηρεσίες και καταστήματα. Ένα εύχρηστο δώρο για το σπίτι, το γραφείο ή την παρέα.",
+      "Ανακάλυψε δωροκάρτες για αγορές τροφίμων και ποτών, κάβες, delicatessen, έτοιμο φαγητό και delivery. Σύγκρινε τις διαθέσιμες επιλογές και έλεγξε τους όρους στον επίσημο έμπορο.",
     relatedSlugs: ["restaurants", "marketplaces", "experiences"],
   },
   experiences: {
@@ -134,6 +134,10 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     relatedSlugs: ["food-delivery", "experiences", "hotels"],
   },
 };
+
+export const CATEGORY_LANDING_SLUGS = Object.freeze(
+  Object.keys(categoryLandingContent),
+);
 
 export function getCategoryLandingContent(slug: string): CategoryLandingContent | null {
   return categoryLandingContent[slug] ?? null;

@@ -701,6 +701,57 @@
   color: var(--dk27-violet-dark);
 }
 
+.dk31-browse-landings {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.55fr) minmax(0, 1.45fr);
+  gap: 28px;
+  margin: 8px 0 30px;
+  padding: 24px;
+  border: 1px solid rgba(35, 31, 58, 0.1);
+  border-radius: 22px;
+  background: linear-gradient(135deg, #fff, #f8f6ff);
+  box-shadow: 0 12px 38px rgba(36, 31, 67, 0.045);
+}
+
+.dk31-browse-landings > div:first-child > span {
+  color: #7762d3;
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+}
+
+.dk31-browse-landings h2 {
+  margin: 7px 0 8px;
+  color: #20212c;
+  font-size: 23px;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+
+.dk31-browse-landings p {
+  margin: 0;
+  color: #747c8c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.dk31-browse-landing-groups {
+  display: grid;
+  gap: 14px;
+}
+
+.dk31-browse-landing-groups > div > b {
+  color: #565d6c;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.dk31-browse-landings .dk-public-filter-row {
+  flex-wrap: wrap;
+  overflow: visible;
+  padding: 7px 0 0;
+}
+
 .dk14-footer {
   border-top-color: rgba(35, 31, 58, 0.09);
   background: #f2f2f6;
@@ -1277,15 +1328,16 @@
     color: #ffc95a;
   }
 
-  .dk29-mobile-hero h1 {
+  .dk29-mobile-title {
     margin: 20px 0 14px;
     color: #fff;
     font-size: clamp(43px, 13vw, 58px);
+    font-weight: 800;
     line-height: 0.98;
     letter-spacing: -0.06em;
   }
 
-  .dk29-mobile-hero h1 span {
+  .dk29-mobile-title span {
     color: transparent;
     background: linear-gradient(90deg, #53d7ff, #a996ff 48%, #ff79bd);
     background-clip: text;
@@ -1375,6 +1427,25 @@
 
   .dk-public-filter-row {
     padding-bottom: 18px;
+  }
+
+  .dk31-browse-landings {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 20px;
+  }
+
+  .dk25-taxonomy-page .dk24-breadcrumbs {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .dk25-taxonomy-page .dk24-breadcrumbs a {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5px;
   }
 
   .dk29-filter-context {

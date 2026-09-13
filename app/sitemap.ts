@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
+import { TEMPORARILY_NOINDEXED_OCCASION_SLUGS } from "@/lib/public/occasion-landing-content";
 
 export const dynamic = "force-dynamic";
 
@@ -46,6 +47,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     prisma.occasion.findMany({
       where: {
         active: true,
+        slug: { notIn: [...TEMPORARILY_NOINDEXED_OCCASION_SLUGS] },
         giftCards: {
           some: { giftCard: { status: "ACTIVE", verificationStatus: "VERIFIED" } },
         },

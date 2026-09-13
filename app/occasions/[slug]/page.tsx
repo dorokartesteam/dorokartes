@@ -4,7 +4,10 @@ import { notFound } from "next/navigation";
 import TaxonomyLanding from "@/components/public/TaxonomyLanding";
 import { prisma } from "@/lib/prisma";
 import { PUBLIC_CATALOG_PAGE_SIZE, getPublicCardPage, parsePublicPage } from "@/lib/public/data";
-import { getOccasionLandingContent } from "@/lib/public/occasion-landing-content";
+import {
+  getOccasionLandingContent,
+  isOccasionLandingReadyForIndexing,
+} from "@/lib/public/occasion-landing-content";
 
 export const dynamic = "force-dynamic";
 
@@ -84,7 +87,13 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical },
-    robots: { index: requestedPage === 1 && occasion._count.giftCards > 0, follow: true },
+    robots: {
+      index:
+        requestedPage === 1 &&
+        occasion._count.giftCards > 0 &&
+        isOccasionLandingReadyForIndexing(occasion.slug),
+      follow: true,
+    },
     openGraph: { title: occasion.seoTitle || landingContent?.seoTitle || fallbackTitle, description, url: canonical },
   };
 }

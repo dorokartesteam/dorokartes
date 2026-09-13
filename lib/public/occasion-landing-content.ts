@@ -63,6 +63,25 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
   },
 };
 
+export const TEMPORARILY_NOINDEXED_OCCASION_SLUGS = [
+  "anniversary",
+  "christmas",
+  "for-her",
+  "for-him",
+] as const;
+
+const temporarilyNoindexedOccasionSlugs = new Set<string>(
+  TEMPORARILY_NOINDEXED_OCCASION_SLUGS,
+);
+
+export const OCCASION_LANDING_SLUGS = Object.freeze(
+  Object.keys(occasionLandingContent),
+);
+
+export function isOccasionLandingReadyForIndexing(slug: string) {
+  return !temporarilyNoindexedOccasionSlugs.has(slug);
+}
+
 export function getOccasionLandingContent(slug: string): OccasionLandingContent | null {
   return occasionLandingContent[slug] ?? null;
 }

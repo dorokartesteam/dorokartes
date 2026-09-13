@@ -20,10 +20,15 @@ export default function PublicHero({ totalCards }: { totalCards: number }) {
             <span aria-hidden="true">✦</span>
             {totalCards.toLocaleString("el-GR")} ενεργές δωροκάρτες
           </div>
-          <h1 id="mobile-hero-title">
+          <div
+            id="mobile-hero-title"
+            className="dk29-mobile-title"
+            role="heading"
+            aria-level={1}
+          >
             Το ιδανικό δώρο,<br />
             <span>σε μία κάρτα.</span>
-          </h1>
+          </div>
           <p>
             Βρες την κατάλληλη δωροκάρτα, σύγκρινε επιλογές και συνέχισε
             στον ιστότοπο του εμπόρου.

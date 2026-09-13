@@ -10,6 +10,11 @@ import {
   parsePublicPage,
   readPublicSearchParam,
 } from "@/lib/public/data";
+import { CATEGORY_LANDING_SLUGS } from "@/lib/public/category-landing-content";
+import {
+  OCCASION_LANDING_SLUGS,
+  isOccasionLandingReadyForIndexing,
+} from "@/lib/public/occasion-landing-content";
 
 export const dynamic = "force-dynamic";
 
@@ -65,8 +70,9 @@ export default async function BrowsePage({
   const category = readPublicSearchParam(params.category);
   const occasion = readPublicSearchParam(params.occasion);
   const requestedPage = parsePublicPage(params.page);
+  const showLandingLinks = !q && !category && !occasion && requestedPage === 1;
 
-  const [cardPage, categories, activeOccasion] = await Promise.all([
+  const [cardPage, categories, activeOccasion, landingOccasions] = await Promise.all([
     browseCards({ q, category, occasion }, requestedPage),
     prisma.category.findMany({
       where: { active: true },
@@ -83,8 +89,32 @@ export default async function BrowsePage({
           select: { name: true, slug: true },
         })
       : Promise.resolve(null),
+    showLandingLinks
+      ? prisma.occasion.findMany({
+          where: {
+            active: true,
+            slug: {
+              in: OCCASION_LANDING_SLUGS.filter(isOccasionLandingReadyForIndexing),
+            },
+            giftCards: { some: { giftCard: { status: "ACTIVE" } } },
+          },
+          select: { name: true, slug: true },
+        })
+      : Promise.resolve([]),
   ]);
   const { cards, totalCount, currentPage, totalPages } = cardPage;
+  const categoryBySlug = new Map(categories.map((item) => [item.slug, item]));
+  const landingCategories = CATEGORY_LANDING_SLUGS.flatMap((slug) => {
+    const item = categoryBySlug.get(slug);
+    return item && item._count.giftCards > 0 ? [item] : [];
+  });
+  const occasionBySlug = new Map(landingOccasions.map((item) => [item.slug, item]));
+  const orderedLandingOccasions = OCCASION_LANDING_SLUGS
+    .filter(isOccasionLandingReadyForIndexing)
+    .flatMap((slug) => {
+      const item = occasionBySlug.get(slug);
+      return item ? [item] : [];
+    });
 
   return (
     <div className="dk-public">
@@ -150,6 +180,50 @@ export default async function BrowsePage({
               );
             })}
           </div>
+
+          {showLandingLinks && (landingCategories.length || orderedLandingOccasions.length) ? (
+            <section className="dk31-browse-landings" aria-labelledby="browse-landings-title">
+              <div>
+                <span>ΘΕΜΑΤΙΚΗ ΕΞΕΡΕΥΝΗΣΗ</span>
+                <h2 id="browse-landings-title">Δωροκάρτες ανά κατηγορία και περίσταση</h2>
+                <p>Μπες στις επιμελημένες σελίδες για να συγκρίνεις σχετικές επιλογές.</p>
+              </div>
+              <div className="dk31-browse-landing-groups">
+                {landingCategories.length ? (
+                  <div>
+                    <b>Κατηγορίες</b>
+                    <nav className="dk-public-filter-row" aria-label="Σελίδες κατηγοριών">
+                      {landingCategories.map((item) => (
+                        <Link
+                          key={item.slug}
+                          prefetch={false}
+                          href={`/categories/${encodeURIComponent(item.slug)}`}
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </nav>
+                  </div>
+                ) : null}
+                {orderedLandingOccasions.length ? (
+                  <div>
+                    <b>Περιστάσεις</b>
+                    <nav className="dk-public-filter-row" aria-label="Σελίδες περιστάσεων">
+                      {orderedLandingOccasions.map((item) => (
+                        <Link
+                          key={item.slug}
+                          prefetch={false}
+                          href={`/occasions/${encodeURIComponent(item.slug)}`}
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </nav>
+                  </div>
+                ) : null}
+              </div>
+            </section>
+          ) : null}
 
           {cards.length ? (
             <div className="dk-public-card-grid dk-public-browse-grid">
