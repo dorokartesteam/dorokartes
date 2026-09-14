@@ -3,10 +3,15 @@ import { cache } from "react";
 import { notFound } from "next/navigation";
 import TaxonomyLanding from "@/components/public/TaxonomyLanding";
 import { prisma } from "@/lib/prisma";
-import { getCategoryLandingContent } from "@/lib/public/category-landing-content";
+import {
+  CATEGORY_LANDING_SLUGS,
+  getCategoryLandingContent,
+} from "@/lib/public/category-landing-content";
 import { PUBLIC_CATALOG_PAGE_SIZE, getPublicCardPage, parsePublicPage } from "@/lib/public/data";
 
 export const dynamic = "force-dynamic";
+
+const approvedCategorySlugs = new Set(CATEGORY_LANDING_SLUGS);
 
 const getCategoryPage = cache(async (slug: string) => {
   const category = await prisma.category.findFirst({
@@ -30,15 +35,20 @@ const getCategoryPage = cache(async (slug: string) => {
 });
 
 async function getRelatedCategories(slugs: readonly string[]) {
-  if (slugs.length === 0) return [];
+  const eligibleSlugs = slugs.filter((slug) => approvedCategorySlugs.has(slug));
+  if (eligibleSlugs.length === 0) return [];
 
   const categories = await prisma.category.findMany({
-    where: { active: true, slug: { in: [...slugs] } },
+    where: {
+      active: true,
+      slug: { in: [...eligibleSlugs] },
+      giftCards: { some: { giftCard: { status: "ACTIVE" } } },
+    },
     select: { name: true, slug: true },
   });
   const bySlug = new Map(categories.map((category) => [category.slug, category]));
 
-  return slugs.flatMap((slug) => {
+  return eligibleSlugs.flatMap((slug) => {
     const category = bySlug.get(slug);
     return category ? [category] : [];
   });
@@ -63,12 +73,11 @@ export async function generateMetadata({
 
   const landingContent = getCategoryLandingContent(category.slug);
   const fallbackTitle = `${category.name} – Δωροκάρτες`;
-  const title = category.seoTitle
-    ? { absolute: category.seoTitle }
-    : landingContent?.seoTitle || fallbackTitle;
+  const title = landingContent?.seoTitle ||
+    (category.seoTitle ? { absolute: category.seoTitle } : fallbackTitle);
   const description =
-    category.metaDescription ||
     landingContent?.metaDescription ||
+    category.metaDescription ||
     category.description ||
     `Δωροκάρτες στην κατηγορία ${category.name}, συγκεντρωμένες στο Dorokartes.gr.`;
   const requestedPage = parsePublicPage(query.page);
@@ -80,8 +89,15 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical },
-    robots: { index: requestedPage === 1 && category._count.giftCards > 0, follow: true },
-    openGraph: { title: category.seoTitle || landingContent?.seoTitle || fallbackTitle, description, url: canonical },
+    robots: {
+      index: Boolean(landingContent) && requestedPage === 1 && category._count.giftCards > 0,
+      follow: true,
+    },
+    openGraph: {
+      title: landingContent?.seoTitle || category.seoTitle || fallbackTitle,
+      description,
+      url: canonical,
+    },
   };
 }
 
