@@ -1,19 +1,48 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useId, useRef, useState } from "react";
+import {
+  useEffect,
+  useId,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
+import styles from "./HeroSearch.module.css";
+import {
+  rankInstantGiftCards,
+  type InstantSearchIndexItem,
+} from "@/lib/public/instant-search";
 
-type SearchSuggestion = {
-  id: string;
-  type: "giftCard";
-  label: string;
-  meta: string;
-  href: string;
+type SearchIndexResponse = {
+  index: InstantSearchIndexItem[];
 };
 
-type SuggestionResponse = {
-  suggestions: SearchSuggestion[];
-};
+let cachedIndex: InstantSearchIndexItem[] | null = null;
+let indexPromise: Promise<InstantSearchIndexItem[]> | null = null;
+
+async function loadSearchIndex() {
+  if (cachedIndex) return cachedIndex;
+
+  if (!indexPromise) {
+    indexPromise = fetch("/api/public/search/index", {
+      headers: { Accept: "application/json" },
+    })
+      .then(async (response) => {
+        if (!response.ok) throw new Error("Search index request failed");
+
+        const payload = (await response.json()) as SearchIndexResponse;
+        cachedIndex = payload.index ?? [];
+        return cachedIndex;
+      })
+      .catch((error) => {
+        indexPromise = null;
+        throw error;
+      });
+  }
+
+  return indexPromise;
+}
 
 export default function HeroSearch({
   initial = "",
@@ -25,15 +54,36 @@ export default function HeroSearch({
   occasion?: string;
 }) {
   const [query, setQuery] = useState(initial);
-  const [suggestions, setSuggestions] = useState<SearchSuggestion[]>([]);
+  const [index, setIndex] = useState<InstantSearchIndexItem[]>(
+    cachedIndex ?? [],
+  );
   const [open, setOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const rootRef = useRef<HTMLDivElement>(null);
-  const requestRef = useRef<AbortController | null>(null);
   const listboxId = useId();
 
   useEffect(() => setQuery(initial), [initial]);
+
+  useEffect(() => {
+    let alive = true;
+
+    const warm = () => {
+      void loadSearchIndex()
+        .then((items) => {
+          if (alive) setIndex(items);
+        })
+        .catch(() => {
+          // Search form still works through /browse even if preload fails.
+        });
+    };
+
+    const timer = window.setTimeout(warm, 0);
+
+    return () => {
+      alive = false;
+      window.clearTimeout(timer);
+    };
+  }, []);
 
   useEffect(() => {
     const onPointerDown = (event: PointerEvent) => {
@@ -47,60 +97,29 @@ export default function HeroSearch({
     return () => document.removeEventListener("pointerdown", onPointerDown);
   }, []);
 
-  useEffect(() => {
-    const term = query.trim();
+  const filteredIndex = useMemo(() => {
+    if (!category && !occasion) return index;
 
-    if (!open || term.length < 2) {
-      requestRef.current?.abort();
-      setSuggestions([]);
-      setLoading(false);
-      setActiveIndex(-1);
-      return;
-    }
+    // Category/occasion filtering continues to be enforced on /browse.
+    // The instant dropdown stays card-only and prioritizes speed.
+    return index;
+  }, [index, category, occasion]);
 
-    const timer = window.setTimeout(async () => {
-      requestRef.current?.abort();
-      const controller = new AbortController();
-      requestRef.current = controller;
-      setLoading(true);
+  const results = useMemo(
+    () => rankInstantGiftCards(filteredIndex, query, 8),
+    [filteredIndex, query],
+  );
 
-      try {
-        const params = new URLSearchParams({ q: term });
-        if (category) params.set("category", category);
-        if (occasion) params.set("occasion", occasion);
+  const trimmedQuery = query.trim();
+  const showDropdown = open && trimmedQuery.length > 0 && results.length > 0;
 
-        const response = await fetch(
-          `/api/public/search/suggestions?${params.toString()}`,
-          {
-            signal: controller.signal,
-            headers: { Accept: "application/json" },
-          },
-        );
+  function ensureIndex() {
+    if (index.length) return;
 
-        if (!response.ok) throw new Error("Suggestion request failed");
-
-        const payload = (await response.json()) as SuggestionResponse;
-        setSuggestions(payload.suggestions ?? []);
-        setActiveIndex(-1);
-      } catch (error) {
-        if ((error as Error).name !== "AbortError") {
-          setSuggestions([]);
-        }
-      } finally {
-        if (!controller.signal.aborted) setLoading(false);
-      }
-    }, 70);
-
-    return () => window.clearTimeout(timer);
-  }, [query, category, occasion, open]);
-
-  const browseParams = new URLSearchParams();
-  if (query.trim()) browseParams.set("q", query.trim());
-  if (category) browseParams.set("category", category);
-  if (occasion) browseParams.set("occasion", occasion);
-  const browseHref = browseParams.toString()
-    ? `/browse?${browseParams.toString()}`
-    : "/browse";
+    void loadSearchIndex()
+      .then(setIndex)
+      .catch(() => undefined);
+  }
 
   function onKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
     if (event.key === "Escape") {
@@ -110,34 +129,42 @@ export default function HeroSearch({
     }
 
     if (event.key === "ArrowDown") {
+      if (!results.length) return;
       event.preventDefault();
-      if (!open) setOpen(true);
+      setOpen(true);
       setActiveIndex((current) =>
-        Math.min(current + 1, suggestions.length - 1),
+        Math.min(current + 1, results.length - 1),
       );
       return;
     }
 
     if (event.key === "ArrowUp") {
+      if (!results.length) return;
       event.preventDefault();
+      setOpen(true);
       setActiveIndex((current) => Math.max(current - 1, -1));
       return;
     }
 
-    if (event.key === "Enter" && open && activeIndex >= 0) {
+    if (event.key === "Enter" && activeIndex >= 0 && results[activeIndex]) {
       event.preventDefault();
-      window.location.assign(suggestions[activeIndex].href);
+      window.location.assign(
+        `/gift-cards/${encodeURIComponent(results[activeIndex].slug)}`,
+      );
     }
   }
 
-  const showDropdown =
-    open &&
-    query.trim().length >= 2 &&
-    (loading || suggestions.length > 0);
-
   return (
-    <div className="dk-search-shell" ref={rootRef}>
-      <form className="dk14-search" action="/browse" method="get" role="search">
+    <div
+      className={`dk-search-shell ${styles.shell}`}
+      ref={rootRef}
+    >
+      <form
+        className={`dk14-search ${styles.form}`}
+        action="/browse"
+        method="get"
+        role="search"
+      >
         <span className="dk14-search-icon" aria-hidden="true">⌕</span>
 
         <input
@@ -145,10 +172,13 @@ export default function HeroSearch({
           value={query}
           onChange={(event) => {
             setQuery(event.target.value);
+            setActiveIndex(-1);
             setOpen(true);
+            ensureIndex();
           }}
           onFocus={() => {
-            if (query.trim().length >= 2) setOpen(true);
+            ensureIndex();
+            if (query.trim()) setOpen(true);
           }}
           onKeyDown={onKeyDown}
           placeholder="Αναζήτησε δωροκάρτα..."
@@ -176,56 +206,47 @@ export default function HeroSearch({
 
       {showDropdown ? (
         <div
-          className="dk-search-predict"
+          className={`dk-search-predict ${styles.dropdown}`}
           id={listboxId}
           role="listbox"
           aria-label="Δωροκάρτες"
         >
-          {suggestions.length ? (
-            <div className="dk-search-predict-list">
-              {suggestions.map((item, index) => (
-                <Link
-                  id={`${listboxId}-${index}`}
-                  role="option"
-                  aria-selected={activeIndex === index}
-                  className={activeIndex === index ? "active" : ""}
-                  key={item.id}
-                  href={item.href}
-                  prefetch={false}
-                  onMouseEnter={() => setActiveIndex(index)}
-                  onClick={() => setOpen(false)}
-                >
-                  <span
-                    className="dk-search-type giftCard"
-                    aria-hidden="true"
-                  >
-                    🎁
-                  </span>
+          {results.map((item, indexPosition) => {
+            const href = `/gift-cards/${encodeURIComponent(item.slug)}`;
+            const active = activeIndex === indexPosition;
 
-                  <span className="dk-search-copy">
-                    <b>{item.label}</b>
-                    {item.meta ? <small>{item.meta}</small> : null}
-                  </span>
+            return (
+              <Link
+                id={`${listboxId}-${indexPosition}`}
+                role="option"
+                aria-selected={active}
+                className={`${styles.result} ${active ? styles.active : ""}`}
+                key={item.id}
+                href={href}
+                prefetch={false}
+                onMouseEnter={() => setActiveIndex(indexPosition)}
+                onClick={() => setOpen(false)}
+              >
+                <span className={styles.logo} aria-hidden="true">
+                  {item.merchantLogoUrl ? (
+                    <img
+                      src={item.merchantLogoUrl}
+                      alt=""
+                    />
+                  ) : (
+                    <span>🎁</span>
+                  )}
+                </span>
 
-                  <span className="dk-search-arrow" aria-hidden="true">
-                    →
-                  </span>
-                </Link>
-              ))}
-            </div>
-          ) : null}
+                <span className={styles.copy}>
+                  <b>{item.title}</b>
+                  <small>{item.merchantName}</small>
+                </span>
 
-          {!loading && query.trim() ? (
-            <Link
-              className="dk-search-all"
-              href={browseHref}
-              prefetch={false}
-              onClick={() => setOpen(false)}
-            >
-              <span>Όλα τα αποτελέσματα</span>
-              <b aria-hidden="true">→</b>
-            </Link>
-          ) : null}
+                <span className={styles.arrow} aria-hidden="true">›</span>
+              </Link>
+            );
+          })}
         </div>
       ) : null}
     </div>
