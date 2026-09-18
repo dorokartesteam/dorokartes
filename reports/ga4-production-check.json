@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-09-17T12:46:15.710Z",
+  "loaderRequests": [
+    "https://www.googletagmanager.com/gtag/js?id=G-NHQ886KR9Q",
+    "https://www.googletagmanager.com/gtag/js?id=G-NHQ886KR9Q"
+  ],
+  "pageViews": [
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/browse?q=sephroa"
+    },
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/categories"
+    },
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/browse"
+    },
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/browse?category=beauty"
+    },
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/browse?category=beauty&page=2"
+    },
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/browse?category=beauty"
+    },
+    {
+      "name": "page_view",
+      "location": "https://dorokartes.gr/brands/sephora"
+    }
+  ],
+  "catalogEvents": [
+    {
+      "name": "catalog_view",
+      "location": "https://dorokartes.gr/brands/sephora"
+    }
+  ],
+  "pageErrors": [],
+  "productionEventsSent": 0,
+  "adminStatus": 503,
+  "catalogViewQueued": 1,
+  "passed": true,
+  "spaPageViews": 6,
+  "spaScriptLoads": 1,
+  "gaEnabled": true
+}

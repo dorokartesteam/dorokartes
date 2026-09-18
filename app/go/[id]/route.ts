@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { isOutboundNavigation, outboundSource } from "@/lib/public/outbound-request";
 
 function getHttpDestination(value: string | null) {
   if (!value) return null;
@@ -21,15 +22,15 @@ export async function GET(
   const { id } = await params;
   const card = await prisma.giftCard.findUnique({
     where: { id },
-    select: { id: true, merchantId: true, officialUrl: true, status: true },
+    select: { id: true, merchantId: true, officialUrl: true, status: true, merchant: { select: { status: true } } },
   });
   const destination = getHttpDestination(card?.officialUrl ?? null);
 
-  if (!card || card.status !== "ACTIVE" || !destination) {
+  if (!card || card.status !== "ACTIVE" || card.merchant.status !== "ACTIVE" || !destination) {
     return NextResponse.redirect(new URL("/browse", req.url));
   }
 
-  try {
+  if (isOutboundNavigation(req.method, req.headers)) try {
     await prisma.outboundClick.create({
       data: {
         merchantId: card.merchantId,
@@ -37,7 +38,7 @@ export async function GET(
         destinationUrl: destination.toString(),
         referrer: req.headers.get("referer"),
         userAgent: req.headers.get("user-agent"),
-        source: "public_gift_card",
+        source: outboundSource(req.nextUrl.searchParams.get("from")),
       },
     });
   } catch {

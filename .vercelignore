@@ -1,0 +1,15 @@
+.git
+.next
+node_modules
+.pnpm-store
+pnpm-lock.yaml
+pnpm-workspace.yaml
+.agents
+.codex
+.vercel
+.env*
+**/.env*
+reports
+data
+coverage
+*.tsbuildinfo

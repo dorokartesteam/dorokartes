@@ -102,7 +102,7 @@ export default async function BrowsePage({
         })
       : Promise.resolve([]),
   ]);
-  const { cards, totalCount, currentPage, totalPages } = cardPage;
+  const { cards, totalCount, currentPage, totalPages, approximate } = cardPage;
   const categoryBySlug = new Map(categories.map((item) => [item.slug, item]));
   const landingCategories = CATEGORY_LANDING_SLUGS.flatMap((slug) => {
     const item = categoryBySlug.get(slug);
@@ -124,11 +124,12 @@ export default async function BrowsePage({
         <div className="dk-public-shell">
           <div className="dk-public-browse-head">
             <span>ΚΑΤΑΛΟΓΟΣ</span>
-            <h1>Όλες οι δωροκάρτες</h1>
+            <h1>{q ? `Αναζήτηση «${q}»` : "Όλες οι δωροκάρτες"}</h1>
             <p className="dk29-pagination-summary">
               {totalCount.toLocaleString("el-GR")} αποτελέσματα με τα τρέχοντα φίλτρα
               {totalPages > 1 ? ` · Σελίδα ${currentPage} από ${totalPages}` : ""}.
             </p>
+            {approximate ? <p role="status">Δεν βρέθηκε ακριβής αντιστοίχιση. Εμφανίζουμε κοντινά αποτελέσματα.</p> : null}
             <form className="dk14-search" action="/browse" method="get" role="search">
               <span className="dk14-search-icon" aria-hidden="true">⌕</span>
               <input
@@ -136,20 +137,22 @@ export default async function BrowsePage({
                 defaultValue={q || ""}
                 placeholder="Sephora, spa, gaming, παιδί, ρούχα..."
                 aria-label="Αναζήτηση δωροκάρτας"
+                maxLength={160}
               />
               {category ? <input type="hidden" name="category" value={category} /> : null}
               {occasion ? <input type="hidden" name="occasion" value={occasion} /> : null}
               <button type="submit">Αναζήτηση</button>
             </form>
+            {q ? <Link className="dk-catalog-reset" prefetch={false} href={browseHref({ category, occasion })}>Καθαρισμός αναζήτησης ×</Link> : null}
           </div>
 
-          {activeOccasion ? (
+          {occasion ? (
             <div className="dk29-filter-context" aria-label="Ενεργό φίλτρο περίστασης">
-              <span>Περίσταση: <b>{activeOccasion.name}</b></span>
+              <span>Περίσταση: <b>{activeOccasion?.name || occasion}</b></span>
               <Link
                 prefetch={false}
                 href={browseHref({ q, category })}
-                aria-label={`Αφαίρεση φίλτρου περίστασης ${activeOccasion.name}`}
+                aria-label={`Αφαίρεση φίλτρου περίστασης ${activeOccasion?.name || occasion}`}
               >
                 Καθαρισμός ×
               </Link>
@@ -234,7 +237,10 @@ export default async function BrowsePage({
           ) : (
             <div className="dk-public-empty">
               <b>Δεν βρήκαμε δωροκάρτες με αυτά τα φίλτρα.</b>
-              <p>Δοκίμασε διαφορετικό brand, κατηγορία ή λέξη-κλειδί.</p>
+              <p>{q ? `Δεν βρέθηκε αποτέλεσμα για «${q}» με τα επιλεγμένα φίλτρα.` : "Δοκίμασε διαφορετικό brand, κατηγορία ή περίσταση."}</p>
+              {q && (category || occasion) ? (
+                <p><Link href={browseHref({ q })}>Αναζήτηση «{q}» σε όλες τις δωροκάρτες</Link></p>
+              ) : null}
               <Link href="/browse">Δες όλες τις δωροκάρτες</Link>
             </div>
           )}

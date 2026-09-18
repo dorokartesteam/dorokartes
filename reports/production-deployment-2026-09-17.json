@@ -1,0 +1,13 @@
+{
+  "deployedAt": "2026-09-17",
+  "projectId": "prj_PmfLFsb6qIOouOEUzZ1DgkRBLKmf",
+  "deploymentId": "dpl_A1wDhN9gtbzYC7FEACzT94pAYFQf",
+  "deploymentUrl": "https://dorokartes-3pbbj0fob-dorokartes.vercel.app",
+  "productionUrl": "https://dorokartes.gr",
+  "state": "READY",
+  "build": "passed",
+  "typescript": "passed",
+  "staticPages": "11/11",
+  "source": "current worktree",
+  "uploadConfiguration": "Existing package-lock.json; local caches, data, reports and environment files excluded by .vercelignore"
+}

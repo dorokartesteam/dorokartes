@@ -5,7 +5,11 @@ import { cache } from "react";
 import PublicHeader from "@/components/public/PublicHeader";
 import PublicFooter from "@/components/public/PublicFooter";
 import MerchantLogo from "@/components/public/MerchantLogo";
+import GiftCardCard from "@/components/public/GiftCardCard";
+import { getRelatedCards } from "@/lib/public/data";
 import { prisma } from "@/lib/prisma";
+import CatalogView from "@/components/analytics/CatalogView";
+import CatalogOutboundLink from "@/components/analytics/CatalogOutboundLink";
 
 export const dynamic = "force-dynamic";
 
@@ -101,6 +105,8 @@ const getGiftCardPage = cache(async (slug: string) =>
         },
       },
       categories: {
+        where: { category: { active: true } },
+        orderBy: { primary: "desc" },
         take: 4,
         select: {
           primary: true,
@@ -108,6 +114,7 @@ const getGiftCardPage = cache(async (slug: string) =>
         },
       },
       occasions: {
+        where: { occasion: { active: true } },
         take: 6,
         orderBy: { relevance: "desc" },
         select: {
@@ -220,9 +227,16 @@ export default async function GiftCardPage({
 
   const logo = card.merchant.logoUrl || null;
   const verified = card.verificationStatus === "VERIFIED";
+  const relatedCards = await getRelatedCards({ ...card, merchantId: card.merchant.id });
+  const analyticsContext = {
+    merchantId: card.merchant.id, giftCardId: card.id,
+    category: card.categories[0]?.category.slug,
+    pageType: "gift_card" as const, sourcePath: `/gift-cards/${encodeURIComponent(card.slug)}`,
+  };
 
   return (
     <div className="dk-public">
+      <CatalogView {...analyticsContext} />
       <PublicHeader />
 
       <main className="dk24-detail">
@@ -275,9 +289,9 @@ export default async function GiftCardPage({
               </div>
 
               <div className="dk24-detail-actions">
-                <Link className="primary" href={`/go/${card.id}`}>
+                <CatalogOutboundLink className="primary" context={analyticsContext}>
                   {verified ? "Μετάβαση στον επίσημο έμπορο" : "Μετάβαση στον ιστότοπο του εμπόρου"} <b>↗</b>
-                </Link>
+                </CatalogOutboundLink>
 
                 <Link className="secondary" href={`/brands/${card.merchant.slug}`}>
                   Προφίλ καταστήματος
@@ -327,9 +341,9 @@ export default async function GiftCardPage({
               <h2>Στον έμπορο</h2>
 
               <div className="dk24-link-stack">
-                <Link href={`/go/${card.id}`}>
+                <CatalogOutboundLink context={analyticsContext}>
                   {verified ? "Επίσημη σελίδα δωροκάρτας" : "Σελίδα δωροκάρτας στον έμπορο"} <b>↗</b>
-                </Link>
+                </CatalogOutboundLink>
 
                 {card.merchant.websiteUrl && (
                   <a href={card.merchant.websiteUrl} target="_blank" rel="noreferrer">
@@ -401,6 +415,24 @@ export default async function GiftCardPage({
                   </Link>
                 ))}
               </div>
+            </section>
+          )}
+          {relatedCards.length > 0 && (
+            <section aria-labelledby="related-cards-heading">
+              <div className="dk25-taxonomy-results">
+                <div><span>ΔΕΣ ΕΠΙΣΗΣ</span><h2 id="related-cards-heading">Σχετικές δωροκάρτες</h2></div>
+                <Link href="/browse">Όλος ο κατάλογος <b>→</b></Link>
+              </div>
+              <div className="dk-public-card-grid dk-public-browse-grid">
+                {relatedCards.map(related => <GiftCardCard key={related.id} card={related} />)}
+              </div>
+              <nav className="dk-public-filter-row" aria-label="Σχετικά καταστήματα">
+                {relatedCards.map(related => (
+                  <Link key={related.merchant.id} prefetch={false} href={`/brands/${encodeURIComponent(related.merchant.slug)}`}>
+                    {related.merchant.name}
+                  </Link>
+                ))}
+              </nav>
             </section>
           )}
         </div>

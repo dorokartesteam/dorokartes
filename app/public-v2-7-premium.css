@@ -999,6 +999,20 @@
   font-size: clamp(38px, 5vw, 58px);
 }
 
+.dk-public-browse-head h1,
+.dk-public-empty {
+  overflow-wrap: anywhere;
+}
+
+.dk-catalog-reset {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
 .dk29-filter-context {
   display: flex;
   align-items: center;

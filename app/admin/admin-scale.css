@@ -1,0 +1,748 @@
+/*
+  Dorokartes Admin — single final scale layer
+  Goal: no "zoomed out" UI at browser 100%.
+  This file MUST be imported last.
+*/
+
+/* Layout */
+.dk-admin{
+  grid-template-columns:240px minmax(0,1fr) !important;
+  font-size:16px !important;
+}
+
+.dk-admin.is-collapsed{
+  grid-template-columns:72px minmax(0,1fr) !important;
+}
+
+.dk-sidebar{
+  padding:18px 12px 14px !important;
+}
+
+.dk-main{
+  min-width:0;
+  font-size:16px !important;
+}
+
+.dk-content{
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:32px 34px 44px !important;
+}
+
+/*
+  Important: old feature styles contain lots of 7px/8px/9px text.
+  Give all admin content a real readable floor first.
+*/
+.dk-main [class^="dk-"],
+.dk-main [class*=" dk-"]{
+  font-size:15px !important;
+  line-height:1.4;
+}
+
+/* Sidebar stays compact */
+.dk-brand.premium{
+  min-height:54px !important;
+  gap:10px !important;
+  padding:0 8px 16px !important;
+}
+
+.dk-brandlogo{
+  width:44px !important;
+  height:44px !important;
+  flex:0 0 44px !important;
+}
+
+.dk-brandtext strong{
+  font-size:17px !important;
+  line-height:1.05 !important;
+}
+
+.dk-brandtext span{
+  font-size:9px !important;
+  line-height:1.2 !important;
+}
+
+.dk-navgroup{
+  margin-top:15px !important;
+}
+
+.dk-navlabel{
+  margin:0 10px 7px !important;
+  font-size:10px !important;
+  line-height:1.2 !important;
+}
+
+.dk-navitem{
+  min-height:41px !important;
+  gap:10px !important;
+  padding:0 10px !important;
+  margin:2px 0 !important;
+  font-size:13px !important;
+  line-height:1.15 !important;
+}
+
+.dk-navtext{
+  font-size:13px !important;
+  line-height:1.15 !important;
+}
+
+.dk-navicon{
+  width:20px !important;
+  min-width:20px !important;
+  font-size:16px !important;
+}
+
+.dk-sidebar-shortcuts{
+  display:none !important;
+}
+
+.dk-collapse{
+  min-height:34px !important;
+  font-size:10px !important;
+}
+
+/* Top bar */
+.dk-topbar{
+  height:auto !important;
+  min-height:88px !important;
+  padding:15px 34px !important;
+}
+
+.dk-eyebrow{
+  font-size:10px !important;
+  line-height:1.2 !important;
+}
+
+.dk-topbar h1{
+  margin:4px 0 0 !important;
+  font-size:28px !important;
+  line-height:1.05 !important;
+}
+
+.dk-command{
+  min-height:40px !important;
+  font-size:13px !important;
+}
+
+.dk-command kbd{
+  font-size:11px !important;
+}
+
+.dk-iconbtn{
+  width:40px !important;
+  height:40px !important;
+  font-size:17px !important;
+}
+
+/* Main titles */
+.dk-herobar{
+  padding:28px 30px !important;
+}
+
+.dk-herobar h2{
+  font-size:34px !important;
+  line-height:1.08 !important;
+}
+
+.dk-herobar p{
+  font-size:16px !important;
+  line-height:1.55 !important;
+}
+
+.dk-live{
+  font-size:11px !important;
+}
+
+.dk-herostat b{
+  font-size:46px !important;
+}
+
+.dk-herostat span{
+  font-size:13px !important;
+}
+
+.dk-pageintro{
+  margin-bottom:22px !important;
+}
+
+.dk-pageintro > div > span{
+  font-size:11px !important;
+  line-height:1.2 !important;
+}
+
+.dk-pageintro h2{
+  margin:4px 0 7px !important;
+  font-size:36px !important;
+  line-height:1.05 !important;
+}
+
+.dk-pageintro p{
+  font-size:16px !important;
+  line-height:1.55 !important;
+}
+
+/* Panels */
+.dk-panelhead,
+.dk-editorheading{
+  padding:18px 20px !important;
+}
+
+.dk-panelhead h2,
+.dk-editorheading h3{
+  font-size:18px !important;
+  line-height:1.2 !important;
+}
+
+.dk-panelhead p,
+.dk-editorheading p{
+  font-size:13px !important;
+  line-height:1.45 !important;
+}
+
+.dk-textlink{
+  font-size:13px !important;
+}
+
+/* Dashboard metrics */
+.dk-metric{
+  min-height:118px !important;
+  padding:18px !important;
+}
+
+.dk-metriclabel{
+  font-size:11px !important;
+}
+
+.dk-metricvalue{
+  font-size:34px !important;
+  line-height:1 !important;
+}
+
+.dk-metricdetail{
+  font-size:13px !important;
+}
+
+.dk-launchmetrics article{
+  min-height:120px !important;
+  padding:18px !important;
+}
+
+.dk-launchmetrics article > span{
+  font-size:11px !important;
+}
+
+.dk-launchmetrics article > strong{
+  font-size:34px !important;
+  line-height:1 !important;
+}
+
+.dk-launchmetrics article > small{
+  font-size:12px !important;
+}
+
+/* Dashboard lists */
+.dk-listrow{
+  min-height:64px !important;
+  padding:14px 18px !important;
+}
+
+.dk-listrow b{
+  font-size:15px !important;
+}
+
+.dk-listrow small,
+.dk-listrow time,
+.dk-listrow a,
+.dk-listrow .block{
+  font-size:12px !important;
+}
+
+.dk-healthrows > div{
+  min-height:48px !important;
+  font-size:13px !important;
+}
+
+.dk-pulse strong{
+  font-size:26px !important;
+}
+
+.dk-pulse span,
+.dk-pulse em{
+  font-size:12px !important;
+}
+
+/* Filters / forms */
+.dk-filterbar{
+  padding:11px !important;
+  gap:10px !important;
+}
+
+.dk-filterbar input,
+.dk-filterbar select,
+.dk-bulktoolbar input,
+.dk-bulktoolbar select,
+.dk-bulkselects select,
+.dk-bigselect,
+.dk-dangerzone input,
+.dk-readinessbar input,
+.dk-readinessbar select,
+.dk-remtoolbar input,
+.dk-remtoolbar select,
+.dk-mediatoolbar input,
+.dk-mediatoolbar select,
+.dk-addmedia input,
+.dk-addmedia select{
+  min-height:42px !important;
+  font-size:13px !important;
+}
+
+.dk-btn,
+.dk-filterbar button,
+.dk-bulktoolbar button,
+.dk-dangerzone button,
+.dk-addmedia > button{
+  min-height:40px !important;
+  font-size:13px !important;
+}
+
+.dk-resultcount,
+.dk-bulktoolbar b,
+.dk-bulkhead,
+.dk-readinessbar b,
+.dk-remtoolbar > span,
+.dk-mediatoolbar b{
+  font-size:12px !important;
+}
+
+/* Primary data tables */
+.dk-table{
+  font-size:14px !important;
+}
+
+.dk-table th{
+  padding:14px 18px !important;
+  font-size:12px !important;
+  line-height:1.2 !important;
+}
+
+.dk-table td{
+  padding:17px 18px !important;
+  font-size:14px !important;
+  line-height:1.4 !important;
+}
+
+.dk-entity{
+  gap:11px !important;
+}
+
+.dk-entity b,
+.dk-entitylink b,
+.dk-table td b{
+  font-size:16px !important;
+  line-height:1.25 !important;
+}
+
+.dk-entity small,
+.dk-entitylink small{
+  margin-top:4px !important;
+  font-size:13px !important;
+  line-height:1.35 !important;
+}
+
+.dk-table td > a,
+.dk-table a{
+  font-size:13px !important;
+}
+
+.dk-avatar{
+  width:36px !important;
+  height:36px !important;
+  font-size:11px !important;
+}
+
+.dk-status{
+  min-height:26px !important;
+  padding:0 9px !important;
+  font-size:11px !important;
+  line-height:1 !important;
+}
+
+.dk-coverage span{
+  min-width:34px !important;
+  padding:5px 8px !important;
+  font-size:11px !important;
+}
+
+/* Bulk */
+.dk-bulkrow{
+  min-height:62px !important;
+  padding:11px 8px !important;
+  font-size:13px !important;
+}
+
+.dk-bulkrow b{
+  font-size:14px !important;
+}
+
+.dk-bulkrow small{
+  font-size:12px !important;
+}
+
+.dk-mergepreview b{
+  font-size:15px !important;
+}
+
+.dk-mergepreview small,
+.dk-mergepreview span,
+.dk-dangerzone p{
+  font-size:12px !important;
+}
+
+/* Readiness */
+.dk-readinesshead{
+  padding:11px 8px !important;
+  font-size:11px !important;
+}
+
+.dk-readinessrow{
+  min-height:76px !important;
+  padding:14px 8px !important;
+}
+
+.dk-readinessrow b{
+  font-size:15px !important;
+}
+
+.dk-readinessrow small{
+  font-size:12px !important;
+}
+
+.dk-readinessrow > a{
+  font-size:12px !important;
+}
+
+.dk-score{
+  width:58px !important;
+  height:36px !important;
+}
+
+.dk-score strong{
+  font-size:17px !important;
+}
+
+.dk-score span{
+  font-size:10px !important;
+}
+
+.dk-ready{
+  font-size:10px !important;
+}
+
+.dk-issues span,
+.dk-issues em{
+  padding:5px 8px !important;
+  font-size:11px !important;
+}
+
+.dk-blockergrid strong{
+  font-size:26px !important;
+}
+
+.dk-blockergrid span,
+.dk-weightlist span{
+  font-size:12px !important;
+}
+
+.dk-weightlist b{
+  font-size:14px !important;
+}
+
+/* Launch / homepage */
+.dk-launchring strong{
+  font-size:30px !important;
+}
+
+.dk-launchring span,
+.dk-launchheadline > span{
+  font-size:11px !important;
+}
+
+.dk-launchheadline h3{
+  font-size:22px !important;
+}
+
+.dk-launchheadline p,
+.dk-launchactions a{
+  font-size:13px !important;
+}
+
+.dk-launchissues > div > div,
+.dk-scorebuckets span,
+.dk-scorebuckets small,
+.dk-taxcoverage span{
+  font-size:12px !important;
+}
+
+.dk-scorebuckets strong{
+  font-size:28px !important;
+}
+
+.dk-taxcoverage b{
+  font-size:14px !important;
+}
+
+.dk-merchkicker{
+  font-size:11px !important;
+}
+
+.dk-merchhero h3{
+  font-size:28px !important;
+}
+
+.dk-merchhero p{
+  font-size:14px !important;
+}
+
+.dk-merchstats strong{
+  font-size:24px !important;
+}
+
+.dk-merchstats span{
+  font-size:12px !important;
+}
+
+.dk-featuredthumb{
+  height:86px !important;
+  font-size:11px !important;
+}
+
+.dk-featuredgrid b{
+  font-size:14px !important;
+}
+
+.dk-featuredgrid span,
+.dk-featuredgrid small,
+.dk-emptymerch{
+  font-size:12px !important;
+}
+
+.dk-merchchips b{
+  font-size:13px !important;
+}
+
+.dk-merchchips span{
+  font-size:12px !important;
+}
+
+.dk-sectionorder em,
+.dk-sectionorder span{
+  font-size:12px !important;
+}
+
+.dk-sectionorder b{
+  font-size:14px !important;
+}
+
+/* Remediation */
+.dk-queuecards button{
+  min-height:110px !important;
+  padding:17px !important;
+}
+
+.dk-queuecards span{
+  font-size:11px !important;
+}
+
+.dk-queuecards strong{
+  font-size:32px !important;
+}
+
+.dk-queuecards small{
+  font-size:12px !important;
+}
+
+.dk-remtoolbar{
+  padding:15px 18px !important;
+}
+
+.dk-remtoolbar > div b{
+  font-size:15px !important;
+}
+
+.dk-remtoolbar > div small{
+  font-size:12px !important;
+}
+
+.dk-remhead{
+  padding:12px 18px !important;
+  font-size:11px !important;
+}
+
+.dk-remrow{
+  min-height:78px !important;
+  padding:15px 18px !important;
+}
+
+.dk-remrow b{
+  font-size:16px !important;
+}
+
+.dk-remrow small{
+  font-size:13px !important;
+}
+
+.dk-remrow > a{
+  font-size:12px !important;
+}
+
+.dk-score.compact{
+  width:58px !important;
+  height:34px !important;
+}
+
+.dk-score.compact strong{
+  font-size:16px !important;
+}
+
+.dk-remrow .dk-issues span,
+.dk-remrow .dk-issues em{
+  min-height:27px !important;
+  font-size:11px !important;
+}
+
+/* Media center */
+.dk-mediacard{
+  padding:10px !important;
+}
+
+.dk-mediaimage{
+  height:118px !important;
+}
+
+.dk-mediaempty,
+.dk-mediaimage > span{
+  font-size:11px !important;
+}
+
+.dk-mediacard > b{
+  font-size:14px !important;
+}
+
+.dk-mediacard > small{
+  font-size:12px !important;
+}
+
+.dk-mediastatus em{
+  font-size:10px !important;
+  padding:4px 6px !important;
+}
+
+.dk-inspectorhead span{
+  font-size:10px !important;
+}
+
+.dk-inspectorhead h3{
+  font-size:18px !important;
+}
+
+.dk-inspectorhead p,
+.dk-existingmedia h4,
+.dk-addmedia h4,
+.dk-mediaasset b,
+.dk-mediaasset small,
+.dk-mediaasset a,
+.dk-mediaasset > button,
+.dk-noassets,
+.dk-inspectorempty,
+.dk-addmedia label span,
+.dk-openeditor{
+  font-size:12px !important;
+}
+
+/* CMS editors */
+.dk-formgrid label > span{
+  font-size:12px !important;
+}
+
+.dk-formgrid input,
+.dk-formgrid select,
+.dk-formgrid textarea{
+  min-height:44px !important;
+  font-size:14px !important;
+}
+
+/* Brand page */
+.dk-brandasset p{
+  font-size:13px !important;
+}
+
+/* Command palette */
+.dk-commandsearch input{
+  font-size:14px !important;
+}
+
+.dk-commandlinks b{
+  font-size:14px !important;
+}
+
+.dk-commandlinks small{
+  font-size:12px !important;
+}
+
+/* Large desktop: do not shrink; use space */
+@media(min-width:1600px){
+  .dk-admin{
+    grid-template-columns:245px minmax(0,1fr) !important;
+  }
+
+  .dk-content{
+    padding-left:40px !important;
+    padding-right:40px !important;
+  }
+
+  .dk-main [class^="dk-"],
+  .dk-main [class*=" dk-"]{
+    font-size:15.5px !important;
+  }
+
+  .dk-table td{
+    font-size:15px !important;
+  }
+
+  .dk-entity b,
+  .dk-entitylink b{
+    font-size:17px !important;
+  }
+}
+
+@media(max-width:1100px){
+  .dk-admin{
+    grid-template-columns:220px minmax(0,1fr) !important;
+  }
+
+  .dk-content{
+    padding:24px 20px 34px !important;
+  }
+}
+
+@media(max-width:760px){
+  .dk-admin,
+  .dk-admin.is-collapsed{
+    display:block !important;
+  }
+
+  .dk-sidebar{
+    position:relative !important;
+    width:100% !important;
+    height:auto !important;
+  }
+
+  .dk-content{
+    padding:18px 14px 28px !important;
+  }
+
+  .dk-pageintro h2{
+    font-size:30px !important;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-09-17T12:43:32.220Z",
+  "requests": [
+    "/gtag/js"
+  ],
+  "pageViews": [
+    {
+      "location": "https://dorokartes.gr/browse",
+      "measurementId": "G-NHQ886KR9Q"
+    },
+    {
+      "location": "https://dorokartes.gr/categories",
+      "measurementId": "G-NHQ886KR9Q"
+    },
+    {
+      "location": "https://dorokartes.gr/browse?q=sephora",
+      "measurementId": "G-NHQ886KR9Q"
+    },
+    {
+      "location": "https://dorokartes.gr/browse?q=sephora&page=2",
+      "measurementId": "G-NHQ886KR9Q"
+    },
+    {
+      "location": "https://dorokartes.gr/brands/sephora",
+      "measurementId": "G-NHQ886KR9Q"
+    }
+  ],
+  "productionEventsSent": 0,
+  "passed": true,
+  "adminRequests": 0,
+  "scriptLoads": 1,
+  "configCalls": 1
+}
