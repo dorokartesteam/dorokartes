@@ -1,0 +1,219 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "2f42708efa022a010073040b549a974e5794fee986a457129abb13ede1331368",
+  "targetCount": 7,
+  "concurrency": 4,
+  "summary": {
+    "safe": 2,
+    "review": 5,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta5nklm000254iyykvcbi2u:ced52fa53358",
+      "merchantId": "cmta5nklm000254iyykvcbi2u",
+      "merchantName": "Atelie",
+      "merchantSlug": "atelie",
+      "websiteUrl": "https://atelie.com.gr/",
+      "sourceUrl": "https://atelie.com.gr/cdn/shop/files/atelie_logo.jpg?height=628&pad_color=ffffff&v=1785954503&width=1200",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 318,
+      "sha256": "ced52fa53358ee4f4c57630becb02619771b3a2efd7b4042cdbed81385613d82",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 24438,
+      "width": 1200,
+      "height": 628,
+      "localUrl": "/merchant-logos/atelie-ced52fa53358.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ice000c5q8iyu99sa66p:e2e6756334ef",
+      "merchantId": "cmta1ice000c5q8iyu99sa66p",
+      "merchantName": "Haralas",
+      "merchantSlug": "haralas",
+      "websiteUrl": "https://haralas.gr/",
+      "sourceUrl": "https://static.kalogirou.com/media/logo/websites/2/har_logo_1_1_.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 191,
+      "sha256": "e2e6756334ef6c3eca8f8ef26c94db54d2cc1adb6c6baf05b3f959d3a7945150",
+      "contentType": "image/avif",
+      "extension": ".avif",
+      "bytes": 3995,
+      "width": 409,
+      "height": 64,
+      "localUrl": "/merchant-logos/haralas-e2e6756334ef.avif"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta5nklm000254iyykvcbi2u",
+      "merchantName": "Atelie",
+      "merchantSlug": "atelie",
+      "websiteUrl": "https://atelie.com.gr",
+      "finalWebsiteUrl": "https://atelie.com.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "http://atelie.com.gr/cdn/shop/files/atelie_logo.jpg?height=628&pad_color=ffffff&v=1785954503&width=1200",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": {
+        "url": "https://atelie.com.gr/cdn/shop/files/atelie_logo.jpg?height=628&pad_color=ffffff&v=1785954503&width=1200",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 24438,
+        "width": 1200,
+        "height": 628,
+        "sha256": "ced52fa53358ee4f4c57630becb02619771b3a2efd7b4042cdbed81385613d82"
+      }
+    },
+    {
+      "merchantId": "cmta1mogm00tvq8iye33nmifv",
+      "merchantName": "Carlamco",
+      "merchantSlug": "carlamco",
+      "websiteUrl": "https://carlamco.gr",
+      "finalWebsiteUrl": "https://carlamco.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "NEGATIVE_OR_WHITE_VARIANT"
+      ],
+      "bestCandidate": {
+        "url": "https://www.carlamco.gr/image/cache/catalog/Carlamco_logo_white_new_1-366x90.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hru700a3q8iy6vn9whln",
+      "merchantName": "Cavallo",
+      "merchantSlug": "cavallo",
+      "websiteUrl": "https://cavallo.gr",
+      "finalWebsiteUrl": "https://cavallo.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "NEGATIVE_OR_WHITE_VARIANT"
+      ],
+      "bestCandidate": {
+        "url": "https://www.cavallo.gr/wp-content/uploads/2019/08/logocavallo_2018_white-compressor.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 138
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6upj2001p3giy68izspkm",
+      "merchantName": "Gelia Jewelry & Creations",
+      "merchantSlug": "gelia-jewelry-and-creations",
+      "websiteUrl": "https://geliajewelry.gr",
+      "finalWebsiteUrl": "https://geliajewelry.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "NEGATIVE_OR_WHITE_VARIANT"
+      ],
+      "bestCandidate": {
+        "url": "https://geliajewelry.gr/cdn/shop/files/Black_White_Minimalist_Calligraphy_Flourish_Designer_Logo_27b877fb-44a4-4f6b-ac11-d3dd14be3216.png?v=1702925296&width=600",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ice000c5q8iyu99sa66p",
+      "merchantName": "Haralas",
+      "merchantSlug": "haralas",
+      "websiteUrl": "https://haralas.gr",
+      "finalWebsiteUrl": "https://haralas.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.kalogirou.com/media/logo/websites/2/har_logo_1_1_.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 191
+      },
+      "validatedAsset": {
+        "url": "https://static.kalogirou.com/media/logo/websites/2/har_logo_1_1_.png",
+        "contentType": "image/avif",
+        "extension": ".avif",
+        "bytes": 3995,
+        "width": 409,
+        "height": 64,
+        "sha256": "e2e6756334ef6c3eca8f8ef26c94db54d2cc1adb6c6baf05b3f959d3a7945150"
+      }
+    },
+    {
+      "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+      "merchantName": "Kikoo",
+      "merchantSlug": "kikoo",
+      "websiteUrl": "https://kikoo.gr",
+      "finalWebsiteUrl": "https://kikoo.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "DISALLOWED_ASSET_TOKEN"
+      ],
+      "bestCandidate": {
+        "url": "https://kikoo.gr/image/cache/catalog/Banners/kikoo_LOGO-300x155.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jlyd00hnq8iyz32uf5a8",
+      "merchantName": "T Support",
+      "merchantSlug": "t-support",
+      "websiteUrl": "https://t-support.gr",
+      "finalWebsiteUrl": "https://t-support.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "IMAGE_DIMENSIONS_TOO_SMALL:16x16"
+      ],
+      "bestCandidate": {
+        "url": "https://t-support.gr/image/catalog/tsupport.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 279
+      },
+      "validatedAsset": null
+    }
+  ],
+  "generatedAt": "2026-09-03T13:13:22.357Z",
+  "planId": "93b493b96b83e0eefeb9ab9e57aae76c2f4fe169f8db57c7a72ce367f988ac98"
+}

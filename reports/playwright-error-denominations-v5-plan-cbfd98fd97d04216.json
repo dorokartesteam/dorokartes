@@ -1,0 +1,469 @@
+{
+  "version": 5,
+  "mode": "PREVIEW",
+  "sourceReportId": "28dc3739f07ea2373fa3c3e31ac97de895d10938fa9c24a951a2587f753f5266",
+  "targetFingerprint": "0bbbea09a3223b14915f1bc4051d4a5f522bda23606d425f1e9c8deb7c64895a",
+  "liveEvidenceFingerprint": "3d65240be450a940f5b7d1501664bb28c9f097d2795cc8bfc7e3a54d3dc0010e",
+  "cardCount": 4,
+  "actionCount": 12,
+  "liveEvidence": [
+    {
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "pages": [
+        {
+          "requestedUrl": "https://www.artcolour.gr/shop/doroepitages-gift-cards/gift-card-200/",
+          "finalUrl": "https://www.artcolour.gr/shop/doroepitages-gift-cards/gift-card-200/",
+          "title": "Δωροεπιταγή Art & Colour - 200€ - Art & Colour",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "€200 gift-card product identity",
+              "scope": "BODY",
+              "matched": "Δωροεπιταγή Art & Colour – 200€"
+            },
+            {
+              "label": "recipient email delivery",
+              "scope": "BODY",
+              "matched": "να αποσταλεί η δωροεπιταγή στο email τους"
+            },
+            {
+              "label": "download alternative",
+              "scope": "BODY",
+              "matched": "κατεβάστε την δωροεπιταγή στη συσκευή σας"
+            },
+            {
+              "label": "online and physical-store redemption",
+              "scope": "BODY",
+              "matched": "μπορούν να χρησιμοποιηθούν είτε για αγορές στο ηλεκτρονικό κατάστημα είτε για αγορές από του φυσικό κατάστημα"
+            },
+            {
+              "label": "no expiration statement",
+              "scope": "BODY",
+              "matched": "δεν έχουν ημερομηνία λήξης"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://www.artcolour.gr/category/doroepitages-gift-cards/",
+          "finalUrl": "https://www.artcolour.gr/category/doroepitages-gift-cards/",
+          "title": "Δωροεπιταγες - Gift Cards - Ζωγραφική Αγιογραφίας Χειροτεχνία - Art & Colour",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "€20 denomination",
+              "scope": "BODY",
+              "matched": "Δωροεπιταγή Art & Colour – 20€"
+            },
+            {
+              "label": "€50 denomination",
+              "scope": "BODY",
+              "matched": "Δωροεπιταγή Art & Colour – 50€"
+            },
+            {
+              "label": "€100 denomination",
+              "scope": "BODY",
+              "matched": "Δωροεπιταγή Art & Colour – 100€"
+            },
+            {
+              "label": "€200 denomination",
+              "scope": "BODY",
+              "matched": "Δωροεπιταγή Art & Colour – 200€"
+            },
+            {
+              "label": "category redemption scope",
+              "scope": "BODY",
+              "matched": "τόσο στο φυσικό κατάστημα όσο και στο eshop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "pages": [
+        {
+          "requestedUrl": "https://bestpharmacy.gr/el/dorokarta-50.html",
+          "finalUrl": "https://bestpharmacy.gr/el/dorokarta-50.html",
+          "title": "BestPharmacy.gr - Δωροκάρτα 50€",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "€50 gift-card product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 50€"
+            },
+            {
+              "label": "recipient-email field",
+              "scope": "BODY",
+              "matched": "Email Παραλήπτη"
+            },
+            {
+              "label": "recipient-email control",
+              "scope": "CONTROLS",
+              "matched": "input|name=am_giftcard_recipient_email|type=text|value=|text=|placeholder=Enter Recipient Email"
+            },
+            {
+              "label": "scheduled-send control",
+              "scope": "CONTROLS",
+              "matched": "input|name=is_date_delivery|type=radio|value=1"
+            },
+            {
+              "label": "online cart-code redemption",
+              "scope": "BODY",
+              "matched": "εξαργύρωση με κωδικό στο καλάθι"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://bestpharmacy.gr/el/gift-cards.html",
+          "finalUrl": "https://bestpharmacy.gr/el/gift-cards.html",
+          "title": "BestPharmacy.gr - Δωροκάρτες",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "three gift-card items",
+              "scope": "BODY",
+              "matched": "3 είδη"
+            },
+            {
+              "label": "€10 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 10€"
+            },
+            {
+              "label": "€20 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 20€"
+            },
+            {
+              "label": "€50 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 50€"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1icyu00c8q8iytwvndmek",
+      "pages": [
+        {
+          "requestedUrl": "https://www.harmanis.gr/el/nomika/doroepitages/",
+          "finalUrl": "https://www.harmanis.gr/el/nomika/doroepitages/",
+          "title": "ΔΩΡΟΕΠΙΤΑΓΕΣ | Harmanis",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "official gift-card page",
+              "scope": "BODY",
+              "matched": "ΔΩΡΟΕΠΙΤΑΓΕΣ"
+            },
+            {
+              "label": "online and physical-store redemption",
+              "scope": "BODY",
+              "matched": "δωροεπιταγές μπορούν να εξαργυρωθούν στο eshop ή σε οποιοδήποτε φυσικό μας κατάστημα"
+            },
+            {
+              "label": "recipient email",
+              "scope": "BODY",
+              "matched": "EMAIL ΠΑΡΑΛΗΠΤΗ ΚΑΡΤΑΣ"
+            },
+            {
+              "label": "complete fixed denomination set",
+              "scope": "BODY",
+              "matched": "ΠΟΣΟ* 10,00 € 20,00 € 50,00 € 100,00 € 200,00 € 300,00 € 500,00 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "pages": [
+        {
+          "requestedUrl": "https://www.pharmnet.gr/el/gift-cards/",
+          "finalUrl": "https://www.pharmnet.gr/el/gift-certificates",
+          "title": "Gift certificate | Pharmnet.gr",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "direct recipient email delivery",
+              "scope": "BODY",
+              "matched": "Η Δωροκάρτα θα σταλεί απευθείας στον παραλήπτη του (ιδανική για δώρα τελευταίας στιγμής) μέσω e-mail"
+            },
+            {
+              "label": "custom value range",
+              "scope": "BODY",
+              "matched": "οποιαδήποτε αξία από 50€ έως και 500€"
+            },
+            {
+              "label": "twelve-month validity",
+              "scope": "BODY",
+              "matched": "Ισχύει για όλα τα προϊόντα του pharmnet.gr για 12 μήνες"
+            },
+            {
+              "label": "online code redemption",
+              "scope": "BODY",
+              "matched": "κωδικό της δωροκάρτας που μπορεί να εξαργυρώσει στο pharmnet.gr"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1hfcn008sq8iy6i2fe0bp",
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "expected": "Art & Colour Gift Card - €200",
+      "value": "Artcolour Gift Card",
+      "expectedUpdatedAt": "2026-08-26T11:57:32.279Z",
+      "evidence": [
+        "Official product copy explicitly supports recipient-email delivery and download.",
+        "Official product and category copy support online and physical-store redemption.",
+        "The official category lists €20, €50, €100 and €200.",
+        "The verified official gift-card category replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1hfcn008sq8iy6i2fe0bp",
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "expected": "https://artcolour.gr/",
+      "value": "https://www.artcolour.gr/category/doroepitages-gift-cards/",
+      "evidence": [
+        "Official product copy explicitly supports recipient-email delivery and download.",
+        "Official product and category copy support online and physical-store redemption.",
+        "The official category lists €20, €50, €100 and €200.",
+        "The verified official gift-card category replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1hfcn008sq8iy6i2fe0bp",
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "expectedTitleAfter": "Artcolour Gift Card",
+      "officialUrlAfter": "https://www.artcolour.gr/category/doroepitages-gift-cards/",
+      "variant": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "minValue": "20",
+        "maxValue": "200",
+        "customValueAllowed": false,
+        "values": [
+          "20",
+          "50",
+          "100",
+          "200"
+        ],
+        "deliveryMethods": [
+          "EMAIL"
+        ],
+        "redemptionChannels": [
+          "ONLINE",
+          "PHYSICAL_STORE"
+        ],
+        "validityMonths": null
+      },
+      "evidence": [
+        "Official product copy explicitly supports recipient-email delivery and download.",
+        "Official product and category copy support online and physical-store redemption.",
+        "The official category lists €20, €50, €100 and €200.",
+        "The verified official gift-card category replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1hm2i009gq8iy3vf9bzhy",
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "expected": "Δωροκάρτα 50",
+      "value": "Bestpharmacy Gift Card",
+      "expectedUpdatedAt": "2026-08-26T11:57:40.986Z",
+      "evidence": [
+        "Official product markup requires a recipient email and exposes send-now/send-later controls.",
+        "Official product copy states redemption by code in the online cart.",
+        "The official category lists exactly €10, €20 and €50.",
+        "The verified official gift-card category replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1hm2i009gq8iy3vf9bzhy",
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "expected": "https://bestpharmacy.gr/",
+      "value": "https://bestpharmacy.gr/el/gift-cards.html",
+      "evidence": [
+        "Official product markup requires a recipient email and exposes send-now/send-later controls.",
+        "Official product copy states redemption by code in the online cart.",
+        "The official category lists exactly €10, €20 and €50.",
+        "The verified official gift-card category replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1hm2i009gq8iy3vf9bzhy",
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "expectedTitleAfter": "Bestpharmacy Gift Card",
+      "officialUrlAfter": "https://bestpharmacy.gr/el/gift-cards.html",
+      "variant": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "minValue": "10",
+        "maxValue": "50",
+        "customValueAllowed": false,
+        "values": [
+          "10",
+          "20",
+          "50"
+        ],
+        "deliveryMethods": [
+          "EMAIL"
+        ],
+        "redemptionChannels": [
+          "ONLINE"
+        ],
+        "validityMonths": null
+      },
+      "evidence": [
+        "Official product markup requires a recipient email and exposes send-now/send-later controls.",
+        "Official product copy states redemption by code in the online cart.",
+        "The official category lists exactly €10, €20 and €50.",
+        "The verified official gift-card category replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1icyu00c8q8iytwvndmek",
+      "cardId": "cmta1icyu00c8q8iytwvndmek",
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "expected": "Δωροεπιταγή 300 ευρώ",
+      "value": "Harmanis Gift Card",
+      "expectedUpdatedAt": "2026-08-26T11:58:15.846Z",
+      "evidence": [
+        "Official gift-card page requires the recipient email.",
+        "Official copy supports both eshop and physical-store redemption.",
+        "The official form lists €10, €20, €50, €100, €200, €300 and €500.",
+        "The verified official gift-card page replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1icyu00c8q8iytwvndmek",
+      "cardId": "cmta1icyu00c8q8iytwvndmek",
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "expected": "https://harmanis.gr/",
+      "value": "https://www.harmanis.gr/el/nomika/doroepitages/",
+      "evidence": [
+        "Official gift-card page requires the recipient email.",
+        "Official copy supports both eshop and physical-store redemption.",
+        "The official form lists €10, €20, €50, €100, €200, €300 and €500.",
+        "The verified official gift-card page replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1icyu00c8q8iytwvndmek",
+      "cardId": "cmta1icyu00c8q8iytwvndmek",
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "expectedTitleAfter": "Harmanis Gift Card",
+      "officialUrlAfter": "https://www.harmanis.gr/el/nomika/doroepitages/",
+      "variant": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "minValue": "10",
+        "maxValue": "500",
+        "customValueAllowed": false,
+        "values": [
+          "10",
+          "20",
+          "50",
+          "100",
+          "200",
+          "300",
+          "500"
+        ],
+        "deliveryMethods": [
+          "EMAIL"
+        ],
+        "redemptionChannels": [
+          "ONLINE",
+          "PHYSICAL_STORE"
+        ],
+        "validityMonths": null
+      },
+      "evidence": [
+        "Official gift-card page requires the recipient email.",
+        "Official copy supports both eshop and physical-store redemption.",
+        "The official form lists €10, €20, €50, €100, €200, €300 and €500.",
+        "The verified official gift-card page replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1f2jh000xq8iyzwanlt71",
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "merchantId": "cmta1f2cv000wq8iyrguy8go3",
+      "expected": "Δωροεπιταγή 50 ευρώ",
+      "value": "PharmNet Gift Card",
+      "expectedUpdatedAt": "2026-08-26T11:55:42.365Z",
+      "evidence": [
+        "Official gift-card copy explicitly states recipient email delivery.",
+        "Official copy allows any value from €50 through €500.",
+        "Official copy states online code redemption and twelve-month validity.",
+        "The verified canonical official gift-card page replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1f2jh000xq8iyzwanlt71",
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "merchantId": "cmta1f2cv000wq8iyrguy8go3",
+      "expected": "https://www.pharmnet.gr/",
+      "value": "https://www.pharmnet.gr/el/gift-certificates",
+      "evidence": [
+        "Official gift-card copy explicitly states recipient email delivery.",
+        "Official copy allows any value from €50 through €500.",
+        "Official copy states online code redemption and twelve-month validity.",
+        "The verified canonical official gift-card page replaces the homepage URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1f2jh000xq8iyzwanlt71",
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "merchantId": "cmta1f2cv000wq8iyrguy8go3",
+      "expectedTitleAfter": "PharmNet Gift Card",
+      "officialUrlAfter": "https://www.pharmnet.gr/el/gift-certificates",
+      "variant": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "minValue": "50",
+        "maxValue": "500",
+        "customValueAllowed": true,
+        "values": [],
+        "deliveryMethods": [
+          "EMAIL"
+        ],
+        "redemptionChannels": [
+          "ONLINE"
+        ],
+        "validityMonths": 12
+      },
+      "evidence": [
+        "Official gift-card copy explicitly states recipient email delivery.",
+        "Official copy allows any value from €50 through €500.",
+        "Official copy states online code redemption and twelve-month validity.",
+        "The verified canonical official gift-card page replaces the homepage URL."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-07T12:12:19.347Z",
+  "planId": "cbfd98fd97d04216af6922cc05996479155f0cb98b715a5e53ca56c63530c583"
+}

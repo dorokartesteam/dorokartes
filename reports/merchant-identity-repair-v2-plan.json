@@ -1,0 +1,1321 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "sourceReportId": "67e1de168e8b4a642c360a18a84d3889d54ca9ab39d9529593471ea25101072d",
+  "sourceEvidenceFingerprint": "50337c686c7fd32da2b157ef6913dd08df49e6eff671ce54f7cedc4500ec4423",
+  "targetFingerprint": "95118f4f72ff5a4587d08c05caf1b192568fbf99fa3100840795243107bce423",
+  "targetCount": 30,
+  "actionCount": 60,
+  "unchangedFields": [
+    "Merchant.slug",
+    "Merchant.websiteUrl",
+    "GiftCard.slug",
+    "GiftCard.officialUrl"
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77rj8004cdkiyvmogo621",
+      "merchantId": "cmtb77rj8004cdkiyvmogo621",
+      "giftCardId": "cmtb77rqc004ddkiytzf0x88j",
+      "expected": "Christmas Gift Cards",
+      "value": "Armonia Wellness",
+      "evidenceCandidate": "Armonia Wellness",
+      "evidenceScore": 295,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.armoniawellness.gr/",
+        "https://www.armoniawellness.gr/christmas-gift-cards/"
+      ],
+      "rationale": "Preserve the Christmas-specific program while restoring the official merchant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77rqc004ddkiytzf0x88j",
+      "merchantId": "cmtb77rj8004cdkiyvmogo621",
+      "giftCardId": "cmtb77rqc004ddkiytzf0x88j",
+      "expected": "Christmas Gift Cards",
+      "value": "Armonia Wellness Christmas Gift Card",
+      "evidenceCandidate": "Armonia Wellness",
+      "evidenceScore": 295,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.armoniawellness.gr/",
+        "https://www.armoniawellness.gr/christmas-gift-cards/"
+      ],
+      "rationale": "Preserve the Christmas-specific program while restoring the official merchant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb78g7m007rdkiydh03gkcd",
+      "merchantId": "cmtb78g7m007rdkiydh03gkcd",
+      "giftCardId": "cmtb78gcm007sdkiyiijij48q",
+      "expected": "I Thought Of You",
+      "value": "ΥΜΩΝ",
+      "evidenceCandidate": "ΥΜΩΝ",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.ymonanatripsis.gr/",
+        "https://www.ymonanatripsis.gr/en/gift-card/"
+      ],
+      "rationale": "Keep the named gift-card product and restore the official merchant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb78gcm007sdkiyiijij48q",
+      "merchantId": "cmtb78g7m007rdkiydh03gkcd",
+      "giftCardId": "cmtb78gcm007sdkiyiijij48q",
+      "expected": "I Thought Of You",
+      "value": "ΥΜΩΝ – I Thought Of You Gift Card",
+      "evidenceCandidate": "ΥΜΩΝ",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.ymonanatripsis.gr/",
+        "https://www.ymonanatripsis.gr/en/gift-card/"
+      ],
+      "rationale": "Keep the named gift-card product and restore the official merchant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb78ft1007pdkiylxlrso3f",
+      "merchantId": "cmtb78ft1007pdkiylxlrso3f",
+      "giftCardId": "cmtb78fy5007qdkiyxevs1v0x",
+      "expected": "Make a gift",
+      "value": "Simclub",
+      "evidenceCandidate": "Simclub",
+      "evidenceScore": 245,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://simclub.gr/",
+        "https://www.simclub.gr/en/gift-vouchers/"
+      ],
+      "rationale": "Replace generic page copy with the official site identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb78fy5007qdkiyxevs1v0x",
+      "merchantId": "cmtb78ft1007pdkiylxlrso3f",
+      "giftCardId": "cmtb78fy5007qdkiyxevs1v0x",
+      "expected": "Make a gift",
+      "value": "Simclub Gift Card",
+      "evidenceCandidate": "Simclub",
+      "evidenceScore": 245,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://simclub.gr/",
+        "https://www.simclub.gr/en/gift-vouchers/"
+      ],
+      "rationale": "Replace generic page copy with the official site identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb7i3a3001504iyg9dda4td",
+      "merchantId": "cmtb7i3a3001504iyg9dda4td",
+      "giftCardId": "cmtb7i3f1001604iyarnf8jny",
+      "expected": "Massage Gift Cards Kefalonia",
+      "value": "4 Elements Massage Kefalonia",
+      "evidenceCandidate": "4 Elements Massage Kefalonia",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_BRAND",
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://massage4kefalonia.com/",
+        "https://massage4kefalonia.com/gift-cards"
+      ],
+      "rationale": "Replace product-page copy with the corroborated official identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb7i3f1001604iyarnf8jny",
+      "merchantId": "cmtb7i3a3001504iyg9dda4td",
+      "giftCardId": "cmtb7i3f1001604iyarnf8jny",
+      "expected": "Massage Gift Cards Kefalonia",
+      "value": "4 Elements Massage Kefalonia Gift Card",
+      "evidenceCandidate": "4 Elements Massage Kefalonia",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_BRAND",
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://massage4kefalonia.com/",
+        "https://massage4kefalonia.com/gift-cards"
+      ],
+      "rationale": "Replace product-page copy with the corroborated official identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77g6g002qdkiyzp7xmoyn",
+      "merchantId": "cmtb77g6g002qdkiyzp7xmoyn",
+      "giftCardId": "cmtb77gbh002rdkiyzvvjbldl",
+      "expected": "Paco Δωροκάρτες από",
+      "value": "Paco Art Center",
+      "evidenceCandidate": "Paco Art Center",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.pacoartcenter.gr/",
+        "https://www.pacoartcenter.gr/el/gift-card.html"
+      ],
+      "rationale": "Remove scraped purchase-page wording from the merchant and card title."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77gbh002rdkiyzvvjbldl",
+      "merchantId": "cmtb77g6g002qdkiyzp7xmoyn",
+      "giftCardId": "cmtb77gbh002rdkiyzvvjbldl",
+      "expected": "Paco Δωροκάρτες από Gift Card",
+      "value": "Paco Art Center Gift Card",
+      "evidenceCandidate": "Paco Art Center",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.pacoartcenter.gr/",
+        "https://www.pacoartcenter.gr/el/gift-card.html"
+      ],
+      "rationale": "Remove scraped purchase-page wording from the merchant and card title."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb7hz7e000k04iywfxqpaau",
+      "merchantId": "cmtb7hz7e000k04iywfxqpaau",
+      "giftCardId": "cmtb7hzca000l04iybffdjgu7",
+      "expected": "Unforgettable Experience Gift Cards in Greece",
+      "value": "Explore Messinia",
+      "evidenceCandidate": "Explore Messinia - Outdoor activities",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://exploremessinia.com/",
+        "https://exploremessinia.com/giftcard/"
+      ],
+      "rationale": "Use the brand portion of the identical official site-name signal from both pages."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb7hzca000l04iybffdjgu7",
+      "merchantId": "cmtb7hz7e000k04iywfxqpaau",
+      "giftCardId": "cmtb7hzca000l04iybffdjgu7",
+      "expected": "Unforgettable Experience Gift Cards in Greece",
+      "value": "Explore Messinia Gift Card",
+      "evidenceCandidate": "Explore Messinia - Outdoor activities",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://exploremessinia.com/",
+        "https://exploremessinia.com/giftcard/"
+      ],
+      "rationale": "Use the brand portion of the identical official site-name signal from both pages."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb7i4fg001a04iyu5nzeowe",
+      "merchantId": "cmtb7i4fg001a04iyu5nzeowe",
+      "giftCardId": "cmtb7i4k6001b04iyd3jlw4se",
+      "expected": "Wellness Gift Cards",
+      "value": "Om Home",
+      "evidenceCandidate": "Om Home",
+      "evidenceScore": 230,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.omhomestudio.com/",
+        "https://www.omhomestudio.com/giftcard"
+      ],
+      "rationale": "Replace a generic card category with the official business identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb7i4k6001b04iyd3jlw4se",
+      "merchantId": "cmtb7i4fg001a04iyu5nzeowe",
+      "giftCardId": "cmtb7i4k6001b04iyd3jlw4se",
+      "expected": "Wellness Gift Cards | Crete, Om Home",
+      "value": "Om Home Gift Card",
+      "evidenceCandidate": "Om Home",
+      "evidenceScore": 230,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.omhomestudio.com/",
+        "https://www.omhomestudio.com/giftcard"
+      ],
+      "rationale": "Replace a generic card category with the official business identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb780lh005odkiyslzjq17k",
+      "merchantId": "cmtb780lh005odkiyslzjq17k",
+      "giftCardId": "cmtb780qd005pdkiy9ptikri3",
+      "expected": "Αγόρασε μία Δωροκάρτα",
+      "value": "Dazzeal",
+      "evidenceCandidate": "Dazzeal",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://dazzeal.gr/",
+        "https://dazzeal.gr/index.php?route=account%2Fvoucher"
+      ],
+      "rationale": "Replace voucher-form copy with the official identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb780qd005pdkiy9ptikri3",
+      "merchantId": "cmtb780lh005odkiyslzjq17k",
+      "giftCardId": "cmtb780qd005pdkiy9ptikri3",
+      "expected": "Αγόρασε μία Δωροκάρτα",
+      "value": "Dazzeal Gift Card",
+      "evidenceCandidate": "Dazzeal",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://dazzeal.gr/",
+        "https://dazzeal.gr/index.php?route=account%2Fvoucher"
+      ],
+      "rationale": "Replace voucher-form copy with the official identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb6upwi001r3giymvuh6njo",
+      "merchantId": "cmtb6upwi001r3giymvuh6njo",
+      "giftCardId": "cmtb6uq1p001s3giyrbtdkh3t",
+      "expected": "Αγοράστε μία Δωροεπιταγή - Gifts 4 All",
+      "value": "Gifts 4 All",
+      "evidenceCandidate": "Gifts 4 All",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.gifts4all.com.gr/",
+        "https://www.gifts4all.com.gr/account/voucher"
+      ],
+      "rationale": "Retain only the corroborated merchant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb6uq1p001s3giyrbtdkh3t",
+      "merchantId": "cmtb6upwi001r3giymvuh6njo",
+      "giftCardId": "cmtb6uq1p001s3giyrbtdkh3t",
+      "expected": "Αγοράστε μία Δωροεπιταγή - Gifts 4 All",
+      "value": "Gifts 4 All Gift Card",
+      "evidenceCandidate": "Gifts 4 All",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.gifts4all.com.gr/",
+        "https://www.gifts4all.com.gr/account/voucher"
+      ],
+      "rationale": "Retain only the corroborated merchant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb782qf005ydkiyrxvghjux",
+      "merchantId": "cmtb782qf005ydkiyrxvghjux",
+      "giftCardId": "cmtb782wo005zdkiyoydj8owp",
+      "expected": "Αγοράστε μία Δωροκάρτα",
+      "value": "Fifth Element",
+      "evidenceCandidate": "Fifth Element - Adventure Store",
+      "evidenceScore": 170,
+      "evidenceSources": [
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.fifthelement.gr/"
+      ],
+      "rationale": "Use the brand portion of the official organization and logo identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb782wo005zdkiyoydj8owp",
+      "merchantId": "cmtb782qf005ydkiyrxvghjux",
+      "giftCardId": "cmtb782wo005zdkiyoydj8owp",
+      "expected": "Αγοράστε μία Δωροκάρτα",
+      "value": "Fifth Element Gift Card",
+      "evidenceCandidate": "Fifth Element - Adventure Store",
+      "evidenceScore": 170,
+      "evidenceSources": [
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.fifthelement.gr/"
+      ],
+      "rationale": "Use the brand portion of the official organization and logo identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb789nc006vdkiyyrzeqiov",
+      "merchantId": "cmtb789nc006vdkiyyrzeqiov",
+      "giftCardId": "cmtb789sx006wdkiy2dhrh3x9",
+      "expected": "Δωροεπιταγές",
+      "value": "Must Men Fashion",
+      "evidenceCandidate": "Must Men Fashion",
+      "evidenceScore": 355,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://mustmenfashion.gr/",
+        "https://mustmenfashion.gr/voucher-purchase"
+      ],
+      "rationale": "Replace a generic plural label with the official merchant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb789sx006wdkiy2dhrh3x9",
+      "merchantId": "cmtb789nc006vdkiyyrzeqiov",
+      "giftCardId": "cmtb789sx006wdkiy2dhrh3x9",
+      "expected": "Δωροεπιταγές",
+      "value": "Must Men Fashion Gift Card",
+      "evidenceCandidate": "Must Men Fashion",
+      "evidenceScore": 355,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://mustmenfashion.gr/",
+        "https://mustmenfashion.gr/voucher-purchase"
+      ],
+      "rationale": "Replace a generic plural label with the official merchant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4ym53001qsciyl81j3zu5",
+      "merchantId": "cmta4ym53001qsciyl81j3zu5",
+      "giftCardId": "cmta4ymbf001rsciyxe7d8lyq",
+      "expected": "Δωροκάρτα - Karfitsomenos Gatos",
+      "value": "Karfitsomenos Gatos",
+      "evidenceCandidate": "Karfitsomenos Gatos",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://karfitsomenosgatos.gr/",
+        "https://karfitsomenosgatos.gr/gift-card/"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4ymbf001rsciyxe7d8lyq",
+      "merchantId": "cmta4ym53001qsciyl81j3zu5",
+      "giftCardId": "cmta4ymbf001rsciyxe7d8lyq",
+      "expected": "Δωροκάρτα - Karfitsomenos Gatos",
+      "value": "Karfitsomenos Gatos Gift Card",
+      "evidenceCandidate": "Karfitsomenos Gatos",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://karfitsomenosgatos.gr/",
+        "https://karfitsomenosgatos.gr/gift-card/"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4yyrf0038sciyxex3eik0",
+      "merchantId": "cmta4yyrf0038sciyxex3eik0",
+      "giftCardId": "cmta4yyxo0039sciy0650z05i",
+      "expected": "Δωροκάρτα - Patousaki Shoes",
+      "value": "Patousaki Shoes",
+      "evidenceCandidate": "Patousaki Shoes",
+      "evidenceScore": 330,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.patousakishoes.gr/",
+        "https://www.patousakishoes.gr/product-tag/giftcard/?srsltid"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yyxo0039sciy0650z05i",
+      "merchantId": "cmta4yyrf0038sciyxex3eik0",
+      "giftCardId": "cmta4yyxo0039sciy0650z05i",
+      "expected": "Δωροκάρτα - Patousaki Shoes",
+      "value": "Patousaki Shoes Gift Card",
+      "evidenceCandidate": "Patousaki Shoes",
+      "evidenceScore": 330,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.patousakishoes.gr/",
+        "https://www.patousakishoes.gr/product-tag/giftcard/?srsltid"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb6v1hi003h3giyzn8glzoz",
+      "merchantId": "cmtb6v1hi003h3giyzn8glzoz",
+      "giftCardId": "cmtb6v1m7003i3giyor8l91p3",
+      "expected": "ΔΩΡΟΚΑΡΤΑ - Pregnancy-gifts.gr",
+      "value": "Pregnancy Gifts",
+      "evidenceCandidate": "Pregnancy Gifts",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://pregnancy-gifts.gr/",
+        "https://pregnancy-gifts.gr/product-category/wps_wgm_giftcard/"
+      ],
+      "rationale": "Use the official identity without the product prefix or domain suffix."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb6v1m7003i3giyor8l91p3",
+      "merchantId": "cmtb6v1hi003h3giyzn8glzoz",
+      "giftCardId": "cmtb6v1m7003i3giyor8l91p3",
+      "expected": "ΔΩΡΟΚΑΡΤΑ - Pregnancy-gifts.gr",
+      "value": "Pregnancy Gifts Gift Card",
+      "evidenceCandidate": "Pregnancy Gifts",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://pregnancy-gifts.gr/",
+        "https://pregnancy-gifts.gr/product-category/wps_wgm_giftcard/"
+      ],
+      "rationale": "Use the official identity without the product prefix or domain suffix."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4z43r003usciyabwwtw93",
+      "merchantId": "cmta4z43r003usciyabwwtw93",
+      "giftCardId": "cmta4z49k003vsciyj7ag8khc",
+      "expected": "Δωροκάρτα - Studio Fix",
+      "value": "Studiofix",
+      "evidenceCandidate": "Studiofix",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://studiofix.gr/",
+        "https://studiofix.gr/gift-cards/"
+      ],
+      "rationale": "Use the official site identity without the product prefix."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4z49k003vsciyj7ag8khc",
+      "merchantId": "cmta4z43r003usciyabwwtw93",
+      "giftCardId": "cmta4z49k003vsciyj7ag8khc",
+      "expected": "Δωροκάρτα - Studio Fix",
+      "value": "Studiofix Gift Card",
+      "evidenceCandidate": "Studiofix",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://studiofix.gr/",
+        "https://studiofix.gr/gift-cards/"
+      ],
+      "rationale": "Use the official site identity without the product prefix."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4z7n90048sciy1ngsw7es",
+      "merchantId": "cmta4z7n90048sciy1ngsw7es",
+      "giftCardId": "cmta4z7uf0049sciyu0lkupmq",
+      "expected": "Δωροκάρτα - Vibrant Beauty",
+      "value": "Vibrant Beauty",
+      "evidenceCandidate": "Vibrant Beauty",
+      "evidenceScore": 245,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://vibrantbeauty.gr/",
+        "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4z7uf0049sciyu0lkupmq",
+      "merchantId": "cmta4z7n90048sciy1ngsw7es",
+      "giftCardId": "cmta4z7uf0049sciyu0lkupmq",
+      "expected": "Δωροκάρτα - Vibrant Beauty",
+      "value": "Vibrant Beauty Gift Card",
+      "evidenceCandidate": "Vibrant Beauty",
+      "evidenceScore": 245,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://vibrantbeauty.gr/",
+        "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4z5jo0040sciyob5ul4bs",
+      "merchantId": "cmta4z5jo0040sciyob5ul4bs",
+      "giftCardId": "cmta4z5vh0041sciye1uhquaq",
+      "expected": "Δωροκάρτα – Uba | Clothing & Massage Oils",
+      "value": "Uba",
+      "evidenceCandidate": "Uba | Clothing & Massage Oils",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.uba.gr/",
+        "https://www.uba.gr/product/gift-card/"
+      ],
+      "rationale": "Use the brand portion of the matching official site-name signal."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4z5vh0041sciye1uhquaq",
+      "merchantId": "cmta4z5jo0040sciyob5ul4bs",
+      "giftCardId": "cmta4z5vh0041sciye1uhquaq",
+      "expected": "Δωροκάρτα – Uba | Clothing & Massage Oils",
+      "value": "Uba Gift Card",
+      "evidenceCandidate": "Uba | Clothing & Massage Oils",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.uba.gr/",
+        "https://www.uba.gr/product/gift-card/"
+      ],
+      "rationale": "Use the brand portion of the matching official site-name signal."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4ya8v000esciy4fwqlr55",
+      "merchantId": "cmta4ya8v000esciy4fwqlr55",
+      "giftCardId": "cmta4yafm000fsciycmpn7qlk",
+      "expected": "Δωροκάρτα Best Wines - Κάβα κρασιών Best Wines",
+      "value": "Best Wines",
+      "evidenceCandidate": "Best Wines",
+      "evidenceScore": 330,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://bestwines.gr/",
+        "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+      ],
+      "rationale": "Remove product and SEO wording from the merchant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yafm000fsciycmpn7qlk",
+      "merchantId": "cmta4ya8v000esciy4fwqlr55",
+      "giftCardId": "cmta4yafm000fsciycmpn7qlk",
+      "expected": "Δωροκάρτα Best Wines - Κάβα κρασιών Best Wines",
+      "value": "Best Wines Gift Card",
+      "evidenceCandidate": "Best Wines",
+      "evidenceScore": 330,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://bestwines.gr/",
+        "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+      ],
+      "rationale": "Remove product and SEO wording from the merchant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4yfnr0010sciyekibu4i4",
+      "merchantId": "cmta4yfnr0010sciyekibu4i4",
+      "giftCardId": "cmta4yfvk0011sciyi5zwgnhr",
+      "expected": "Δωροκάρτα Evilio Home",
+      "value": "Evilio Home",
+      "evidenceCandidate": "Evilio Home",
+      "evidenceScore": 295,
+      "evidenceSources": [
+        "GIFT_JSONLD_BRAND",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://eviliohome.gr/",
+        "https://eviliohome.gr/products/giftcard-evilio-home?srsltid=AfmBOoqB2Q-o7MU5Fwy8lw78XHBOyQ2WrcnqwiCxCzPHMAErwjg52GTS"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yfvk0011sciyi5zwgnhr",
+      "merchantId": "cmta4yfnr0010sciyekibu4i4",
+      "giftCardId": "cmta4yfvk0011sciyi5zwgnhr",
+      "expected": "Δωροκάρτα Evilio Home",
+      "value": "Evilio Home Gift Card",
+      "evidenceCandidate": "Evilio Home",
+      "evidenceScore": 295,
+      "evidenceSources": [
+        "GIFT_JSONLD_BRAND",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://eviliohome.gr/",
+        "https://eviliohome.gr/products/giftcard-evilio-home?srsltid=AfmBOoqB2Q-o7MU5Fwy8lw78XHBOyQ2WrcnqwiCxCzPHMAErwjg52GTS"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4yrrv002esciypbuxrrtw",
+      "merchantId": "cmta4yrrv002esciypbuxrrtw",
+      "giftCardId": "cmta4yryo002fsciyhkz02ixr",
+      "expected": "Δωροκάρτα Love Generation",
+      "value": "Love Generation",
+      "evidenceCandidate": "Love Generation",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://lovegeneration.gr/",
+        "https://lovegeneration.gr/shop/gift-card/gift-card/"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yryo002fsciyhkz02ixr",
+      "merchantId": "cmta4yrrv002esciypbuxrrtw",
+      "giftCardId": "cmta4yryo002fsciyhkz02ixr",
+      "expected": "Δωροκάρτα Love Generation",
+      "value": "Love Generation Gift Card",
+      "evidenceCandidate": "Love Generation",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://lovegeneration.gr/",
+        "https://lovegeneration.gr/shop/gift-card/gift-card/"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb6v4em003x3giyg8ll7r7u",
+      "merchantId": "cmtb6v4em003x3giyg8ll7r7u",
+      "giftCardId": "cmtb6v4jr003y3giytfu9ztox",
+      "expected": "Δωροκάρτα Spaghetti Lab",
+      "value": "Spaghetti Lab",
+      "evidenceCandidate": "Spaghetti Lab",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_BRAND",
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://spaghettilab.gr/",
+        "https://spaghettilab.gr/products/gift-card"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb6v4jr003y3giytfu9ztox",
+      "merchantId": "cmtb6v4em003x3giyg8ll7r7u",
+      "giftCardId": "cmtb6v4jr003y3giytfu9ztox",
+      "expected": "Gift Card Δωροκάρτα Spaghetti Lab | Το Πιο Νόστιμο Δώρο ...",
+      "value": "Spaghetti Lab Gift Card",
+      "evidenceCandidate": "Spaghetti Lab",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_BRAND",
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://spaghettilab.gr/",
+        "https://spaghettilab.gr/products/gift-card"
+      ],
+      "rationale": "Separate merchant identity from product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4z8an004asciy12oao0hi",
+      "merchantId": "cmta4z8an004asciy12oao0hi",
+      "giftCardId": "cmta4z8gh004bsciyrey9tw17",
+      "expected": "Δωροκάρτα Vip Art",
+      "value": "VIP Art",
+      "evidenceCandidate": "VIP Art",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://vipart.gr/",
+        "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+      ],
+      "rationale": "Use the official site-name styling without the product prefix."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4z8gh004bsciyrey9tw17",
+      "merchantId": "cmta4z8an004asciy12oao0hi",
+      "giftCardId": "cmta4z8gh004bsciyrey9tw17",
+      "expected": "Δωροκάρτα Vip Art",
+      "value": "VIP Art Gift Card",
+      "evidenceCandidate": "VIP Art",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://vipart.gr/",
+        "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+      ],
+      "rationale": "Use the official site-name styling without the product prefix."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4ydov000ssciyj77w8hqs",
+      "merchantId": "cmta4ydov000ssciyj77w8hqs",
+      "giftCardId": "cmta4ydvb000tsciyww37i2fq",
+      "expected": "Δωροκάρτα Πλυντηρίου - Cityzen",
+      "value": "Cityzen",
+      "evidenceCandidate": "Cityzen",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.cityzen.com.gr/",
+        "https://www.cityzen.com.gr/carwash_giftcard/"
+      ],
+      "rationale": "Restore the official merchant identity and retain the service context in the card title."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4ydvb000tsciyww37i2fq",
+      "merchantId": "cmta4ydov000ssciyj77w8hqs",
+      "giftCardId": "cmta4ydvb000tsciyww37i2fq",
+      "expected": "Δωροκάρτα Πλυντηρίου - Cityzen",
+      "value": "Cityzen Car Wash Gift Card",
+      "evidenceCandidate": "Cityzen",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.cityzen.com.gr/",
+        "https://www.cityzen.com.gr/carwash_giftcard/"
+      ],
+      "rationale": "Restore the official merchant identity and retain the service context in the card title."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4yf3d000ysciy2zdlqyzw",
+      "merchantId": "cmta4yf3d000ysciy2zdlqyzw",
+      "giftCardId": "cmta4yfe1000zsciy02ejjqqf",
+      "expected": "Ηλεκτρονική Δωροκάρτα - SportCafe",
+      "value": "SportCafe",
+      "evidenceCandidate": "SportCafe",
+      "evidenceScore": 355,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://el.sportcafe.gr/",
+        "https://el.sportcafe.gr/egift-card/"
+      ],
+      "rationale": "Separate merchant identity from delivery format and product type."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yfe1000zsciy02ejjqqf",
+      "merchantId": "cmta4yf3d000ysciy2zdlqyzw",
+      "giftCardId": "cmta4yfe1000zsciy02ejjqqf",
+      "expected": "Ηλεκτρονική Δωροκάρτα - SportCafe",
+      "value": "SportCafe Gift Card",
+      "evidenceCandidate": "SportCafe",
+      "evidenceScore": 355,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_LOGO_ALT",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://el.sportcafe.gr/",
+        "https://el.sportcafe.gr/egift-card/"
+      ],
+      "rationale": "Separate merchant identity from delivery format and product type."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb6v0pz003d3giypgi6p23y",
+      "merchantId": "cmtb6v0pz003d3giypgi6p23y",
+      "giftCardId": "cmtb6v0uz003e3giyj7if68dc",
+      "expected": "Ηλεκτρονική Δωροκάρτα PlanToys",
+      "value": "PlanToys Greece",
+      "evidenceCandidate": "PlanToys Greece",
+      "evidenceScore": 205,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "HOME_JSONLD_ORGANIZATION"
+      ],
+      "evidenceUrls": [
+        "https://www.plantoys.gr/",
+        "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/"
+      ],
+      "rationale": "Use the specific official organization identity without the product prefix."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb6v0uz003e3giyj7if68dc",
+      "merchantId": "cmtb6v0pz003d3giypgi6p23y",
+      "giftCardId": "cmtb6v0uz003e3giyj7if68dc",
+      "expected": "Ηλεκτρονική Δωροκάρτα PlanToys",
+      "value": "PlanToys Greece Gift Card",
+      "evidenceCandidate": "PlanToys Greece",
+      "evidenceScore": 205,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "HOME_JSONLD_ORGANIZATION"
+      ],
+      "evidenceUrls": [
+        "https://www.plantoys.gr/",
+        "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/"
+      ],
+      "rationale": "Use the specific official organization identity without the product prefix."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77i700030dkiywamhlbp4",
+      "merchantId": "cmtb77i700030dkiywamhlbp4",
+      "giftCardId": "cmtb77ibp0031dkiy5l84o2pl",
+      "expected": "Κάρτα δώρου για Εκδρομές - Περιηγήσεις στα Χανιά Κρήτης",
+      "value": "Proper Cretan Guide",
+      "evidenceCandidate": "Proper Cretan Guide",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://propercretanguide.gr/",
+        "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+      ],
+      "rationale": "Replace the product description with the official operator identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77ibp0031dkiy5l84o2pl",
+      "merchantId": "cmtb77i700030dkiywamhlbp4",
+      "giftCardId": "cmtb77ibp0031dkiy5l84o2pl",
+      "expected": "Κάρτα δώρου για Εκδρομές - Περιηγήσεις στα Χανιά Κρήτης",
+      "value": "Proper Cretan Guide Gift Card",
+      "evidenceCandidate": "Proper Cretan Guide",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://propercretanguide.gr/",
+        "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+      ],
+      "rationale": "Replace the product description with the official operator identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4z1g8003ksciycb0lyswx",
+      "merchantId": "cmta4z1g8003ksciycb0lyswx",
+      "giftCardId": "cmta4z1mm003lsciyvwvowjdm",
+      "expected": "Κάρτα Δώρου Εστιατόριο | Salero Restaurant",
+      "value": "Salero Restaurant",
+      "evidenceCandidate": "Salero Restaurant",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.salero.gr/",
+        "https://www.salero.gr/gift-card"
+      ],
+      "rationale": "Remove the product descriptor from the official restaurant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4z1mm003lsciyvwvowjdm",
+      "merchantId": "cmta4z1g8003ksciycb0lyswx",
+      "giftCardId": "cmta4z1mm003lsciyvwvowjdm",
+      "expected": "Κάρτα Δώρου Εστιατόριο | Salero Restaurant",
+      "value": "Salero Restaurant Gift Card",
+      "evidenceCandidate": "Salero Restaurant",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.salero.gr/",
+        "https://www.salero.gr/gift-card"
+      ],
+      "rationale": "Remove the product descriptor from the official restaurant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb6uuev002f3giyv39kjoxr",
+      "merchantId": "cmtb6uuev002f3giyv39kjoxr",
+      "giftCardId": "cmtb6uukg002g3giyhpszyjx7",
+      "expected": "Μασάζ L'Arte di Massaggio -",
+      "value": "L'Arte di Massaggio",
+      "evidenceCandidate": "L'arte di Massaggio",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://lartedimassaggio.gr/",
+        "https://lartedimassaggio.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/"
+      ],
+      "rationale": "Remove the service prefix and dangling punctuation; preserve the official brand wording."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb6uukg002g3giyhpszyjx7",
+      "merchantId": "cmtb6uuev002f3giyv39kjoxr",
+      "giftCardId": "cmtb6uukg002g3giyhpszyjx7",
+      "expected": "Δωροκάρτα Μασάζ L'Arte di Massaggio -",
+      "value": "L'Arte di Massaggio Gift Card",
+      "evidenceCandidate": "L'arte di Massaggio",
+      "evidenceScore": 280,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://lartedimassaggio.gr/",
+        "https://lartedimassaggio.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/"
+      ],
+      "rationale": "Remove the service prefix and dangling punctuation; preserve the official brand wording."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb771uj000odkiywhfjulaj",
+      "merchantId": "cmtb771uj000odkiywhfjulaj",
+      "giftCardId": "cmtb771ze000pdkiyptng0olp",
+      "expected": "Προσφέρετε μια δωροκάρτα - Επιλέξτε την Αξία",
+      "value": "Delta Restaurant",
+      "evidenceCandidate": "Delta Restaurant",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://deltarestaurant.gr/",
+        "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/"
+      ],
+      "rationale": "Replace gift-card form instructions with the official restaurant identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb771ze000pdkiyptng0olp",
+      "merchantId": "cmtb771uj000odkiywhfjulaj",
+      "giftCardId": "cmtb771ze000pdkiyptng0olp",
+      "expected": "Προσφέρετε μια δωροκάρτα - Επιλέξτε την Αξία",
+      "value": "Delta Restaurant Gift Card",
+      "evidenceCandidate": "Delta Restaurant",
+      "evidenceScore": 305,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "GIFT_OG_SITE_NAME",
+        "GIFT_TITLE",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_OG_SITE_NAME",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://deltarestaurant.gr/",
+        "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/"
+      ],
+      "rationale": "Replace gift-card form instructions with the official restaurant identity."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb6um3e00183giyblwki1yw",
+      "merchantId": "cmtb6um3e00183giyblwki1yw",
+      "giftCardId": "cmtb6um9000193giyhxszewcb",
+      "expected": "Χάρισε μια Δωροκάρτα - District75",
+      "value": "District 75",
+      "evidenceCandidate": "District 75",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.district75.gr/",
+        "https://www.district75.gr/doro-karta"
+      ],
+      "rationale": "Remove purchase copy and use the official site identity."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb6um9000193giyhxszewcb",
+      "merchantId": "cmtb6um3e00183giyblwki1yw",
+      "giftCardId": "cmtb6um9000193giyhxszewcb",
+      "expected": "Χάρισε μια Δωροκάρτα - District75",
+      "value": "District 75 Gift Card",
+      "evidenceCandidate": "District 75",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.district75.gr/",
+        "https://www.district75.gr/doro-karta"
+      ],
+      "rationale": "Remove purchase copy and use the official site identity."
+    }
+  ],
+  "generatedAt": "2026-09-07T07:20:06.231Z",
+  "planId": "457f461bd3998843aa449b586111e3842ecbc5978d26a4de4d3267ca59a8e11c"
+}

@@ -1,0 +1,539 @@
+{
+  "version": 6,
+  "mode": "PREVIEW",
+  "sourceReportId": "28dc3739f07ea2373fa3c3e31ac97de895d10938fa9c24a951a2587f753f5266",
+  "targetFingerprint": "e4c5706eff619870b6a3ab63526017a23ddbd22f07cd78c44cb334b46dbff134",
+  "liveEvidenceFingerprint": "1897e95bb17b90d822660226e418daaee381bc9e2b042a63c41bc61c12ca0b15",
+  "cardCount": 3,
+  "actionCount": 9,
+  "liveEvidence": [
+    {
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "pages": [
+        {
+          "requestedUrl": "https://materiaprima.gr/product/gift-card-40e/",
+          "finalUrl": "https://materiaprima.gr/product/gift-card-40e",
+          "title": "Δωροκάρτα 40 - materiaprima",
+          "transport": "playwright-chrome",
+          "interactions": [],
+          "checks": [
+            {
+              "label": "€40 product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 40"
+            },
+            {
+              "label": "recipient digital-card email delivery",
+              "scope": "BODY",
+              "matched": "Ο παραλήπτης θα λάβει την ψηφιακή κάρτα δώρου σας μέσω email σύντομα"
+            },
+            {
+              "label": "online and physical-store choice",
+              "scope": "BODY",
+              "matched": "απευθείας από το ηλεκτρονικό ή το φυσικό κατάστημά μας"
+            },
+            {
+              "label": "three-month expiry",
+              "scope": "BODY",
+              "matched": "Η ημερομηνία λήξης είναι μετά από 3 μήνες"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://materiaprima.gr/specials/dorokartes/",
+          "finalUrl": "https://materiaprima.gr/specials/dorokartes",
+          "title": "Δωροκάρτες - materiaprima",
+          "transport": "playwright-chrome",
+          "interactions": [],
+          "checks": [
+            {
+              "label": "exact four-item category",
+              "scope": "BODY",
+              "matched": "Showing 1-4 of 4 items"
+            },
+            {
+              "label": "€20 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 20 20,00 €"
+            },
+            {
+              "label": "€40 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 40 40,00 €"
+            },
+            {
+              "label": "€70 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 70 70,00 €"
+            },
+            {
+              "label": "€120 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα 120 120,00 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "pages": [
+        {
+          "requestedUrl": "https://www.tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card/",
+          "finalUrl": "https://tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card",
+          "title": "Δωροκάρτα 100€ Tactical Store – Premium Digital Gift Card - Tacticalstore - Οπλα, ειδη κυνηγιου, σκοποβολής και αστυνομικός εξοπλισμός",
+          "transport": "playwright-chrome",
+          "interactions": [],
+          "checks": [
+            {
+              "label": "€100 product identity",
+              "scope": "BODY",
+              "matched": "ΔΩΡΟΚΑΡΤΑ TACTICAL STORE 100€ – PRO GIFT CARD"
+            },
+            {
+              "label": "digital email delivery",
+              "scope": "BODY",
+              "matched": "η δωροκάρτα αποστέλλεται σε ψηφιακή μορφή μέσω email"
+            },
+            {
+              "label": "twelve-month validity",
+              "scope": "BODY",
+              "matched": "Διάρκεια ισχύος: 12 μήνες"
+            },
+            {
+              "label": "digital email format",
+              "scope": "BODY",
+              "matched": "Μορφή: Ψηφιακή (email)"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://www.tacticalstore.gr/cat/dorokartes/",
+          "finalUrl": "https://tacticalstore.gr/cat/dorokartes",
+          "title": "ΔΩΡΟΚΑΡΤΕΣ - Tacticalstore - Οπλα, ειδη κυνηγιου, σκοποβολής και αστυνομικός εξοπλισμός",
+          "transport": "playwright-chrome",
+          "interactions": [],
+          "checks": [
+            {
+              "label": "exact three-item category",
+              "scope": "BODY",
+              "matched": "ΠΡΟΒΟΛΗ ΟΛΩΝ ΤΩΝ 3 ΑΠΟΤΕΛΕΣΜΑΤΩΝ"
+            },
+            {
+              "label": "€25 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα Tactical Store 25€ – Starter Gift Card 25.00 €"
+            },
+            {
+              "label": "€50 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα Tactical Store 50€ – Advanced Gift Card 50.00 €"
+            },
+            {
+              "label": "€100 denomination",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα Tactical Store 100€ – Pro Gift Card 100.00 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "pages": [
+        {
+          "requestedUrl": "https://vinylartclothing.gr/products/gift-card-40",
+          "finalUrl": "https://vinylartclothing.gr/products/gift-card-40",
+          "title": "Vinyl gift card 40€",
+          "transport": "playwright-chrome",
+          "interactions": [
+            "EXPAND_DESCRIPTION"
+          ],
+          "checks": [
+            {
+              "label": "€40 product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα αξίας 40€"
+            },
+            {
+              "label": "physical gift packaging",
+              "scope": "BODY",
+              "matched": "Την δωροκάρτα θα την παραλάβετε σε φυσική μορφή και σε συσκευασία δώρου"
+            },
+            {
+              "label": "e-shop-only redemption and physical delivery",
+              "scope": "BODY",
+              "matched": "Η Δωροκάρτα Vinyl εξαργυρώνεται ΑΠΟΚΛΕΙΣΤΙΚΑ μέσω του e-shop μας και σας αποστέλλεται σε φυσική μορφή"
+            },
+            {
+              "label": "online checkout coupon redemption",
+              "scope": "BODY",
+              "matched": "Η εξαργύρωση γίνεται χρησιμοποιώντας τον κωδικό που θα βρείτε στην δωροκάρτα σας, στο πεδίο \"κουπόνι έκπτωσης\" κατά την ολοκλήρωση παραγγελίας στο ηλεκτρονικό μας κατάστημα"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://vinylartclothing.gr/products/gift-card-60",
+          "finalUrl": "https://vinylartclothing.gr/products/gift-card-60",
+          "title": "Vinyl gift card 60€",
+          "transport": "playwright-chrome",
+          "interactions": [
+            "EXPAND_DESCRIPTION"
+          ],
+          "checks": [
+            {
+              "label": "€60 product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα αξίας 60€"
+            },
+            {
+              "label": "physical gift packaging",
+              "scope": "BODY",
+              "matched": "Την δωροκάρτα θα την παραλάβετε σε φυσική μορφή και σε συσκευασία δώρου"
+            },
+            {
+              "label": "e-shop-only redemption and physical delivery",
+              "scope": "BODY",
+              "matched": "Η Δωροκάρτα Vinyl εξαργυρώνεται ΑΠΟΚΛΕΙΣΤΙΚΑ μέσω του e-shop μας και σας αποστέλλεται σε φυσική μορφή"
+            },
+            {
+              "label": "online checkout coupon redemption",
+              "scope": "BODY",
+              "matched": "Η εξαργύρωση γίνεται χρησιμοποιώντας τον κωδικό που θα βρείτε στην δωροκάρτα σας, στο πεδίο \"κουπόνι έκπτωσης\" κατά την ολοκλήρωση παραγγελίας στο ηλεκτρονικό μας κατάστημα"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://vinylartclothing.gr/products/gift-card-80",
+          "finalUrl": "https://vinylartclothing.gr/products/gift-card-80",
+          "title": "Vinyl gift card 80€",
+          "transport": "playwright-chrome",
+          "interactions": [
+            "EXPAND_DESCRIPTION"
+          ],
+          "checks": [
+            {
+              "label": "€80 product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα αξίας 80€"
+            },
+            {
+              "label": "physical gift packaging",
+              "scope": "BODY",
+              "matched": "Την δωροκάρτα θα την παραλάβετε σε φυσική μορφή και σε συσκευασία δώρου"
+            },
+            {
+              "label": "e-shop-only redemption and physical delivery",
+              "scope": "BODY",
+              "matched": "Η Δωροκάρτα Vinyl εξαργυρώνεται ΑΠΟΚΛΕΙΣΤΙΚΑ μέσω του e-shop μας και σας αποστέλλεται σε φυσική μορφή"
+            },
+            {
+              "label": "online checkout coupon redemption",
+              "scope": "BODY",
+              "matched": "Η εξαργύρωση γίνεται χρησιμοποιώντας τον κωδικό που θα βρείτε στην δωροκάρτα σας, στο πεδίο \"κουπόνι έκπτωσης\" κατά την ολοκλήρωση παραγγελίας στο ηλεκτρονικό μας κατάστημα"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://vinylartclothing.gr/products/gift-card-100",
+          "finalUrl": "https://vinylartclothing.gr/products/gift-card-100",
+          "title": "Vinyl gift card 100€",
+          "transport": "playwright-chrome",
+          "interactions": [
+            "EXPAND_DESCRIPTION"
+          ],
+          "checks": [
+            {
+              "label": "€100 product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα αξίας 100€"
+            },
+            {
+              "label": "physical gift packaging",
+              "scope": "BODY",
+              "matched": "Την δωροκάρτα θα την παραλάβετε σε φυσική μορφή και σε συσκευασία δώρου"
+            },
+            {
+              "label": "e-shop-only redemption and physical delivery",
+              "scope": "BODY",
+              "matched": "Η Δωροκάρτα Vinyl εξαργυρώνεται ΑΠΟΚΛΕΙΣΤΙΚΑ μέσω του e-shop μας και σας αποστέλλεται σε φυσική μορφή"
+            },
+            {
+              "label": "online checkout coupon redemption",
+              "scope": "BODY",
+              "matched": "Η εξαργύρωση γίνεται χρησιμοποιώντας τον κωδικό που θα βρείτε στην δωροκάρτα σας, στο πεδίο \"κουπόνι έκπτωσης\" κατά την ολοκλήρωση παραγγελίας στο ηλεκτρονικό μας κατάστημα"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://vinylartclothing.gr/products/gift-card-130",
+          "finalUrl": "https://vinylartclothing.gr/products/gift-card-130",
+          "title": "Vinyl gift card 130€",
+          "transport": "playwright-chrome",
+          "interactions": [
+            "EXPAND_DESCRIPTION"
+          ],
+          "checks": [
+            {
+              "label": "€130 product identity",
+              "scope": "BODY",
+              "matched": "Δωροκάρτα αξίας 130€"
+            },
+            {
+              "label": "physical gift packaging",
+              "scope": "BODY",
+              "matched": "Την δωροκάρτα θα την παραλάβετε σε φυσική μορφή και σε συσκευασία δώρου"
+            },
+            {
+              "label": "e-shop-only redemption and physical delivery",
+              "scope": "BODY",
+              "matched": "Η Δωροκάρτα Vinyl εξαργυρώνεται ΑΠΟΚΛΕΙΣΤΙΚΑ μέσω του e-shop μας και σας αποστέλλεται σε φυσική μορφή"
+            },
+            {
+              "label": "online checkout coupon redemption",
+              "scope": "BODY",
+              "matched": "Η εξαργύρωση γίνεται χρησιμοποιώντας τον κωδικό που θα βρείτε στην δωροκάρτα σας, στο πεδίο \"κουπόνι έκπτωσης\" κατά την ολοκλήρωση παραγγελίας στο ηλεκτρονικό μας κατάστημα"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://vinylartclothing.gr/search?q=gift%20card",
+          "finalUrl": "https://vinylartclothing.gr/search?q=gift%20card",
+          "title": "Αναζήτηση: Βρέθηκαν 7 αποτελέσματα για \"gift card\"",
+          "transport": "playwright-chrome",
+          "interactions": [],
+          "checks": [
+            {
+              "label": "five gift-card product results",
+              "scope": "BODY",
+              "matched": "VINYL GIFT CARD 100€ ΤΙΜΗ ΠΩΛΗΣΗΣ €100,00 EUR VINYL GIFT CARD 60€ ΤΙΜΗ ΠΩΛΗΣΗΣ €60,00 EUR VINYL GIFT CARD 130€ ΤΙΜΗ ΠΩΛΗΣΗΣ €130,00 EUR VINYL GIFT CARD 40€ ΤΙΜΗ ΠΩΛΗΣΗΣ €40,00 EUR VINYL GIFT CARD 80€"
+            },
+            {
+              "label": "€40 denomination",
+              "scope": "BODY",
+              "matched": "VINYL GIFT CARD 40€ ΤΙΜΗ ΠΩΛΗΣΗΣ €40,00 EUR"
+            },
+            {
+              "label": "€60 denomination",
+              "scope": "BODY",
+              "matched": "VINYL GIFT CARD 60€ ΤΙΜΗ ΠΩΛΗΣΗΣ €60,00 EUR"
+            },
+            {
+              "label": "€80 denomination",
+              "scope": "BODY",
+              "matched": "VINYL GIFT CARD 80€ ΤΙΜΗ ΠΩΛΗΣΗΣ €80,00 EUR"
+            },
+            {
+              "label": "€100 denomination",
+              "scope": "BODY",
+              "matched": "VINYL GIFT CARD 100€ ΤΙΜΗ ΠΩΛΗΣΗΣ €100,00 EUR"
+            },
+            {
+              "label": "€130 denomination",
+              "scope": "BODY",
+              "matched": "VINYL GIFT CARD 130€ ΤΙΜΗ ΠΩΛΗΣΗΣ €130,00 EUR"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1itdc00e8q8iy8qkpk1e1",
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "merchantId": "cmta1it7x00e7q8iyoinm2cbt",
+      "expected": "Δωροκάρτα 70 - materiaprima",
+      "value": "Materiaprima Gift Card",
+      "expectedUpdatedAt": "2026-08-28T10:35:17.994Z",
+      "evidence": [
+        "Official product copy explicitly states digital gift-card delivery to the recipient by email.",
+        "Official product copy explicitly supports the online shop and physical stores and states three-month expiry.",
+        "The official gift-card category lists exactly four products: €20, €40, €70 and €120.",
+        "The verified same-domain gift-card category replaces the conflicting €40 product URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1itdc00e8q8iy8qkpk1e1",
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "merchantId": "cmta1it7x00e7q8iyoinm2cbt",
+      "expected": "https://materiaprima.gr/product/gift-card-40e/",
+      "value": "https://materiaprima.gr/specials/dorokartes/",
+      "evidence": [
+        "Official product copy explicitly states digital gift-card delivery to the recipient by email.",
+        "Official product copy explicitly supports the online shop and physical stores and states three-month expiry.",
+        "The official gift-card category lists exactly four products: €20, €40, €70 and €120.",
+        "The verified same-domain gift-card category replaces the conflicting €40 product URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1itdc00e8q8iy8qkpk1e1",
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "merchantId": "cmta1it7x00e7q8iyoinm2cbt",
+      "expectedTitleAfter": "Materiaprima Gift Card",
+      "officialUrlAfter": "https://materiaprima.gr/specials/dorokartes/",
+      "variant": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "minValue": "20",
+        "maxValue": "120",
+        "customValueAllowed": false,
+        "values": [
+          "20",
+          "40",
+          "70",
+          "120"
+        ],
+        "deliveryMethods": [
+          "EMAIL"
+        ],
+        "redemptionChannels": [
+          "ONLINE",
+          "PHYSICAL_STORE"
+        ],
+        "validityMonths": 3
+      },
+      "evidence": [
+        "Official product copy explicitly states digital gift-card delivery to the recipient by email.",
+        "Official product copy explicitly supports the online shop and physical stores and states three-month expiry.",
+        "The official gift-card category lists exactly four products: €20, €40, €70 and €120.",
+        "The verified same-domain gift-card category replaces the conflicting €40 product URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1l69r00o2q8iysx3o77ki",
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+      "expected": "Δωροκάρτα 50€ Tactical Store – Digital Gift Card - Tacticalstore ...",
+      "value": "Tacticalstore Gift Card",
+      "expectedUpdatedAt": "2026-08-28T10:35:21.641Z",
+      "evidence": [
+        "Official product copy explicitly states digital delivery by email.",
+        "Official product copy explicitly states twelve-month validity.",
+        "The official category contains exactly €25, €50 and €100 gift cards.",
+        "No redemption channel is inferred because the official copy does not explicitly state one.",
+        "The verified same-domain gift-card category replaces the conflicting €100 product URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1l69r00o2q8iysx3o77ki",
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+      "expected": "https://www.tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card/",
+      "value": "https://www.tacticalstore.gr/cat/dorokartes/",
+      "evidence": [
+        "Official product copy explicitly states digital delivery by email.",
+        "Official product copy explicitly states twelve-month validity.",
+        "The official category contains exactly €25, €50 and €100 gift cards.",
+        "No redemption channel is inferred because the official copy does not explicitly state one.",
+        "The verified same-domain gift-card category replaces the conflicting €100 product URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1l69r00o2q8iysx3o77ki",
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+      "expectedTitleAfter": "Tacticalstore Gift Card",
+      "officialUrlAfter": "https://www.tacticalstore.gr/cat/dorokartes/",
+      "variant": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "minValue": "25",
+        "maxValue": "100",
+        "customValueAllowed": false,
+        "values": [
+          "25",
+          "50",
+          "100"
+        ],
+        "deliveryMethods": [
+          "EMAIL"
+        ],
+        "redemptionChannels": [],
+        "validityMonths": 12
+      },
+      "evidence": [
+        "Official product copy explicitly states digital delivery by email.",
+        "Official product copy explicitly states twelve-month validity.",
+        "The official category contains exactly €25, €50 and €100 gift cards.",
+        "No redemption channel is inferred because the official copy does not explicitly state one.",
+        "The verified same-domain gift-card category replaces the conflicting €100 product URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1nyzl00yyq8iy0qetgjxm",
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "merchantId": "cmta1nys900yxq8iye6g35elk",
+      "expected": "Vinyl gift card 40€",
+      "value": "Vinylartclothing Gift Card",
+      "expectedUpdatedAt": "2026-08-28T10:35:25.989Z",
+      "evidence": [
+        "Each of the five official product pages is checked after opening its visible Description accordion.",
+        "Each product description explicitly states physical delivery in gift packaging.",
+        "Each product description explicitly states e-shop-only redemption with the checkout coupon code.",
+        "The official same-domain search lists the five fixed values €40, €60, €80, €100 and €130.",
+        "The general same-domain gift-card search replaces the denomination-specific €40 product URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1nyzl00yyq8iy0qetgjxm",
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "merchantId": "cmta1nys900yxq8iye6g35elk",
+      "expected": "https://vinylartclothing.gr/products/gift-card-40",
+      "value": "https://vinylartclothing.gr/search?q=gift%20card",
+      "evidence": [
+        "Each of the five official product pages is checked after opening its visible Description accordion.",
+        "Each product description explicitly states physical delivery in gift packaging.",
+        "Each product description explicitly states e-shop-only redemption with the checkout coupon code.",
+        "The official same-domain search lists the five fixed values €40, €60, €80, €100 and €130.",
+        "The general same-domain gift-card search replaces the denomination-specific €40 product URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-variant:cmta1nyzl00yyq8iy0qetgjxm",
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "merchantId": "cmta1nys900yxq8iye6g35elk",
+      "expectedTitleAfter": "Vinylartclothing Gift Card",
+      "officialUrlAfter": "https://vinylartclothing.gr/search?q=gift%20card",
+      "variant": {
+        "name": "Physical",
+        "type": "PHYSICAL",
+        "minValue": "40",
+        "maxValue": "130",
+        "customValueAllowed": false,
+        "values": [
+          "40",
+          "60",
+          "80",
+          "100",
+          "130"
+        ],
+        "deliveryMethods": [
+          "PHYSICAL_DELIVERY"
+        ],
+        "redemptionChannels": [
+          "ONLINE"
+        ],
+        "validityMonths": null
+      },
+      "evidence": [
+        "Each of the five official product pages is checked after opening its visible Description accordion.",
+        "Each product description explicitly states physical delivery in gift packaging.",
+        "Each product description explicitly states e-shop-only redemption with the checkout coupon code.",
+        "The official same-domain search lists the five fixed values €40, €60, €80, €100 and €130.",
+        "The general same-domain gift-card search replaces the denomination-specific €40 product URL."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-08T13:40:25.043Z",
+  "planId": "42e6b09efbd81d11a8ca1b455b00bbc3ac3ddbafed9b8649a7fabe2a661fc771"
+}

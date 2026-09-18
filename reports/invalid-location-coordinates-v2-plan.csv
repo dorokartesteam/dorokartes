@@ -1,0 +1,46 @@
+﻿actionId,locationId,merchantName,city,addressLine,oldLatitude,oldLongitude,reason,newLatitude,newLongitude,sourceUrl
+5a333713e60ecfb916aa13950644175560025d0eafdc697e05434347672edb12,cmtmpso360000e4iyeydpxp6v,Agigma,Ρέθυμνο,Mahiton Sholis Chorofilakis 7,0,0,ZERO_SENTINEL,,,https://agigma.gr/
+bbcc35f8df2e9787f03906dc548d69d234c83f5346394418b7888203a3a9daf8,cmtmpso6e0001e4iyhxq4ljum,Angels Boutique,Εύοσμος,Tzavella 26,0,0,ZERO_SENTINEL,,,https://www.angels-boutique.gr/
+53096eaa2779d7cd4420101cb414af0a34d6e2230125fff2b6d7f1f731c0fcbd,cmtmpsofh0004e4iy4ppwld61,Avgerinospharmacy,Κορωπί,Leoforos Vasileos Konstantinou 138,0,0,ZERO_SENTINEL,,,https://avgerinospharmacy.gr/
+5098ca4fd08538651116e8bd360f9ba06c6ef5f59253c89974b9a5a0da0ad5d5,cmtmpsoip0005e4iyncw76wap,Babyvalia,Ίλιον,Αθηνάς 75,0,0,ZERO_SENTINEL,,,https://babyvalia.gr/
+874db5857cdcefb4a9c78095de8b35e37368aca65ad08e4cad007fe018f6f0db,cmtmpsoll0006e4iy7vosk5d0,Beautybliss,Γέρακας,13 Εθνικής Αντιστάσεως,0,0,ZERO_SENTINEL,,,https://www.beautybliss.gr/
+da701734045c167df1fe2ec779c04811a9ed388a5820d30da50e27c07c37c5cc,cmtmpsooi0007e4iy24lcwuq7,Beautypeak,Καλλιθέα,3 Λυκούργου,0,0,ZERO_SENTINEL,,,https://www.beautypeak.gr/
+05e7cf4a29989a95211e04f2a1e06fd0a1d7a3a486dfe905a10a001a001b2227,cmtmpsoum0009e4iy5eim11un,Bloss,Σέρρες,11 Ditikis Thrakis,0,0,ZERO_SENTINEL,,,https://www.bloss.gr/
+75907e986cf62880b42ab09a9c1894ed06758857a44468dc4cecb74c22fbf246,cmtmpsoxo000ae4iybrkohxrt,Box Box,Χαϊδάρι,Στρ. Καραϊσκάκη 88,0,0,ZERO_SENTINEL,,,https://box-box.gr/
+cffd753e4384ad5bc7a4b9af9021eea981da61d671f9774399d35a919a298fb9,cmtmpsp0k000be4iy4ua924pa,Bwoman,Μέγαρα,Περγάμου 46,0,0,ZERO_SENTINEL,,,https://bwoman.gr/
+ac596db93d0f330a87b9f7f8b47ef75e2912e0f7e13c7def3415fb614b011420,cmtmpsp3j000ce4iybcg89g94,Carousel,Άρτα,Νόρμαν 5-7,0,0,ZERO_SENTINEL,,,https://carousel.gr/
+76323a4607ebb357796639f90daf9bb8bd2f33d6b1b07d27b1f176c20558b4bc,cmtmpspgd000ge4iyq2is8spx,Despykboutique,Περιστέρι,Εθν. Αντιστάσεως 2,0,0,ZERO_SENTINEL,,,https://despykboutique.gr/
+08e035c9023276604bfa222ae017216e09d2816e6284ca4dc603a5c51efa958a,cmtmpspjr000he4iyxvgw4fub,Despykboutique,Περιστέρι,"Λεωφόρος Παναγή Τσαλδάρη 21, 2ος όροφος",0,0,ZERO_SENTINEL,,,https://despykboutique.gr/
+9aa7da9039eb80fd7e00a0ed3d9e9b82a9bde1e9a4d02db2bb64ba255afa5cc7,cmtmpspnn000ie4iypazihg69,Despykboutique,Γλυφάδα,Φοίβης 11,0,0,ZERO_SENTINEL,,,https://despykboutique.gr/
+16bfaac4a5c40a01d55bc3c01332beb926248194efb04dc87a71ffd945225de2,cmtmpspql000je4iymbhrj8ed,Doctorfish,Αθήνα,69 Adrianou,0,0,ZERO_SENTINEL,,,https://www.doctorfish.gr/
+78052dabdf4278ef82853507d769250449822ce56e2c14364dd5463cdf4e5888,cmtmpsptk000ke4iydq66lh4o,EA Bags,Θεσσαλονίκη,28 Katouni,0,0,ZERO_SENTINEL,,,https://eabags.gr/
+497ab1fa3d8bd23773db31fa4ac1b04d98c0403aa2552e37107b713b45292a1f,cmtmpspwr000le4iyyvfwdibu,Ecrystal,Θεσσαλονίκη,Tsimiski 87,0,0,ZERO_SENTINEL,,,https://ecrystal.gr/
+cac3269beca03ad10def7e041f6af18c500a31913786bfb4d604752f46370e4b,cmtmpsq2y000ne4iyghkshvue,Eightboutiquegym,Αθήνα,8C Kassandras,0,0,ZERO_SENTINEL,,,https://www.eightboutiquegym.gr/
+9f829f4fff71d095dbfd6e6f2f5d857a04326a50b2654ea28ba9ab823c0af213,cmtmpsq5l000oe4iy5lkjtmss,Elegancy,Σπάρτη,127 Leoforos Likourgou,0,0,ZERO_SENTINEL,,,https://www.elegancy.gr/
+670dfda3769e7669f7a9770b480bf01281344ce67082f4a201ef47292c605de4,cmtmpsq8e000pe4iygt1b0fg0,Elemental Studios,Αθήνα,20 Friderikou Tsentner,0,0,ZERO_SENTINEL,,,https://www.elementalpilates.gr/
+e01e2509464185c1a8695db9f8e06d4efeb8ecbbb05f986b4354e4045188da9d,cmtmpsqe8000re4iyz0twnlq2,Flashfashion,Πειραιάς,25 Sotiros Dios,0,0,ZERO_SENTINEL,,,https://www.flashfashion.shop/
+1fcaefd6f324d140fbd84d852d8e152e104fd3a05a34acaab8490e5e0ed28c21,cmtmpsqh0000se4iyqd0l1spt,Francesca,Πειραιάς,33 Tsamadou,0,0,ZERO_SENTINEL,,,https://www.francesca.gr/
+2955c9059c87a5c2829ee181259f9b65f18aedda6583d6af6ba2a152555ebd22,cmtmpsqk7000te4iylqgfg9gk,GC-TECH,Γλυφάδα,Γούναρη 73,0,0,ZERO_SENTINEL,,,https://gctech.gr/
+12044f7f9745a96c45c6f98fd7db2544fd3805b0c182caa45f61197de6d14062,cmtmpsqud000we4iy2sb6yw8b,Harmony Spa,Μαρούσι,"Amarousiou-Chalandriou 73 & Pigasou 2, 2nd Floor",0,0,ZERO_SENTINEL,,,https://harmony-spa.gr/
+daa19529de4e4c5f89b2174727e37175d968ef4484c72ef16158260c27df170a,cmtmpsqx9000xe4iysg78ssif,Headplus,Περιστέρι,Ευγενών 10,0,0,ZERO_SENTINEL,,,https://headplus.gr/
+b0741681bdd1137f3b75bf7002c89d132e7a0cb0f4e1b0a518f0f89423d82511,cmtmpsr0i000ye4iylh2kw1a6,Hercshop,Περιστέρι,Τζων Κέννεντυ 76,0,0,ZERO_SENTINEL,,,https://hercshop.gr/
+833d025f627c7aca07fa8425ef335d27b21f6b8d3aa55e22f957ea5183e0c315,cmtmpsr3j000ze4iyvnd1i4xu,Hydrowellness,Νέο Ηράκλειο,6 Dimitriou Glinou,0,0,ZERO_SENTINEL,,,https://www.hydrowellness.gr/
+fa26b1c9fab526cff67f923b9a83e44b689effe0755cb9f4742f45b8553d6354,cmtmpsr9i0011e4iym4p1e310,Kantzos,Νέα Ιωνία,"Αιμιλιανού Γρεβενών 35-37, Περισσός",0,0,ZERO_SENTINEL,,,https://kantzos.gr/contact.aspx
+1bfe966394f51de2ee7e19961ea5c7a1f92089474ca51b29d01db9a24ebf1cb4,cmtmpsrfp0013e4iy9cz87jhr,Kounio,Θεσσαλονίκη,Κομνηνών 24,0,0,ZERO_SENTINEL,,,https://kounio.gr/
+f449342c6f8c7e8ba32f5b327fc740d37d9377036b7c2e688be141ae3ff822f6,cmtmpsriz0014e4iywf9jzcem,Lavalmore,Θεσσαλονίκη,Ερμού 63,0,0,ZERO_SENTINEL,,,https://lavalmore.gr/
+c563eac9e2f7da0052850a31f27061414acefe050b286ecac89f6f316927ac4a,cmtmpsrm00015e4iy72wn96bw,Lazoptics,Πειραιάς,Λεωφόρος Ηρώων Πολυτεχνείου 61,0,0,ZERO_SENTINEL,,,https://lazoptics.gr/
+fb6a2deae3b6619a803b70abe38c4dc577a62bd373b9e4b82fd8cc1e37d060db,cmtmpsrp80016e4iyn65vugjz,Lu Eur,Αγία Παρασκευή,Στρ. Τομπρα 5,0,0,ZERO_SENTINEL,,,https://www.lu-eur.gr/
+0e9ebc2dd57f96f728febe274ffbe455a5c084dd184d69bce4b52725b1d8283c,cmtmpsrwq0018e4iyk9vqpd3p,Massagejoy,Αθήνα,Πατησίων 21,0,0,ZERO_SENTINEL,,,https://massagejoy.gr/
+1cfbd11431fb4420a82b070b01dea6a466c4a57b9177baa4ca619340f48cd94c,cmtmpsrzy0019e4iys0stz7k4,Massaha,Γλυφάδα,65 Lazaraki,0,0,ZERO_SENTINEL,,,https://www.massaha.gr/
+2f665adc6df42804cc1615cd0473945a278ed16bec1a94448f4052bd9ff40d9f,cmtmpss52001be4iyncdlgfhf,Mavrogiannistravel,Γαλάτσι,Τράλλεων 88,40.761293,-73.982294,OUTSIDE_GREECE_BOUNDS,,,https://www.mavrogiannistravel.gr/
+e472183a3f6385259e59d0b7a620bc1fc42217cb4f0a4cd20361b35e2c756393,cmtmpss8o001ce4iy1m0nxioj,Maziotisjewels,Κόρινθος,30 Kiprou,0,0,ZERO_SENTINEL,,,https://www.maziotisjewels.gr/
+a2bb8d1e84058218e10ae0546504c723696b144bf3e4a62dd34b6cdfbaec872b,cmtmpssbl001de4iy1lwtx9t7,Molliashoes,Ίλιον,Πάριδος 78,0,0,ZERO_SENTINEL,,,https://molliashoes.gr/
+1a2f95fa345a1a5cf9a9ffa2783b6937a77bad105e951bc08261d1a6c200dede,cmtmpsses001ee4iyenz2qvro,Movelab,Κορωπί,268 Λεωφόρος Βασιλέως Κωνσταντίνου,0,0,ZERO_SENTINEL,,,https://www.movelab.gr/
+4f5a68b7b25030c631424c396806262b2baeadb13db4a668b7f1c14989c97d24,cmtmpsspk001he4iyrdhfyhca,Osteriamamma,Αθήνα,64 Salaminos,0,0,ZERO_SENTINEL,,,https://www.osteriamamma.gr/
+17de8bc2a18843a9c2f1f592f16647369e56743f2fa81a7f337f3d63d34899b4,cmtmpssvm001je4iyf9zr8ak4,Pavone Shoes,Πύργος,Γερμανού 8,0,0,ZERO_SENTINEL,,,https://pavoneshoes.gr/
+28c0d71d7ed96bcc212b504a6615258ba29933c214aba2c1c33fa205eb18be6e,cmtmpst1v001le4iyl7d66x0m,Physioathens,Μαρούσι,Αγίας Ελεούσης 118Β,0,0,ZERO_SENTINEL,,,https://physioathens.gr/
+e9d702f411db9e33229c89fd02b78de8f546ce440ab74e0fc238758ea5ce7ff4,cmtmpst5c001me4iyeapb6hoy,Physis Massage,Θεσσαλονίκη,Tsimiski 62,0,0,ZERO_SENTINEL,,,https://physismassage.gr/
+b7069eac0dc92eaa5198073a0292ccd2e8bd9108e4ce84dcd3c1400ebe71f859,cmtmpstai001oe4iyx89fs6g3,Playroot,Θεσσαλονίκη,Αλ. Φλέμινγκ 41,0,0,ZERO_SENTINEL,,,https://playroot.gr/
+5c1212e25f2563d27f21ea710c1f165a0aafa7278cb62ee0ff8d0fca878b4538,cmtmpstdf001pe4iytqs0ch6m,Ptbox,Δάφνη,36 El. Venizelou,0,0,ZERO_SENTINEL,,,https://www.ptbox.gr/
+bc6a0ba38cb5b0993befbe8001857f6c6b0e426b741d6a7f14a7e50b5679f426,cmtmpstn8001se4iyb1d594yo,Revitalash,Μαρούσι,Γράμμου 71,0,0,ZERO_SENTINEL,,,https://revitalash.gr/
+18500b66030bb629ad9557907d87dd5ffec81541577eece374cb1cc6e6afb475,cmtmpstqh001te4iyg9uk11hf,Romeo,Ρόδος,7-9 Menekleous,0,0,ZERO_SENTINEL,,,https://www.romeo.gr/

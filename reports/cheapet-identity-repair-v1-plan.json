@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "mode": "PREVIEW",
+  "sourceReportId": "52f4a748d9acac95ba9b3bc2cae8ae89acf9a61742c4fcc7a99b78b10544d9e0",
+  "sourceEvidenceFingerprint": "c25d1ba49ed6f100b2cb21132b6454ad6b3ed9ec522bcbea936ba6f4e8443d93",
+  "targetFingerprint": "b13f72663a463ccbd23c52688c43a6deaa36d5e5ad0b0d10270b913249ea47fe",
+  "targetCount": 1,
+  "actionCount": 2,
+  "actions": [
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77twd004odkiyt5u3ep1e",
+      "cardId": "cmtb77u1e004pdkiy841o8nlg",
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "expected": "Αγοράστε μια δωροεπιταγή",
+      "value": "CheaPet",
+      "evidence": [
+        "The rendered official cheapet.gr header identifies the merchant as CheaPet.",
+        "The same-domain header logo asset has explicit CheaPet alt text and was visually reviewed by the operator.",
+        "The current merchant name and card title are generic purchase-form copy, not a merchant identity.",
+        "No URL or slug is changed by this repair."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77u1e004pdkiy841o8nlg",
+      "cardId": "cmtb77u1e004pdkiy841o8nlg",
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "expected": "Αγοράστε μια δωροεπιταγή",
+      "value": "CheaPet Gift Card",
+      "evidence": [
+        "The rendered official cheapet.gr header identifies the merchant as CheaPet.",
+        "The same-domain header logo asset has explicit CheaPet alt text and was visually reviewed by the operator.",
+        "The current merchant name and card title are generic purchase-form copy, not a merchant identity.",
+        "No URL or slug is changed by this repair."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-04T16:48:17.918Z",
+  "planId": "7f73f9c717672bf55ddb980bc04b9486cf1ff1b8c7f56c95443eb5ab741e1919"
+}

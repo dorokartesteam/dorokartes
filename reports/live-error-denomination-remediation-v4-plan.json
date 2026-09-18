@@ -1,0 +1,107 @@
+{
+  "version": 4,
+  "mode": "PREVIEW",
+  "sourceReportId": "28dc3739f07ea2373fa3c3e31ac97de895d10938fa9c24a951a2587f753f5266",
+  "targetFingerprint": "a72402d714203bdd79efb62740cb3ad0a1019ed57f538ee9a368b07bbc2f3f34",
+  "liveEvidenceFingerprint": "2067d8c6f7c31de725d39e75b5b2cfec51288466a67baa6f83bf70efbd6f4f88",
+  "cardCount": 1,
+  "actionCount": 3,
+  "liveEvidence": [
+    {
+      "requestedUrl": "https://www.iqueens.gr/el/dorokartes/309412-ilektroniko-kouponi-aksias-400-.html",
+      "finalUrl": "https://www.iqueens.gr/el/dorokartes/309412-ilektroniko-kouponi-aksias-400-.html",
+      "transport": "curl",
+      "checks": [
+        {
+          "label": "€400 electronic-voucher product identity",
+          "matched": "Ηλεκτρονικό κουπόνι αξίας 400 €"
+        },
+        {
+          "label": "complete selectable denomination set",
+          "matched": "Επιλέξτε ένα ποσό 20 € 40 € 100 € 125 € 200 € 400 €"
+        },
+        {
+          "label": "email delivery within one hour",
+          "matched": "Θα λάβετε το κουπόνι μέσω email εντός 1 ώρας"
+        }
+      ]
+    },
+    {
+      "requestedUrl": "https://www.iqueens.gr/el/9-dorokartes",
+      "finalUrl": "https://www.iqueens.gr/el/9-dorokartes",
+      "transport": "curl",
+      "checks": [
+        {
+          "label": "official gift-card category",
+          "matched": "Δωροκάρτες | Τιμή από 20 €"
+        },
+        {
+          "label": "six gift-card products",
+          "matched": "Προϊόντα : 6"
+        },
+        {
+          "label": "€400 product listed in category",
+          "matched": "Ηλεκτρονικό κουπόνι αξίας 400 €"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta1fxm40041q8iyf19nk7km",
+      "cardId": "cmta1fxm40041q8iyf19nk7km",
+      "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+      "expected": "iQueens: Το Ιδανικό Δώρο! Δωροκάρτες από 20€ έως 400€",
+      "value": "iQueens Gift Card",
+      "expectedUpdatedAt": "2026-08-26T11:56:22.636Z",
+      "evidence": [
+        "The official product page identifies the item as an electronic €400 voucher.",
+        "The official product form exposes exactly €20, €40, €100, €125, €200 and €400.",
+        "The official product page says the voucher is delivered by email within one hour.",
+        "The verified official gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1fxm40041q8iyf19nk7km",
+      "cardId": "cmta1fxm40041q8iyf19nk7km",
+      "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+      "expected": "https://www.iqueens.gr/el/dorokartes/309412-ilektroniko-kouponi-aksias-400-.html",
+      "value": "https://www.iqueens.gr/el/9-dorokartes",
+      "evidence": [
+        "The official product page identifies the item as an electronic €400 voucher.",
+        "The official product form exposes exactly €20, €40, €100, €125, €200 and €400.",
+        "The official product page says the voucher is delivered by email within one hour.",
+        "The verified official gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta1fxm40041q8iyf19nk7km",
+      "cardId": "cmta1fxm40041q8iyf19nk7km",
+      "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+      "expectedTitleAfter": "iQueens Gift Card",
+      "officialUrlAfter": "https://www.iqueens.gr/el/9-dorokartes",
+      "values": [
+        "20",
+        "40",
+        "100",
+        "125",
+        "200",
+        "400"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "evidence": [
+        "The official product page identifies the item as an electronic €400 voucher.",
+        "The official product form exposes exactly €20, €40, €100, €125, €200 and €400.",
+        "The official product page says the voucher is delivered by email within one hour.",
+        "The verified official gift-card category replaces the denomination-specific catalog URL."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-07T08:54:56.271Z",
+  "planId": "ef46e4c1b0424197a4af327317db1e9d7514ed6cd976a811e61c29198f3e9ac1"
+}

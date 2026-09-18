@@ -1,0 +1,3 @@
+﻿action,domain,keep_id,duplicate_id,duplicate_name,production_id,production_name,source_name,reason
+REVIEW_NAME_MATCH,feverup.com,,cmt8lyb9a000gxwiyc6bk25x3,Fever,cmt8moqyw00005ciya9p7bsf8,Fever,Official Site Discovery v3,"Exact normalized merchant name matches production, but official domain did not match"
+REVIEW_NAME_MATCH,giftcard.puma.com,,cmt9s1r0x0001zwiy70slm5y0,Puma Greece,cmt8hesrb000fa8iycuggb6wc,Puma Greece,Rediscovery Engine,"Exact normalized merchant name matches production, but official domain did not match"

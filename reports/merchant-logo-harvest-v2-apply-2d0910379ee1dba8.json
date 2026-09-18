@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T11:03:50.373Z",
+  "planId": "2d0910379ee1dba8509e1abae8347ada6e081ac681f31564a49292ab5d9ab092",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1m8wn00s9q8iygc3o000e:202891937a5c",
+      "merchantId": "cmta1m8wn00s9q8iygc3o000e",
+      "localUrl": "/merchant-logos/flashfashion-202891937a5c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1itzx00ebq8iyerir1tmb:fe6d43cf97b4",
+      "merchantId": "cmta1itzx00ebq8iyerir1tmb",
+      "localUrl": "/merchant-logos/maziotisjewels-fe6d43cf97b4.jpg"
+    }
+  ]
+}

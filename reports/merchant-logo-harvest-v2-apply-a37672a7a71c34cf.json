@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:28:50.245Z",
+  "planId": "a37672a7a71c34cf6ef91108aacb0f92765ce2bd257ec1c11ecee225f8ba083e",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1nfxp00wvq8iy71vxcbpb:79512b46ea12",
+      "merchantId": "cmta1nfxp00wvq8iy71vxcbpb",
+      "localUrl": "/merchant-logos/minotavros-79512b46ea12.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ixh000etq8iyrstbzf45:8d695ec25d4b",
+      "merchantId": "cmta1ixh000etq8iyrstbzf45",
+      "localUrl": "/merchant-logos/misa-8d695ec25d4b.webp"
+    }
+  ]
+}

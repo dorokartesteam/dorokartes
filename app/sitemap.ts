@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
+import { CATEGORY_LANDING_SLUGS } from "@/lib/public/category-landing-content";
 import { TEMPORARILY_NOINDEXED_OCCASION_SLUGS } from "@/lib/public/occasion-landing-content";
 
 export const dynamic = "force-dynamic";
@@ -37,6 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     prisma.category.findMany({
       where: {
         active: true,
+        slug: { in: [...CATEGORY_LANDING_SLUGS] },
         giftCards: {
           some: { giftCard: { status: "ACTIVE", verificationStatus: "VERIFIED" } },
         },

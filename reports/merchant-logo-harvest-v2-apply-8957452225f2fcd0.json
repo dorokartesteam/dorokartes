@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T10:41:40.261Z",
+  "planId": "8957452225f2fcd03c1b7878f13d85d62db969846bde7ebff5708c75a2a59c17",
+  "appliedCount": 12,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1h3dc0083q8iyok0hfncb:0a094af198e3",
+      "merchantId": "cmta1h3dc0083q8iyok0hfncb",
+      "localUrl": "/merchant-logos/4seasons-beauty-institute-0a094af198e3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hik80091q8iy7tmtpbi6:15ed98d1b9e9",
+      "merchantId": "cmta1hik80091q8iy7tmtpbi6",
+      "localUrl": "/merchant-logos/bbq-15ed98d1b9e9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hpgz009vq8iyel7ikzvi:fb4f2abec17b",
+      "merchantId": "cmta1hpgz009vq8iyel7ikzvi",
+      "localUrl": "/merchant-logos/bymeraki-fb4f2abec17b.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fybw0044q8iyqo3h871n:bbe994073e0a",
+      "merchantId": "cmta1fybw0044q8iyqo3h871n",
+      "localUrl": "/merchant-logos/herbstore-bbe994073e0a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8l5vnt000h5giybb6cc2ff:bb30ec711fab",
+      "merchantId": "cmt8l5vnt000h5giybb6cc2ff",
+      "localUrl": "/merchant-logos/kiko-bb30ec711fab.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nr81001254iy1l0ypsfm:aa9dbfa6ffbb",
+      "merchantId": "cmta5nr81001254iy1l0ypsfm",
+      "localUrl": "/merchant-logos/londonboutique-aa9dbfa6ffbb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nrkx001454iy2e3ktvtk:75228775203d",
+      "merchantId": "cmta5nrkx001454iy2e3ktvtk",
+      "localUrl": "/merchant-logos/love-it-75228775203d.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v0di003b3giyxpscbnbo:fd8b92b9e433",
+      "merchantId": "cmtb6v0di003b3giyxpscbnbo",
+      "localUrl": "/merchant-logos/2-parenting-courses-fd8b92b9e433.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v2jj003n3giy074shjfa:20144920c93b",
+      "merchantId": "cmtb6v2jj003n3giy074shjfa",
+      "localUrl": "/merchant-logos/sandalista-gift-card-20144920c93b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jjde00hdq8iymhdvuagw:53ce3c813bde",
+      "merchantId": "cmta1jjde00hdq8iymhdvuagw",
+      "localUrl": "/merchant-logos/storegreece-53ce3c813bde.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fozl0036q8iyfva5aozo:88558ca3034a",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "localUrl": "/merchant-logos/thomann-88558ca3034a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v7d1004d3giyepud24ns:af5ecf6ae002",
+      "merchantId": "cmtb6v7d1004d3giyepud24ns",
+      "localUrl": "/merchant-logos/vinoultura-gift-cart-af5ecf6ae002.webp"
+    }
+  ]
+}

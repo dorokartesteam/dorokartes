@@ -1,0 +1,203 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "e4dd59309b21d35d70b96e0fb1bf1f874143862f4dc950b9e349c09ad9f4fee0",
+  "targetCount": 5,
+  "concurrency": 12,
+  "summary": {
+    "safe": 3,
+    "review": 2,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1mlfc00tjq8iy0c3ybipq:72f7d3866c43",
+      "merchantId": "cmta1mlfc00tjq8iy0c3ybipq",
+      "merchantName": "Beautyclinic",
+      "merchantSlug": "beautyclinic",
+      "websiteUrl": "https://beautyclinic.gr/",
+      "sourceUrl": "https://beautyclinic.gr/images/loglast.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 279,
+      "sha256": "72f7d3866c43c98d667e60e2bc20625a134733dee70c2661d4bd8a0d638ec4ea",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 54478,
+      "width": 600,
+      "height": 237,
+      "localUrl": "/merchant-logos/beautyclinic-72f7d3866c43.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77twd004odkiyt5u3ep1e:ebfe538955ed",
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "merchantName": "CheaPet",
+      "merchantSlug": "αγοραστε-μια-δωροεπιταγη",
+      "websiteUrl": "https://cheapet.gr/",
+      "sourceUrl": "https://cheapet.gr/image/data/cpet-logo-new-13.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "ebfe538955ed5c3861eda5e3e9036d8474d1ae17c18cdce5f10bc66aeebe1982",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 21688,
+      "width": 372,
+      "height": 52,
+      "localUrl": "/merchant-logos/merchant-ebfe538955ed.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jlyd00hnq8iyz32uf5a8:c86a66e87a68",
+      "merchantId": "cmta1jlyd00hnq8iyz32uf5a8",
+      "merchantName": "T Support",
+      "merchantSlug": "t-support",
+      "websiteUrl": "https://t-support.gr/",
+      "sourceUrl": "https://t-support.gr/catalog/view/theme/vitalia/images/logos/logo-tsupport.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "c86a66e87a6844fd27408209d74e68358056fbca20d7be45ecdc924f36897a5d",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 15863,
+      "width": 332,
+      "height": 80,
+      "localUrl": "/merchant-logos/t-support-c86a66e87a68.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1mlfc00tjq8iy0c3ybipq",
+      "merchantName": "Beautyclinic",
+      "merchantSlug": "beautyclinic",
+      "websiteUrl": "https://beautyclinic.gr",
+      "finalWebsiteUrl": "https://beautyclinic.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://beautyclinic.gr/images/loglast.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 279
+      },
+      "validatedAsset": {
+        "url": "https://beautyclinic.gr/images/loglast.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 54478,
+        "width": 600,
+        "height": 237,
+        "sha256": "72f7d3866c43c98d667e60e2bc20625a134733dee70c2661d4bd8a0d638ec4ea"
+      }
+    },
+    {
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "merchantName": "CheaPet",
+      "merchantSlug": "αγοραστε-μια-δωροεπιταγη",
+      "websiteUrl": "https://cheapet.gr",
+      "finalWebsiteUrl": "https://cheapet.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://cheapet.gr/image/data/cpet-logo-new-13.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://cheapet.gr/image/data/cpet-logo-new-13.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 21688,
+        "width": 372,
+        "height": 52,
+        "sha256": "ebfe538955ed5c3861eda5e3e9036d8474d1ae17c18cdce5f10bc66aeebe1982"
+      }
+    },
+    {
+      "merchantId": "cmta1hwv400anq8iyxlzbv2x8",
+      "merchantName": "Desenio",
+      "merchantSlug": "desenio",
+      "websiteUrl": "https://desenio.gr",
+      "finalWebsiteUrl": "https://desenio.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_429"
+      ],
+      "bestCandidate": {
+        "url": "https://desenio.gr/_next/static/immutable/media/logo.13n5i0xk0pj1q.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8fb4oz000o6kiylq2ujw83",
+      "merchantName": "Sephora",
+      "merchantSlug": "sephora",
+      "websiteUrl": "https://giftcard.sephora.gr",
+      "finalWebsiteUrl": "https://giftcard.sephora.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_FETCH_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://giftcard.sephora.gr/merchant/logo.png?v=20260904",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jlyd00hnq8iyz32uf5a8",
+      "merchantName": "T Support",
+      "merchantSlug": "t-support",
+      "websiteUrl": "https://t-support.gr",
+      "finalWebsiteUrl": "https://t-support.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://t-support.gr/catalog/view/theme/vitalia/images/logos/logo-tsupport.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://t-support.gr/catalog/view/theme/vitalia/images/logos/logo-tsupport.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 15863,
+        "width": 332,
+        "height": 80,
+        "sha256": "c86a66e87a6844fd27408209d74e68358056fbca20d7be45ecdc924f36897a5d"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-04T16:49:17.291Z",
+  "planId": "fae458341a0b4b2f96694b9bae084f2033ecaf9d0be316ceb208d7f9809a8f4e"
+}

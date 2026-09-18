@@ -1,0 +1,78 @@
+{
+  "version": 13,
+  "mode": "PREVIEW",
+  "sourceAuditId": "6dbed4541fdc6bae3a1fe3108f07e289103bab8d49d346bc6bfc34b12f26ee45",
+  "sourcePlanId": "44bdc65b0a48b738e0280c3839ea25d00db781ab3d9c4ca73bf51ba8dd2f9bc7",
+  "catalogFingerprint": "4b10a7da2b5ce77438390a73a512924fd6f62ad2ed5b09c0951abd87bbe9afc2",
+  "actionCount": 6,
+  "actions": [
+    {
+      "actionId": "preserve-program-title:cmtb77fxv002pdkiyob6nfyir",
+      "cardId": "cmtb77fxv002pdkiyob6nfyir",
+      "merchantId": "cmtb77fsy002odkiypybibga6",
+      "merchantName": "Oxygen Plus",
+      "expectedTitle": "Oxygen Plus Gift Card",
+      "value": "Oxygen Plus Luxurious Day Spa Gift Card",
+      "originalPreV11Title": "Luxurious Day Spa Gift Card",
+      "officialUrl": "https://oxygenplus.gr/en/product/luxurious-giftcard/",
+      "reason": "The old title identifies a specific day-spa offering, not merely merchant or SEO noise."
+    },
+    {
+      "actionId": "preserve-program-title:cmtb78c4x0076dkiyi0rou2i6",
+      "cardId": "cmtb78c4x0076dkiyi0rou2i6",
+      "merchantId": "cmtb78bzy0075dkiyyeep0ctu",
+      "merchantName": "Stretch & Relax",
+      "expectedTitle": "Stretch & Relax Gift Card",
+      "value": "Stretch & Relax Massage & Pilates Gift Card",
+      "originalPreV11Title": "MASSAGE & PILATES GIFTCARD - Stretch & Relax",
+      "officialUrl": "https://www.stretchandrelax.gr/en/gift-giftcard-massage-pilates",
+      "reason": "Massage and Pilates define the services covered by this specific gift-card program."
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7hwow000704iyt99hm2lp",
+      "cardId": "cmtb7hwow000704iyt99hm2lp",
+      "merchantId": "cmtb7hwjz000604iy7agycf4r",
+      "merchantName": "Bioaroma Crete",
+      "expectedTitle": "Bioaroma Crete Gift Card",
+      "value": "Bioaroma Crete Spa Gift Card",
+      "originalPreV11Title": "SPA Gift Card",
+      "officialUrl": "https://www.bioaromacrete.com/products/spa-gift-card",
+      "reason": "Spa distinguishes this offering from the merchant's broader product catalog."
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7hx2h000904iykt7d99h5",
+      "cardId": "cmtb7hx2h000904iykt7d99h5",
+      "merchantId": "cmtb7hwwi000804iyxo3b6lop",
+      "merchantName": "Calisti Oia",
+      "expectedTitle": "Calisti Oia Gift Card",
+      "value": "Calisti Oia Honeymoon Spa Gift Card",
+      "originalPreV11Title": "Santorini Honeymoon Spa Gift Card",
+      "officialUrl": "https://www.callistioia.com/gift-cardnewlywedsoia",
+      "reason": "Honeymoon spa is a distinct experience signal that should remain in the program title."
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7i194000v04iygg8ltr9f",
+      "cardId": "cmtb7i194000v04iygg8ltr9f",
+      "merchantId": "cmtb7i12m000u04iynn26j31q",
+      "merchantName": "Prepare for Greece",
+      "expectedTitle": "Prepare for Greece Gift Card",
+      "value": "Prepare for Greece Greek Language Course Gift Card",
+      "originalPreV11Title": "Greek Language Course Gift Card",
+      "officialUrl": "https://prepareforgreece.com/ro/products/greek-language-course-gift-card",
+      "reason": "The gift card is tied to a Greek-language course rather than an unspecified merchant-wide balance."
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7i2ay001004iy2mok8p6r",
+      "cardId": "cmtb7i2ay001004iy2mok8p6r",
+      "merchantId": "cmtb7i26i000z04iyas90sthl",
+      "merchantName": "Mindful Touch",
+      "expectedTitle": "Mindful Touch Gift Card",
+      "value": "Mindful Touch Massage Gift Card",
+      "originalPreV11Title": "Massage Gift Card by Mindful Touch in Chania Crete",
+      "officialUrl": "https://massage-crete.com/massage-gift-card-crete/",
+      "reason": "Massage describes the specific service program and is not retained by the canonical merchant name."
+    }
+  ],
+  "generatedAt": "2026-09-02T09:04:27.946Z",
+  "planId": "65326f1b635c69b854905a60676a92210e5cade9be06662b597e9e310d1562f4"
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T18:45:23.639Z",
+  "planId": "6afe78189b0d31c94c3b65b77aeb2e7e33b0eac39cbe3d65b745bda1db50a408",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmt8pswfr0001tgiyw7z7ffed:023ef53a5725",
+      "merchantId": "cmt8pswfr0001tgiyw7z7ffed",
+      "localUrl": "/merchant-logos/elisabetta-franchi-023ef53a5725.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lbsk00opq8iy6ghmmaan:7213cb086d7e",
+      "merchantId": "cmta1lbsk00opq8iy6ghmmaan",
+      "localUrl": "/merchant-logos/hellenictrain-7213cb086d7e.png"
+    }
+  ]
+}

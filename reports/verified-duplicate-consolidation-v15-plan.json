@@ -1,0 +1,524 @@
+{
+  "version": 15,
+  "mode": "PREVIEW",
+  "sourceAuditPlanId": "376fd66deec75d27e34dfde2dda1d4406a769aeb364b103e84b07ac78b286f67",
+  "targetFingerprint": "85498997168cace7bb2663dc6c8fe62405fd5103a2244ae8697d3a0cffc9102a",
+  "cardCount": 14,
+  "merchantCount": 2,
+  "actionCount": 21,
+  "actions": [
+    {
+      "cardId": "cmta1fp5c0037q8iy0bte1j9f",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "merchantName": "Thomann",
+      "expectedTitle": "Thomann Gift Certificate 50 EUR",
+      "expectedOfficialUrl": "https://www.thomann.de/gr/index.html",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "VERIFIED",
+      "keeperCardId": "cmta5nyde002454iyc6vaizw0",
+      "keeperExpectedTitle": "Buy Gift voucher at Thomann",
+      "keeperExpectedOfficialUrl": "https://www.thomann.gr/gift_voucher.html",
+      "keeperFinalTitle": "Thomann Gift Card",
+      "keeperFinalOfficialUrl": "https://www.thomann.gr/gift_voucher.html",
+      "reason": "The amount-bearing homepage row is one denomination of the keeper's official multi-value voucher program.",
+      "evidence": [
+        "https://www.thomann.gr/gift_voucher.html",
+        "Official program page lists €10, €25 and €50 vouchers."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmta1fp5c0037q8iy0bte1j9f"
+    },
+    {
+      "cardId": "cmta1g5lj004tq8iy2gi1o7hn",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "merchantName": "Kotsovolos",
+      "expectedTitle": "Kotsovolos Δωροκάρτα – Gift Card!",
+      "expectedOfficialUrl": "https://kotsovolos-b2b.giftcards-store.com/el",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "VERIFIED",
+      "keeperCardId": "cmtb785to006cdkiy9ubl9s4x",
+      "keeperExpectedTitle": "Gift Card - Δωροκάρτα | ΚΩΤΣΟΒΟΛΟΣ",
+      "keeperExpectedOfficialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+      "keeperFinalTitle": "Kotsovolos Gift Card",
+      "keeperFinalOfficialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+      "reason": "B2B is a corporate purchase channel for the same Kotsovolos gift-card program, represented as a Corporate variant.",
+      "evidence": [
+        "https://www.kotsovolos.gr/pages/e-giftcard",
+        "https://kotsovolos-b2b.giftcards-store.com/el",
+        "Official B2B page identifies digital Kotsovolos Gift Cards for corporate gifts."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmta1g5lj004tq8iy2gi1o7hn"
+    },
+    {
+      "cardId": "cmta1g612004uq8iy6ctyhbtp",
+      "merchantId": "cmt8hesrb000fa8iycuggb6wc",
+      "merchantName": "Puma Greece",
+      "expectedTitle": "Gift Card Terms & Conditions",
+      "expectedOfficialUrl": "https://giftcard.puma.com/de/en/TERMS_AND_CONDITIONS.html",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "VERIFIED",
+      "keeperCardId": "cmt8hesz5000ga8iykmbj9m8y",
+      "keeperExpectedTitle": "Puma Greece Gift Card",
+      "keeperExpectedOfficialUrl": "https://eu.puma.com/gr/en/pd/digital-gift-card",
+      "keeperFinalTitle": "Puma Greece Gift Card",
+      "keeperFinalOfficialUrl": "https://eu.puma.com/gr/en/pd/digital-gift-card",
+      "reason": "The archived row is a German terms page, not a separate Greek gift-card product.",
+      "evidence": [
+        "https://giftcard.puma.com/de/en/TERMS_AND_CONDITIONS.html",
+        "https://eu.puma.com/gr/en/pd/digital-gift-card",
+        "Official Greek product page is already represented by the verified keeper."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmta1g612004uq8iy6ctyhbtp"
+    },
+    {
+      "cardId": "cmta1ldih00owq8iybi4h3dxo",
+      "merchantId": "cmta1ldb100ovq8iysbonr92k",
+      "merchantName": "Lauraashleyshop",
+      "expectedTitle": "Gift Card Laura Ashley",
+      "expectedOfficialUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "NEEDS_REVIEW",
+      "keeperCardId": "cmta421t70002t8iywrh9oyoy",
+      "keeperExpectedTitle": "Laura Ashley Δωροκάρτα – Gift Card",
+      "keeperExpectedOfficialUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+      "keeperFinalTitle": "Laura Ashley Gift Card",
+      "keeperFinalOfficialUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+      "reason": "Exact same official URL and zero dependent relations; retain the verified row as the canonical program.",
+      "evidence": [
+        "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+        "Both records point to the identical official product."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmta1ldih00owq8iybi4h3dxo"
+    },
+    {
+      "cardId": "cmtb6uo3d001i3giyiq64l7pb",
+      "merchantId": "cmta5nnll000i54iywoggd8zt",
+      "merchantName": "Floraplant",
+      "expectedTitle": "GIFT CARD - Δωροκάρτα - Floraplant & Garden Center",
+      "expectedOfficialUrl": "https://floraplant.gr/gift-card/",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "VERIFIED",
+      "keeperCardId": "cmta5nnqb000j54iy5h71qhyd",
+      "keeperExpectedTitle": "Δωροκάρτες - Floraplant",
+      "keeperExpectedOfficialUrl": "https://eshop.floraplant.gr/en/giftcards/",
+      "keeperFinalTitle": "Floraplant Gift Card",
+      "keeperFinalOfficialUrl": "https://eshop.floraplant.gr/en/giftcard/",
+      "reason": "The corporate-site article links to the same single e-shop gift-card product; retain the purchase record.",
+      "evidence": [
+        "https://floraplant.gr/gift-card/",
+        "https://eshop.floraplant.gr/en/giftcard/",
+        "The corporate page links to the e-shop and the e-shop category contains one product."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmtb6uo3d001i3giyiq64l7pb"
+    },
+    {
+      "cardId": "cmtb7r23t0004u8iyh8gmkixy",
+      "merchantId": "cmtb77ti7004mdkiyn5wn9fgi",
+      "merchantName": "Chania Culture",
+      "expectedTitle": "Chania Culture Gift Card",
+      "expectedOfficialUrl": "https://shop.chania-culture.gr/product-category/psifiaka/dorokarta/",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "NEEDS_REVIEW",
+      "keeperCardId": "cmtb77tnt004ndkiyw1tey12d",
+      "keeperExpectedTitle": "Δωροκάρτα",
+      "keeperExpectedOfficialUrl": "https://shop.chania-culture.gr/product/gift-card/",
+      "keeperFinalTitle": "Chania Culture Gift Card",
+      "keeperFinalOfficialUrl": "https://shop.chania-culture.gr/product/gift-card/",
+      "reason": "The category URL contains one result and links to the keeper's exact product; both rows represent one program.",
+      "evidence": [
+        "https://shop.chania-culture.gr/product-category/psifiaka/dorokarta/",
+        "https://shop.chania-culture.gr/product/gift-card/",
+        "Official category shows exactly one gift-card product."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmtb7r23t0004u8iyh8gmkixy"
+    },
+    {
+      "cardId": "cmtb7r3ne000bu8iyhr8e822r",
+      "merchantId": "cmta1in0q00ddq8iy9ou6k8vv",
+      "merchantName": "Kois Optics",
+      "expectedTitle": "KOIS Optics Gift Card",
+      "expectedOfficialUrl": "https://www.kois-optics.gr/el/products/giftcard",
+      "expectedStatus": "ACTIVE",
+      "expectedVerificationStatus": "NEEDS_REVIEW",
+      "keeperCardId": "cmta1in6000deq8iyzrf26jcw",
+      "keeperExpectedTitle": "Kois Optics Gift Card",
+      "keeperExpectedOfficialUrl": "https://kois-optics.gr/",
+      "keeperFinalTitle": "Kois Optics Gift Card",
+      "keeperFinalOfficialUrl": "https://www.kois-optics.gr/el/products/giftcard",
+      "reason": "Same merchant and single e-Gift Card program; retain the earlier verified card and move it to the exact product URL.",
+      "evidence": [
+        "https://www.kois-optics.gr/el/products/giftcard",
+        "Official product identifies one €100 Kois Optics e-Gift Card."
+      ],
+      "type": "ARCHIVE_CARD",
+      "actionId": "archive-verified-duplicate:cmtb7r3ne000bu8iyhr8e822r"
+    },
+    {
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "expectedName": "Kotsovolos",
+      "expectedWebsiteUrl": "https://kotsovolos-b2b.giftcards-store.com",
+      "valueName": "Kotsovolos",
+      "valueWebsiteUrl": "https://www.kotsovolos.gr",
+      "reason": "Use the consumer official root for the canonical merchant; retain B2B only on the Corporate variant.",
+      "evidence": [
+        "https://www.kotsovolos.gr/pages/e-giftcard",
+        "https://kotsovolos-b2b.giftcards-store.com/el"
+      ],
+      "type": "UPDATE_MERCHANT",
+      "actionId": "update-verified-merchant:cmta1g5ei004sq8iyj1nwtg24"
+    },
+    {
+      "merchantId": "cmta1ldb100ovq8iysbonr92k",
+      "expectedName": "Lauraashleyshop",
+      "expectedWebsiteUrl": "https://lauraashleyshop.gr",
+      "valueName": "Laura Ashley",
+      "valueWebsiteUrl": "https://lauraashleyshop.gr",
+      "reason": "Use the brand identity shown by the official store and product.",
+      "evidence": [
+        "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley"
+      ],
+      "type": "UPDATE_MERCHANT",
+      "actionId": "update-verified-merchant:cmta1ldb100ovq8iysbonr92k"
+    },
+    {
+      "cardId": "cmta1in6000deq8iyzrf26jcw",
+      "merchantId": "cmta1in0q00ddq8iy9ou6k8vv",
+      "merchantName": "Kois Optics",
+      "expected": {
+        "title": "Kois Optics Gift Card",
+        "officialUrl": "https://kois-optics.gr/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "value": {
+        "title": "Kois Optics Gift Card",
+        "officialUrl": "https://www.kois-optics.gr/el/products/giftcard",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "NEEDS_REVIEW"
+      },
+      "reason": "Replace the homepage with the independently validated exact official product URL.",
+      "evidence": [
+        "https://www.kois-optics.gr/el/products/giftcard"
+      ],
+      "type": "UPDATE_CARD",
+      "actionId": "update-verified-card:cmta1in6000deq8iyzrf26jcw"
+    },
+    {
+      "cardId": "cmta421t70002t8iywrh9oyoy",
+      "merchantId": "cmta1ldb100ovq8iysbonr92k",
+      "merchantName": "Lauraashleyshop",
+      "expected": {
+        "title": "Laura Ashley Δωροκάρτα – Gift Card",
+        "officialUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "value": {
+        "title": "Laura Ashley Gift Card",
+        "officialUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "reason": "Canonical program title after exact-URL duplicate consolidation.",
+      "evidence": [
+        "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley"
+      ],
+      "type": "UPDATE_CARD",
+      "actionId": "update-verified-card:cmta421t70002t8iywrh9oyoy"
+    },
+    {
+      "cardId": "cmta5nnqb000j54iy5h71qhyd",
+      "merchantId": "cmta5nnll000i54iywoggd8zt",
+      "merchantName": "Floraplant",
+      "expected": {
+        "title": "Δωροκάρτες - Floraplant",
+        "officialUrl": "https://eshop.floraplant.gr/en/giftcards/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "value": {
+        "title": "Floraplant Gift Card",
+        "officialUrl": "https://eshop.floraplant.gr/en/giftcard/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "NEEDS_REVIEW"
+      },
+      "reason": "Canonicalize the title and use the independently validated direct product page.",
+      "evidence": [
+        "https://eshop.floraplant.gr/en/giftcard/"
+      ],
+      "type": "UPDATE_CARD",
+      "actionId": "update-verified-card:cmta5nnqb000j54iy5h71qhyd"
+    },
+    {
+      "cardId": "cmta5nyde002454iyc6vaizw0",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "merchantName": "Thomann",
+      "expected": {
+        "title": "Buy Gift voucher at Thomann",
+        "officialUrl": "https://www.thomann.gr/gift_voucher.html",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "value": {
+        "title": "Thomann Gift Card",
+        "officialUrl": "https://www.thomann.gr/gift_voucher.html",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "reason": "Canonical program title after representing denominations structurally.",
+      "evidence": [
+        "https://www.thomann.gr/gift_voucher.html"
+      ],
+      "type": "UPDATE_CARD",
+      "actionId": "update-verified-card:cmta5nyde002454iyc6vaizw0"
+    },
+    {
+      "cardId": "cmtb77tnt004ndkiyw1tey12d",
+      "merchantId": "cmtb77ti7004mdkiyn5wn9fgi",
+      "merchantName": "Chania Culture",
+      "expected": {
+        "title": "Δωροκάρτα",
+        "officialUrl": "https://shop.chania-culture.gr/product/gift-card/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "value": {
+        "title": "Chania Culture Gift Card",
+        "officialUrl": "https://shop.chania-culture.gr/product/gift-card/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "reason": "Canonical title for the retained program.",
+      "evidence": [
+        "https://shop.chania-culture.gr/product/gift-card/"
+      ],
+      "type": "UPDATE_CARD",
+      "actionId": "update-verified-card:cmtb77tnt004ndkiyw1tey12d"
+    },
+    {
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "merchantName": "Kotsovolos",
+      "expected": {
+        "title": "Gift Card - Δωροκάρτα | ΚΩΤΣΟΒΟΛΟΣ",
+        "officialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      },
+      "value": {
+        "title": "Kotsovolos Gift Card",
+        "officialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+        "corporateAvailable": true,
+        "personalizationAvailable": true,
+        "verificationStatus": "VERIFIED"
+      },
+      "reason": "Canonical program title; verified B2B channel supports corporate ordering and personalization.",
+      "evidence": [
+        "https://www.kotsovolos.gr/pages/e-giftcard",
+        "https://kotsovolos-b2b.giftcards-store.com/el"
+      ],
+      "type": "UPDATE_CARD",
+      "actionId": "update-verified-card:cmtb785to006cdkiy9ubl9s4x"
+    },
+    {
+      "cardId": "cmta1in6000deq8iyzrf26jcw",
+      "merchantId": "cmta1in0q00ddq8iy9ou6k8vv",
+      "merchantName": "Kois Optics",
+      "expectedCardTitleBefore": "Kois Optics Gift Card",
+      "expectedCardTitleAfter": "Kois Optics Gift Card",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "100",
+      "maxValue": "100",
+      "customValueAllowed": false,
+      "purchaseUrl": "https://www.kois-optics.gr/el/products/giftcard",
+      "validityMonths": null,
+      "values": [
+        "100"
+      ],
+      "deliveries": [],
+      "redemptions": [],
+      "reason": "Official page explicitly identifies one €100 e-Gift Card; no delivery/redemption details were inferred.",
+      "evidence": [
+        "https://www.kois-optics.gr/el/products/giftcard"
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmta1in6000deq8iyzrf26jcw:1:DIGITAL"
+    },
+    {
+      "cardId": "cmta421t70002t8iywrh9oyoy",
+      "merchantId": "cmta1ldb100ovq8iysbonr92k",
+      "merchantName": "Laura Ashley",
+      "expectedCardTitleBefore": "Laura Ashley Δωροκάρτα – Gift Card",
+      "expectedCardTitleAfter": "Laura Ashley Gift Card",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "25",
+      "maxValue": "150",
+      "customValueAllowed": false,
+      "purchaseUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+      "validityMonths": 4,
+      "values": [
+        "25",
+        "50",
+        "100",
+        "150"
+      ],
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "reason": "Represent all values, email delivery, redemption channels and four-month validity stated by the official product.",
+      "evidence": [
+        "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley"
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmta421t70002t8iywrh9oyoy:2:DIGITAL"
+    },
+    {
+      "cardId": "cmta5nyde002454iyc6vaizw0",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "merchantName": "Thomann",
+      "expectedCardTitleBefore": "Buy Gift voucher at Thomann",
+      "expectedCardTitleAfter": "Thomann Gift Card",
+      "name": "Digital and Physical",
+      "variantType": "DIGITAL_AND_PHYSICAL",
+      "currency": "EUR",
+      "minValue": "10",
+      "maxValue": "50",
+      "customValueAllowed": false,
+      "purchaseUrl": "https://www.thomann.gr/gift_voucher.html",
+      "validityMonths": null,
+      "values": [
+        "10",
+        "25",
+        "50"
+      ],
+      "deliveries": [
+        "EMAIL",
+        "SMS",
+        "PHYSICAL_DELIVERY",
+        "PRINTABLE"
+      ],
+      "redemptions": [
+        "ONLINE"
+      ],
+      "reason": "Represent all official denominations and print/email/SMS/post delivery options structurally.",
+      "evidence": [
+        "https://www.thomann.gr/gift_voucher.html"
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmta5nyde002454iyc6vaizw0:5:DIGITAL_AND_PHYSICAL"
+    },
+    {
+      "cardId": "cmtb77tnt004ndkiyw1tey12d",
+      "merchantId": "cmtb77ti7004mdkiyn5wn9fgi",
+      "merchantName": "Chania Culture",
+      "expectedCardTitleBefore": "Δωροκάρτα",
+      "expectedCardTitleAfter": "Chania Culture Gift Card",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "10",
+      "maxValue": "100",
+      "customValueAllowed": false,
+      "purchaseUrl": "https://shop.chania-culture.gr/product/gift-card/",
+      "validityMonths": null,
+      "values": [
+        "10",
+        "20",
+        "50",
+        "100"
+      ],
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [],
+      "reason": "Represent the official product's fixed values and electronic recipient flow structurally.",
+      "evidence": [
+        "Official product is under the Digital category.",
+        "Official product lists €10, €20, €50 and €100 and requires recipient email."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb77tnt004ndkiyw1tey12d:0:DIGITAL"
+    },
+    {
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "merchantName": "Kotsovolos",
+      "expectedCardTitleBefore": "Gift Card - Δωροκάρτα | ΚΩΤΣΟΒΟΛΟΣ",
+      "expectedCardTitleAfter": "Kotsovolos Gift Card",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": null,
+      "maxValue": null,
+      "customValueAllowed": false,
+      "purchaseUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+      "validityMonths": null,
+      "values": [],
+      "deliveries": [],
+      "redemptions": [],
+      "reason": "Represent the official consumer e-Gift Card without inventing hidden iframe values or channels.",
+      "evidence": [
+        "https://www.kotsovolos.gr/pages/e-giftcard"
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb785to006cdkiy9ubl9s4x:3:DIGITAL"
+    },
+    {
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "merchantName": "Kotsovolos",
+      "expectedCardTitleBefore": "Gift Card - Δωροκάρτα | ΚΩΤΣΟΒΟΛΟΣ",
+      "expectedCardTitleAfter": "Kotsovolos Gift Card",
+      "name": "Corporate",
+      "variantType": "CORPORATE",
+      "currency": "EUR",
+      "minValue": null,
+      "maxValue": null,
+      "customValueAllowed": true,
+      "purchaseUrl": "https://kotsovolos-b2b.giftcards-store.com/el",
+      "validityMonths": 12,
+      "values": [],
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE",
+        "PHYSICAL_STORE",
+        "PHONE"
+      ],
+      "reason": "Represent the verified B2B purchase channel as a Corporate variant of the same program.",
+      "evidence": [
+        "Official B2B page supports user-defined value and personalization.",
+        "Official B2B page states inbox/direct delivery, online/phone/store redemption and one-year validity."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb785to006cdkiy9ubl9s4x:4:CORPORATE"
+    }
+  ],
+  "generatedAt": "2026-09-02T09:30:54.066Z",
+  "planId": "68df5be625218d5fee705049f681eca84cec83ca8180c2ec3969c56eedcc536a"
+}

@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "cf0332e503765e7359fdf2f04c37ad4404e661c844e8f714e0bd9bf135d416ce",
+  "targetCount": 2,
+  "concurrency": 2,
+  "summary": {
+    "safe": 2,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1nfxp00wvq8iy71vxcbpb:79512b46ea12",
+      "merchantId": "cmta1nfxp00wvq8iy71vxcbpb",
+      "merchantName": "Minotavros",
+      "merchantSlug": "minotavros",
+      "websiteUrl": "https://minotavros.gr/",
+      "sourceUrl": "https://cdn11.bigcommerce.com/s-vvlfh3i8i2/images/stencil/470x235/minotavros_logo7_1501255823__90574.original.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 193,
+      "sha256": "79512b46ea12b9047bbb70b1ea3d14b64afececa324a20e604306311ccb905bb",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 14168,
+      "width": 470,
+      "height": 59,
+      "localUrl": "/merchant-logos/minotavros-79512b46ea12.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ixh000etq8iyrstbzf45:8d695ec25d4b",
+      "merchantId": "cmta1ixh000etq8iyrstbzf45",
+      "merchantName": "Misa",
+      "merchantSlug": "misa",
+      "websiteUrl": "https://misa.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/72de13_5b009c6225874604a817fc3c3c952954~mv2.png/v1/fill/w_276,h_276,al_c,q_85,enc_avif,quality_auto/MISA%20LOGO.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 209,
+      "sha256": "8d695ec25d4b5788327d82c8f45c698ac71a1f8ed772c3bfac202c7131321f6d",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 31076,
+      "width": 276,
+      "height": 276,
+      "localUrl": "/merchant-logos/misa-8d695ec25d4b.webp"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1nfxp00wvq8iy71vxcbpb",
+      "merchantName": "Minotavros",
+      "merchantSlug": "minotavros",
+      "websiteUrl": "https://minotavros.gr",
+      "finalWebsiteUrl": "https://minotavros.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn11.bigcommerce.com/s-vvlfh3i8i2/images/stencil/470x235/minotavros_logo7_1501255823__90574.original.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 193
+      },
+      "validatedAsset": {
+        "url": "https://cdn11.bigcommerce.com/s-vvlfh3i8i2/images/stencil/470x235/minotavros_logo7_1501255823__90574.original.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 14168,
+        "width": 470,
+        "height": 59,
+        "sha256": "79512b46ea12b9047bbb70b1ea3d14b64afececa324a20e604306311ccb905bb"
+      }
+    },
+    {
+      "merchantId": "cmta1ixh000etq8iyrstbzf45",
+      "merchantName": "Misa",
+      "merchantSlug": "misa",
+      "websiteUrl": "https://misa.gr",
+      "finalWebsiteUrl": "https://misa.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/72de13_5b009c6225874604a817fc3c3c952954~mv2.png/v1/fill/w_276,h_276,al_c,q_85,enc_avif,quality_auto/MISA%20LOGO.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 209
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/72de13_5b009c6225874604a817fc3c3c952954~mv2.png/v1/fill/w_276,h_276,al_c,q_85,enc_avif,quality_auto/MISA%20LOGO.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 31076,
+        "width": 276,
+        "height": 276,
+        "sha256": "8d695ec25d4b5788327d82c8f45c698ac71a1f8ed772c3bfac202c7131321f6d"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:28:17.318Z",
+  "planId": "a37672a7a71c34cf6ef91108aacb0f92765ce2bd257ec1c11ecee225f8ba083e"
+}

@@ -1,46 +1,28 @@
-# Dorokartes Google Wave2 Clean + Import v1
+# Dorokartes Full Catalog Classifier v10
 
-Processes:
+Runs across all 1,135 gift-card rows and turns the v9 issue audit into actionable buckets:
+
+- AUTO_RECOVER_MERCHANT
+- TITLE_ONLY_CLEANUP
+- GENERAL_URL_CANDIDATE
+- POSSIBLE_DUPLICATE_PROGRAM
+- THIRD_PARTY_CARD
+- GENERIC_OR_UNCLEAR
+- CLEAN
+
+No DB changes.
+
+Run:
+
+```powershell
+node --env-file=.env --import tsx scripts/pipeline/admin/classify-full-catalog-v10.ts
+```
+
+Outputs:
 
 ```text
-data/discovery/google/google-serper-wave2-domains-v4.csv
+reports/full-catalog-classifier-v10.json
+reports/full-catalog-classifier-v10.csv
 ```
 
-It:
-- checks production DB first;
-- checks existing DiscoveryItems;
-- applies a strict deterministic quality filter;
-- separates into `HIGH_SAFE`, `REVIEW`, `REJECT`;
-- optionally imports only `HIGH_SAFE`.
-
-No web calls, no Serper calls, no OpenAI.
-
-## Install
-
-```powershell
-node scripts/pipeline/install-google-wave2-clean-v1.mjs
-```
-
-## PLAN
-
-```powershell
-npm run pipeline:clean-google-wave2
-```
-
-## Write CSV
-
-```powershell
-npm run pipeline:clean-google-wave2 -- --apply
-```
-
-## Import only HIGH_SAFE
-
-```powershell
-npm run pipeline:clean-google-wave2 -- --apply --import-safe
-```
-
-Output:
-
-```text
-data/discovery/google/google-wave2-clean-v1.csv
-```
+Send back the bucket counts.

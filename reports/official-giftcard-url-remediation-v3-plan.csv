@@ -1,0 +1,10 @@
+﻿status,cardId,merchantName,expectedOfficialUrl,replacementUrl,reason,httpStatus,title,h1,actionId
+SAFE,cmta1gxm7007gq8iycl9elv83,Sportcafe,https://sportcafe.gr/,https://sportcafe.gr/egift-card/,H1_AND_PURCHASE_FLOW_CONFIRM_EGIFT_CARD,200,eGift Card - SportCafe,Δωροκάρτες SportCafe,2c69d2522d8fdac4a857f196cbd5517ec0e063757e09266b8ab1b9deefab2594
+SAFE,cmta1hkhz0098q8iyjadmmr3n,Beautylink,https://beautylink.gr/,https://www.beautylink.gr/shop/mwb_wgm_giftcard/gift-card-%ce%b1%ce%be%ce%af%ce%b1%cf%82-50-%ce%b5%cf%85%cf%81%cf%8e/,EXACT_DENOMINATION_TITLE_AND_H1_MATCH,200,Gift Card Αξίας 50 Ευρώ - Beautylink Cosmetics,Gift Card Αξίας 50 Ευρώ,1039358ba4642f289ef82f839cddf42297d1b3cc21f486ce630d7d133d41962c
+SAFE,cmta1m1t900riq8iy2b9sin92,Sekoia,https://sekoia.gr/,https://sekoia.gr/product/gift-card/,PRODUCT_H1_AND_AMOUNT_SELECTOR_CONFIRM_GIFT_CARD,200,Gift Card - Sekoia Boutique,Gift Card,6e9c245887c4768ecfbc134f5d99d6a5a19ad0acf1465181fb8b86b5b5c388dc
+SAFE,cmtb62qlm001r94iy91xv9clz,Outdoorshop,https://outdoorshop.gr/en/shop/%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AD%CF%82/gift-card-2/,https://outdoorshop.gr/en/product/doroepitagi/,SAME_DOMAIN_200_REPLACEMENT_WITH_GIFT_CARD_H1,200,Doroepitagi | δωροεπιταγή | Outdoorshop,Gift Card,4394227c317b9358e990eff9e9ae1b79dd67602fadb02c6db9b41c8150f6769e
+HOLD,cmta1fsds003hq8iywvbrxbq7,LIAKOPOULOS Brands Store,,https://liakopoulos-store.gr/product/ck-jeans-350gsm-fleece-gift-giving-fz-hoo-%ce%bc%ce%b1%cf%85%cf%81%ce%bf/,REJECT_NON_GIFTCARD_APPAREL_PRODUCT,,,,
+HOLD,cmta1kptg00m8q8iyxikg29yq,Hlcpro,,https://hlcpro.gr/product/gift-card-expiry-extension/,REJECT_EXPIRY_EXTENSION_UTILITY,,,,
+HOLD,cmta1lwrt00qyq8iy0horqkam,Lovefashionpoint,,https://lovefashionpoint.gr/gift-card-balance/,REJECT_BALANCE_CHECKER,,,,
+HOLD,cmta1m0d900rcq8iy7cru4enr,Poupee,,https://poupee.gr/gift-card,REVIEW_PAGE_HAS_TITLE_BUT_NO_PRODUCT_OR_PURCHASE_EVIDENCE,,,,
+HOLD,cmta1m4x600ruq8iyic1fo9fb,Tresorjewelry,,https://tresorjewelry.gr/gift-cards,REJECT_SOFT_HOMEPAGE_WITH_HOME_CANONICAL,,,,

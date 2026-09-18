@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-03T11:03:58.568Z",
+  "planId": "2d0910379ee1dba8509e1abae8347ada6e081ac681f31564a49292ab5d9ab092",
+  "checked": 2,
+  "passed": 2,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "actionId": "set-merchant-logo:cmta1m8wn00s9q8iygc3o000e:202891937a5c",
+      "merchantId": "cmta1m8wn00s9q8iygc3o000e",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "202891937a5c89c8c6a3ab1bc4d8661888fd52a450028c82fc9d4c064586b790"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1itzx00ebq8iyerir1tmb:fe6d43cf97b4",
+      "merchantId": "cmta1itzx00ebq8iyerir1tmb",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "fe6d43cf97b4cfde983f05d82a058321d3cb5cf7ea15663634c409d304c24a4f"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "manual_review_csv_files_scanned": 19,
+  "raw_rows_scanned_from_csvs": 7424,
+  "db_leftovers_added": 34,
+  "unique_domain_candidates_before_prod_filter": 1627,
+  "production_domains_filtered": 1122,
+  "verified_domains_filtered": 1073,
+  "final_candidates": 1322,
+  "safe": 53,
+  "review": 1199,
+  "reject": 70
+}

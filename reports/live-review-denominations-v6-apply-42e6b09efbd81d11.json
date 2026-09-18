@@ -1,0 +1,54 @@
+{
+  "version": 6,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-08T13:43:38.586Z",
+  "planId": "42e6b09efbd81d11a8ca1b455b00bbc3ac3ddbafed9b8649a7fabe2a661fc771",
+  "appliedCount": 9,
+  "applied": [
+    {
+      "actionId": "update-title:cmta1itdc00e8q8iy8qkpk1e1",
+      "from": "Δωροκάρτα 70 - materiaprima",
+      "to": "Materiaprima Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta1itdc00e8q8iy8qkpk1e1",
+      "from": "https://materiaprima.gr/product/gift-card-40e/",
+      "to": "https://materiaprima.gr/specials/dorokartes/"
+    },
+    {
+      "actionId": "create-variant:cmta1itdc00e8q8iy8qkpk1e1",
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "variantId": "cmtspzwfw000090iyxnbxznng"
+    },
+    {
+      "actionId": "update-title:cmta1l69r00o2q8iysx3o77ki",
+      "from": "Δωροκάρτα 50€ Tactical Store – Digital Gift Card - Tacticalstore ...",
+      "to": "Tacticalstore Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta1l69r00o2q8iysx3o77ki",
+      "from": "https://www.tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card/",
+      "to": "https://www.tacticalstore.gr/cat/dorokartes/"
+    },
+    {
+      "actionId": "create-variant:cmta1l69r00o2q8iysx3o77ki",
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "variantId": "cmtspzx1l000890iycpmmld7u"
+    },
+    {
+      "actionId": "update-title:cmta1nyzl00yyq8iy0qetgjxm",
+      "from": "Vinyl gift card 40€",
+      "to": "Vinylartclothing Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta1nyzl00yyq8iy0qetgjxm",
+      "from": "https://vinylartclothing.gr/products/gift-card-40",
+      "to": "https://vinylartclothing.gr/search?q=gift%20card"
+    },
+    {
+      "actionId": "create-variant:cmta1nyzl00yyq8iy0qetgjxm",
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "variantId": "cmtspzxlj000d90iyuz0oc7c4"
+    }
+  ]
+}

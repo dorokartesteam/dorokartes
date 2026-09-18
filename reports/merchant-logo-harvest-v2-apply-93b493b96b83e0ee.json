@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:14:12.771Z",
+  "planId": "93b493b96b83e0eefeb9ab9e57aae76c2f4fe169f8db57c7a72ce367f988ac98",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta5nklm000254iyykvcbi2u:ced52fa53358",
+      "merchantId": "cmta5nklm000254iyykvcbi2u",
+      "localUrl": "/merchant-logos/atelie-ced52fa53358.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ice000c5q8iyu99sa66p:e2e6756334ef",
+      "merchantId": "cmta1ice000c5q8iyu99sa66p",
+      "localUrl": "/merchant-logos/haralas-e2e6756334ef.avif"
+    }
+  ]
+}

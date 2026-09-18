@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "160a3b4f59de61c6117c4a7dc6d0399bb493b5958b72c07304cc4a34dd822d54",
+  "targetCount": 9,
+  "concurrency": 6,
+  "summary": {
+    "safe": 4,
+    "review": 5,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1f03n000mq8iyzxhzrwvc:73bda02250d0",
+      "merchantId": "cmta1f03n000mq8iyzxhzrwvc",
+      "merchantName": "Adagio",
+      "merchantSlug": "adagio",
+      "websiteUrl": "https://adagio.gr/",
+      "sourceUrl": "https://www.adagio.gr/images/adagiologosite.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "73bda02250d06ed0cd0e026f01bbbd507afb14f167ed51e4ea59e19f648a7f5b",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 16946,
+      "width": 190,
+      "height": 70,
+      "localUrl": "/merchant-logos/adagio-73bda02250d0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hren00a1q8iyh9eqqfbk:74056c238477",
+      "merchantId": "cmta1hren00a1q8iyh9eqqfbk",
+      "merchantName": "Cavadelvino",
+      "merchantSlug": "cavadelvino",
+      "websiteUrl": "https://cavadelvino.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/0f013c_33cd2728ffe64ac9ac03e3b900563c4f~mv2.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 120,
+      "sha256": "74056c238477c04d9a91145b6b5596b01bd8787a763b78baa8637c793073c7a4",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 128253,
+      "width": 1890,
+      "height": 1890,
+      "localUrl": "/merchant-logos/cavadelvino-74056c238477.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k1x700jhq8iyxupg6exd:6f7987eb7a64",
+      "merchantId": "cmta1k1x700jhq8iyxupg6exd",
+      "merchantName": "Romeo",
+      "merchantSlug": "romeo",
+      "websiteUrl": "https://romeo.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/c3c625_8bc38bd8942449deaf3e0f4f8456cf9e~mv2.png/v1/fill/w_289,h_108,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ROMEO88_edited.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 154,
+      "sha256": "6f7987eb7a64a8c3d933454581bb45a3120d36a72bcf4e75d69494b6c6add81e",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 10682,
+      "width": 289,
+      "height": 108,
+      "localUrl": "/merchant-logos/romeo-6f7987eb7a64.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nv0400yhq8iywl3ocjxp:68dbc75c6ced",
+      "merchantId": "cmta1nv0400yhq8iywl3ocjxp",
+      "merchantName": "Symmetria",
+      "merchantSlug": "symmetria",
+      "websiteUrl": "https://symmetria.gr/",
+      "sourceUrl": "https://www.symmetria.com/images/logos/footer.svg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 221,
+      "sha256": "68dbc75c6ceda6f4a9a1070e805545cb6def2c876932a2b0d1b1462e2c6abf8b",
+      "contentType": "image/svg+xml",
+      "extension": ".svg",
+      "bytes": 5287,
+      "width": 1657,
+      "height": 271,
+      "localUrl": "/merchant-logos/symmetria-68dbc75c6ced.svg"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1f03n000mq8iyzxhzrwvc",
+      "merchantName": "Adagio",
+      "merchantSlug": "adagio",
+      "websiteUrl": "https://adagio.gr",
+      "finalWebsiteUrl": "https://adagio.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.adagio.gr/images/adagiologosite.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.adagio.gr/images/adagiologosite.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 16946,
+        "width": 190,
+        "height": 70,
+        "sha256": "73bda02250d06ed0cd0e026f01bbbd507afb14f167ed51e4ea59e19f648a7f5b"
+      }
+    },
+    {
+      "merchantId": "cmta1flpz002sq8iyj9fu06aj",
+      "merchantName": "Adidas",
+      "merchantSlug": "adidas",
+      "websiteUrl": "https://adidas.gr",
+      "finalWebsiteUrl": "https://adidas.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_EXCLUDED_AFTER_VISUAL_REVIEW"
+      ],
+      "bestCandidate": {
+        "url": "https://res.cloudinary.com/confirmed-web/image/upload/c_lfill%2Cw_640%2Ch_540%2Cc_fill/v1713789228/adidas-group/media/pictures-videos/adidas_company_logo_qkkgem.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 193
+      },
+      "validatedAsset": {
+        "url": "https://res.cloudinary.com/confirmed-web/image/upload/c_lfill%2Cw_640%2Ch_540%2Cc_fill/v1713789228/adidas-group/media/pictures-videos/adidas_company_logo_qkkgem.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 6867,
+        "width": 640,
+        "height": 540,
+        "sha256": "d4e2dd9b7560b63976f6657079acceeb6f8a9b0e12266595f52347bced9bd30d"
+      }
+    },
+    {
+      "merchantId": "cmta1hren00a1q8iyh9eqqfbk",
+      "merchantName": "Cavadelvino",
+      "merchantSlug": "cavadelvino",
+      "websiteUrl": "https://cavadelvino.gr",
+      "finalWebsiteUrl": "https://cavadelvino.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/0f013c_33cd2728ffe64ac9ac03e3b900563c4f~mv2.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 120
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/0f013c_33cd2728ffe64ac9ac03e3b900563c4f~mv2.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 128253,
+        "width": 1890,
+        "height": 1890,
+        "sha256": "74056c238477c04d9a91145b6b5596b01bd8787a763b78baa8637c793073c7a4"
+      }
+    },
+    {
+      "merchantId": "cmtb6uzla00373giydd6wqbju",
+      "merchantName": "Optika Liolios",
+      "merchantSlug": "δωροκαρτες",
+      "websiteUrl": "https://optikaliolios.gr",
+      "finalWebsiteUrl": "https://optikaliolios.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_403"
+      ],
+      "bestCandidate": {
+        "url": "https://www.optikaliolios.gr/ui/main/img/optika_liolios_logo_main.webp?id=fee456335a2aeb6af068b08fd39a22b3",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1k1x700jhq8iyxupg6exd",
+      "merchantName": "Romeo",
+      "merchantSlug": "romeo",
+      "websiteUrl": "https://romeo.gr",
+      "finalWebsiteUrl": "https://romeo.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c3c625_8bc38bd8942449deaf3e0f4f8456cf9e~mv2.png/v1/fill/w_289,h_108,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ROMEO88_edited.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/c3c625_8bc38bd8942449deaf3e0f4f8456cf9e~mv2.png/v1/fill/w_289,h_108,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ROMEO88_edited.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 10682,
+        "width": 289,
+        "height": 108,
+        "sha256": "6f7987eb7a64a8c3d933454581bb45a3120d36a72bcf4e75d69494b6c6add81e"
+      }
+    },
+    {
+      "merchantId": "cmtb62p1e001i94iydv5ldjzm",
+      "merchantName": "Send gifts and wishes to your beloved ones",
+      "merchantSlug": "send-gifts-and-wishes-to-your-beloved-ones",
+      "websiteUrl": "https://neraidochora.gr",
+      "finalWebsiteUrl": "https://neraidochora.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_UNSTABLE",
+        "ASSET_UNSTABLE_BETWEEN_FETCHES"
+      ],
+      "bestCandidate": {
+        "url": "https://www.neraidochora.gr/image/cache/catalog/neraidochora/gallery/logo_merchant_square-400x400.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 316
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8fb4oz000o6kiylq2ujw83",
+      "merchantName": "Sephora",
+      "merchantSlug": "sephora",
+      "websiteUrl": "https://giftcard.sephora.gr",
+      "finalWebsiteUrl": "https://giftcard.sephora.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_FETCH_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://giftcard.sephora.gr/merchant/logo.png?v=20260911",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1nv0400yhq8iywl3ocjxp",
+      "merchantName": "Symmetria",
+      "merchantSlug": "symmetria",
+      "websiteUrl": "https://symmetria.gr",
+      "finalWebsiteUrl": "https://symmetria.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.symmetria.com/images/logos/footer.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 221
+      },
+      "validatedAsset": {
+        "url": "https://www.symmetria.com/images/logos/footer.svg",
+        "contentType": "image/svg+xml",
+        "extension": ".svg",
+        "bytes": 5287,
+        "width": 1657,
+        "height": 271,
+        "sha256": "68dbc75c6ceda6f4a9a1070e805545cb6def2c876932a2b0d1b1462e2c6abf8b"
+      }
+    },
+    {
+      "merchantId": "cmta1l9iw00ofq8iy7s34mm5k",
+      "merchantName": "Travelagency",
+      "merchantSlug": "travelagency",
+      "websiteUrl": "https://travelagency.gr",
+      "finalWebsiteUrl": "https://travelagency.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_FETCH_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://travelagency.gr/wp-content/uploads/2018/02/travel-agency-img-2.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 279
+      },
+      "validatedAsset": null
+    }
+  ],
+  "generatedAt": "2026-09-11T19:49:22.050Z",
+  "planId": "78c36bd8781b7ef6b524a7e2129fdcd52dc9661c5f112703c77416cb4174f2ef"
+}

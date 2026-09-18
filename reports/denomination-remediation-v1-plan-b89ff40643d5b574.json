@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "mode": "PREVIEW",
+  "sourceReportId": "9fa87306f6122d57c46b12765119fa596e9484307e99e122e2bac6f8f300564b",
+  "targetFingerprint": "714a9ac428842b94aa75ca87f0c1b81b6ce8855adbba640f3055e9cb7ea34ffc",
+  "cardCount": 5,
+  "actionCount": 9,
+  "actions": [
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4yrb8002csciyx2ses6du",
+      "merchantId": "cmta4yrb8002csciyx2ses6du",
+      "cardId": "cmta4yrha002dsciywsr7shx4",
+      "expected": "Leatherstudio",
+      "value": "Leather Studio",
+      "evidence": [
+        "Official product page identifies Leather Studio Gift Card €25.",
+        "Official product price and structured data both confirm €25.",
+        "Official copy states that the gift card is delivered by email."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yrha002dsciywsr7shx4",
+      "cardId": "cmta4yrha002dsciywsr7shx4",
+      "merchantId": "cmta4yrb8002csciyx2ses6du",
+      "expected": "Gift Card 25,00 - Leather Studio",
+      "value": "Leather Studio Gift Card",
+      "officialUrl": "https://www.leatherstudio.gr/el/products/copy-of-gift-card?srsltid=AfmBOoqpDrXIE_fA_yZRQ9z47-bZ1Ul0ITgf_sEZLCsb4M3B6YO5K3Xg",
+      "evidence": [
+        "Official product page identifies Leather Studio Gift Card €25.",
+        "Official product price and structured data both confirm €25.",
+        "Official copy states that the gift card is delivered by email."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta4yrha002dsciywsr7shx4",
+      "cardId": "cmta4yrha002dsciywsr7shx4",
+      "merchantId": "cmta4yrb8002csciyx2ses6du",
+      "expectedTitleAfter": "Leather Studio Gift Card",
+      "purchaseUrl": "https://www.leatherstudio.gr/el/products/copy-of-gift-card?srsltid=AfmBOoqpDrXIE_fA_yZRQ9z47-bZ1Ul0ITgf_sEZLCsb4M3B6YO5K3Xg",
+      "currency": "EUR",
+      "values": [
+        "25"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [],
+      "validityMonths": null,
+      "evidence": [
+        "Official product page identifies Leather Studio Gift Card €25.",
+        "Official product price and structured data both confirm €25.",
+        "Official copy states that the gift card is delivered by email."
+      ]
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta1fnl10030q8iyjnfimm6o",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "cardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "expected": "Niyamas-Yoga",
+      "value": "Niyamas Yoga",
+      "evidence": [
+        "Official heading identifies an electronic Niyamas Yoga gift card.",
+        "Official amount selector lists €20, €50, €80 and €100.",
+        "Official copy states email delivery, online/physical-store use and six-month validity."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1fnrb0031q8iyg9sqt1g1",
+      "cardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "expected": "Gift Card Niyamas - Ηλεκτρονική Δωροκάρτα 20",
+      "value": "Niyamas Yoga Gift Card",
+      "officialUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "evidence": [
+        "Official heading identifies an electronic Niyamas Yoga gift card.",
+        "Official amount selector lists €20, €50, €80 and €100.",
+        "Official copy states email delivery, online/physical-store use and six-month validity."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta1fnrb0031q8iyg9sqt1g1",
+      "cardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "expectedTitleAfter": "Niyamas Yoga Gift Card",
+      "purchaseUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "currency": "EUR",
+      "values": [
+        "20",
+        "50",
+        "80",
+        "100"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "validityMonths": 6,
+      "evidence": [
+        "Official heading identifies an electronic Niyamas Yoga gift card.",
+        "Official amount selector lists €20, €50, €80 and €100.",
+        "Official copy states email delivery, online/physical-store use and six-month validity."
+      ]
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta1jdpf00gpq8iyjay8pz2w",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "expected": "Secretsofbeauty",
+      "value": "Secrets of Beauty",
+      "evidence": [
+        "Official product page and structured data confirm the €300 gift card.",
+        "Official recipient form requires a recipient email and delivery date.",
+        "Official copy explicitly permits redemption online or at the merchant premises."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1jdvx00gqq8iy4767yu90",
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "expected": "Δωροκάρτα 300€ | Secrets of Beauty | Θεσσαλονίκη",
+      "value": "Secrets of Beauty Gift Card",
+      "officialUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+      "evidence": [
+        "Official product page and structured data confirm the €300 gift card.",
+        "Official recipient form requires a recipient email and delivery date.",
+        "Official copy explicitly permits redemption online or at the merchant premises."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta1jdvx00gqq8iy4767yu90",
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "expectedTitleAfter": "Secrets of Beauty Gift Card",
+      "purchaseUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+      "currency": "EUR",
+      "values": [
+        "300"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "validityMonths": null,
+      "evidence": [
+        "Official product page and structured data confirm the €300 gift card.",
+        "Official recipient form requires a recipient email and delivery date.",
+        "Official copy explicitly permits redemption online or at the merchant premises."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-04T16:22:32.230Z",
+  "planId": "b89ff40643d5b5744ffaee7fd2f201a708373ac4ac3e54988ac13a3a561da655"
+}

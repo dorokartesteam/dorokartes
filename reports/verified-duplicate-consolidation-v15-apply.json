@@ -1,0 +1,148 @@
+{
+  "version": 15,
+  "appliedAt": "2026-09-02T09:31:26.184Z",
+  "planId": "68df5be625218d5fee705049f681eca84cec83ca8180c2ec3969c56eedcc536a",
+  "sourceAuditPlanId": "376fd66deec75d27e34dfde2dda1d4406a769aeb364b103e84b07ac78b286f67",
+  "appliedCount": 21,
+  "applied": [
+    {
+      "actionId": "archive-verified-duplicate:cmta1fp5c0037q8iy0bte1j9f",
+      "cardId": "cmta1fp5c0037q8iy0bte1j9f",
+      "keeperCardId": "cmta5nyde002454iyc6vaizw0"
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmta1g5lj004tq8iy2gi1o7hn",
+      "cardId": "cmta1g5lj004tq8iy2gi1o7hn",
+      "keeperCardId": "cmtb785to006cdkiy9ubl9s4x"
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmta1g612004uq8iy6ctyhbtp",
+      "cardId": "cmta1g612004uq8iy6ctyhbtp",
+      "keeperCardId": "cmt8hesz5000ga8iykmbj9m8y"
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmta1ldih00owq8iybi4h3dxo",
+      "cardId": "cmta1ldih00owq8iybi4h3dxo",
+      "keeperCardId": "cmta421t70002t8iywrh9oyoy"
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmtb6uo3d001i3giyiq64l7pb",
+      "cardId": "cmtb6uo3d001i3giyiq64l7pb",
+      "keeperCardId": "cmta5nnqb000j54iy5h71qhyd"
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmtb7r23t0004u8iyh8gmkixy",
+      "cardId": "cmtb7r23t0004u8iyh8gmkixy",
+      "keeperCardId": "cmtb77tnt004ndkiyw1tey12d"
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmtb7r3ne000bu8iyhr8e822r",
+      "cardId": "cmtb7r3ne000bu8iyhr8e822r",
+      "keeperCardId": "cmta1in6000deq8iyzrf26jcw"
+    },
+    {
+      "actionId": "update-verified-merchant:cmta1g5ei004sq8iyj1nwtg24",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24"
+    },
+    {
+      "actionId": "update-verified-merchant:cmta1ldb100ovq8iysbonr92k",
+      "merchantId": "cmta1ldb100ovq8iysbonr92k"
+    },
+    {
+      "actionId": "update-verified-card:cmta1in6000deq8iyzrf26jcw",
+      "cardId": "cmta1in6000deq8iyzrf26jcw",
+      "value": {
+        "title": "Kois Optics Gift Card",
+        "officialUrl": "https://www.kois-optics.gr/el/products/giftcard",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "NEEDS_REVIEW"
+      }
+    },
+    {
+      "actionId": "update-verified-card:cmta421t70002t8iywrh9oyoy",
+      "cardId": "cmta421t70002t8iywrh9oyoy",
+      "value": {
+        "title": "Laura Ashley Gift Card",
+        "officialUrl": "https://www.lauraashleyshop.gr/products/gift-card-laura-ashley",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      }
+    },
+    {
+      "actionId": "update-verified-card:cmta5nnqb000j54iy5h71qhyd",
+      "cardId": "cmta5nnqb000j54iy5h71qhyd",
+      "value": {
+        "title": "Floraplant Gift Card",
+        "officialUrl": "https://eshop.floraplant.gr/en/giftcard/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "NEEDS_REVIEW"
+      }
+    },
+    {
+      "actionId": "update-verified-card:cmta5nyde002454iyc6vaizw0",
+      "cardId": "cmta5nyde002454iyc6vaizw0",
+      "value": {
+        "title": "Thomann Gift Card",
+        "officialUrl": "https://www.thomann.gr/gift_voucher.html",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      }
+    },
+    {
+      "actionId": "update-verified-card:cmtb77tnt004ndkiyw1tey12d",
+      "cardId": "cmtb77tnt004ndkiyw1tey12d",
+      "value": {
+        "title": "Chania Culture Gift Card",
+        "officialUrl": "https://shop.chania-culture.gr/product/gift-card/",
+        "corporateAvailable": false,
+        "personalizationAvailable": false,
+        "verificationStatus": "VERIFIED"
+      }
+    },
+    {
+      "actionId": "update-verified-card:cmtb785to006cdkiy9ubl9s4x",
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "value": {
+        "title": "Kotsovolos Gift Card",
+        "officialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+        "corporateAvailable": true,
+        "personalizationAvailable": true,
+        "verificationStatus": "VERIFIED"
+      }
+    },
+    {
+      "actionId": "create-verified-variant:cmta1in6000deq8iyzrf26jcw:1:DIGITAL",
+      "cardId": "cmta1in6000deq8iyzrf26jcw",
+      "variantId": "cmtjwcg0v0000jkiyo49wks76"
+    },
+    {
+      "actionId": "create-verified-variant:cmta421t70002t8iywrh9oyoy:2:DIGITAL",
+      "cardId": "cmta421t70002t8iywrh9oyoy",
+      "variantId": "cmtjwcge10002jkiy2fcyvhc2"
+    },
+    {
+      "actionId": "create-verified-variant:cmta5nyde002454iyc6vaizw0:5:DIGITAL_AND_PHYSICAL",
+      "cardId": "cmta5nyde002454iyc6vaizw0",
+      "variantId": "cmtjwcgt8000ajkiyrpk2dss1"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77tnt004ndkiyw1tey12d:0:DIGITAL",
+      "cardId": "cmtb77tnt004ndkiyw1tey12d",
+      "variantId": "cmtjwch84000jjkiyg7flz88k"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb785to006cdkiy9ubl9s4x:3:DIGITAL",
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "variantId": "cmtjwchk3000pjkiybk80slwj"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb785to006cdkiy9ubl9s4x:4:CORPORATE",
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "variantId": "cmtjwchpx000qjkiyvrh0hzv6"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-04T16:23:03.110Z",
+  "planId": "b89ff40643d5b5744ffaee7fd2f201a708373ac4ac3e54988ac13a3a561da655",
+  "checked": 5,
+  "passed": 5,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "cardId": "cmta1ftsh003nq8iyxswky70y",
+      "merchantId": "cmta1ftm4003mq8iyn7wu2dpi",
+      "passed": true
+    },
+    {
+      "cardId": "cmta1fdz30025q8iyjgn4n03r",
+      "merchantId": "cmta1fdrv0024q8iy4qoe2q40",
+      "passed": true
+    },
+    {
+      "cardId": "cmta4yrha002dsciywsr7shx4",
+      "merchantId": "cmta4yrb8002csciyx2ses6du",
+      "passed": true
+    },
+    {
+      "cardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "passed": true
+    },
+    {
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "passed": true
+    }
+  ]
+}

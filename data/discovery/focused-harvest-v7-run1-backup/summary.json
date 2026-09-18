@@ -1,0 +1,14 @@
+{
+  "requested_calls": 700,
+  "generated_queries": 1138,
+  "executed_calls": 700,
+  "quota_exhausted": false,
+  "errors": 0,
+  "organic_results": 4874,
+  "already_known_results": 1156,
+  "low_signal_results": 1803,
+  "new_unique_candidate_domains": 476,
+  "score_100": 216,
+  "score_90_99": 0,
+  "score_70_89": 260
+}

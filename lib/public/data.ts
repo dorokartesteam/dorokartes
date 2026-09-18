@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import type { Prisma } from "@/src/generated/prisma/client";
+import { isSearchScoreRelevant, scoreSearchFields } from "@/lib/public/search";
 
 export const publicCardSelect = {
   id:true,title:true,slug:true,shortDescription:true,officialUrl:true,featured:true,verificationStatus:true,validityText:true,validityMonths:true,
@@ -120,5 +121,60 @@ export async function browseCards(
   filters: PublicCatalogFilters = {},
   requestedPage = 1,
 ){
-  return getPublicCardPage(buildPublicCatalogWhere(filters), requestedPage);
+  const term = filters.q?.trim();
+  if (!term) return getPublicCardPage(buildPublicCatalogWhere(filters), requestedPage);
+
+  const baseWhere = buildPublicCatalogWhere({ category: filters.category, occasion: filters.occasion });
+  const candidates = await prisma.giftCard.findMany({
+    where: baseWhere,
+    take: 2000,
+    select: {
+      id: true,
+      title: true,
+      shortDescription: true,
+      featured: true,
+      verificationStatus: true,
+      merchant: { select: { name: true } },
+      categories: { select: { category: { select: { name: true, slug: true } } } },
+      occasions: { select: { occasion: { select: { name: true, slug: true } } } },
+    },
+  });
+
+  const ranked = candidates
+    .map((card) => {
+      let score = scoreSearchFields(term, [
+        { value: card.merchant.name, weight: 1200 },
+        { value: card.title, weight: 1060 },
+        ...card.categories.map((item) => ({ value: `${item.category.name} ${item.category.slug}`, weight: 820 })),
+        ...card.occasions.map((item) => ({ value: `${item.occasion.name} ${item.occasion.slug}`, weight: 840 })),
+        { value: card.shortDescription, weight: 260 },
+      ]);
+      if (card.featured) score += 18;
+      if (card.verificationStatus === "VERIFIED") score += 12;
+      return { id: card.id, score };
+    })
+    .filter((item) => isSearchScoreRelevant(item.score))
+    .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+
+  const totalCount = ranked.length;
+  const totalPages = Math.max(1, Math.ceil(totalCount / PUBLIC_CATALOG_PAGE_SIZE));
+  const currentPage = Math.min(
+    Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1,
+    totalPages,
+  );
+  const start = (currentPage - 1) * PUBLIC_CATALOG_PAGE_SIZE;
+  const pageIds = ranked.slice(start, start + PUBLIC_CATALOG_PAGE_SIZE).map((item) => item.id);
+
+  if (!pageIds.length) {
+    return { cards: [], totalCount, currentPage, totalPages, pageSize: PUBLIC_CATALOG_PAGE_SIZE };
+  }
+
+  const cards = await prisma.giftCard.findMany({
+    where: { id: { in: pageIds } },
+    select: publicCardSelect,
+  });
+  const order = new Map(pageIds.map((id, index) => [id, index]));
+  cards.sort((a, b) => (order.get(a.id) ?? 9999) - (order.get(b.id) ?? 9999));
+
+  return { cards, totalCount, currentPage, totalPages, pageSize: PUBLIC_CATALOG_PAGE_SIZE };
 }

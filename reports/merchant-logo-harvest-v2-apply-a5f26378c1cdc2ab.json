@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T11:02:08.436Z",
+  "planId": "a5f26378c1cdc2ab6f391d4b74b4cefce18458d2061560e2eb97d2686ef44f0d",
+  "appliedCount": 41,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmt8l5oqd00005giycgy0pz6b:9ba669d9ce07",
+      "merchantId": "cmt8l5oqd00005giycgy0pz6b",
+      "localUrl": "/merchant-logos/airbnb-9ba669d9ce07.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8nqtz900000oiy5f4y48na:5866636f1876",
+      "merchantId": "cmt8nqtz900000oiy5f4y48na",
+      "localUrl": "/merchant-logos/amazon-5866636f1876.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4y96w000asciyw4lp6d4q:c121b1d7735c",
+      "merchantId": "cmta4y96w000asciyw4lp6d4q",
+      "localUrl": "/merchant-logos/barbopoulos-c121b1d7735c.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hjup0095q8iyvtvlgy9z:ac318905f47b",
+      "merchantId": "cmta1hjup0095q8iyvtvlgy9z",
+      "localUrl": "/merchant-logos/beautybliss-ac318905f47b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gbwr0057q8iy912y66yc:98cd8064b98b",
+      "merchantId": "cmta1gbwr0057q8iy912y66yc",
+      "localUrl": "/merchant-logos/beautycityspa-98cd8064b98b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hkqq0099q8iyde9km7bg:a31a12105421",
+      "merchantId": "cmta1hkqq0099q8iyde9km7bg",
+      "localUrl": "/merchant-logos/beautypeak-a31a12105421.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hwwi000804iyxo3b6lop:e61dfbe18efc",
+      "merchantId": "cmtb7hwwi000804iyxo3b6lop",
+      "localUrl": "/merchant-logos/santorini-honeymoon-spa-gift-card-e61dfbe18efc.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mnxe00ttq8iy4l6zbq3p:425acd0c32bc",
+      "merchantId": "cmta1mnxe00ttq8iy4l6zbq3p",
+      "localUrl": "/merchant-logos/carbon-425acd0c32bc.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lsnr00qhq8iy9ibymzbq:8092aab40b8d",
+      "merchantId": "cmta1lsnr00qhq8iy9ibymzbq",
+      "localUrl": "/merchant-logos/chicart-8092aab40b8d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hxrm00arq8iyhvy95v45:19386370073c",
+      "merchantId": "cmta1hxrm00arq8iyhvy95v45",
+      "localUrl": "/merchant-logos/doctorfish-19386370073c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i4m300b7q8iydyj6mvak:ff830ca1d3d3",
+      "merchantId": "cmta1i4m300b7q8iydyj6mvak",
+      "localUrl": "/merchant-logos/elegancy-ff830ca1d3d3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb782b5005wdkiybx3tkhjs:3deb479f9e9d",
+      "merchantId": "cmtb782b5005wdkiybx3tkhjs",
+      "localUrl": "/merchant-logos/elemental-studios-3deb479f9e9d.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m7uh00s5q8iy2uhwo8ad:5b910f8369fc",
+      "merchantId": "cmta1m7uh00s5q8iy2uhwo8ad",
+      "localUrl": "/merchant-logos/epiploaivazoglou-5b910f8369fc.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nnxp000k54iy9bb28dfr:a1d96e137a5c",
+      "merchantId": "cmta5nnxp000k54iy9bb28dfr",
+      "localUrl": "/merchant-logos/esthai-a1d96e137a5c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ltps00qlq8iyu7awumqg:9ba41aa92d8b",
+      "merchantId": "cmta1ltps00qlq8iyu7awumqg",
+      "localUrl": "/merchant-logos/ethereal-spa-9ba41aa92d8b.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb76yef0006dkiyil6ybdjc:10a1317cabc0",
+      "merchantId": "cmtb76yef0006dkiyil6ybdjc",
+      "localUrl": "/merchant-logos/for-stay-in-10a1317cabc0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ihdj00cpq8iy8h7fdcbs:ab8b0e00a2d6",
+      "merchantId": "cmta1ihdj00cpq8iy8h7fdcbs",
+      "localUrl": "/merchant-logos/hydrowellness-ab8b0e00a2d6.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fxg20040q8iyzetmsdo8:7bb9a033cbc4",
+      "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+      "localUrl": "/merchant-logos/iqueens-7bb9a033cbc4.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ks4x00mhq8iydfmn5xou:e94457d7c7ac",
+      "merchantId": "cmta1ks4x00mhq8iydfmn5xou",
+      "localUrl": "/merchant-logos/kalousos-e94457d7c7ac.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nba500wdq8iyj8n4yj7q:5af39e948a1a",
+      "merchantId": "cmta1nba500wdq8iyj8n4yj7q",
+      "localUrl": "/merchant-logos/lucejewelry-5af39e948a1a.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77bot0022dkiyc1z2at3w:e87fa256b219",
+      "merchantId": "cmtb77bot0022dkiyc1z2at3w",
+      "localUrl": "/merchant-logos/manicurious-e87fa256b219.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lxzg00r3q8iyk2zswrtf:c1de8a1d9f52",
+      "merchantId": "cmta1lxzg00r3q8iyk2zswrtf",
+      "localUrl": "/merchant-logos/massaha-c1de8a1d9f52.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ixuq00evq8iyfw77ryfl:fc68974c61f7",
+      "merchantId": "cmta1ixuq00evq8iyfw77ryfl",
+      "localUrl": "/merchant-logos/moelian-fc68974c61f7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1izhy00f3q8iya0mr8ool:f160e07127ad",
+      "merchantId": "cmta1izhy00f3q8iya0mr8ool",
+      "localUrl": "/merchant-logos/movelab-f160e07127ad.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j14200f9q8iy4qbjvx5d:1d935711dde9",
+      "merchantId": "cmta1j14200f9q8iy4qbjvx5d",
+      "localUrl": "/merchant-logos/mycolours-1d935711dde9.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta421c00000t8iyz2ify6i3:abe8012eb65c",
+      "merchantId": "cmta421c00000t8iyz2ify6i3",
+      "localUrl": "/merchant-logos/netflix-abe8012eb65c.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j9v800g9q8iy1nle1uqi:c9ab3b9b70a1",
+      "merchantId": "cmta1j9v800g9q8iy1nle1uqi",
+      "localUrl": "/merchant-logos/pezzetta-c9ab3b9b70a1.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78a1e006xdkiyci06sr0y:8052f8f98a89",
+      "merchantId": "cmtb78a1e006xdkiyci06sr0y",
+      "localUrl": "/merchant-logos/plegmashop-8052f8f98a89.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77y00005adkiya4pa2gzm:23d34de10f92",
+      "merchantId": "cmtb77y00005adkiya4pa2gzm",
+      "localUrl": "/merchant-logos/quad-and-buggy-safari-crete-23d34de10f92.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1geq4005lq8iyvs3k2pk8:bf33ee623cad",
+      "merchantId": "cmta1geq4005lq8iyvs3k2pk8",
+      "localUrl": "/merchant-logos/regalinas-bf33ee623cad.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1evj10006q8iy32cz89b3:529ed238be0c",
+      "merchantId": "cmta1evj10006q8iy32cz89b3",
+      "localUrl": "/merchant-logos/rituals-529ed238be0c.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i1i0000w04iys9w2oqz8:d0cab677c5a3",
+      "merchantId": "cmtb7i1i0000w04iys9w2oqz8",
+      "localUrl": "/merchant-logos/spa-gift-voucher-in-santorini-d0cab677c5a3.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nrq800y5q8iy9tcv8iqe:80afe00a1c33",
+      "merchantId": "cmta1nrq800y5q8iy9tcv8iqe",
+      "localUrl": "/merchant-logos/skinpositive-80afe00a1c33.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jjvp00hfq8iy74s2thdz:732f1ca5f04d",
+      "merchantId": "cmta1jjvp00hfq8iy74s2thdz",
+      "localUrl": "/merchant-logos/storybook-732f1ca5f04d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1juzk00inq8iymdkvh13b:d55eaf0a4893",
+      "merchantId": "cmta1juzk00inq8iymdkvh13b",
+      "localUrl": "/merchant-logos/verandadelvino-d55eaf0a4893.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i4fg001a04iyu5nzeowe:e6385284cfbb",
+      "merchantId": "cmtb7i4fg001a04iyu5nzeowe",
+      "localUrl": "/merchant-logos/wellness-gift-cards-e6385284cfbb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jxbr00ixq8iy0ji2ui9e:c4d2ed3e921b",
+      "merchantId": "cmta1jxbr00ixq8iy0ji2ui9e",
+      "localUrl": "/merchant-logos/winewalkers-c4d2ed3e921b.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jy9c00j1q8iyyfjvma71:d5e79abf5206",
+      "merchantId": "cmta1jy9c00j1q8iyyfjvma71",
+      "localUrl": "/merchant-logos/xmode-d5e79abf5206.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h2f10081q8iyet5ax0sh:220d6b07793f",
+      "merchantId": "cmta1h2f10081q8iyet5ax0sh",
+      "localUrl": "/merchant-logos/zalando-220d6b07793f.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z1g8003ksciycb0lyswx:9f539a9e5b20",
+      "merchantId": "cmta4z1g8003ksciycb0lyswx",
+      "localUrl": "/merchant-logos/salero-restaurant-9f539a9e5b20.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i0pf000s04iygmr4uj2e:a16c2f0f07e2",
+      "merchantId": "cmtb7i0pf000s04iygmr4uj2e",
+      "localUrl": "/merchant-logos/and-a16c2f0f07e2.png"
+    }
+  ]
+}

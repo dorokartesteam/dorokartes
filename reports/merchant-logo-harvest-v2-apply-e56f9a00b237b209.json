@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-02T17:02:01.357Z",
+  "planId": "e56f9a00b237b2096bdc0b16a05bc3ca1085e302322592f29a4a75538c84213b",
+  "appliedCount": 14,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1i8x000bpq8iyan1tyro9:10f8db0be534",
+      "merchantId": "cmta1i8x000bpq8iyan1tyro9",
+      "localUrl": "/merchant-logos/fisika-10f8db0be534.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62hzc000g94iyu8xt54ke:22ac9b9a3c17",
+      "merchantId": "cmtb62hzc000g94iyu8xt54ke",
+      "localUrl": "/merchant-logos/fmsstores-22ac9b9a3c17.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kq4t00m9q8iynfm2daqb:e9a5bdb9a6ad",
+      "merchantId": "cmta1kq4t00m9q8iynfm2daqb",
+      "localUrl": "/merchant-logos/hobbylobby-yarns-e9a5bdb9a6ad.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gdkt005fq8iygplls487:1c39a6caf23f",
+      "merchantId": "cmta1gdkt005fq8iygplls487",
+      "localUrl": "/merchant-logos/kanellopoulos-1c39a6caf23f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uwyz002t3giyzb40c9mw:4ad28df50017",
+      "merchantId": "cmtb6uwyz002t3giyzb40c9mw",
+      "localUrl": "/merchant-logos/miniature-shoes-4ad28df50017.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ihwt001h84iy9ye6u3j2:416cb752880f",
+      "merchantId": "cmt79ihwt001h84iy9ye6u3j2",
+      "localUrl": "/merchant-logos/prenatal-416cb752880f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8fb3lj000j6kiysgaap6u5:cc77c73823b6",
+      "merchantId": "cmt8fb3lj000j6kiysgaap6u5",
+      "localUrl": "/merchant-logos/public-cc77c73823b6.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8hesrb000fa8iycuggb6wc:fd09d266a6a4",
+      "merchantId": "cmt8hesrb000fa8iycuggb6wc",
+      "localUrl": "/merchant-logos/puma-greece-fd09d266a6a4.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g1rb004eq8iybuvsqb1m:c9f85dd19154",
+      "merchantId": "cmta1g1rb004eq8iybuvsqb1m",
+      "localUrl": "/merchant-logos/red-raven-eyewear-c9f85dd19154.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8l623g00165giyglxj5znv:c860364785c3",
+      "merchantId": "cmt8l623g00165giyglxj5znv",
+      "localUrl": "/merchant-logos/roblox-c860364785c3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ewzn000aq8iyq8fpkvwb:b86927108dd4",
+      "merchantId": "cmta1ewzn000aq8iyq8fpkvwb",
+      "localUrl": "/merchant-logos/ryanair-b86927108dd4.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m13x00rfq8iy5t496suf:938927ab2551",
+      "merchantId": "cmta1m13x00rfq8iy5t496suf",
+      "localUrl": "/merchant-logos/sakkoulasbooks-938927ab2551.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nq7z00xzq8iyb6nd72za:a1957748203a",
+      "merchantId": "cmta1nq7z00xzq8iyb6nd72za",
+      "localUrl": "/merchant-logos/sbokos-a1957748203a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fypk0046q8iyul7h6jis:c21251b20abd",
+      "merchantId": "cmta1fypk0046q8iyul7h6jis",
+      "localUrl": "/merchant-logos/shein-c21251b20abd.png"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "60eb1766e1e7d5e01a088b8bb51c4f1e66a7a9f0ba142e547b7b4870dd817ea4",
+  "targetCount": 2,
+  "concurrency": 2,
+  "summary": {
+    "safe": 2,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1jcpl00glq8iyiewjd0bh:e66b68e35110",
+      "merchantId": "cmta1jcpl00glq8iyiewjd0bh",
+      "merchantName": "Ptbox",
+      "merchantSlug": "ptbox",
+      "websiteUrl": "https://ptbox.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg/v1/fill/w_168,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 120,
+      "sha256": "e66b68e35110be80fa8ac7902934ace56f8e743b59e856c548d45aaba941668f",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1672,
+      "width": 168,
+      "height": 168,
+      "localUrl": "/merchant-logos/ptbox-e66b68e35110.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62r5h001u94iyasn3pt54:8ec58eec03ad",
+      "merchantId": "cmtb62r5h001u94iyasn3pt54",
+      "merchantName": "Radiodaysfashion",
+      "merchantSlug": "radiodaysfashion",
+      "websiteUrl": "https://radiodaysfashion.gr/",
+      "sourceUrl": "https://www.radiodaysfashion.gr/app/assets/images/radiodays-logo.svg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 346,
+      "sha256": "8ec58eec03ad4e09a424e7d3237edd24d41f1a64cb98fe60f1a128cd00d85d20",
+      "contentType": "image/svg+xml",
+      "extension": ".svg",
+      "bytes": 4872,
+      "width": 208,
+      "height": 63,
+      "localUrl": "/merchant-logos/radiodaysfashion-8ec58eec03ad.svg"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1jcpl00glq8iyiewjd0bh",
+      "merchantName": "Ptbox",
+      "merchantSlug": "ptbox",
+      "websiteUrl": "https://ptbox.gr",
+      "finalWebsiteUrl": "https://ptbox.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg/v1/fill/w_168,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 120
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg/v1/fill/w_168,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1672,
+        "width": 168,
+        "height": 168,
+        "sha256": "e66b68e35110be80fa8ac7902934ace56f8e743b59e856c548d45aaba941668f"
+      }
+    },
+    {
+      "merchantId": "cmtb62r5h001u94iyasn3pt54",
+      "merchantName": "Radiodaysfashion",
+      "merchantSlug": "radiodaysfashion",
+      "websiteUrl": "https://radiodaysfashion.gr",
+      "finalWebsiteUrl": "https://radiodaysfashion.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.radiodaysfashion.gr/app/assets/images/radiodays-logo.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": {
+        "url": "https://www.radiodaysfashion.gr/app/assets/images/radiodays-logo.svg",
+        "contentType": "image/svg+xml",
+        "extension": ".svg",
+        "bytes": 4872,
+        "width": 208,
+        "height": 63,
+        "sha256": "8ec58eec03ad4e09a424e7d3237edd24d41f1a64cb98fe60f1a128cd00d85d20"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:31:00.542Z",
+  "planId": "1d0142ba7ce07a3a869216ea0f016f79f67c75f9dc0262e942a2111d2d5ebcaa"
+}

@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-07T07:51:45.500Z",
+  "planId": "f3aca3c7d626eedc32f5a128ab4e1c3fcd672ae80641ede87ebfe9637cb5fbf4",
+  "appliedCount": 8,
+  "applied": [
+    {
+      "actionId": "update-card-title:cmta1f6090019q8iygnn0tj4u",
+      "from": "Δωροκάρτα Ποσό Δωροκάρτας: 50",
+      "to": "EpiploSet Gift Card"
+    },
+    {
+      "actionId": "create-digital-variant:cmta1f6090019q8iygnn0tj4u",
+      "cardId": "cmta1f6090019q8iygnn0tj4u",
+      "variantId": "cmtqxzjk100006oiyjxcpwo2l"
+    },
+    {
+      "actionId": "update-card-title:cmta1ksaz00miq8iyz8knfxq5",
+      "from": "Δωροκάρτα (Gift Card) 50",
+      "to": "Kalousos Gift Card"
+    },
+    {
+      "actionId": "create-physical-variant:cmta1ksaz00miq8iyz8knfxq5",
+      "cardId": "cmta1ksaz00miq8iyz8knfxq5",
+      "variantId": "cmtqxzjv900066oiy3a54aug4"
+    },
+    {
+      "actionId": "update-card-title:cmta4yw6q002xsciynztac1t7",
+      "from": "Msystems Δωροκάρτα 10e | Δωροκάρτες",
+      "to": "Msystems Gift Card"
+    },
+    {
+      "actionId": "create-digital-variant:cmta4yw6q002xsciynztac1t7",
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "variantId": "cmtqxzk71000c6oiyzwws7bee"
+    },
+    {
+      "actionId": "update-card-title:cmtb77n4m003qdkiyjf9v5mzc",
+      "from": "Gift voucher 50€",
+      "to": "Topgreekwines Gift Card"
+    },
+    {
+      "actionId": "create-digital-variant:cmtb77n4m003qdkiyjf9v5mzc",
+      "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+      "variantId": "cmtqxzkhh000g6oiyuufi2jel"
+    }
+  ]
+}

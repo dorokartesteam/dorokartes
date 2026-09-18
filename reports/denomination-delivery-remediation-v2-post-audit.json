@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-07T07:51:55.853Z",
+  "planId": "f3aca3c7d626eedc32f5a128ab4e1c3fcd672ae80641ede87ebfe9637cb5fbf4",
+  "checked": 4,
+  "passed": 4,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "cardId": "cmta1f6090019q8iygnn0tj4u",
+      "merchantId": "cmta1f5tr0018q8iyo2evq1r0",
+      "passed": true,
+      "preserved": {
+        "merchantName": "EpiploSet",
+        "merchantSlug": "epiploset",
+        "cardSlug": "epiploset-δωροκαρτα-ποσο-δωροκαρτας-50",
+        "officialUrl": "https://www.epiploset.gr/product/gift-card/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmta1ksaz00miq8iyz8knfxq5",
+      "merchantId": "cmta1ks4x00mhq8iydfmn5xou",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Kalousos",
+        "merchantSlug": "kalousos",
+        "cardSlug": "kalousos-δωροκαρτα-gift-card-50",
+        "officialUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Msystems",
+        "merchantSlug": "msystems-δωροκαρτα-10e",
+        "cardSlug": "msystems-δωροκαρτα-10e-msystems-δωροκαρτα-10e-δωροκαρτες",
+        "officialUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+      "merchantId": "cmtb77mzs003pdkiyc12og14q",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Topgreekwines",
+        "merchantSlug": "topgreekwines",
+        "cardSlug": "topgreekwines-gift-voucher-50",
+        "officialUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+        "status": "ACTIVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 5,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-08T07:00:45.329Z",
+  "planId": "b2f064b0ab8dcdb649e076148d7a0fbde3f743316c647bf48205239fe2441d20",
+  "appliedCount": 9,
+  "applied": [
+    {
+      "actionId": "update-title:cmta1hfcn008sq8iy6i2fe0bp",
+      "from": "Art & Colour Gift Card - €200",
+      "to": "Artcolour Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta1hfcn008sq8iy6i2fe0bp",
+      "from": "https://artcolour.gr/",
+      "to": "https://www.artcolour.gr/category/doroepitages-gift-cards/"
+    },
+    {
+      "actionId": "create-variant:cmta1hfcn008sq8iy6i2fe0bp",
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "variantId": "cmtsblskb0000qwiylltjcefz"
+    },
+    {
+      "actionId": "update-title:cmta1hm2i009gq8iy3vf9bzhy",
+      "from": "Δωροκάρτα 50",
+      "to": "Bestpharmacy Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta1hm2i009gq8iy3vf9bzhy",
+      "from": "https://bestpharmacy.gr/",
+      "to": "https://bestpharmacy.gr/el/gift-cards.html"
+    },
+    {
+      "actionId": "create-variant:cmta1hm2i009gq8iy3vf9bzhy",
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "variantId": "cmtsblt230008qwiylylzi4wk"
+    },
+    {
+      "actionId": "update-title:cmta1f2jh000xq8iyzwanlt71",
+      "from": "Δωροεπιταγή 50 ευρώ",
+      "to": "PharmNet Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta1f2jh000xq8iyzwanlt71",
+      "from": "https://www.pharmnet.gr/",
+      "to": "https://www.pharmnet.gr/el/gift-certificates"
+    },
+    {
+      "actionId": "create-variant:cmta1f2jh000xq8iyzwanlt71",
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "variantId": "cmtsbltjr000eqwiyge0a8l0n"
+    }
+  ]
+}

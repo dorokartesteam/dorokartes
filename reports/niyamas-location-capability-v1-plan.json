@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "mode": "PREVIEW",
+  "targetFingerprint": "b48db048e1ea044778433b4ee22f8546083ea24bcda3c12315ea4f6bb14b7200",
+  "evidenceFingerprint": "7d50b990ffd870d825db71fc01fbb3564d306a51e4fac464046beaaed7954f3b",
+  "normalizedKey": "e0bafb8728964830bade2d2575cafad8",
+  "targetCount": 1,
+  "actionCount": 2,
+  "actions": [
+    {
+      "type": "CREATE_MERCHANT_LOCATION",
+      "actionId": "create-location:cmta1fnl10030q8iyjnfimm6o:e0bafb8728964830bade2d2575cafad8",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "giftCardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "normalizedKey": "e0bafb8728964830bade2d2575cafad8",
+      "sourceUrl": "https://niyamas-yoga.com/contact/",
+      "sourceExcerpt": "Διεύθυνση Φυσικού Καταστήματος — Ζήνωνος 51, Τ.Κ. 12133, Περιστέρι, Αθήνα, Ελλάδα",
+      "value": {
+        "label": "Niyamas Yoga",
+        "countryCode": "GR",
+        "administrativeArea": "Αττική",
+        "city": "Περιστέρι",
+        "area": null,
+        "addressLine": "Ζήνωνος 51",
+        "postalCode": "12133",
+        "latitude": 38.019682,
+        "longitude": 23.695388
+      }
+    },
+    {
+      "type": "CREATE_LOCATION_CAPABILITY",
+      "actionId": "create-capability:cmta1fnrb0031q8iyg9sqt1g1:e0bafb8728964830bade2d2575cafad8:REDEEM_IN_STORE",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "giftCardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "normalizedKey": "e0bafb8728964830bade2d2575cafad8",
+      "capability": "REDEEM_IN_STORE",
+      "available": true,
+      "sourceUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "sourceExcerpt": "Ηλεκτρονική Δωροκάρτα Gift Card Niyamas για αγορές από το ηλεκτρονικό ή το φυσικό μας κατάστημα Niyamas Yoga."
+    }
+  ],
+  "evidence": {
+    "contact": {
+      "requestedUrl": "https://niyamas-yoga.com/contact/",
+      "finalUrl": "https://niyamas-yoga.com/contact/",
+      "status": 200,
+      "title": "Επικοινωνία – Niyamas Yoga | Ωράριο λειτουργίας | Niyamas Yoga",
+      "addressMatched": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1764.0478019231018!2d23.69538757888608!3d38.01968220828741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a34d72629959%3A0x4845ce02129b874c!2sNiyamas%20Yoga%20Mat!5e0!3m2!1sel!2sgr!4v1625131811200!5m2!1sel!2sgr",
+      "latitude": 38.01968220828741,
+      "longitude": 23.69538757888608
+    },
+    "giftCard": {
+      "requestedUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "finalUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "status": 200,
+      "title": "Gift Card Niyamas – Ηλεκτρονική Δωροκάρτα | Niyamas Yoga",
+      "giftIdentityMatched": true,
+      "physicalStoreRedemptionMatched": true
+    }
+  },
+  "generatedAt": "2026-09-07T07:02:57.842Z",
+  "planId": "85a3fa08597be43d35a4fd27b8ca492834ea30a1bc29999c3a7de6008f117658"
+}

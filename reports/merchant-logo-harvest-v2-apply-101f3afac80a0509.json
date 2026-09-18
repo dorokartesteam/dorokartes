@@ -1,0 +1,174 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T10:49:56.956Z",
+  "planId": "101f3afac80a050979fa42b9cb52902cd4bbd569d6752e5934aada14ae8d0576",
+  "appliedCount": 33,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1k3u200jpq8iytfzrz0ed:aeafa12a5742",
+      "merchantId": "cmta1k3u200jpq8iytfzrz0ed",
+      "localUrl": "/merchant-logos/alkistijewelry-aeafa12a5742.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hagf008fq8iynbdf22mn:3415bec7da51",
+      "merchantId": "cmta1hagf008fq8iynbdf22mn",
+      "localUrl": "/merchant-logos/ame30-3415bec7da51.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hayg008hq8iyxn9dz5cg:4dd4d046f0a8",
+      "merchantId": "cmta1hayg008hq8iyxn9dz5cg",
+      "localUrl": "/merchant-logos/ammashop-4dd4d046f0a8.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1eyqw000gq8iym60ef15s:f5e538f50b4b",
+      "merchantId": "cmta1eyqw000gq8iym60ef15s",
+      "localUrl": "/merchant-logos/anastasia-beverly-hills-f5e538f50b4b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mgl500t3q8iyhiinlk2s:5688b3a063eb",
+      "merchantId": "cmta1mgl500t3q8iyhiinlk2s",
+      "localUrl": "/merchant-logos/anubis-5688b3a063eb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ugje000e3giyaubvped2:6c4a0c0ab61e",
+      "merchantId": "cmtb6ugje000e3giyaubvped2",
+      "localUrl": "/merchant-logos/art-center-6c4a0c0ab61e.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hgfm008vq8iy2pi8rd5p:9c9051234750",
+      "merchantId": "cmta1hgfm008vq8iy2pi8rd5p",
+      "localUrl": "/merchant-logos/avvento-shoes-9c9051234750.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nm5n000a54iytmsbakho:dec9edbe6b93",
+      "merchantId": "cmta5nm5n000a54iytmsbakho",
+      "localUrl": "/merchant-logos/baby-gear-dec9edbe6b93.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kjfa00lhq8iyck2pdz3m:28557f011797",
+      "merchantId": "cmta1kjfa00lhq8iyck2pdz3m",
+      "localUrl": "/merchant-logos/caraveltravel-28557f011797.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gcpz005bq8iynm77ayng:baaeacb4dee2",
+      "merchantId": "cmta1gcpz005bq8iynm77ayng",
+      "localUrl": "/merchant-logos/feelmadness-baaeacb4dee2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8faygb00006kiynlty806o:be441ac5df32",
+      "merchantId": "cmt8faygb00006kiynlty806o",
+      "localUrl": "/merchant-logos/germanos-be441ac5df32.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gbip0055q8iyzwigl93e:240681ed7986",
+      "merchantId": "cmta1gbip0055q8iyzwigl93e",
+      "localUrl": "/merchant-logos/hallofbrands-240681ed7986.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1go4c006hq8iyctmnyk3t:eb6d092e311e",
+      "merchantId": "cmta1go4c006hq8iyctmnyk3t",
+      "localUrl": "/merchant-logos/heelshop-eb6d092e311e.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6urdq001z3giyx4g2l4dm:71cd86551050",
+      "merchantId": "cmtb6urdq001z3giyx4g2l4dm",
+      "localUrl": "/merchant-logos/merchant-71cd86551050.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77whg0052dkiy9snlz0m5:0894f9d8fa9e",
+      "merchantId": "cmtb77whg0052dkiy9snlz0m5",
+      "localUrl": "/merchant-logos/houhouliarika-0894f9d8fa9e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ii8i00ctq8iysskxlulx:53b1e8461db2",
+      "merchantId": "cmta1ii8i00ctq8iysskxlulx",
+      "localUrl": "/merchant-logos/inspiral-53b1e8461db2.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lj2s00phq8iymc9sy8cd:872602d2fa1b",
+      "merchantId": "cmta1lj2s00phq8iymc9sy8cd",
+      "localUrl": "/merchant-logos/kantarzoglou-872602d2fa1b.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gqn9006rq8iyvkljeqr1:651b6a590ed6",
+      "merchantId": "cmta1gqn9006rq8iyvkljeqr1",
+      "localUrl": "/merchant-logos/kosmima24-651b6a590ed6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ypfz0024sciyjcie77zg:8d9b7be4a210",
+      "merchantId": "cmta4ypfz0024sciyjcie77zg",
+      "localUrl": "/merchant-logos/kounelis-8d9b7be4a210.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ifor000t84iywm22uls1:2af54a52722f",
+      "merchantId": "cmt79ifor000t84iywm22uls1",
+      "localUrl": "/merchant-logos/kulina-2af54a52722f.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lx1n00qzq8iyn1ngi4z8:aaff15513453",
+      "merchantId": "cmta1lx1n00qzq8iyn1ngi4z8",
+      "localUrl": "/merchant-logos/lurehouse-aaff15513453.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nrxg001654iyoybl2dln:bfd86e3f5f51",
+      "merchantId": "cmta5nrxg001654iyoybl2dln",
+      "localUrl": "/merchant-logos/madeofglass-bfd86e3f5f51.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uzyo00393giyijqh9v1h:247e78a2096f",
+      "merchantId": "cmtb6uzyo00393giyijqh9v1h",
+      "localUrl": "/merchant-logos/outdoorway-10-247e78a2096f.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8pt4mw0006tgiyqx51cb45:d48e31436013",
+      "merchantId": "cmt8pt4mw0006tgiyqx51cb45",
+      "localUrl": "/merchant-logos/pat-mcgrath-labs-d48e31436013.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g4fk004oq8iywtnxd831:b5e5b0fddea0",
+      "merchantId": "cmta1g4fk004oq8iywtnxd831",
+      "localUrl": "/merchant-logos/pcp-clothing-b5e5b0fddea0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jarh00gdq8iyxtg67ir3:98bd348168bb",
+      "merchantId": "cmta1jarh00gdq8iyxtg67ir3",
+      "localUrl": "/merchant-logos/pleasurefashion-98bd348168bb.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g3ys004mq8iy3qs4ol62:b503c15ce3c1",
+      "merchantId": "cmta1g3ys004mq8iy3qs4ol62",
+      "localUrl": "/merchant-logos/projectshops-b503c15ce3c1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jepm00gtq8iy5j5m9fet:764ee20bfbbe",
+      "merchantId": "cmta1jepm00gtq8iy5j5m9fet",
+      "localUrl": "/merchant-logos/simple-city-764ee20bfbbe.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fenw0028q8iy6hk5qrpw:e777305ed072",
+      "merchantId": "cmta1fenw0028q8iy6hk5qrpw",
+      "localUrl": "/merchant-logos/skakistikokentro-com-e777305ed072.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8l6430001b5giytuoenkc9:9f890a9debcd",
+      "merchantId": "cmt8l6430001b5giytuoenkc9",
+      "localUrl": "/merchant-logos/steam-9f890a9debcd.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jqky00i5q8iy694cggyt:a67050a688c4",
+      "merchantId": "cmta1jqky00i5q8iy694cggyt",
+      "localUrl": "/merchant-logos/tinytoes-a67050a688c4.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1laev00ojq8iyj7h4kwoj:a3fd65760ff5",
+      "merchantId": "cmta1laev00ojq8iyj7h4kwoj",
+      "localUrl": "/merchant-logos/unisport-a3fd65760ff5.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h0ki007tq8iy9qwn9glu:7fbb706c53de",
+      "merchantId": "cmta1h0ki007tq8iy9qwn9glu",
+      "localUrl": "/merchant-logos/vivliopoleiopataki-7fbb706c53de.ico"
+    }
+  ]
+}

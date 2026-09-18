@@ -1,0 +1,5378 @@
+{
+  "version": "merchant-identity-evidence-v1",
+  "mode": "READ_ONLY_EVIDENCE",
+  "generatedAt": "2026-09-07T07:15:01.688Z",
+  "targetFingerprint": "b2f6bb18688d7b8a86015d8e741970b34252e8583241ad8cbe2b031bb2210dc6",
+  "targetCount": 38,
+  "summary": {
+    "candidates": 32,
+    "review": 5,
+    "error": 1,
+    "databaseWrites": 0
+  },
+  "findings": [
+    {
+      "merchantId": "cmtb780lh005odkiyslzjq17k",
+      "merchantName": "Αγόρασε μία Δωροκάρτα",
+      "merchantSlug": "αγορασε-μια-δωροκαρτα",
+      "websiteUrl": "https://dazzeal.gr",
+      "giftCardId": "cmtb780qd005pdkiy9ptikri3",
+      "giftCardTitle": "Αγόρασε μία Δωροκάρτα",
+      "officialUrl": "https://dazzeal.gr/index.php?route=account%2Fvoucher",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://dazzeal.gr",
+        "finalUrl": "https://dazzeal.gr/",
+        "status": 200,
+        "title": "Dazzeal",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [
+          "Dazzeal"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Dazzeal"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://dazzeal.gr/index.php?route=account%2Fvoucher",
+        "finalUrl": "https://dazzeal.gr/index.php?route=account%2Fvoucher",
+        "status": 200,
+        "title": "Αγόρασε μία Δωροκάρτα",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Dazzeal"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Dazzeal",
+          "normalizedValue": "dazzeal",
+          "score": 255,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://dazzeal.gr/",
+            "https://dazzeal.gr/index.php?route=account%2Fvoucher"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb6upwi001r3giymvuh6njo",
+      "merchantName": "Αγοράστε μία Δωροεπιταγή - Gifts 4 All",
+      "merchantSlug": "αγοραστε-μια-δωροεπιταγη-gifts-4-all",
+      "websiteUrl": "https://gifts4all.com.gr",
+      "giftCardId": "cmtb6uq1p001s3giyrbtdkh3t",
+      "giftCardTitle": "Αγοράστε μία Δωροεπιταγή - Gifts 4 All",
+      "officialUrl": "https://www.gifts4all.com.gr/account/voucher",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://gifts4all.com.gr",
+        "finalUrl": "https://www.gifts4all.com.gr/",
+        "status": 200,
+        "title": "Gifts 4 All | Είδη δώρων σε μεγάλη ποικιλία!",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [
+          "Gifts 4 All"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Greek",
+          "English",
+          "Gifts 4 All"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.gifts4all.com.gr/account/voucher",
+        "finalUrl": "https://www.gifts4all.com.gr/account/voucher",
+        "status": 200,
+        "title": "Αγοράστε μία Δωροεπιταγή",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Greek",
+          "English",
+          "Gifts 4 All"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Gifts 4 All",
+          "normalizedValue": "gifts 4 all",
+          "score": 255,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.gifts4all.com.gr/",
+            "https://www.gifts4all.com.gr/account/voucher"
+          ]
+        },
+        {
+          "value": "English",
+          "normalizedValue": "english",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.gifts4all.com.gr/",
+            "https://www.gifts4all.com.gr/account/voucher"
+          ]
+        },
+        {
+          "value": "Greek",
+          "normalizedValue": "greek",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.gifts4all.com.gr/",
+            "https://www.gifts4all.com.gr/account/voucher"
+          ]
+        },
+        {
+          "value": "Είδη δώρων σε μεγάλη ποικιλία!",
+          "normalizedValue": "ειδη δωρων σε μεγαλη ποικιλια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.gifts4all.com.gr/"
+          ]
+        },
+        {
+          "value": "Gifts 4 All | Είδη δώρων σε μεγάλη ποικιλία!",
+          "normalizedValue": "gifts 4 all ειδη δωρων σε μεγαλη ποικιλια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.gifts4all.com.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77srp004idkiywlcqejho",
+      "merchantName": "Αγοράστε μία Δωροκάρτα",
+      "merchantSlug": "αγοραστε-μια-δωροκαρτα",
+      "websiteUrl": "https://bekids.gr",
+      "giftCardId": "cmtb77swu004jdkiyug4cfe0j",
+      "giftCardTitle": "Αγοράστε μία Δωροκάρτα",
+      "officialUrl": "https://bekids.gr/index.php?route=account%2Fvoucher",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "CANDIDATE_SUPPORT_TOO_WEAK"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://bekids.gr",
+        "finalUrl": "https://bekids.gr/",
+        "status": 200,
+        "title": "BeKIDS Κατάστημα Παιδικών - Εφηβικών Ρούχων",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://bekids.gr/index.php?route=account%2Fvoucher",
+        "finalUrl": "https://bekids.gr/index.php?route=account%2Fvoucher",
+        "status": 200,
+        "title": "Αγοράστε μία Δωροκάρτα",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Εφηβικών Ρούχων",
+          "normalizedValue": "εφηβικων ρουχων",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bekids.gr/"
+          ]
+        },
+        {
+          "value": "BeKIDS Κατάστημα Παιδικών",
+          "normalizedValue": "bekids καταστημα παιδικων",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bekids.gr/"
+          ]
+        },
+        {
+          "value": "BeKIDS Κατάστημα Παιδικών - Εφηβικών Ρούχων",
+          "normalizedValue": "bekids καταστημα παιδικων εφηβικων ρουχων",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bekids.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb782qf005ydkiyrxvghjux",
+      "merchantName": "Αγοράστε μία Δωροκάρτα",
+      "merchantSlug": "αγοραστε-μια-δωροκαρτα-2",
+      "websiteUrl": "https://fifthelement.gr",
+      "giftCardId": "cmtb782wo005zdkiyoydj8owp",
+      "giftCardTitle": "Αγοράστε μία Δωροκάρτα",
+      "officialUrl": "https://www.fifthelement.gr/index.php?route=account/voucher",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://fifthelement.gr",
+        "finalUrl": "https://www.fifthelement.gr/",
+        "status": 200,
+        "title": "Fifth Element - Adventure Store",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [
+          "Fifth Element - Adventure Store"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Ελληνικά",
+          "English",
+          "Fifth Element - Adventure Store",
+          "Ορεινό τρέξιμο",
+          "Τρέξιμο δρόμου",
+          "Πεζοπορία",
+          "Ski",
+          "Snowboard",
+          "Lifestyle-Casual",
+          "Ορειβασία",
+          "Αναρρίχηση",
+          "Κατασκήνωση",
+          "Ποδηλασία",
+          "Apres Ski",
+          "Training",
+          "Ταξίδι",
+          "Παραλία",
+          "Κολύμβηση",
+          "Skateboard"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.fifthelement.gr/index.php?route=account/voucher",
+        "finalUrl": "https://www.fifthelement.gr/index.php?route=account/voucher",
+        "status": 200,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Fifth Element - Adventure Store",
+          "normalizedValue": "fifth element adventure store",
+          "score": 170,
+          "sources": [
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Αναρρίχηση",
+          "normalizedValue": "αναρριχηση",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Ελληνικά",
+          "normalizedValue": "ελληνικα",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Κατασκήνωση",
+          "normalizedValue": "κατασκηνωση",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Κολύμβηση",
+          "normalizedValue": "κολυμβηση",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Ορειβασία",
+          "normalizedValue": "ορειβασια",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Ορεινό τρέξιμο",
+          "normalizedValue": "ορεινο τρεξιμο",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Παραλία",
+          "normalizedValue": "παραλια",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Πεζοπορία",
+          "normalizedValue": "πεζοπορια",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Ποδηλασία",
+          "normalizedValue": "ποδηλασια",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Ταξίδι",
+          "normalizedValue": "ταξιδι",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Τρέξιμο δρόμου",
+          "normalizedValue": "τρεξιμο δρομου",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Apres Ski",
+          "normalizedValue": "apres ski",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "English",
+          "normalizedValue": "english",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Lifestyle-Casual",
+          "normalizedValue": "lifestyle casual",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Skateboard",
+          "normalizedValue": "skateboard",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Ski",
+          "normalizedValue": "ski",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Snowboard",
+          "normalizedValue": "snowboard",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Training",
+          "normalizedValue": "training",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Adventure Store",
+          "normalizedValue": "adventure store",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        },
+        {
+          "value": "Fifth Element",
+          "normalizedValue": "fifth element",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.fifthelement.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb789nc006vdkiyyrzeqiov",
+      "merchantName": "Δωροεπιταγές",
+      "merchantSlug": "δωροεπιταγες-2",
+      "websiteUrl": "https://mustmenfashion.gr",
+      "giftCardId": "cmtb789sx006wdkiy2dhrh3x9",
+      "giftCardTitle": "Δωροεπιταγές",
+      "officialUrl": "https://mustmenfashion.gr/voucher-purchase",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://mustmenfashion.gr",
+        "finalUrl": "https://mustmenfashion.gr/",
+        "status": 200,
+        "title": "Must Men Fashion - Ηλεκτρονικό Κατάστημα ανδρικής μόδας",
+        "ogSiteName": "Must Men Fashion",
+        "jsonLdOrganizations": [
+          "Must Men Fashion"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Must Men Fashion"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://mustmenfashion.gr/voucher-purchase",
+        "finalUrl": "https://mustmenfashion.gr/voucher-purchase",
+        "status": 200,
+        "title": "Must Men Fashion",
+        "ogSiteName": "Must Men Fashion",
+        "jsonLdOrganizations": [
+          "Must Men Fashion"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Must Men Fashion"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Must Men Fashion",
+          "normalizedValue": "must men fashion",
+          "score": 355,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://mustmenfashion.gr/",
+            "https://mustmenfashion.gr/voucher-purchase"
+          ]
+        },
+        {
+          "value": "Ηλεκτρονικό Κατάστημα ανδρικής μόδας",
+          "normalizedValue": "ηλεκτρονικο καταστημα ανδρικης μοδας",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://mustmenfashion.gr/"
+          ]
+        },
+        {
+          "value": "Must Men Fashion - Ηλεκτρονικό Κατάστημα ανδρικής μόδας",
+          "normalizedValue": "must men fashion ηλεκτρονικο καταστημα ανδρικης μοδας",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://mustmenfashion.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4ym53001qsciyl81j3zu5",
+      "merchantName": "Δωροκάρτα - Karfitsomenos Gatos",
+      "merchantSlug": "δωροκαρτα-karfitsomenos-gatos",
+      "websiteUrl": "https://karfitsomenosgatos.gr",
+      "giftCardId": "cmta4ymbf001rsciyxe7d8lyq",
+      "giftCardTitle": "Δωροκάρτα - Karfitsomenos Gatos",
+      "officialUrl": "https://karfitsomenosgatos.gr/gift-card/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://karfitsomenosgatos.gr",
+        "finalUrl": "https://karfitsomenosgatos.gr/",
+        "status": 200,
+        "title": "#1 Κατάστημα με μοναδικά βρεφικά λευκά είδη, προίκα μωρού, βρεφικό ρούχο, παιδικό ρούχο, αξεσουάρ! - Karfitsomenos Gatos",
+        "ogSiteName": "Karfitsomenos Gatos",
+        "jsonLdOrganizations": [
+          "Karfitsomenos Gatos - Σχεδιάζουμε και ράβουμε πρωτότυπα και μοναδικά βρεφικά λευκά είδη, ρούχο και αξεσουάρ",
+          "Karfitsomenos Gatos"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Καρφιτσωμένος γάτος",
+          "karfitsomenosgatos-antagwnistika-pleonekthmata-asfaleis-sunallages",
+          "karfitsomenosgatos-white-logo"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://karfitsomenosgatos.gr/gift-card/",
+        "finalUrl": "https://karfitsomenosgatos.gr/gift-card/",
+        "status": 200,
+        "title": "Δωροκάρτα - Karfitsomenos Gatos",
+        "ogSiteName": "Karfitsomenos Gatos",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Καρφιτσωμένος γάτος",
+          "karfitsomenosgatos-antagwnistika-pleonekthmata-asfaleis-sunallages",
+          "karfitsomenosgatos-dwrokarta-vhma-2-icon"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Karfitsomenos Gatos",
+          "normalizedValue": "karfitsomenos gatos",
+          "score": 280,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://karfitsomenosgatos.gr/",
+            "https://karfitsomenosgatos.gr/gift-card/"
+          ]
+        },
+        {
+          "value": "Καρφιτσωμένος γάτος",
+          "normalizedValue": "καρφιτσωμενος γατος",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://karfitsomenosgatos.gr/",
+            "https://karfitsomenosgatos.gr/gift-card/"
+          ]
+        },
+        {
+          "value": "karfitsomenosgatos-antagwnistika-pleonekthmata-asfaleis-sunallages",
+          "normalizedValue": "karfitsomenosgatos antagwnistika pleonekthmata asfaleis sunallages",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://karfitsomenosgatos.gr/",
+            "https://karfitsomenosgatos.gr/gift-card/"
+          ]
+        },
+        {
+          "value": "karfitsomenosgatos-white-logo",
+          "normalizedValue": "karfitsomenosgatos white logo",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://karfitsomenosgatos.gr/"
+          ]
+        },
+        {
+          "value": "karfitsomenosgatos-dwrokarta-vhma-2-icon",
+          "normalizedValue": "karfitsomenosgatos dwrokarta vhma 2 icon",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://karfitsomenosgatos.gr/gift-card/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yyrf0038sciyxex3eik0",
+      "merchantName": "Δωροκάρτα - Patousaki Shoes",
+      "merchantSlug": "δωροκαρτα-patousaki-shoes",
+      "websiteUrl": "https://patousakishoes.gr",
+      "giftCardId": "cmta4yyxo0039sciy0650z05i",
+      "giftCardTitle": "Δωροκάρτα - Patousaki Shoes",
+      "officialUrl": "https://www.patousakishoes.gr/product-tag/giftcard/?srsltid",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://patousakishoes.gr",
+        "finalUrl": "https://www.patousakishoes.gr/",
+        "status": 200,
+        "title": "Παιδικά Παπούτσια για Κορίτσια και Αγόρια | Patousaki",
+        "ogSiteName": "Patousaki Shoes",
+        "jsonLdOrganizations": [
+          "Patousaki Shoes"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Patousaki Shoes"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.patousakishoes.gr/product-tag/giftcard/?srsltid",
+        "finalUrl": "https://www.patousakishoes.gr/product-tag/giftcard/?srsltid",
+        "status": 200,
+        "title": "Δωροκάρτα - Patousaki Shoes",
+        "ogSiteName": "Patousaki Shoes",
+        "jsonLdOrganizations": [
+          "Patousaki Shoes"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Patousaki Shoes"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Patousaki Shoes",
+          "normalizedValue": "patousaki shoes",
+          "score": 330,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.patousakishoes.gr/",
+            "https://www.patousakishoes.gr/product-tag/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Παιδικά Παπούτσια για Κορίτσια και Αγόρια",
+          "normalizedValue": "παιδικα παπουτσια για κοριτσια και αγορια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.patousakishoes.gr/"
+          ]
+        },
+        {
+          "value": "Παιδικά Παπούτσια για Κορίτσια και Αγόρια | Patousaki",
+          "normalizedValue": "παιδικα παπουτσια για κοριτσια και αγορια patousaki",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.patousakishoes.gr/"
+          ]
+        },
+        {
+          "value": "Patousaki",
+          "normalizedValue": "patousaki",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.patousakishoes.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb6v1hi003h3giyzn8glzoz",
+      "merchantName": "ΔΩΡΟΚΑΡΤΑ - Pregnancy-gifts.gr",
+      "merchantSlug": "δωροκαρτα-pregnancy-gifts-gr",
+      "websiteUrl": "https://pregnancy-gifts.gr",
+      "giftCardId": "cmtb6v1m7003i3giyor8l91p3",
+      "giftCardTitle": "ΔΩΡΟΚΑΡΤΑ - Pregnancy-gifts.gr",
+      "officialUrl": "https://pregnancy-gifts.gr/product-category/wps_wgm_giftcard/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://pregnancy-gifts.gr",
+        "finalUrl": "https://pregnancy-gifts.gr/",
+        "status": 200,
+        "title": "Κατάστημα με Ρούχα Eγκυμοσύνης • Μόνο στο Pregnancy Gifts",
+        "ogSiteName": "Pregnancy Gifts",
+        "jsonLdOrganizations": [
+          "Pregnancy Gifts"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Pregnancy Gifts"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://pregnancy-gifts.gr/product-category/wps_wgm_giftcard/",
+        "finalUrl": "https://pregnancy-gifts.gr/product-category/wps_wgm_giftcard/",
+        "status": 200,
+        "title": "ΔΩΡΟΚΑΡΤΑ • Pregnancy Gifts",
+        "ogSiteName": "Pregnancy Gifts",
+        "jsonLdOrganizations": [
+          "Pregnancy Gifts"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Pregnancy Gifts"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Pregnancy Gifts",
+          "normalizedValue": "pregnancy gifts",
+          "score": 305,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://pregnancy-gifts.gr/",
+            "https://pregnancy-gifts.gr/product-category/wps_wgm_giftcard/"
+          ]
+        },
+        {
+          "value": "Κατάστημα με Ρούχα Eγκυμοσύνης • Μόνο στο Pregnancy Gifts",
+          "normalizedValue": "καταστημα με ρουχα eγκυμοσυνης μονο στο pregnancy gifts",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://pregnancy-gifts.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4z43r003usciyabwwtw93",
+      "merchantName": "Δωροκάρτα - Studio Fix",
+      "merchantSlug": "δωροκαρτα-studio-fix",
+      "websiteUrl": "https://studiofix.gr",
+      "giftCardId": "cmta4z49k003vsciyj7ag8khc",
+      "giftCardTitle": "Δωροκάρτα - Studio Fix",
+      "officialUrl": "https://studiofix.gr/gift-cards/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://studiofix.gr",
+        "finalUrl": "https://studiofix.gr/",
+        "status": 200,
+        "title": "Ινστιτούτο Αισθητικής Περιστέρι | Studio Fix",
+        "ogSiteName": "Studiofix",
+        "jsonLdOrganizations": [
+          "Studiofix"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "logo main",
+          "logo dark",
+          "logo light"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://studiofix.gr/gift-cards/",
+        "finalUrl": "https://studiofix.gr/gift-cards/",
+        "status": 200,
+        "title": "Δωροκάρτα | Studio Fix",
+        "ogSiteName": "Studiofix",
+        "jsonLdOrganizations": [
+          "Studiofix"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "logo main",
+          "logo dark",
+          "logo light"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Studiofix",
+          "normalizedValue": "studiofix",
+          "score": 255,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/",
+            "https://studiofix.gr/gift-cards/"
+          ]
+        },
+        {
+          "value": "logo dark",
+          "normalizedValue": "logo dark",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/",
+            "https://studiofix.gr/gift-cards/"
+          ]
+        },
+        {
+          "value": "logo light",
+          "normalizedValue": "logo light",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/",
+            "https://studiofix.gr/gift-cards/"
+          ]
+        },
+        {
+          "value": "logo main",
+          "normalizedValue": "logo main",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/",
+            "https://studiofix.gr/gift-cards/"
+          ]
+        },
+        {
+          "value": "Studio Fix",
+          "normalizedValue": "studio fix",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/",
+            "https://studiofix.gr/gift-cards/"
+          ]
+        },
+        {
+          "value": "Ινστιτούτο Αισθητικής Περιστέρι",
+          "normalizedValue": "ινστιτουτο αισθητικης περιστερι",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/"
+          ]
+        },
+        {
+          "value": "Ινστιτούτο Αισθητικής Περιστέρι | Studio Fix",
+          "normalizedValue": "ινστιτουτο αισθητικης περιστερι studio fix",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://studiofix.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4z7n90048sciy1ngsw7es",
+      "merchantName": "Δωροκάρτα - Vibrant Beauty",
+      "merchantSlug": "δωροκαρτα-vibrant-beauty",
+      "websiteUrl": "https://vibrantbeauty.gr",
+      "giftCardId": "cmta4z7uf0049sciyu0lkupmq",
+      "giftCardTitle": "Δωροκάρτα - Vibrant Beauty",
+      "officialUrl": "https://vibrantbeauty.gr/product/giftcard/?srsltid",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://vibrantbeauty.gr",
+        "finalUrl": "https://vibrantbeauty.gr/",
+        "status": 200,
+        "title": "Home - Vibrant Beauty",
+        "ogSiteName": "Vibrant Beauty",
+        "jsonLdOrganizations": [
+          "Vibrant Beauty.gr"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "previous arrow",
+          "next arrow",
+          "Orjena Cushion Serum to Powder SPF50+ PA+++ – 14gr",
+          "Orjena Cushion Aqua to Moisture SPF50+ PA+++ - 14gr",
+          "Orjena Natural Moisture Royal Jelly Mask Sheet - 23 ml",
+          "Orjena Aloe Vera Moisture Soothing Gel (face & body) - 300ml",
+          "Orjena Multi Vitamin Glow Face Mist - 100ml",
+          "Orjena Aloe & Cactus Water Face Mist - 100ml",
+          "Love&Strife Επαναχρησιμοποιήσιμες Μάσκες Ματιών",
+          "Orjena Bright Vitamin C EX Intensive Serum - 50 ml",
+          "Orjena Vitamin C Bright Serum - 45 ml",
+          "Orjena Vitamin C Bright Cream - 50 ml"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://vibrantbeauty.gr/product/giftcard/?srsltid",
+        "finalUrl": "https://vibrantbeauty.gr/product/giftcard/?srsltid",
+        "status": 200,
+        "title": "Δωροκάρτα - Vibrant Beauty",
+        "ogSiteName": "Vibrant Beauty",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Orjena Power Collagen Toner - 100 ml",
+          "Orjena Eye Patches Hyaluronic - 60 τμχ.",
+          "Love&Strife Νερό: Μάσκα Τζελ - 50ml",
+          "Orjena Rice Toner - 250 ml",
+          "Loading"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Vibrant Beauty",
+          "normalizedValue": "vibrant beauty",
+          "score": 245,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/",
+            "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Vibrant Beauty.gr",
+          "normalizedValue": "vibrant beauty gr",
+          "score": 120,
+          "sources": [
+            "HOME_JSONLD_ORGANIZATION"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Love&Strife Επαναχρησιμοποιήσιμες Μάσκες Ματιών",
+          "normalizedValue": "love and strife επαναχρησιμοποιησιμες μασκες ματιων",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "next arrow",
+          "normalizedValue": "next arrow",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Aloe & Cactus Water Face Mist - 100ml",
+          "normalizedValue": "orjena aloe and cactus water face mist 100ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Aloe Vera Moisture Soothing Gel (face & body) - 300ml",
+          "normalizedValue": "orjena aloe vera moisture soothing gel face and body 300ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Bright Vitamin C EX Intensive Serum - 50 ml",
+          "normalizedValue": "orjena bright vitamin c ex intensive serum 50 ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Cushion Aqua to Moisture SPF50+ PA+++ - 14gr",
+          "normalizedValue": "orjena cushion aqua to moisture spf50 pa 14gr",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Cushion Serum to Powder SPF50+ PA+++ – 14gr",
+          "normalizedValue": "orjena cushion serum to powder spf50 pa 14gr",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Multi Vitamin Glow Face Mist - 100ml",
+          "normalizedValue": "orjena multi vitamin glow face mist 100ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Natural Moisture Royal Jelly Mask Sheet - 23 ml",
+          "normalizedValue": "orjena natural moisture royal jelly mask sheet 23 ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Vitamin C Bright Cream - 50 ml",
+          "normalizedValue": "orjena vitamin c bright cream 50 ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Orjena Vitamin C Bright Serum - 45 ml",
+          "normalizedValue": "orjena vitamin c bright serum 45 ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "previous arrow",
+          "normalizedValue": "previous arrow",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        },
+        {
+          "value": "Loading",
+          "normalizedValue": "loading",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Love&Strife Νερό: Μάσκα Τζελ - 50ml",
+          "normalizedValue": "love and strife νερο μασκα τζελ 50ml",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Orjena Eye Patches Hyaluronic - 60 τμχ.",
+          "normalizedValue": "orjena eye patches hyaluronic 60 τμχ",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Orjena Power Collagen Toner - 100 ml",
+          "normalizedValue": "orjena power collagen toner 100 ml",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Orjena Rice Toner - 250 ml",
+          "normalizedValue": "orjena rice toner 250 ml",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/product/giftcard/?srsltid"
+          ]
+        },
+        {
+          "value": "Home - Vibrant Beauty",
+          "normalizedValue": "home vibrant beauty",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vibrantbeauty.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4z5jo0040sciyob5ul4bs",
+      "merchantName": "Δωροκάρτα – Uba | Clothing & Massage Oils",
+      "merchantSlug": "δωροκαρτα-uba-clothing-and-massage-oils",
+      "websiteUrl": "https://uba.gr",
+      "giftCardId": "cmta4z5vh0041sciye1uhquaq",
+      "giftCardTitle": "Δωροκάρτα – Uba | Clothing & Massage Oils",
+      "officialUrl": "https://www.uba.gr/product/gift-card/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://uba.gr",
+        "finalUrl": "https://www.uba.gr/",
+        "status": 200,
+        "title": "Uba | Clothing & Massage Oils - ACTIVEWEAR - SKINCARE",
+        "ogSiteName": "Uba | Clothing & Massage Oils",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Avada Classic Shop",
+          "ΣΕΤ ΓΥΜΝΑΣΤΙΚΗΣ ΚΟΛΑΝ ΚΟΝΤΟ ΚΑΙ ΜΠΟΥΣΤΑΚΙ ΧΑΚΙ",
+          "UBA BODY MIST WATERMELON DREAM 100ml"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.uba.gr/product/gift-card/",
+        "finalUrl": "https://www.uba.gr/product/gift-card/",
+        "status": 200,
+        "title": "Δωροκάρτα – Uba | Clothing & Massage Oils",
+        "ogSiteName": "Uba | Clothing & Massage Oils",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Avada Classic Shop"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Uba | Clothing & Massage Oils",
+          "normalizedValue": "uba clothing and massage oils",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/",
+            "https://www.uba.gr/product/gift-card/"
+          ]
+        },
+        {
+          "value": "Avada Classic Shop",
+          "normalizedValue": "avada classic shop",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/",
+            "https://www.uba.gr/product/gift-card/"
+          ]
+        },
+        {
+          "value": "Clothing & Massage Oils",
+          "normalizedValue": "clothing and massage oils",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/",
+            "https://www.uba.gr/product/gift-card/"
+          ]
+        },
+        {
+          "value": "Uba",
+          "normalizedValue": "uba",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/",
+            "https://www.uba.gr/product/gift-card/"
+          ]
+        },
+        {
+          "value": "ΣΕΤ ΓΥΜΝΑΣΤΙΚΗΣ ΚΟΛΑΝ ΚΟΝΤΟ ΚΑΙ ΜΠΟΥΣΤΑΚΙ ΧΑΚΙ",
+          "normalizedValue": "σετ γυμναστικης κολαν κοντο και μπουστακι χακι",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/"
+          ]
+        },
+        {
+          "value": "UBA BODY MIST WATERMELON DREAM 100ml",
+          "normalizedValue": "uba body mist watermelon dream 100ml",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/"
+          ]
+        },
+        {
+          "value": "ACTIVEWEAR",
+          "normalizedValue": "activewear",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/"
+          ]
+        },
+        {
+          "value": "SKINCARE",
+          "normalizedValue": "skincare",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/"
+          ]
+        },
+        {
+          "value": "Uba | Clothing & Massage Oils - ACTIVEWEAR - SKINCARE",
+          "normalizedValue": "uba clothing and massage oils activewear skincare",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.uba.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yjki001gsciyo7tcjy02",
+      "merchantName": "Δωροκάρτα από την Harpy Clothing 2026",
+      "merchantSlug": "δωροκαρτα-απο-την-harpy-clothing-2026",
+      "websiteUrl": "https://harpy.gr",
+      "giftCardId": "cmta4yjz8001hsciydalghjrj",
+      "giftCardTitle": "Δωροκάρτα από την Harpy Clothing 2026",
+      "officialUrl": "https://www.harpy.gr/product/gift-card-by-harpy-clothing/?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://harpy.gr",
+        "finalUrl": "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+        "status": 200,
+        "title": "Account Suspended",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.harpy.gr/product/gift-card-by-harpy-clothing/?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+        "finalUrl": "https://www.harpy.gr/cgi-sys/suspendedpage.cgi?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+        "status": 200,
+        "title": "Account Suspended",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Account Suspended",
+          "normalizedValue": "account suspended",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+            "https://www.harpy.gr/cgi-sys/suspendedpage.cgi?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4ydov000ssciyj77w8hqs",
+      "merchantName": "Δωροκάρτα Πλυντηρίου - Cityzen",
+      "merchantSlug": "δωροκαρτα-πλυντηριου-cityzen",
+      "websiteUrl": "https://cityzen.com.gr",
+      "giftCardId": "cmta4ydvb000tsciyww37i2fq",
+      "giftCardTitle": "Δωροκάρτα Πλυντηρίου - Cityzen",
+      "officialUrl": "https://www.cityzen.com.gr/carwash_giftcard/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://cityzen.com.gr",
+        "finalUrl": "https://www.cityzen.com.gr/",
+        "status": 200,
+        "title": "Home - Cityzen",
+        "ogSiteName": "Cityzen - Parking & Services",
+        "jsonLdOrganizations": [
+          "Cityzen"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Cityzen",
+          "Ελληνικά",
+          "Αγγλικά"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.cityzen.com.gr/carwash_giftcard/",
+        "finalUrl": "https://www.cityzen.com.gr/carwash_giftcard/",
+        "status": 200,
+        "title": "Δωροκάρτα Πλυντηρίου - Cityzen",
+        "ogSiteName": "Cityzen - Parking & Services",
+        "jsonLdOrganizations": [
+          "Cityzen"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Cityzen",
+          "Ελληνικά",
+          "Αγγλικά"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Cityzen",
+          "normalizedValue": "cityzen",
+          "score": 305,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.cityzen.com.gr/",
+            "https://www.cityzen.com.gr/carwash_giftcard/"
+          ]
+        },
+        {
+          "value": "Cityzen - Parking & Services",
+          "normalizedValue": "cityzen parking and services",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.cityzen.com.gr/",
+            "https://www.cityzen.com.gr/carwash_giftcard/"
+          ]
+        },
+        {
+          "value": "Αγγλικά",
+          "normalizedValue": "αγγλικα",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.cityzen.com.gr/",
+            "https://www.cityzen.com.gr/carwash_giftcard/"
+          ]
+        },
+        {
+          "value": "Ελληνικά",
+          "normalizedValue": "ελληνικα",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.cityzen.com.gr/",
+            "https://www.cityzen.com.gr/carwash_giftcard/"
+          ]
+        },
+        {
+          "value": "Home - Cityzen",
+          "normalizedValue": "home cityzen",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.cityzen.com.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "merchantName": "Δωροκάρτα Beababy e",
+      "merchantSlug": "δωροκαρτα-beababy-e",
+      "websiteUrl": "https://beababy.gr",
+      "giftCardId": "cmta4y9yz000dsciyapuj6g5h",
+      "giftCardTitle": "Δωροκάρτα Beababy e-Gift Card",
+      "officialUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+      "status": "ERROR",
+      "reasonCodes": [
+        "HOME_HTTP_403",
+        "GIFT_HTTP_403",
+        "NO_CLEAN_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://beababy.gr",
+        "finalUrl": "https://beababy.gr/",
+        "status": 403,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "HTTP_403"
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+        "finalUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+        "status": 403,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "HTTP_403"
+      },
+      "candidates": []
+    },
+    {
+      "merchantId": "cmta4ya8v000esciy4fwqlr55",
+      "merchantName": "Δωροκάρτα Best Wines - Κάβα κρασιών Best Wines",
+      "merchantSlug": "δωροκαρτα-best-wines-καβα-κρασιων-best-wines",
+      "websiteUrl": "https://bestwines.gr",
+      "giftCardId": "cmta4yafm000fsciycmpn7qlk",
+      "giftCardTitle": "Δωροκάρτα Best Wines - Κάβα κρασιών Best Wines",
+      "officialUrl": "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://bestwines.gr",
+        "finalUrl": "https://bestwines.gr/",
+        "status": 200,
+        "title": "Best Wines - Online κάβα με τα καλύτερα Ελληνικά κρασιά",
+        "ogSiteName": "Best Wines",
+        "jsonLdOrganizations": [
+          "Best Wines"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Best Wines",
+          "Λευκά κρασιά",
+          "Ροζέ κρασιά",
+          "Κόκκινα κρασιά",
+          "Επιδόρπια / Γλυκά Κρασιά",
+          "Σαμπάνιες & αφρώδεις οίνοι",
+          "Συσκευασίες δώρου"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL",
+        "finalUrl": "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL",
+        "status": 200,
+        "title": "Δωροκάρτα Best Wines - Κάβα κρασιών Best Wines",
+        "ogSiteName": "Best Wines",
+        "jsonLdOrganizations": [
+          "Best Wines"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Best Wines",
+          "Λευκά κρασιά",
+          "Ροζέ κρασιά",
+          "Κόκκινα κρασιά",
+          "Επιδόρπια / Γλυκά Κρασιά",
+          "Σαμπάνιες & αφρώδεις οίνοι",
+          "Συσκευασίες δώρου"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Best Wines",
+          "normalizedValue": "best wines",
+          "score": 330,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Επιδόρπια / Γλυκά Κρασιά",
+          "normalizedValue": "επιδορπια γλυκα κρασια",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Κόκκινα κρασιά",
+          "normalizedValue": "κοκκινα κρασια",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Λευκά κρασιά",
+          "normalizedValue": "λευκα κρασια",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Ροζέ κρασιά",
+          "normalizedValue": "ροζε κρασια",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Σαμπάνιες & αφρώδεις οίνοι",
+          "normalizedValue": "σαμπανιες and αφρωδεις οινοι",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Συσκευασίες δώρου",
+          "normalizedValue": "συσκευασιες δωρου",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/",
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        },
+        {
+          "value": "Best Wines - Online κάβα με τα καλύτερα Ελληνικά κρασιά",
+          "normalizedValue": "best wines online καβα με τα καλυτερα ελληνικα κρασια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/"
+          ]
+        },
+        {
+          "value": "Online κάβα με τα καλύτερα Ελληνικά κρασιά",
+          "normalizedValue": "online καβα με τα καλυτερα ελληνικα κρασια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/"
+          ]
+        },
+        {
+          "value": "Κάβα κρασιών Best Wines",
+          "normalizedValue": "καβα κρασιων best wines",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bestwines.gr/product-category/giftcard/?srsltid=AfmBOorPTKZRWNhABKCQUXSrPxAv9W43KmTtSrizZ1TS_otC3EEjsNbL"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yfnr0010sciyekibu4i4",
+      "merchantName": "Δωροκάρτα Evilio Home",
+      "merchantSlug": "δωροκαρτα-evilio-home",
+      "websiteUrl": "https://eviliohome.gr",
+      "giftCardId": "cmta4yfvk0011sciyi5zwgnhr",
+      "giftCardTitle": "Δωροκάρτα Evilio Home",
+      "officialUrl": "https://eviliohome.gr/products/giftcard-evilio-home?srsltid=AfmBOoqB2Q-o7MU5Fwy8lw78XHBOyQ2WrcnqwiCxCzPHMAErwjg52GTS",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://eviliohome.gr",
+        "finalUrl": "https://eviliohome.gr/",
+        "status": 200,
+        "title": "Evilio Home - Έπιπλα Υπνοδωματίου, Σαλονιού & Τραπεζαρίας | Οικονομικά",
+        "ogSiteName": "Evilio Home",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Evilio Home"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://eviliohome.gr/products/giftcard-evilio-home?srsltid=AfmBOoqB2Q-o7MU5Fwy8lw78XHBOyQ2WrcnqwiCxCzPHMAErwjg52GTS",
+        "finalUrl": "https://eviliohome.gr/products/giftcard-evilio-home?srsltid=AfmBOoqB2Q-o7MU5Fwy8lw78XHBOyQ2WrcnqwiCxCzPHMAErwjg52GTS",
+        "status": 200,
+        "title": "Δωροκάρτα Evilio Home",
+        "ogSiteName": "Evilio Home",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [
+          "Evilio Home"
+        ],
+        "logoAlts": [
+          "Evilio Home"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Evilio Home",
+          "normalizedValue": "evilio home",
+          "score": 295,
+          "sources": [
+            "GIFT_JSONLD_BRAND",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://eviliohome.gr/",
+            "https://eviliohome.gr/products/giftcard-evilio-home?srsltid=AfmBOoqB2Q-o7MU5Fwy8lw78XHBOyQ2WrcnqwiCxCzPHMAErwjg52GTS"
+          ]
+        },
+        {
+          "value": "Έπιπλα Υπνοδωματίου, Σαλονιού & Τραπεζαρίας",
+          "normalizedValue": "επιπλα υπνοδωματιου σαλονιου and τραπεζαριας",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://eviliohome.gr/"
+          ]
+        },
+        {
+          "value": "Οικονομικά",
+          "normalizedValue": "οικονομικα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://eviliohome.gr/"
+          ]
+        },
+        {
+          "value": "Evilio Home - Έπιπλα Υπνοδωματίου, Σαλονιού & Τραπεζαρίας | Οικονομικά",
+          "normalizedValue": "evilio home επιπλα υπνοδωματιου σαλονιου and τραπεζαριας οικονομικα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://eviliohome.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yrrv002esciypbuxrrtw",
+      "merchantName": "Δωροκάρτα Love Generation",
+      "merchantSlug": "δωροκαρτα-love-generation",
+      "websiteUrl": "https://lovegeneration.gr",
+      "giftCardId": "cmta4yryo002fsciyhkz02ixr",
+      "giftCardTitle": "Δωροκάρτα Love Generation",
+      "officialUrl": "https://lovegeneration.gr/shop/gift-card/gift-card/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://lovegeneration.gr",
+        "finalUrl": "https://lovegeneration.gr/",
+        "status": 200,
+        "title": "Αρχική - Love Generation",
+        "ogSiteName": "Love Generation",
+        "jsonLdOrganizations": [
+          "Love Generation",
+          "lovegeneration.gr"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://lovegeneration.gr/shop/gift-card/gift-card/",
+        "finalUrl": "https://lovegeneration.gr/shop/gift-card/gift-card/",
+        "status": 200,
+        "title": "Δωροκάρτα Love Generation - Love Generation",
+        "ogSiteName": "Love Generation",
+        "jsonLdOrganizations": [
+          "Love Generation",
+          "lovegeneration.gr"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Love Generation",
+          "normalizedValue": "love generation",
+          "score": 305,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lovegeneration.gr/",
+            "https://lovegeneration.gr/shop/gift-card/gift-card/"
+          ]
+        },
+        {
+          "value": "lovegeneration.gr",
+          "normalizedValue": "lovegeneration gr",
+          "score": 205,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "HOME_JSONLD_ORGANIZATION"
+          ],
+          "sourceUrls": [
+            "https://lovegeneration.gr/",
+            "https://lovegeneration.gr/shop/gift-card/gift-card/"
+          ]
+        },
+        {
+          "value": "Αρχική",
+          "normalizedValue": "αρχικη",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lovegeneration.gr/"
+          ]
+        },
+        {
+          "value": "Αρχική - Love Generation",
+          "normalizedValue": "αρχικη love generation",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lovegeneration.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4ywgf002ysciysp63rctm",
+      "merchantName": "Δωροκάρτα mybeautybox",
+      "merchantSlug": "δωροκαρτα-mybeautybox",
+      "websiteUrl": "https://mybeautybox.gr",
+      "giftCardId": "cmta4ywn6002zsciyr9vasxj3",
+      "giftCardTitle": "Δωροκάρτα mybeautybox",
+      "officialUrl": "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "IDENTITY_CANDIDATES_CONFLICT"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://mybeautybox.gr",
+        "finalUrl": "https://www.mybeautybox.gr/",
+        "status": 200,
+        "title": "Online Καλλυντικά | Κουτί Ομορφιάς | mybeautybox.gr",
+        "ogSiteName": "mybeautybox",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "mybeautybox.gr"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3",
+        "finalUrl": "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3",
+        "status": 200,
+        "title": "Δωροκάρτα mybeautybox",
+        "ogSiteName": "mybeautybox",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "mybeautybox.gr"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "mybeautybox.gr",
+          "normalizedValue": "mybeautybox gr",
+          "score": 200,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/",
+            "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3"
+          ]
+        },
+        {
+          "value": "mybeautybox",
+          "normalizedValue": "mybeautybox",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/",
+            "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3"
+          ]
+        },
+        {
+          "value": "Κουτί Ομορφιάς",
+          "normalizedValue": "κουτι ομορφιας",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/"
+          ]
+        },
+        {
+          "value": "Online Καλλυντικά",
+          "normalizedValue": "online καλλυντικα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/"
+          ]
+        },
+        {
+          "value": "Online Καλλυντικά | Κουτί Ομορφιάς | mybeautybox.gr",
+          "normalizedValue": "online καλλυντικα κουτι ομορφιας mybeautybox gr",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb6v4em003x3giyg8ll7r7u",
+      "merchantName": "Δωροκάρτα Spaghetti Lab",
+      "merchantSlug": "δωροκαρτα-spaghetti-lab",
+      "websiteUrl": "https://spaghettilab.gr",
+      "giftCardId": "cmtb6v4jr003y3giytfu9ztox",
+      "giftCardTitle": "Gift Card Δωροκάρτα Spaghetti Lab | Το Πιο Νόστιμο Δώρο ...",
+      "officialUrl": "https://spaghettilab.gr/products/gift-card",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://spaghettilab.gr",
+        "finalUrl": "https://spaghettilab.gr/",
+        "status": 200,
+        "title": "Spaghetti Lab",
+        "ogSiteName": "Spaghetti Lab",
+        "jsonLdOrganizations": [
+          "Spaghetti Lab"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "PLA",
+          "PLA STANDART",
+          "PLA MATTE",
+          "PLA TRANSLUCENT",
+          "PLA Pure",
+          "PLA Pastel",
+          "PLA Marble (Stone Age)",
+          "PLA WOOD",
+          "PLA CF",
+          "PLA Thermoactive",
+          "PETG",
+          "PETG STANDART",
+          "PETG TRANSLUSCENT",
+          "PETG CF (Carbon-Fiber)",
+          "ABS/ASA",
+          "PLA SILK",
+          "TPU",
+          "TPU 95A",
+          "TPU 87A",
+          "TPU 82A"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://spaghettilab.gr/products/gift-card",
+        "finalUrl": "https://spaghettilab.gr/products/gift-card",
+        "status": 200,
+        "title": "Gift Card Δωροκάρτα Spaghetti Lab | Το Πιο Νόστιμο Δώρο από 20€ έως 200€",
+        "ogSiteName": "Spaghetti Lab",
+        "jsonLdOrganizations": [
+          "Spaghetti Lab"
+        ],
+        "jsonLdBrands": [
+          "Spaghetti Lab"
+        ],
+        "logoAlts": [
+          "PLA",
+          "PLA STANDART",
+          "PLA MATTE",
+          "PLA TRANSLUCENT",
+          "PLA Pure",
+          "PLA Pastel",
+          "PLA Marble (Stone Age)",
+          "PLA WOOD",
+          "PLA CF",
+          "PLA Thermoactive",
+          "PETG",
+          "PETG STANDART",
+          "PETG TRANSLUSCENT",
+          "PETG CF (Carbon-Fiber)",
+          "ABS/ASA",
+          "PLA SILK",
+          "TPU",
+          "TPU 95A",
+          "TPU 87A",
+          "TPU 82A"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Spaghetti Lab",
+          "normalizedValue": "spaghetti lab",
+          "score": 305,
+          "sources": [
+            "GIFT_JSONLD_BRAND",
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "ABS/ASA",
+          "normalizedValue": "abs asa",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PETG",
+          "normalizedValue": "petg",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PETG CF (Carbon-Fiber)",
+          "normalizedValue": "petg cf carbon fiber",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PETG STANDART",
+          "normalizedValue": "petg standart",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PETG TRANSLUSCENT",
+          "normalizedValue": "petg transluscent",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA",
+          "normalizedValue": "pla",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA CF",
+          "normalizedValue": "pla cf",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA Marble (Stone Age)",
+          "normalizedValue": "pla marble stone age",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA MATTE",
+          "normalizedValue": "pla matte",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA Pastel",
+          "normalizedValue": "pla pastel",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA Pure",
+          "normalizedValue": "pla pure",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA SILK",
+          "normalizedValue": "pla silk",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA STANDART",
+          "normalizedValue": "pla standart",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA Thermoactive",
+          "normalizedValue": "pla thermoactive",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA TRANSLUCENT",
+          "normalizedValue": "pla translucent",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "PLA WOOD",
+          "normalizedValue": "pla wood",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "TPU",
+          "normalizedValue": "tpu",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "TPU 82A",
+          "normalizedValue": "tpu 82a",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "TPU 87A",
+          "normalizedValue": "tpu 87a",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        },
+        {
+          "value": "TPU 95A",
+          "normalizedValue": "tpu 95a",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://spaghettilab.gr/",
+            "https://spaghettilab.gr/products/gift-card"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4z8an004asciy12oao0hi",
+      "merchantName": "Δωροκάρτα Vip Art",
+      "merchantSlug": "δωροκαρτα-vip-art",
+      "websiteUrl": "https://vipart.gr",
+      "giftCardId": "cmta4z8gh004bsciyrey9tw17",
+      "giftCardTitle": "Δωροκάρτα Vip Art",
+      "officialUrl": "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://vipart.gr",
+        "finalUrl": "https://vipart.gr/",
+        "status": 200,
+        "title": "Εκτύπωση σε Καμβά | Εκτύπωση Φωτογραφίας σε Καμβά | VIPart.gr",
+        "ogSiteName": "VIP Art",
+        "jsonLdOrganizations": [
+          "VIPart.gr"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Διακοσμητική αφίσα τοίχου με minimal γραφικό σχέδιο",
+          "Ταπετσαρία τοίχου με φυσικό τοπίο για μοντέρνο χώρο",
+          "Μεγάλος καμβάς τοίχου με εκτύπωση τοπίου για σαλόνι ή γραφείο",
+          "Εκτυπώσεις σε καμβά και διακοσμητικές αφίσες για ανανέωση χώρου",
+          "ΤΟ ΔΙΚΟ ΣΟΥ ΣΧΕΔΙΟ",
+          "Εκτυπώσεις σε καμβά τοίχου υψηλής ανάλυσης για μοντέρνα διακόσμηση σπιτιού",
+          "Ταπετσαρίες τοίχου υψηλής ποιότητας για μοντέρνα διακόσμηση εσωτερικών χώρων",
+          "Διακοσμητικό παραβάν δωματίου με εκτύπωση υψηλής ανάλυσης για διαχωρισμό χώρου",
+          "ΑΦΙΣΕΣ",
+          "Συνθέσεις πινάκων σε καμβά για εντυπωσιακή διακόσμηση τοίχου σε σαλόνι ή γραφείο",
+          "Προσωποποιημένα δώρα και διακοσμητικά αξεσουάρ με εκτύπωση υψηλής ποιότητας",
+          "ΕΙΔΗ ΔΙΑΚΟΣΜΗΣΗΣ",
+          "Διακοσμητικά αυτοκόλλητα τοίχου για εύκολη και μοντέρνα διακόσμηση χώρου",
+          "ΚΟΝΚΑΡΔΕΣ",
+          "ΞΥΛΙΝΑ ΤΕΛΑΡΑ"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/",
+        "finalUrl": "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/",
+        "status": 200,
+        "title": "Δωροκάρτα VIPART | Το Ιδανικό Δώρο για Διακόσμηση & Τέχνη",
+        "ogSiteName": "VIP Art",
+        "jsonLdOrganizations": [
+          "VIPart.gr"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Διακοσμητική αφίσα τοίχου με minimal γραφικό σχέδιο",
+          "Ταπετσαρία τοίχου με φυσικό τοπίο για μοντέρνο χώρο",
+          "Μεγάλος καμβάς τοίχου με εκτύπωση τοπίου για σαλόνι ή γραφείο",
+          "Εκτυπώσεις σε καμβά και διακοσμητικές αφίσες για ανανέωση χώρου",
+          "ΤΟ ΔΙΚΟ ΣΟΥ ΣΧΕΔΙΟ",
+          "Εκτυπώσεις σε καμβά τοίχου υψηλής ανάλυσης για μοντέρνα διακόσμηση σπιτιού",
+          "Ταπετσαρίες τοίχου υψηλής ποιότητας για μοντέρνα διακόσμηση εσωτερικών χώρων",
+          "Διακοσμητικό παραβάν δωματίου με εκτύπωση υψηλής ανάλυσης για διαχωρισμό χώρου",
+          "ΑΦΙΣΕΣ",
+          "Συνθέσεις πινάκων σε καμβά για εντυπωσιακή διακόσμηση τοίχου σε σαλόνι ή γραφείο",
+          "Προσωποποιημένα δώρα και διακοσμητικά αξεσουάρ με εκτύπωση υψηλής ποιότητας",
+          "ΕΙΔΗ ΔΙΑΚΟΣΜΗΣΗΣ",
+          "Διακοσμητικά αυτοκόλλητα τοίχου για εύκολη και μοντέρνα διακόσμηση χώρου",
+          "ΚΟΝΚΑΡΔΕΣ",
+          "ΞΥΛΙΝΑ ΤΕΛΑΡΑ"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "VIPart.gr",
+          "normalizedValue": "vipart gr",
+          "score": 230,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "VIP Art",
+          "normalizedValue": "vip art",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "ΑΦΙΣΕΣ",
+          "normalizedValue": "αφισες",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Διακοσμητικά αυτοκόλλητα τοίχου για εύκολη και μοντέρνα διακόσμηση χώρου",
+          "normalizedValue": "διακοσμητικα αυτοκολλητα τοιχου για ευκολη και μοντερνα διακοσμηση χωρου",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Διακοσμητική αφίσα τοίχου με minimal γραφικό σχέδιο",
+          "normalizedValue": "διακοσμητικη αφισα τοιχου με minimal γραφικο σχεδιο",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Διακοσμητικό παραβάν δωματίου με εκτύπωση υψηλής ανάλυσης για διαχωρισμό χώρου",
+          "normalizedValue": "διακοσμητικο παραβαν δωματιου με εκτυπωση υψηλης αναλυσης για διαχωρισμο χωρου",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "ΕΙΔΗ ΔΙΑΚΟΣΜΗΣΗΣ",
+          "normalizedValue": "ειδη διακοσμησης",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Εκτυπώσεις σε καμβά και διακοσμητικές αφίσες για ανανέωση χώρου",
+          "normalizedValue": "εκτυπωσεις σε καμβα και διακοσμητικες αφισες για ανανεωση χωρου",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Εκτυπώσεις σε καμβά τοίχου υψηλής ανάλυσης για μοντέρνα διακόσμηση σπιτιού",
+          "normalizedValue": "εκτυπωσεις σε καμβα τοιχου υψηλης αναλυσης για μοντερνα διακοσμηση σπιτιου",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "ΚΟΝΚΑΡΔΕΣ",
+          "normalizedValue": "κονκαρδες",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Μεγάλος καμβάς τοίχου με εκτύπωση τοπίου για σαλόνι ή γραφείο",
+          "normalizedValue": "μεγαλος καμβας τοιχου με εκτυπωση τοπιου για σαλονι η γραφειο",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "ΞΥΛΙΝΑ ΤΕΛΑΡΑ",
+          "normalizedValue": "ξυλινα τελαρα",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Προσωποποιημένα δώρα και διακοσμητικά αξεσουάρ με εκτύπωση υψηλής ποιότητας",
+          "normalizedValue": "προσωποποιημενα δωρα και διακοσμητικα αξεσουαρ με εκτυπωση υψηλης ποιοτητας",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Συνθέσεις πινάκων σε καμβά για εντυπωσιακή διακόσμηση τοίχου σε σαλόνι ή γραφείο",
+          "normalizedValue": "συνθεσεις πινακων σε καμβα για εντυπωσιακη διακοσμηση τοιχου σε σαλονι η γραφειο",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Ταπετσαρία τοίχου με φυσικό τοπίο για μοντέρνο χώρο",
+          "normalizedValue": "ταπετσαρια τοιχου με φυσικο τοπιο για μοντερνο χωρο",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Ταπετσαρίες τοίχου υψηλής ποιότητας για μοντέρνα διακόσμηση εσωτερικών χώρων",
+          "normalizedValue": "ταπετσαριες τοιχου υψηλης ποιοτητας για μοντερνα διακοσμηση εσωτερικων χωρων",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "ΤΟ ΔΙΚΟ ΣΟΥ ΣΧΕΔΙΟ",
+          "normalizedValue": "το δικο σου σχεδιο",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/",
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        },
+        {
+          "value": "Εκτύπωση σε Καμβά",
+          "normalizedValue": "εκτυπωση σε καμβα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/"
+          ]
+        },
+        {
+          "value": "Εκτύπωση σε Καμβά | Εκτύπωση Φωτογραφίας σε Καμβά | VIPart.gr",
+          "normalizedValue": "εκτυπωση σε καμβα εκτυπωση φωτογραφιας σε καμβα vipart gr",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/"
+          ]
+        },
+        {
+          "value": "Εκτύπωση Φωτογραφίας σε Καμβά",
+          "normalizedValue": "εκτυπωση φωτογραφιας σε καμβα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/"
+          ]
+        },
+        {
+          "value": "Το Ιδανικό Δώρο για Διακόσμηση & Τέχνη",
+          "normalizedValue": "το ιδανικο δωρο για διακοσμηση and τεχνη",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://vipart.gr/product-category/dora-axesoyar/dorokarta-vipart-giftcard/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yf3d000ysciy2zdlqyzw",
+      "merchantName": "Ηλεκτρονική Δωροκάρτα - SportCafe",
+      "merchantSlug": "ηλεκτρονικη-δωροκαρτα-sportcafe",
+      "websiteUrl": "https://el.sportcafe.gr",
+      "giftCardId": "cmta4yfe1000zsciy02ejjqqf",
+      "giftCardTitle": "Ηλεκτρονική Δωροκάρτα - SportCafe",
+      "officialUrl": "https://el.sportcafe.gr/egift-card/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://el.sportcafe.gr",
+        "finalUrl": "https://el.sportcafe.gr/",
+        "status": 200,
+        "title": "Αρχική σελίδα - SportCafe",
+        "ogSiteName": "SportCafe",
+        "jsonLdOrganizations": [
+          "SportCafe"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "SportCafe"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://el.sportcafe.gr/egift-card/",
+        "finalUrl": "https://el.sportcafe.gr/egift-card/",
+        "status": 200,
+        "title": "Ηλεκτρονική Δωροκάρτα - SportCafe",
+        "ogSiteName": "SportCafe",
+        "jsonLdOrganizations": [
+          "SportCafe"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "SportCafe",
+          "Ευχές Γενεθλίων",
+          "Πες ένα ευχαριστώ",
+          "Για τις γιορτές",
+          "Για την ονομαστική εορτή",
+          "καθαρό λογότυπο"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "SportCafe",
+          "normalizedValue": "sportcafe",
+          "score": 355,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/",
+            "https://el.sportcafe.gr/egift-card/"
+          ]
+        },
+        {
+          "value": "Για την ονομαστική εορτή",
+          "normalizedValue": "για την ονομαστικη εορτη",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/egift-card/"
+          ]
+        },
+        {
+          "value": "Για τις γιορτές",
+          "normalizedValue": "για τις γιορτες",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/egift-card/"
+          ]
+        },
+        {
+          "value": "Ευχές Γενεθλίων",
+          "normalizedValue": "ευχες γενεθλιων",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/egift-card/"
+          ]
+        },
+        {
+          "value": "καθαρό λογότυπο",
+          "normalizedValue": "καθαρο λογοτυπο",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/egift-card/"
+          ]
+        },
+        {
+          "value": "Πες ένα ευχαριστώ",
+          "normalizedValue": "πες ενα ευχαριστω",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/egift-card/"
+          ]
+        },
+        {
+          "value": "Αρχική σελίδα",
+          "normalizedValue": "αρχικη σελιδα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/"
+          ]
+        },
+        {
+          "value": "Αρχική σελίδα - SportCafe",
+          "normalizedValue": "αρχικη σελιδα sportcafe",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://el.sportcafe.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb6v0pz003d3giypgi6p23y",
+      "merchantName": "Ηλεκτρονική Δωροκάρτα PlanToys",
+      "merchantSlug": "ηλεκτρονικη-δωροκαρτα-plantoys",
+      "websiteUrl": "https://plantoys.gr",
+      "giftCardId": "cmtb6v0uz003e3giyj7if68dc",
+      "giftCardTitle": "Ηλεκτρονική Δωροκάρτα PlanToys",
+      "officialUrl": "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://plantoys.gr",
+        "finalUrl": "https://www.plantoys.gr/",
+        "status": 200,
+        "title": "Αρχική - Παιχνίδια Εκπαιδευτικά Plan Toys",
+        "ogSiteName": "Παιχνίδια Εκπαιδευτικά Plan Toys",
+        "jsonLdOrganizations": [
+          "Παιχνίδια Εκπαιδευτικά Plan Toys",
+          "PlanToys Greece"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Παιχνίδια Εκπαιδευτικά Plan Toys",
+          "Αγγλικα"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/",
+        "finalUrl": "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/",
+        "status": 200,
+        "title": "Ηλεκτρονική Δωροκάρτα PlanToys - Παιχνίδια Εκπαιδευτικά Plan Toys",
+        "ogSiteName": "Παιχνίδια Εκπαιδευτικά Plan Toys",
+        "jsonLdOrganizations": [
+          "Παιχνίδια Εκπαιδευτικά Plan Toys",
+          "PlanToys Greece"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Παιχνίδια Εκπαιδευτικά Plan Toys",
+          "Αγγλικα"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Παιχνίδια Εκπαιδευτικά Plan Toys",
+          "normalizedValue": "παιχνιδια εκπαιδευτικα plan toys",
+          "score": 355,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.plantoys.gr/",
+            "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/"
+          ]
+        },
+        {
+          "value": "PlanToys Greece",
+          "normalizedValue": "plantoys greece",
+          "score": 205,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "HOME_JSONLD_ORGANIZATION"
+          ],
+          "sourceUrls": [
+            "https://www.plantoys.gr/",
+            "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/"
+          ]
+        },
+        {
+          "value": "Αγγλικα",
+          "normalizedValue": "αγγλικα",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.plantoys.gr/",
+            "https://www.plantoys.gr/shop/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-plantoys/"
+          ]
+        },
+        {
+          "value": "Αρχική",
+          "normalizedValue": "αρχικη",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.plantoys.gr/"
+          ]
+        },
+        {
+          "value": "Αρχική - Παιχνίδια Εκπαιδευτικά Plan Toys",
+          "normalizedValue": "αρχικη παιχνιδια εκπαιδευτικα plan toys",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.plantoys.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77i700030dkiywamhlbp4",
+      "merchantName": "Κάρτα δώρου για Εκδρομές - Περιηγήσεις στα Χανιά Κρήτης",
+      "merchantSlug": "καρτα-δωρου-για-εκδρομες-περιηγησεις-στα-χανια-κρητης",
+      "websiteUrl": "https://propercretanguide.gr",
+      "giftCardId": "cmtb77ibp0031dkiy5l84o2pl",
+      "giftCardTitle": "Κάρτα δώρου για Εκδρομές - Περιηγήσεις στα Χανιά Κρήτης",
+      "officialUrl": "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": false,
+      "home": {
+        "requestedUrl": "https://propercretanguide.gr",
+        "finalUrl": "https://propercretanguide.gr/",
+        "status": 200,
+        "title": "Chania Private Tours - Private Guide Excursions in Chania",
+        "ogSiteName": "Proper Cretan Guide",
+        "jsonLdOrganizations": [
+          "Proper Cretan Guide"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Private Tours and Transfers in Chania Crete",
+          "English",
+          "German",
+          "Greek"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/",
+        "finalUrl": "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/",
+        "status": 200,
+        "title": "Κάρτα δώρου για Εκδρομές - Περιηγήσεις στα Χανιά Κρήτης - Proper Cretan Guide",
+        "ogSiteName": "Proper Cretan Guide",
+        "jsonLdOrganizations": [
+          "Proper Cretan Guide"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Private Tours and Transfers in Chania Crete",
+          "Ελληνικά",
+          "Αγγλικά",
+          "Γερμανικά"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Proper Cretan Guide",
+          "normalizedValue": "proper cretan guide",
+          "score": 280,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/",
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "Private Tours and Transfers in Chania Crete",
+          "normalizedValue": "private tours and transfers in chania crete",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/",
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "English",
+          "normalizedValue": "english",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/"
+          ]
+        },
+        {
+          "value": "German",
+          "normalizedValue": "german",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/"
+          ]
+        },
+        {
+          "value": "Greek",
+          "normalizedValue": "greek",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/"
+          ]
+        },
+        {
+          "value": "Αγγλικά",
+          "normalizedValue": "αγγλικα",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "Γερμανικά",
+          "normalizedValue": "γερμανικα",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "Ελληνικά",
+          "normalizedValue": "ελληνικα",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "Chania Private Tours",
+          "normalizedValue": "chania private tours",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/"
+          ]
+        },
+        {
+          "value": "Chania Private Tours - Private Guide Excursions in Chania",
+          "normalizedValue": "chania private tours private guide excursions in chania",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/"
+          ]
+        },
+        {
+          "value": "Private Guide Excursions in Chania",
+          "normalizedValue": "private guide excursions in chania",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/"
+          ]
+        },
+        {
+          "value": "Κάρτα δώρου για Εκδρομές",
+          "normalizedValue": "καρτα δωρου για εκδρομες",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "Κάρτα δώρου για Εκδρομές - Περιηγήσεις στα Χανιά Κρήτης - Proper Cretan Guide",
+          "normalizedValue": "καρτα δωρου για εκδρομες περιηγησεις στα χανια κρητης proper cretan guide",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        },
+        {
+          "value": "Περιηγήσεις στα Χανιά Κρήτης",
+          "normalizedValue": "περιηγησεις στα χανια κρητης",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://propercretanguide.gr/el/dorokarta-gia-ekdromi-diakopes-sta-chania/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4z1g8003ksciycb0lyswx",
+      "merchantName": "Κάρτα Δώρου Εστιατόριο | Salero Restaurant",
+      "merchantSlug": "καρτα-δωρου-εστιατοριο-salero-restaurant",
+      "websiteUrl": "https://salero.gr",
+      "giftCardId": "cmta4z1mm003lsciyvwvowjdm",
+      "giftCardTitle": "Κάρτα Δώρου Εστιατόριο | Salero Restaurant",
+      "officialUrl": "https://www.salero.gr/gift-card",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": false,
+      "home": {
+        "requestedUrl": "https://salero.gr",
+        "finalUrl": "https://www.salero.gr/",
+        "status": 200,
+        "title": "Salero Wine Restaurant | Ελληνική Κουζίνα Αθήνα | Βαλτετσίου 51, Αθήνα | Μεσογειακή κουζίνα",
+        "ogSiteName": "Salero Restaurant",
+        "jsonLdOrganizations": [
+          "Salero Restaurant"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "salero restaurant athens greek cuisine",
+          "Facebook",
+          "Instagram",
+          "TripAdvisor"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.salero.gr/gift-card",
+        "finalUrl": "https://www.salero.gr/gift-card",
+        "status": 200,
+        "title": "Κάρτα Δώρου Εστιατόριο | Salero Restaurant",
+        "ogSiteName": "Salero Restaurant",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "salero restaurant athens greek cuisine",
+          "Facebook",
+          "Instagram",
+          "TripAdvisor"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Salero Restaurant",
+          "normalizedValue": "salero restaurant",
+          "score": 255,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/",
+            "https://www.salero.gr/gift-card"
+          ]
+        },
+        {
+          "value": "Facebook",
+          "normalizedValue": "facebook",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/",
+            "https://www.salero.gr/gift-card"
+          ]
+        },
+        {
+          "value": "Instagram",
+          "normalizedValue": "instagram",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/",
+            "https://www.salero.gr/gift-card"
+          ]
+        },
+        {
+          "value": "salero restaurant athens greek cuisine",
+          "normalizedValue": "salero restaurant athens greek cuisine",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/",
+            "https://www.salero.gr/gift-card"
+          ]
+        },
+        {
+          "value": "TripAdvisor",
+          "normalizedValue": "tripadvisor",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/",
+            "https://www.salero.gr/gift-card"
+          ]
+        },
+        {
+          "value": "Βαλτετσίου 51, Αθήνα",
+          "normalizedValue": "βαλτετσιου 51 αθηνα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/"
+          ]
+        },
+        {
+          "value": "Ελληνική Κουζίνα Αθήνα",
+          "normalizedValue": "ελληνικη κουζινα αθηνα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/"
+          ]
+        },
+        {
+          "value": "Μεσογειακή κουζίνα",
+          "normalizedValue": "μεσογειακη κουζινα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/"
+          ]
+        },
+        {
+          "value": "Salero Wine Restaurant",
+          "normalizedValue": "salero wine restaurant",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/"
+          ]
+        },
+        {
+          "value": "Κάρτα Δώρου Εστιατόριο",
+          "normalizedValue": "καρτα δωρου εστιατοριο",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.salero.gr/gift-card"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb6uuev002f3giyv39kjoxr",
+      "merchantName": "Μασάζ L'Arte di Massaggio -",
+      "merchantSlug": "μασαζ-l-arte-di-massaggio",
+      "websiteUrl": "https://lartedimassaggio.gr",
+      "giftCardId": "cmtb6uukg002g3giyhpszyjx7",
+      "giftCardTitle": "Δωροκάρτα Μασάζ L'Arte di Massaggio -",
+      "officialUrl": "https://lartedimassaggio.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://lartedimassaggio.gr",
+        "finalUrl": "https://lartedimassaggio.gr/",
+        "status": 200,
+        "title": "Μασάζ Αθήνα | L'arte di Massaggio | Θεραπείες Σώματος, Προσώπου & Υπηρεσίες Spa",
+        "ogSiteName": "L'arte di Massaggio",
+        "jsonLdOrganizations": [
+          "L'arte di Massaggio"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "la arte di massaggio",
+          "larte di massaggio",
+          "la arte di massagio",
+          "image00031",
+          "top100 lartedimassaggio",
+          "L'arte di Massaggio | Θεραπείες Σώματος, Προσώπου & Υπηρεσίες Spa | Μασάζ Αθήνα",
+          "captcha"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://lartedimassaggio.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/",
+        "finalUrl": "https://lartedimassaggio.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/",
+        "status": 200,
+        "title": "Δωροκάρτα Μασάζ L'Arte di Massaggio -",
+        "ogSiteName": "L'arte di Massaggio",
+        "jsonLdOrganizations": [
+          "L'arte di Massaggio"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "L'arte di Massaggio",
+          "normalizedValue": "l arte di massaggio",
+          "score": 280,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/",
+            "https://lartedimassaggio.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/"
+          ]
+        },
+        {
+          "value": "captcha",
+          "normalizedValue": "captcha",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "image00031",
+          "normalizedValue": "image00031",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "L'arte di Massaggio | Θεραπείες Σώματος, Προσώπου & Υπηρεσίες Spa | Μασάζ Αθήνα",
+          "normalizedValue": "l arte di massaggio θεραπειες σωματος προσωπου and υπηρεσιες spa μασαζ αθηνα",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "la arte di massaggio",
+          "normalizedValue": "la arte di massaggio",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "la arte di massagio",
+          "normalizedValue": "la arte di massagio",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "larte di massaggio",
+          "normalizedValue": "larte di massaggio",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "top100 lartedimassaggio",
+          "normalizedValue": "top100 lartedimassaggio",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "Θεραπείες Σώματος, Προσώπου & Υπηρεσίες Spa",
+          "normalizedValue": "θεραπειες σωματος προσωπου and υπηρεσιες spa",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "Μασάζ Αθήνα",
+          "normalizedValue": "μασαζ αθηνα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        },
+        {
+          "value": "Μασάζ Αθήνα | L'arte di Massaggio | Θεραπείες Σώματος, Προσώπου & Υπηρεσίες Spa",
+          "normalizedValue": "μασαζ αθηνα l arte di massaggio θεραπειες σωματος προσωπου and υπηρεσιες spa",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://lartedimassaggio.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb771uj000odkiywhfjulaj",
+      "merchantName": "Προσφέρετε μια δωροκάρτα - Επιλέξτε την Αξία",
+      "merchantSlug": "προσφερετε-μια-δωροκαρτα-επιλεξτε-την-αξια",
+      "websiteUrl": "https://deltarestaurant.gr",
+      "giftCardId": "cmtb771ze000pdkiyptng0olp",
+      "giftCardTitle": "Προσφέρετε μια δωροκάρτα - Επιλέξτε την Αξία",
+      "officialUrl": "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://deltarestaurant.gr",
+        "finalUrl": "https://deltarestaurant.gr/",
+        "status": 200,
+        "title": "Delta Restaurant - (2) Michelin Star restaurant in Athens",
+        "ogSiteName": "Delta Restaurant",
+        "jsonLdOrganizations": [
+          "Delta Restaurant"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Delta - 2 Michelin Star Restaurant",
+          "Menu degustation reservation for Delta restaurant",
+          "Michelin star restaurant with gastronomic experience Greek cuisine",
+          "Corporate and social events at Delta restaurant",
+          "the farm, sustainability, no waste, gastronomy fine dining at Delta restaurant",
+          "gastronomy and fine dining and service at 2 Michelin star restaurant Delta",
+          "menu 12 stages degustation fine dining at DELTA restaurant",
+          "Delta restaurant at Stavros Niarchos Foundation Cultural Center",
+          "gastronomic dishes Michelin level at delta restaurant"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/",
+        "finalUrl": "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/",
+        "status": 200,
+        "title": "Προσφέρετε μια δωροκάρτα - Επιλέξτε την Αξία - Delta Restaurant",
+        "ogSiteName": "Delta Restaurant",
+        "jsonLdOrganizations": [
+          "Delta Restaurant"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Delta Restaurant - Εστιατόριο με 2 Αστέρια Μισελέν"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Delta Restaurant",
+          "normalizedValue": "delta restaurant",
+          "score": 305,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/",
+            "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/"
+          ]
+        },
+        {
+          "value": "Corporate and social events at Delta restaurant",
+          "normalizedValue": "corporate and social events at delta restaurant",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Delta - 2 Michelin Star Restaurant",
+          "normalizedValue": "delta 2 michelin star restaurant",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Delta restaurant at Stavros Niarchos Foundation Cultural Center",
+          "normalizedValue": "delta restaurant at stavros niarchos foundation cultural center",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "gastronomic dishes Michelin level at delta restaurant",
+          "normalizedValue": "gastronomic dishes michelin level at delta restaurant",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "gastronomy and fine dining and service at 2 Michelin star restaurant Delta",
+          "normalizedValue": "gastronomy and fine dining and service at 2 michelin star restaurant delta",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "menu 12 stages degustation fine dining at DELTA restaurant",
+          "normalizedValue": "menu 12 stages degustation fine dining at delta restaurant",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Menu degustation reservation for Delta restaurant",
+          "normalizedValue": "menu degustation reservation for delta restaurant",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Michelin star restaurant with gastronomic experience Greek cuisine",
+          "normalizedValue": "michelin star restaurant with gastronomic experience greek cuisine",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "the farm, sustainability, no waste, gastronomy fine dining at Delta restaurant",
+          "normalizedValue": "the farm sustainability no waste gastronomy fine dining at delta restaurant",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Delta Restaurant - Εστιατόριο με 2 Αστέρια Μισελέν",
+          "normalizedValue": "delta restaurant εστιατοριο με 2 αστερια μισελεν",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/"
+          ]
+        },
+        {
+          "value": "(2) Michelin Star restaurant in Athens",
+          "normalizedValue": "2 michelin star restaurant in athens",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Delta Restaurant - (2) Michelin Star restaurant in Athens",
+          "normalizedValue": "delta restaurant 2 michelin star restaurant in athens",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/"
+          ]
+        },
+        {
+          "value": "Επιλέξτε την Αξία",
+          "normalizedValue": "επιλεξτε την αξια",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://deltarestaurant.gr/el/product/offer-a-gift-card-choose-the-value/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb787zh006ndkiyobzskgz8",
+      "merchantName": "Στείλτε μια Δωροκάρτα",
+      "merchantSlug": "στειλτε-μια-δωροκαρτα",
+      "websiteUrl": "https://maamonpapa.gr",
+      "giftCardId": "cmtb78851006odkiyq49ms3f9",
+      "giftCardTitle": "Στείλτε μια Δωροκάρτα",
+      "officialUrl": "https://www.maamonpapa.gr/index.php?route=account/voucher",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "HOME_This operation was aborted",
+        "CANDIDATE_SUPPORT_TOO_WEAK"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://maamonpapa.gr",
+        "finalUrl": "https://www.maamonpapa.gr/",
+        "status": 200,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "This operation was aborted"
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.maamonpapa.gr/index.php?route=account/voucher",
+        "finalUrl": "https://www.maamonpapa.gr/index.php?route=account/voucher",
+        "status": 200,
+        "title": "Αγοράστε μία Δωροεπιταγή",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "MaaMonPapa.gr"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "MaaMonPapa.gr",
+          "normalizedValue": "maamonpapa gr",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.maamonpapa.gr/index.php?route=account/voucher"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb6um3e00183giyblwki1yw",
+      "merchantName": "Χάρισε μια Δωροκάρτα - District75",
+      "merchantSlug": "χαρισε-μια-δωροκαρτα-district75",
+      "websiteUrl": "https://district75.gr",
+      "giftCardId": "cmtb6um9000193giyhxszewcb",
+      "giftCardTitle": "Χάρισε μια Δωροκάρτα - District75",
+      "officialUrl": "https://www.district75.gr/doro-karta",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://district75.gr",
+        "finalUrl": "https://www.district75.gr/",
+        "status": 200,
+        "title": "Casual & Sportswear Ρούχα | District75",
+        "ogSiteName": "District 75",
+        "jsonLdOrganizations": [
+          "District 75"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Γλώσσα - Ελληνικά",
+          "Γλώσσα - English",
+          "District 75",
+          "All For You"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.district75.gr/doro-karta",
+        "finalUrl": "https://www.district75.gr/doro-karta",
+        "status": 200,
+        "title": "Χάρισε μια Δωροκάρτα",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Γλώσσα - Ελληνικά",
+          "Γλώσσα - English",
+          "District 75",
+          "All For You"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "District 75",
+          "normalizedValue": "district 75",
+          "score": 255,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/",
+            "https://www.district75.gr/doro-karta"
+          ]
+        },
+        {
+          "value": "Γλώσσα - Ελληνικά",
+          "normalizedValue": "γλωσσα ελληνικα",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/",
+            "https://www.district75.gr/doro-karta"
+          ]
+        },
+        {
+          "value": "Γλώσσα - English",
+          "normalizedValue": "γλωσσα english",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/",
+            "https://www.district75.gr/doro-karta"
+          ]
+        },
+        {
+          "value": "All For You",
+          "normalizedValue": "all for you",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/",
+            "https://www.district75.gr/doro-karta"
+          ]
+        },
+        {
+          "value": "Casual & Sportswear Ρούχα",
+          "normalizedValue": "casual and sportswear ρουχα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/"
+          ]
+        },
+        {
+          "value": "Casual & Sportswear Ρούχα | District75",
+          "normalizedValue": "casual and sportswear ρουχα district75",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/"
+          ]
+        },
+        {
+          "value": "District75",
+          "normalizedValue": "district75",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.district75.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77a4l001udkiyprjgdlft",
+      "merchantName": "Christmas Gift Cards",
+      "merchantSlug": "christmas-gift-cards",
+      "websiteUrl": "https://kinesis-gym.gr",
+      "giftCardId": "cmtb77aa9001vdkiykzcb5zp5",
+      "giftCardTitle": "Christmas Gift Cards",
+      "officialUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "IDENTITY_CANDIDATES_CONFLICT"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://kinesis-gym.gr",
+        "finalUrl": "https://kinesis-gym.gr/",
+        "status": 200,
+        "title": "Kinesis Gym – Γυμναστήριο Κιλκίς",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "dark logo",
+          "light logo",
+          "Mobile Logo"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+        "finalUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+        "status": 200,
+        "title": "Christmas Gift Cards – Kinesis Gym",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "dark logo",
+          "light logo",
+          "Mobile Logo",
+          "kinesis-gym"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "kinesis-gym",
+          "normalizedValue": "kinesis gym",
+          "score": 190,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "dark logo",
+          "normalizedValue": "dark logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "light logo",
+          "normalizedValue": "light logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "Mobile Logo",
+          "normalizedValue": "mobile logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "Γυμναστήριο Κιλκίς",
+          "normalizedValue": "γυμναστηριο κιλκις",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/"
+          ]
+        },
+        {
+          "value": "Kinesis Gym – Γυμναστήριο Κιλκίς",
+          "normalizedValue": "kinesis gym γυμναστηριο κιλκις",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77rj8004cdkiyvmogo621",
+      "merchantName": "Christmas Gift Cards",
+      "merchantSlug": "christmas-gift-cards-2",
+      "websiteUrl": "https://armoniawellness.gr",
+      "giftCardId": "cmtb77rqc004ddkiytzf0x88j",
+      "giftCardTitle": "Christmas Gift Cards",
+      "officialUrl": "https://www.armoniawellness.gr/christmas-gift-cards/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://armoniawellness.gr",
+        "finalUrl": "https://www.armoniawellness.gr/",
+        "status": 200,
+        "title": "Armonia Wellness – Beauty – Health – Nutrition",
+        "ogSiteName": "Armonia Wellness",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Armonia Wellness",
+          "Ελληνικά",
+          "English"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.armoniawellness.gr/christmas-gift-cards/",
+        "finalUrl": "https://www.armoniawellness.gr/christmas-gift-cards/",
+        "status": 200,
+        "title": "Christmas Gift Cards – Armonia Wellness",
+        "ogSiteName": "Armonia Wellness",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Armonia Wellness",
+          "Ελληνικά",
+          "English"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Armonia Wellness",
+          "normalizedValue": "armonia wellness",
+          "score": 295,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/",
+            "https://www.armoniawellness.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "Ελληνικά",
+          "normalizedValue": "ελληνικα",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/",
+            "https://www.armoniawellness.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "English",
+          "normalizedValue": "english",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/",
+            "https://www.armoniawellness.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "Armonia Wellness – Beauty – Health – Nutrition",
+          "normalizedValue": "armonia wellness beauty health nutrition",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/"
+          ]
+        },
+        {
+          "value": "Beauty",
+          "normalizedValue": "beauty",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/"
+          ]
+        },
+        {
+          "value": "Health",
+          "normalizedValue": "health",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/"
+          ]
+        },
+        {
+          "value": "Nutrition",
+          "normalizedValue": "nutrition",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.armoniawellness.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb78g7m007rdkiydh03gkcd",
+      "merchantName": "I Thought Of You",
+      "merchantSlug": "i-thought-of-you",
+      "websiteUrl": "https://ymonanatripsis.gr",
+      "giftCardId": "cmtb78gcm007sdkiyiijij48q",
+      "giftCardTitle": "I Thought Of You",
+      "officialUrl": "https://www.ymonanatripsis.gr/en/gift-card/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": false,
+      "home": {
+        "requestedUrl": "https://ymonanatripsis.gr",
+        "finalUrl": "https://www.ymonanatripsis.gr/",
+        "status": 200,
+        "title": "ΥΜΩΝ | Anatripsis",
+        "ogSiteName": "ΥΜΩΝ",
+        "jsonLdOrganizations": [
+          "ΥΜΩΝ"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.ymonanatripsis.gr/en/gift-card/",
+        "finalUrl": "https://www.ymonanatripsis.gr/en/gift-card/",
+        "status": 200,
+        "title": "I Thought Of You | ΥΜΩΝ Anatripsis",
+        "ogSiteName": "ΥΜΩΝ",
+        "jsonLdOrganizations": [
+          "ΥΜΩΝ"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "ΥΜΩΝ",
+          "normalizedValue": "υμων",
+          "score": 280,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.ymonanatripsis.gr/",
+            "https://www.ymonanatripsis.gr/en/gift-card/"
+          ]
+        },
+        {
+          "value": "ΥΜΩΝ | Anatripsis",
+          "normalizedValue": "υμων anatripsis",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.ymonanatripsis.gr/",
+            "https://www.ymonanatripsis.gr/en/gift-card/"
+          ]
+        },
+        {
+          "value": "Anatripsis",
+          "normalizedValue": "anatripsis",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.ymonanatripsis.gr/"
+          ]
+        },
+        {
+          "value": "I Thought Of You | ΥΜΩΝ Anatripsis",
+          "normalizedValue": "i thought of you υμων anatripsis",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.ymonanatripsis.gr/en/gift-card/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb78ft1007pdkiylxlrso3f",
+      "merchantName": "Make a gift",
+      "merchantSlug": "make-a-gift",
+      "websiteUrl": "https://simclub.gr",
+      "giftCardId": "cmtb78fy5007qdkiyxevs1v0x",
+      "giftCardTitle": "Make a gift",
+      "officialUrl": "https://www.simclub.gr/en/gift-vouchers/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://simclub.gr",
+        "finalUrl": "https://simclub.gr/",
+        "status": 200,
+        "title": "Simclub – It's not a game, it's real racing",
+        "ogSiteName": "Simclub",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "en_US"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.simclub.gr/en/gift-vouchers/",
+        "finalUrl": "https://www.simclub.gr/en/gift-vouchers/",
+        "status": 200,
+        "title": "Κάντε ένα δώρο – Simclub",
+        "ogSiteName": "Simclub",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "el",
+          "coupon_60_GR"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Simclub",
+          "normalizedValue": "simclub",
+          "score": 245,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "GIFT_TITLE",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://simclub.gr/",
+            "https://www.simclub.gr/en/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "en_US",
+          "normalizedValue": "en us",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://simclub.gr/"
+          ]
+        },
+        {
+          "value": "coupon_60_GR",
+          "normalizedValue": "coupon 60 gr",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.simclub.gr/en/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "el",
+          "normalizedValue": "el",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.simclub.gr/en/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "It's not a game, it's real racing",
+          "normalizedValue": "it s not a game it s real racing",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://simclub.gr/"
+          ]
+        },
+        {
+          "value": "Simclub – It's not a game, it's real racing",
+          "normalizedValue": "simclub it s not a game it s real racing",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://simclub.gr/"
+          ]
+        },
+        {
+          "value": "Κάντε ένα δώρο",
+          "normalizedValue": "καντε ενα δωρο",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.simclub.gr/en/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "Κάντε ένα δώρο – Simclub",
+          "normalizedValue": "καντε ενα δωρο simclub",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.simclub.gr/en/gift-vouchers/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb7i3a3001504iyg9dda4td",
+      "merchantName": "Massage Gift Cards Kefalonia",
+      "merchantSlug": "massage-gift-cards-kefalonia",
+      "websiteUrl": "https://massage4kefalonia.com",
+      "giftCardId": "cmtb7i3f1001604iyarnf8jny",
+      "giftCardTitle": "Massage Gift Cards Kefalonia",
+      "officialUrl": "https://massage4kefalonia.com/gift-cards",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://massage4kefalonia.com",
+        "finalUrl": "https://massage4kefalonia.com/",
+        "status": 200,
+        "title": "4 Elements Massage Kefalonia | Best Massage in Kefalonia",
+        "ogSiteName": "4 Elements Massage Kefalonia",
+        "jsonLdOrganizations": [
+          "4 Elements Massage Kefalonia"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "4 Elements Massage"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://massage4kefalonia.com/gift-cards",
+        "finalUrl": "https://massage4kefalonia.com/gift-cards",
+        "status": 200,
+        "title": "Massage Gift Cards Kefalonia | 4 Elements Massage Kefalonia",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [
+          "4 Elements Massage Kefalonia"
+        ],
+        "jsonLdBrands": [
+          "4 Elements Massage Kefalonia"
+        ],
+        "logoAlts": [
+          "4 Elements Massage"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "4 Elements Massage Kefalonia",
+          "normalizedValue": "4 elements massage kefalonia",
+          "score": 305,
+          "sources": [
+            "GIFT_JSONLD_BRAND",
+            "GIFT_JSONLD_ORGANIZATION",
+            "GIFT_TITLE",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://massage4kefalonia.com/",
+            "https://massage4kefalonia.com/gift-cards"
+          ]
+        },
+        {
+          "value": "4 Elements Massage",
+          "normalizedValue": "4 elements massage",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://massage4kefalonia.com/",
+            "https://massage4kefalonia.com/gift-cards"
+          ]
+        },
+        {
+          "value": "4 Elements Massage Kefalonia | Best Massage in Kefalonia",
+          "normalizedValue": "4 elements massage kefalonia best massage in kefalonia",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://massage4kefalonia.com/"
+          ]
+        },
+        {
+          "value": "Best Massage in Kefalonia",
+          "normalizedValue": "best massage in kefalonia",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://massage4kefalonia.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77dz2002edkiyhwhmrr7j",
+      "merchantName": "Massage Gift Vouchers in Chania",
+      "merchantSlug": "massage-gift-vouchers-in-chania",
+      "websiteUrl": "https://nirvana-massage.gr",
+      "giftCardId": "cmtb77e4k002fdkiygyq7c6md",
+      "giftCardTitle": "Massage Gift Vouchers in Chania | The Perfect Wellness Gift",
+      "officialUrl": "https://www.nirvana-massage.gr/gift-vouchers/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "IDENTITY_CANDIDATES_CONFLICT"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://nirvana-massage.gr",
+        "finalUrl": "https://www.nirvana-massage.gr/",
+        "status": 200,
+        "title": "NIRVANA Massage & Beauty Spa | Luxury Wellness in Chania",
+        "ogSiteName": "NIRVANA",
+        "jsonLdOrganizations": [
+          "NIRVANA Massage & Beauty Spa"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "NIRVANA"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.nirvana-massage.gr/gift-vouchers/",
+        "finalUrl": "https://www.nirvana-massage.gr/gift-vouchers/",
+        "status": 200,
+        "title": "Massage Gift Vouchers in Chania | The Perfect Wellness Gift",
+        "ogSiteName": "NIRVANA",
+        "jsonLdOrganizations": [
+          "NIRVANA Massage & Beauty Spa"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "NIRVANA"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "NIRVANA",
+          "normalizedValue": "nirvana",
+          "score": 245,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/",
+            "https://www.nirvana-massage.gr/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "NIRVANA Massage & Beauty Spa",
+          "normalizedValue": "nirvana massage and beauty spa",
+          "score": 230,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/",
+            "https://www.nirvana-massage.gr/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "Luxury Wellness in Chania",
+          "normalizedValue": "luxury wellness in chania",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/"
+          ]
+        },
+        {
+          "value": "NIRVANA Massage & Beauty Spa | Luxury Wellness in Chania",
+          "normalizedValue": "nirvana massage and beauty spa luxury wellness in chania",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/"
+          ]
+        },
+        {
+          "value": "The Perfect Wellness Gift",
+          "normalizedValue": "the perfect wellness gift",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/gift-vouchers/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yxv60034sciy1eru1cf7",
+      "merchantName": "Mytravelgiftcard",
+      "merchantSlug": "mytravelgiftcard",
+      "websiteUrl": "https://mytravelgiftcard.gr",
+      "giftCardId": "cmta4yy140035sciyg30mvkvh",
+      "giftCardTitle": "My Travel Gift Card - Το δώρο που ταξιδεύει τους ...",
+      "officialUrl": "https://mytravelgiftcard.gr/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://mytravelgiftcard.gr",
+        "finalUrl": "https://mytravelgiftcard.gr/",
+        "status": 200,
+        "title": "My Travel Gift Card - Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+        "ogSiteName": "My Travel Gift Card",
+        "jsonLdOrganizations": [
+          "My Travel Gift Card"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://mytravelgiftcard.gr/",
+        "finalUrl": "https://mytravelgiftcard.gr/",
+        "status": 200,
+        "title": "My Travel Gift Card - Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+        "ogSiteName": "My Travel Gift Card",
+        "jsonLdOrganizations": [
+          "My Travel Gift Card"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+          "normalizedValue": "το δωρο που ταξιδευει τους αγαπημενους σας",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://mytravelgiftcard.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77g6g002qdkiyzp7xmoyn",
+      "merchantName": "Paco Δωροκάρτες από",
+      "merchantSlug": "paco-δωροκαρτες-απο-10-00",
+      "websiteUrl": "https://pacoartcenter.gr",
+      "giftCardId": "cmtb77gbh002rdkiyzvvjbldl",
+      "giftCardTitle": "Paco Δωροκάρτες από Gift Card",
+      "officialUrl": "https://www.pacoartcenter.gr/el/gift-card.html",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://pacoartcenter.gr",
+        "finalUrl": "https://www.pacoartcenter.gr/",
+        "status": 200,
+        "title": "Υλικά Κοσμημάτων, Decoupage, Ζωγραφικής, Αγιογραφίας...",
+        "ogSiteName": "Paco Art Center",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Pacoartcenter"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.pacoartcenter.gr/el/gift-card.html",
+        "finalUrl": "https://www.pacoartcenter.gr/el/gift-card.html",
+        "status": 200,
+        "title": "Paco Δωροκάρτες από €10.00",
+        "ogSiteName": "Paco Art Center",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [
+          "Paco Art"
+        ],
+        "logoAlts": [
+          "Pacoartcenter",
+          "Κόσμημα",
+          "Χρώματα & Mediums",
+          "Αγιογραφία",
+          "Τελάρα & Μουσαμάς",
+          "Πινέλα & Εργαλεία Ζωγραφικής",
+          "Είδη Σχεδίου",
+          "Χαρτιά & Μπλόκ",
+          "Ντεκουπάζ",
+          "Σχολικά - Παιδικά",
+          "Χόμπυ & Χειροτεχνίες",
+          "Γλυπτική & Κεραμική"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Paco Art Center",
+          "normalizedValue": "paco art center",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/",
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Pacoartcenter",
+          "normalizedValue": "pacoartcenter",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/",
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Paco Art",
+          "normalizedValue": "paco art",
+          "score": 110,
+          "sources": [
+            "GIFT_JSONLD_BRAND"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Αγιογραφία",
+          "normalizedValue": "αγιογραφια",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Γλυπτική & Κεραμική",
+          "normalizedValue": "γλυπτικη and κεραμικη",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Είδη Σχεδίου",
+          "normalizedValue": "ειδη σχεδιου",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Κόσμημα",
+          "normalizedValue": "κοσμημα",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Ντεκουπάζ",
+          "normalizedValue": "ντεκουπαζ",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Πινέλα & Εργαλεία Ζωγραφικής",
+          "normalizedValue": "πινελα and εργαλεια ζωγραφικης",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Σχολικά - Παιδικά",
+          "normalizedValue": "σχολικα παιδικα",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Τελάρα & Μουσαμάς",
+          "normalizedValue": "τελαρα and μουσαμας",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Χαρτιά & Μπλόκ",
+          "normalizedValue": "χαρτια and μπλοκ",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Χόμπυ & Χειροτεχνίες",
+          "normalizedValue": "χομπυ and χειροτεχνιες",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Χρώματα & Mediums",
+          "normalizedValue": "χρωματα and mediums",
+          "score": 80,
+          "sources": [
+            "GIFT_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/el/gift-card.html"
+          ]
+        },
+        {
+          "value": "Υλικά Κοσμημάτων, Decoupage, Ζωγραφικής, Αγιογραφίας...",
+          "normalizedValue": "υλικα κοσμηματων decoupage ζωγραφικης αγιογραφιας",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.pacoartcenter.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb7hz7e000k04iywfxqpaau",
+      "merchantName": "Unforgettable Experience Gift Cards in Greece",
+      "merchantSlug": "unforgettable-experience-gift-cards-in",
+      "websiteUrl": "https://exploremessinia.com",
+      "giftCardId": "cmtb7hzca000l04iybffdjgu7",
+      "giftCardTitle": "Unforgettable Experience Gift Cards in Greece",
+      "officialUrl": "https://exploremessinia.com/giftcard/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://exploremessinia.com",
+        "finalUrl": "https://exploremessinia.com/",
+        "status": 200,
+        "title": "Day Trips in Peloponnese | Sea Kayaking, Canyoning & Tours",
+        "ogSiteName": "Explore Messinia - Outdoor activities",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Explore Messinia – Outdoor activities Logo",
+          "Greek",
+          "German",
+          "French",
+          "Dutch",
+          "Hebrew",
+          "Canyoning Explore Messinia"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://exploremessinia.com/giftcard/",
+        "finalUrl": "https://exploremessinia.com/giftcard/",
+        "status": 200,
+        "title": "Unforgettable Experience Gift Cards in Greece",
+        "ogSiteName": "Explore Messinia - Outdoor activities",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "Explore Messinia – Outdoor activities Logo",
+          "Greek",
+          "German",
+          "French",
+          "Dutch",
+          "Hebrew"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Explore Messinia - Outdoor activities",
+          "normalizedValue": "explore messinia outdoor activities",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "Dutch",
+          "normalizedValue": "dutch",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "Explore Messinia – Outdoor activities Logo",
+          "normalizedValue": "explore messinia outdoor activities logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "French",
+          "normalizedValue": "french",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "German",
+          "normalizedValue": "german",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "Greek",
+          "normalizedValue": "greek",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "Hebrew",
+          "normalizedValue": "hebrew",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/",
+            "https://exploremessinia.com/giftcard/"
+          ]
+        },
+        {
+          "value": "Canyoning Explore Messinia",
+          "normalizedValue": "canyoning explore messinia",
+          "score": 90,
+          "sources": [
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/"
+          ]
+        },
+        {
+          "value": "Day Trips in Peloponnese",
+          "normalizedValue": "day trips in peloponnese",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/"
+          ]
+        },
+        {
+          "value": "Day Trips in Peloponnese | Sea Kayaking, Canyoning & Tours",
+          "normalizedValue": "day trips in peloponnese sea kayaking canyoning and tours",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/"
+          ]
+        },
+        {
+          "value": "Sea Kayaking, Canyoning & Tours",
+          "normalizedValue": "sea kayaking canyoning and tours",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://exploremessinia.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb7i4fg001a04iyu5nzeowe",
+      "merchantName": "Wellness Gift Cards",
+      "merchantSlug": "wellness-gift-cards",
+      "websiteUrl": "https://omhomestudio.com",
+      "giftCardId": "cmtb7i4k6001b04iyd3jlw4se",
+      "giftCardTitle": "Wellness Gift Cards | Crete, Om Home",
+      "officialUrl": "https://www.omhomestudio.com/giftcard",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://omhomestudio.com",
+        "finalUrl": "https://www.omhomestudio.com/",
+        "status": 200,
+        "title": "Yoga, Wellness, and Healing in Crete, Greece | Om Home, Rethymno",
+        "ogSiteName": "Om Home",
+        "jsonLdOrganizations": [
+          "Om Home Studio",
+          "Om Home"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.omhomestudio.com/giftcard",
+        "finalUrl": "https://www.omhomestudio.com/giftcard",
+        "status": 200,
+        "title": "Wellness Gift Cards | Crete, Om Home",
+        "ogSiteName": "Om Home",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Om Home",
+          "normalizedValue": "om home",
+          "score": 230,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.omhomestudio.com/",
+            "https://www.omhomestudio.com/giftcard"
+          ]
+        },
+        {
+          "value": "Om Home Studio",
+          "normalizedValue": "om home studio",
+          "score": 120,
+          "sources": [
+            "HOME_JSONLD_ORGANIZATION"
+          ],
+          "sourceUrls": [
+            "https://www.omhomestudio.com/"
+          ]
+        },
+        {
+          "value": "Om Home, Rethymno",
+          "normalizedValue": "om home rethymno",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.omhomestudio.com/"
+          ]
+        },
+        {
+          "value": "Yoga, Wellness, and Healing in Crete, Greece",
+          "normalizedValue": "yoga wellness and healing in crete greece",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.omhomestudio.com/"
+          ]
+        },
+        {
+          "value": "Yoga, Wellness, and Healing in Crete, Greece | Om Home, Rethymno",
+          "normalizedValue": "yoga wellness and healing in crete greece om home rethymno",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.omhomestudio.com/"
+          ]
+        },
+        {
+          "value": "Crete, Om Home",
+          "normalizedValue": "crete om home",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.omhomestudio.com/giftcard"
+          ]
+        }
+      ]
+    }
+  ],
+  "reportId": "67e1de168e8b4a642c360a18a84d3889d54ca9ab39d9529593471ea25101072d"
+}

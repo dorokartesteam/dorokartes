@@ -1,0 +1,212 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "870edf599a1d4819b02fad25f47c50458f414f62a076acd5bb73f1d9500a6f0d",
+  "targetCount": 4,
+  "concurrency": 4,
+  "summary": {
+    "safe": 4,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1mogm00tvq8iye33nmifv:ab329c8b504d",
+      "merchantId": "cmta1mogm00tvq8iye33nmifv",
+      "merchantName": "Carlamco",
+      "merchantSlug": "carlamco",
+      "websiteUrl": "https://carlamco.gr/",
+      "sourceUrl": "https://www.carlamco.gr/image/cache/catalog/Carlamco_logo_white_new_1-366x90.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 154,
+      "sha256": "ab329c8b504d1e39cddcbf8b81248a7f262ffbb47d21f151d5adab48b3e21302",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 19364,
+      "width": 366,
+      "height": 90,
+      "localUrl": "/merchant-logos/carlamco-ab329c8b504d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hru700a3q8iy6vn9whln:97ee2452401c",
+      "merchantId": "cmta1hru700a3q8iy6vn9whln",
+      "merchantName": "Cavallo",
+      "merchantSlug": "cavallo",
+      "websiteUrl": "https://cavallo.gr/",
+      "sourceUrl": "https://www.cavallo.gr/wp-content/uploads/2019/08/logocavallo_2018_white-compressor.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 138,
+      "sha256": "97ee2452401c44eb14ba68c386a465fd8fa755ca309d9301e93408a06b08b4f8",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 8282,
+      "width": 511,
+      "height": 96,
+      "localUrl": "/merchant-logos/cavallo-97ee2452401c.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6upj2001p3giy68izspkm:5ca98348ddae",
+      "merchantId": "cmtb6upj2001p3giy68izspkm",
+      "merchantName": "Gelia Jewelry & Creations",
+      "merchantSlug": "gelia-jewelry-and-creations",
+      "websiteUrl": "https://geliajewelry.gr/",
+      "sourceUrl": "https://geliajewelry.gr/cdn/shop/files/Black_White_Minimalist_Calligraphy_Flourish_Designer_Logo_27b877fb-44a4-4f6b-ac11-d3dd14be3216.png?v=1702925296&width=600",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 154,
+      "sha256": "5ca98348ddaed25b3210711c7b2e2e1fa35fe12b180b48beaf4c72307be8cb05",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 23448,
+      "width": 600,
+      "height": 212,
+      "localUrl": "/merchant-logos/gelia-jewelry-and-creations-5ca98348ddae.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1imn100dbq8iyn4nhj89a:80f07db3eb3f",
+      "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+      "merchantName": "Kikoo",
+      "merchantSlug": "kikoo",
+      "websiteUrl": "https://kikoo.gr/",
+      "sourceUrl": "https://kikoo.gr/image/cache/catalog/Banners/kikoo_LOGO-300x155.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 114,
+      "sha256": "80f07db3eb3f6b2d35ffcebcd5da19dd3a3c12ddfa9af1647a5898d5bd973b3e",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 19899,
+      "width": 300,
+      "height": 155,
+      "localUrl": "/merchant-logos/kikoo-80f07db3eb3f.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1mogm00tvq8iye33nmifv",
+      "merchantName": "Carlamco",
+      "merchantSlug": "carlamco",
+      "websiteUrl": "https://carlamco.gr",
+      "finalWebsiteUrl": "https://carlamco.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.carlamco.gr/image/cache/catalog/Carlamco_logo_white_new_1-366x90.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://www.carlamco.gr/image/cache/catalog/Carlamco_logo_white_new_1-366x90.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 19364,
+        "width": 366,
+        "height": 90,
+        "sha256": "ab329c8b504d1e39cddcbf8b81248a7f262ffbb47d21f151d5adab48b3e21302"
+      }
+    },
+    {
+      "merchantId": "cmta1hru700a3q8iy6vn9whln",
+      "merchantName": "Cavallo",
+      "merchantSlug": "cavallo",
+      "websiteUrl": "https://cavallo.gr",
+      "finalWebsiteUrl": "https://cavallo.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.cavallo.gr/wp-content/uploads/2019/08/logocavallo_2018_white-compressor.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 138
+      },
+      "validatedAsset": {
+        "url": "https://www.cavallo.gr/wp-content/uploads/2019/08/logocavallo_2018_white-compressor.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 8282,
+        "width": 511,
+        "height": 96,
+        "sha256": "97ee2452401c44eb14ba68c386a465fd8fa755ca309d9301e93408a06b08b4f8"
+      }
+    },
+    {
+      "merchantId": "cmtb6upj2001p3giy68izspkm",
+      "merchantName": "Gelia Jewelry & Creations",
+      "merchantSlug": "gelia-jewelry-and-creations",
+      "websiteUrl": "https://geliajewelry.gr",
+      "finalWebsiteUrl": "https://geliajewelry.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://geliajewelry.gr/cdn/shop/files/Black_White_Minimalist_Calligraphy_Flourish_Designer_Logo_27b877fb-44a4-4f6b-ac11-d3dd14be3216.png?v=1702925296&width=600",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://geliajewelry.gr/cdn/shop/files/Black_White_Minimalist_Calligraphy_Flourish_Designer_Logo_27b877fb-44a4-4f6b-ac11-d3dd14be3216.png?v=1702925296&width=600",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 23448,
+        "width": 600,
+        "height": 212,
+        "sha256": "5ca98348ddaed25b3210711c7b2e2e1fa35fe12b180b48beaf4c72307be8cb05"
+      }
+    },
+    {
+      "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+      "merchantName": "Kikoo",
+      "merchantSlug": "kikoo",
+      "websiteUrl": "https://kikoo.gr",
+      "finalWebsiteUrl": "https://kikoo.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://kikoo.gr/image/cache/catalog/Banners/kikoo_LOGO-300x155.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": {
+        "url": "https://kikoo.gr/image/cache/catalog/Banners/kikoo_LOGO-300x155.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 19899,
+        "width": 300,
+        "height": 155,
+        "sha256": "80f07db3eb3f6b2d35ffcebcd5da19dd3a3c12ddfa9af1647a5898d5bd973b3e"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:18:26.405Z",
+  "planId": "4dbe81ed3354f4474bb1e46632a66bfc8b24c9959679f1ad800bb785a6b66f51"
+}

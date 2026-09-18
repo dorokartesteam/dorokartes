@@ -1,0 +1,256 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "b8849f43ac12715626e2a8df0c4f8d187037de0396ebdf7260f945f08e469b36",
+  "targetCount": 5,
+  "concurrency": 4,
+  "summary": {
+    "safe": 5,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1mrph00u7q8iydrmvmhtt:c1702fe5c161",
+      "merchantId": "cmta1mrph00u7q8iydrmvmhtt",
+      "merchantName": "Crudeshop",
+      "merchantSlug": "crudeshop",
+      "websiteUrl": "https://crudeshop.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/f1e7b3_1a6a973606d0442aa204e53dd7ac6d8a~mv2.png/v1/fill/w_430,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20CRUDE%20BLK.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 191,
+      "sha256": "c1702fe5c161fa02475aea39ac5850685a2ea5ae4210191743c40194f4addb83",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 6098,
+      "width": 430,
+      "height": 214,
+      "localUrl": "/merchant-logos/crudeshop-c1702fe5c161.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kmby00ltq8iyovtwgjv9:fecb2c25ae62",
+      "merchantId": "cmta1kmby00ltq8iyovtwgjv9",
+      "merchantName": "Dreamypicnics",
+      "merchantSlug": "dreamypicnics",
+      "websiteUrl": "https://dreamypicnics.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/24853d_0122e20a8dfe4ca2a524c94f5fd43f58~mv2.png/v1/fill/w_362,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Black%20on%20transparent_edited.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 136,
+      "sha256": "fecb2c25ae62eee48b00846e3e7aa9d28b8e08bd63d69721ff400273f77a41a6",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 12162,
+      "width": 362,
+      "height": 184,
+      "localUrl": "/merchant-logos/dreamypicnics-fecb2c25ae62.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i46g00b5q8iy2z5otzf9:89a71fdd4386",
+      "merchantId": "cmta1i46g00b5q8iy2z5otzf9",
+      "merchantName": "Eightboutiquegym",
+      "merchantSlug": "eightboutiquegym",
+      "websiteUrl": "https://eightboutiquegym.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/92628e_2bc15f1180524f548e00de5677e84bc2~mv2.png/v1/fill/w_306,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/eight%20logo%20white-01_PNG.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 191,
+      "sha256": "89a71fdd43863235a6a48ec5a64df68972585d5f07899d03fb68ed771d4360f1",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 9854,
+      "width": 306,
+      "height": 168,
+      "localUrl": "/merchant-logos/eightboutiquegym-89a71fdd4386.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k1x700jhq8iyxupg6exd:4cd0974f956e",
+      "merchantId": "cmta1k1x700jhq8iyxupg6exd",
+      "merchantName": "Romeo",
+      "merchantSlug": "romeo",
+      "websiteUrl": "https://romeo.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/c3c625_1d73f297a9e945a9994f879a3db69600~mv2.png/v1/crop/x_0,y_367,w_1425,h_866/fill/w_1425,h_591,al_c,q_90,enc_avif,quality_auto/ROMEO88.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 154,
+      "sha256": "4cd0974f956e2f78090b322e04a3b17144a0538a3e2caeef6334bd945af092bf",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 130042,
+      "width": 1425,
+      "height": 591,
+      "localUrl": "/merchant-logos/romeo-4cd0974f956e.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v3o2003t3giy697d01nq:578f82ebbb9a",
+      "merchantId": "cmtb6v3o2003t3giy697d01nq",
+      "merchantName": "Somatherapy",
+      "merchantSlug": "somatherapy",
+      "websiteUrl": "https://somatherapy.gr/",
+      "sourceUrl": "https://somatherapy.gr/wp-content/uploads/2015/05/logo-png-soma-therapy-and-spa-lagonisi-2.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "578f82ebbb9ab27d3fe02e96d48f97cbf27a29da57eb48fb604d1dbadc036dae",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 23185,
+      "width": 290,
+      "height": 191,
+      "localUrl": "/merchant-logos/somatherapy-578f82ebbb9a.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1mrph00u7q8iydrmvmhtt",
+      "merchantName": "Crudeshop",
+      "merchantSlug": "crudeshop",
+      "websiteUrl": "https://crudeshop.gr",
+      "finalWebsiteUrl": "https://crudeshop.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/f1e7b3_1a6a973606d0442aa204e53dd7ac6d8a~mv2.png/v1/fill/w_430,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20CRUDE%20BLK.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 191
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/f1e7b3_1a6a973606d0442aa204e53dd7ac6d8a~mv2.png/v1/fill/w_430,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20CRUDE%20BLK.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 6098,
+        "width": 430,
+        "height": 214,
+        "sha256": "c1702fe5c161fa02475aea39ac5850685a2ea5ae4210191743c40194f4addb83"
+      }
+    },
+    {
+      "merchantId": "cmta1kmby00ltq8iyovtwgjv9",
+      "merchantName": "Dreamypicnics",
+      "merchantSlug": "dreamypicnics",
+      "websiteUrl": "https://dreamypicnics.gr",
+      "finalWebsiteUrl": "https://dreamypicnics.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/24853d_0122e20a8dfe4ca2a524c94f5fd43f58~mv2.png/v1/fill/w_362,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Black%20on%20transparent_edited.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 136
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/24853d_0122e20a8dfe4ca2a524c94f5fd43f58~mv2.png/v1/fill/w_362,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Black%20on%20transparent_edited.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 12162,
+        "width": 362,
+        "height": 184,
+        "sha256": "fecb2c25ae62eee48b00846e3e7aa9d28b8e08bd63d69721ff400273f77a41a6"
+      }
+    },
+    {
+      "merchantId": "cmta1i46g00b5q8iy2z5otzf9",
+      "merchantName": "Eightboutiquegym",
+      "merchantSlug": "eightboutiquegym",
+      "websiteUrl": "https://eightboutiquegym.gr",
+      "finalWebsiteUrl": "https://eightboutiquegym.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/92628e_2bc15f1180524f548e00de5677e84bc2~mv2.png/v1/fill/w_306,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/eight%20logo%20white-01_PNG.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 191
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/92628e_2bc15f1180524f548e00de5677e84bc2~mv2.png/v1/fill/w_306,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/eight%20logo%20white-01_PNG.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 9854,
+        "width": 306,
+        "height": 168,
+        "sha256": "89a71fdd43863235a6a48ec5a64df68972585d5f07899d03fb68ed771d4360f1"
+      }
+    },
+    {
+      "merchantId": "cmta1k1x700jhq8iyxupg6exd",
+      "merchantName": "Romeo",
+      "merchantSlug": "romeo",
+      "websiteUrl": "https://romeo.gr",
+      "finalWebsiteUrl": "https://romeo.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c3c625_1d73f297a9e945a9994f879a3db69600~mv2.png/v1/crop/x_0,y_367,w_1425,h_866/fill/w_1425,h_591,al_c,q_90,enc_avif,quality_auto/ROMEO88.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/c3c625_1d73f297a9e945a9994f879a3db69600~mv2.png/v1/crop/x_0,y_367,w_1425,h_866/fill/w_1425,h_591,al_c,q_90,enc_avif,quality_auto/ROMEO88.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 130042,
+        "width": 1425,
+        "height": 591,
+        "sha256": "4cd0974f956e2f78090b322e04a3b17144a0538a3e2caeef6334bd945af092bf"
+      }
+    },
+    {
+      "merchantId": "cmtb6v3o2003t3giy697d01nq",
+      "merchantName": "Somatherapy",
+      "merchantSlug": "somatherapy",
+      "websiteUrl": "https://somatherapy.gr",
+      "finalWebsiteUrl": "https://somatherapy.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://somatherapy.gr/wp-content/uploads/2015/05/logo-png-soma-therapy-and-spa-lagonisi-2.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://somatherapy.gr/wp-content/uploads/2015/05/logo-png-soma-therapy-and-spa-lagonisi-2.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 23185,
+        "width": 290,
+        "height": 191,
+        "sha256": "578f82ebbb9ab27d3fe02e96d48f97cbf27a29da57eb48fb604d1dbadc036dae"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:33:08.052Z",
+  "planId": "8325ff80b919a261cafc111bf739bf3195612e5c7aab2feec0e714ede4c1f0c4"
+}

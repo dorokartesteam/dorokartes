@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:31:27.759Z",
+  "planId": "1d0142ba7ce07a3a869216ea0f016f79f67c75f9dc0262e942a2111d2d5ebcaa",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1jcpl00glq8iyiewjd0bh:e66b68e35110",
+      "merchantId": "cmta1jcpl00glq8iyiewjd0bh",
+      "localUrl": "/merchant-logos/ptbox-e66b68e35110.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62r5h001u94iyasn3pt54:8ec58eec03ad",
+      "merchantId": "cmtb62r5h001u94iyasn3pt54",
+      "localUrl": "/merchant-logos/radiodaysfashion-8ec58eec03ad.svg"
+    }
+  ]
+}

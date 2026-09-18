@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "a773584578f5eee80644e50fd8716251cb61755798cbf2cbe660724c39e7e309",
+  "targetCount": 4,
+  "concurrency": 4,
+  "summary": {
+    "safe": 4,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmtb6udw300003giywjrb4w57:8cfbdbe781f8",
+      "merchantId": "cmtb6udw300003giywjrb4w57",
+      "merchantName": "5star Travel",
+      "merchantSlug": "5star-travel",
+      "websiteUrl": "https://5star-travel.gr/",
+      "sourceUrl": "https://www.5star-travel.gr/skn/logo.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "8cfbdbe781f8137e2abd831491de864e01450053b61e77e4f28797729d9fe345",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 56207,
+      "width": 390,
+      "height": 190,
+      "localUrl": "/merchant-logos/5star-travel-8cfbdbe781f8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nlc8000654iynn5wpmru:87da1b4049ab",
+      "merchantId": "cmta5nlc8000654iynn5wpmru",
+      "merchantName": "Athens Green Apartments",
+      "merchantSlug": "athens-green-apartments",
+      "websiteUrl": "https://athensgreen.gr/",
+      "sourceUrl": "https://l.icdbcdn.com/oh/5f9cb68d-70d2-4a3d-b541-f3c4873d5d93.png?w=400",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 136,
+      "sha256": "87da1b4049abd9343f3f3dc1997579c5857848a78cdc98bc132ace33ccdb86db",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 2449,
+      "width": 172,
+      "height": 115,
+      "localUrl": "/merchant-logos/athens-green-apartments-87da1b4049ab.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hn3o009lq8iyhn7qa9mo:ba957a696c1a",
+      "merchantId": "cmta1hn3o009lq8iyhn7qa9mo",
+      "merchantName": "Bloss",
+      "merchantSlug": "bloss",
+      "websiteUrl": "https://bloss.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/c2f7dd_63f3b9260ca243e882674a3b9cb5b75c~mv2.png/v1/fill/w_442,h_136,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOSS%20LOGO%20TRANSPARENT%20BACKGROUND.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 209,
+      "sha256": "ba957a696c1ac14723f8873878ccd1e2caa7b44214d7990f7aff9b8ecba6df19",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 14424,
+      "width": 442,
+      "height": 136,
+      "localUrl": "/merchant-logos/bloss-ba957a696c1a.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m5mp00rxq8iyvry3zmpd:a0f56cdae390",
+      "merchantId": "cmta1m5mp00rxq8iyvry3zmpd",
+      "merchantName": "Cakeshop",
+      "merchantSlug": "cakeshop",
+      "websiteUrl": "https://cakeshop.gr/",
+      "sourceUrl": "https://www.cakeshop.gr/img/logo.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "a0f56cdae3900e1b7bdce457512bdadfaa1e0e7367765c883438e4505d86b9cf",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 5161,
+      "width": 185,
+      "height": 125,
+      "localUrl": "/merchant-logos/cakeshop-a0f56cdae390.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb6udw300003giywjrb4w57",
+      "merchantName": "5star Travel",
+      "merchantSlug": "5star-travel",
+      "websiteUrl": "https://5star-travel.gr",
+      "finalWebsiteUrl": "https://5star-travel.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.5star-travel.gr/skn/logo.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.5star-travel.gr/skn/logo.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 56207,
+        "width": 390,
+        "height": 190,
+        "sha256": "8cfbdbe781f8137e2abd831491de864e01450053b61e77e4f28797729d9fe345"
+      }
+    },
+    {
+      "merchantId": "cmta5nlc8000654iynn5wpmru",
+      "merchantName": "Athens Green Apartments",
+      "merchantSlug": "athens-green-apartments",
+      "websiteUrl": "https://athensgreen.gr",
+      "finalWebsiteUrl": "https://athensgreen.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://l.icdbcdn.com/oh/5f9cb68d-70d2-4a3d-b541-f3c4873d5d93.png?w=400",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 136
+      },
+      "validatedAsset": {
+        "url": "https://l.icdbcdn.com/oh/5f9cb68d-70d2-4a3d-b541-f3c4873d5d93.png?w=400",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 2449,
+        "width": 172,
+        "height": 115,
+        "sha256": "87da1b4049abd9343f3f3dc1997579c5857848a78cdc98bc132ace33ccdb86db"
+      }
+    },
+    {
+      "merchantId": "cmta1hn3o009lq8iyhn7qa9mo",
+      "merchantName": "Bloss",
+      "merchantSlug": "bloss",
+      "websiteUrl": "https://bloss.gr",
+      "finalWebsiteUrl": "https://bloss.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c2f7dd_63f3b9260ca243e882674a3b9cb5b75c~mv2.png/v1/fill/w_442,h_136,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOSS%20LOGO%20TRANSPARENT%20BACKGROUND.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 209
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/c2f7dd_63f3b9260ca243e882674a3b9cb5b75c~mv2.png/v1/fill/w_442,h_136,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOSS%20LOGO%20TRANSPARENT%20BACKGROUND.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 14424,
+        "width": 442,
+        "height": 136,
+        "sha256": "ba957a696c1ac14723f8873878ccd1e2caa7b44214d7990f7aff9b8ecba6df19"
+      }
+    },
+    {
+      "merchantId": "cmta1m5mp00rxq8iyvry3zmpd",
+      "merchantName": "Cakeshop",
+      "merchantSlug": "cakeshop",
+      "websiteUrl": "https://cakeshop.gr",
+      "finalWebsiteUrl": "https://cakeshop.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.cakeshop.gr/img/logo.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.cakeshop.gr/img/logo.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 5161,
+        "width": 185,
+        "height": 125,
+        "sha256": "a0f56cdae3900e1b7bdce457512bdadfaa1e0e7367765c883438e4505d86b9cf"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:24:27.267Z",
+  "planId": "efd8cb5a59612b81c3592b15526fa1beec07161b58a33ac3166dab6ee0cbe010"
+}

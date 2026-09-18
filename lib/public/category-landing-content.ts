@@ -32,7 +32,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για σπίτι και διακόσμηση",
     intro:
       "Βρες δωροκάρτες για έπιπλα, διακόσμηση και οικιακό εξοπλισμό. Είναι μια πρακτική επιλογή για νέο σπίτι, ανανέωση χώρου ή καθημερινές ανάγκες.",
-    relatedSlugs: ["gifts-concept-stores", "technology", "arts-crafts"],
+    relatedSlugs: ["technology", "kids-baby", "fashion"],
   },
   "kids-baby": {
     seoTitle: "Δωροκάρτες για Παιδιά & Μωρά",
@@ -41,7 +41,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για παιδιά, μωρά και νέους γονείς",
     intro:
       "Ανακάλυψε δωροκάρτες για βρεφικά και παιδικά είδη, παιχνίδια, βιβλία και ρούχα. Δώσε στην οικογένεια την ελευθερία να επιλέξει αυτό που πραγματικά χρειάζεται.",
-    relatedSlugs: ["books", "education", "gifts-concept-stores"],
+    relatedSlugs: ["books", "home", "fashion"],
   },
   "spa-wellness": {
     seoTitle: "Δωροκάρτες Spa, Μασάζ & Ευεξίας",
@@ -59,7 +59,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για αθλητισμό και outdoor",
     intro:
       "Ανακάλυψε δωροκάρτες για αθλητικά είδη, ρούχα, παπούτσια και εξοπλισμό. Ο παραλήπτης επιλέγει αυτό που ταιριάζει στο άθλημα και στις ανάγκες του.",
-    relatedSlugs: ["fashion", "experiences", "automotive"],
+    relatedSlugs: ["fashion", "experiences", "travel"],
   },
   "jewelry-watches": {
     seoTitle: "Δωροκάρτες για Κοσμήματα & Ρολόγια",
@@ -68,7 +68,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για κοσμήματα και ρολόγια",
     intro:
       "Βρες δωροκάρτες για κοσμήματα, ρολόγια και αξεσουάρ, ώστε ο παραλήπτης να διαλέξει μέταλλο, σχέδιο και μέγεθος που ταιριάζουν στο προσωπικό του στιλ.",
-    relatedSlugs: ["fashion", "beauty", "gifts-concept-stores"],
+    relatedSlugs: ["fashion", "beauty", "experiences"],
   },
   "food-delivery": {
     seoTitle: "Δωροκάρτες για Τρόφιμα, Ποτά & Delivery",
@@ -77,7 +77,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για τρόφιμα, ποτά και delivery",
     intro:
       "Ανακάλυψε δωροκάρτες για αγορές τροφίμων και ποτών, κάβες, delicatessen, έτοιμο φαγητό και delivery. Σύγκρινε τις διαθέσιμες επιλογές και έλεγξε τους όρους στον επίσημο έμπορο.",
-    relatedSlugs: ["restaurants", "marketplaces", "experiences"],
+    relatedSlugs: ["restaurants", "experiences", "hotels"],
   },
   experiences: {
     seoTitle: "Δωροκάρτες Εμπειριών στην Ελλάδα",
@@ -95,7 +95,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για ταξίδια και αποδράσεις",
     intro:
       "Ανακάλυψε δωροκάρτες για ταξίδια, μετακινήσεις και ταξιδιωτικές υπηρεσίες. Μια ευέλικτη επιλογή ώστε ο παραλήπτης να οργανώσει την απόδραση γύρω από το δικό του πρόγραμμα.",
-    relatedSlugs: ["hotels", "experiences", "automotive"],
+    relatedSlugs: ["hotels", "experiences", "restaurants"],
   },
   technology: {
     seoTitle: "Δωροκάρτες Τεχνολογίας & Ηλεκτρονικών",
@@ -104,7 +104,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για τεχνολογία και ηλεκτρονικά",
     intro:
       "Βρες δωροκάρτες για ηλεκτρονικά, υπολογιστές, gaming και αξεσουάρ τεχνολογίας. Ο παραλήπτης επιλέγει τη συσκευή ή τον εξοπλισμό που ταιριάζει στις ανάγκες του.",
-    relatedSlugs: ["gaming", "marketplaces", "home"],
+    relatedSlugs: ["home", "sports", "experiences"],
   },
   hotels: {
     seoTitle: "Δωροκάρτες Ξενοδοχείων & Διαμονής",
@@ -122,7 +122,7 @@ const categoryLandingContent: Record<string, CategoryLandingContent> = {
     heading: "Δωροκάρτες για βιβλία και βιβλιοπωλεία",
     intro:
       "Βρες δωροκάρτες για βιβλία και αγορές από βιβλιοπωλεία. Ένα διαχρονικό δώρο που επιτρέπει σε κάθε αναγνώστη να επιλέξει τον επόμενο τίτλο του.",
-    relatedSlugs: ["education", "kids-baby", "arts-crafts"],
+    relatedSlugs: ["kids-baby", "home", "technology"],
   },
   restaurants: {
     seoTitle: "Δωροκάρτες Εστιατορίων & Γαστρονομίας",

@@ -1,0 +1,21 @@
+{
+  "version": "recipient-review-approvals-v6",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-12T07:12:02.887Z",
+  "planId": "283559f943f9f4b7f01bc9017a2b4c86d2a137b3fc80891b2ed9e8ee09c0ea2c",
+  "checked": 63,
+  "passed": 63,
+  "failed": [],
+  "current": {
+    "giftCards": 1135,
+    "activeCards": 1123,
+    "relations": 163,
+    "coveredCards": 100
+  },
+  "invariants": {
+    "giftCardsPreserved": true,
+    "activeCardsPreserved": true,
+    "relationCountMatches": true
+  },
+  "databaseWrites": 0
+}

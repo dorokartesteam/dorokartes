@@ -1,0 +1,19 @@
+{
+  "version": "occasion-evidence-v7",
+  "mode": "APPLY",
+  "appliedAt": "2026-09-12T09:08:05.519Z",
+  "planId": "85763982d257cf2beeb38e4c666d724f76b2a7d00e4a0cb25729a556c28056f8",
+  "applied": 19,
+  "before": {
+    "totalGiftCards": 1135,
+    "activeCards": 1123,
+    "relations": 163,
+    "coveredActiveCards": 100
+  },
+  "after": {
+    "totalGiftCards": 1135,
+    "activeCards": 1123,
+    "relations": 182,
+    "coveredActiveCards": 109
+  }
+}

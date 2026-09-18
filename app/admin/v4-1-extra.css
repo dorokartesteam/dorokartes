@@ -1,0 +1,28 @@
+
+/* v4.1 — CMS editor + verification workflow */
+.dk-detailhead-v41{align-items:flex-end!important;gap:24px}
+.dk-detail-actions-v41{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.dk-url-compare-v41{display:grid;grid-template-columns:minmax(0,1fr) 42px minmax(0,1fr);align-items:stretch;gap:10px;margin-bottom:16px}
+.dk-url-compare-v41 section{border:1px solid #202a3a;background:#0b111c;border-radius:15px;padding:18px;min-width:0}
+.dk-url-compare-v41 section.primary{border-color:#524482;background:linear-gradient(145deg,#11152a,#0d1220)}
+.dk-url-compare-v41 span{display:block;color:#687891;font-size:9px;font-weight:800;letter-spacing:.13em;margin-bottom:8px}
+.dk-url-compare-v41 b{display:block;color:#edf2ff;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dk-url-compare-v41 p{color:#74839a;font-size:11px;line-height:1.45;margin:7px 0 14px}
+.dk-url-compare-v41 a{color:#b7a5ff;font-size:11px;text-decoration:none}
+.dk-url-compare-v41 em{color:#df7d89;font-size:11px;font-style:normal}
+.dk-url-arrow-v41{display:grid;place-items:center;color:#6f5ba9;font-size:22px}
+.dk-card-health-v41{display:grid;grid-template-columns:145px minmax(0,1fr) auto;align-items:center;gap:18px;padding:16px 18px;margin-bottom:18px;border:1px solid #20293a;border-radius:15px;background:#0c121d}
+.dk-card-health-v41 .score strong{display:block;font-size:25px;color:#e9edff}.dk-card-health-v41 .score span{font-size:10px;color:#6e7d92}
+.dk-card-health-v41 .checks{display:flex;gap:7px;flex-wrap:wrap}.dk-card-health-v41 .checks span{font-size:10px;padding:6px 8px;border-radius:999px;border:1px solid #273144}.dk-card-health-v41 .checks .ok{color:#76d9b2;background:#0f211d}.dk-card-health-v41 .checks .missing{color:#d39a9f;background:#241419}
+.dk-card-health-v41 .dates{display:grid;gap:5px;text-align:right}.dk-card-health-v41 .dates span{font-size:10px;color:#66768d}.dk-card-health-v41 .dates b{color:#bec8d9;font-weight:600}
+.dk-editor-v41 .dk-editor-section-v41{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #1b2433}.dk-editor-v41 .dk-editor-section-v41:last-of-type{margin-bottom:14px}
+.dk-editor-v41 .dk-editorheading h3 em{font-size:10px;font-style:normal;color:#8c79d1;background:#1b1730;border-radius:999px;padding:3px 7px;margin-left:5px;vertical-align:2px}
+.dk-editor-v41 label small{display:block;color:#68788f;font-size:10px;line-height:1.4;margin-top:5px}
+.dk-editor-v41 .important-url input{border-color:#594d83!important;background:#101527!important}
+.dk-editor-v41 .important-url span{color:#c5b8ff!important}
+.dk-audit-list-v41{padding:7px 12px}.dk-audit-list-v41>div{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 5px;border-bottom:1px solid #182130}.dk-audit-list-v41>div:last-child{border-bottom:0}.dk-audit-list-v41 b{display:block;color:#dce5f3;font-size:12px}.dk-audit-list-v41 small{display:block;color:#6d7c91;font-size:10px;margin-top:3px}.dk-audit-list-v41 a{color:#a998ee;text-decoration:none;font-size:10px;white-space:nowrap}.dk-audit-list-v41.flags>div>span{max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8491a5;font-size:10px}
+.dk-merchant-stats-v41{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:16px}.dk-merchant-stats-v41>div{border:1px solid #20293a;border-radius:13px;background:#0c121d;padding:15px}.dk-merchant-stats-v41 strong{display:block;font-size:24px;color:#e8edfa}.dk-merchant-stats-v41 span{display:block;font-size:10px;color:#728198;margin-top:3px}.dk-merchant-stats-v41 .warn{border-color:#59422c;background:#19140d}.dk-merchant-stats-v41 .warn strong{color:#e4b46d}
+.dk-merchant-card-list-v41 .dk-cardlink{min-height:58px}.dk-merchant-card-list-v41 .dk-cardlink small{max-width:490px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dk-verify-actions-v41{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.dk-verify-actions-v41 .dk-btn{font-size:10px!important;padding:7px 9px!important;min-height:auto!important}.dk-verify-actions-v41 small{color:#df7e89;font-size:9px}
+.dk-verification-list-v41{padding:7px}.dk-verification-row-v41{display:grid;grid-template-columns:minmax(170px,1fr) auto auto;align-items:center;gap:10px;padding:12px;border-bottom:1px solid #182130}.dk-verification-row-v41:last-child{border-bottom:0}.dk-verification-row-v41>a.grow{text-decoration:none;min-width:0}.dk-verification-row-v41 b{display:block;color:#e5ebf7;font-size:12px}.dk-verification-row-v41 span{display:block;color:#9ba7ba;font-size:11px;margin-top:2px}.dk-verification-row-v41 small{display:block;color:#63738a;font-size:9px;margin-top:3px}.dk-verification-row-v41.compact{grid-template-columns:minmax(170px,1fr) auto}
+@media(max-width:1100px){.dk-url-compare-v41{grid-template-columns:1fr}.dk-url-arrow-v41{transform:rotate(90deg);height:24px}.dk-card-health-v41{grid-template-columns:1fr}.dk-card-health-v41 .dates{text-align:left}.dk-verification-row-v41,.dk-verification-row-v41.compact{grid-template-columns:1fr}.dk-merchant-stats-v41{grid-template-columns:repeat(2,minmax(0,1fr))}}

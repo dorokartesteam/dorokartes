@@ -1,0 +1,18 @@
+{
+  "version": "official-giftcard-url-remediation-v3",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-12T08:40:52.510Z",
+  "planId": "9b986cbab0f62da182b30121b40e8244c7d758ef5e09ece6aa1630aae458669e",
+  "checked": 4,
+  "passed": 4,
+  "failed": [],
+  "current": {
+    "totalGiftCards": 1135,
+    "activeGiftCards": 1123
+  },
+  "invariants": {
+    "totalGiftCardsPreserved": true,
+    "activeGiftCardsPreserved": true
+  },
+  "databaseWrites": 0
+}

@@ -1,0 +1,61 @@
+{
+  "version": 7,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-08T14:02:04.651Z",
+  "planId": "de91e6f669092fcce4908d5074a745cb9f0cc9305255820a6a12953bc5ffafb9",
+  "lineagePlanIds": [
+    "f3aca3c7d626eedc32f5a128ab4e1c3fcd672ae80641ede87ebfe9637cb5fbf4"
+  ],
+  "checked": 2,
+  "passed": 2,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Msystems",
+        "merchantSlug": "msystems-δωροκαρτα-10e",
+        "cardSlug": "msystems-δωροκαρτα-10e-msystems-δωροκαρτα-10e-δωροκαρτες",
+        "title": "Msystems Gift Card",
+        "status": "ACTIVE",
+        "verificationStatus": "VERIFIED",
+        "variantId": "cmtqxzk71000c6oiyzwws7bee",
+        "preservedValueIds": [
+          "cmtqxzk8b000d6oiy3kagj88c"
+        ],
+        "preservedDeliveryIds": [],
+        "preservedRedemptionIds": [
+          "cmtqxzk9m000e6oiyon1tmcx3",
+          "cmtqxzk9m000f6oiydcf846om"
+        ]
+      }
+    },
+    {
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Secrets of Beauty",
+        "merchantSlug": "secretsofbeauty",
+        "cardSlug": "secretsofbeauty-δωροκαρτα-300-secrets-of-beauty-θεσσαλονικη",
+        "title": "Secrets of Beauty Gift Card",
+        "status": "ACTIVE",
+        "verificationStatus": "NEEDS_REVIEW",
+        "variantId": "cmtn5x8jc000blsiycqwempns",
+        "preservedValueIds": [
+          "cmtn5x8le000clsiyp1z0qwsc"
+        ],
+        "preservedDeliveryIds": [
+          "cmtn5x8nf000dlsiy9095gg4r"
+        ],
+        "preservedRedemptionIds": [
+          "cmtn5x8q9000elsiyu3fuwvpo",
+          "cmtn5x8q9000flsiybyn886ee"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "version": 3,
+  "mode": "PREVIEW",
+  "sourceReportId": "2e2e891de9258127ae03d9baf5caf30b09f5f1152bf1c4f6d4cc4fcefa529cf1",
+  "sourceFingerprint": "c30d13e63d5ff7d0a0b92f751d2af70cbc0d6d2fcd234c60ab2c89b4a2035500",
+  "targetFingerprint": "e92aaf835cdc889413eaa6a883aa0e1f5d464351e216feb6c27ec9ab5416a995",
+  "targetCount": 5,
+  "actionCount": 10,
+  "unchangedFields": [
+    "Merchant.slug",
+    "Merchant.websiteUrl",
+    "GiftCard.slug",
+    "GiftCard.officialUrl"
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77srp004idkiywlcqejho",
+      "merchantId": "cmtb77srp004idkiywlcqejho",
+      "giftCardId": "cmtb77swu004jdkiyug4cfe0j",
+      "expected": "Αγοράστε μία Δωροκάρτα",
+      "value": "BeKIDS",
+      "evidenceCandidate": "BeKIDS Κατάστημα Παιδικών - Εφηβικών Ρούχων",
+      "evidenceScore": 70,
+      "evidenceSources": [
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://bekids.gr/"
+      ],
+      "rationale": "Manual approval: the official homepage title begins with BeKIDS and the current value is voucher-form copy."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77swu004jdkiyug4cfe0j",
+      "merchantId": "cmtb77srp004idkiywlcqejho",
+      "giftCardId": "cmtb77swu004jdkiyug4cfe0j",
+      "expected": "Αγοράστε μία Δωροκάρτα",
+      "value": "BeKIDS Gift Card",
+      "evidenceCandidate": "BeKIDS Κατάστημα Παιδικών - Εφηβικών Ρούχων",
+      "evidenceScore": 70,
+      "evidenceSources": [
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://bekids.gr/"
+      ],
+      "rationale": "Manual approval: the official homepage title begins with BeKIDS and the current value is voucher-form copy."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta4ywgf002ysciysp63rctm",
+      "merchantId": "cmta4ywgf002ysciysp63rctm",
+      "giftCardId": "cmta4ywn6002zsciyr9vasxj3",
+      "expected": "Δωροκάρτα mybeautybox",
+      "value": "mybeautybox",
+      "evidenceCandidate": "mybeautybox",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.mybeautybox.gr/",
+        "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3"
+      ],
+      "rationale": "Manual approval: both official pages agree on the brand without the product prefix."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4ywn6002zsciyr9vasxj3",
+      "merchantId": "cmta4ywgf002ysciysp63rctm",
+      "giftCardId": "cmta4ywn6002zsciyr9vasxj3",
+      "expected": "Δωροκάρτα mybeautybox",
+      "value": "mybeautybox Gift Card",
+      "evidenceCandidate": "mybeautybox",
+      "evidenceScore": 195,
+      "evidenceSources": [
+        "GIFT_OG_SITE_NAME",
+        "HOME_OG_SITE_NAME"
+      ],
+      "evidenceUrls": [
+        "https://www.mybeautybox.gr/",
+        "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3"
+      ],
+      "rationale": "Manual approval: both official pages agree on the brand without the product prefix."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb787zh006ndkiyobzskgz8",
+      "merchantId": "cmtb787zh006ndkiyobzskgz8",
+      "giftCardId": "cmtb78851006odkiyq49ms3f9",
+      "expected": "Στείλτε μια Δωροκάρτα",
+      "value": "MaaMonPapa",
+      "evidenceCandidate": "MaaMonPapa.gr",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.maamonpapa.gr/",
+        "https://www.maamonpapa.gr/index.php?route=account/voucher"
+      ],
+      "rationale": "Manual approval: official structured data and both page logos agree; only the domain suffix is removed."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb78851006odkiyq49ms3f9",
+      "merchantId": "cmtb787zh006ndkiyobzskgz8",
+      "giftCardId": "cmtb78851006odkiyq49ms3f9",
+      "expected": "Στείλτε μια Δωροκάρτα",
+      "value": "MaaMonPapa Gift Card",
+      "evidenceCandidate": "MaaMonPapa.gr",
+      "evidenceScore": 255,
+      "evidenceSources": [
+        "GIFT_LOGO_ALT",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_LOGO_ALT",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.maamonpapa.gr/",
+        "https://www.maamonpapa.gr/index.php?route=account/voucher"
+      ],
+      "rationale": "Manual approval: official structured data and both page logos agree; only the domain suffix is removed."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77a4l001udkiyprjgdlft",
+      "merchantId": "cmtb77a4l001udkiyprjgdlft",
+      "giftCardId": "cmtb77aa9001vdkiykzcb5zp5",
+      "expected": "Christmas Gift Cards",
+      "value": "Kinesis Gym",
+      "evidenceCandidate": "Kinesis Gym – Γυμναστήριο Κιλκίς",
+      "evidenceScore": 70,
+      "evidenceSources": [
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://kinesis-gym.gr/"
+      ],
+      "rationale": "Manual approval: the official homepage title names Kinesis Gym; the Christmas program remains explicit."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77aa9001vdkiykzcb5zp5",
+      "merchantId": "cmtb77a4l001udkiyprjgdlft",
+      "giftCardId": "cmtb77aa9001vdkiykzcb5zp5",
+      "expected": "Christmas Gift Cards",
+      "value": "Kinesis Gym Christmas Gift Card",
+      "evidenceCandidate": "Kinesis Gym – Γυμναστήριο Κιλκίς",
+      "evidenceScore": 70,
+      "evidenceSources": [
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://kinesis-gym.gr/"
+      ],
+      "rationale": "Manual approval: the official homepage title names Kinesis Gym; the Christmas program remains explicit."
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb77dz2002edkiyhwhmrr7j",
+      "merchantId": "cmtb77dz2002edkiyhwhmrr7j",
+      "giftCardId": "cmtb77e4k002fdkiygyq7c6md",
+      "expected": "Massage Gift Vouchers in Chania",
+      "value": "Nirvana Massage & Beauty Spa",
+      "evidenceCandidate": "NIRVANA Massage & Beauty Spa",
+      "evidenceScore": 230,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.nirvana-massage.gr/",
+        "https://www.nirvana-massage.gr/gift-vouchers/"
+      ],
+      "rationale": "Manual approval: structured organization identity agrees across homepage and gift-card page."
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77e4k002fdkiygyq7c6md",
+      "merchantId": "cmtb77dz2002edkiyhwhmrr7j",
+      "giftCardId": "cmtb77e4k002fdkiygyq7c6md",
+      "expected": "Massage Gift Vouchers in Chania | The Perfect Wellness Gift",
+      "value": "Nirvana Massage & Beauty Spa Gift Card",
+      "evidenceCandidate": "NIRVANA Massage & Beauty Spa",
+      "evidenceScore": 230,
+      "evidenceSources": [
+        "GIFT_JSONLD_ORGANIZATION",
+        "HOME_JSONLD_ORGANIZATION",
+        "HOME_TITLE"
+      ],
+      "evidenceUrls": [
+        "https://www.nirvana-massage.gr/",
+        "https://www.nirvana-massage.gr/gift-vouchers/"
+      ],
+      "rationale": "Manual approval: structured organization identity agrees across homepage and gift-card page."
+    }
+  ],
+  "generatedAt": "2026-09-07T07:23:25.795Z",
+  "planId": "989620b051e046bb5462e36f042902043243366e0efbfeb8bc20a592b3cc0e62"
+}

@@ -4,6 +4,7 @@ import PublicHeader from "@/components/public/PublicHeader";
 import PublicFooter from "@/components/public/PublicFooter";
 import GiftCardCard from "@/components/public/GiftCardCard";
 import PublicPagination from "@/components/public/PublicPagination";
+import HeroSearch from "@/components/public/HeroSearch";
 import { prisma } from "@/lib/prisma";
 import {
   browseCards,
@@ -129,18 +130,7 @@ export default async function BrowsePage({
               {totalCount.toLocaleString("el-GR")} αποτελέσματα με τα τρέχοντα φίλτρα
               {totalPages > 1 ? ` · Σελίδα ${currentPage} από ${totalPages}` : ""}.
             </p>
-            <form className="dk14-search" action="/browse" method="get" role="search">
-              <span className="dk14-search-icon" aria-hidden="true">⌕</span>
-              <input
-                name="q"
-                defaultValue={q || ""}
-                placeholder="Sephora, spa, gaming, παιδί, ρούχα..."
-                aria-label="Αναζήτηση δωροκάρτας"
-              />
-              {category ? <input type="hidden" name="category" value={category} /> : null}
-              {occasion ? <input type="hidden" name="occasion" value={occasion} /> : null}
-              <button type="submit">Αναζήτηση</button>
-            </form>
+            <HeroSearch initial={q || ""} category={category} occasion={occasion} />
           </div>
 
           {activeOccasion ? (

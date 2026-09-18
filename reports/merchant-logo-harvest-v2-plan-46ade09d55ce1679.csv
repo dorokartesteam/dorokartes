@@ -1,0 +1,2 @@
+﻿status,merchantId,merchantName,merchantSlug,websiteUrl,finalWebsiteUrl,reasonCodes,candidateSource,candidateScore,candidateUrl,evidence,sha256,width,height,bytes
+SAFE,cmtb7hyti000i04iyexyvbb7e,& Spa Voucherss,and-spa-vouchers,https://divaniapollonhotel.com,https://divaniapollonhotel.com/,OFFICIAL_WEBSITE_PAGE|SITE_ICON|SAME_SITE_ASSET|IMAGE_VALIDATED,SITE_ICON,81,https://divaniapollonhotel.com/wp-content/uploads/2025/05/fav_120x120.png,link rel=icon,d8cdf498aba1399b4cb05ad8867e6e5ee1c85974ea45d425591f8a8f2334a75b,120,120,5471

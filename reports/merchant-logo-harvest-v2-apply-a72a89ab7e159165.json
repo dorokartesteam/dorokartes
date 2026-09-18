@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T11:11:15.923Z",
+  "planId": "a72a89ab7e15916581baaf80a16325bc2945a7707b0995193350cbc9e52ff499",
+  "appliedCount": 3,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1g31o004kq8iy8cy0v47p:c1b47bc2802e",
+      "merchantId": "cmta1g31o004kq8iy8cy0v47p",
+      "localUrl": "/merchant-logos/gr-c1b47bc2802e.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ijt600d1q8iyxb82btou:14e39849a9fe",
+      "merchantId": "cmta1ijt600d1q8iyxb82btou",
+      "localUrl": "/merchant-logos/jonak-14e39849a9fe.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fdbr0022q8iyso2oofv7:2a63f79f610f",
+      "merchantId": "cmta1fdbr0022q8iyso2oofv7",
+      "localUrl": "/merchant-logos/stefanoumarine-2a63f79f610f.webp"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 15,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-02T09:31:36.036Z",
+  "planId": "68df5be625218d5fee705049f681eca84cec83ca8180c2ec3969c56eedcc536a",
+  "checked": 21,
+  "passed": 21,
+  "failed": 0,
+  "archivedCards": 7,
+  "activeKeepers": 7,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "actionId": "archive-verified-duplicate:cmta1fp5c0037q8iy0bte1j9f",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmta1g5lj004tq8iy2gi1o7hn",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmta1g612004uq8iy6ctyhbtp",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmta1ldih00owq8iybi4h3dxo",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmtb6uo3d001i3giyiq64l7pb",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmtb7r23t0004u8iyh8gmkixy",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "archive-verified-duplicate:cmtb7r3ne000bu8iyhr8e822r",
+      "type": "ARCHIVE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-merchant:cmta1g5ei004sq8iyj1nwtg24",
+      "type": "UPDATE_MERCHANT",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-merchant:cmta1ldb100ovq8iysbonr92k",
+      "type": "UPDATE_MERCHANT",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-card:cmta1in6000deq8iyzrf26jcw",
+      "type": "UPDATE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-card:cmta421t70002t8iywrh9oyoy",
+      "type": "UPDATE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-card:cmta5nnqb000j54iy5h71qhyd",
+      "type": "UPDATE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-card:cmta5nyde002454iyc6vaizw0",
+      "type": "UPDATE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-card:cmtb77tnt004ndkiyw1tey12d",
+      "type": "UPDATE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-card:cmtb785to006cdkiy9ubl9s4x",
+      "type": "UPDATE_CARD",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmta1in6000deq8iyzrf26jcw:1:DIGITAL",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmta421t70002t8iywrh9oyoy:2:DIGITAL",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmta5nyde002454iyc6vaizw0:5:DIGITAL_AND_PHYSICAL",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77tnt004ndkiyw1tey12d:0:DIGITAL",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb785to006cdkiy9ubl9s4x:3:DIGITAL",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb785to006cdkiy9ubl9s4x:4:CORPORATE",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    }
+  ]
+}

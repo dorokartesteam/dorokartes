@@ -1,0 +1,487 @@
+
+/* ==========================================================================
+   Dorokartes Admin v4.4 — Detail Workspace
+   Polishes Gift Card / Merchant detail and editor screens.
+   No sidebar changes. No data/schema changes.
+   ========================================================================== */
+
+.dk-main .dk-detailhead{
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  gap:24px !important;
+  align-items:end !important;
+  padding:0 0 8px !important;
+}
+
+.dk-main .dk-detailhead>div:first-child{
+  min-width:0 !important;
+}
+
+.dk-main .dk-detailhead .dk-status{
+  margin-top:9px !important;
+}
+
+.dk-main .dk-detailhead-actions,
+.dk-main .dk-detail-actions{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-end !important;
+  flex-wrap:wrap !important;
+  gap:9px !important;
+}
+
+.dk-main .dk-detailhead-actions a,
+.dk-main .dk-detailhead-actions button,
+.dk-main .dk-detail-actions a,
+.dk-main .dk-detail-actions button{
+  min-height:42px !important;
+  padding:0 15px !important;
+  border:1px solid #2d384d !important;
+  border-radius:10px !important;
+  background:#101724 !important;
+  color:#cbd4e2 !important;
+  font:inherit !important;
+  font-size:12px !important;
+  font-weight:680 !important;
+  text-decoration:none !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:7px !important;
+}
+
+.dk-main .dk-detailhead-actions .primary,
+.dk-main .dk-detail-actions .primary{
+  border-color:#6c57d9 !important;
+  background:linear-gradient(145deg,#8065ee,#6550d7) !important;
+  color:white !important;
+}
+
+/* ---------- summary / readiness ---------- */
+.dk-main .dk-readiness,
+.dk-main .dk-readinesscard,
+.dk-main .dk-summarycard,
+.dk-main .dk-detail-summary{
+  border-radius:18px !important;
+  border:1px solid #2a3448 !important;
+  background:
+    radial-gradient(circle at 90% 10%,rgba(132,101,255,.11),transparent 36%),
+    linear-gradient(145deg,#111927,#0d1420) !important;
+  padding:20px !important;
+}
+
+.dk-main .dk-readiness strong,
+.dk-main .dk-readinesscard strong,
+.dk-main .dk-summarycard strong,
+.dk-main .dk-detail-summary strong{
+  color:#f2f5fa !important;
+}
+
+.dk-main .dk-readiness small,
+.dk-main .dk-readinesscard small,
+.dk-main .dk-summarycard small,
+.dk-main .dk-detail-summary small{
+  color:#7d8ca2 !important;
+}
+
+/* ---------- key facts ---------- */
+.dk-main .dk-facts,
+.dk-main .dk-detailfacts,
+.dk-main .dk-infogrid{
+  display:grid !important;
+  grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+  gap:12px !important;
+  margin:18px 0 22px !important;
+}
+
+.dk-main .dk-facts>div,
+.dk-main .dk-detailfacts>div,
+.dk-main .dk-infogrid>div{
+  min-height:84px !important;
+  padding:15px 16px !important;
+  border:1px solid #253047 !important;
+  border-radius:14px !important;
+  background:#0d1420 !important;
+}
+
+.dk-main .dk-facts span,
+.dk-main .dk-detailfacts span,
+.dk-main .dk-infogrid span{
+  display:block !important;
+  color:#6f7f96 !important;
+  font-size:10px !important;
+  font-weight:800 !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+}
+
+.dk-main .dk-facts b,
+.dk-main .dk-detailfacts b,
+.dk-main .dk-infogrid b{
+  display:block !important;
+  margin-top:7px !important;
+  color:#e9eef7 !important;
+  font-size:14px !important;
+  line-height:1.35 !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+}
+
+/* ---------- editor section hierarchy ---------- */
+.dk-main .dk-editorsection,
+.dk-main .dk-editor-section{
+  margin:0 0 18px !important;
+  border:1px solid #273247 !important;
+  border-radius:18px !important;
+  overflow:hidden !important;
+  background:linear-gradient(180deg,#0f1724,#0c131e) !important;
+}
+
+.dk-main .dk-editorsection:last-child,
+.dk-main .dk-editor-section:last-child{
+  margin-bottom:0 !important;
+}
+
+.dk-main .dk-editorsectionhead,
+.dk-main .dk-editor-section-head{
+  padding:18px 20px !important;
+  border-bottom:1px solid #1d2737 !important;
+  background:linear-gradient(90deg,#111927,#0e1622) !important;
+}
+
+.dk-main .dk-editorsectionhead h3,
+.dk-main .dk-editor-section-head h3{
+  margin:0 !important;
+  color:#eef3fb !important;
+  font-size:17px !important;
+  line-height:1.2 !important;
+  font-weight:720 !important;
+  letter-spacing:-.018em !important;
+}
+
+.dk-main .dk-editorsectionhead p,
+.dk-main .dk-editor-section-head p{
+  margin:5px 0 0 !important;
+  color:#7c8aa0 !important;
+  font-size:12px !important;
+  line-height:1.5 !important;
+}
+
+.dk-main .dk-editorsectionbody,
+.dk-main .dk-editor-section-body{
+  padding:20px !important;
+}
+
+/* ---------- URL cards: merchant website vs official gift card ---------- */
+.dk-main .dk-urlgrid,
+.dk-main .dk-url-grid{
+  display:grid !important;
+  grid-template-columns:1fr 1fr !important;
+  gap:14px !important;
+  margin:14px 0 18px !important;
+}
+
+.dk-main .dk-urlcard,
+.dk-main .dk-url-card{
+  position:relative !important;
+  min-height:118px !important;
+  padding:17px 18px !important;
+  border:1px solid #2a354a !important;
+  border-radius:15px !important;
+  background:#0a111c !important;
+  overflow:hidden !important;
+}
+
+.dk-main .dk-urlcard.merchant,
+.dk-main .dk-url-card.merchant{
+  border-color:#2c3b52 !important;
+  background:linear-gradient(145deg,#0b141f,#0a111a) !important;
+}
+
+.dk-main .dk-urlcard.official,
+.dk-main .dk-url-card.official{
+  border-color:#594ca2 !important;
+  background:
+    radial-gradient(circle at 95% 0,rgba(128,99,239,.14),transparent 42%),
+    linear-gradient(145deg,#131329,#0c1320) !important;
+}
+
+.dk-main .dk-urlcard label,
+.dk-main .dk-url-card label{
+  display:flex !important;
+  align-items:center !important;
+  gap:8px !important;
+  color:#7f8ea5 !important;
+  font-size:10px !important;
+  font-weight:800 !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+}
+
+.dk-main .dk-urlcard b,
+.dk-main .dk-url-card b{
+  display:block !important;
+  margin-top:9px !important;
+  color:#e7edf7 !important;
+  font-size:14px !important;
+  line-height:1.4 !important;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+}
+
+.dk-main .dk-urlcard p,
+.dk-main .dk-url-card p{
+  margin:8px 0 0 !important;
+  color:#6f7f96 !important;
+  font-size:11px !important;
+  line-height:1.45 !important;
+}
+
+.dk-main .dk-urlcard a,
+.dk-main .dk-url-card a{
+  display:inline-flex !important;
+  margin-top:11px !important;
+  color:#aa9bff !important;
+  font-size:11px !important;
+  text-decoration:none !important;
+}
+
+/* ---------- warning / guidance ---------- */
+.dk-main .dk-warning,
+.dk-main .dk-editorwarning,
+.dk-main .dk-urlwarning{
+  border:1px solid #66502d !important;
+  border-radius:13px !important;
+  background:linear-gradient(145deg,#21190d,#17130d) !important;
+  color:#d9b778 !important;
+  padding:13px 15px !important;
+  font-size:12px !important;
+  line-height:1.55 !important;
+}
+
+.dk-main .dk-success,
+.dk-main .dk-editor-success{
+  border:1px solid #285746 !important;
+  border-radius:13px !important;
+  background:linear-gradient(145deg,#0f211b,#0d1816) !important;
+  color:#84d8ba !important;
+  padding:13px 15px !important;
+  font-size:12px !important;
+}
+
+/* ---------- tabs inside editors ---------- */
+.dk-main .dk-tabs,
+.dk-main .dk-editortabs{
+  display:flex !important;
+  gap:6px !important;
+  padding:8px !important;
+  margin-bottom:18px !important;
+  border:1px solid #273247 !important;
+  border-radius:13px !important;
+  background:#0b111c !important;
+}
+
+.dk-main .dk-tabs a,
+.dk-main .dk-tabs button,
+.dk-main .dk-editortabs a,
+.dk-main .dk-editortabs button{
+  min-height:38px !important;
+  padding:0 14px !important;
+  border:1px solid transparent !important;
+  border-radius:9px !important;
+  background:transparent !important;
+  color:#7f8da3 !important;
+  font:inherit !important;
+  font-size:12px !important;
+  font-weight:650 !important;
+  text-decoration:none !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  cursor:pointer !important;
+}
+
+.dk-main .dk-tabs .active,
+.dk-main .dk-editortabs .active{
+  color:#f0ecff !important;
+  border-color:#514482 !important;
+  background:linear-gradient(145deg,#211b38,#171828) !important;
+}
+
+/* ---------- taxonomy in editor ---------- */
+.dk-main .dk-taxonomy-picker,
+.dk-main .dk-chipsection{
+  padding:15px !important;
+  border:1px solid #243046 !important;
+  border-radius:14px !important;
+  background:#0b121d !important;
+}
+
+.dk-main .dk-taxonomy-picker>header,
+.dk-main .dk-chipsection>header{
+  display:flex !important;
+  justify-content:space-between !important;
+  gap:16px !important;
+  align-items:center !important;
+  margin-bottom:11px !important;
+}
+
+.dk-main .dk-taxonomy-picker>header b,
+.dk-main .dk-chipsection>header b{
+  font-size:13px !important;
+  color:#dce4ef !important;
+}
+
+/* ---------- merchant gift card list ---------- */
+.dk-main .dk-merchantcards,
+.dk-main .dk-relatedcards{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:12px !important;
+}
+
+.dk-main .dk-merchantcards>a,
+.dk-main .dk-relatedcards>a{
+  min-height:82px !important;
+  padding:15px 16px !important;
+  border:1px solid #263146 !important;
+  border-radius:14px !important;
+  background:#0c131e !important;
+  text-decoration:none !important;
+  transition:.13s ease !important;
+}
+
+.dk-main .dk-merchantcards>a:hover,
+.dk-main .dk-relatedcards>a:hover{
+  border-color:#4a4579 !important;
+  background:#111828 !important;
+  transform:translateY(-1px) !important;
+}
+
+.dk-main .dk-merchantcards>a b,
+.dk-main .dk-relatedcards>a b{
+  display:block !important;
+  color:#e9eef7 !important;
+  font-size:14px !important;
+  line-height:1.3 !important;
+}
+
+.dk-main .dk-merchantcards>a small,
+.dk-main .dk-relatedcards>a small{
+  display:block !important;
+  color:#6f7f96 !important;
+  font-size:11px !important;
+  margin-top:5px !important;
+}
+
+/* ---------- sources/history ---------- */
+.dk-main .dk-source-list,
+.dk-main .dk-history-list,
+.dk-main .dk-reviewflags{
+  display:grid !important;
+  gap:9px !important;
+}
+
+.dk-main .dk-source-list>div,
+.dk-main .dk-history-list>div,
+.dk-main .dk-reviewflags>div{
+  padding:13px 14px !important;
+  border:1px solid #202b3e !important;
+  border-radius:12px !important;
+  background:#0a111b !important;
+}
+
+.dk-main .dk-source-list b,
+.dk-main .dk-history-list b,
+.dk-main .dk-reviewflags b{
+  color:#dfe6f1 !important;
+  font-size:12px !important;
+}
+
+.dk-main .dk-source-list small,
+.dk-main .dk-history-list small,
+.dk-main .dk-reviewflags small{
+  color:#67778f !important;
+  font-size:10px !important;
+  line-height:1.45 !important;
+}
+
+/* ---------- sticky save zone ---------- */
+.dk-main .dk-editorfooter,
+.dk-main .dk-savebar,
+.dk-main .dk-editor-actions{
+  position:sticky !important;
+  z-index:18 !important;
+  bottom:14px !important;
+  min-height:66px !important;
+  margin-top:22px !important;
+  padding:12px 14px !important;
+  border:1px solid #303b51 !important;
+  border-radius:15px !important;
+  background:rgba(11,17,28,.94) !important;
+  box-shadow:0 18px 50px rgba(0,0,0,.38) !important;
+  backdrop-filter:blur(16px) saturate(130%) !important;
+}
+
+.dk-main .dk-editorfooter button,
+.dk-main .dk-savebar button,
+.dk-main .dk-editor-actions button{
+  min-height:42px !important;
+}
+
+/* ---------- destructive ---------- */
+.dk-main .dk-dangerzone,
+.dk-main .dk-danger-zone{
+  margin-top:24px !important;
+  padding:17px !important;
+  border:1px solid #563239 !important;
+  border-radius:15px !important;
+  background:#180f13 !important;
+}
+
+.dk-main .dk-dangerzone b,
+.dk-main .dk-danger-zone b{
+  color:#e6a0a8 !important;
+  font-size:13px !important;
+}
+
+/* ---------- responsive ---------- */
+@media(max-width:1200px){
+  .dk-main .dk-facts,
+  .dk-main .dk-detailfacts,
+  .dk-main .dk-infogrid{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  }
+
+  .dk-main .dk-urlgrid,
+  .dk-main .dk-url-grid{
+    grid-template-columns:1fr !important;
+  }
+}
+
+@media(max-width:900px){
+  .dk-main .dk-detailhead{
+    grid-template-columns:1fr !important;
+    align-items:start !important;
+  }
+
+  .dk-main .dk-detailhead-actions,
+  .dk-main .dk-detail-actions{
+    justify-content:flex-start !important;
+  }
+
+  .dk-main .dk-facts,
+  .dk-main .dk-detailfacts,
+  .dk-main .dk-infogrid,
+  .dk-main .dk-merchantcards,
+  .dk-main .dk-relatedcards{
+    grid-template-columns:1fr !important;
+  }
+
+  .dk-main .dk-editorfooter,
+  .dk-main .dk-savebar,
+  .dk-main .dk-editor-actions{
+    bottom:8px !important;
+  }
+}

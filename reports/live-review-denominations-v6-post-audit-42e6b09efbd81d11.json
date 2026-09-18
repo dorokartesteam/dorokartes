@@ -1,0 +1,48 @@
+{
+  "version": 6,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-08T13:44:15.090Z",
+  "planId": "42e6b09efbd81d11a8ca1b455b00bbc3ac3ddbafed9b8649a7fabe2a661fc771",
+  "checked": 3,
+  "passed": 3,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "merchantId": "cmta1it7x00e7q8iyoinm2cbt",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Materiaprima",
+        "merchantSlug": "materiaprima",
+        "cardSlug": "materiaprima-δωροκαρτα-70-materiaprima",
+        "status": "ACTIVE",
+        "verificationStatus": "NEEDS_REVIEW"
+      }
+    },
+    {
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Tacticalstore",
+        "merchantSlug": "tacticalstore",
+        "cardSlug": "tacticalstore-δωροκαρτα-50-tactical-digital-gift-card-tacticalstore",
+        "status": "ACTIVE",
+        "verificationStatus": "NEEDS_REVIEW"
+      }
+    },
+    {
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "merchantId": "cmta1nys900yxq8iye6g35elk",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Vinylartclothing",
+        "merchantSlug": "vinylartclothing",
+        "cardSlug": "vinylartclothing-vinyl-gift-card-40",
+        "status": "ACTIVE",
+        "verificationStatus": "NEEDS_REVIEW"
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "9fce04ad801b212e415ec03b13f1750c620177e46555909056044f3d7ff1471e",
+  "targetCount": 5,
+  "concurrency": 4,
+  "summary": {
+    "safe": 2,
+    "review": 3,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1fb6o001wq8iy33a59phq:636ab5ebf8d3",
+      "merchantId": "cmta1fb6o001wq8iy33a59phq",
+      "merchantName": "Babydream",
+      "merchantSlug": "babydream",
+      "websiteUrl": "https://babydream.gr/",
+      "sourceUrl": "https://babydream.gr/image/catalog/LOGO-test.svg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 346,
+      "sha256": "636ab5ebf8d32938c21fba6ca2777928bd507a9b09cd444991ba35cbc936f056",
+      "contentType": "image/svg+xml",
+      "extension": ".svg",
+      "bytes": 56632,
+      "width": 274,
+      "height": 75,
+      "localUrl": "/merchant-logos/babydream-636ab5ebf8d3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4y9p8000csciy38yiy1ff:8dcc22d12fc6",
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "merchantName": "Δωροκάρτα Beababy e",
+      "merchantSlug": "δωροκαρτα-beababy-e",
+      "websiteUrl": "https://beababy.gr/",
+      "sourceUrl": "https://beababy.gr/wp-content/uploads/2024/11/beababy-logo-1.png.webp",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 318,
+      "sha256": "8dcc22d12fc669f45417031d6b27ada8949f8280fb0e06314fb5ba17f3a355bc",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 18300,
+      "width": 640,
+      "height": 229,
+      "localUrl": "/merchant-logos/beababy-e-8dcc22d12fc6.webp"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "merchantName": "Artcolour",
+      "merchantSlug": "artcolour",
+      "websiteUrl": "https://artcolour.gr",
+      "finalWebsiteUrl": "https://artcolour.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_403"
+      ],
+      "bestCandidate": {
+        "url": "https://www.artcolour.gr/wp-content/uploads/2026/01/cropped-ArtColour-Logo-12x3-Art-Supplies-Store.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1fb6o001wq8iy33a59phq",
+      "merchantName": "Babydream",
+      "merchantSlug": "babydream",
+      "websiteUrl": "https://babydream.gr",
+      "finalWebsiteUrl": "https://babydream.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://babydream.gr/image/catalog/LOGO-test.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": {
+        "url": "https://babydream.gr/image/catalog/LOGO-test.svg",
+        "contentType": "image/svg+xml",
+        "extension": ".svg",
+        "bytes": 56632,
+        "width": 274,
+        "height": 75,
+        "sha256": "636ab5ebf8d32938c21fba6ca2777928bd507a9b09cd444991ba35cbc936f056"
+      }
+    },
+    {
+      "merchantId": "cmta1hwv400anq8iyxlzbv2x8",
+      "merchantName": "Desenio",
+      "merchantSlug": "desenio",
+      "websiteUrl": "https://desenio.gr",
+      "finalWebsiteUrl": "https://desenio.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_429"
+      ],
+      "bestCandidate": {
+        "url": "https://desenio.gr/_next/static/immutable/media/logo.13n5i0xk0pj1q.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uzla00373giydd6wqbju",
+      "merchantName": "Optika Liolios",
+      "merchantSlug": "δωροκαρτες",
+      "websiteUrl": "https://optikaliolios.gr",
+      "finalWebsiteUrl": "https://optikaliolios.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_403"
+      ],
+      "bestCandidate": {
+        "url": "https://www.optikaliolios.gr/ui/main/img/optika_liolios_logo_main.webp?id=fee456335a2aeb6af068b08fd39a22b3",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "merchantName": "Δωροκάρτα Beababy e",
+      "merchantSlug": "δωροκαρτα-beababy-e",
+      "websiteUrl": "https://beababy.gr",
+      "finalWebsiteUrl": "https://beababy.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://beababy.gr/wp-content/uploads/2024/11/beababy-logo-1.png.webp",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": {
+        "url": "https://beababy.gr/wp-content/uploads/2024/11/beababy-logo-1.png.webp",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 18300,
+        "width": 640,
+        "height": 229,
+        "sha256": "8dcc22d12fc669f45417031d6b27ada8949f8280fb0e06314fb5ba17f3a355bc"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T11:31:55.017Z",
+  "planId": "6f8dd568b263f8a37c9299c0abdd7f3d96c52654bbb8105ca1828d73945020eb"
+}

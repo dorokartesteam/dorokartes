@@ -1,0 +1,21 @@
+{
+  "version": 4,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-07T08:55:32.151Z",
+  "planId": "ef46e4c1b0424197a4af327317db1e9d7514ed6cd976a811e61c29198f3e9ac1",
+  "checked": 1,
+  "passed": 1,
+  "failed": 0,
+  "databaseWrites": 0,
+  "result": {
+    "cardId": "cmta1fxm40041q8iyf19nk7km",
+    "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+    "passed": true,
+    "preserved": {
+      "merchantName": "iQueens",
+      "merchantSlug": "iqueens",
+      "cardSlug": "iqueens-iqueens-το-ιδανικο-δωρο-δωροκαρτες-απο-20-εως-400",
+      "status": "ACTIVE"
+    }
+  }
+}

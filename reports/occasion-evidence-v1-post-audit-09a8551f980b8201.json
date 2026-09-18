@@ -1,0 +1,9 @@
+{
+  "version": "occasion-evidence-v1",
+  "mode": "POST_AUDIT",
+  "planId": "c59dafc7ed0c977b4bedd5dafc2a52b89d4a14fb5fc334099ca1ed9ca47c5590",
+  "auditedAt": "2026-09-04T15:51:24.848Z",
+  "checked": 7,
+  "passed": 7,
+  "failed": []
+}

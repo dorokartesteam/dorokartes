@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T18:55:16.244Z",
+  "planId": "a9b1248f6a13b07623450d817a09f513906aa86d315f4d91c35572a819837def",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb7i26i000z04iyas90sthl:3dca1e5a62c0",
+      "merchantId": "cmtb7i26i000z04iyas90sthl",
+      "localUrl": "/merchant-logos/massage-gift-card-by-mindful-touch-in-chania-crete-3dca1e5a62c0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6utaw00293giyc40zz7r9:f728cbb16f96",
+      "merchantId": "cmtb6utaw00293giyc40zz7r9",
+      "localUrl": "/merchant-logos/www-katoflitavern-gr-f728cbb16f96.webp"
+    }
+  ]
+}

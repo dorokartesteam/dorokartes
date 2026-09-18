@@ -1,0 +1,574 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "75121ed1e5e6b71270311e1f544da8cd283804caf1c81d007d3b8cb5bf2d2e5e",
+  "targetCount": 14,
+  "concurrency": 4,
+  "summary": {
+    "safe": 10,
+    "review": 4,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmtb6uhnb000k3giyxddgyqfa:036a06914fe2",
+      "merchantId": "cmtb6uhnb000k3giyxddgyqfa",
+      "merchantName": "Best Western",
+      "merchantSlug": "best-western-gift-card",
+      "websiteUrl": "https://bestwestern.gr/",
+      "sourceUrl": "https://www.bestwestern.gr/images/logos/best-western-hotels-resorts-nav.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "036a06914fe2ac2794d6596d0d9b400425c7a307c462d9c1789a0b246b4206d2",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 75785,
+      "width": 1920,
+      "height": 382,
+      "localUrl": "/merchant-logos/best-western-gift-card-036a06914fe2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kkh000llq8iyqh4xpyae:48a0874d1a96",
+      "merchantId": "cmta1kkh000llq8iyqh4xpyae",
+      "merchantName": "Converse",
+      "merchantSlug": "converse",
+      "websiteUrl": "https://converse.gr/",
+      "sourceUrl": "https://www.converse.gr/static/version1787053440/frontend/ConverseExtended/DefaultTheme/el_GR/images/logo.svg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 346,
+      "sha256": "48a0874d1a96137739c7ac3338cea1d998713203e10c079a4c7e7fb95b96db28",
+      "contentType": "image/svg+xml",
+      "extension": ".svg",
+      "bytes": 4367,
+      "width": 250,
+      "height": 29,
+      "localUrl": "/merchant-logos/converse-48a0874d1a96.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hzo100azq8iy5b6q7jky:332b313fa3d3",
+      "merchantId": "cmta1hzo100azq8iy5b6q7jky",
+      "merchantName": "E Jumbo",
+      "merchantSlug": "e-jumbo",
+      "websiteUrl": "https://e-jumbo.gr/",
+      "sourceUrl": "https://jumbograzure.lhscdn.com/uploads/sites/331/siteimage-logonormal.png?lm=890b48c1e416d53e750e2b23484967a1",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 209,
+      "sha256": "332b313fa3d3b174909dbbe389cfe260438cbd83f82aeda50a1c7498c1b69120",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 3390,
+      "width": 150,
+      "height": 45,
+      "localUrl": "/merchant-logos/e-jumbo-332b313fa3d3.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1icso00c7q8iyl4xfcphi:62cf8325f747",
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "merchantName": "Harmanis",
+      "merchantSlug": "harmanis",
+      "websiteUrl": "https://harmanis.gr/",
+      "sourceUrl": "https://harmanis.lhscdn.com/uploads/sites/126315/siteimage-logonormal.png?lm=9155077cf7ee90807790fcfdcbbcc8a5",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 209,
+      "sha256": "62cf8325f747eee1a437697819491f3596cebd768e5df7830a23b263d0e62e88",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 4610,
+      "width": 280,
+      "height": 61,
+      "localUrl": "/merchant-logos/harmanis-62cf8325f747.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8faz8700056kiyd92fmy9h:aa1c7730cb61",
+      "merchantId": "cmt8faz8700056kiyd92fmy9h",
+      "merchantName": "HomeMarkt",
+      "merchantSlug": "homemarkt",
+      "websiteUrl": "https://www.homemarkt.gr/",
+      "sourceUrl": "https://homemarkt.lhscdn.com/uploads/sites/126315/siteimage-logonormal.png?lm=05d40fd1b2a99fcfe6ed57919b3c6a3f",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 209,
+      "sha256": "aa1c7730cb6115a579c776dae5c39da2d02b4239a5986331b975ba7214a62e69",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1664,
+      "width": 110,
+      "height": 70,
+      "localUrl": "/merchant-logos/homemarkt-aa1c7730cb61.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lfel00p3q8iywla7k0oj:16f71457bba7",
+      "merchantId": "cmta1lfel00p3q8iywla7k0oj",
+      "merchantName": "Nakas",
+      "merchantSlug": "nakas",
+      "websiteUrl": "https://nakas.gr/",
+      "sourceUrl": "https://www.nakas.gr/uploads/sites/126315/siteimage-logonormal.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "16f71457bba7cfd0d258bd48a966b9aa357411c6a94630a5c1f30e22cb55cbc3",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1856,
+      "width": 180,
+      "height": 43,
+      "localUrl": "/merchant-logos/nakas-16f71457bba7.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uxpz002x3giyag7687wz:f3bb8967b247",
+      "merchantId": "cmtb6uxpz002x3giyag7687wz",
+      "merchantName": "Nakasconcept",
+      "merchantSlug": "nakasconcept",
+      "websiteUrl": "https://nakasconcept.gr/",
+      "sourceUrl": "https://www.nakasconcept.gr/uploads/sites/126315/siteimage-logonormal.png?lm=d2ac89ada44b4bfadfa5c1205af31c10",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "f3bb8967b2475ff03e03306a3d94df0aad9fef9a074e0464192a6e64f1166ba2",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 2404,
+      "width": 180,
+      "height": 60,
+      "localUrl": "/merchant-logos/nakasconcept-f3bb8967b247.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gwxy007dq8iy283ovzsf:fc0a710865e6",
+      "merchantId": "cmta1gwxy007dq8iy283ovzsf",
+      "merchantName": "Sfsonline",
+      "merchantSlug": "sfsonline",
+      "websiteUrl": "https://sfsonline.gr/",
+      "sourceUrl": "https://static.sfsonline.gr/uploads/sites/126315/siteimage-logonormal.png?lm=962f67838513baf8d622750932edffc6",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "fc0a710865e697a710cc4cb2a618361b6b6c9da66cd64dc023c14b97c1ce8f41",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1760,
+      "width": 116,
+      "height": 45,
+      "localUrl": "/merchant-logos/sfsonline-fc0a710865e6.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jo5l00hvq8iyyy7qivp0:1f717400dd23",
+      "merchantId": "cmta1jo5l00hvq8iyyy7qivp0",
+      "merchantName": "Tempus",
+      "merchantSlug": "tempus",
+      "websiteUrl": "https://tempus.gr/",
+      "sourceUrl": "https://tempus.gr/wp-content/uploads/2022/12/TEMPUS-Log-1400x418.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 279,
+      "sha256": "1f717400dd23548d8e6fde5f7e17913a5b81275289c5b8faa6d67a9a7da01efe",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 70610,
+      "width": 1400,
+      "height": 418,
+      "localUrl": "/merchant-logos/tempus-1f717400dd23.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m2se00rlq8iybu8clfeq:6464599af520",
+      "merchantId": "cmta1m2se00rlq8iybu8clfeq",
+      "merchantName": "Theknittingclub",
+      "merchantSlug": "theknittingclub",
+      "websiteUrl": "https://theknittingclub.gr/",
+      "sourceUrl": "https://assets.nagacommerce.com/storage/3693ce79-0d73-40d9-81ab-21ddcb833704/uploads/multimedia/2024/07/j0/Naga_THE_KNITTING_CLUB%E2%84%A2.png.webp",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 120,
+      "sha256": "6464599af520f691eeea99029f0381d84f1703d36c676dca3aa3db7c70732018",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 15414,
+      "width": 500,
+      "height": 500,
+      "localUrl": "/merchant-logos/theknittingclub-6464599af520.webp"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb6uhnb000k3giyxddgyqfa",
+      "merchantName": "Best Western",
+      "merchantSlug": "best-western-gift-card",
+      "websiteUrl": "https://bestwestern.gr",
+      "finalWebsiteUrl": "https://bestwestern.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.bestwestern.gr/images/logos/best-western-hotels-resorts-nav.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.bestwestern.gr/images/logos/best-western-hotels-resorts-nav.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 75785,
+        "width": 1920,
+        "height": 382,
+        "sha256": "036a06914fe2ac2794d6596d0d9b400425c7a307c462d9c1789a0b246b4206d2"
+      }
+    },
+    {
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "merchantName": "Bestpharmacy",
+      "merchantSlug": "bestpharmacy",
+      "websiteUrl": "https://bestpharmacy.gr",
+      "finalWebsiteUrl": "https://bestpharmacy.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_403"
+      ],
+      "bestCandidate": {
+        "url": "https://bestpharmacy.gr/pub/media/logo/stores/1/logo-new.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1kkh000llq8iyqh4xpyae",
+      "merchantName": "Converse",
+      "merchantSlug": "converse",
+      "websiteUrl": "https://converse.gr",
+      "finalWebsiteUrl": "https://converse.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.converse.gr/static/version1787053440/frontend/ConverseExtended/DefaultTheme/el_GR/images/logo.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": {
+        "url": "https://www.converse.gr/static/version1787053440/frontend/ConverseExtended/DefaultTheme/el_GR/images/logo.svg",
+        "contentType": "image/svg+xml",
+        "extension": ".svg",
+        "bytes": 4367,
+        "width": 250,
+        "height": 29,
+        "sha256": "48a0874d1a96137739c7ac3338cea1d998713203e10c079a4c7e7fb95b96db28"
+      }
+    },
+    {
+      "merchantId": "cmta1hzo100azq8iy5b6q7jky",
+      "merchantName": "E Jumbo",
+      "merchantSlug": "e-jumbo",
+      "websiteUrl": "https://e-jumbo.gr",
+      "finalWebsiteUrl": "https://e-jumbo.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://jumbograzure.lhscdn.com/uploads/sites/331/siteimage-logonormal.png?lm=890b48c1e416d53e750e2b23484967a1",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 209
+      },
+      "validatedAsset": {
+        "url": "https://jumbograzure.lhscdn.com/uploads/sites/331/siteimage-logonormal.png?lm=890b48c1e416d53e750e2b23484967a1",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 3390,
+        "width": 150,
+        "height": 45,
+        "sha256": "332b313fa3d3b174909dbbe389cfe260438cbd83f82aeda50a1c7498c1b69120"
+      }
+    },
+    {
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "merchantName": "Harmanis",
+      "merchantSlug": "harmanis",
+      "websiteUrl": "https://harmanis.gr",
+      "finalWebsiteUrl": "https://harmanis.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://harmanis.lhscdn.com/uploads/sites/126315/siteimage-logonormal.png?lm=9155077cf7ee90807790fcfdcbbcc8a5",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 209
+      },
+      "validatedAsset": {
+        "url": "https://harmanis.lhscdn.com/uploads/sites/126315/siteimage-logonormal.png?lm=9155077cf7ee90807790fcfdcbbcc8a5",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 4610,
+        "width": 280,
+        "height": 61,
+        "sha256": "62cf8325f747eee1a437697819491f3596cebd768e5df7830a23b263d0e62e88"
+      }
+    },
+    {
+      "merchantId": "cmt8faz8700056kiyd92fmy9h",
+      "merchantName": "HomeMarkt",
+      "merchantSlug": "homemarkt",
+      "websiteUrl": "https://www.homemarkt.gr",
+      "finalWebsiteUrl": "https://www.homemarkt.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://homemarkt.lhscdn.com/uploads/sites/126315/siteimage-logonormal.png?lm=05d40fd1b2a99fcfe6ed57919b3c6a3f",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 209
+      },
+      "validatedAsset": {
+        "url": "https://homemarkt.lhscdn.com/uploads/sites/126315/siteimage-logonormal.png?lm=05d40fd1b2a99fcfe6ed57919b3c6a3f",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1664,
+        "width": 110,
+        "height": 70,
+        "sha256": "aa1c7730cb6115a579c776dae5c39da2d02b4239a5986331b975ba7214a62e69"
+      }
+    },
+    {
+      "merchantId": "cmta1lfel00p3q8iywla7k0oj",
+      "merchantName": "Nakas",
+      "merchantSlug": "nakas",
+      "websiteUrl": "https://nakas.gr",
+      "finalWebsiteUrl": "https://nakas.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.nakas.gr/uploads/sites/126315/siteimage-logonormal.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.nakas.gr/uploads/sites/126315/siteimage-logonormal.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1856,
+        "width": 180,
+        "height": 43,
+        "sha256": "16f71457bba7cfd0d258bd48a966b9aa357411c6a94630a5c1f30e22cb55cbc3"
+      }
+    },
+    {
+      "merchantId": "cmtb6uxpz002x3giyag7687wz",
+      "merchantName": "Nakasconcept",
+      "merchantSlug": "nakasconcept",
+      "websiteUrl": "https://nakasconcept.gr",
+      "finalWebsiteUrl": "https://nakasconcept.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.nakasconcept.gr/uploads/sites/126315/siteimage-logonormal.png?lm=d2ac89ada44b4bfadfa5c1205af31c10",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.nakasconcept.gr/uploads/sites/126315/siteimage-logonormal.png?lm=d2ac89ada44b4bfadfa5c1205af31c10",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 2404,
+        "width": 180,
+        "height": 60,
+        "sha256": "f3bb8967b2475ff03e03306a3d94df0aad9fef9a074e0464192a6e64f1166ba2"
+      }
+    },
+    {
+      "merchantId": "cmt8fb4oz000o6kiylq2ujw83",
+      "merchantName": "Sephora",
+      "merchantSlug": "sephora",
+      "websiteUrl": "https://giftcard.sephora.gr",
+      "finalWebsiteUrl": "https://giftcard.sephora.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_FETCH_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://giftcard.sephora.gr/merchant/logo.png?v=20260903",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gwxy007dq8iy283ovzsf",
+      "merchantName": "Sfsonline",
+      "merchantSlug": "sfsonline",
+      "websiteUrl": "https://sfsonline.gr",
+      "finalWebsiteUrl": "https://sfsonline.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.sfsonline.gr/uploads/sites/126315/siteimage-logonormal.png?lm=962f67838513baf8d622750932edffc6",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://static.sfsonline.gr/uploads/sites/126315/siteimage-logonormal.png?lm=962f67838513baf8d622750932edffc6",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1760,
+        "width": 116,
+        "height": 45,
+        "sha256": "fc0a710865e697a710cc4cb2a618361b6b6c9da66cd64dc023c14b97c1ce8f41"
+      }
+    },
+    {
+      "merchantId": "cmta1jo5l00hvq8iyyy7qivp0",
+      "merchantName": "Tempus",
+      "merchantSlug": "tempus",
+      "websiteUrl": "https://tempus.gr",
+      "finalWebsiteUrl": "https://tempus.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://tempus.gr/wp-content/uploads/2022/12/TEMPUS-Log-1400x418.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 279
+      },
+      "validatedAsset": {
+        "url": "https://tempus.gr/wp-content/uploads/2022/12/TEMPUS-Log-1400x418.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 70610,
+        "width": 1400,
+        "height": 418,
+        "sha256": "1f717400dd23548d8e6fde5f7e17913a5b81275289c5b8faa6d67a9a7da01efe"
+      }
+    },
+    {
+      "merchantId": "cmta1m2se00rlq8iybu8clfeq",
+      "merchantName": "Theknittingclub",
+      "merchantSlug": "theknittingclub",
+      "websiteUrl": "https://theknittingclub.gr",
+      "finalWebsiteUrl": "https://theknittingclub.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://assets.nagacommerce.com/storage/3693ce79-0d73-40d9-81ab-21ddcb833704/uploads/multimedia/2024/07/j0/Naga_THE_KNITTING_CLUB%E2%84%A2.png.webp",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 120
+      },
+      "validatedAsset": {
+        "url": "https://assets.nagacommerce.com/storage/3693ce79-0d73-40d9-81ab-21ddcb833704/uploads/multimedia/2024/07/j0/Naga_THE_KNITTING_CLUB%E2%84%A2.png.webp",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 15414,
+        "width": 500,
+        "height": 500,
+        "sha256": "6464599af520f691eeea99029f0381d84f1703d36c676dca3aa3db7c70732018"
+      }
+    },
+    {
+      "merchantId": "cmta1gyrx007lq8iyc6lx7l6y",
+      "merchantName": "Tsakirismallas",
+      "merchantSlug": "tsakirismallas",
+      "websiteUrl": "https://tsakirismallas.gr",
+      "finalWebsiteUrl": "https://tsakirismallas.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_403"
+      ],
+      "bestCandidate": {
+        "url": "https://www.tsakirismallas.gr/images/TM_Logo_3.PNG",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4z8pw004csciymdcih8iu",
+      "merchantName": "Wildsouls",
+      "merchantSlug": "wildsouls",
+      "websiteUrl": "https://wildsouls.gr",
+      "finalWebsiteUrl": "https://wildsouls.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_HTTP_403"
+      ],
+      "bestCandidate": {
+        "url": "https://www.wildsouls.gr/app/themes/wildsouls-theme/dist/images/logo_6949d85d.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": null
+    }
+  ],
+  "generatedAt": "2026-09-03T11:24:58.799Z",
+  "planId": "40a695298cf065e9faf901e1fafcda7b7dcd103e2c6a4d89a347db9c88fd007d"
+}

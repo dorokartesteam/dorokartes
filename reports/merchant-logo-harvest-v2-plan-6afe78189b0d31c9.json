@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "eeeef19527b63b7fc7dee2dad6e4a4ef9b7a431b58fe060fc4f85e9403ed2bd3",
+  "targetCount": 2,
+  "concurrency": 12,
+  "summary": {
+    "safe": 2,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmt8pswfr0001tgiyw7z7ffed:023ef53a5725",
+      "merchantId": "cmt8pswfr0001tgiyw7z7ffed",
+      "merchantName": "Elisabetta Franchi",
+      "merchantSlug": "elisabetta-franchi",
+      "websiteUrl": "https://www.elisabettafranchi.com/",
+      "sourceUrl": "https://cdn2.elisabettafranchi.com.filoblu.com/media/bluheadless/default/logo-svg-192.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 193,
+      "sha256": "023ef53a57251b90f1c6ee3330d2da2879035985c215d0e3e390fd6ec30bebc9",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 6278,
+      "width": 192,
+      "height": 192,
+      "localUrl": "/merchant-logos/elisabetta-franchi-023ef53a5725.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lbsk00opq8iy6ghmmaan:7213cb086d7e",
+      "merchantId": "cmta1lbsk00opq8iy6ghmmaan",
+      "merchantName": "Hellenictrain",
+      "merchantSlug": "hellenictrain",
+      "websiteUrl": "https://hellenictrain.gr/",
+      "sourceUrl": "https://www.hellenictrain.gr/wp-content/uploads/2026/04/cropped-logo_small-192x192.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 334,
+      "sha256": "7213cb086d7e7e6cf809ae5a1125a283a80f2805ea17716435983eb1cfa67d5e",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 7387,
+      "width": 192,
+      "height": 192,
+      "localUrl": "/merchant-logos/hellenictrain-7213cb086d7e.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmt8pswfr0001tgiyw7z7ffed",
+      "merchantName": "Elisabetta Franchi",
+      "merchantSlug": "elisabetta-franchi",
+      "websiteUrl": "https://www.elisabettafranchi.com",
+      "finalWebsiteUrl": "https://www.elisabettafranchi.com/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn2.elisabettafranchi.com.filoblu.com/media/bluheadless/default/logo-svg-192.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 193
+      },
+      "validatedAsset": {
+        "url": "https://cdn2.elisabettafranchi.com.filoblu.com/media/bluheadless/default/logo-svg-192.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 6278,
+        "width": 192,
+        "height": 192,
+        "sha256": "023ef53a57251b90f1c6ee3330d2da2879035985c215d0e3e390fd6ec30bebc9"
+      }
+    },
+    {
+      "merchantId": "cmta1lbsk00opq8iy6ghmmaan",
+      "merchantName": "Hellenictrain",
+      "merchantSlug": "hellenictrain",
+      "websiteUrl": "https://hellenictrain.gr",
+      "finalWebsiteUrl": "https://hellenictrain.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.hellenictrain.gr/wp-content/uploads/2026/04/cropped-logo_small-192x192.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.hellenictrain.gr/wp-content/uploads/2026/04/cropped-logo_small-192x192.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 7387,
+        "width": 192,
+        "height": 192,
+        "sha256": "7213cb086d7e7e6cf809ae5a1125a283a80f2805ea17716435983eb1cfa67d5e"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T18:45:04.279Z",
+  "planId": "6afe78189b0d31c94c3b65b77aeb2e7e33b0eac39cbe3d65b745bda1db50a408"
+}

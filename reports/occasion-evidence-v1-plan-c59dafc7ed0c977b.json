@@ -1,0 +1,100 @@
+{
+  "version": "occasion-evidence-v1",
+  "mode": "PREVIEW",
+  "generatedAt": "2026-09-04T15:48:04.356Z",
+  "catalogFingerprint": "fd7a461a4885955f798910fb446f1e9ddea7ad8651fa2c1a9619850d1bd54bc2",
+  "summary": {
+    "activeCards": 1123,
+    "actions": 7,
+    "cardsCovered": 7,
+    "byOccasion": {
+      "christmas": 3,
+      "corporate": 1,
+      "for-kids": 1,
+      "new-baby": 1,
+      "wedding": 1
+    },
+    "reviews": 0
+  },
+  "actions": [
+    {
+      "giftCardId": "cmta1mk2p00teq8iywlymg7ut",
+      "merchantName": "Babyvalia",
+      "giftCardTitle": "GIFT CARD ‣ Βabyvalia",
+      "officialUrl": "https://babyvalia.gr/product-category/baby-shower/gift-card/",
+      "occasionSlug": "new-baby",
+      "relevance": 90,
+      "evidence": "EXPLICIT_OFFICIAL_URL_PATH",
+      "occasionId": "cmt70jqye000oo4iy029952cg",
+      "actionId": "69439f6794833efbbc24edfdc7c2dff06352bf3bb8126d37d935756ce5982cf6"
+    },
+    {
+      "giftCardId": "cmta1najv00waq8iye2j13aza",
+      "merchantName": "Lalita",
+      "giftCardTitle": "Christmas Gift Card - Lalita",
+      "officialUrl": "https://lalita.gr/",
+      "occasionSlug": "christmas",
+      "relevance": 100,
+      "evidence": "EXPLICIT_CARD_TITLE_OR_SLUG",
+      "occasionId": "cmt70jr4b000ro4iyr91u4azk",
+      "actionId": "a9b6ed30a1bcd6f128bacb49af588965b3cc1af1d1956c504d4b369e833f9904"
+    },
+    {
+      "giftCardId": "cmtb6utt5002c3giyo3joolsl",
+      "merchantName": "Kivotos Oniron",
+      "giftCardTitle": "Δωροκάρτα - Kivotos Oniron | ideas for kids",
+      "officialUrl": "https://www.kivotosoniron.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/",
+      "occasionSlug": "for-kids",
+      "relevance": 100,
+      "evidence": "EXPLICIT_CARD_TITLE_OR_SLUG",
+      "occasionId": "cmt70jrr40010o4iy77y8x5ox",
+      "actionId": "066ab614aeee964d0e1b60bd60bb07a38f85826aec0731c6964b5cc46ad4ba28"
+    },
+    {
+      "giftCardId": "cmtb77aa9001vdkiykzcb5zp5",
+      "merchantName": "Christmas Gift Cards",
+      "giftCardTitle": "Christmas Gift Cards",
+      "officialUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+      "occasionSlug": "christmas",
+      "relevance": 100,
+      "evidence": "EXPLICIT_CARD_TITLE_OR_SLUG",
+      "occasionId": "cmt70jr4b000ro4iyr91u4azk",
+      "actionId": "b293ac1cbba6d27e8688a038f16790307fd6fa819c39ec8701b7c5ef65d8eb11"
+    },
+    {
+      "giftCardId": "cmtb77q3z0046dkiyh7mroiio",
+      "merchantName": "WEDDING DAY",
+      "giftCardTitle": "Δωροκάρτα - WEDDING DAY",
+      "officialUrl": "https://wedday.gr/dorokarta/",
+      "occasionSlug": "wedding",
+      "relevance": 100,
+      "evidence": "EXPLICIT_CARD_TITLE_OR_SLUG",
+      "occasionId": "cmt70jqu4000mo4iynrurrtao",
+      "actionId": "3894e2408adc243bb4c1887dac6fd9d6aa5f638dc304f6b677ac0251ef44931e"
+    },
+    {
+      "giftCardId": "cmtb77rqc004ddkiytzf0x88j",
+      "merchantName": "Christmas Gift Cards",
+      "giftCardTitle": "Christmas Gift Cards",
+      "officialUrl": "https://www.armoniawellness.gr/christmas-gift-cards/",
+      "occasionSlug": "christmas",
+      "relevance": 100,
+      "evidence": "EXPLICIT_CARD_TITLE_OR_SLUG",
+      "occasionId": "cmt70jr4b000ro4iyr91u4azk",
+      "actionId": "5c7a8b0250f8200f0c40eaf119e4a57a72d663eed6197352a32a30dd8e1180b5"
+    },
+    {
+      "giftCardId": "cmtb785to006cdkiy9ubl9s4x",
+      "merchantName": "Kotsovolos",
+      "giftCardTitle": "Kotsovolos Gift Card",
+      "officialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+      "occasionSlug": "corporate",
+      "relevance": 100,
+      "evidence": "STRUCTURED_CORPORATE_AVAILABILITY",
+      "occasionId": "cmt70jrsz0011o4iyvcg2xkr8",
+      "actionId": "e38e902b2a31afc54808da57de04cbd7bb321cec31d1d9512e87a33ba40c3b9b"
+    }
+  ],
+  "reviews": [],
+  "planId": "c59dafc7ed0c977b4bedd5dafc2a52b89d4a14fb5fc334099ca1ed9ca47c5590"
+}

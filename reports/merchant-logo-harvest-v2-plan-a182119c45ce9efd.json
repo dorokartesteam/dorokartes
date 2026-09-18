@@ -1,0 +1,257 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "26a218960b0526384002169dd6ce2100b33dad2066e5897b6b31ec50d4438870",
+  "targetCount": 5,
+  "concurrency": 4,
+  "summary": {
+    "safe": 5,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmtb62gvm000a94iyyhcgbatv:efc126c86096",
+      "merchantId": "cmtb62gvm000a94iyyhcgbatv",
+      "merchantName": "Esiot",
+      "merchantSlug": "esiot",
+      "websiteUrl": "https://esiot.gr/",
+      "sourceUrl": "https://esiot.gr/img/esiot-logo-1679919546.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 318,
+      "sha256": "efc126c86096956056c2839d5a35adcd474f6e878949aaa52c98ce1969758f21",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 5417,
+      "width": 246,
+      "height": 50,
+      "localUrl": "/merchant-logos/esiot-efc126c86096.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i6nk00bfq8iy5qszzqk8:396a5e6688f5",
+      "merchantId": "cmta1i6nk00bfq8iy5qszzqk8",
+      "merchantName": "Eubiotica",
+      "merchantSlug": "eubiotica",
+      "websiteUrl": "https://eubiotica.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/4d289b_968ecbaec70e4097a68e0bfd55c3ddec~mv2.png/v1/fill/w_602,h_226,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/eubiotica_new%20logo_small.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 209,
+      "sha256": "396a5e6688f5cccee43cc34b0bd19e49911a51d43d71050bf8254ca1b0f7b236",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 36190,
+      "width": 602,
+      "height": 226,
+      "localUrl": "/merchant-logos/eubiotica-396a5e6688f5.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yk9i001isciy8zva7jrw:582dac852af5",
+      "merchantId": "cmta4yk9i001isciy8zva7jrw",
+      "merchantName": "Hebekidshome",
+      "merchantSlug": "hebekidshome",
+      "websiteUrl": "https://hebekidshome.gr/",
+      "sourceUrl": "https://hebekidshome.gr/cdn/shop/files/Contact_Page_Slideshow_Banner_4.png?v=1716931422&width=840",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 59,
+      "sha256": "582dac852af558a997ad6e1ae64649309d194988b5111f2db9780722d31ec7bf",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 24598,
+      "width": 840,
+      "height": 245,
+      "localUrl": "/merchant-logos/hebekidshome-582dac852af5.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ifiy00cjq8iy2y5qnddu:d617bf56b84f",
+      "merchantId": "cmta1ifiy00cjq8iy2y5qnddu",
+      "merchantName": "Hepta",
+      "merchantSlug": "hepta",
+      "websiteUrl": "https://hepta.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/bd824d_adee13815d4445379cc879abd9134fac~mv2.png/v1/fill/w_380,h_154,al_c,lg_1,q_85,enc_avif,quality_auto/Site%20transparent%20logo.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 191,
+      "sha256": "d617bf56b84f47d3cee6280983f3d2433109dda723ff9111f845f77c62c73c4a",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 4180,
+      "width": 380,
+      "height": 154,
+      "localUrl": "/merchant-logos/hepta-d617bf56b84f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78cqm0079dkiyfu94f14d:acb738a7113f",
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "merchantName": "Lonis Tattoo Studio",
+      "merchantSlug": "lts-gift-card-καρτα-δωρου",
+      "websiteUrl": "https://tattooathens.gr/",
+      "sourceUrl": "https://tattooathens.gr/media/yootheme/cache/7e/Lonis-logo-black-n-white-7e5340f1.png?src=images/Lonis-logo-black-n-white.png&thumbnail=76,75,&hash=3ab70d32",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 154,
+      "sha256": "acb738a7113f5697756589acd4351a6eee21ac876c6a691ea1d9dfbc8397a474",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 10122,
+      "width": 76,
+      "height": 75,
+      "localUrl": "/merchant-logos/lts-gift-card-acb738a7113f.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb62gvm000a94iyyhcgbatv",
+      "merchantName": "Esiot",
+      "merchantSlug": "esiot",
+      "websiteUrl": "https://esiot.gr",
+      "finalWebsiteUrl": "https://esiot.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://esiot.gr/img/esiot-logo-1679919546.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": {
+        "url": "https://esiot.gr/img/esiot-logo-1679919546.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 5417,
+        "width": 246,
+        "height": 50,
+        "sha256": "efc126c86096956056c2839d5a35adcd474f6e878949aaa52c98ce1969758f21"
+      }
+    },
+    {
+      "merchantId": "cmta1i6nk00bfq8iy5qszzqk8",
+      "merchantName": "Eubiotica",
+      "merchantSlug": "eubiotica",
+      "websiteUrl": "https://eubiotica.gr",
+      "finalWebsiteUrl": "https://eubiotica.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/4d289b_968ecbaec70e4097a68e0bfd55c3ddec~mv2.png/v1/fill/w_602,h_226,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/eubiotica_new%20logo_small.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 209
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/4d289b_968ecbaec70e4097a68e0bfd55c3ddec~mv2.png/v1/fill/w_602,h_226,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/eubiotica_new%20logo_small.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 36190,
+        "width": 602,
+        "height": 226,
+        "sha256": "396a5e6688f5cccee43cc34b0bd19e49911a51d43d71050bf8254ca1b0f7b236"
+      }
+    },
+    {
+      "merchantId": "cmta4yk9i001isciy8zva7jrw",
+      "merchantName": "Hebekidshome",
+      "merchantSlug": "hebekidshome",
+      "websiteUrl": "https://hebekidshome.gr",
+      "finalWebsiteUrl": "https://hebekidshome.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://hebekidshome.gr/cdn/shop/files/Contact_Page_Slideshow_Banner_4.png?v=1716931422&width=840",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 59
+      },
+      "validatedAsset": {
+        "url": "https://hebekidshome.gr/cdn/shop/files/Contact_Page_Slideshow_Banner_4.png?v=1716931422&width=840",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 24598,
+        "width": 840,
+        "height": 245,
+        "sha256": "582dac852af558a997ad6e1ae64649309d194988b5111f2db9780722d31ec7bf"
+      }
+    },
+    {
+      "merchantId": "cmta1ifiy00cjq8iy2y5qnddu",
+      "merchantName": "Hepta",
+      "merchantSlug": "hepta",
+      "websiteUrl": "https://hepta.gr",
+      "finalWebsiteUrl": "https://hepta.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/bd824d_adee13815d4445379cc879abd9134fac~mv2.png/v1/fill/w_380,h_154,al_c,lg_1,q_85,enc_avif,quality_auto/Site%20transparent%20logo.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 191
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/bd824d_adee13815d4445379cc879abd9134fac~mv2.png/v1/fill/w_380,h_154,al_c,lg_1,q_85,enc_avif,quality_auto/Site%20transparent%20logo.png",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 4180,
+        "width": 380,
+        "height": 154,
+        "sha256": "d617bf56b84f47d3cee6280983f3d2433109dda723ff9111f845f77c62c73c4a"
+      }
+    },
+    {
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "merchantName": "Lonis Tattoo Studio",
+      "merchantSlug": "lts-gift-card-καρτα-δωρου",
+      "websiteUrl": "https://tattooathens.gr",
+      "finalWebsiteUrl": "https://tattooathens.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://tattooathens.gr/media/yootheme/cache/7e/Lonis-logo-black-n-white-7e5340f1.png?src=images/Lonis-logo-black-n-white.png&thumbnail=76,75,&hash=3ab70d32",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://tattooathens.gr/media/yootheme/cache/7e/Lonis-logo-black-n-white-7e5340f1.png?src=images/Lonis-logo-black-n-white.png&thumbnail=76,75,&hash=3ab70d32",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 10122,
+        "width": 76,
+        "height": 75,
+        "sha256": "acb738a7113f5697756589acd4351a6eee21ac876c6a691ea1d9dfbc8397a474"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:26:38.465Z",
+  "planId": "a182119c45ce9efdb5cc766da973eb73ddcda5da6ef4b466ff64e2b4af27c43f"
+}

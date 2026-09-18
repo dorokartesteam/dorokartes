@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "9efb1e81fef6684edc53c0bbfa9deccec66ec0d70e889359c20dfb53b6db7ce2",
+  "targetCount": 1,
+  "concurrency": 12,
+  "summary": {
+    "safe": 1,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmtb6uygv00313giyphdd4xl4:0efef51c2ad5",
+      "merchantId": "cmtb6uygv00313giyphdd4xl4",
+      "merchantName": "Nativis",
+      "merchantSlug": "nativis",
+      "websiteUrl": "https://nativis.gr/",
+      "sourceUrl": "https://nativis.gr/wp-content/uploads/2024/10/nativis-favicon.avif",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 263,
+      "sha256": "0efef51c2ad5d1ba3cfb6d95e2999b5dbc866e9937faa28f78ed5e0c88ac29d4",
+      "contentType": "image/avif",
+      "extension": ".avif",
+      "bytes": 9233,
+      "width": 512,
+      "height": 512,
+      "localUrl": "/merchant-logos/nativis-0efef51c2ad5.avif"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb6uygv00313giyphdd4xl4",
+      "merchantName": "Nativis",
+      "merchantSlug": "nativis",
+      "websiteUrl": "https://nativis.gr",
+      "finalWebsiteUrl": "https://nativis.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://nativis.gr/wp-content/uploads/2024/10/nativis-favicon.avif",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 263
+      },
+      "validatedAsset": {
+        "url": "https://nativis.gr/wp-content/uploads/2024/10/nativis-favicon.avif",
+        "contentType": "image/avif",
+        "extension": ".avif",
+        "bytes": 9233,
+        "width": 512,
+        "height": 512,
+        "sha256": "0efef51c2ad5d1ba3cfb6d95e2999b5dbc866e9937faa28f78ed5e0c88ac29d4"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T19:02:49.617Z",
+  "planId": "be223b93de524d8a1a75fe254cf700153db78aca3cc0339ba7825d0e35eb0170"
+}

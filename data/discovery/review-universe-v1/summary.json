@@ -1,0 +1,9 @@
+{
+  "review_csv_files_scanned": 10,
+  "raw_review_rows_scanned": 5393,
+  "unique_review_domains_before_db_filter": 1602,
+  "remaining_unique_domains_after_production_verified_filter": 1550,
+  "second_pass_safe": 425,
+  "still_review": 1055,
+  "reject": 70
+}

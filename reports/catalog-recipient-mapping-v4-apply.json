@@ -1,0 +1,19 @@
+{
+  "version": "catalog-recipient-mapping-v4",
+  "mode": "APPLY",
+  "appliedAt": "2026-09-10T14:24:49.679Z",
+  "planId": "20c1feb8c4cc796ba85bcafcec370feffacdaf38d947825b59628677e7821a01",
+  "applied": 19,
+  "before": {
+    "totalGiftCards": 1135,
+    "activeCards": 1123,
+    "occasionRelations": 77,
+    "cardsWithOccasion": 45
+  },
+  "after": {
+    "totalGiftCards": 1135,
+    "activeCards": 1123,
+    "occasionRelations": 96,
+    "cardsWithOccasion": 62
+  }
+}

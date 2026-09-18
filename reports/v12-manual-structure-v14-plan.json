@@ -1,0 +1,314 @@
+{
+  "version": 14,
+  "mode": "PREVIEW",
+  "sourceAuditId": "6dbed4541fdc6bae3a1fe3108f07e289103bab8d49d346bc6bfc34b12f26ee45",
+  "catalogFingerprint": "d28f2da5809072b06c9ed0f7178b8bc3e22f743173afaf81d9bcc730b060d9bd",
+  "actionCount": 13,
+  "cardCount": 13,
+  "actions": [
+    {
+      "cardId": "cmtb77bgd0021dkiyy3u2x8qn",
+      "merchantName": "Lookshop",
+      "expectedTitle": "Lookshop Gift Card",
+      "expectedOfficialUrl": "https://lookshop.gr/giftcard2.html",
+      "occasionSlug": "fathers-day",
+      "evidence": [
+        "Official product title is 'Δωροκάρτα Super Dad'; mapped to the existing Father's Day taxonomy."
+      ],
+      "type": "CONNECT_OCCASION",
+      "actionId": "connect-verified-occasion:cmtb77bgd0021dkiyy3u2x8qn:fathers-day",
+      "occasionId": "cmt70jrhc000vo4iye0zllcf1",
+      "occasionName": "Γιορτή του Πατέρα"
+    },
+    {
+      "cardId": "cmtb77p0o0040dkiyr700iran",
+      "merchantName": "Valsamakis",
+      "expectedTitle": "Valsamakis Gift Card",
+      "expectedOfficialUrl": "https://valsamakis.gr/name-day-gift-card.html",
+      "occasionSlug": "name-day",
+      "evidence": [
+        "Official URL/title explicitly identify a Name Day gift card; mapped to existing Name Day taxonomy."
+      ],
+      "type": "CONNECT_OCCASION",
+      "actionId": "connect-verified-occasion:cmtb77p0o0040dkiyr700iran:name-day",
+      "occasionId": "cmt70jqs4000lo4iy9yxsfhrg",
+      "occasionName": "Ονομαστική Εορτή"
+    },
+    {
+      "cardId": "cmtb77qi60048dkiyu8khlp3s",
+      "merchantName": "Alexandris Stores",
+      "expectedTitle": "Alexandris Stores Gift Card",
+      "expectedOfficialUrl": "https://alexandrisstores.gr/en/product/valentines-day-gift-card-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/",
+      "occasionSlug": "valentines",
+      "evidence": [
+        "Official URL/title explicitly identify Valentine's Day; mapped to existing taxonomy."
+      ],
+      "type": "CONNECT_OCCASION",
+      "actionId": "connect-verified-occasion:cmtb77qi60048dkiyu8khlp3s:valentines",
+      "occasionId": "cmt70jr8b000to4iy8r7rqaiw",
+      "occasionName": "Valentine's Day"
+    },
+    {
+      "cardId": "cmtb77uej004rdkiydqqx9ujt",
+      "merchantName": "Cherrybox",
+      "expectedTitle": "Cherrybox Gift Card",
+      "expectedOfficialUrl": "https://cherrybox.gr/1683635829833-you-are-my-super-mom-gift-card.html",
+      "occasionSlug": "mothers-day",
+      "evidence": [
+        "Official product title is 'You are My Super Mom Gift Card'; mapped to existing Mother's Day taxonomy."
+      ],
+      "type": "CONNECT_OCCASION",
+      "actionId": "connect-verified-occasion:cmtb77uej004rdkiydqqx9ujt:mothers-day",
+      "occasionId": "cmt70jrf0000uo4iyqvw1ax4u",
+      "occasionName": "Γιορτή της Μητέρας"
+    },
+    {
+      "cardId": "cmta4z4qr003xsciyykm8w59d",
+      "merchantName": "Tailor Made Knitwear",
+      "expectedTitle": "Tailor Made Knitwear Gift Card",
+      "expectedOfficialUrl": "https://tailormadeknitwear.com.gr/product/giftcard-tailor-made-knitwear/",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "50",
+      "maxValue": "450",
+      "customValueAllowed": false,
+      "values": [
+        "50",
+        "75",
+        "100",
+        "150",
+        "200",
+        "250",
+        "300",
+        "350",
+        "400",
+        "450"
+      ],
+      "validityMonths": 12,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE",
+        "PHONE"
+      ],
+      "evidence": [
+        "Official page identifies an electronic/e-Gift Card delivered by email.",
+        "Official page lists values €50, €75, €100, €150, €200, €250, €300, €350, €400 and €450.",
+        "Official page states one-year validity and online/telephone redemption."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmta4z4qr003xsciyykm8w59d"
+    },
+    {
+      "cardId": "cmtb6uqep001u3giya6xdb0l8",
+      "merchantName": "Globi",
+      "expectedTitle": "Globi Gift Card",
+      "expectedOfficialUrl": "https://globi.gr/product/dwrokarta/",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "20",
+      "maxValue": null,
+      "customValueAllowed": true,
+      "values": [],
+      "validityMonths": 12,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE"
+      ],
+      "evidence": [
+        "Official page describes a digital gift card sent automatically by email.",
+        "Official page exposes an Other amount field from €20.",
+        "Official page states online checkout-code redemption and 12-month validity."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb6uqep001u3giya6xdb0l8"
+    },
+    {
+      "cardId": "cmtb6urib00203giyzhdgmnv4",
+      "merchantName": "HelloKids",
+      "expectedTitle": "HelloKids Gift Card",
+      "expectedOfficialUrl": "https://www.hellokids.gr/products/%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "20",
+      "maxValue": "200",
+      "customValueAllowed": false,
+      "values": [],
+      "validityMonths": null,
+      "deliveries": [],
+      "redemptions": [],
+      "evidence": [
+        "Official product and collection label the offering as an electronic gift card.",
+        "Official collection displays a €20–€200 price range; exact fixed values were not inferred."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb6urib00203giyzhdgmnv4"
+    },
+    {
+      "cardId": "cmtb77ckx0027dkiyltinns4m",
+      "merchantName": "Mix & Match",
+      "expectedTitle": "Mix & Match Gift Card",
+      "expectedOfficialUrl": "https://mixandmatch.gr/product/digital-gift-card/",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "50",
+      "maxValue": "350",
+      "customValueAllowed": false,
+      "values": [],
+      "validityMonths": 12,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "evidence": [
+        "Official page calls it a digital gift card sent by email.",
+        "Official page displays €50–€350 without exposing the complete option list.",
+        "Official page states website/shop redemption and one-year validity."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb77ckx0027dkiyltinns4m"
+    },
+    {
+      "cardId": "cmtb77r83004bdkiycl9k0utt",
+      "merchantName": "Antithesis Clothing",
+      "expectedTitle": "Antithesis Clothing Gift Card",
+      "expectedOfficialUrl": "https://antithesisclothing.gr/shop/dorokarta/",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "20",
+      "maxValue": "150",
+      "customValueAllowed": false,
+      "values": [
+        "20",
+        "50",
+        "70",
+        "100",
+        "150"
+      ],
+      "validityMonths": null,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [],
+      "evidence": [
+        "Official page states that the recipient receives the redemption code by email.",
+        "Official page lists €20, €50, €70, €100 and €150 options.",
+        "No redemption channel was inferred from the page."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb77r83004bdkiycl9k0utt"
+    },
+    {
+      "cardId": "cmtb77yht005ddkiykt4vsu49",
+      "merchantName": "Times Store",
+      "expectedTitle": "Times Store Gift Card",
+      "expectedOfficialUrl": "https://www.timesstore.gr/timesstore-gift-card",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": null,
+      "maxValue": null,
+      "customValueAllowed": true,
+      "values": [],
+      "validityMonths": null,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [],
+      "evidence": [
+        "Official page describes an e-gift card presented to the recipient by email.",
+        "Official page exposes an amount input; limits were not inferred."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb77yht005ddkiykt4vsu49"
+    },
+    {
+      "cardId": "cmtb7hxhc000b04iy3qi3vpga",
+      "merchantName": "Christakis",
+      "expectedTitle": "Christakis Gift Card",
+      "expectedOfficialUrl": "https://christakisathens.com/product/christakis-gift-card-online-in-store/",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "minValue": "50",
+      "maxValue": "500",
+      "customValueAllowed": false,
+      "values": [
+        "50",
+        "100",
+        "200",
+        "500"
+      ],
+      "validityMonths": null,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "evidence": [
+        "Official page states delivery of a unique code by email.",
+        "Official page explicitly supports online and physical-store redemption.",
+        "Official page lists €50, €100, €200 and €500."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb7hxhc000b04iy3qi3vpga"
+    },
+    {
+      "cardId": "cmtb7i474001904iye9qfchj3",
+      "merchantName": "Monkees of Athens",
+      "expectedTitle": "Monkees of Athens Gift Card",
+      "expectedOfficialUrl": "https://monkeesofathens.com/products/monkees-of-athens-gift-card",
+      "name": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "USD",
+      "minValue": null,
+      "maxValue": null,
+      "customValueAllowed": false,
+      "values": [],
+      "validityMonths": null,
+      "deliveries": [
+        "EMAIL"
+      ],
+      "redemptions": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "evidence": [
+        "Official page identifies a digital gift card delivered by email.",
+        "Official page explicitly supports online and in-store use.",
+        "Currency is shown as USD; incomplete denomination options were not stored."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmtb7i474001904iye9qfchj3"
+    },
+    {
+      "cardId": "cmtb7769p001bdkiyujfcxt1s",
+      "merchantName": "Gatos Shoes",
+      "expectedTitle": "Gatos Shoes Gift Card",
+      "expectedUrl": "https://gatos-shoes.gr/product/dorokarta-75e/",
+      "value": "https://gatos-shoes.gr/product-category/doro-kartes/",
+      "evidence": [
+        "Same official merchant domain.",
+        "Validated category page lists all four program denominations: €30, €50, €75 and €100.",
+        "No variant is created because digital versus physical delivery remains insufficiently explicit."
+      ],
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-verified-url:cmtb7769p001bdkiyujfcxt1s"
+    }
+  ],
+  "generatedAt": "2026-09-02T09:15:15.211Z",
+  "planId": "4021400943ab2a6f9ed6bce386e628783f9659fba57962cc1718a426ef289643"
+}

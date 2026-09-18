@@ -1,0 +1,75 @@
+{
+  "version": 14,
+  "appliedAt": "2026-09-02T09:16:03.921Z",
+  "planId": "4021400943ab2a6f9ed6bce386e628783f9659fba57962cc1718a426ef289643",
+  "sourceAuditId": "6dbed4541fdc6bae3a1fe3108f07e289103bab8d49d346bc6bfc34b12f26ee45",
+  "appliedCount": 13,
+  "applied": [
+    {
+      "actionId": "connect-verified-occasion:cmtb77bgd0021dkiyy3u2x8qn:fathers-day",
+      "cardId": "cmtb77bgd0021dkiyy3u2x8qn",
+      "occasionId": "cmt70jrhc000vo4iye0zllcf1"
+    },
+    {
+      "actionId": "connect-verified-occasion:cmtb77p0o0040dkiyr700iran:name-day",
+      "cardId": "cmtb77p0o0040dkiyr700iran",
+      "occasionId": "cmt70jqs4000lo4iy9yxsfhrg"
+    },
+    {
+      "actionId": "connect-verified-occasion:cmtb77qi60048dkiyu8khlp3s:valentines",
+      "cardId": "cmtb77qi60048dkiyu8khlp3s",
+      "occasionId": "cmt70jr8b000to4iy8r7rqaiw"
+    },
+    {
+      "actionId": "connect-verified-occasion:cmtb77uej004rdkiydqqx9ujt:mothers-day",
+      "cardId": "cmtb77uej004rdkiydqqx9ujt",
+      "occasionId": "cmt70jrf0000uo4iyqvw1ax4u"
+    },
+    {
+      "actionId": "create-verified-variant:cmta4z4qr003xsciyykm8w59d",
+      "cardId": "cmta4z4qr003xsciyykm8w59d",
+      "variantId": "cmtjvsnqh0000ksiydkg8gchm"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb6uqep001u3giya6xdb0l8",
+      "cardId": "cmtb6uqep001u3giya6xdb0l8",
+      "variantId": "cmtjvso5d000eksiy1rd2y0n2"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb6urib00203giyzhdgmnv4",
+      "cardId": "cmtb6urib00203giyzhdgmnv4",
+      "variantId": "cmtjvsomd000hksiywemb5elx"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77ckx0027dkiyltinns4m",
+      "cardId": "cmtb77ckx0027dkiyltinns4m",
+      "variantId": "cmtjvsore000iksiy22fgc4g7"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77r83004bdkiycl9k0utt",
+      "cardId": "cmtb77r83004bdkiycl9k0utt",
+      "variantId": "cmtjvsp3f000mksiyydcntf9w"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77yht005ddkiykt4vsu49",
+      "cardId": "cmtb77yht005ddkiykt4vsu49",
+      "variantId": "cmtjvspdg000tksiy2xvu4z3y"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb7hxhc000b04iy3qi3vpga",
+      "cardId": "cmtb7hxhc000b04iy3qi3vpga",
+      "variantId": "cmtjvspo8000vksiyn2d7ooga"
+    },
+    {
+      "actionId": "create-verified-variant:cmtb7i474001904iye9qfchj3",
+      "cardId": "cmtb7i474001904iye9qfchj3",
+      "variantId": "cmtjvsq1o0013ksiyhkx1hing"
+    },
+    {
+      "actionId": "update-verified-url:cmtb7769p001bdkiyujfcxt1s",
+      "cardId": "cmtb7769p001bdkiyujfcxt1s",
+      "from": "https://gatos-shoes.gr/product/dorokarta-75e/",
+      "to": "https://gatos-shoes.gr/product-category/doro-kartes/"
+    }
+  ]
+}

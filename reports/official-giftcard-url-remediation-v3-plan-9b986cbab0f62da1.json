@@ -1,0 +1,119 @@
+{
+  "version": "official-giftcard-url-remediation-v3",
+  "mode": "PREVIEW",
+  "targetFingerprint": "874c99adf0acc9c0e32bdc8f95d6dc9e8007c4277963c0cafec20ca47395ba40",
+  "summary": {
+    "totalGiftCards": 1135,
+    "activeGiftCards": 1123,
+    "actionCount": 4,
+    "holdCount": 5
+  },
+  "actions": [
+    {
+      "actionId": "2c69d2522d8fdac4a857f196cbd5517ec0e063757e09266b8ab1b9deefab2594",
+      "cardId": "cmta1gxm7007gq8iycl9elv83",
+      "merchantName": "Sportcafe",
+      "expectedTitle": "eGift Card - SportCafe",
+      "expectedOfficialUrl": "https://sportcafe.gr/",
+      "replacementUrl": "https://sportcafe.gr/egift-card/",
+      "expectedVerificationStatus": "VERIFIED",
+      "evidence": {
+        "checkedUrl": "https://sportcafe.gr/egift-card/",
+        "finalUrl": "https://sportcafe.gr/egift-card/",
+        "httpStatus": 200,
+        "title": "eGift Card - SportCafe",
+        "h1": "Δωροκάρτες SportCafe",
+        "mainSnippet": "1 Επιλέξτε Σχέδιο Κάρτας Διαλέξτε ένα design για την δωροκάρτα σας Ευχές Γενεθλίων ✓ Πες ένα ευχαριστώ ✓ Για τις γιορτές ✓ Για την ονομαστική εορτή ✓ 2 Επιλέξτε Ποσό Πόσο θέλετε να αξίζει η δωροκάρτα; 20€ 40€ 60€ 100€ Άλλο ποσό € 3 Στοιχεία Παραλήπτη Σε ποιον θέλετε να στείλετε την δωροκάρτα; Όνομα Παραλήπτη * Τρόπος Αποστολής * 📧 Email 📱 SMS 📧+📱 Και τα δύο Επιλέξτε email, SMS ή και τα δύο ταυτόχρονα. Email Παραλήπτη Κινητό Παραλήπτη 🇬🇷 +30 🇨🇾 +357 🇬🇧 +44 🇩🇪 +49 🇺🇸 +1 Προσωπικό Μήνυμα (προαιρετικό) 0/250 Ημερομηνία Αποστολής Κενό = αποστολή αμέσως μετά την πληρωμή 4 Τα Στοιχεία Σ",
+        "evidenceRule": "H1_AND_PURCHASE_FLOW_CONFIRM_EGIFT_CARD"
+      }
+    },
+    {
+      "actionId": "1039358ba4642f289ef82f839cddf42297d1b3cc21f486ce630d7d133d41962c",
+      "cardId": "cmta1hkhz0098q8iyjadmmr3n",
+      "merchantName": "Beautylink",
+      "expectedTitle": "Gift Card Αξίας 50 Ευρώ",
+      "expectedOfficialUrl": "https://beautylink.gr/",
+      "replacementUrl": "https://www.beautylink.gr/shop/mwb_wgm_giftcard/gift-card-%ce%b1%ce%be%ce%af%ce%b1%cf%82-50-%ce%b5%cf%85%cf%81%cf%8e/",
+      "expectedVerificationStatus": "VERIFIED",
+      "evidence": {
+        "checkedUrl": "https://www.beautylink.gr/shop/mwb_wgm_giftcard/gift-card-%ce%b1%ce%be%ce%af%ce%b1%cf%82-50-%ce%b5%cf%85%cf%81%cf%8e/",
+        "finalUrl": "https://www.beautylink.gr/shop/mwb_wgm_giftcard/gift-card-%ce%b1%ce%be%ce%af%ce%b1%cf%82-50-%ce%b5%cf%85%cf%81%cf%8e/",
+        "httpStatus": 200,
+        "title": "Gift Card Αξίας 50 Ευρώ - Beautylink Cosmetics",
+        "h1": "Gift Card Αξίας 50 Ευρώ",
+        "mainSnippet": "Sign in κλείσιμο Username or email * Password * Log in Lost your password? Remember me No account yet? Create an Account Search for: Αναζήτηση Αρχική Αρώματα Γυναικεία Αρώματα Body Mists Eau De Parfum Eau De Toilette Hair Mists Αρωματικά Έλαια Κρέμες Σώματος Αφρόλουτρα & Σαπούνια Αποσμητικά & Πούδρες Αντρικά Αρώματα Eau De Parfum Eau De Toilette After Shave Αρωμάτων Αφρόλουτρα & Σαπούνια Αποσμητικά Αρωμάτων Κρέμες Σώματος Αρωματικά Σετ Νεανικά Αρώματα Παιδικά Αρώματα Γυναικεία Αρώματα Τύπου Επωνύμων Αντρικά Αρώματα Τύπου Επωνύμων Συλλεκτικά Αρώματα Μακιγιάζ Πρόσωπο Make up Concealer Πούδρες Ρο",
+        "evidenceRule": "EXACT_DENOMINATION_TITLE_AND_H1_MATCH"
+      }
+    },
+    {
+      "actionId": "6e9c245887c4768ecfbc134f5d99d6a5a19ad0acf1465181fb8b86b5b5c388dc",
+      "cardId": "cmta1m1t900riq8iy2b9sin92",
+      "merchantName": "Sekoia",
+      "expectedTitle": "Gift cards",
+      "expectedOfficialUrl": "https://sekoia.gr/",
+      "replacementUrl": "https://sekoia.gr/product/gift-card/",
+      "expectedVerificationStatus": "VERIFIED",
+      "evidence": {
+        "checkedUrl": "https://sekoia.gr/product/gift-card/",
+        "finalUrl": "https://sekoia.gr/product/gift-card/",
+        "httpStatus": 200,
+        "title": "Gift Card - Sekoia Boutique",
+        "h1": "Gift Card",
+        "mainSnippet": "Gift Card Από: Σε: Gift Card €50.00 – €300.00Price range: €50.00 through €300.00 Αγοράστε μία Δωροκάρτα Sekoia και δώστε τη δυνατότητα στα αγαπημένα σας πρόσωπα να επιλέξουν το δώρο που επιθυμούν μέσα από την μεγάλη συλλογή μας. Ποσό κάρτας €50.00 €100.00 €120.00 €150.00 €180.00 €200.00 €250.00 €300.00 Delivery info RECIPIENT'S INFO Όνομα: Email: YOUR INFO Όνομα: Μήνυμα: Gift Card ποσότητα Προσθήκη στο καλάθι Επιστροφες & Αλλαγες Πολιτική ΕπιστροφώνΕάν δεν είστε ικανοποιημένοι με κάποιο προϊόν της παραγγελίας σας, μπορείτε να το επιστρέψετε ή να το αλλάξετε εντός 14 ημερολογιακών ημερών από τη",
+        "evidenceRule": "PRODUCT_H1_AND_AMOUNT_SELECTOR_CONFIRM_GIFT_CARD"
+      }
+    },
+    {
+      "actionId": "4394227c317b9358e990eff9e9ae1b79dd67602fadb02c6db9b41c8150f6769e",
+      "cardId": "cmtb62qlm001r94iy91xv9clz",
+      "merchantName": "Outdoorshop",
+      "expectedTitle": "Gift Card - Δωροεπιταγή",
+      "expectedOfficialUrl": "https://outdoorshop.gr/en/shop/%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AD%CF%82/gift-card-2/",
+      "replacementUrl": "https://outdoorshop.gr/en/product/doroepitagi/",
+      "expectedVerificationStatus": "VERIFIED",
+      "evidence": {
+        "checkedUrl": "https://outdoorshop.gr/en/product/doroepitagi/",
+        "finalUrl": "https://outdoorshop.gr/en/product/doroepitagi/",
+        "httpStatus": 200,
+        "title": "Doroepitagi | δωροεπιταγή | Outdoorshop",
+        "h1": "Gift Card",
+        "mainSnippet": "HomeΧωρίς κατηγορίαGift Card 🔍 Gift Card Doroepitagi. Θέλετε να κάνετε ένα δώρο αλλά δεν ξέρετε την προτίμηση του; Δεν υπάρχει πρόβλημα απλώς επιλέξτε το ποσό που σας ταιριάζει και εμείς θα κάνουμε τα υπόλοιπα Category: Χωρίς κατηγορία Related products PRIMUS / Θέρμος & ΠαγούριαPRIMUS TRAILBREAK VACUUM MUG 0.35 L STAINLESS STEEL Price 31,95 € Αγορά Offer Αγορά SOLD OUTSNUGPAK / AcessoriesSNUGPAK BLANKET JUNGLE XL OLIVE Price 62,00 € Δείτε το Camping - Kitchen / LIGHT MY FIRELIGHT MY FIRE SPORK ORIGINAL BIO SLATY BLACK BULK Price 4,00 € Αγορά GERBER / Folding KnivesGERBER PLEDGE LICHEN GREEN P",
+        "evidenceRule": "SAME_DOMAIN_200_REPLACEMENT_WITH_GIFT_CARD_H1"
+      }
+    }
+  ],
+  "holds": [
+    {
+      "cardId": "cmta1fsds003hq8iywvbrxbq7",
+      "merchantName": "LIAKOPOULOS Brands Store",
+      "candidateUrl": "https://liakopoulos-store.gr/product/ck-jeans-350gsm-fleece-gift-giving-fz-hoo-%ce%bc%ce%b1%cf%85%cf%81%ce%bf/",
+      "reason": "REJECT_NON_GIFTCARD_APPAREL_PRODUCT"
+    },
+    {
+      "cardId": "cmta1kptg00m8q8iyxikg29yq",
+      "merchantName": "Hlcpro",
+      "candidateUrl": "https://hlcpro.gr/product/gift-card-expiry-extension/",
+      "reason": "REJECT_EXPIRY_EXTENSION_UTILITY"
+    },
+    {
+      "cardId": "cmta1lwrt00qyq8iy0horqkam",
+      "merchantName": "Lovefashionpoint",
+      "candidateUrl": "https://lovefashionpoint.gr/gift-card-balance/",
+      "reason": "REJECT_BALANCE_CHECKER"
+    },
+    {
+      "cardId": "cmta1m0d900rcq8iy7cru4enr",
+      "merchantName": "Poupee",
+      "candidateUrl": "https://poupee.gr/gift-card",
+      "reason": "REVIEW_PAGE_HAS_TITLE_BUT_NO_PRODUCT_OR_PURCHASE_EVIDENCE"
+    },
+    {
+      "cardId": "cmta1m4x600ruq8iyic1fo9fb",
+      "merchantName": "Tresorjewelry",
+      "candidateUrl": "https://tresorjewelry.gr/gift-cards",
+      "reason": "REJECT_SOFT_HOMEPAGE_WITH_HOME_CANONICAL"
+    }
+  ],
+  "generatedAt": "2026-09-12T08:39:47.624Z",
+  "planId": "9b986cbab0f62da182b30121b40e8244c7d758ef5e09ece6aa1630aae458669e"
+}

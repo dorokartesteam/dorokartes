@@ -1,0 +1,4990 @@
+{
+  "version": 1,
+  "mode": "PREVIEW",
+  "targetFingerprint": "f3305c8d28b63e8d76b053c1e9af2048a498540989fea25e8dbc3c5b0dd4c930",
+  "targetCount": 150,
+  "summary": {
+    "safeValueEvidence": 3,
+    "supportedAsIs": 28,
+    "review": 107,
+    "error": 12
+  },
+  "findings": [
+    {
+      "cardId": "cmt8o9lfb000130iysqk7vztw",
+      "merchantId": "cmt8o9l84000030iymso77cud",
+      "merchantName": "Access Fashion",
+      "title": "Access Fashion Gift Card",
+      "officialUrl": "https://www.accessfashion.gr/gift-card-100",
+      "titleAmounts": [],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 1,
+      "finalUrl": "https://www.accessfashion.gr/gift-card-100",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Access Fashion | Δωροεπιταγή αξίας 100 ευρώ",
+        "Δωροεπιταγή αξίας 100 ευρώ",
+        "Access Fashion",
+        "Αρχική"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1f09t000nq8iyx3uehika",
+      "merchantId": "cmta1f03n000mq8iyzxhzrwvc",
+      "merchantName": "Adagio",
+      "title": "Adagio Gift Voucher 200 euro",
+      "officialUrl": "https://www.adagio.gr/el/",
+      "titleAmounts": [
+        200
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.adagio.gr/el/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Checking you are human"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb6uetn00053giyiewpxirq",
+      "merchantId": "cmtb6ueoq00043giye4hg3ri6",
+      "merchantName": "Adventure Junkies",
+      "title": "Adventure Junkies Gift Card",
+      "officialUrl": "https://www.adventurejunkies.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-90e/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        90
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.adventurejunkies.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-90e/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 90€ - Adventure Junkies | Ride - Hike - Camp",
+        "Δωροκάρτα 90€",
+        "Αρχική",
+        "Κατάστημα",
+        "Adventure Junkies | Ride - Hike - Camp"
+      ],
+      "priceEvidence": [
+        {
+          "value": 90,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1k3kn00joq8iyvt4mz4a4",
+      "merchantId": "cmta1k3e400jnq8iyfrp6th99",
+      "merchantName": "Afroditesbeaute",
+      "title": "Gift card 50",
+      "officialUrl": "https://afroditesbeaute.gr/product/gift-card-50e/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        50
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://afroditesbeaute.gr/product/gift-card-50e/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift card 50€‎ | Afrodite's Beaute",
+        "Gift card 50€‎",
+        "Gift card 50€‎ | Afrodite&#039;s Beaute",
+        "Home",
+        "Shop",
+        "Afrodite&#039;s Beaute"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1gg4h005sq8iyehntb76m",
+      "merchantId": "cmta1gfy3005rq8iyb6n5rmq0",
+      "merchantName": "Agathou",
+      "title": "Δωροεπιταγη 70€ - Agathou Beauty & Spa",
+      "officialUrl": "https://www.agathou.gr/product-category/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b5%cf%83/",
+      "titleAmounts": [
+        70
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.agathou.gr/product-category/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b5%cf%83/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΕΣ - Agathou Beauty & Spa",
+        "ΔΩΡΟΚΑΡΤΕΣ",
+        "ΔΩΡΟΚΑΡΤΕΣ Αρχεία",
+        "ΔΩΡΟΚΑΡΤΕΣ - Agathou Beauty &amp; Spa",
+        "Αρχική",
+        "Agathou Beauty &amp; Spa",
+        "Αγάθου Beauty & Spa Eshop"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4y8xk0009sciynr5631pq",
+      "merchantId": "cmta4y8rm0008sciyz71rugn9",
+      "merchantName": "Alouette",
+      "title": "E-Gift Card for all! - Alouette | Βρεφικά & Παιδικά Ρούχα",
+      "officialUrl": "https://www.alouette.gr/el/4599-e-gift-card",
+      "titleAmounts": [],
+      "urlAmounts": [
+        4599
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.alouette.gr/el/4599-e-gift-card",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "E-Gift Card for all! - Alouette | Βρεφικά & Παιδικά Ρούχα",
+        "E-Gift Card",
+        "E-Gift Card for all!",
+        "Home"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "E-Gift Card"
+    },
+    {
+      "cardId": "cmta1hb5r008iq8iyqvjs32oy",
+      "merchantId": "cmta1hayg008hq8iyxn9dz5cg",
+      "merchantName": "Ammashop",
+      "title": "GIFT CARD 100€ - ammashop",
+      "officialUrl": "https://www.ammashop.gr/gift-cards",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.ammashop.gr/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Loading..."
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1lpfx00q6q8iyf11yv5pi",
+      "merchantId": "cmta1lp9t00q5q8iyz374e7wj",
+      "merchantName": "Amourianosoptics",
+      "title": "GIFT CARD 200€",
+      "officialUrl": "https://amourianosoptics.gr/en/accessories-html/gift-cards.html",
+      "titleAmounts": [
+        200
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://amourianosoptics.gr/en/accessories-html/gift-cards.html",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GIFT CARDS - Accessories",
+        "GIFT CARDS"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1k5f500jwq8iyplvt7fkz",
+      "merchantId": "cmta1k58l00jvq8iyujdntq2y",
+      "merchantName": "Annamariamazaraki",
+      "title": "Gift Card 50 euro. Give the gift of love to your beloved one ...",
+      "officialUrl": "https://annamariamazaraki.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.annamariamazaraki.com/el",
+      "status": "REVIEW",
+      "reasons": [
+        "CROSS_DOMAIN_REDIRECT",
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Anna Maria Mazaraki"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ftsh003nq8iyxswky70y",
+      "merchantId": "cmta1ftm4003mq8iyn7wu2dpi",
+      "merchantName": "ApparelStores",
+      "title": "e-Gift Card - 30.00",
+      "officialUrl": "https://www.apparelstores.gr/products/e-gift-card",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.apparelstores.gr/products/e-gift-card",
+      "status": "SAFE_VALUE_EVIDENCE",
+      "reasons": [
+        "LIVE_OFFICIAL_PAGE",
+        "STRUCTURED_PRICE_MATCH",
+        "EXPLICIT_DIGITAL_DELIVERY"
+      ],
+      "pageIdentity": [
+        "e-Gift Card – Apparel stores",
+        "e-Gift Card",
+        "Apparel stores"
+      ],
+      "priceEvidence": [
+        {
+          "value": 30,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 80,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 150,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 200,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [
+        30
+      ],
+      "explicitDigitalEvidence": "e-Giftcard"
+    },
+    {
+      "cardId": "cmtb6ugoe000f3giyxjtw5z05",
+      "merchantId": "cmtb6ugje000e3giyaubvped2",
+      "merchantName": "Art Center",
+      "title": "Δωροεπιταγές",
+      "officialUrl": "https://www.art-center.com.gr/categories/4565/dora-doroepitages-/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        4565
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.art-center.com.gr/categories/4565/dora-doroepitages-/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγές",
+        "Art-Center"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "merchantName": "Artcolour",
+      "title": "Art & Colour Gift Card - €200",
+      "officialUrl": "https://artcolour.gr/",
+      "titleAmounts": [
+        200
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_403"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nkqd000354iye66fxcah",
+      "merchantId": "cmta5nklm000254iyykvcbi2u",
+      "merchantName": "Atelie",
+      "title": "Atelie Gift Card",
+      "officialUrl": "https://www.atelie.com.gr/178-giftcards",
+      "titleAmounts": [],
+      "urlAmounts": [
+        178
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_404"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hgn5008wq8iy1ksubp16",
+      "merchantId": "cmta1hgfm008vq8iy2pi8rd5p",
+      "merchantName": "Avvento Shoes",
+      "title": "GIFT CARD 50",
+      "officialUrl": "https://www.avvento-shoes.gr/avvento/gift-card-100eu-gift-card-100eu-101",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        101
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.avvento-shoes.gr/avvento/gift-card-100eu-gift-card-100eu-101",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GIFT CARD 100€ | Avvento Shoes",
+        "GIFT CARD 100€"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": null,
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fbd9001xq8iy16jadarj",
+      "merchantId": "cmta1fb6o001wq8iy33a59phq",
+      "merchantName": "Babydream",
+      "title": "BABYDREAM ΔΩΡΟΕΠΙΤΑΓΗ 300",
+      "officialUrl": "https://www.babydream.gr/",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_403"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hiz30092q8iyqu6sq314",
+      "merchantId": "cmta1hik80091q8iy7tmtpbi6",
+      "merchantName": "Bbq",
+      "title": "Δωροκάρτα αξίας 1.000€",
+      "officialUrl": "https://bbq.gr/gift-cards",
+      "titleAmounts": [
+        1000
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://bbq.gr/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΕΣ",
+        "Home"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hjk40094q8iyvworgly4",
+      "merchantId": "cmta1hjcj0093q8iybfcm521f",
+      "merchantName": "Beauty Case",
+      "title": "Gift Card - 40€ - Beauty Case",
+      "officialUrl": "https://www.beauty-case.gr/product-category/giftcard/",
+      "titleAmounts": [
+        40
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.beauty-case.gr/product-category/giftcard/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Giftcard - Beauty Case",
+        "Giftcard",
+        "Beauty Case",
+        "Αρχική σελίδα"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hkhz0098q8iyjadmmr3n",
+      "merchantId": "cmta1hkcg0097q8iyw3ydcbip",
+      "merchantName": "Beautylink",
+      "title": "Gift Card Αξίας 50 Ευρώ",
+      "officialUrl": "https://beautylink.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.beautylink.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Καλλυντικά online, Αρώματα και Μακιγιάζ - Beautylink Cosmetics",
+        "Home",
+        "Beautylink Cosmetics"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hlab009cq8iyuzff3nxc",
+      "merchantId": "cmta1hl4z009bq8iydvy08yy9",
+      "merchantName": "Beautyprincess",
+      "title": "Gift Card 50€ | BeautyPrincess – Δώρο Ομορφιάς",
+      "officialUrl": "https://beautyprincess.gr/gifts/gift-cards",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://beautyprincess.gr/gifts/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Cards | Δωροκάρτες BeautyPrincess για κάθε περίσταση",
+        "Gift Cards",
+        "Beautyprincess.gr",
+        "Αρχική",
+        "ΔΩΡΑ",
+        "Γιατί να επιλέξω K-Beauty στην Ελλάδα;",
+        "Είναι ακριβά τα κορεάτικα καλλυντικά;",
+        "Πού μπορώ να βρω αυθεντικά κορεάτικα καλλυντικά στην Ελλάδα;"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "merchantName": "Bestpharmacy",
+      "title": "Δωροκάρτα 50",
+      "officialUrl": "https://bestpharmacy.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_403"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb6ui6j000n3giy2kh8ox6c",
+      "merchantId": "cmtb6ui1t000m3giy66028e8c",
+      "merchantName": "Black Lotus Massage",
+      "title": "Black Lotus Massage Δωροκάρτα 30 Ευρώ",
+      "officialUrl": "https://blacklotusmassage.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-40-%CE%B5%CF%85%CF%81%CF%8E/",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [
+        40
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://blacklotusmassage.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-40-%CE%B5%CF%85%CF%81%CF%8E/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Black Lotus Massage Δωροκάρτα 30 Ευρώ",
+        "Δωροκάρτα 50 Ευρώ",
+        "Home",
+        "Δωροκάρτες &#038; Προσφορές",
+        "Black Lotus Massage - Το καλύτερο Μασάζ της Γλυφάδας -",
+        "Black Lotus Massage",
+        "Αρχική σελίδα",
+        "Gift Card"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fjhs002nq8iyk0isu1fk",
+      "merchantId": "cmta1fjbc002mq8iyuv5gz856",
+      "merchantName": "Bonsai Home",
+      "title": "ΔΩΡΟΚΑΡΤΑ ΤΩΝ 10",
+      "officialUrl": "https://bonsaihome.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1-%cf%84%cf%89%ce%bd-10e/",
+      "titleAmounts": [
+        10
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://bonsaihome.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1-%cf%84%cf%89%ce%bd-10e/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΑ ΤΩΝ 10€ - Bonsai Home",
+        "ΔΩΡΟΚΑΡΤΑ ΤΩΝ 10€",
+        "Αρχική σελίδα",
+        "ΔΩΡΟΚΑΡΤΑ",
+        "Bonsai Home"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fw7z003vq8iyw5wvrli7",
+      "merchantId": "cmta1fvwe003uq8iy6vknpigg",
+      "merchantName": "Camper",
+      "title": "Δωροκάρτα Camper",
+      "officialUrl": "https://www.camper.com/el_GR/men/bags-accessories/e-gift_card/camper-e-gift_card-PR148-001",
+      "titleAmounts": [],
+      "urlAmounts": [
+        148
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.camper.com/el_GR/men/bags-accessories/e-gift_card/camper-e-gift_card-PR148-001",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Τσάντες & Αξεσουάρ για Unisex-Συλλογή Φθινόπωρο/Χειμώνας - Camper Greece",
+        "Ηλεκτρονικη Δωροκαρτα",
+        "Ηλεκτρονικη Δωροκαρτα by Camper",
+        "Camper",
+        "B Corp Certification",
+        "B Lab",
+        "Leather Working Group (LWG)",
+        "LWG"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "merchantId": "cmta4ybsv000ksciy2wk84kj0",
+      "merchantName": "Candlejuice",
+      "title": "Δωροκάρτα CandleJuice Gift Card 100€",
+      "officialUrl": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα CandleJuice Gift Card 100€ - CandleJuice.gr",
+        "Δωροκάρτα CandleJuice Gift Card 100€",
+        "CandleJuice.gr",
+        "Home",
+        "Δωροκάρτες CandleJuice - Gift Cards"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77zz5005ldkiyl90mvph8",
+      "merchantId": "cmtb77zu6005kdkiygwtlbq6b",
+      "merchantName": "Carrot Store",
+      "title": "Carrot Store Gift Card",
+      "officialUrl": "https://carrotstore.gr/gift-cards/150e-gift-card/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        150
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://carrotstore.gr/gift-cards/150e-gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "150€ Gift Card | Carrot Concept Store",
+        "150€ Gift Card",
+        "Carrot Concept Store"
+      ],
+      "priceEvidence": [
+        {
+          "value": 150,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 150,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hs0500a4q8iy6cmwyvew",
+      "merchantId": "cmta1hru700a3q8iy6vn9whln",
+      "merchantName": "Cavallo",
+      "title": "Cavallo e-gift card - Δωροκάρτα Αξίας 20€",
+      "officialUrl": "https://www.cavallo.gr/product/gift-card-100e/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.cavallo.gr/product/gift-card-100e/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE"
+      ],
+      "pageIdentity": [
+        "Cavallo e-gift card - Δωροκάρτα Αξίας 100€ - Cavallo",
+        "Δωροκάρτα Αξίας 100€",
+        "Home",
+        "Shop",
+        "Cavallo",
+        "Αρχική σελίδα",
+        "ΑΞΕΣΟΥΑΡ",
+        "CAVALLO"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": "e-gift card"
+    },
+    {
+      "cardId": "cmta1kk4900lkq8iyorzj05jc",
+      "merchantId": "cmta1kjxb00ljq8iyqyzzmihw",
+      "merchantName": "Celesteshop",
+      "title": "Gift Card 50",
+      "officialUrl": "https://celesteshop.gr/c/dwrokarta/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://celesteshop.gr/c/dwrokarta/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - CelesteShop",
+        "Δωροκάρτα",
+        "Aρχική σελίδα",
+        "Κατάστημα",
+        "Όλα τα προϊόντα",
+        "CelesteShop"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1foot0035q8iyj3zj3bf1",
+      "merchantId": "cmta1foi10034q8iys3xdtw6v",
+      "merchantName": "Chicbee",
+      "title": "Δωροκάρτα 20",
+      "officialUrl": "https://chicbee.gr/product/dorokarta-10/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://chicbee.gr/product/dorokarta-10/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 10 - ChicBee",
+        "Δωροκάρτα 10",
+        "Αρχική",
+        "Shop",
+        "ChicBee",
+        "Αρχική σελίδα",
+        "Δωροκάρτες"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb7718b000ldkiynw5j1q46",
+      "merchantId": "cmtb77130000kdkiy8nzwbibh",
+      "merchantName": "Cordella",
+      "title": "Δωροκάρτα 500€",
+      "officialUrl": "https://www.cordella.gr/shop/empeiries/taxidia-metakiniseis/xenodoxeia-diamones/dorokarta-500_10995",
+      "titleAmounts": [
+        500
+      ],
+      "urlAmounts": [
+        500
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.cordella.gr/shop/empeiries/taxidia-metakiniseis/xenodoxeia-diamones/dorokarta-500_10995",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 500€"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77v6h004vdkiy54z2aiui",
+      "merchantId": "cmtb77v1h004udkiyfr8vdjju",
+      "merchantName": "Cuka",
+      "title": "Cuka Gift Card",
+      "officialUrl": "https://cuka.gr/shop/new-collection-ss-26-all/gift-card-2/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        26
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://cuka.gr/shop/new-collection-aw26-27-all/gift-card-2/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - Δεν ξέρεις τι δώρο να κάνεις σε ένα αγαπημένο σου πρόσωπο? Τώρα μπορείς να του χαρίσεις μία Gift Card ώστε να κάνει μόνος του τις αγορές του, με προϊόντα της επιλογής του! Αγοράζοντας μια Gift Card από το cuka.gr μπορείς να την χρησιμοποιήσεις σε αγορές όποια στιγμή εσύ επιθυμείς ή μπορείς να την κάνεις δώρο σε αγαπημένα σου πρόσωπα για να αγοράσουν ότι επιθυμούν. - Cuka Fashion",
+        "Δωροκάρτα – Δεν ξέρεις τι δώρο να κάνεις σε ένα αγαπημένο σου πρόσωπο? Τώρα μπορείς να του χαρίσεις μία Gift Card ώστε να κάνει μόνος του τις αγορές του, με προϊόντα της επιλογής του! Αγοράζοντας μια Gift Card από το cuka.gr μπορείς να την χρησιμοποιήσεις σε αγορές όποια στιγμή εσύ επιθυμείς ή μπορείς να την κάνεις δώρο σε αγαπημένα σου πρόσωπα για να αγοράσουν ότι επιθυμούν."
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1mtta00ugq8iy0fpw7nra",
+      "merchantId": "cmta1mtmv00ufq8iy7t79x1wg",
+      "merchantName": "Dalis",
+      "title": "Gift Card 20",
+      "officialUrl": "https://dalis.gr/product-category/gift-cards/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://dalis.gr/product-category/gift-cards/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift cards - Dali's Boutique",
+        "Gift cards",
+        "Αρχική σελίδα",
+        "Κατάστημα"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hvnc00aiq8iy7f43du8p",
+      "merchantId": "cmta1hv0400ahq8iy7wxjbo01",
+      "merchantName": "Dbsounds",
+      "title": "e-Gift Card (Hλεκτρονική Δωροκάρτα) 500€",
+      "officialUrl": "https://dbsounds.gr/",
+      "titleAmounts": [
+        500
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.dbsounds.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "dB sounds Μουσικά όργανα, εξοπλισμός DJ, αξεσουάρ και αναλώσιμα στις καλύτερες τιμές της αγοράς."
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1eutm0003q8iyh4fzlzqm",
+      "merchantId": "cmta1eump0002q8iypnb8sp6o",
+      "merchantName": "Decathlon Greece",
+      "title": "Κάρτα Δώρου",
+      "officialUrl": "https://www.decathlon.com.gr/el/content/36-gift-card",
+      "titleAmounts": [],
+      "urlAmounts": [
+        36
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_403"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1hw4400akq8iykgucmned",
+      "merchantId": "cmta1hvy400ajq8iyj0su91kc",
+      "merchantName": "Decolight",
+      "title": "Δωροκάρτα 20€ - 0001",
+      "officialUrl": "https://decolight.gr/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.decolight.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Decolight – Φωτιστικά, Επαγγελματικός Φωτισμός, Διακόσμηση Creative Cables",
+        "Decolight.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fa1z001rq8iyz9bikmb5",
+      "merchantId": "cmta1f9vp001qq8iy90mef58l",
+      "merchantName": "DigiShark",
+      "title": "Δωροκάρτα 25",
+      "officialUrl": "https://digishark.gr/product/giftcard26/",
+      "titleAmounts": [
+        25
+      ],
+      "urlAmounts": [
+        26
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://digishark.gr/product/giftcard26/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - DigiShark",
+        "Δωροκάρτα",
+        "DigiShark",
+        "Αρχική σελίδα",
+        "Δωροκάρτες"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_LOWPRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_HIGHPRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1m6ad00s0q8iyjl5guf73",
+      "merchantId": "cmta1m63d00rzq8iyrm7v5cfk",
+      "merchantName": "Dromeasbikes",
+      "title": "Gift voucher €25",
+      "officialUrl": "https://dromeasbikes.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%b5%cf%80%ce%b9%cf%84%ce%b1%ce%b3%ce%ae10/",
+      "titleAmounts": [
+        25
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://dromeasbikes.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%b5%cf%80%ce%b9%cf%84%ce%b1%ce%b3%ce%ae10/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγή €10 – DromeasBikes",
+        "Δωροεπιταγή €10",
+        "Δωροεπιταγές",
+        "DromeasBikes"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1m6ti00s2q8iyv2uhr92n",
+      "merchantId": "cmta1m6np00s1q8iyh8u312hb",
+      "merchantName": "E Snacks",
+      "title": "Gift Card 50€ | E-Snacks",
+      "officialUrl": "https://e-snacks.gr/gift-cards",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://e-snacks.gr/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Cards | E-Snacks",
+        "Gift Cards"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1m7h100s4q8iy0yg57q08",
+      "merchantId": "cmta1m7ap00s3q8iyofu6o4ra",
+      "merchantName": "E Socks",
+      "title": "€50 Gift Card",
+      "officialUrl": "https://e-socks.gr/collections/giftcards",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://e-socks.gr/collections/giftcards",
+      "status": "SAFE_VALUE_EVIDENCE",
+      "reasons": [
+        "LIVE_OFFICIAL_PAGE",
+        "STRUCTURED_PRICE_MATCH",
+        "EXPLICIT_DIGITAL_DELIVERY"
+      ],
+      "pageIdentity": [
+        "Gift Cards – e-socks.gr",
+        "Gift Cards",
+        "e-socks.gr",
+        "10€ Gift Card",
+        "50€ Gift Card",
+        "25€ Gift Card",
+        "Κάλτσες #doyoudaresocks Digital Printed Casual \"Το παλιό...το ορθόδοξο\" (code 60080)",
+        "#doyoudaresocks",
+        "Κάλτσες #doyoudaresocks Digital Printed SuperSport \"Το παλιό...το ορθόδοξο\" (code 70115)",
+        "Κάλτσες #doyoudaresocks Digital Printed Casual PacMan (code 60083)",
+        "Κάλτσες #doyoudaresocks Digital Printed SuperSport Black Friday (code 70076)",
+        "Κάλτσες #doyoudaresocks Digital Printed SuperSport Black & White Skulls (code 70035)",
+        "Κάλτσες #doyoudaresocks Digital Printed SuperSport PacMan (code 70120)"
+      ],
+      "priceEvidence": [
+        {
+          "value": 9,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 25,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [
+        50
+      ],
+      "explicitDigitalEvidence": "eGift Card"
+    },
+    {
+      "cardId": "cmta1glxb006aq8iyq6z8shi9",
+      "merchantId": "cmta1glqy0069q8iyo9pgurro",
+      "merchantName": "Efarmakeio",
+      "title": "Δωροκάρτα Αξίας 25,00",
+      "officialUrl": "https://efarmakeio.gr/gift-cards",
+      "titleAmounts": [
+        25
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://efarmakeio.gr/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτες | efarmakeio.gr",
+        "Δωροκάρτες",
+        "efarmakeio.gr | Online Φαρμακείο | Επώνυμες Μάρκες",
+        "Αρχική"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fnc4002zq8iy3yrpxjfz",
+      "merchantId": "cmta1fn4k002yq8iypmw8rapu",
+      "merchantName": "Ekklisiastika Karditsa",
+      "title": "Κολώνας Δωροκάρτα 50",
+      "officialUrl": "https://ekklisiastikakarditsa.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://ekklisiastikakarditsa.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Εκκλησιαστικά Είδη Καρδίτσα - Κολώνας",
+        "Εκκλησιαστικά Είδη Καρδίτσα – Κολώνας",
+        "Αρχική",
+        "Εκκλησιαστικά Είδη Καρδίτσα"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1myap00uyq8iy05wx63jv",
+      "merchantId": "cmta1my4200uxq8iyrtkh2ksx",
+      "merchantName": "Enchriso",
+      "title": "100€ gift card - Κοσμήματα En Chriso",
+      "officialUrl": "https://enchriso.gr/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "fetch failed"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1f6090019q8iygnn0tj4u",
+      "merchantId": "cmta1f5tr0018q8iyo2evq1r0",
+      "merchantName": "EpiploSet",
+      "title": "Δωροκάρτα Ποσό Δωροκάρτας: 50",
+      "officialUrl": "https://www.epiploset.gr/product/gift-card/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.epiploset.gr/product/gift-card/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα | Epiplo Set",
+        "Δωροκάρτα",
+        "Epiplo Set",
+        "Κατάστημα",
+        "Home",
+        "Όλα τα προϊόντα"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_LOWPRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 500,
+          "currency": "EUR",
+          "source": "JSONLD_HIGHPRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fsu3003jq8iy5qqq6jin",
+      "merchantId": "cmta1fsn8003iq8iy44ffyjo1",
+      "merchantName": "Ergaleiogatos",
+      "title": "30 EUR",
+      "officialUrl": "https://www.ergaleiogatos.gr/shop/doroepitagi/",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.ergaleiogatos.gr/shop/doroepitagi/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγή - Ergaleiogatos.gr",
+        "Δωροεπιταγή",
+        "Αρχική Σελίδα",
+        "Κατάστημα",
+        "Προετοιμασία",
+        "Εξοπλισμός",
+        "Ιδέες - Σετ Δώρων για DIY",
+        "Ergaleiogatos.gr",
+        "Αρχική σελίδα"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb774ej0011dkiy2n93voje",
+      "merchantId": "cmtb7749h0010dkiy4q022h9a",
+      "merchantName": "Fagotto Books",
+      "title": "Δωροκάρτα αξίας 40 ευρώ",
+      "officialUrl": "https://fagottobooks.gr/en/6005-dorokarta-axias-40-eyro.html",
+      "titleAmounts": [
+        40
+      ],
+      "urlAmounts": [
+        40,
+        6005
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://fagottobooks.gr/en/6005-dorokarta-axias-40-eyro.html",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα αξίας 40 ευρώ - Fagotto Books",
+        "Δωροκάρτα αξίας 40 ευρώ"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4yh9u0017sciy4yb84cy2",
+      "merchantId": "cmta4yh320016sciyuh3ghceq",
+      "merchantName": "Familychef",
+      "title": "GIFT CARDS – FamilyChef",
+      "officialUrl": "https://familychef.gr/en/products/100-gift-card",
+      "titleAmounts": [],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://familychef.gr/en/products/100-gift-card",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GIFT CARDS – FamilyChef",
+        "GIFT CARDS"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1i8n300boq8iydt4qw67b",
+      "merchantId": "cmta1i8g400bnq8iyw7ifw6pq",
+      "merchantName": "Fantasea",
+      "title": "Δωροεπιταγή 100",
+      "officialUrl": "https://www.fantasea.gr/product/doroepitagi-30-1032/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        30,
+        1032
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.fantasea.gr/product/doroepitagi-30-1032/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγή 30€ - Fantasea",
+        "Δωροεπιταγή 30€",
+        "Home",
+        "Κατάστημα",
+        "Fantasea",
+        "Αρχική σελίδα",
+        "Uncategorized",
+        "VARIOUS"
+      ],
+      "priceEvidence": [
+        {
+          "value": 24.19,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1frxq003fq8iydayuc6sk",
+      "merchantId": "cmta1frr8003eq8iy26h3rb97",
+      "merchantName": "Farmakeio4all",
+      "title": "Δωροκάρτα 60 ευρώ",
+      "officialUrl": "https://farmakeio4all.gr/product/dwrokarta-100-evrw-2/",
+      "titleAmounts": [
+        60
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://farmakeio4all.gr/product/dwrokarta-100-evrw-2/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 100 ευρώ | Farmakeio4all",
+        "Κατηγορίες",
+        "Αρχική",
+        "Κατάστημα",
+        "ΔΩΡΟΚΑΡΤΕΣ",
+        "Δωροκάρτα 100 ευρώ",
+        "Farmakeio4all"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb774sd0013dkiy6s1lutst",
+      "merchantId": "cmtb774mt0012dkiyq4k7d2ow",
+      "merchantName": "Feed Me",
+      "title": "Feed Me Gift Card",
+      "officialUrl": "https://www.feedmepetshop.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-giftcard-25e/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        25
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.feedmepetshop.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-giftcard-25e/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα / Giftcard 25€ - Feed Me - Pet Shop Θεσσαλονίκη",
+        "Feed Me - Pet Shop Θεσσαλονίκη",
+        "Pet Shop - Feed Me",
+        "Feed Me Pet Shop"
+      ],
+      "priceEvidence": [
+        {
+          "value": 25,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 25,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1iad800bwq8iyw7ce55ti",
+      "merchantId": "cmta1ia7500bvq8iypdqd66ct",
+      "merchantName": "Funkymonkeyshoes",
+      "title": "ΔΩΡΟΚΑΡΤΑ 30€ | 40€ | 50",
+      "officialUrl": "https://funkymonkeyshoes.gr/product/gift-card/",
+      "titleAmounts": [
+        30,
+        40
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://funkymonkeyshoes.gr/product/gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΑ 30€ | 40€ | 50€ | Παιδικά Παπούτσια | Funky Monkey",
+        "ΔΩΡΟΚΑΡΤΑ 30€ | 40€ | 50€",
+        "Αρχική",
+        "Παπούτσια Για Παιδιά",
+        "Funky Monkey Παιδικά Παπούτσια",
+        "Παιδικά Παπούτσια | Funky Monkey"
+      ],
+      "priceEvidence": [
+        {
+          "value": 30,
+          "currency": "EUR",
+          "source": "JSONLD_LOWPRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_HIGHPRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ezdj000jq8iyh7o6gmjd",
+      "merchantId": "cmta1ez7o000iq8iykgtqu8z5",
+      "merchantName": "GC-TECH",
+      "title": "ΔΩΡΟΚΑΡΤΑ ΤΩΝ 10 - GIFT CARD",
+      "officialUrl": "https://gctech.gr/",
+      "titleAmounts": [
+        10
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://gctech.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GCTECH | Επισκευές & Ανταλλακτικά Κινητών - Laptops - Accessories",
+        "GCTECH"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb7774t001fdkiyhs33c0v6",
+      "merchantId": "cmtb776zn001edkiyarmmetay",
+      "merchantName": "God Bless Women",
+      "title": "25 CHF Gift card",
+      "officialUrl": "https://godblesswomen.gr/products/25-chf-gift-card/236339811/",
+      "titleAmounts": [
+        25
+      ],
+      "urlAmounts": [
+        25
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_404"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": "CHF",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fk9b002pq8iyf5m36fcm",
+      "merchantId": "cmta1fk27002oq8iyhbxv0ee5",
+      "merchantName": "Grill me",
+      "title": "ΔΩΡΟΚΑΡΤΑ 50 Ευρώ",
+      "officialUrl": "https://grillme.gr/gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://grillme.gr/gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Ψησταριές BBQ | Grill Me",
+        "Grillme"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1icyu00c8q8iytwvndmek",
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "merchantName": "Harmanis",
+      "title": "Δωροεπιταγή 300 ευρώ",
+      "officialUrl": "https://harmanis.gr/",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_403"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1kqbn00maq8iyrbgsvpn7",
+      "merchantId": "cmta1kq4t00m9q8iynfm2daqb",
+      "merchantName": "Hobbylobby Yarns",
+      "title": "Δωροεπιταγή 100",
+      "officialUrl": "https://www.hobbylobby-yarns.gr/product/doroepitagi-100e/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.hobbylobby-yarns.gr/product/doroepitagi-100e/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγή 100€ - www.hobbylobby-yarns.gr",
+        "Δωροεπιταγή 100€",
+        "Προϊόντα",
+        "Νήματα",
+        "Νήματα για πλέξιμο",
+        "Νήματα για τσάντες",
+        "Νήματα για κάλτσες",
+        "Νήματα Macramé",
+        "Νήματα για μαγιό",
+        "Υποαλλεργικά νήματα για μωρά",
+        "Κουβερτονήματα",
+        "Βαμβακερά νήματα, Καλοκαιρινά νήματα",
+        "Ολόμαλλα νήματα",
+        "Σύμμεικτα νήματα",
+        "Ακρυλικά νήματα",
+        "Ελληνικά νήματα",
+        "Ιταλικά νήματα",
+        "Kit Πλεξίματος",
+        "Νήματα σε προσφορά",
+        "Δαντελονήματα"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb78fkx007odkiylrl8o7it",
+      "merchantId": "cmtb78ffp007ndkiyn4woc6vx",
+      "merchantName": "Hobbywood",
+      "title": "ΔΩΡΟΚΑΡΤΑ 100€",
+      "officialUrl": "https://www.hobbywood.gr/GIFTCARD100",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.hobbywood.gr/GIFTCARD100",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΑ 100€",
+        "Hobbywood - Όλα για το χόμπυ και τη ζωγραφική",
+        "Προϊόντα",
+        "Αρχική",
+        "hobbywood"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4ykx8001lsciyu1m24dqd",
+      "merchantId": "cmta4ykr0001ksciypzktgyzf",
+      "merchantName": "Iaso",
+      "title": "IASO presents “IASO Gift Card” for Mammography",
+      "officialUrl": "https://www.iaso.gr/en/news/details/2020/10/13/to-iaso-parousiazi-tin-iaso-gift-card-gia-mastografia",
+      "titleAmounts": [],
+      "urlAmounts": [
+        10,
+        13,
+        2020
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.iaso.gr/en/news/details/2020/10/13/to-iaso-parousiazi-tin-iaso-gift-card-gia-mastografia",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "IASO presents “IASO Gift Card” for Mammography",
+        "HOMEPAGE",
+        "NEWS - PRESS RELEASES",
+        "DETAILS",
+        "ΙΑΣΩ",
+        "Όμιλος ΙΑΣΩ"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ihz900csq8iy52zsyahm",
+      "merchantId": "cmta1ihsb00crq8iy83hvfzop",
+      "merchantName": "Imanoglou",
+      "title": "Δωροκάρτα",
+      "officialUrl": "https://imanoglou.gr/en/catalogue/giftcard_50/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        50
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://imanoglou.gr/en/catalogue/giftcard_50/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "IMANOGLOU - Gift card",
+        "Gift card",
+        "Imanoglou"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "e-gift card"
+    },
+    {
+      "cardId": "cmtb779he001rdkiycol4bpk0",
+      "merchantId": "cmtb779c5001qdkiy6oykrbp5",
+      "merchantName": "Ioannou Cosmetics",
+      "title": "Δωροκάρτα 50",
+      "officialUrl": "https://www.ioannou-cosmetics.gr/shop/dwrokartes/dwrokarta-50-e/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        50
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.ioannou-cosmetics.gr/shop/dwrokartes/dwrokarta-50-e/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 50 € - Ioannou Cosmetics",
+        "Δωροκάρτα 50 €",
+        "Aρχική",
+        "Προϊόντα",
+        "Δωροκάρτες",
+        "Ioannou Cosmetics"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fj1o002lq8iyo5np81fy",
+      "merchantId": "cmta1fivj002kq8iypy583huf",
+      "merchantName": "Ipatios",
+      "title": "Δωροκάρτα 100",
+      "officialUrl": "https://ipatios.gr/c/gynaika/dwrokarta-gynaika/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://ipatios.gr/c/gynaika/dwrokarta-gynaika/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - Γυναίκα • Ipatios",
+        "Δωροκάρτα",
+        "Δωροκάρτα • Ipatios",
+        "Δωροκάρτα &#8226; Ipatios",
+        "Αρχική",
+        "Γυναίκα",
+        "Ipatios"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fxm40041q8iyf19nk7km",
+      "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+      "merchantName": "iQueens",
+      "title": "iQueens: Το Ιδανικό Δώρο! Δωροκάρτες από 20€ έως 400€",
+      "officialUrl": "https://www.iqueens.gr/el/dorokartes/309412-ilektroniko-kouponi-aksias-400-.html",
+      "titleAmounts": [
+        20,
+        400
+      ],
+      "urlAmounts": [
+        400
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_400"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1k8xm00kaq8iy3sqsa28b",
+      "merchantId": "cmta1k8qh00k9q8iyaho07xw2",
+      "merchantName": "Iridaspa",
+      "title": "Δωροκάρτα - Gift Card",
+      "officialUrl": "https://www.iridaspa.gr/product/gift-card-10/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.iridaspa.gr/product/gift-card-10/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - Gift Card | Iridaspa",
+        "Δωροκάρτα – Gift Card",
+        "Δωροκάρτα - Gift Card",
+        "Iridaspa"
+      ],
+      "priceEvidence": [
+        {
+          "value": 20,
+          "currency": "EUR",
+          "source": "JSONLD_LOWPRICE"
+        },
+        {
+          "value": 150,
+          "currency": "EUR",
+          "source": "JSONLD_HIGHPRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmt8gzro7000114iywjzh5sfg",
+      "merchantId": "cmt8gzrhy000014iyuz59nurc",
+      "merchantName": "JD Sports Greece",
+      "title": "JD Sports Greece Gift Card",
+      "officialUrl": "https://www.jdsports.gr/el/cms/333/gift-cards",
+      "titleAmounts": [],
+      "urlAmounts": [
+        333
+      ],
+      "existingVariantCount": 1,
+      "finalUrl": "https://www.jdsports.gr/el/cms/333/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "JD Δωροκάρτα και Ηλεκτρονική Δωροκάρτα | JD Sports Ελλάδα",
+        "JD ΔΩΡΟΚΑΡΤΑ &ΗΛΕΚΤΡΟΝΙΚΗ ΔΩΡΟΚΑΡΤΑ",
+        "JD Sports",
+        "Smart Park, Spata Loutsa"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "eGiftcard"
+    },
+    {
+      "cardId": "cmta1f16s000rq8iy7vke82nt",
+      "merchantId": "cmta1f101000qq8iy6zg8n644",
+      "merchantName": "John-Andy",
+      "title": "JOHN-ANDY Δωροεπιταγή 20 Ευρώ",
+      "officialUrl": "https://www.john-andy.com/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://john-andy.com/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Επώνυμα Ρούχα, Παπούτσια & Αξεσουάρ | John-Andy.com"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1n88i00w2q8iyediptv4s",
+      "merchantId": "cmta1n82o00w1q8iyo9230d1u",
+      "merchantName": "Kaelego",
+      "title": "Gift card-50",
+      "officialUrl": "https://kaelego.gr/gift-card/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://kaelego.gr/gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card – kaelego.gr",
+        "Gift Card",
+        "Home",
+        "kaelego.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ksaz00miq8iyz8knfxq5",
+      "merchantId": "cmta1ks4x00mhq8iydfmn5xou",
+      "merchantName": "Kalousos",
+      "title": "Δωροκάρτα (Gift Card) 50",
+      "officialUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "KALOUSOS Δωροκάρτα (Gift Card) 50€ μόνο με 50.00",
+        "Δωροκάρτα (Gift Card) 50€"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1lj9c00piq8iynmfth5h9",
+      "merchantId": "cmta1lj2s00phq8iymc9sy8cd",
+      "merchantName": "Kantarzoglou",
+      "title": "€150.00 Gift Card",
+      "officialUrl": "https://www.kantarzoglou.gr/el/my-gift-cards/",
+      "titleAmounts": [
+        150
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.kantarzoglou.gr/el/my-gift-cards/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Oι δωροεπιταγές μου"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ilzk00d8q8iy2h8zeglu",
+      "merchantId": "cmta1iltx00d7q8iyerhiz1p8",
+      "merchantName": "Kazi",
+      "title": "Gift Card 80",
+      "officialUrl": "https://kazi.gr/gift-card-519380-1.html",
+      "titleAmounts": [
+        80
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://kazi.gr/gift-card-519380-1.html",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card 30 519380-1 plus size | Kazi Line Fashion",
+        "Gift Card 80"
+      ],
+      "priceEvidence": [
+        {
+          "value": 80,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ims300dcq8iy209yelks",
+      "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+      "merchantName": "Kikoo",
+      "title": "Δωροεπιταγή Kikoo 50€",
+      "officialUrl": "https://kikoo.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://kikoo.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Kikoo Baby Store | Βρεφικό Πολυκατάστημα",
+        "Kikoo Baby Store"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmt8movjv00065ciysur9vq6l",
+      "merchantId": "cmt8movdd00055ciyebq5kzv5",
+      "merchantName": "KORRES",
+      "title": "KORRES Gift Card",
+      "officialUrl": "https://www.korres.com/products/korres-e-gift-card-26",
+      "titleAmounts": [],
+      "urlAmounts": [
+        26
+      ],
+      "existingVariantCount": 1,
+      "finalUrl": "https://www.korres.com/products/korres-e-gift-card-26",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "KORRES E-Gift Card – $25 | KORRES",
+        "KORRES E-Gift Card $25.00",
+        "KORRES",
+        "Korres"
+      ],
+      "priceEvidence": [
+        {
+          "value": 25,
+          "currency": "USD",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "E-Gift Card"
+    },
+    {
+      "cardId": "cmta1flev002rq8iyn4j6f4f1",
+      "merchantId": "cmta1fl7h002qq8iyqkgcjboc",
+      "merchantName": "Kounio",
+      "title": "Δωροκάρτα - Gift Card - 25",
+      "officialUrl": "https://www.kounio.gr/",
+      "titleAmounts": [
+        25
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://kounio.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Kounio.gr | Χιλιάδες Προϊόντα, Άμεσα Διαθέσιμα",
+        "Home",
+        "Kounio.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1n9za00w8q8iy7ywbxcsm",
+      "merchantId": "cmta1n9sv00w7q8iypja3wgnv",
+      "merchantName": "Krikisbeauty",
+      "title": "Gift Card 20€ | https://krikisbeauty.gr/",
+      "officialUrl": "https://krikisbeauty.gr/shop/gift-card-100e/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://krikisbeauty.gr/shop/gift-card-100e/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card 100€ | https://krikisbeauty.gr/",
+        "Gift Card 100€",
+        "Αρχική",
+        "ΚΑΤΑΣΤΗΜΑ",
+        "https://krikisbeauty.gr/",
+        "Αρχική σελίδα",
+        "ΚΑΡΤΕΣ ΔΩΡΟΥ"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1grv5006uq8iye4j038gk",
+      "merchantId": "cmta1grl4006tq8iy8pmzmbvn",
+      "merchantName": "Laloo",
+      "title": "Laloo Gift Card 30€",
+      "officialUrl": "https://laloo.gr/el/250-gift-cards",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [
+        250
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://laloo.gr/el/250-gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Cards",
+        "Laloo Cosmetics",
+        "Αρχική",
+        "Προϊόντα",
+        "Laloo Gadgets",
+        "Laloo Gift Card 30€",
+        "Laloo Gift Card 50€",
+        "Laloo Gift Card 100€"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1inkb00dgq8iyu0pfa6d9",
+      "merchantId": "cmta1ineu00dfq8iyw5mpx7lq",
+      "merchantName": "Lamillou",
+      "title": "Gift Card 100€ | La Millou",
+      "officialUrl": "https://lamillou.gr/%CF%80%CF%81%CE%BF%CF%8A%CF%8C%CE%BD/gift-card-100e/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://lamillou.gr/%CF%80%CF%81%CE%BF%CF%8A%CF%8C%CE%BD/gift-card-100e/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card 100€ | La Millou",
+        "Gift Card 100€",
+        "Home",
+        "Shop",
+        "Gift Cards",
+        "La Millou"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4yrha002dsciywsr7shx4",
+      "merchantId": "cmta4yrb8002csciyx2ses6du",
+      "merchantName": "Leatherstudio",
+      "title": "Gift Card 25,00 - Leather Studio",
+      "officialUrl": "https://www.leatherstudio.gr/el/products/copy-of-gift-card?srsltid=AfmBOoqpDrXIE_fA_yZRQ9z47-bZ1Ul0ITgf_sEZLCsb4M3B6YO5K3Xg",
+      "titleAmounts": [
+        25
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.leatherstudio.gr/el/products/copy-of-gift-card?srsltid=AfmBOoqpDrXIE_fA_yZRQ9z47-bZ1Ul0ITgf_sEZLCsb4M3B6YO5K3Xg",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card 25,00",
+        "leatherstudio.gr",
+        "Gift Card 25,00 - €25.00",
+        "Αρχική"
+      ],
+      "priceEvidence": [
+        {
+          "value": 25,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 25,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fsds003hq8iywvbrxbq7",
+      "merchantId": "cmta1fs7o003gq8iylqjn4ind",
+      "merchantName": "LIAKOPOULOS Brands Store",
+      "title": "GIFTCARD 100 (Δωροκάρτα)",
+      "officialUrl": "https://www.liakopoulos-store.gr/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://liakopoulos-store.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "LIAKOPOULOS Brands Store – Brands Store | Est.1959",
+        "LIAKOPOULOS Brands Store"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb6uw0e002o3giyafr6pxqp",
+      "merchantId": "cmtb6uvw3002n3giyqr9kvyec",
+      "merchantName": "Linson Moto",
+      "title": "Linson Moto Gift Card",
+      "officialUrl": "https://linsonmoto.gr/dwrokarta-200",
+      "titleAmounts": [],
+      "urlAmounts": [
+        200
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://linsonmoto.gr/dwrokarta-200",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 200€ ДРУГИ | Linson Moto",
+        "Δωροκάρτα 200€",
+        "ДРУГИ",
+        "Linson Moto"
+      ],
+      "priceEvidence": [
+        {
+          "value": 200,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 200,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nrd7001354iyo6sumjdq",
+      "merchantId": "cmta5nr81001254iy1l0ypsfm",
+      "merchantName": "Londonboutique",
+      "title": "London Boutique Gift card - London Βoutique",
+      "officialUrl": "https://www.londonboutique.gr/product/london-boutique-gift-card-6/?srsltid=AfmBOoplBkxynnLo-jtk_SI0AXzE9nfxHEuDaAnHJoAWkxxbbtBm45L9",
+      "titleAmounts": [],
+      "urlAmounts": [
+        6
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.londonboutique.gr/product/london-boutique-gift-card-6/?srsltid=AfmBOoplBkxynnLo-jtk_SI0AXzE9nfxHEuDaAnHJoAWkxxbbtBm45L9",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "London Boutique Gift card - London Βoutique",
+        "London Boutique Gift card",
+        "Home",
+        "Shop",
+        "London Βoutique",
+        "Αρχική σελίδα",
+        "ΔΩΡΑ"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb78cvq007adkiylvhj4shj",
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "merchantName": "Lonis Tattoo Studio",
+      "title": "Lonis Tattoo Studio Gift Card",
+      "officialUrl": "https://www.tattooathens.gr/blog/news/53-lts-gift-card",
+      "titleAmounts": [],
+      "urlAmounts": [
+        53
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.tattooathens.gr/blog/news/53-lts-gift-card",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "LTS GIFT CARD / ΚΑΡΤΑ ΔΩΡΟΥ",
+        "Lonis Tattoo Studio"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nrpi001554iy38lsipa9",
+      "merchantId": "cmta5nrkx001454iy2e3ktvtk",
+      "merchantName": "Love It",
+      "title": "Love.it Gift Card Digital",
+      "officialUrl": "https://www.love-it.gr/en/design-product/prid/8281/r/love-it-gift-card-digital?srsltid=AfmBOor7AsdQ_AFodYvX0jyxZK00l9QvefpYawTKuMYoplbS1_PTWrn1",
+      "titleAmounts": [],
+      "urlAmounts": [
+        8281
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.love-it.gr/en/design-product/prid/8281/r/love-it-gift-card-digital?srsltid=AfmBOor7AsdQ_AFodYvX0jyxZK00l9QvefpYawTKuMYoplbS1_PTWrn1",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Love-it - Love.it Gift Card Digital",
+        "LOVE.IT GIFT CARD DIGITAL",
+        "Love.it Gift Card Digital",
+        "Love.It"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "digital gift card"
+    },
+    {
+      "cardId": "cmta1ktry00moq8iyk8cnm3ts",
+      "merchantId": "cmta1ktlv00mnq8iym8klu36r",
+      "merchantName": "Luckytravel",
+      "title": "Gift card €100 – €200 - Lucky Travel |",
+      "officialUrl": "https://www.luckytravel.gr/product/giftcard/",
+      "titleAmounts": [
+        100,
+        200
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.luckytravel.gr/product/giftcard/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Lucky Travel | Shop",
+        "Δωροκάρτα 100€ – 200€ – 300€"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1gsbd006wq8iy8x59y1jr",
+      "merchantId": "cmta1gs4h006vq8iydzfivov7",
+      "merchantName": "Maniashome",
+      "title": "ΔΩΡΟΕΠΙΤΑΓΗ €20",
+      "officialUrl": "https://maniashome.gr/proion/doroepitagi-e10/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://maniashome.gr/proion/doroepitagi-e10/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΕΠΙΤΑΓΗ €10 - Manias Home",
+        "ΔΩΡΟΕΠΙΤΑΓΗ €10",
+        "Home",
+        "Τα Προϊόντα Μας",
+        "Manias Home",
+        "Αρχική σελίδα",
+        "Δωροεπιταγές"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1iskl00e4q8iy4blzttgs",
+      "merchantId": "cmta1isf400e3q8iyxulrv2jo",
+      "merchantName": "Maralcrafts",
+      "title": "Gift Card 50 Euro - Maral Crafts",
+      "officialUrl": "https://maralcrafts.gr/product-category/gift-cards/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://maralcrafts.gr/product-category/gift-cards/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Cards - Maral",
+        "Gift Cards",
+        "Maral",
+        "Home",
+        "Gift Card 50 Euro - Maral",
+        "Gift Card 20 Euro - Maral",
+        "Gift Card 10 Euro - Maral",
+        "Αρχική σελίδα"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 20,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ndg700wmq8iy0aym5v5k",
+      "merchantId": "cmta1nd8500wlq8iyt3qqsq3s",
+      "merchantName": "Marinospor",
+      "title": "Gift Card - Gift Card 100€ - Marinospor",
+      "officialUrl": "https://marinospor.gr/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://marinospor.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Αρχική σελίδα",
+        "Marinospor | Αθλητικά - Χιονοδρομικά είδη"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1iszf00e6q8iyhvyjlqm9",
+      "merchantId": "cmta1ists00e5q8iybr7fmy1d",
+      "merchantName": "Marketfix",
+      "title": "Gift Card Niyamas - Ηλεκτρονική Δωροκάρτα 20€",
+      "officialUrl": "https://marketfix.gr/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://marketfix.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Αρχική σελίδα marketfix - Marketplace",
+        "Marketfix.gr",
+        "marketfix"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1itdc00e8q8iy8qkpk1e1",
+      "merchantId": "cmta1it7x00e7q8iyoinm2cbt",
+      "merchantName": "Materiaprima",
+      "title": "Δωροκάρτα 70 - materiaprima",
+      "officialUrl": "https://materiaprima.gr/product/gift-card-40e/",
+      "titleAmounts": [
+        70
+      ],
+      "urlAmounts": [
+        40
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://materiaprima.gr/product/gift-card-40e/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 40 - materiaprima",
+        "materiaprima"
+      ],
+      "priceEvidence": [
+        {
+          "value": 40,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 40,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "digital Gift Card"
+    },
+    {
+      "cardId": "cmta1kaap00kgq8iyxyxwrv9r",
+      "merchantId": "cmta1ka4i00kfq8iykvii8j6b",
+      "merchantName": "Medi Shop",
+      "title": "Gift Card 50",
+      "officialUrl": "https://medi-shop.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.medi-shop.gr/el/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Medi-Shop.gr: Ιατρικά είδη, Ορθοπεδικά, CPAP, Ιατρικά Αναλώσιμα, Είδη Φυσικοθεραπείας | Medi-Shop.gr",
+        "Medi-Shop"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4ytua002nsciye5jdpjc2",
+      "merchantId": "cmta4yto2002msciy14cp15ty",
+      "merchantName": "Megafitness",
+      "title": "Megafitness Gift Card 300,00€",
+      "officialUrl": "https://www.megafitness.gr/en/megafitness-gift-card-300-00%E2%82%AC-104325",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [
+        300
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.megafitness.gr/en/megafitness-gift-card-300-00%E2%82%AC-104325",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Megafitness Gift Card 300,00€"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1kard00kiq8iyc8lsfv9b",
+      "merchantId": "cmta1kakx00khq8iyslhuttfv",
+      "merchantName": "Melispa",
+      "title": "Gift Card €30",
+      "officialUrl": "https://www.melispa.gr/el/gift-card",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.melispa.gr/el/gift-card",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card €30"
+      ],
+      "priceEvidence": [
+        {
+          "value": 30,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77c840025dkiy8nltursd",
+      "merchantId": "cmtb77c2z0024dkiyyehncw02",
+      "merchantName": "Melissinos Sandals",
+      "title": "Gift Voucher - 55",
+      "officialUrl": "http://www.melissinos-sandals.gr/giftvouchers/gift-card-55-detail",
+      "titleAmounts": [
+        55
+      ],
+      "urlAmounts": [
+        55
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "http://www.melissinos-sandals.gr/giftvouchers/gift-card-55-detail",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GIFT VOUCHERS : Gift Voucher - 55",
+        "Gift Voucher - 55"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1iw3700emq8iyu2nqv2dn",
+      "merchantId": "cmta1ivy000elq8iy2l2t9htl",
+      "merchantName": "Mfdayspa",
+      "title": "ΔΩΡΟΕΠΙΤΑΓΗ 100",
+      "officialUrl": "https://www.mfdayspa.gr/product-category/gift-ideas/gift-cards/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.mfdayspa.gr/product-category/gift-ideas/gift-cards/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΕΣ - MF DAY SPA",
+        "Αρχική",
+        "ΔΩΡΑ",
+        "ΔΩΡΟΚΑΡΤΕΣ",
+        "MF DAY SPA",
+        "MF Day Spa"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4yuag002psciyoexjru1o",
+      "merchantId": "cmta4yu3q002osciyu5jetmw1",
+      "merchantName": "Mgsound",
+      "title": "MGsound Gift Card 300€ | Premium Event Gift Card",
+      "officialUrl": "https://www.mgsound.gr/product/gift-card-300/?srsltid=AfmBOor9zJIGcmlK-272F6SOU8U2UDBV-AfXv09-bRqilRiHpN2U7TDO",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [
+        300
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.mgsound.gr/product/gift-card-300/?srsltid=AfmBOor9zJIGcmlK-272F6SOU8U2UDBV-AfXv09-bRqilRiHpN2U7TDO",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [],
+      "pageIdentity": [
+        "MGsound Gift Card 300€ | Premium Event Gift Card",
+        "Gift Card 300€",
+        "MGsound Gift Card 300€",
+        "Home",
+        "Shop",
+        ":: MGsound ::",
+        "Gift Cards"
+      ],
+      "priceEvidence": [
+        {
+          "value": 372,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": "digital gift card"
+    },
+    {
+      "cardId": "cmta1ix8a00esq8iyx9vwmckf",
+      "merchantId": "cmta1ix3800erq8iyqmw3lkc2",
+      "merchantName": "Mikelidis",
+      "title": "Δώρα :: Gift Card :: Gift Card 300 €",
+      "officialUrl": "https://www.mikelidis.gr/dora/gift-card/",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.mikelidis.gr/dora/gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δώρα :: Gift Card",
+        "Gift Card"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb789dc006udkiyns09pnli",
+      "merchantId": "cmtb7898i006tdkiypwp1jv9x",
+      "merchantName": "Mom & Me",
+      "title": "Mom & Me Gift Card",
+      "officialUrl": "https://momandme.gr/product/gift-card-100/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://momandme.gr/product/gift-card-100/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 100€ - Mom & Me",
+        "Δωροκάρτα 100€",
+        "MasterMaker",
+        "Breadcrumb",
+        "Κατάστημα"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1nh7b00x0q8iyvpuik4zd",
+      "merchantId": "cmta1nh0t00wzq8iy8gdyp1w2",
+      "merchantName": "Morfibeauty",
+      "title": "Gift Card 100",
+      "officialUrl": "https://www.morfibeauty.gr/product/gift-card/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.morfibeauty.gr/product/gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card - Morfi Beauty",
+        "Gift Card",
+        "Αρχική",
+        "ΠΡΟΪΟΝΤΑ",
+        "Morfi Beauty"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "e-gift card"
+    },
+    {
+      "cardId": "cmta1iyw100f0q8iyyl3g2m31",
+      "merchantId": "cmta1iypl00ezq8iypg6kwhfe",
+      "merchantName": "Motovinios",
+      "title": "ΔΩΡΟΚΑΡΤΑ 100€ Το καλύτερο δώρο για τα αγαπημένα ...",
+      "officialUrl": "https://www.motovinios.gr/c/giftcard",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.motovinios.gr/c/giftcard",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GIFT CARD | Motovinios",
+        "GIFT CARD",
+        "ΑΡΧΙΚΗ",
+        "Motovinios"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "merchantName": "Msystems",
+      "title": "Msystems Δωροκάρτα 10e | Δωροκάρτες",
+      "officialUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "titleAmounts": [
+        10
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Msystems Δωροκάρτα 10e | Δωροκάρτες | Msystems",
+        "Msystems Δωροκάρτα 10€",
+        "Msystems Δωροκάρτα 10e | Δωροκάρτες",
+        "Msystems",
+        "&Delta;&omega;&rho;&omicron;&kappa;ά&rho;&tau;&alpha; 10&euro;"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nucz001j54iyk2uep1aq",
+      "merchantId": "cmta5nu7u001i54iy26l668bf",
+      "merchantName": "Myprotein",
+      "title": "Myprotein Gift Voucher, £50",
+      "officialUrl": "https://www.myprotein.gr/p/protein-accessories/myprotein-gift-voucher-50/10530834/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        50
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.myprotein.gr/p/protein-accessories/myprotein-gift-voucher-50/10530834/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Myprotein Gift Voucher, £50",
+        "Myprotein Gift Voucher, £50 | MyProtein GR",
+        "Myprotein",
+        "suggestedGender",
+        "suggestedAge",
+        "<b>Έκπτωση 47% | </b> Κωδικός: IMPACTGR",
+        "Home"
+      ],
+      "priceEvidence": [
+        {
+          "value": 64,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "GBP",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1j2rw00fgq8iydjopixyl",
+      "merchantId": "cmta1j2m300ffq8iyt6u5plxe",
+      "merchantName": "Myrtia",
+      "title": "Myrtia Gift Card",
+      "officialUrl": "https://myrtia.gr/el/25-gift-cards",
+      "titleAmounts": [],
+      "urlAmounts": [
+        25
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://myrtia.gr/el/25-gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GIFT CARDS"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb6uy8d00303giy23wvv4xn",
+      "merchantId": "cmtb6uy3n002z3giyohz3pcwu",
+      "merchantName": "NaniNails.gr",
+      "title": "NaniNails.gr Gift Card",
+      "officialUrl": "https://www.naninails.gr/dorokarta-axias-20-eur/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        20
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.naninails.gr/dorokarta-axias-20-eur/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα αξίας 20 EUR - NaniNails.gr",
+        "Εργαλεία και αξεσουάρ",
+        "Δωροκάρτες",
+        "Δωροκάρτα αξίας 20 EUR",
+        "NANI"
+      ],
+      "priceEvidence": [
+        {
+          "value": 19.99,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fgap002dq8iyswsnc8wa",
+      "merchantId": "cmta1fg47002cq8iy4x4ez937",
+      "merchantName": "Niceyou",
+      "title": "Gift Card 100",
+      "officialUrl": "https://www.niceyou.gr/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.niceyou.gr/el/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Καλλυντικά & Είδη Προσωπικής Περιποίησης | NiceYou - NiceYou.gr",
+        "NiceYou.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fnrb0031q8iyg9sqt1g1",
+      "merchantId": "cmta1fnl10030q8iyjnfimm6o",
+      "merchantName": "Niyamas-Yoga",
+      "title": "Gift Card Niyamas - Ηλεκτρονική Δωροκάρτα 20",
+      "officialUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://niyamas-yoga.com/product/gift-card/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card Niyamas – Ηλεκτρονική Δωροκάρτα | Niyamas Yoga",
+        "Gift Card Niyamas – Ηλεκτρονική Δωροκάρτα",
+        "Home",
+        "Shop",
+        "YOGA MATS",
+        "Niyamas Yoga Mat",
+        "Gift Card Niyamas &#8211; Ηλεκτρονική Δωροκάρτα",
+        "Niyamas Yoga",
+        "Αρχική σελίδα",
+        "YOGA LIFESTYLE",
+        "Υoga Gifts",
+        "Gift Card Niyamas &amp;#8211; Ηλεκτρονική Δωροκάρτα",
+        "Gift Card Niyamas - Ηλεκτρονική Δωροκάρτα",
+        "Μάγδα"
+      ],
+      "priceEvidence": [
+        {
+          "value": 20,
+          "currency": "EUR",
+          "source": "JSONLD_LOWPRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_HIGHPRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fdz30025q8iyjgn4n03r",
+      "merchantId": "cmta1fdrv0024q8iy4qoe2q40",
+      "merchantName": "O-Biotique",
+      "title": "Ελεκτρονική Δωροκάρτα O-Biotique 50,00",
+      "officialUrl": "https://obiotique.com/el/products/o-biotique-gift-card",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://obiotique.com/el/products/o-biotique-gift-card",
+      "status": "SAFE_VALUE_EVIDENCE",
+      "reasons": [
+        "LIVE_OFFICIAL_PAGE",
+        "STRUCTURED_PRICE_MATCH",
+        "EXPLICIT_DIGITAL_DELIVERY"
+      ],
+      "pageIdentity": [
+        "O-Biotique Gift Card - OBIOTIQUE – O-BIOTIQUE",
+        "Ελεκτρονική Δωροκάρτα O-Biotique",
+        "O-BIOTIQUE",
+        "Ελεκτρονική Δωροκάρτα O-Biotique - 10,00 €",
+        "Ελεκτρονική Δωροκάρτα O-Biotique - 25,00 €",
+        "Ελεκτρονική Δωροκάρτα O-Biotique - 50,00 €",
+        "Ελεκτρονική Δωροκάρτα O-Biotique - 100,00 €"
+      ],
+      "priceEvidence": [
+        {
+          "value": 10,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 25,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [
+        50
+      ],
+      "explicitDigitalEvidence": "e-Gift Card"
+    },
+    {
+      "cardId": "cmtb6v04k003a3giyiu8s30dd",
+      "merchantId": "cmtb6uzyo00393giyijqh9v1h",
+      "merchantName": "Outdoorway",
+      "title": "Δωροεπιταγή Outdoorway 10 Ευρώ",
+      "officialUrl": "https://www.outdoorway.gr/product/15647/doroepitagi-Outdoorway-10-eyro",
+      "titleAmounts": [
+        10
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.outdoorway.gr/product/15647/doroepitagi-Outdoorway-10-eyro",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγή Outdoorway 10 Ευρώ - outdoorway.gr",
+        "Δωροεπιταγή Outdoorway 10 Ευρώ"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1kyj500n8q8iyln315obv",
+      "merchantId": "cmta1kycr00n7q8iyw5ymk36g",
+      "merchantName": "Palazzodiscarpe",
+      "title": "Δωροκάρτα 150",
+      "officialUrl": "https://www.palazzodiscarpe.gr/i/giftcards/dwrokarta-70/",
+      "titleAmounts": [
+        150
+      ],
+      "urlAmounts": [
+        70
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.palazzodiscarpe.gr/i/giftcards/dwrokarta-70/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 70 - Palazzo Di Scarpe",
+        "Δωροκάρτα 70",
+        "Αρχική",
+        "Κατάστημα",
+        "ΔΩΡΟΚΑΡΤΕΣ",
+        "Palazzo Di Scarpe"
+      ],
+      "priceEvidence": [
+        {
+          "value": 70,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 70,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1gu640074q8iyaanq8e4u",
+      "merchantId": "cmta1gu0d0073q8iyksj58bpb",
+      "merchantName": "Paokfc",
+      "title": "Gift Card 100 - PAOK Store",
+      "officialUrl": "https://paokfc.gr/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.paokfc.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Αρχική - PAOKFC",
+        "Facts & Figures για το ΠΑΟΚ-ΟΦΗ",
+        "PAOK FC",
+        "PAOKFC",
+        "Home"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1j77e00fyq8iyr9b9nm78",
+      "merchantId": "cmta1j70q00fxq8iy9sg5qn8b",
+      "merchantName": "Parnass",
+      "title": "Gift card Parnass 120",
+      "officialUrl": "https://parnass.gr/",
+      "titleAmounts": [
+        120
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://parnass.gr/el/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Ski | Σκι | Ρούχα σκι | Snowboard - Parnass.gr",
+        "Parnass.gr",
+        "Ski | Σκι | Ρούχα σκι | Snowboard"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1j7oa00g0q8iygdnjdv5j",
+      "merchantId": "cmta1j7hz00fzq8iy4xlg7dvr",
+      "merchantName": "Parousiafashion",
+      "title": "ΔΩΡΟΕΠΙΤΑΓΗ 70",
+      "officialUrl": "https://parousiafashion.gr/product-category/gift-cards/",
+      "titleAmounts": [
+        70
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://parousiafashion.gr/product-category/gift-cards/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ – ParousiaFashion.gr | Το Απόλυτο Eshop Γυναικείων Ρούχων & Αξεσουάρ",
+        "Αρχική σελίδα",
+        "Shop",
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ld1900ouq8iyh416pr6o",
+      "merchantId": "cmta1lcus00otq8iyclnib1y8",
+      "merchantName": "Petrichor",
+      "title": "Gift Card 200",
+      "officialUrl": "https://www.petrichor.com.gr/en/gift-card",
+      "titleAmounts": [
+        200
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.petrichor.com.gr/en/gift-card",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card | Petrichor",
+        "Gift Card",
+        "Petrichor"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmt79igv3001684iyrqjuar1j",
+      "merchantId": "cmt79igs4001584iyx1lcaw5f",
+      "merchantName": "Pharm24",
+      "title": "Pharm24 Gift Card",
+      "officialUrl": "https://pharm24.gr/dwrokarta-pharm24-p-27732.html",
+      "titleAmounts": [],
+      "urlAmounts": [
+        24
+      ],
+      "existingVariantCount": 1,
+      "finalUrl": "https://www.pharm24.gr/dwrokarta-pharm24-p-27732.html",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα Pharm24 | Pharm24.gr",
+        "Δωροκάρτα Pharm24",
+        "Έχει ημερομηνία λήξης η Δωροκάρτα;",
+        "Μπορώ να εξαργυρώσω την αξία της Δωροκάρτας μου με χρήματα;",
+        "Ισχύει το υπόλοιπο της Δωροκάρτας για επόμενες αγορές;",
+        "Η εξαργύρωση της Δωροκάρτας γίνεται μόνο ηλεκτρονικά;",
+        "Τι γίνεται αν χάσω ή μου κλέψουν τη Δωροκάρτα μου;",
+        "Ο κωδικός της Δωροκάρτας μου δε γίνεται αποδεκτός από το σύστημα. Τι να κάνω;",
+        "Μπορώ να εξαργυρώσω πάνω από μία (1) Δωροκάρτα ανά παραγγελία;",
+        "Μπορώ να χρησιμοποιήσω την Δωροκάρτα συνδυαστικά με εκπτωτικά κουπόνια;",
+        "Καλύπτει η Δωροκάρτα τη χρέωση κιλών/μεταφορικών από το συνολικό ποσό αγορών;",
+        "Πως ενημερώνομαι ότι η Δωροκάρτα έχει σταλεί στον παραλήπτη;",
+        "Υπάρχει όριο στα χρήματα που μπορώ να διαθέσω για την αγορά μίας Δωροκάρτας;",
+        "Αρχική",
+        "Ομορφιά",
+        "Προτάσεις Δώρων",
+        "Δωροκάρτες"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "merchantId": "cmta1f2cv000wq8iyrguy8go3",
+      "merchantName": "PharmNet",
+      "title": "Δωροεπιταγή 50 ευρώ",
+      "officialUrl": "https://www.pharmnet.gr/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_403"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1gvbd0078q8iyfrpuq3og",
+      "merchantId": "cmta1guui0077q8iybyqma2gp",
+      "merchantName": "Phoskitchenware",
+      "title": "GiftCard 100€",
+      "officialUrl": "https://www.phoskitchenware.gr/en/content/10-giftcards",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        10
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.phoskitchenware.gr/en/content/10-giftcards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "GiftCards",
+        "phós Kitchenware",
+        "Home"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1f0po000pq8iytwczl1ho",
+      "merchantId": "cmta1f0j7000oq8iysl6mrjq4",
+      "merchantName": "Play-sports",
+      "title": "Gift Card 20",
+      "officialUrl": "https://play-sports.gr/product-category/gift-card/",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://play-sports.gr/product-category/gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card - Play Sports",
+        "Gift Card",
+        "Home",
+        "Play Sports",
+        "Play-sports.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1jay200geq8iyzdfxuwo3",
+      "merchantId": "cmta1jarh00gdq8iyxtg67ir3",
+      "merchantName": "Pleasurefashion",
+      "title": "Δωροκάρτα 30 Ευρώ - Pleasure Fashion",
+      "officialUrl": "https://pleasurefashion.gr/",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.pleasurefashion.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Αρχική"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fqnv003bq8iy3xbbgzju",
+      "merchantId": "cmta1fqg6003aq8iyyqfnhn5v",
+      "merchantName": "PNN Nightwear",
+      "title": "Δωροκάρτα 15",
+      "officialUrl": "https://pnn-nightwear.gr/product/dorokarta-pnn-nightwear/",
+      "titleAmounts": [
+        15
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://pnn-nightwear.gr/product/dorokarta-pnn-nightwear/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - PNN Nightwear",
+        "Δωροκάρτα",
+        "Αρχική",
+        "Νέες Αφίξεις",
+        "PNN Nightwear"
+      ],
+      "priceEvidence": [
+        {
+          "value": 15,
+          "currency": "EUR",
+          "source": "JSONLD_LOWPRICE"
+        },
+        {
+          "value": 300,
+          "currency": "EUR",
+          "source": "JSONLD_HIGHPRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "merchantId": "cmta5nw46001s54iy628m45ik",
+      "merchantName": "Poem Luxury",
+      "title": "Δωροκάρτα Poem-Luxury 100",
+      "officialUrl": "https://poem-luxury.gr/product/giftcard-100/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://poem-luxury.gr/product/giftcard-100/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα Poem-Luxury 100€ - POEM - Luxury",
+        "Δωροκάρτα Poem-Luxury 100€",
+        "POEM"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta4239t000at8iyxdbmhou6",
+      "merchantId": "cmta4234h0009t8iyslvfmbiy",
+      "merchantName": "Powerpharm",
+      "title": "Δωροεπιταγή 30",
+      "officialUrl": "https://powerpharm.gr/product-category/gift-vouchers/",
+      "titleAmounts": [
+        30
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://powerpharm.gr/product-category/gift-vouchers/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγές - Powerpharm",
+        "Powerpharm / Δωροεπιταγές",
+        "Home",
+        "Δωροεπιταγές",
+        "Powerpharm"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fpyi0039q8iyyzfu0kma",
+      "merchantId": "cmta1fpfj0038q8iyqulj0hwp",
+      "merchantName": "Pragmatic",
+      "title": "Pragmatic Gift Voucher 100",
+      "officialUrl": "https://www.pragmatic.gr/dora/gift-cards/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.pragmatic.gr/dora/gift-cards/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card | Pragmatic",
+        "Gift Card",
+        "Pragmatic.gr",
+        "Αρχική",
+        "Κατάστημα",
+        "Δώρα"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb7i4z6001d04iynhzy9379",
+      "merchantId": "cmtb7i4tc001c04iydbkml154",
+      "merchantName": "Premium Greek Natural Skincare",
+      "title": "Gift Card - Premium Greek Natural Skincare",
+      "officialUrl": "https://oriadathens.com/product/gift-card-50e/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        50
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://oriadathens.com/product/gift-card-50e/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Card - Oriad Athens | Premium Greek Natural Skincare",
+        "Gift Card",
+        "Home",
+        "Shop",
+        "Oriad Athens | Greek SkinCare Products"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1nnui00xqq8iyverz0w50",
+      "merchantId": "cmta1nnlj00xpq8iyi0360ygm",
+      "merchantName": "Profitstore",
+      "title": "ΔωροΕπιταγή - Gift Card αξίας 500€ - ProfitStore",
+      "officialUrl": "https://profitstore.gr/",
+      "titleAmounts": [
+        500
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.profitstore.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Το πολυκατάστημα που επιβραβεύει τις αγορές σας - ProfitStore",
+        "ProfitStore"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1l18300niq8iyfjqu39zb",
+      "merchantId": "cmta1l12800nhq8iy7m1jy4ap",
+      "merchantName": "Psaltou",
+      "title": "Gift Card Αξίας 70",
+      "officialUrl": "https://www.psaltou.gr/gift-cards",
+      "titleAmounts": [
+        70
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.psaltou.gr/gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Cards | Βιβλιοπωλείο Ψάλτου Κι� ...",
+        "Gift Cards",
+        "Βιβλιοπωλείο Ψάλτου",
+        "Αρχική"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nwz8001x54iybk0fzt5z",
+      "merchantId": "cmta5nwum001w54iy1kd87zna",
+      "merchantName": "Purity Vision COM",
+      "title": "Purity Vision COM Gift Card",
+      "officialUrl": "https://www.purityvision.gr/products/gift-card-60-eur",
+      "titleAmounts": [],
+      "urlAmounts": [
+        60
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.purityvision.gr/products/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-60-eur/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 60 EUR – Purity Vision COM",
+        "Δωροκάρτα 60 EUR",
+        "Purity Vision COM",
+        "Domov",
+        "PURITY VISION Φυσικά Δωροεπιταγές",
+        "Purity Vision"
+      ],
+      "priceEvidence": [
+        {
+          "value": 60,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmt79iijr001o84iy0hpx0a15",
+      "merchantId": "cmt79iigj001n84iyrxcwpcru",
+      "merchantName": "Rundome",
+      "title": "Rundome Gift Card",
+      "officialUrl": "https://rundome.gr/el/content/239-giftcards-rundome",
+      "titleAmounts": [],
+      "urlAmounts": [
+        239
+      ],
+      "existingVariantCount": 1,
+      "finalUrl": "https://www.rundome.gr/el/content/239-giftcards-rundome",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγές και Δωροκάρτες | Rundome",
+        "Δωροεπιταγές & Δωροκάρτες Rundome",
+        "Rundome",
+        "62 Martyron Avenue 148, Herakleion Crete 71303",
+        "Home",
+        "Εξυπηρέτηση πελατών",
+        "Δωροεπιταγές Rundome"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": "eGiftcard"
+    },
+    {
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "merchantName": "Secretsofbeauty",
+      "title": "Δωροκάρτα 300€ | Secrets of Beauty | Θεσσαλονίκη",
+      "officialUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [
+        300
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 300€ | Secrets of Beauty | Θεσσαλονίκη",
+        "Αρχική",
+        "Shop",
+        "Δωροκάρτα 300€",
+        "Secrets of Beauty",
+        "ivasiliadis2",
+        "secretsofbeauty"
+      ],
+      "priceEvidence": [
+        {
+          "value": 300,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nxca001z54iyk1x3ihrh",
+      "merchantId": "cmta5nx79001y54iyjatwauue",
+      "merchantName": "sexodonia",
+      "title": "sexodonia Gift Card",
+      "officialUrl": "https://www.sexodonia.gr/%CE%B4%CF%89%CF%81%CE%B1-%CE%BA%CE%B1%CE%B9-%CF%80%CE%B1%CE%B9%CF%87%CE%BD%CE%B9%CE%B4%CE%B9%CE%B1/4073-gift-voucher-75-eur.html",
+      "titleAmounts": [],
+      "urlAmounts": [
+        75,
+        4073
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.sexodonia.gr/%CE%B4%CF%89%CF%81%CE%B1-%CE%BA%CE%B1%CE%B9-%CF%80%CE%B1%CE%B9%CF%87%CE%BD%CE%B9%CE%B4%CE%B9%CE%B1/4073-gift-voucher-75-eur.html",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Voucher 75 EUR"
+      ],
+      "priceEvidence": [
+        {
+          "value": 75,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1ffa4002bq8iy5k6w34t1",
+      "merchantId": "cmta1ff3n002aq8iyrx6zswhx",
+      "merchantName": "Shopdali",
+      "title": "DA|LI Gift Card 50",
+      "officialUrl": "https://shopdali.gr/products/littles-gift-card-100",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://shopdali.gr/products/littles-gift-card-100",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "DA|LI Gift Card 100€ — DALI",
+        "DA|LI Gift Card 100€",
+        "Collections",
+        "+ 4 Years",
+        "DA|LI",
+        "DALI"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1feu80029q8iy3p7bdse4",
+      "merchantId": "cmta1fenw0028q8iy6hk5qrpw",
+      "merchantName": "skakistikokentro.com",
+      "title": "Δωροεπιταγή αξίας 50 ευρώ",
+      "officialUrl": "https://skakistikokentro.com/shop",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://skakistikokentro.com/shop/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Σκακιστικό κέντρο Ελλάδος",
+        "Ελευθέριος Νερουλιάς"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5ny2d002354iyvhj9mkz0",
+      "merchantId": "cmta5nxxp002254iy4fqx9dbp",
+      "merchantName": "Smaragdasart",
+      "title": "E-Δωροκάρτα 200€",
+      "officialUrl": "https://smaragdasart.gr/el/card/171-e-gift-card-100-.html",
+      "titleAmounts": [
+        200
+      ],
+      "urlAmounts": [
+        100,
+        171
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://smaragdasart.gr/el/card/171-e-gift-card-100-.html",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "E-Δωροκάρτα 200€"
+      ],
+      "priceEvidence": [
+        {
+          "value": 200,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1jgrc00h2q8iylmuzku7m",
+      "merchantId": "cmta1jgl400h1q8iy35u741e6",
+      "merchantName": "Sonice",
+      "title": "Gift Card 50 -",
+      "officialUrl": "https://www.sonice.gr/el/185-gift-cards",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        185
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.sonice.gr/el/185-gift-cards",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ - So Nice",
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ Υπάρχουν 4 προϊόντα."
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1eztn000lq8iyz17iv7nt",
+      "merchantId": "cmta1ezmz000kq8iyr2e7ujvq",
+      "merchantName": "Sportys",
+      "title": "ΔΩΡΟΕΠΙΤΑΓΗ 90 ΕΥΡΩ",
+      "officialUrl": "http://www.sportys.gr/content/12535/%CF%83%CF%84%CE%B5%CE%AF%CE%BB%CF%84%CE%B5-%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AE-",
+      "titleAmounts": [
+        90
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "http://www.sportys.gr/content/12535/%CF%83%CF%84%CE%B5%CE%AF%CE%BB%CF%84%CE%B5-%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AE-",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Στείλτε Δωροεπιταγή",
+        "Sporty's"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb6v4wo00403giy1xrcqmye",
+      "merchantId": "cmtb6v4rd003z3giylhtezhya",
+      "merchantName": "Stem Toys",
+      "title": "Stem Toys Gift Card",
+      "officialUrl": "https://stem-toys.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AE-50-e/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        50
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://stem-toys.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AE-50-e/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροεπιταγή 50 €",
+        "Home",
+        "Κατάστημα",
+        "STEM Toys",
+        "Stem Toys",
+        "Αρχική σελίδα",
+        "Εκπαιδευτική Ρομποτική",
+        "Υπόλοιπες Εταιρείες",
+        "StemToys"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1jijd00haq8iy0wkujph9",
+      "merchantId": "cmta1jidc00h9q8iy2obggbjm",
+      "merchantName": "Stickit",
+      "title": "Δωροεπιταγή 10 € - 100 €",
+      "officialUrl": "https://stickit.gr/",
+      "titleAmounts": [
+        10,
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.stickit.gr/el/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Πίνακες σε καμβά, Πίνακες ζωγραφικής, Παιδικά αυτοκόλλητα, Αφίσες, Πόστερ",
+        "stickit.gr",
+        "Bouquet of peace, Picasso, αφίσα, κάδρο",
+        "Open window collioure, Henri Matisse, αφίσα, κάδρο",
+        "Green gold leaves III, αφίσα, κάδρο",
+        "Πίνακας ζωγραφικής Ελιά",
+        "Πίνακας ζωγραφικής Blossoming almond tree, Vincent van Gogh",
+        "Πίνακας ζωγραφικής The kiss (portrait), Klimt Gustav",
+        "Ελεφαντάκι στα..., αφίσα, κάδρο, τρίπτυχο",
+        "Little Africa, Ζέβρα, Καμηλοπάρδαλη, Ελέφαντας, αφίσα, κάδρο, τρίπτυχο",
+        "Αυτοκόλλητα τοίχου ζωγραφιστά, Ελέφαντας, λιονταρίνα, ζέβρα",
+        "Παιδικά αυτοκόλλητα, ζωάκια ζούγκλας στο δέντρο",
+        "Αυτοκόλλητα τοίχου παιδικά Ελεφαντάκι στα αστέρια, με όνομα",
+        "Πίνακας σε καμβά βάπτισης, Λιονταράκι watercolor",
+        "Πίνακας σε καμβά Welcome to our beginning, art1",
+        "Πίνακας σε καμβά βάπτισης, Ζωάκια σε τζιπάκι",
+        "Ζωάκια της ζούγκλας ξύλινα, για διακόσμηση βάπτισης",
+        "Ξύλινο όνομα σε βάση",
+        "Ξύλινα μονογράμματα για μπομπονιέρες."
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1jkmg00hiq8iyeoo1j71v",
+      "merchantId": "cmta1jkec00hhq8iymr4c27mz",
+      "merchantName": "Strata Shop",
+      "title": "Δωροκάρτα - strata-shop.gr",
+      "officialUrl": "https://strata-shop.gr/product/dorokarta-40/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        40
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://strata-shop.gr/product/dorokarta-40/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΑ 40 – Strata",
+        "ΔΩΡΟΚΑΡΤΑ 40",
+        "Αρχική σελίδα",
+        "Δωροκάρτα"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1l69r00o2q8iysx3o77ki",
+      "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+      "merchantName": "Tacticalstore",
+      "title": "Δωροκάρτα 50€ Tactical Store – Digital Gift Card - Tacticalstore ...",
+      "officialUrl": "https://www.tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 100€ Tactical Store – Premium Digital Gift Card - Tacticalstore - Οπλα, ειδη κυνηγιου, σκοποβολής και αστυνομικός εξοπλισμός",
+        "Δωροκάρτα Tactical Store 100€ – Pro Gift Card",
+        "Αρχικη",
+        "Προϊόντα",
+        "Tacticalstore - Οπλα, ειδη κυνηγιου, σκοποβολής και αστυνομικός εξοπλισμός",
+        "Αρχική σελίδα",
+        "ΝΕΑ ΠΡΟΙΟΝΤΑ",
+        "Tactical Store"
+      ],
+      "priceEvidence": [
+        {
+          "value": 100,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1f888001jq8iyip6oud9c",
+      "merchantId": "cmta1f82b001iq8iyewg8e5b5",
+      "merchantName": "Theodorou.Shop",
+      "title": "e-Δωροκάρτα | 300",
+      "officialUrl": "https://theodorou.shop/edorokarta",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://theodorou.shop/edorokarta",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "e-Δωροκάρτα | Θεοδώρου",
+        "e-Δωροκάρτα"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+      "merchantId": "cmtb77mzs003pdkiyc12og14q",
+      "merchantName": "Topgreekwines",
+      "title": "Gift voucher 50€",
+      "officialUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift voucher 50€",
+        "Topgreekwines.gr",
+        "Home",
+        "Gifts",
+        "Gift packages"
+      ],
+      "priceEvidence": [
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 50,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fahw001tq8iy1xha6nv0",
+      "merchantId": "cmta1fac7001sq8iyd2v8yrai",
+      "merchantName": "Toys and Gifts",
+      "title": "100 Χάρισε μια δωροκάρτα 100 ευρώ",
+      "officialUrl": "https://www.toysandgifts.gr/",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.toysandgifts.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "toysandgifts.gr – Παιδικά παιχνίδια και εποχιακά είδη",
+        "Newsletter",
+        "toysandgifts.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1gy2c007iq8iysz2lc12v",
+      "merchantId": "cmta1gxwr007hq8iydqyoi0d1",
+      "merchantName": "Toys Shop",
+      "title": "Toys-shop Choice Egift Card 10 TSGC10",
+      "officialUrl": "https://toys-shop.gr/",
+      "titleAmounts": [
+        10
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "fetch failed"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "merchantId": "cmtb77o6f003vdkiysq2nbo5o",
+      "merchantName": "Tsiantakishome",
+      "title": "Δωροκάρτα 40",
+      "officialUrl": "https://www.tsiantakishome.gr/shop/dwrokartes/dwrokarta-40e/",
+      "titleAmounts": [
+        40
+      ],
+      "urlAmounts": [
+        40
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.tsiantakishome.gr/shop/dwrokartes/dwrokarta-40e/",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 40€ | Tsiantaki Home",
+        "Δωροκάρτα 40€",
+        "Αρχική",
+        "Κατάστημα",
+        "ΔΩΡΟΚΑΡΤΕΣ",
+        "Tsiantaki Home"
+      ],
+      "priceEvidence": [
+        {
+          "value": 40,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 40,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1jsr800ieq8iywfmnl4tl",
+      "merchantId": "cmta1jska00idq8iyoro6mc23",
+      "merchantName": "Turritella",
+      "title": "Δωροκάρτα 50€ - Turritella",
+      "officialUrl": "https://turritella.gr/giftcards/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://turritella.gr/giftcards/",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτες - Turritella",
+        "Δωροκάρτες",
+        "Home",
+        "Turritella.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1h0ab007sq8iyxev6cx5s",
+      "merchantId": "cmta1h047007rq8iyu0fz8xw6",
+      "merchantName": "Undergroundshop",
+      "title": "GIFTCARD 10 EURO GIFTCARD_1",
+      "officialUrl": "https://undergroundshop.gr/",
+      "titleAmounts": [
+        10
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.undergroundshop.gr/el",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Underground"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77pqn0044dkiykqllgm6x",
+      "merchantId": "cmtb77pls0043dkiy7d0f0hyj",
+      "merchantName": "Vinoteca",
+      "title": "Δωροκάρτα 100",
+      "officialUrl": "https://www.vinoteca.gr/gift-card-100.html",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.vinoteca.gr/gift-card-100.html",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα 100"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+      "merchantId": "cmta1nys900yxq8iye6g35elk",
+      "merchantName": "Vinylartclothing",
+      "title": "Vinyl gift card 40€",
+      "officialUrl": "https://vinylartclothing.gr/products/gift-card-40",
+      "titleAmounts": [
+        40
+      ],
+      "urlAmounts": [
+        40
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://vinylartclothing.gr/products/gift-card-40",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Vinyl gift card 40€",
+        "Vinyl",
+        "Αρχική"
+      ],
+      "priceEvidence": [
+        {
+          "value": 40,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        },
+        {
+          "value": 40,
+          "currency": "EUR",
+          "source": "META_PRODUCT_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta5nzvj002c54iyh4tnx9jy",
+      "merchantId": "cmta5nzqx002b54iyjbin14o4",
+      "merchantName": "WARAGOD",
+      "title": "WARAGOD Gift Card",
+      "officialUrl": "https://www.waragod.gr/en/products/gift-voucher-de-30",
+      "titleAmounts": [],
+      "urlAmounts": [
+        30
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": null,
+      "status": "ERROR",
+      "reasons": [
+        "PAGE_HTTP_404"
+      ],
+      "pageIdentity": [],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1k33j00jmq8iy7dosx0mg",
+      "merchantId": "cmta1k2vw00jlq8iy0gndm22x",
+      "merchantName": "Wine24shop",
+      "title": "Gift Card 20 euro - Wine24shop",
+      "officialUrl": "https://www.wine24shop.gr/dorokarta-100-euro.el.aspx",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.wine24shop.gr/dorokarta-100-euro.el.aspx",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα αξίας 100 ευρώ",
+        "Wine24Shop",
+        "Αρχική",
+        "Δώρα",
+        "Δωροκάρτες"
+      ],
+      "priceEvidence": [
+        {
+          "value": 80.65,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1lg2500p6q8iyyuuzs7jr",
+      "merchantId": "cmta1lfvh00p5q8iygw2r78qv",
+      "merchantName": "Woodyline",
+      "title": "GIFT CARD 200?",
+      "officialUrl": "https://woodyline.gr/",
+      "titleAmounts": [
+        200
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.woodyline.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΠΑΙΔΙΚΑ ΕΠΙΠΛΑ - ΝΕΑΝΙΚΑ ΕΠΙΠΛΑ - ΠΑΙΔΙΚΑ ΔΩΜΑΤΙΑ - ΕΛΛΗΝΙΚΗ ΚΑΤΑΣΚΕΥΗ WOODYLINE - www.woodyline.gr"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1jyv900j4q8iyp2i9pyz5",
+      "merchantId": "cmta1jyov00j3q8iy67j6xwig",
+      "merchantName": "Yellowstars",
+      "title": "Δωροκάρτα 20€ YellowStars",
+      "officialUrl": "https://yellowstars.gr/category/dorokarta",
+      "titleAmounts": [
+        20
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://yellowstars.gr/category/dorokarta",
+      "status": "REVIEW",
+      "reasons": [
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα - Yellow Stars",
+        "Yellow Stars"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1o01w00z2q8iyrp45us19",
+      "merchantId": "cmta1nzvg00z1q8iylezj7e09",
+      "merchantName": "Yourdigitalcourses",
+      "title": "ΔΩΡΟΚΑΡΤΑ 50",
+      "officialUrl": "https://yourdigitalcourses.gr/product/dorokarta-200e/",
+      "titleAmounts": [
+        50
+      ],
+      "urlAmounts": [
+        200
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://yourdigitalcourses.gr/product/dorokarta-200e/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_URL_AMOUNT_CONFLICT",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "ΔΩΡΟΚΑΡΤΑ 200€ | DigiCourses | Online Learning",
+        "ΔΩΡΟΚΑΡΤΑ 200€",
+        "Αρχική",
+        "Κατάστημα",
+        "DigiCourses | Online Learning"
+      ],
+      "priceEvidence": [
+        {
+          "value": 200,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmta1fu97003pq8iyip5e1paw",
+      "merchantId": "cmta1fu2m003oq8iy4ozx9tlx",
+      "merchantName": "Z-Ergaleia",
+      "title": "Δωροκάρτα 300",
+      "officialUrl": "https://www.z-ergaleia.gr/",
+      "titleAmounts": [
+        300
+      ],
+      "urlAmounts": [],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.z-ergaleia.gr/",
+      "status": "REVIEW",
+      "reasons": [
+        "PAGE_IDENTITY_NOT_GIFT_CARD",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Z-Ergaleia.gr",
+        "BOSCH GSS 230 AVE Παλμικό Τριβείο",
+        "Husqvarna TF230 Σκαπτικό Βενζίνης 196cc",
+        "Σκούπα στάχτης και ξηρής αναρρόφησης AD 4 Premium",
+        "Husqvarna 215iL με μπαταρία και φορτιστή",
+        "Husqvarna LS+ Λάδι Μίξης Για Δίχρονους Κινητήρες 1lt",
+        "Husqvarna 572 XP-20\\\" Αλυσοπρίονο Βενζίνης+ Μπουφαν",
+        "Husqvarna 562XP Autotune Αλυσοπρίονο 45Cm 4.7hp",
+        "Karcher T 11/1 Classic HEPA Re!Plast Σκούπα Ξηρής Αναρρόφησης 850W",
+        "Karcher RM 732 Απολυμαντικό Απορρυπαντικό 5lt",
+        "Husqvarna TF338 Σκαπτικό Βενζίνης 212cc",
+        "Husqvarna 120 Mark II Βενζ/Το Αλυσοπριονο 16\"",
+        "Husqvarna All Season Λάδι Αλυσίδας (Chain Oil) 20lt",
+        "Husqvarna 550XP Mark II Autotune Αλυσοπριονο 18'' + Δωρο Μπουφαν",
+        "Husqvarna 525P4S Βενζινοκίνητο Κονταροαλυσοπρίονο",
+        "Bosch GWS 9-125S Γων. Λειαντήρας Με Ρυθμιζόμενη Ταχύτητα 125Mm (0601396104)",
+        "Husqvarna 592XP Autotune 24 Light Αλυσοπρίονο Βενζίνης 7.4kg με Λάμα 60cm και Easy Start",
+        "Bosch GBH 5-40 D Professional Περιστροφικό Πιστολέτο Με Sds Max (0611269001)",
+        "Bosch Gbh 4-32 DFR Περιστροφικό Πιστολέτο Με Sds-Plus (0611332100)",
+        "Kraft Ηλεκτρικό Σκαπτικό/Φρεζάκι 1500W (691148)"
+      ],
+      "priceEvidence": [],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb78e22007gdkiyojyhhg7e",
+      "merchantId": "cmtb78dwy007fdkiyd2xzj5l1",
+      "merchantName": "Zador",
+      "title": "Gift Voucher 100 EUR",
+      "officialUrl": "https://www.zador.gr/en/products/gift-voucher-100-eur",
+      "titleAmounts": [
+        100
+      ],
+      "urlAmounts": [
+        100
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://www.zador.gr/en/products/gift-voucher-100-eur",
+      "status": "SUPPORTED_AS_IS",
+      "reasons": [
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Gift Voucher 100 EUR – Zador.gr",
+        "Gift Voucher 100 EUR",
+        "Zador.gr"
+      ],
+      "priceEvidence": [
+        {
+          "value": 105.04,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": "EUR",
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    },
+    {
+      "cardId": "cmtb77onx003ydkiy1syn6iip",
+      "merchantId": "cmtb77ojh003xdkiy4cwko7oy",
+      "merchantName": "Τζούγκαρης",
+      "title": "Τζούγκαρης Gift Card",
+      "officialUrl": "https://tzougaris.gr/en/shop/wps_wgm_giftcard/tzougaris-giftcard-300/",
+      "titleAmounts": [],
+      "urlAmounts": [
+        300
+      ],
+      "existingVariantCount": 0,
+      "finalUrl": "https://tzougaris.gr/en/shop/wps_wgm_giftcard/tzougaris-giftcard-300/",
+      "status": "REVIEW",
+      "reasons": [
+        "URL_DENOMINATION_ONLY",
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "CURRENCY_UNRESOLVED",
+        "DELIVERY_TYPE_UNRESOLVED"
+      ],
+      "pageIdentity": [
+        "Δωροκάρτα Τζούγκαρης - 300€ — Κοσμήματα Τζούγκαρη",
+        "Δωροκάρτα Τζούγκαρης – 300€",
+        "Δωροκάρτα Τζούγκαρης - 300€ &#8212; Κοσμήματα Τζούγκαρη",
+        "Home",
+        "Shop",
+        "Δωροκάρτα Τζούγκαρης &#8211; 300€",
+        "Κοσμήματα Τζούγκαρη",
+        "Κοσμήματα Τζούγκαρης",
+        "Gift Card",
+        "Δωροκάρτα Τζούγκαρης &amp;#8211; 300€",
+        "Δωροκάρτα Τζούγκαρης - 300€"
+      ],
+      "priceEvidence": [
+        {
+          "value": 300,
+          "currency": "EUR",
+          "source": "JSONLD_PRICE"
+        }
+      ],
+      "proposedCurrency": null,
+      "proposedValues": [],
+      "explicitDigitalEvidence": null
+    }
+  ],
+  "generatedAt": "2026-09-04T16:13:42.511Z",
+  "reportId": "8fd3720afadfc2c604c958058b0a38d0f42e9d81268a7966aaec696516f565c7",
+  "databaseWrites": 0
+}
