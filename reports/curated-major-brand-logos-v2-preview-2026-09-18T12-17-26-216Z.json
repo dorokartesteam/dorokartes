@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-09-18T12:17:26.217Z",
+  "mode": "preview",
+  "curatedOnly": true,
+  "results": [
+    {
+      "merchantId": "cmta1evj10006q8iy32cz89b3",
+      "merchantName": "Rituals",
+      "websiteUrl": "https://rituals.com",
+      "oldLogoUrl": "/merchant-logos/rituals-529ed238be0c.ico",
+      "oldLogoSourceUrl": "https://www.rituals.com/favicon.ico",
+      "sourceUrl": "https://www.rituals.com/images/svg/rituals-primary-logo.svg",
+      "contentType": "image/svg+xml",
+      "sizeBytes": 62657,
+      "proposedLogoUrl": "/merchant-logos/rituals-official-02f2a6e7dc14.svg",
+      "note": "Official Rituals primary logo.",
+      "status": "READY"
+    },
+    {
+      "merchantId": "cmt8l5vnt000h5giybb6cc2ff",
+      "merchantName": "KIKO",
+      "websiteUrl": "https://www.kikocosmetics.com",
+      "oldLogoUrl": "/merchant-logos/kiko-bb30ec711fab.svg",
+      "oldLogoSourceUrl": "https://www.kikocosmetics.com/next/assets/favicon.svg",
+      "sourceUrl": "https://assets.kikocosmetics.gr/media/logo/default/kiko-logo-text.png",
+      "contentType": "image/png",
+      "sizeBytes": 3086,
+      "proposedLogoUrl": "/merchant-logos/kiko-official-6da165e28baf.png",
+      "note": "Official KIKO logo asset.",
+      "status": "READY"
+    },
+    {
+      "merchantId": "cmt8l5xt6000r5giy4sk5grv8",
+      "merchantName": "Mothercare Greece",
+      "websiteUrl": "https://www.mothercare.gr",
+      "oldLogoUrl": "/merchant-logos/mothercare-greece-b08d1eee4461.png",
+      "oldLogoSourceUrl": "https://www.mothercare.gr/assets/apple-touch-icon.png",
+      "sourceUrl": "https://www.mothercare.gr/assets/logo.svg",
+      "contentType": "image/svg+xml",
+      "sizeBytes": 13930,
+      "proposedLogoUrl": "/merchant-logos/mothercare-greece-official-cf6f74c54773.svg",
+      "note": "Official Mothercare Greece logo asset.",
+      "status": "READY"
+    },
+    {
+      "merchantId": "cmtb7r18u0000u8iyfdfhu3mf",
+      "merchantName": "LEGO Store Greece",
+      "websiteUrl": "https://lego.storegreece.gr",
+      "oldLogoUrl": "/merchant-logos/lego-53ce3c813bde.jpg",
+      "oldLogoSourceUrl": "https://lego.azureedge.net/images/76x76/jpg/Lego/Content/Media/logo.jpg",
+      "sourceUrl": "https://www.lego.com/cdn/cs/aboutus/assets/blt06799f014ed2650e/LEGO_logo_RGB.svg",
+      "contentType": "image/svg+xml",
+      "sizeBytes": 5013,
+      "proposedLogoUrl": "/merchant-logos/lego-store-greece-official-64b7055f5567.svg",
+      "note": "Official LEGO Group RGB SVG logo asset.",
+      "status": "READY"
+    }
+  ]
+}

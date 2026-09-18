@@ -1,0 +1,2145 @@
+{
+  "generatedAt": "2026-09-18T12:04:03.048Z",
+  "mode": "preview",
+  "threshold": 90,
+  "targets": [
+    "Adidas",
+    "Sephora",
+    "Amazon",
+    "Airbnb",
+    "Netflix",
+    "Rituals",
+    "Zalando",
+    "Germanos",
+    "Decathlon Greece",
+    "KIKO",
+    "Hondos Center",
+    "Mango",
+    "Intersport",
+    "LEGO Store Greece",
+    "Shell",
+    "Ryanair",
+    "Mothercare Greece"
+  ],
+  "results": [
+    {
+      "merchantId": "cmta1flpz002sq8iyj9fu06aj",
+      "merchantName": "Adidas",
+      "websiteUrl": "https://adidas.gr",
+      "currentLogoUrl": null,
+      "currentLogoSourceUrl": null,
+      "homepageUsed": "https://adidas.gr",
+      "selected": null,
+      "candidates": [],
+      "action": "MANUAL_REVIEW",
+      "note": "HTTP 403 Forbidden"
+    },
+    {
+      "merchantId": "cmt8fb4oz000o6kiylq2ujw83",
+      "merchantName": "Sephora",
+      "websiteUrl": "https://giftcard.sephora.gr",
+      "currentLogoUrl": null,
+      "currentLogoSourceUrl": null,
+      "homepageUsed": "https://giftcard.sephora.gr",
+      "selected": null,
+      "candidates": [],
+      "action": "MANUAL_REVIEW",
+      "note": "fetch failed"
+    },
+    {
+      "merchantId": "cmt8nqtz900000oiy5f4y48na",
+      "merchantName": "Amazon",
+      "websiteUrl": "https://www.amazon.de",
+      "currentLogoUrl": "/merchant-logos/amazon-5866636f1876.ico",
+      "currentLogoSourceUrl": "https://www.amazon.de/favicon.ico",
+      "homepageUsed": "https://www.amazon.de/",
+      "selected": null,
+      "candidates": [],
+      "action": "NOT_FOUND",
+      "note": "No logo candidate found."
+    },
+    {
+      "merchantId": "cmt8l5oqd00005giycgy0pz6b",
+      "merchantName": "Airbnb",
+      "websiteUrl": "https://www.airbnb.com",
+      "currentLogoUrl": "/merchant-logos/airbnb-9ba669d9ce07.ico",
+      "currentLogoSourceUrl": "https://www.airbnb.com/favicon.ico",
+      "homepageUsed": "https://www.airbnb.com/",
+      "selected": {
+        "url": "https://a0.muscache.com/im/pictures/69805123-620a-4892-b3d3-5c23fbe80a6c.jpg?im_w=720",
+        "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+        "alt": "",
+        "width": 100,
+        "height": 100,
+        "score": 65,
+        "reasons": [
+          "external-cdn",
+          "good:header",
+          "header-context"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://a0.muscache.com/im/pictures/69805123-620a-4892-b3d3-5c23fbe80a6c.jpg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/712238d6-e7ac-4f72-98a4-7f14353469c5.jpg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1634069975623538018/original/4d7796e1-225f-4fe5-844a-d07a8e2b7775.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1634069990221278045/original/756fff88-b0be-4fd0-b9bc-98d6fb1f145e.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1634069993052726922/original/f1557366-e557-49a6-b31f-5e71ef04418e.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1634070000755555185/original/0aa53a92-3c69-4039-84b2-fc8e238402d2.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1648566483837530877/original/f15eb547-6df7-42b1-9c1f-43ecc9fff7fc.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1685769750848709994/original/8c9805f5-ebca-4d2f-8347-b91f463bea1c.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1690603309995311959/original/2692f74b-7128-4d63-ada0-947a96fcd9db.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/BnbProperty/BnbProperty-1694952083979889028/original/e34fcfc9-53c1-43ea-9016-1ea7d6beda84.png?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/e2212e8d-9292-4f75-97e4-45172ed4d702.jpg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/f34f59c7-315d-4d8f-8502-fe81a40e50f4.jpg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1187549746525553553/original/7ae70958-9602-4cbd-be7d-591522045dee.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1577500220506257773/original/4815e6ea-a6c3-4b10-8060-5caf9c48b3d9.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1578763666250157039/original/5e95c421-991e-4dbe-ba6b-c51202f885b7.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1653662776151778753/original/a10c8d08-2afe-4e25-a943-7ea40c7b347a.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1688503356981713101/original/c5860678-97cc-438c-a76a-8b551d37d9a5.png?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1717332889863974530/original/03dae39e-8a70-4e02-8ff4-e2ccd430f50b.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1732464805901915676/original/f62504da-c9bf-44b0-82e6-514b5ff81b24.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1735023560869268219/original/4451184d-f544-4234-8dfd-4d864f66b64d.jpeg?im_w=720",
+          "tag": "img icljt81 atm_e2_1osqo2v atm_vy_1osqo2v atm_jp_sm7xtg atm_jr_xm9jbw atm_5j_nw3v2p atm_vh_yfq0k3 dir dir-ltr  with-new-header",
+          "alt": "",
+          "width": 100,
+          "height": 100,
+          "score": 65,
+          "reasons": [
+            "external-cdn",
+            "good:header",
+            "header-context"
+          ]
+        }
+      ],
+      "action": "MANUAL_REVIEW",
+      "note": "Best candidate score 65 is below safe threshold 90."
+    },
+    {
+      "merchantId": "cmta421c00000t8iyz2ify6i3",
+      "merchantName": "Netflix",
+      "websiteUrl": "https://netflix.com",
+      "currentLogoUrl": "/merchant-logos/netflix-abe8012eb65c.ico",
+      "currentLogoSourceUrl": "https://www.netflix.com/favicon.ico",
+      "homepageUsed": "https://www.netflix.com/gr/",
+      "selected": {
+        "url": "https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAdEhm1UzVexHjKqFOP9W6E2UVtkWFvL-vdxIEbTU81rsqNuPmDDy_dQvmQ85ath49JBruVV4aGQA3gY2Dl5SiqFf-AEwPAZBTNkW8FMxGXpDN2mHrf8KlRRiddj1P422ZW1eZkZNWLTd.svg",
+        "tag": "img default-ltr-iqcdef-cache-lsmm1l ejnndvn0  default-ltr-iqcdef-cache-4fdrtc",
+        "alt": "",
+        "width": null,
+        "height": null,
+        "score": 35,
+        "reasons": [
+          "external-cdn",
+          "svg"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAdEhm1UzVexHjKqFOP9W6E2UVtkWFvL-vdxIEbTU81rsqNuPmDDy_dQvmQ85ath49JBruVV4aGQA3gY2Dl5SiqFf-AEwPAZBTNkW8FMxGXpDN2mHrf8KlRRiddj1P422ZW1eZkZNWLTd.svg",
+          "tag": "img default-ltr-iqcdef-cache-lsmm1l ejnndvn0  default-ltr-iqcdef-cache-4fdrtc",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "score": 35,
+          "reasons": [
+            "external-cdn",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://assets.nflxext.com/ffe/siteui/vlv3/4a59f124-030b-417a-9565-8362f395bdb0/web/GR-el-20260914-TRIFECTA-perspective_5220a749-d5f5-4d5b-9be4-8dc98611754f_large.jpg",
+          "tag": "img default-ltr-iqcdef-cache-19j6xtr  ",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "score": 10,
+          "reasons": [
+            "external-cdn"
+          ]
+        },
+        {
+          "url": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -190,
+          "reasons": [
+            "external-cdn",
+            "bad:apple-touch",
+            "icon-path"
+          ]
+        },
+        {
+          "url": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico",
+          "tag": "link rel=shortcut icon",
+          "score": -250,
+          "reasons": [
+            "external-cdn",
+            "icon-path",
+            "ico"
+          ]
+        }
+      ],
+      "action": "MANUAL_REVIEW",
+      "note": "Best candidate score 35 is below safe threshold 90."
+    },
+    {
+      "merchantId": "cmta1evj10006q8iy32cz89b3",
+      "merchantName": "Rituals",
+      "websiteUrl": "https://rituals.com",
+      "currentLogoUrl": "/merchant-logos/rituals-529ed238be0c.ico",
+      "currentLogoSourceUrl": "https://www.rituals.com/favicon.ico",
+      "homepageUsed": "https://www.rituals.com/",
+      "selected": {
+        "url": "https://www.rituals.com/images/svg/rituals-primary-logo.svg",
+        "tag": "img splash-page_logoB2C__gRZHJ  ",
+        "alt": "rituals-logo",
+        "width": 174,
+        "height": 16,
+        "score": 160,
+        "reasons": [
+          "official-domain",
+          "good:logo",
+          "brand-name-match",
+          "svg"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://www.rituals.com/images/svg/rituals-primary-logo.svg",
+          "tag": "img splash-page_logoB2C__gRZHJ  ",
+          "alt": "rituals-logo",
+          "width": 174,
+          "height": 16,
+          "score": 160,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://rituals.scene7.com/is/image/rituals/rituals-namaste-ingredients-purify-moringa-holy-lotus:Portrait?fmt=webp-alpha&hei=1600&resMode=sharp2&wid=1280",
+          "tag": "source ",
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://rituals.scene7.com/is/image/rituals/rituals-namaste-ingredients-purify-moringa-holy-lotus:Portrait?fmt=webp-alpha&hei=900&resMode=sharp2&wid=720",
+          "tag": "img   ",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://rituals.scene7.com/is/image/rituals/rituals-namaste-ingredients-purify-moringa-holy-lotus:Super-widescreen?fmt=webp-alpha&hei=1152&resMode=sharp2&wid=2048",
+          "tag": "source ",
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://rituals.scene7.com/is/image/rituals/rituals-namaste-ingredients-purify-moringa-holy-lotus:Super-widescreen?fmt=webp-alpha&hei=1620&resMode=sharp2&wid=2880",
+          "tag": "source ",
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://rituals.scene7.com/is/image/rituals/rituals-namaste-ingredients-purify-moringa-holy-lotus:Super-widescreen?fmt=webp-alpha&hei=2880&resMode=sharp2&wid=5000",
+          "tag": "source ",
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://rituals.scene7.com/is/image/rituals/nl",
+          "tag": "img MultiSourceIcon_light__jlgK2 FieldPrefixSection_fieldPrefixSectionIcon__h1Qcy  ",
+          "alt": "",
+          "width": 16,
+          "height": 16,
+          "score": -45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "tiny-square"
+          ]
+        },
+        {
+          "url": "https://www.rituals.com/favicon.ico",
+          "tag": "link rel=icon",
+          "score": -235,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon",
+            "ico"
+          ]
+        }
+      ],
+      "action": "PROPOSE_REPLACE"
+    },
+    {
+      "merchantId": "cmta1h2f10081q8iyet5ax0sh",
+      "merchantName": "Zalando",
+      "websiteUrl": "https://zalando.gr",
+      "currentLogoUrl": "/merchant-logos/zalando-220d6b07793f.ico",
+      "currentLogoSourceUrl": "https://www.zalando.gr/favicon.ico",
+      "homepageUsed": "https://www.zalando.gr/",
+      "selected": {
+        "url": "https://mosaic01.ztat.net/zds/assets/svg/play-store-en.4e42f8b.svg",
+        "tag": "img Vn-7c-  z-navigation-footer",
+        "alt": "",
+        "width": 135,
+        "height": 40,
+        "score": 60,
+        "reasons": [
+          "external-cdn",
+          "header-context",
+          "svg"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/play-store-en.4e42f8b.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 135,
+          "height": 40,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://mosaic02.ztat.net/rnd/ng/app-qr-code/app-qr.png",
+          "tag": "img EKabf7 wTFXcM SpRgR2  z-navigation-footer",
+          "alt": "QR Code App Download",
+          "width": null,
+          "height": null,
+          "score": 35,
+          "reasons": [
+            "external-cdn",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://img01.ztat.net/cnt/contentful-apps/uploads/11bc194c-5c6f-49e8-9c7d-8d802cefa33e.jpeg?imwidth=960",
+          "tag": "source ",
+          "score": 10,
+          "reasons": [
+            "external-cdn"
+          ]
+        },
+        {
+          "url": "https://img01.ztat.net/cnt/contentful-apps/uploads/15f28e1e-93d0-4b32-881e-028332917c31.jpeg?imwidth=750",
+          "tag": "img mo6ZnF KLaowZ nI4Wf-  ",
+          "alt": "Γυναίκα με καφέ παλτό που αποκαλύπτει ένα κοστούμι με ρίγες και κόκκινη γραβάτα σε ένα δωμάτιο με ένα κρεμασμένο λευκό φόρεμα και κουρτίνα μουσταρδί χρώματος.",
+          "width": null,
+          "height": null,
+          "score": 10,
+          "reasons": [
+            "external-cdn"
+          ]
+        },
+        {
+          "url": "https://img01.ztat.net/cnt/contentful-apps/uploads/a2c751e8-9858-4c87-9645-c0eef9aa009d.jpeg?imwidth=750",
+          "tag": "img mo6ZnF KLaowZ nI4Wf-  ",
+          "alt": "Γυναίκα με ένδυμα με ανάμεικτο καρό σκύβει για να φορέσει αρθρωτές μπότες μέχρι το γόνατο σε υπνοδωμάτιο με ροζ και μπεζ κλινοσκεπάσματα.",
+          "width": null,
+          "height": null,
+          "score": 10,
+          "reasons": [
+            "external-cdn"
+          ]
+        },
+        {
+          "url": "https://img01.ztat.net/cnt/contentful-apps/uploads/fe571b6c-e6b8-4fa7-baa5-1b63a25e8bdc.jpeg?imwidth=960",
+          "tag": "source ",
+          "score": 10,
+          "reasons": [
+            "external-cdn"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/acs.419ab96.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 48,
+          "height": 32,
+          "score": -30,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "tiny-square"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/amex.ab501de.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 48,
+          "height": 32,
+          "score": -30,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "tiny-square"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/cash-on-delivery.a6c6ed3.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 48,
+          "height": 32,
+          "score": -30,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "tiny-square"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/pay-pal.367a68f.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 48,
+          "height": 32,
+          "score": -30,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "tiny-square"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/app-store-en.fbf98bd.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 119,
+          "height": 40,
+          "score": -80,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "bad:app-store"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/favicon/zalando-app-touch-icon-180-lagom-v2.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -95,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/favicon/favicon-lagom-v3.svg",
+          "tag": "link rel=icon",
+          "score": -105,
+          "reasons": [
+            "external-cdn",
+            "svg",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/favicon/favicon-lagom-v3.png",
+          "tag": "link rel=icon",
+          "score": -130,
+          "reasons": [
+            "external-cdn",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/mastercard.e559a34.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 48,
+          "height": 32,
+          "score": -170,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "tiny-square",
+            "bad:mastercard"
+          ]
+        },
+        {
+          "url": "https://mosaic01.ztat.net/zds/assets/svg/visa.f642176.svg",
+          "tag": "img Vn-7c-  z-navigation-footer",
+          "alt": "",
+          "width": 48,
+          "height": 32,
+          "score": -170,
+          "reasons": [
+            "external-cdn",
+            "header-context",
+            "svg",
+            "tiny-square",
+            "bad:visa"
+          ]
+        }
+      ],
+      "action": "MANUAL_REVIEW",
+      "note": "Best candidate score 60 is below safe threshold 90."
+    },
+    {
+      "merchantId": "cmt8faygb00006kiynlty806o",
+      "merchantName": "Germanos",
+      "websiteUrl": "https://www.germanos.gr",
+      "currentLogoUrl": "/merchant-logos/germanos-be441ac5df32.png",
+      "currentLogoSourceUrl": "https://www.germanos.gr/favicon.png",
+      "homepageUsed": "https://www.germanos.gr/",
+      "selected": {
+        "url": "https://www.germanos.gr/favicon.png",
+        "tag": "link rel=icon",
+        "score": -35,
+        "reasons": [
+          "official-domain",
+          "brand-name-match",
+          "bad:favicon"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://www.germanos.gr/favicon.png",
+          "tag": "link rel=icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        }
+      ],
+      "action": "MANUAL_REVIEW",
+      "note": "Best candidate score -35 is below safe threshold 90."
+    },
+    {
+      "merchantId": "cmta1eump0002q8iypnb8sp6o",
+      "merchantName": "Decathlon Greece",
+      "websiteUrl": "https://decathlon.com.gr",
+      "currentLogoUrl": "/merchant-logos/decathlon-2ee1f7c423e1.png",
+      "currentLogoSourceUrl": "https://www.decathlon.com.gr/themes/oneshop/assets/img/favicons/apple-touch-icon-180.155279ac76.png",
+      "homepageUsed": "https://www.decathlon.com.gr/el/",
+      "selected": {
+        "url": "https://contents.mediadecathlon.com/s1477375/k$21817457ee6b7fff1147fb11339718f6/Svuum%20logo.jpeg.jpeg?format=auto&f=1000x100",
+        "tag": "img emblem_img  ",
+        "alt": "",
+        "width": null,
+        "height": null,
+        "score": 75,
+        "reasons": [
+          "external-cdn",
+          "good:logo",
+          "brand-name-match"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://contents.mediadecathlon.com/s1477375/k$21817457ee6b7fff1147fb11339718f6/Svuum%20logo.jpeg.jpeg?format=auto&f=1000x100",
+          "tag": "img emblem_img  ",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "score": 75,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p1605054/1cr1/k$710c5c182a71932c523a2359a4e675dd/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p1605054/1cr1/k$710c5c182a71932c523a2359a4e675dd/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2424657/1cr1/k$4a1859a60c7fefa8ba8ec74234718ae9/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2424657/1cr1/k$4a1859a60c7fefa8ba8ec74234718ae9/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2439600/1cr1/k$7c045ba875f008bd2de09cbcd2d67f40/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2439600/1cr1/k$7c045ba875f008bd2de09cbcd2d67f40/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2485796/1cr1/k$a82839bcf6702e42a70cbc95214337f5/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2485796/1cr1/k$a82839bcf6702e42a70cbc95214337f5/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2573021/1cr1/k$9ada97eecaea70daafe1b3077f59f14d/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2573021/1cr1/k$9ada97eecaea70daafe1b3077f59f14d/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2584168/1cr1/k$dbfb08bbdda39464f42c071a0ef2ed14/DOMYOS%20TS100%20NON%20MOTORISE%20PE24.jpeg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2584168/1cr1/k$dbfb08bbdda39464f42c071a0ef2ed14/DOMYOS%20TS100%20NON%20MOTORISE%20PE24.jpeg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2621848/1cr1/k$9aa6956200b602c1c9b6e6fead6cc077/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2621848/1cr1/k$9aa6956200b602c1c9b6e6fead6cc077/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2660450/1cr1/k$90537c584cd48bfea63bd2e78cbad75f/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2660450/1cr1/k$90537c584cd48bfea63bd2e78cbad75f/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2677091/1cr1/k$31ef492578363ad4b699861fe24142d9/prod.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2677091/1cr1/k$31ef492578363ad4b699861fe24142d9/prod.jpg?format=auto&f=3000x0",
+          "tag": "img    srcset",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://contents.mediadecathlon.com/p2699217/1cr1/k$2252e7939258ae7e782ad2e6be4e9b30/DECATHLON%20PLAYFUL%20FAST%20SCRATCH%20NOIR%20PE24.jpg?format=auto&f=1024x0",
+          "tag": "img   ",
+          "alt": "",
+          "width": 200,
+          "height": 200,
+          "score": 60,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        }
+      ],
+      "action": "MANUAL_REVIEW",
+      "note": "Best candidate score 75 is below safe threshold 90."
+    },
+    {
+      "merchantId": "cmt8l5vnt000h5giybb6cc2ff",
+      "merchantName": "KIKO",
+      "websiteUrl": "https://www.kikocosmetics.com",
+      "currentLogoUrl": "/merchant-logos/kiko-bb30ec711fab.svg",
+      "currentLogoSourceUrl": "https://www.kikocosmetics.com/next/assets/favicon.svg",
+      "homepageUsed": "https://www.kikocosmetics.gr/",
+      "selected": {
+        "url": "https://assets.kikocosmetics.gr/media/logo/default/kiko-logo-text.png",
+        "tag": "img   header content",
+        "alt": "",
+        "width": 170,
+        "height": null,
+        "score": 160,
+        "reasons": [
+          "official-domain",
+          "good:logo",
+          "brand-name-match",
+          "header-context"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://assets.kikocosmetics.gr/media/logo/default/kiko-logo-text.png",
+          "tag": "img   header content",
+          "alt": "",
+          "width": 170,
+          "height": null,
+          "score": 160,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/banner-slider/Img_QualityPage_HpBrandValue_2_.jpg",
+          "tag": "img    data-src",
+          "alt": "Ασφάλεια",
+          "width": null,
+          "height": null,
+          "score": 135,
+          "reasons": [
+            "official-domain",
+            "good:brand",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/static/version1789566305/frontend/Netsteps/mobile/el_GR/svg/faisgroup-w.svg",
+          "tag": "img   ",
+          "alt": "Ομιλος Φάις",
+          "width": null,
+          "height": null,
+          "score": 130,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/1/_/1.png",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano 3D HYDRA LIPGLOSS... 35 KM000000730035B FLUID LIP GLOSS",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KA000000003001B_001B_KA000000003001B_001B_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KA000000003001B PRO TWEEZERS COMBO 01 TWEEZERS KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KA000000006001B_001B_KA000000006001B_001B_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KA000000006001B BEAUTY DUO: MIRROR & SPONGE COVER 01 SPONGES KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KA000000007001B_001B_KA000000007001B_001B_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KA000000007001B BRUSH CLEANSING PAD 01 BRUSH CLEANSERS KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KA000000020001B_001B_KA000000020001B_001B_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KA000000020001B POINTED TWEEZERS 01 TWEEZERS KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KA000000025004B_Volume_KA000000025004B_004B_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KA000000025004B FALSE EYELASHES. 04 FALSE EYELASHES KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KA000000233001B_KA000000233001B_01_1761006604.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "Travel Brush Set",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KC000001278001B_01_Spotlight_Shine_KC000001278001B_01_01_1778632211.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano SUMMER 26_ GLOW UP LIMITED EDITION 01 KC000001278001B BODY CARE",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KC000001294001B_01_Alabaster_KC000001294001B_01_01_1787099409.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano FALL 26_TRIPLE WEAR FACE MULTITASKER 06 KC000001294006B FLUID FOUNDATION",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KC000001296001B_01_Caff_latte_KC000001296001B_01_01_1787099408.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano FALL 26_BOUNCE&BLUR MATTE BRONZER 03 KC000001296003B COMPACT BRONZERS",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KC000001299003B_03_Chili_Charm_KC000001299003B_03_01_1787099404.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano FALL 26_SKETCH&DEFINE LIP PENCIL 06 KC000001299006B WOOD LIP PENCILS",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KM000000029001B_001B_KM000000029001B_001B_01.JPG",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KM000000029001B EYEBROW DESIGNER. 01 EYEBROWS MASCARA KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KM000000047001B_001B_KM000000047001B_001B_01_6.JPG",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KM000000047001B NAIL RECOVERY 01 NAIL CARE KIKO Milano",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KM000000085001B_01_KM000000085001B_001B_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano SUPER COLOUR WP EYELINER 07 KM000000590007B COLOURED EYELINER",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KM000000297001B_01_Natural_Rose_KM000000297001B_01_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano CREAMY COLOUR LINER NEW INCI 06 KM000000592006B WOOD LIP PENCILS",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KM000000429001B_01_Platinum_Rose_v1_KM000000429001B_01_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano GLOW FUSION HIGHLIGHTING DROPS SW 03 KM000000825003B FLUID HIGHLIGHTERS",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://assets.kikocosmetics.gr/media/catalog/product/cache/e4b525de71b6ad8bead79ea8872957a8/9/0/90000539_KM000000431001B_01_KM000000431001B_01_01.jpg",
+          "tag": "img lazy product-image-photo product-image-photo  ",
+          "alt": "KIKO Milano INVISIBLE TOUCH FACE FIXING POWDER 01 KM000000431001B FIXERS FACE",
+          "width": 250,
+          "height": 250,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        }
+      ],
+      "action": "PROPOSE_REPLACE"
+    },
+    {
+      "merchantId": "cmt8fazwh000a6kiymri92mev",
+      "merchantName": "Hondos Center",
+      "websiteUrl": "https://www.hondoscenter.com",
+      "currentLogoUrl": "/merchant-logos/hondos-center-79eab686a5c7.png",
+      "currentLogoSourceUrl": "https://www.hondoscenter.com/media/favicon/icons/icon_android_144x144.png",
+      "homepageUsed": "https://www.hondoscenter.com",
+      "selected": null,
+      "candidates": [],
+      "action": "MANUAL_REVIEW",
+      "note": "HTTP 403 Forbidden"
+    },
+    {
+      "merchantId": "cmta1is0q00e1q8iyq80c6tz9",
+      "merchantName": "Mango",
+      "websiteUrl": "https://mango.com",
+      "currentLogoUrl": "/merchant-logos/mango-85ed78901424.png",
+      "currentLogoSourceUrl": "https://shop.mango.com/assets-site-shop/_next/static/media/favicon152x152.3_x5ya240xnpd.png",
+      "homepageUsed": "https://mango.com",
+      "selected": null,
+      "candidates": [],
+      "action": "MANUAL_REVIEW",
+      "note": "HTTP 403 Forbidden"
+    },
+    {
+      "merchantId": "cmta1gong006jq8iy8ppr191d",
+      "merchantName": "Intersport",
+      "websiteUrl": "https://intersport.gr",
+      "currentLogoUrl": "/merchant-logos/intersport-ce7c47753beb.webp",
+      "currentLogoSourceUrl": "https://intersportgrazure.lhscdn.com/uploads/sites/494076/siteimage-logonormal.png?lm=78b8fb37bb35720875ab269748147334",
+      "homepageUsed": "https://intersport.gr",
+      "selected": null,
+      "candidates": [],
+      "action": "MANUAL_REVIEW",
+      "note": "HTTP 403 Forbidden"
+    },
+    {
+      "merchantId": "cmtb7r18u0000u8iyfdfhu3mf",
+      "merchantName": "LEGO Store Greece",
+      "websiteUrl": "https://lego.storegreece.gr",
+      "currentLogoUrl": "/merchant-logos/lego-53ce3c813bde.jpg",
+      "currentLogoSourceUrl": "https://lego.azureedge.net/images/76x76/jpg/Lego/Content/Media/logo.jpg",
+      "homepageUsed": "https://www.lego.storegreece.gr/",
+      "selected": {
+        "url": "https://lego.azureedge.net/images/50x50/png/Content/Media/logo-google.png",
+        "tag": "img lazy  header__submenu data-src",
+        "alt": "google logo",
+        "width": null,
+        "height": null,
+        "score": 100,
+        "reasons": [
+          "external-cdn",
+          "good:logo",
+          "brand-name-match",
+          "header-context"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://lego.azureedge.net/images/50x50/png/Content/Media/logo-google.png",
+          "tag": "img lazy  header__submenu data-src",
+          "alt": "google logo",
+          "width": null,
+          "height": null,
+          "score": 100,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/images/76x76/jpg/Lego/Content/Media/logo.jpg",
+          "tag": "img   header__logoImgWrap",
+          "alt": "Lego Logo",
+          "width": null,
+          "height": null,
+          "score": 100,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match",
+            "header-context"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/american_express_logo__2018__svg.png",
+          "tag": "img lazy   data-src",
+          "alt": "AMERICAN EXPRESS",
+          "width": null,
+          "height": null,
+          "score": 75,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/logo_iris_hor_new.png",
+          "tag": "img lazy   data-src",
+          "alt": "IRIS",
+          "width": null,
+          "height": null,
+          "score": 75,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/images/76x76/jpg/Lego/Content/Media/logo.jp2",
+          "tag": "source ",
+          "score": 75,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/images/76x76/jpg/Lego/Content/Media/logo.webp",
+          "tag": "source ",
+          "score": 75,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/images/89x89/jpg/Lego/Content/Media/logo.jpg",
+          "tag": "img lazy   data-src",
+          "alt": "Moustakas logo",
+          "width": null,
+          "height": null,
+          "score": 75,
+          "reasons": [
+            "external-cdn",
+            "good:logo",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/Content/Media/atcom-white.svg",
+          "tag": "img lazy   data-src",
+          "alt": "ATCOM",
+          "width": 160,
+          "height": 20,
+          "score": 70,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/Content/Media/heartfull.svg",
+          "tag": "img svgIcon svgIcon--heartFull  ",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "score": 70,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/comingsoon.png",
+          "tag": "img lazy   data-src",
+          "alt": "Popular featured category",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/diners-club2022-new.png",
+          "tag": "img lazy   data-src",
+          "alt": "DINERS",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/exclusivesnew.png",
+          "tag": "img lazy   data-src",
+          "alt": "Featured Category Exclusives",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/last_chance.png",
+          "tag": "img lazy   data-src",
+          "alt": "Last Chance",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/maestro-upd2022-new.png",
+          "tag": "img lazy   data-src",
+          "alt": "Maestro",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/new.jpeg",
+          "tag": "img lazy   data-src",
+          "alt": "Featured Category New",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/paypal-new-new.png",
+          "tag": "img lazy   data-src",
+          "alt": "PAYPAL",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/promoitems/hard_to_find.png",
+          "tag": "img lazy   data-src",
+          "alt": "featured category hard to find",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/files/starwars.png",
+          "tag": "img lazy   data-src",
+          "alt": "feature category star wars",
+          "width": null,
+          "height": null,
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/images/1023x667/jpg/files/1023x667_home_slider/2024/leg%CE%BF_passports.jp2",
+          "tag": "source ",
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://lego.azureedge.net/images/1023x667/jpg/files/1023x667_home_slider/2024/leg%CE%BF_passports.webp",
+          "tag": "source ",
+          "score": 45,
+          "reasons": [
+            "external-cdn",
+            "brand-name-match"
+          ]
+        }
+      ],
+      "action": "PROPOSE_REPLACE"
+    },
+    {
+      "merchantId": "cmta4z2dl003osciyke6bolxe",
+      "merchantName": "Shell",
+      "websiteUrl": "https://shell.gr",
+      "currentLogoUrl": "/merchant-logos/shell-09e4b5b23cc8.png",
+      "currentLogoSourceUrl": "https://www.shell.gr/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/apple-touch-icon.png",
+      "homepageUsed": "https://www.shell.gr/",
+      "selected": {
+        "url": "https://www.shell.gr/el_gr/_jcr_content/root/metadata.shellimg.jpeg/1732017022269/shell-v-power-fuel.jpeg?imwidth=1280&impolicy=amidala-image-191x100",
+        "tag": "meta og:image",
+        "score": 105,
+        "reasons": [
+          "official-domain",
+          "brand-name-match"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://www.shell.gr/el_gr/_jcr_content/root/metadata.shellimg.jpeg/1732017022269/shell-v-power-fuel.jpeg?imwidth=1280&impolicy=amidala-image-191x100",
+          "tag": "meta og:image",
+          "score": 105,
+          "reasons": [
+            "official-domain",
+            "brand-name-match"
+          ]
+        },
+        {
+          "url": "https://www.shell.gr/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/favicon.svg",
+          "tag": "link rel=icon",
+          "score": -10,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "svg",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://www.shell.gr/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/apple-touch-icon.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://www.shell.gr/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/favicon.ico",
+          "tag": "link rel=icon",
+          "score": -235,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon",
+            "ico"
+          ]
+        }
+      ],
+      "action": "PROPOSE_REPLACE"
+    },
+    {
+      "merchantId": "cmta1ewzn000aq8iyq8fpkvwb",
+      "merchantName": "Ryanair",
+      "websiteUrl": "https://ryanair.com",
+      "currentLogoUrl": "/merchant-logos/ryanair-b86927108dd4.png",
+      "currentLogoSourceUrl": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-120x120.png",
+      "homepageUsed": "https://www.ryanair.com/gr/el",
+      "selected": {
+        "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-114x114.png",
+        "tag": "link rel=apple-touch-icon",
+        "score": -35,
+        "reasons": [
+          "official-domain",
+          "brand-name-match",
+          "bad:favicon"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-114x114.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-120x120.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-144x144.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-152x152.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-57x57.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-60x60.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-72x72.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-76x76.png",
+          "tag": "link rel=apple-touch-icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon-16x16.png",
+          "tag": "link rel=icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon-32x32.png",
+          "tag": "link rel=icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon-96x96.png",
+          "tag": "link rel=icon",
+          "score": -35,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon"
+          ]
+        },
+        {
+          "url": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon.ico",
+          "tag": "link rel=shortcut icon",
+          "score": -235,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "bad:favicon",
+            "ico"
+          ]
+        }
+      ],
+      "action": "MANUAL_REVIEW",
+      "note": "Best candidate score -35 is below safe threshold 90."
+    },
+    {
+      "merchantId": "cmt8l5xt6000r5giy4sk5grv8",
+      "merchantName": "Mothercare Greece",
+      "websiteUrl": "https://www.mothercare.gr",
+      "currentLogoUrl": "/merchant-logos/mothercare-greece-b08d1eee4461.png",
+      "currentLogoSourceUrl": "https://www.mothercare.gr/assets/apple-touch-icon.png",
+      "homepageUsed": "https://www.mothercare.gr/",
+      "selected": {
+        "url": "https://www.mothercare.gr/assets/logo.svg",
+        "tag": "img   css-1byp95",
+        "alt": "Mothercare",
+        "width": 179,
+        "height": 53,
+        "score": 175,
+        "reasons": [
+          "official-domain",
+          "good:logo",
+          "brand-name-match",
+          "svg",
+          "usable-dimensions"
+        ]
+      },
+      "candidates": [
+        {
+          "url": "https://www.mothercare.gr/assets/logo.svg",
+          "tag": "img   css-1byp95",
+          "alt": "Mothercare",
+          "width": 179,
+          "height": 53,
+          "score": 175,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "svg",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20ADDO%20LOGO_0.png",
+          "tag": "img   ",
+          "alt": "addo logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20chicco%20LOGO.png",
+          "tag": "img   ",
+          "alt": "chicco logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20cybex%20LOGO_0.png",
+          "tag": "img   ",
+          "alt": "cybex logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20dr%20browns%20LOGO_0.png",
+          "tag": "img   ",
+          "alt": "inglesina logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20dr%20browns%20LOGO_1.png",
+          "tag": "img   ",
+          "alt": "dr browns logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20elc%20LOGO_0.png",
+          "tag": "img   ",
+          "alt": "elc logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20LEGO%20LOGO.png",
+          "tag": "img   ",
+          "alt": "lego logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20medela%20logo.png",
+          "tag": "img   ",
+          "alt": "medela logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20philips%20avent%20LOGO.png",
+          "tag": "img   ",
+          "alt": "philips logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20quax%20LOGO_0.png",
+          "tag": "img   ",
+          "alt": "quax logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-04/gen%20stokke%20LOGO.png",
+          "tag": "img   ",
+          "alt": "stokke logo",
+          "width": 180,
+          "height": 120,
+          "score": 150,
+          "reasons": [
+            "official-domain",
+            "good:logo",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://www.mothercare.gr/assets/safari-pinned-tab.svg",
+          "tag": "link rel=mask-icon",
+          "score": 130,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "svg"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2024-02/maternity.png",
+          "tag": "img   ",
+          "alt": "ρούχα εγκυμοσύνης",
+          "width": 145,
+          "height": 145,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2025-01/toys%20gr%20750X280.png",
+          "tag": "img   ",
+          "alt": "toys generic",
+          "width": 1200,
+          "height": 490,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2025-08/Highwaykick%202%20Lifestyle%20-%20steel%20%281%29.jpg",
+          "tag": "img   ",
+          "alt": "scoot & ride collection",
+          "width": 350,
+          "height": 350,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-01/sales%20aw25%20car%20seats.png",
+          "tag": "img   ",
+          "alt": "sale AW25",
+          "width": 145,
+          "height": 145,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-01/sales%20aw25%20pushchairs.png",
+          "tag": "img   ",
+          "alt": "sale AW25",
+          "width": 145,
+          "height": 145,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-03/1000%20-%201200X290%20GR.png",
+          "tag": "img   ",
+          "alt": "1000",
+          "width": 1200,
+          "height": 490,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        },
+        {
+          "url": "https://backend.mothercare.gr/sites/default/files/2026-03/ss26%20winter%20offers.png",
+          "tag": "img   ",
+          "alt": "ss26 winter offers",
+          "width": 350,
+          "height": 350,
+          "score": 120,
+          "reasons": [
+            "official-domain",
+            "brand-name-match",
+            "usable-dimensions"
+          ]
+        }
+      ],
+      "action": "PROPOSE_REPLACE"
+    }
+  ]
+}
