@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-09-17T06:25:52.157Z",
+  "checks": [
+    {
+      "path": "/browse?q=sephroa",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/browse?q=birthday",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/browse?q=qwzxvbnm&category=beauty",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/browse?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/brands/sephora",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/gift-cards/sephora-gift-card",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/categories/beauty",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/occasions/birthday",
+      "status": 200,
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "width": {
+        "scroll": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    }
+  ],
+  "outboundBrowserRequests": [],
+  "pageErrors": [],
+  "pagination": {
+    "first": 24,
+    "second": 9,
+    "duplicates": 0
+  },
+  "gaConfigured": false,
+  "relatedBrands": 6,
+  "outboundHead": {
+    "status": 307,
+    "destinationHost": "giftcard.sephora.gr"
+  },
+  "passed": false,
+  "error": "Expected values to be strictly equal:\n\n503 !== 401\n",
+  "publicChecksPassed": true,
+  "adminUnauthorized": 503,
+  "headCheckClickRows": 0,
+  "gaNetworkBlocked": true,
+  "blockers": [
+    "ADMIN_USER and ADMIN_PASSWORD are missing from Vercel production; admin is fail-closed with HTTP 503.",
+    "NEXT_PUBLIC_GA_MEASUREMENT_ID is missing from Vercel production; GA collection is disabled."
+  ]
+}

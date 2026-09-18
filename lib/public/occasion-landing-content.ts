@@ -14,7 +14,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
     heading: "Δωροκάρτες για γενέθλια και κάθε ηλικία",
     intro:
       "Ανακάλυψε ιδέες για δώρο γενεθλίων από διαφορετικές κατηγορίες και καταστήματα. Η δωροκάρτα αφήνει τον παραλήπτη να επιλέξει αυτό που θέλει, όταν τον εξυπηρετεί.",
-    relatedSlugs: ["name-day", "for-her", "for-him"],
+    relatedSlugs: ["for-kids", "thank-you", "mothers-day"],
   },
   "for-her": {
     seoTitle: "Δωροκάρτες για Εκείνη: Ιδέες Δώρου",
@@ -41,7 +41,43 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
     heading: "Δωροκάρτες για νέο μωρό και νέους γονείς",
     intro:
       "Μια πρακτική επιλογή για τον ερχομό ενός μωρού, ώστε οι γονείς να διαλέξουν αυτό που χρειάζονται πραγματικά. Δες ενεργές δωροκάρτες για βρεφικά και οικογενειακά δώρα.",
-    relatedSlugs: ["for-kids", "christening", "just-because"],
+    relatedSlugs: ["for-kids", "mothers-day", "wedding"],
+  },
+  "for-kids": {
+    seoTitle: "Δωροκάρτες για Παιδιά: Παιχνίδι & Δημιουργία",
+    metaDescription:
+      "Ανακάλυψε ενεργές δωροκάρτες για παιδιά και ιδέες για παιδικά δώρα. Δες τις διαθέσιμες επιλογές και έλεγξε ηλικίες και όρους στον επίσημο έμπορο.",
+    heading: "Δωροκάρτες για παιδιά και μικρές χαρές",
+    intro:
+      "Χάρισε στα παιδιά την ευκαιρία να επιλέξουν κάτι που τους αρέσει, μαζί με τους γονείς τους. Δες τις δωροκάρτες που έχουν αντιστοιχιστεί σε παιδικά δώρα και έλεγξε αν ταιριάζουν στην ηλικία και στα ενδιαφέροντά τους.",
+    relatedSlugs: ["birthday", "new-baby"],
+  },
+  "thank-you": {
+    seoTitle: "Δωροκάρτες για Ευχαριστώ: Δώρα Εκτίμησης",
+    metaDescription:
+      "Πες ευχαριστώ με μια δωροκάρτα. Σύγκρινε ενεργές επιλογές για φίλους, συνεργάτες και ανθρώπους που σε βοήθησαν, με πληροφορίες από τον επίσημο έμπορο.",
+    heading: "Δωροκάρτες για ένα ξεχωριστό ευχαριστώ",
+    intro:
+      "Μια δωροκάρτα μπορεί να συνοδεύσει το ευχαριστώ σου για μια βοήθεια, μια φιλοξενία ή μια καθημερινή πράξη φροντίδας. Εξερεύνησε τις σχετικές επιλογές και διάλεξε με βάση τα ενδιαφέροντα του ανθρώπου που θέλεις να ευχαριστήσεις.",
+    relatedSlugs: ["mothers-day", "birthday"],
+  },
+  "mothers-day": {
+    seoTitle: "Δωροκάρτες για τη Γιορτή της Μητέρας",
+    metaDescription:
+      "Βρες δωροκάρτες για τη Γιορτή της Μητέρας και δώσε στη μαμά την επιλογή του δώρου της. Σύγκρινε ενεργές προτάσεις και δες τους όρους κάθε εμπόρου.",
+    heading: "Δωροκάρτες για τη μαμά στη Γιορτή της Μητέρας",
+    intro:
+      "Γιόρτασε τη μαμά με ένα δώρο που μπορεί να προσαρμόσει στις δικές της επιθυμίες. Δες τις δωροκάρτες για τη Γιορτή της Μητέρας και συνόδευσε την επιλογή σου με ένα προσωπικό μήνυμα αγάπης.",
+    relatedSlugs: ["thank-you", "new-baby", "birthday"],
+  },
+  wedding: {
+    seoTitle: "Δωροκάρτες Γάμου: Δώρα για το Ζευγάρι",
+    metaDescription:
+      "Ανακάλυψε ενεργές δωροκάρτες γάμου για το ζευγάρι. Σύγκρινε επιλογές για το νέο τους ξεκίνημα και έλεγξε αξίες και όρους στον επίσημο έμπορο.",
+    heading: "Δωροκάρτες γάμου για το νέο τους ξεκίνημα",
+    intro:
+      "Ευχήσου στο ζευγάρι με μια δωροκάρτα που τους αφήνει να αποφασίσουν μαζί τι χρειάζονται. Εξερεύνησε τις επιλογές που έχουν συνδεθεί με τον γάμο και έλεγξε τη διάρκεια ισχύος και τους τρόπους εξαργύρωσης πριν την αγορά.",
+    relatedSlugs: ["new-baby", "thank-you"],
   },
   christmas: {
     seoTitle: "Χριστουγεννιάτικες Δωροκάρτες & Ιδέες Δώρου",
@@ -70,16 +106,21 @@ export const TEMPORARILY_NOINDEXED_OCCASION_SLUGS = [
   "for-him",
 ] as const;
 
-const temporarilyNoindexedOccasionSlugs = new Set<string>(
-  TEMPORARILY_NOINDEXED_OCCASION_SLUGS,
-);
+const indexableOccasionSlugs = new Set<string>([
+  "birthday",
+  "for-kids",
+  "new-baby",
+  "thank-you",
+  "mothers-day",
+  "wedding",
+]);
 
 export const OCCASION_LANDING_SLUGS = Object.freeze(
   Object.keys(occasionLandingContent),
 );
 
 export function isOccasionLandingReadyForIndexing(slug: string) {
-  return !temporarilyNoindexedOccasionSlugs.has(slug);
+  return indexableOccasionSlugs.has(slug);
 }
 
 export function getOccasionLandingContent(slug: string): OccasionLandingContent | null {

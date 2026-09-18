@@ -103,7 +103,8 @@ export default async function BrowsePage({
         })
       : Promise.resolve([]),
   ]);
-  const { cards, totalCount, currentPage, totalPages } = cardPage;
+
+  const { cards, totalCount, currentPage, totalPages, approximate } = cardPage;
   const categoryBySlug = new Map(categories.map((item) => [item.slug, item]));
   const landingCategories = CATEGORY_LANDING_SLUGS.flatMap((slug) => {
     const item = categoryBySlug.get(slug);
@@ -130,16 +131,35 @@ export default async function BrowsePage({
               {totalCount.toLocaleString("el-GR")} αποτελέσματα με τα τρέχοντα φίλτρα
               {totalPages > 1 ? ` · Σελίδα ${currentPage} από ${totalPages}` : ""}.
             </p>
+
+            {approximate ? (
+              <p role="status">
+                Δεν βρέθηκε ακριβής αντιστοίχιση. Εμφανίζουμε κοντινά αποτελέσματα.
+              </p>
+            ) : null}
+
             <HeroSearch initial={q || ""} category={category} occasion={occasion} />
+
+            {q ? (
+              <Link
+                className="dk-catalog-reset"
+                prefetch={false}
+                href={browseHref({ category, occasion })}
+              >
+                Καθαρισμός αναζήτησης ×
+              </Link>
+            ) : null}
           </div>
 
-          {activeOccasion ? (
+          {occasion ? (
             <div className="dk29-filter-context" aria-label="Ενεργό φίλτρο περίστασης">
-              <span>Περίσταση: <b>{activeOccasion.name}</b></span>
+              <span>
+                Περίσταση: <b>{activeOccasion?.name || occasion}</b>
+              </span>
               <Link
                 prefetch={false}
                 href={browseHref({ q, category })}
-                aria-label={`Αφαίρεση φίλτρου περίστασης ${activeOccasion.name}`}
+                aria-label={`Αφαίρεση φίλτρου περίστασης ${activeOccasion?.name || occasion}`}
               >
                 Καθαρισμός ×
               </Link>

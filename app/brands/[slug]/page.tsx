@@ -8,13 +8,25 @@ import PublicFooter from "@/components/public/PublicFooter";
 import PublicHeader from "@/components/public/PublicHeader";
 import { prisma } from "@/lib/prisma";
 import { publicCardSelect } from "@/lib/public/data";
+import { getMerchantProfileDetails, publicHttpUrl } from "@/lib/public/merchant-profile";
+import CatalogView from "@/components/analytics/CatalogView";
+import CatalogOutboundLink from "@/components/analytics/CatalogOutboundLink";
 
 export const dynamic = "force-dynamic";
 
+function decodeSlug(slug: string) {
+  try {
+    return decodeURIComponent(slug);
+  } catch {
+    return slug;
+  }
+}
+
 const getBrandPage = cache((slug: string) =>
   prisma.merchant.findFirst({
-    where: { slug, status: "ACTIVE", giftCards: { some: { status: "ACTIVE" } } },
+    where: { slug: decodeSlug(slug), status: "ACTIVE", giftCards: { some: { status: "ACTIVE" } } },
     select: {
+      id: true,
       name: true,
       slug: true,
       description: true,
@@ -77,8 +89,13 @@ export default async function BrandPage({
 
   if (!brand) notFound();
 
+  const profile = getMerchantProfileDetails(brand.giftCards);
+  const websiteUrl = publicHttpUrl(brand.websiteUrl);
+  const analyticsContext = { merchantId: brand.id, pageType: "brand" as const, sourcePath: `/brands/${encodeURIComponent(brand.slug)}` };
+
   return (
     <div className="dk-public">
+      <CatalogView {...analyticsContext} />
       <PublicHeader />
 
       <main className="dk25-taxonomy-page">
@@ -100,14 +117,41 @@ export default async function BrandPage({
               <span>ΚΑΤΑΣΤΗΜΑ</span>
               <h1>{brand.name}</h1>
               <p>{brand.description || `Δες τις ενεργές δωροκάρτες από ${brand.name}.`}</p>
+              <p>{profile.verifiedCount > 0
+                ? `Δωροκάρτες με επιβεβαιωμένα στοιχεία: ${profile.verifiedCount} από ${brand.giftCards.length}.`
+                : "Τα στοιχεία των δωροκαρτών δεν έχουν επιβεβαιωθεί ακόμη."}</p>
             </div>
 
-            {brand.websiteUrl && (
-              <a href={brand.websiteUrl} target="_blank" rel="noreferrer">
+            {websiteUrl && (
+              <a href={websiteUrl} target="_blank" rel="noreferrer">
                 Ιστότοπος καταστήματος <b>↗</b>
               </a>
             )}
           </section>
+
+          {profile.officialCards.length > 0 && (
+            <section className="dk24-info-card" aria-labelledby="brand-official-links">
+              <h2 id="brand-official-links">Επίσημες σελίδες δωροκαρτών</h2>
+              <div className="dk24-link-stack">
+                {profile.officialCards.map(card => (
+                  <CatalogOutboundLink key={card.id} context={{ ...analyticsContext, giftCardId: card.id, category: card.categories[0]?.category.slug }}>
+                    {card.title} <b>↗</b>
+                  </CatalogOutboundLink>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {profile.categories.length > 0 && (
+            <nav className="dk-public-filter-row" aria-label="Κατηγορίες καταστήματος">
+              {profile.categories.map(category => <Link key={category.slug} prefetch={false} href={`/browse?category=${encodeURIComponent(category.slug)}`}>{category.name}</Link>)}
+            </nav>
+          )}
+          {profile.occasions.length > 0 && (
+            <nav className="dk-public-filter-row" aria-label="Περιστάσεις καταστήματος">
+              {profile.occasions.map(occasion => <Link key={occasion.slug} prefetch={false} href={`/browse?occasion=${encodeURIComponent(occasion.slug)}`}>{occasion.name}</Link>)}
+            </nav>
+          )}
 
           <div className="dk25-taxonomy-results">
             <div>

@@ -258,11 +258,4 @@ export async function getQualityData() {
   return { missingDescriptions, missingMedia, missingVariants, noCategory, noOccasion, reviewFlags };
 }
 
-export async function getAnalyticsData() {
-  const [clicks, recentClicks, searchEvents] = await Promise.all([
-    safeCount("outboundClick"),
-    safeFindMany("outboundClick", { take: 100, orderBy: { createdAt: "desc" } }),
-    safeFindMany("searchEvent", { take: 100, orderBy: { createdAt: "desc" } }),
-  ]);
-  return { clicks, recentClicks, searchEvents };
-}
+export { getAnalyticsData } from "./analytics";

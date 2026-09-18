@@ -1,42 +1,42 @@
+"use client";
+
 import Script from "next/script";
+import { usePathname } from "next/navigation";
+import { useEffect, useSyncExternalStore } from "react";
+import {
+  isProductionAnalyticsHost,
+  isPublicAnalyticsPath,
+  prepareGoogleAnalytics,
+} from "@/lib/public/google-analytics";
 
 type GoogleAnalyticsProps = {
   measurementId: string;
 };
 
+const subscribe = () => () => {};
+const serverSnapshot = () => false;
+
 export function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
-  const serializedMeasurementId = JSON.stringify(measurementId);
+  const pathname = usePathname();
+  const productionHost = useSyncExternalStore(
+    subscribe,
+    isProductionAnalyticsHost,
+    serverSnapshot,
+  );
+
+  useEffect(() => {
+    prepareGoogleAnalytics(measurementId);
+  }, [measurementId, pathname]);
+
+  if (!productionHost || !isPublicAnalyticsPath(pathname)) {
+    return null;
+  }
 
   return (
-    <>
-      <Script id="google-analytics-bootstrap" strategy="afterInteractive">
-        {`
-          (function () {
-            var measurementId = ${serializedMeasurementId};
-            var hostname = window.location.hostname.toLowerCase();
-            var isProductionHost = hostname === "dorokartes.gr" || hostname === "www.dorokartes.gr";
-
-            if (!isProductionHost) {
-              window["ga-disable-" + measurementId] = true;
-              return;
-            }
-
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag("js", new Date());
-            gtag("config", measurementId, {
-              allow_google_signals: false,
-              allow_ad_personalization_signals: false
-            });
-          })();
-        `}
-      </Script>
-      <Script
-        id="google-analytics-loader"
-        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-        strategy="afterInteractive"
-      />
-    </>
+    <Script
+      id="google-analytics-loader"
+      src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+      strategy="afterInteractive"
+    />
   );
 }

@@ -1,64 +1,114 @@
-import Link from "next/link";
-import { getAnalyticsData } from "@/lib/admin/data";
+import { getAnalyticsData } from "@/lib/admin/analytics";
 import { Metric, PageIntro, Panel } from "@/components/admin/AdminUI";
 
-function value(row: any, keys: string[]) {
-  for (const key of keys) if (row?.[key] !== undefined && row?.[key] !== null) return row[key];
-  return "—";
+function Ranking({ rows }: { rows: { id: string; name: string; count: number }[] }) {
+  return rows.length ? (
+    <div className="dk-analytics-list">
+      {rows.slice(0, 10).map((row) => (
+        <div className="dk-analytics-row" key={row.id}>
+          <b>{row.name}</b>
+          <span>{row.count.toLocaleString("el-GR")}</span>
+        </div>
+      ))}
+    </div>
+  ) : (
+    <div className="dk-empty-state">No recorded clicks in this period.</div>
+  );
 }
 
 export default async function AnalyticsPage() {
-  const d = await getAnalyticsData();
+  const { outbound, search } = await getAnalyticsData();
 
-  return <>
-    <PageIntro
-      title="Analytics"
-      text="Real catalog signals: outbound activity and user search demand. This screen intentionally shows only data that exists in production."
-    />
+  return (
+    <>
+      <PageIntro
+        title="Analytics"
+        text="Last 30 days. Recorded outbound requests are not unique visitors; historical records may include automated traffic."
+      />
 
-    <div className="dk-metricgrid small">
-      <Metric label="Outbound clicks" value={d.clicks} tone="purple" />
-      <Metric label="Recent clicks" value={d.recentClicks.length} />
-      <Metric label="Search events" value={d.searchEvents.length} />
-    </div>
+      <div className="dk-metricgrid small">
+        <Metric
+          label="Recorded outbound clicks"
+          value={outbound?.clicks ?? "Unavailable"}
+          tone="purple"
+        />
+        <Metric
+          label="Search events"
+          value={search?.count ?? "Unavailable"}
+        />
+      </div>
 
-    <div className="dk-grid2">
-      <Panel title="Recent outbound clicks" subtitle="Latest users continuing to official merchant destinations">
-        {d.recentClicks.length ? (
-          <div className="dk-analytics-list">
-            {d.recentClicks.slice(0, 30).map((row: any, i: number) => (
-              <div className="dk-analytics-row" key={row.id || i}>
-                <div>
-                  <b>{String(value(row, ["merchantName", "giftCardTitle", "destinationUrl", "url"]))}</b>
-                  <small>{String(value(row, ["destinationUrl", "url", "sourcePath", "path"]))}</small>
-                </div>
-                <span>{row.createdAt ? new Date(row.createdAt).toLocaleString("el-GR") : "—"}</span>
+      {!outbound ? (
+        <p role="alert">
+          Outbound analytics could not be loaded. This is not a zero-traffic result.
+        </p>
+      ) : null}
+
+      {!search ? (
+        <p role="alert">Search analytics could not be loaded.</p>
+      ) : null}
+
+      {outbound ? (
+        <div className="dk-grid2">
+          <Panel title="Top merchants" subtitle="Recorded outbound clicks">
+            <Ranking rows={outbound.merchants} />
+          </Panel>
+
+          <Panel title="Top gift cards" subtitle="Recorded outbound clicks">
+            <Ranking rows={outbound.cards} />
+          </Panel>
+
+          <Panel
+            title="Top categories"
+            subtitle="Attributed to each card's current primary category; one category per click"
+          >
+            <Ranking rows={outbound.categories} />
+          </Panel>
+
+          <Panel title="Recent outbound clicks" subtitle="Most recent 30 records">
+            {outbound.recentClicks.length ? (
+              <div className="dk-analytics-list">
+                {outbound.recentClicks.slice(0, 30).map((row) => (
+                  <div className="dk-analytics-row" key={row.id}>
+                    <div>
+                      <b>{row.merchant?.name || row.giftCard?.title || "Unavailable merchant"}</b>
+                      <small>{row.giftCard?.title || row.destinationUrl}</small>
+                      <small>{row.source || "Unknown source"}</small>
+                    </div>
+                    <span>{row.clickedAt.toLocaleString("el-GR")}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        ) : <div className="dk-empty-state">No outbound click rows yet. Tracking can remain empty until the public site starts receiving traffic.</div>}
-      </Panel>
+            ) : (
+              <div className="dk-empty-state">No recorded clicks in this period.</div>
+            )}
+          </Panel>
+        </div>
+      ) : null}
 
-      <Panel title="Search demand" subtitle="What visitors ask Dorokartes to find">
-        {d.searchEvents.length ? (
-          <div className="dk-analytics-list">
-            {d.searchEvents.slice(0, 30).map((row: any, i: number) => (
-              <div className="dk-analytics-row" key={row.id || i}>
-                <div>
-                  <b>{String(value(row, ["query", "term", "search", "text"]))}</b>
-                  <small>{String(value(row, ["resultCount", "results", "path", "source"]))}</small>
+      {search ? (
+        <Panel title="Search demand" subtitle="Most recent 30 searches">
+          {search.events.length ? (
+            <div className="dk-analytics-list">
+              {search.events.slice(0, 30).map((row) => (
+                <div className="dk-analytics-row" key={row.id}>
+                  <div>
+                    <b>{row.query}</b>
+                    <small>{row.resultsCount} results</small>
+                  </div>
+                  <span>{row.searchedAt.toLocaleString("el-GR")}</span>
                 </div>
-                <span>{row.createdAt ? new Date(row.createdAt).toLocaleString("el-GR") : "—"}</span>
-              </div>
-            ))}
-          </div>
-        ) : <div className="dk-empty-state">No search events yet. This becomes useful as soon as public search is live.</div>}
-      </Panel>
-    </div>
+              ))}
+            </div>
+          ) : (
+            <div className="dk-empty-state">No search events recorded in this period.</div>
+          )}
+        </Panel>
+      ) : null}
 
-    <div className="dk-admin-note">
-      <div><b>Use this page after launch</b><span>Zero-result searches become the best signal for which merchants, categories and local areas to add next.</span></div>
-      <Link href="/admin/gift-cards">Open catalog →</Link>
-    </div>
-  </>;
+      <p className="dk-admin-note">
+        Views and CTR are not available in this database report. GA catalog views and outbound events are measured separately; do not divide database clicks by GA views.
+      </p>
+    </>
+  );
 }

@@ -1,13 +1,14 @@
 import { prisma } from "@/lib/prisma";
 import type { Prisma } from "@/src/generated/prisma/client";
 import { isSearchScoreRelevant, scoreSearchFields } from "@/lib/public/search";
+import { rankRelatedCards, type RelatedCard } from "./catalog-search";
 
 export const publicCardSelect = {
   id:true,title:true,slug:true,shortDescription:true,officialUrl:true,featured:true,verificationStatus:true,validityText:true,validityMonths:true,
   merchant:{select:{id:true,name:true,
       logoUrl: true,slug:true,websiteUrl:true,featured:true}},
-  categories:{take:3,orderBy:{primary:"desc" as const},select:{primary:true,category:{select:{id:true,name:true,slug:true,icon:true}}}},
-  occasions:{take:3,orderBy:{relevance:"desc" as const},select:{relevance:true,occasion:{select:{id:true,name:true,slug:true,icon:true}}}},
+  categories:{where:{category:{active:true}},take:3,orderBy:{primary:"desc" as const},select:{primary:true,category:{select:{id:true,name:true,slug:true,icon:true}}}},
+  occasions:{where:{occasion:{active:true}},take:3,orderBy:{relevance:"desc" as const},select:{relevance:true,occasion:{select:{id:true,name:true,slug:true,icon:true}}}},
   variants:{where:{active:true},take:6,select:{id:true,type:true,minValue:true,maxValue:true,customValueAllowed:true,purchaseUrl:true,values:{take:8,orderBy:{value:"asc" as const},select:{value:true}},redemptions:{select:{channel:true}},deliveries:{select:{method:true}}}},
 } as const;
 
@@ -27,6 +28,7 @@ export type PublicCardPage = {
   currentPage: number;
   totalPages: number;
   pageSize: number;
+  approximate?: boolean;
 };
 
 export function readPublicSearchParam(value: string | string[] | undefined) {
@@ -108,13 +110,27 @@ export function buildPublicCatalogWhere({
 
 export async function getHomeData(){
   const [cards,categories,occasions,merchants,totalCards]=await Promise.all([
-    prisma.giftCard.findMany({where:{status:"ACTIVE"},orderBy:[{featured:"desc"},{updatedAt:"desc"}],take:18,select:publicCardSelect}),
+    getHomeCards(),
     prisma.category.findMany({where:{active:true},orderBy:[{sortOrder:"asc"},{name:"asc"}],select:{id:true,name:true,slug:true,icon:true,_count:{select:{giftCards:{where:{giftCard:{status:"ACTIVE"}}}}}}}),
     prisma.occasion.findMany({where:{active:true,giftCards:{some:{giftCard:{status:"ACTIVE"}}}},orderBy:[{sortOrder:"asc"},{name:"asc"}],select:{id:true,name:true,slug:true,icon:true,_count:{select:{giftCards:{where:{giftCard:{status:"ACTIVE"}}}}}}}),
     prisma.merchant.findMany({where:{status:"ACTIVE",giftCards:{some:{status:"ACTIVE"}}},orderBy:[{featured:"desc"},{name:"asc"}],take:14,select:{id:true,name:true,slug:true,logoUrl:true,_count:{select:{giftCards:{where:{status:"ACTIVE"}}}}}}),
     prisma.giftCard.count({where:{status:"ACTIVE"}}),
   ]);
   return {cards,categories,occasions,merchants,totalCards};
+}
+
+async function getHomeCards() {
+  const orderBy: Prisma.GiftCardOrderByWithRelationInput[] = [{ featured: "desc" }, { updatedAt: "desc" }, { id: "asc" }];
+  const cards = await prisma.giftCard.findMany({
+    where: { status: "ACTIVE", verificationStatus: "VERIFIED" },
+    orderBy, take: 18, select: publicCardSelect,
+  });
+  if (cards.length === 18) return cards;
+  const rest = await prisma.giftCard.findMany({
+    where: { status: "ACTIVE", verificationStatus: { not: "VERIFIED" } },
+    orderBy, take: 18 - cards.length, select: publicCardSelect,
+  });
+  return [...cards, ...rest];
 }
 
 export async function browseCards(
@@ -124,7 +140,13 @@ export async function browseCards(
   const term = filters.q?.trim();
   if (!term) return getPublicCardPage(buildPublicCatalogWhere(filters), requestedPage);
 
-  const baseWhere = buildPublicCatalogWhere({ category: filters.category, occasion: filters.occasion });
+  const baseWhere = buildPublicCatalogWhere({
+    category: filters.category,
+    occasion: filters.occasion,
+  });
+
+  // Keep the predictive Smart Search ranking as the single browse ranking path.
+  // Fetch only compact searchable fields for the candidate set.
   const candidates = await prisma.giftCard.findMany({
     where: baseWhere,
     take: 2000,
@@ -135,8 +157,14 @@ export async function browseCards(
       featured: true,
       verificationStatus: true,
       merchant: { select: { name: true } },
-      categories: { select: { category: { select: { name: true, slug: true } } } },
-      occasions: { select: { occasion: { select: { name: true, slug: true } } } },
+      categories: {
+        where: { category: { active: true } },
+        select: { category: { select: { name: true, slug: true } } },
+      },
+      occasions: {
+        where: { occasion: { active: true } },
+        select: { occasion: { select: { name: true, slug: true } } },
+      },
     },
   });
 
@@ -145,12 +173,20 @@ export async function browseCards(
       let score = scoreSearchFields(term, [
         { value: card.merchant.name, weight: 1200 },
         { value: card.title, weight: 1060 },
-        ...card.categories.map((item) => ({ value: `${item.category.name} ${item.category.slug}`, weight: 820 })),
-        ...card.occasions.map((item) => ({ value: `${item.occasion.name} ${item.occasion.slug}`, weight: 840 })),
+        ...card.categories.map((item) => ({
+          value: `${item.category.name} ${item.category.slug}`,
+          weight: 820,
+        })),
+        ...card.occasions.map((item) => ({
+          value: `${item.occasion.name} ${item.occasion.slug}`,
+          weight: 840,
+        })),
         { value: card.shortDescription, weight: 260 },
       ]);
+
       if (card.featured) score += 18;
       if (card.verificationStatus === "VERIFIED") score += 12;
+
       return { id: card.id, score };
     })
     .filter((item) => isSearchScoreRelevant(item.score))
@@ -163,18 +199,96 @@ export async function browseCards(
     totalPages,
   );
   const start = (currentPage - 1) * PUBLIC_CATALOG_PAGE_SIZE;
-  const pageIds = ranked.slice(start, start + PUBLIC_CATALOG_PAGE_SIZE).map((item) => item.id);
+  const pageIds = ranked
+    .slice(start, start + PUBLIC_CATALOG_PAGE_SIZE)
+    .map((item) => item.id);
 
-  if (!pageIds.length) {
-    return { cards: [], totalCount, currentPage, totalPages, pageSize: PUBLIC_CATALOG_PAGE_SIZE };
-  }
+  const cards = await getCardsInOrder(pageIds, baseWhere);
+
+  return {
+    cards,
+    totalCount,
+    currentPage,
+    totalPages,
+    pageSize: PUBLIC_CATALOG_PAGE_SIZE,
+    approximate: false,
+  };
+}
+
+async function getCardsInOrder(
+  ids: string[],
+  where: Prisma.GiftCardWhereInput,
+) {
+  if (!ids.length) return [];
 
   const cards = await prisma.giftCard.findMany({
-    where: { id: { in: pageIds } },
+    where: {
+      AND: [
+        where,
+        { id: { in: ids } },
+      ],
+    },
     select: publicCardSelect,
   });
-  const order = new Map(pageIds.map((id, index) => [id, index]));
-  cards.sort((a, b) => (order.get(a.id) ?? 9999) - (order.get(b.id) ?? 9999));
 
-  return { cards, totalCount, currentPage, totalPages, pageSize: PUBLIC_CATALOG_PAGE_SIZE };
+  const byId = new Map(cards.map((card) => [card.id, card]));
+  return ids.flatMap((id) => {
+    const card = byId.get(id);
+    return card ? [card] : [];
+  });
+}
+
+export async function getRelatedCards(card: RelatedCard) {
+  const where: Prisma.GiftCardWhereInput = {
+    status: "ACTIVE",
+    merchant: { status: "ACTIVE" },
+    id: { not: card.id },
+    OR: [
+      { merchantId: card.merchantId },
+      {
+        categories: {
+          some: {
+            category: {
+              active: true,
+              slug: { in: card.categories.map((item) => item.category.slug) },
+            },
+          },
+        },
+      },
+      {
+        occasions: {
+          some: {
+            occasion: {
+              active: true,
+              slug: { in: card.occasions.map((item) => item.occasion.slug) },
+            },
+          },
+        },
+      },
+    ],
+  };
+
+  const candidates = await prisma.giftCard.findMany({
+    where,
+    select: {
+      id: true,
+      merchantId: true,
+      verificationStatus: true,
+      categories: {
+        where: { category: { active: true } },
+        select: {
+          primary: true,
+          category: { select: { slug: true } },
+        },
+      },
+      occasions: {
+        where: { occasion: { active: true } },
+        select: {
+          occasion: { select: { slug: true } },
+        },
+      },
+    },
+  });
+
+  return getCardsInOrder(rankRelatedCards(card, candidates), where);
 }

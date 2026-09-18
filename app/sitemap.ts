@@ -1,7 +1,10 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 import { CATEGORY_LANDING_SLUGS } from "@/lib/public/category-landing-content";
-import { TEMPORARILY_NOINDEXED_OCCASION_SLUGS } from "@/lib/public/occasion-landing-content";
+import {
+  OCCASION_LANDING_SLUGS,
+  isOccasionLandingReadyForIndexing,
+} from "@/lib/public/occasion-landing-content";
 
 export const dynamic = "force-dynamic";
 
@@ -40,7 +43,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         active: true,
         slug: { in: [...CATEGORY_LANDING_SLUGS] },
         giftCards: {
-          some: { giftCard: { status: "ACTIVE", verificationStatus: "VERIFIED" } },
+          some: { giftCard: { status: "ACTIVE" } },
         },
       },
       orderBy: { slug: "asc" },
@@ -49,9 +52,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     prisma.occasion.findMany({
       where: {
         active: true,
-        slug: { notIn: [...TEMPORARILY_NOINDEXED_OCCASION_SLUGS] },
+        slug: { in: OCCASION_LANDING_SLUGS.filter(isOccasionLandingReadyForIndexing) },
         giftCards: {
-          some: { giftCard: { status: "ACTIVE", verificationStatus: "VERIFIED" } },
+          some: { giftCard: { status: "ACTIVE" } },
         },
       },
       orderBy: { slug: "asc" },

@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-15T14:48:27.121Z",
+  "checks": [
+    {
+      "path": "/browse?q=sephroa",
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/browse?q=birthday",
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/browse?q=qwzxvbnm&category=beauty",
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/gift-cards/agigma-το-τελειο-last-minute-δωρο-στο-ρεθυμνο-agigma-gift-card",
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/browse?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "width": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "path": "/",
+      "width": {
+        "scroll": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "homepageVerified": 9
+    }
+  ],
+  "pagination": {
+    "first": 24,
+    "second": 9,
+    "duplicates": 0
+  },
+  "relatedBrands": 6
+}

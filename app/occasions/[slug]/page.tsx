@@ -70,10 +70,12 @@ export async function generateMetadata({
 
   const landingContent = getOccasionLandingContent(occasion.slug);
   const fallbackTitle = `${occasion.name} – Ιδέες για δωροκάρτες`;
-  const title = occasion.seoTitle
+  const curatedContent = isOccasionLandingReadyForIndexing(occasion.slug) ? landingContent : null;
+  const title = curatedContent?.seoTitle || (occasion.seoTitle
     ? { absolute: occasion.seoTitle }
-    : landingContent?.seoTitle || fallbackTitle;
+    : landingContent?.seoTitle || fallbackTitle);
   const description =
+    curatedContent?.metaDescription ||
     occasion.metaDescription ||
     landingContent?.metaDescription ||
     occasion.description ||
@@ -94,7 +96,7 @@ export async function generateMetadata({
         isOccasionLandingReadyForIndexing(occasion.slug),
       follow: true,
     },
-    openGraph: { title: occasion.seoTitle || landingContent?.seoTitle || fallbackTitle, description, url: canonical },
+    openGraph: { title: curatedContent?.seoTitle || occasion.seoTitle || landingContent?.seoTitle || fallbackTitle, description, url: canonical },
   };
 }
 
