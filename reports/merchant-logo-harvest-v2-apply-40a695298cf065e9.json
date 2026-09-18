@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T11:26:12.426Z",
+  "planId": "40a695298cf065e9faf901e1fafcda7b7dcd103e2c6a4d89a347db9c88fd007d",
+  "appliedCount": 10,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb6uhnb000k3giyxddgyqfa:036a06914fe2",
+      "merchantId": "cmtb6uhnb000k3giyxddgyqfa",
+      "localUrl": "/merchant-logos/best-western-gift-card-036a06914fe2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kkh000llq8iyqh4xpyae:48a0874d1a96",
+      "merchantId": "cmta1kkh000llq8iyqh4xpyae",
+      "localUrl": "/merchant-logos/converse-48a0874d1a96.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hzo100azq8iy5b6q7jky:332b313fa3d3",
+      "merchantId": "cmta1hzo100azq8iy5b6q7jky",
+      "localUrl": "/merchant-logos/e-jumbo-332b313fa3d3.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1icso00c7q8iyl4xfcphi:62cf8325f747",
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "localUrl": "/merchant-logos/harmanis-62cf8325f747.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8faz8700056kiyd92fmy9h:aa1c7730cb61",
+      "merchantId": "cmt8faz8700056kiyd92fmy9h",
+      "localUrl": "/merchant-logos/homemarkt-aa1c7730cb61.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lfel00p3q8iywla7k0oj:16f71457bba7",
+      "merchantId": "cmta1lfel00p3q8iywla7k0oj",
+      "localUrl": "/merchant-logos/nakas-16f71457bba7.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uxpz002x3giyag7687wz:f3bb8967b247",
+      "merchantId": "cmtb6uxpz002x3giyag7687wz",
+      "localUrl": "/merchant-logos/nakasconcept-f3bb8967b247.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gwxy007dq8iy283ovzsf:fc0a710865e6",
+      "merchantId": "cmta1gwxy007dq8iy283ovzsf",
+      "localUrl": "/merchant-logos/sfsonline-fc0a710865e6.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jo5l00hvq8iyyy7qivp0:1f717400dd23",
+      "merchantId": "cmta1jo5l00hvq8iyyy7qivp0",
+      "localUrl": "/merchant-logos/tempus-1f717400dd23.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m2se00rlq8iybu8clfeq:6464599af520",
+      "merchantId": "cmta1m2se00rlq8iybu8clfeq",
+      "localUrl": "/merchant-logos/theknittingclub-6464599af520.webp"
+    }
+  ]
+}

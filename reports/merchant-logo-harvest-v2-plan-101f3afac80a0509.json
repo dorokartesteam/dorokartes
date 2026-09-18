@@ -1,0 +1,4103 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "icon-review",
+  "targetFingerprint": "bfc25db9af4053ddf10447616cbbd47c17490fbd09b302a7c91b764177f31893",
+  "targetCount": 178,
+  "concurrency": 12,
+  "summary": {
+    "safe": 33,
+    "review": 64,
+    "none": 11,
+    "error": 70
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1k3u200jpq8iytfzrz0ed:aeafa12a5742",
+      "merchantId": "cmta1k3u200jpq8iytfzrz0ed",
+      "merchantName": "Alkistijewelry",
+      "merchantSlug": "alkistijewelry",
+      "websiteUrl": "https://alkistijewelry.gr/",
+      "sourceUrl": "https://alkistijewelry.gr/cdn/shop/files/alkistijewelry-favicon-64x64_32x32.png?v=1613720989",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 84,
+      "sha256": "aeafa12a5742fa0f835ec52f8d5b605ea4089fd9498d034c5780910283913a39",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1340,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/alkistijewelry-aeafa12a5742.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hagf008fq8iynbdf22mn:3415bec7da51",
+      "merchantId": "cmta1hagf008fq8iynbdf22mn",
+      "merchantName": "Ame30",
+      "merchantSlug": "ame30",
+      "websiteUrl": "https://ame30.gr/",
+      "sourceUrl": "https://ame30.gr/wp-content/uploads/2020/09/americanino_logo_final-new-w250.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 154,
+      "sha256": "3415bec7da512f1368e9dba435361c6d60ae785b17f8543dc582a71a856e6974",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 4975,
+      "width": 250,
+      "height": 51,
+      "localUrl": "/merchant-logos/ame30-3415bec7da51.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hayg008hq8iyxn9dz5cg:4dd4d046f0a8",
+      "merchantId": "cmta1hayg008hq8iyxn9dz5cg",
+      "merchantName": "Ammashop",
+      "merchantSlug": "ammashop",
+      "websiteUrl": "https://www.ammashop.gr/",
+      "sourceUrl": "https://www.ammashop.gr/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "4dd4d046f0a818b2bbf76a1227bbdd7e73bba78b96b2d63436606e9a7ba5c195",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 5430,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/ammashop-4dd4d046f0a8.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1eyqw000gq8iym60ef15s:f5e538f50b4b",
+      "merchantId": "cmta1eyqw000gq8iym60ef15s",
+      "merchantName": "Anastasia Beverly Hills",
+      "merchantSlug": "anastasia-beverly-hills",
+      "websiteUrl": "https://www.anastasiabeverlyhills.com/",
+      "sourceUrl": "https://www.anastasiabeverlyhills.com/cdn/shop/files/ABH_A-Logo_Black_96x96_176eb2ac-ca68-484a-aabc-1cbabf6708f7.png?crop=center&height=32&v=1690482728&width=32",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 139,
+      "sha256": "f5e538f50b4b5c56e24cac31ac11c4969a524cab30520026e605111949d90a58",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1344,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/anastasia-beverly-hills-f5e538f50b4b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mgl500t3q8iyhiinlk2s:5688b3a063eb",
+      "merchantId": "cmta1mgl500t3q8iyhiinlk2s",
+      "merchantName": "Anubis",
+      "merchantSlug": "anubis",
+      "websiteUrl": "https://anubis.gr/",
+      "sourceUrl": "https://anubis.gr/wp-content/uploads/2018/01/fav_logo-e1516906979560.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 154,
+      "sha256": "5688b3a063ebcd446ef0fd591b64f99fdffd20a4f7281264e49d87381ddbe195",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 358,
+      "width": 20,
+      "height": 20,
+      "localUrl": "/merchant-logos/anubis-5688b3a063eb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ugje000e3giyaubvped2:6c4a0c0ab61e",
+      "merchantId": "cmtb6ugje000e3giyaubvped2",
+      "merchantName": "Art Center",
+      "merchantSlug": "art-center",
+      "websiteUrl": "https://www.art-center.com.gr/",
+      "sourceUrl": "https://www.art-center.com.gr/images/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "6c4a0c0ab61ecbf7c50fa1d7c61c60f10ee43cb48d2fe8b3ce4b0fe15faddf47",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 1150,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/art-center-6c4a0c0ab61e.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hgfm008vq8iy2pi8rd5p:9c9051234750",
+      "merchantId": "cmta1hgfm008vq8iy2pi8rd5p",
+      "merchantName": "Avvento Shoes",
+      "merchantSlug": "avvento-shoes",
+      "websiteUrl": "https://www.avvento-shoes.gr/",
+      "sourceUrl": "https://www.avvento-shoes.gr/themes/custom/rkpt/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 68,
+      "sha256": "9c9051234750bfd90754b17339c335d0e130b6eac1aa17a283a80374bfdf6df1",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 3527,
+      "width": 52,
+      "height": 56,
+      "localUrl": "/merchant-logos/avvento-shoes-9c9051234750.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nm5n000a54iytmsbakho:dec9edbe6b93",
+      "merchantId": "cmta5nm5n000a54iytmsbakho",
+      "merchantName": "Baby Gear",
+      "merchantSlug": "baby-gear",
+      "websiteUrl": "https://www.babygear.gr/",
+      "sourceUrl": "https://www.babygear.gr/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "dec9edbe6b9333a028cd5157a23e651e58c0590677a89ede6c2f70309ac44fc2",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 894,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/baby-gear-dec9edbe6b93.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kjfa00lhq8iyck2pdz3m:28557f011797",
+      "merchantId": "cmta1kjfa00lhq8iyck2pdz3m",
+      "merchantName": "Caraveltravel",
+      "merchantSlug": "caraveltravel",
+      "websiteUrl": "https://caraveltravel.gr/",
+      "sourceUrl": "https://caraveltravel.gr/css/clientes/carcollective/images/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "28557f011797e00fa43fce566b7d19672fee258de4f4636b3f8dad455a9c86cc",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 2150,
+      "width": 38,
+      "height": 38,
+      "localUrl": "/merchant-logos/caraveltravel-28557f011797.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gcpz005bq8iynm77ayng:baaeacb4dee2",
+      "merchantId": "cmta1gcpz005bq8iynm77ayng",
+      "merchantName": "Feelmadness",
+      "merchantSlug": "feelmadness",
+      "websiteUrl": "https://www.feelmadness.gr/",
+      "sourceUrl": "https://www.feelmadness.gr/pub/media/favicon/stores/3/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "baaeacb4dee2f9762a7ab6fcd5e25156a124566c28de440f03df9216a4dff04f",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 4040,
+      "width": 48,
+      "height": 48,
+      "localUrl": "/merchant-logos/feelmadness-baaeacb4dee2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8faygb00006kiynlty806o:be441ac5df32",
+      "merchantId": "cmt8faygb00006kiynlty806o",
+      "merchantName": "Germanos",
+      "merchantSlug": "germanos",
+      "websiteUrl": "https://www.germanos.gr/",
+      "sourceUrl": "https://www.germanos.gr/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "be441ac5df32c7b5f605cca238334688081ccf026553cab90b69c74383d1a246",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 551,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/germanos-be441ac5df32.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gbip0055q8iyzwigl93e:240681ed7986",
+      "merchantId": "cmta1gbip0055q8iyzwigl93e",
+      "merchantName": "Hallofbrands",
+      "merchantSlug": "hallofbrands",
+      "websiteUrl": "https://www.hallofbrands.gr/",
+      "sourceUrl": "https://www.hallofbrands.gr/image/data/Logoetc/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 155,
+      "sha256": "240681ed7986cca6d65818cd39dc450787b641af4ef1e3e79df7e0bc234ee121",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 500,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/hallofbrands-240681ed7986.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1go4c006hq8iyctmnyk3t:eb6d092e311e",
+      "merchantId": "cmta1go4c006hq8iyctmnyk3t",
+      "merchantName": "Heelshop",
+      "merchantSlug": "heelshop",
+      "websiteUrl": "https://www.heelshop.gr/",
+      "sourceUrl": "https://www.heelshop.gr/assets/website/img/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "eb6d092e311e02ecefc873dda340a8244feea4f76e2e510ef3369b0110da9125",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 1150,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/heelshop-eb6d092e311e.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6urdq001z3giyx4g2l4dm:71cd86551050",
+      "merchantId": "cmtb6urdq001z3giyx4g2l4dm",
+      "merchantName": "HelloKids",
+      "merchantSlug": "ηλεκτρονικη-δωροκαρτα",
+      "websiteUrl": "https://www.hellokids.gr/",
+      "sourceUrl": "https://www.hellokids.gr/cdn/shop/files/house_logo_32x32.png?v=1673871286",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 139,
+      "sha256": "71cd86551050e5beaad639ab1380cf45872541cd47d94a2d8d0b1b59878e876f",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1604,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/merchant-71cd86551050.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77whg0052dkiy9snlz0m5:0894f9d8fa9e",
+      "merchantId": "cmtb77whg0052dkiy9snlz0m5",
+      "merchantName": "Houhouliarika",
+      "merchantSlug": "houhouliarika",
+      "websiteUrl": "https://houhouliarika.gr/",
+      "sourceUrl": "https://houhouliarika.gr/image/catalog/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "0894f9d8fa9efad868358d78ec75ebacdf05b4e51cbebcf60f8c422dddb6e84a",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 2943,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/houhouliarika-0894f9d8fa9e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ii8i00ctq8iysskxlulx:53b1e8461db2",
+      "merchantId": "cmta1ii8i00ctq8iysskxlulx",
+      "merchantName": "Inspiral",
+      "merchantSlug": "inspiral",
+      "websiteUrl": "https://www.inspiral.gr/",
+      "sourceUrl": "https://www.inspiral.gr/img/layout/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "53b1e8461db25059b46a03b422065f0f6428aaac1cd49f0057215f06b84b4be7",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 1150,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/inspiral-53b1e8461db2.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lj2s00phq8iymc9sy8cd:872602d2fa1b",
+      "merchantId": "cmta1lj2s00phq8iymc9sy8cd",
+      "merchantName": "Kantarzoglou",
+      "merchantSlug": "kantarzoglou",
+      "websiteUrl": "https://www.kantarzoglou.gr/",
+      "sourceUrl": "https://www.kantarzoglou.gr/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 68,
+      "sha256": "872602d2fa1b769076040f86bcdc64d81522c30edd4002a475be7bbfc47cc07f",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 7358,
+      "width": 48,
+      "height": 48,
+      "localUrl": "/merchant-logos/kantarzoglou-872602d2fa1b.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gqn9006rq8iyvkljeqr1:651b6a590ed6",
+      "merchantId": "cmta1gqn9006rq8iyvkljeqr1",
+      "merchantName": "Kosmima24",
+      "merchantSlug": "kosmima24",
+      "websiteUrl": "https://www.kosmima24.gr/",
+      "sourceUrl": "https://www.kosmima24.gr/images/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "651b6a590ed621d3ab84a3aa541779e3d14f206978622dffc6ecf00d99ba9174",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 693,
+      "width": 36,
+      "height": 36,
+      "localUrl": "/merchant-logos/kosmima24-651b6a590ed6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ypfz0024sciyjcie77zg:8d9b7be4a210",
+      "merchantId": "cmta4ypfz0024sciyjcie77zg",
+      "merchantName": "Kounelis",
+      "merchantSlug": "kounelis",
+      "websiteUrl": "https://kounelis.com.gr/",
+      "sourceUrl": "https://kounelis.com.gr/media/favicon/default/fav-kounelis.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "8d9b7be4a2104c1fed728cf2a3f8c7df5fa1eba8a840a767d660176de249f9ba",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 1776,
+      "width": 36,
+      "height": 36,
+      "localUrl": "/merchant-logos/kounelis-8d9b7be4a210.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ifor000t84iywm22uls1:2af54a52722f",
+      "merchantId": "cmt79ifor000t84iywm22uls1",
+      "merchantName": "Kulina",
+      "merchantSlug": "kulina",
+      "websiteUrl": "https://www.kulina.gr/",
+      "sourceUrl": "https://www.kulina.gr/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "2af54a52722f48b587c4fd2a572607f99a0d0e86833fe7f4d369c309a2df74f3",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 15086,
+      "width": 48,
+      "height": 48,
+      "localUrl": "/merchant-logos/kulina-2af54a52722f.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lx1n00qzq8iyn1ngi4z8:aaff15513453",
+      "merchantId": "cmta1lx1n00qzq8iyn1ngi4z8",
+      "merchantName": "Lurehouse",
+      "merchantSlug": "lurehouse",
+      "websiteUrl": "https://www.lurehouse.gr/",
+      "sourceUrl": "https://www.lurehouse.gr/assets/website23/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "aaff15513453c1ea245f87f27fb6337eaf63204e53f83bcf45a2af7038d4d3d8",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 1150,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/lurehouse-aaff15513453.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nrxg001654iyoybl2dln:bfd86e3f5f51",
+      "merchantId": "cmta5nrxg001654iyoybl2dln",
+      "merchantName": "Madeofglass",
+      "merchantSlug": "madeofglass",
+      "websiteUrl": "https://madeofglass.gr/",
+      "sourceUrl": "https://madeofglass.gr/cdn/shop/files/favicon_ed8bdd32-57fa-4328-ad8b-2574936dfaf9.png?crop=center&height=32&v=1764575952&width=32",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "bfd86e3f5f5164b7c575257f60d753e3e2a5a7b0629376b0fe2d34caf4a24053",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 840,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/madeofglass-bfd86e3f5f51.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uzyo00393giyijqh9v1h:247e78a2096f",
+      "merchantId": "cmtb6uzyo00393giyijqh9v1h",
+      "merchantName": "Outdoorway",
+      "merchantSlug": "outdoorway-10-ευρω",
+      "websiteUrl": "https://www.outdoorway.gr/product/15647/doroepitagi-Outdoorway-10-eyro",
+      "sourceUrl": "https://www.outdoorway.gr/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "247e78a2096fa61bcd87667d34cd0d61ace1c7d87b793b774a0848198d6493c9",
+      "contentType": "image/vnd.microsoft.icon",
+      "extension": ".ico",
+      "bytes": 8158,
+      "width": 44,
+      "height": 44,
+      "localUrl": "/merchant-logos/outdoorway-10-247e78a2096f.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8pt4mw0006tgiyqx51cb45:d48e31436013",
+      "merchantId": "cmt8pt4mw0006tgiyqx51cb45",
+      "merchantName": "Pat McGrath Labs",
+      "merchantSlug": "pat-mcgrath-labs",
+      "websiteUrl": "https://www.patmcgrath.com/",
+      "sourceUrl": "https://www.patmcgrath.com/cdn/shop/files/PMG_Favicon_32x32_Crown.png?crop=center&height=32&v=1695764494&width=32",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "d48e31436013ce296001736d62062cb70c44a48b841d2515c1cf5974649d90be",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 2171,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/pat-mcgrath-labs-d48e31436013.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g4fk004oq8iywtnxd831:b5e5b0fddea0",
+      "merchantId": "cmta1g4fk004oq8iywtnxd831",
+      "merchantName": "PCP Clothing",
+      "merchantSlug": "pcp-clothing",
+      "websiteUrl": "https://www.pcpclothing.com/",
+      "sourceUrl": "https://www.pcpclothing.com/image/catalog/digital/logos_icons/2022/012/favicon.jpg",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 123,
+      "sha256": "b5e5b0fddea08ec85c1b0efb35a817a9d6948a4971b26225f6fa75c16b09dbef",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 2226,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/pcp-clothing-b5e5b0fddea0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jarh00gdq8iyxtg67ir3:98bd348168bb",
+      "merchantId": "cmta1jarh00gdq8iyxtg67ir3",
+      "merchantName": "Pleasurefashion",
+      "merchantSlug": "pleasurefashion",
+      "websiteUrl": "https://www.pleasurefashion.gr/",
+      "sourceUrl": "https://www.pleasurefashion.gr/images/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "98bd348168bb57f82860e35141726592bbaef95facbb59ad65150a8005ac34b3",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 106389,
+      "width": 256,
+      "height": 256,
+      "localUrl": "/merchant-logos/pleasurefashion-98bd348168bb.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g3ys004mq8iy3qs4ol62:b503c15ce3c1",
+      "merchantId": "cmta1g3ys004mq8iy3qs4ol62",
+      "merchantName": "Projectshops",
+      "merchantSlug": "projectshops",
+      "websiteUrl": "https://projectshops.gr/gift-card-virtual",
+      "sourceUrl": "https://projectshops.gr/media/favicon/default/projectshops-favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "b503c15ce3c13f4174aa5c5b95856eb3ba36d755cacb0823f68e0f9770dc4462",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 626,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/projectshops-b503c15ce3c1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jepm00gtq8iy5j5m9fet:764ee20bfbbe",
+      "merchantId": "cmta1jepm00gtq8iy5j5m9fet",
+      "merchantName": "Simple City",
+      "merchantSlug": "simple-city",
+      "websiteUrl": "https://simple-city.gr/",
+      "sourceUrl": "https://simple-city.gr/skin/frontend/base/default/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "764ee20bfbbeb687f52eaa2669f77f9d66d1d43d982df149a2289198c852bffe",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 826,
+      "width": 45,
+      "height": 45,
+      "localUrl": "/merchant-logos/simple-city-764ee20bfbbe.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fenw0028q8iy6hk5qrpw:e777305ed072",
+      "merchantId": "cmta1fenw0028q8iy6hk5qrpw",
+      "merchantName": "skakistikokentro.com",
+      "merchantSlug": "skakistikokentro-com",
+      "websiteUrl": "https://skakistikokentro.com/shop/",
+      "sourceUrl": "https://skakistikokentro.com/shop/image/catalog/favicon.png",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 84,
+      "sha256": "e777305ed07242e617caf8ef6dfc79d0e1aaa64051ef9feec6d2e9cf1ee7958b",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 548,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/skakistikokentro-com-e777305ed072.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8l6430001b5giytuoenkc9:9f890a9debcd",
+      "merchantId": "cmt8l6430001b5giytuoenkc9",
+      "merchantName": "Steam",
+      "merchantSlug": "steam",
+      "websiteUrl": "https://store.steampowered.com/",
+      "sourceUrl": "https://store.steampowered.com/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "9f890a9debcdfccc339149a7943be9aff9e4c9203c2fa37d5671a5b2c88503ad",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 38554,
+      "width": 256,
+      "height": 256,
+      "localUrl": "/merchant-logos/steam-9f890a9debcd.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jqky00i5q8iy694cggyt:a67050a688c4",
+      "merchantId": "cmta1jqky00i5q8iy694cggyt",
+      "merchantName": "Tinytoes",
+      "merchantSlug": "tinytoes",
+      "websiteUrl": "https://www.tinytoes.gr/product-category/gift-ideas/gift-cards/",
+      "sourceUrl": "https://www.tinytoes.gr/wp-content/themes/tinytoes/images/favico.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=shortcut icon",
+      "score": 68,
+      "sha256": "a67050a688c43c221650221d7cb767098dc5f94f6417d8cbe1fbcc87560bd63c",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 5430,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/tinytoes-a67050a688c4.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1laev00ojq8iyj7h4kwoj:a3fd65760ff5",
+      "merchantId": "cmta1laev00ojq8iyj7h4kwoj",
+      "merchantName": "Unisport",
+      "merchantSlug": "unisport",
+      "websiteUrl": "https://www.unisport.gr/",
+      "sourceUrl": "https://www.unisport.gr/favicon.ico",
+      "source": "JSONLD_LOGO",
+      "evidence": "JSON-LD logo ImageObject",
+      "score": 228,
+      "sha256": "a3fd65760ff5098dd33d622d216101582d62b3ad2296d9f856e71c3453d2e149",
+      "contentType": "image/vnd.microsoft.icon",
+      "extension": ".ico",
+      "bytes": 4286,
+      "width": 32,
+      "height": 32,
+      "localUrl": "/merchant-logos/unisport-a3fd65760ff5.ico"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h0ki007tq8iy9qwn9glu:7fbb706c53de",
+      "merchantId": "cmta1h0ki007tq8iy9qwn9glu",
+      "merchantName": "Vivliopoleiopataki",
+      "merchantSlug": "vivliopoleiopataki",
+      "websiteUrl": "https://vivliopoleiopataki.gr/",
+      "sourceUrl": "https://vivliopoleiopataki.gr/media/favicon/default/favicon.ico",
+      "source": "SITE_ICON",
+      "evidence": "link rel=icon",
+      "score": 68,
+      "sha256": "7fbb706c53de50bffd0af1335f32d4c39de5c9fef7ead74671a9ea5ca42515b7",
+      "contentType": "image/x-icon",
+      "extension": ".ico",
+      "bytes": 894,
+      "width": 16,
+      "height": 16,
+      "localUrl": "/merchant-logos/vivliopoleiopataki-7fbb706c53de.ico"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb7hyti000i04iyexyvbb7e",
+      "merchantName": "& Spa Voucherss",
+      "merchantSlug": "and-spa-vouchers",
+      "websiteUrl": "https://divaniapollonhotel.com",
+      "finalWebsiteUrl": "https://divaniapollonhotel.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "DUPLICATE_ASSET_HASH_ACROSS_MERCHANTS"
+      ],
+      "bestCandidate": {
+        "url": "https://divaniapollonhotel.com/wp-content/uploads/2025/05/fav_120x120.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 81
+      },
+      "validatedAsset": {
+        "url": "https://divaniapollonhotel.com/wp-content/uploads/2025/05/fav_120x120.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 5471,
+        "width": 120,
+        "height": 120,
+        "sha256": "d8cdf498aba1399b4cb05ad8867e6e5ee1c85974ea45d425591f8a8f2334a75b"
+      }
+    },
+    {
+      "merchantId": "cmta1mezp00sxq8iygc6o45un",
+      "merchantName": "1art",
+      "merchantSlug": "1art",
+      "websiteUrl": "https://1art.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6udw300003giywjrb4w57",
+      "merchantName": "5star Travel",
+      "merchantSlug": "5star-travel",
+      "websiteUrl": "https://5star-travel.gr",
+      "finalWebsiteUrl": "https://www.5star-travel.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1f03n000mq8iyzxhzrwvc",
+      "merchantName": "Adagio",
+      "merchantSlug": "adagio",
+      "websiteUrl": "https://adagio.gr",
+      "finalWebsiteUrl": "https://adagio.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1flpz002sq8iyj9fu06aj",
+      "merchantName": "Adidas",
+      "merchantSlug": "adidas",
+      "websiteUrl": "https://adidas.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6ueoq00043giye4hg3ri6",
+      "merchantName": "Adventure Junkies",
+      "merchantSlug": "90-adventure-junkies",
+      "websiteUrl": "https://adventurejunkies.gr",
+      "finalWebsiteUrl": "https://www.adventurejunkies.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-90e/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://adventurejunkies.storage.googleapis.com/wp-content/uploads/2020/06/18154905/GiftCard90.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -27
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt79icwc000084iyqmpbd9de",
+      "merchantName": "AEGEAN",
+      "merchantSlug": "aegean",
+      "websiteUrl": "https://el.aegeanair.com",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8l5oqd00005giycgy0pz6b",
+      "merchantName": "Airbnb",
+      "merchantSlug": "airbnb",
+      "websiteUrl": "https://www.airbnb.com",
+      "finalWebsiteUrl": "https://www.airbnb.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-120x120-52b1adb4fe3a8f825fc4b143de12ea4b.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=apple-touch-icon",
+        "declaredWidth": 120,
+        "declaredHeight": 120,
+        "score": -26
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1k3u200jpq8iytfzrz0ed",
+      "merchantName": "Alkistijewelry",
+      "merchantSlug": "alkistijewelry",
+      "websiteUrl": "https://alkistijewelry.gr",
+      "finalWebsiteUrl": "https://alkistijewelry.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://alkistijewelry.gr/cdn/shop/files/alkistijewelry-favicon-64x64_32x32.png?v=1613720989",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://alkistijewelry.gr/cdn/shop/files/alkistijewelry-favicon-64x64_32x32.png?v=1613720989",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1340,
+        "width": 32,
+        "height": 32,
+        "sha256": "aeafa12a5742fa0f835ec52f8d5b605ea4089fd9498d034c5780910283913a39"
+      }
+    },
+    {
+      "merchantId": "cmt8nqtz900000oiy5f4y48na",
+      "merchantName": "Amazon",
+      "merchantSlug": "amazon",
+      "websiteUrl": "https://www.amazon.de",
+      "finalWebsiteUrl": "https://www.amazon.de/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hagf008fq8iynbdf22mn",
+      "merchantName": "Ame30",
+      "merchantSlug": "ame30",
+      "websiteUrl": "https://ame30.gr",
+      "finalWebsiteUrl": "https://ame30.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://ame30.gr/wp-content/uploads/2020/09/americanino_logo_final-new-w250.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://ame30.gr/wp-content/uploads/2020/09/americanino_logo_final-new-w250.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 4975,
+        "width": 250,
+        "height": 51,
+        "sha256": "3415bec7da512f1368e9dba435361c6d60ae785b17f8543dc582a71a856e6974"
+      }
+    },
+    {
+      "merchantId": "cmta1hayg008hq8iyxn9dz5cg",
+      "merchantName": "Ammashop",
+      "merchantSlug": "ammashop",
+      "websiteUrl": "https://ammashop.gr",
+      "finalWebsiteUrl": "https://www.ammashop.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.ammashop.gr/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.ammashop.gr/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 5430,
+        "width": 32,
+        "height": 32,
+        "sha256": "4dd4d046f0a818b2bbf76a1227bbdd7e73bba78b96b2d63436606e9a7ba5c195"
+      }
+    },
+    {
+      "merchantId": "cmta1eyqw000gq8iym60ef15s",
+      "merchantName": "Anastasia Beverly Hills",
+      "merchantSlug": "anastasia-beverly-hills",
+      "websiteUrl": "https://anastasiabeverlyhills.com",
+      "finalWebsiteUrl": "https://www.anastasiabeverlyhills.com/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.anastasiabeverlyhills.com/cdn/shop/files/ABH_A-Logo_Black_96x96_176eb2ac-ca68-484a-aabc-1cbabf6708f7.png?crop=center&height=32&v=1690482728&width=32",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 139
+      },
+      "validatedAsset": {
+        "url": "https://www.anastasiabeverlyhills.com/cdn/shop/files/ABH_A-Logo_Black_96x96_176eb2ac-ca68-484a-aabc-1cbabf6708f7.png?crop=center&height=32&v=1690482728&width=32",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1344,
+        "width": 32,
+        "height": 32,
+        "sha256": "f5e538f50b4b5c56e24cac31ac11c4969a524cab30520026e605111949d90a58"
+      }
+    },
+    {
+      "merchantId": "cmta1k58l00jvq8iyujdntq2y",
+      "merchantName": "Annamariamazaraki",
+      "merchantSlug": "annamariamazaraki",
+      "websiteUrl": "https://annamariamazaraki.gr",
+      "finalWebsiteUrl": "https://www.annamariamazaraki.com/el",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:WEBSITE_REDIRECTED_TO_DIFFERENT_DOMAIN"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1mgl500t3q8iyhiinlk2s",
+      "merchantName": "Anubis",
+      "merchantSlug": "anubis",
+      "websiteUrl": "https://anubis.gr",
+      "finalWebsiteUrl": "https://anubis.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://anubis.gr/wp-content/uploads/2018/01/fav_logo-e1516906979560.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://anubis.gr/wp-content/uploads/2018/01/fav_logo-e1516906979560.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 358,
+        "width": 20,
+        "height": 20,
+        "sha256": "5688b3a063ebcd446ef0fd591b64f99fdffd20a4f7281264e49d87381ddbe195"
+      }
+    },
+    {
+      "merchantId": "cmtb6ugje000e3giyaubvped2",
+      "merchantName": "Art Center",
+      "merchantSlug": "art-center",
+      "websiteUrl": "https://art-center.com.gr",
+      "finalWebsiteUrl": "https://www.art-center.com.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.art-center.com.gr/images/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.art-center.com.gr/images/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 1150,
+        "width": 16,
+        "height": 16,
+        "sha256": "6c4a0c0ab61ecbf7c50fa1d7c61c60f10ee43cb48d2fe8b3ce4b0fe15faddf47"
+      }
+    },
+    {
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "merchantName": "Artcolour",
+      "merchantSlug": "artcolour",
+      "websiteUrl": "https://artcolour.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta5nklm000254iyykvcbi2u",
+      "merchantName": "Atelie",
+      "merchantSlug": "atelie",
+      "websiteUrl": "https://atelie.com.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta5nlc8000654iynn5wpmru",
+      "merchantName": "Athens Green Apartments",
+      "merchantSlug": "athens-green-apartments",
+      "websiteUrl": "https://athensgreen.gr",
+      "finalWebsiteUrl": "https://athensgreen.gr/en/2271490/e-gift-card-athens-green-apartments",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://l.icdbcdn.com/oh/aa8342e6-575d-4a07-bbcd-7efd351d7f1f.png?w=1200",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hgfm008vq8iy2pi8rd5p",
+      "merchantName": "Avvento Shoes",
+      "merchantSlug": "avvento-shoes",
+      "websiteUrl": "https://avvento-shoes.gr",
+      "finalWebsiteUrl": "https://www.avvento-shoes.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.avvento-shoes.gr/themes/custom/rkpt/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.avvento-shoes.gr/themes/custom/rkpt/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 3527,
+        "width": 52,
+        "height": 56,
+        "sha256": "9c9051234750bfd90754b17339c335d0e130b6eac1aa17a283a80374bfdf6df1"
+      }
+    },
+    {
+      "merchantId": "cmta5nm5n000a54iytmsbakho",
+      "merchantName": "Baby Gear",
+      "merchantSlug": "baby-gear",
+      "websiteUrl": "https://babygear.gr",
+      "finalWebsiteUrl": "https://www.babygear.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.babygear.gr/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.babygear.gr/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 894,
+        "width": 16,
+        "height": 16,
+        "sha256": "dec9edbe6b9333a028cd5157a23e651e58c0590677a89ede6c2f70309ac44fc2"
+      }
+    },
+    {
+      "merchantId": "cmta1fb6o001wq8iy33a59phq",
+      "merchantName": "Babydream",
+      "merchantSlug": "babydream",
+      "websiteUrl": "https://babydream.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4y96w000asciyw4lp6d4q",
+      "merchantName": "Barbopoulos",
+      "merchantSlug": "barbopoulos",
+      "websiteUrl": "https://barbopoulos.gr",
+      "finalWebsiteUrl": "https://www.barbopoulos.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://www.barbopoulos.gr/wp-content/uploads/2024/09/barbopoulos.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hjup0095q8iyvtvlgy9z",
+      "merchantName": "Beautybliss",
+      "merchantSlug": "beautybliss",
+      "websiteUrl": "https://beautybliss.gr",
+      "finalWebsiteUrl": "https://www.beautybliss.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/432345_8fec569a23b94c9eb5cad5ea95ac1869%7Emv2.png/v1/fit/w_2500,h_1330,al_c/432345_8fec569a23b94c9eb5cad5ea95ac1869%7Emv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gbwr0057q8iy912y66yc",
+      "merchantName": "Beautycityspa",
+      "merchantSlug": "beautycityspa",
+      "websiteUrl": "https://beautycityspa.gr",
+      "finalWebsiteUrl": "https://www.beautycityspa.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "http://static1.squarespace.com/static/5504a437e4b0c33a9671d6e9/t/624f61953bb7706cacdd24be/1649369493728/beuaty-city-spa-logo.png?format=1500w",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 26
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1mlfc00tjq8iy0c3ybipq",
+      "merchantName": "Beautyclinic",
+      "merchantSlug": "beautyclinic",
+      "websiteUrl": "https://beautyclinic.gr",
+      "finalWebsiteUrl": "https://beautyclinic.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hkqq0099q8iyde9km7bg",
+      "merchantName": "Beautypeak",
+      "merchantSlug": "beautypeak",
+      "websiteUrl": "https://beautypeak.gr",
+      "finalWebsiteUrl": "https://www.beautypeak.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/bdad20_596d477c57a84a898b421dac6a931438%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/bdad20_596d477c57a84a898b421dac6a931438%7Emv2.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -44
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uhnb000k3giyxddgyqfa",
+      "merchantName": "Best Western",
+      "merchantSlug": "best-western-gift-card",
+      "websiteUrl": "https://bestwestern.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "merchantName": "Bestpharmacy",
+      "merchantSlug": "bestpharmacy",
+      "websiteUrl": "https://bestpharmacy.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hn3o009lq8iyhn7qa9mo",
+      "merchantName": "Bloss",
+      "merchantSlug": "bloss",
+      "websiteUrl": "https://bloss.gr",
+      "finalWebsiteUrl": "https://www.bloss.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c2f7dd_21ba4a9fc8e14b7c84151e51b03556d9~mv2.png/v1/fill/w_795,h_446,al_c/c2f7dd_21ba4a9fc8e14b7c84151e51b03556d9~mv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1m5mp00rxq8iyvry3zmpd",
+      "merchantName": "Cakeshop",
+      "merchantSlug": "cakeshop",
+      "websiteUrl": "https://cakeshop.gr",
+      "finalWebsiteUrl": "https://www.cakeshop.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_HTTP_404",
+        "OFFICIAL_WEBSITE_PAGE:IMAGE_DECODE_FAILED",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:IMAGE_DECODE_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.cakeshop.gr/logo.png",
+        "source": "JSONLD_LOGO",
+        "evidence": "JSON-LD logo property",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 299
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb7hwwi000804iyxo3b6lop",
+      "merchantName": "Calisti Oia",
+      "merchantSlug": "santorini-honeymoon-spa-gift-card",
+      "websiteUrl": "https://callistioia.com",
+      "finalWebsiteUrl": "https://www.callistioia.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/73d604_7b55a14cfcb14659a4459146ea7dc7da%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/73d604_7b55a14cfcb14659a4459146ea7dc7da%7Emv2.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -45
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1kjfa00lhq8iyck2pdz3m",
+      "merchantName": "Caraveltravel",
+      "merchantSlug": "caraveltravel",
+      "websiteUrl": "https://caraveltravel.gr",
+      "finalWebsiteUrl": "https://caraveltravel.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://caraveltravel.gr/css/clientes/carcollective/images/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://caraveltravel.gr/css/clientes/carcollective/images/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 2150,
+        "width": 38,
+        "height": 38,
+        "sha256": "28557f011797e00fa43fce566b7d19672fee258de4f4636b3f8dad455a9c86cc"
+      }
+    },
+    {
+      "merchantId": "cmta1mnxe00ttq8iy4l6zbq3p",
+      "merchantName": "Carbon",
+      "merchantSlug": "carbon",
+      "websiteUrl": "https://carbon.gr",
+      "finalWebsiteUrl": "https://www.carbon.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/ed6e66_f454d26b5c934b0fab3e0f2495f61330%7Emv2_d_3000_1500_s_2.jpg/v1/fit/w_2500,h_1330,al_c/ed6e66_f454d26b5c934b0fab3e0f2495f61330%7Emv2_d_3000_1500_s_2.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -45
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1mogm00tvq8iye33nmifv",
+      "merchantName": "Carlamco",
+      "merchantSlug": "carlamco",
+      "websiteUrl": "https://carlamco.gr",
+      "finalWebsiteUrl": "https://www.carlamco.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.carlamco.gr/image/cache/catalog/Carlamco_logo_white_new_1-366x90.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:logo-1x www.carlamco.gr",
+        "declaredWidth": 366,
+        "declaredHeight": 90,
+        "score": 187
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hren00a1q8iyh9eqqfbk",
+      "merchantName": "Cavadelvino",
+      "merchantSlug": "cavadelvino",
+      "websiteUrl": "https://cavadelvino.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hru700a3q8iy6vn9whln",
+      "merchantName": "Cavallo",
+      "merchantSlug": "cavallo",
+      "websiteUrl": "https://cavallo.gr",
+      "finalWebsiteUrl": "https://www.cavallo.gr/product/gift-card-100e/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.cavallo.gr/wp-content/uploads/2019/08/logocavallo_2018_white-compressor.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:et_b_header-logo-img site logo",
+        "declaredWidth": 511,
+        "declaredHeight": 39,
+        "score": 171
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1lsnr00qhq8iy9ibymzbq",
+      "merchantName": "Chicart",
+      "merchantSlug": "chicart",
+      "websiteUrl": "https://chicart.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1kkh000llq8iyqh4xpyae",
+      "merchantName": "Converse",
+      "merchantSlug": "converse",
+      "websiteUrl": "https://converse.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1mrph00u7q8iydrmvmhtt",
+      "merchantName": "Crudeshop",
+      "merchantSlug": "crudeshop",
+      "websiteUrl": "https://crudeshop.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hwv400anq8iyxlzbv2x8",
+      "merchantName": "Desenio",
+      "merchantSlug": "desenio",
+      "websiteUrl": "https://desenio.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_429"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ewc60008q8iydtjsz5cv",
+      "merchantName": "Divani Collection",
+      "merchantSlug": "divani-collection",
+      "websiteUrl": "https://divanis.com",
+      "finalWebsiteUrl": "https://divanis.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "DUPLICATE_ASSET_HASH_ACROSS_MERCHANTS"
+      ],
+      "bestCandidate": {
+        "url": "https://divanis.com/wp-content/uploads/2025/05/fav_120x120.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 99
+      },
+      "validatedAsset": {
+        "url": "https://divanis.com/wp-content/uploads/2025/05/fav_120x120.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 5471,
+        "width": 120,
+        "height": 120,
+        "sha256": "d8cdf498aba1399b4cb05ad8867e6e5ee1c85974ea45d425591f8a8f2334a75b"
+      }
+    },
+    {
+      "merchantId": "cmta1hxrm00arq8iyhvy95v45",
+      "merchantName": "Doctorfish",
+      "merchantSlug": "doctorfish",
+      "websiteUrl": "https://doctorfish.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1kmby00ltq8iyovtwgjv9",
+      "merchantName": "Dreamypicnics",
+      "merchantSlug": "dreamypicnics",
+      "websiteUrl": "https://dreamypicnics.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1hzo100azq8iy5b6q7jky",
+      "merchantName": "E Jumbo",
+      "merchantSlug": "e-jumbo",
+      "websiteUrl": "https://e-jumbo.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1i46g00b5q8iy2z5otzf9",
+      "merchantName": "Eightboutiquegym",
+      "merchantSlug": "eightboutiquegym",
+      "websiteUrl": "https://eightboutiquegym.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb781yd005udkiyfu78jt3z",
+      "merchantName": "Elbebeboutique",
+      "merchantSlug": "elbebeboutique",
+      "websiteUrl": "https://elbebeboutique.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed",
+        "OFFICIAL_GIFT_CARD_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1i4m300b7q8iydyj6mvak",
+      "merchantName": "Elegancy",
+      "merchantSlug": "elegancy",
+      "websiteUrl": "https://elegancy.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb782b5005wdkiybx3tkhjs",
+      "merchantName": "Elemental Studios",
+      "merchantSlug": "elemental-studios",
+      "websiteUrl": "https://elementalpilates.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8pswfr0001tgiyw7z7ffed",
+      "merchantName": "Elisabetta Franchi",
+      "merchantSlug": "elisabetta-franchi",
+      "websiteUrl": "https://www.elisabettafranchi.com",
+      "finalWebsiteUrl": "https://www.elisabettafranchi.com/eu/gift-card-combined/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://cdn2.elisabettafranchi.com.filoblu.com/media/bluheadless/default/logo-svg-144.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=apple-touch-icon",
+        "declaredWidth": 144,
+        "declaredHeight": 144,
+        "score": 13
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1my4200uxq8iyrtkh2ksx",
+      "merchantName": "Enchriso",
+      "merchantSlug": "enchriso",
+      "websiteUrl": "https://enchriso.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1m7uh00s5q8iy2uhwo8ad",
+      "merchantName": "Epiploaivazoglou",
+      "merchantSlug": "epiploaivazoglou",
+      "websiteUrl": "https://epiploaivazoglou.gr",
+      "finalWebsiteUrl": "https://epiploaivazoglou.gr/product-category/paidiko/cilek/gift-card/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://epiploaivazoglou.gr/wp-content/uploads/2021/06/Logo-White-Trans-Square-100x100.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:no-lazy custom-logo no-lazy custom-logo-link Έπιπλο Αϊβαζόγλου",
+        "declaredWidth": 80,
+        "declaredHeight": 40,
+        "score": 172
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1mz6000v1q8iyvwszf9du",
+      "merchantName": "Erato Kosmima",
+      "merchantSlug": "erato-kosmima",
+      "websiteUrl": "https://erato-kosmima.gr",
+      "finalWebsiteUrl": "https://erato-kosmima.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1g31o004kq8iy8cy0v47p",
+      "merchantName": "eshop.gr",
+      "merchantSlug": "gr",
+      "websiteUrl": "https://eshop.gr",
+      "finalWebsiteUrl": "https://www.e-shop.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:WEBSITE_REDIRECTED_TO_DIFFERENT_DOMAIN"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb62gvm000a94iyyhcgbatv",
+      "merchantName": "Esiot",
+      "merchantSlug": "esiot",
+      "websiteUrl": "https://esiot.gr",
+      "finalWebsiteUrl": "https://esiot.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:IMAGE_DECODE_FAILED",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:IMAGE_DECODE_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://esiot.gr/img/favicon.ico?1679919753",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta5nnxp000k54iy9bb28dfr",
+      "merchantName": "esthai",
+      "merchantSlug": "esthai",
+      "websiteUrl": "https://esthai.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ltps00qlq8iyu7awumqg",
+      "merchantName": "Ethereal Spa",
+      "merchantSlug": "ethereal-spa",
+      "websiteUrl": "https://ethereal-spa.gr",
+      "finalWebsiteUrl": "https://www.ethereal-spa.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1i6nk00bfq8iy5qszzqk8",
+      "merchantName": "Eubiotica",
+      "merchantSlug": "eubiotica",
+      "websiteUrl": "https://eubiotica.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1i80900blq8iyr9rqvqvt",
+      "merchantName": "Eyemazing",
+      "merchantSlug": "eyemazing",
+      "websiteUrl": "https://eyemazing.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gcpz005bq8iynm77ayng",
+      "merchantName": "Feelmadness",
+      "merchantSlug": "feelmadness",
+      "websiteUrl": "https://feelmadness.gr",
+      "finalWebsiteUrl": "https://www.feelmadness.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.feelmadness.gr/pub/media/favicon/stores/3/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://www.feelmadness.gr/pub/media/favicon/stores/3/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 4040,
+        "width": 48,
+        "height": 48,
+        "sha256": "baaeacb4dee2f9762a7ab6fcd5e25156a124566c28de440f03df9216a4dff04f"
+      }
+    },
+    {
+      "merchantId": "cmta1m8wn00s9q8iygc3o000e",
+      "merchantName": "Flashfashion",
+      "merchantSlug": "flashfashion",
+      "websiteUrl": "https://flashfashion.shop",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb76yef0006dkiyil6ybdjc",
+      "merchantName": "for Stay in Greece",
+      "merchantSlug": "for-stay-in",
+      "websiteUrl": "https://athens-stay.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uorg001l3giy24moh9jp",
+      "merchantName": "Francesca",
+      "merchantSlug": "gift-card-2",
+      "websiteUrl": "https://francesca.gr",
+      "finalWebsiteUrl": "https://www.francesca.gr/gift-card?lang=en",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.parastorage.com/client/pfavico.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -60
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb62j5r000m94iy0ng8c71m",
+      "merchantName": "Gbroofgarden",
+      "merchantSlug": "gbroofgarden",
+      "websiteUrl": "https://gbroofgarden.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6upj2001p3giy68izspkm",
+      "merchantName": "Gelia Jewelry & Creations",
+      "merchantSlug": "gelia-jewelry-and-creations",
+      "websiteUrl": "https://geliajewelry.gr",
+      "finalWebsiteUrl": "https://geliajewelry.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://geliajewelry.gr/cdn/shop/files/Black_White_Minimalist_Calligraphy_Flourish_Designer_Logo_27b877fb-44a4-4f6b-ac11-d3dd14be3216.png?v=1702925296&width=600",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:header__heading-logo motion-reduce header__heading-link link link--text focus-inset Gelia Jewelry & Creations",
+        "declaredWidth": 300,
+        "declaredHeight": 106.11476952022578,
+        "score": 187
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8faygb00006kiynlty806o",
+      "merchantName": "Germanos",
+      "merchantSlug": "germanos",
+      "websiteUrl": "https://www.germanos.gr",
+      "finalWebsiteUrl": "https://www.germanos.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.germanos.gr/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://www.germanos.gr/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 551,
+        "width": 16,
+        "height": 16,
+        "sha256": "be441ac5df32c7b5f605cca238334688081ccf026553cab90b69c74383d1a246"
+      }
+    },
+    {
+      "merchantId": "cmta1n28m00vdq8iylsiovqrs",
+      "merchantName": "Ggbeauty",
+      "merchantSlug": "ggbeauty",
+      "websiteUrl": "https://ggbeauty.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gbip0055q8iyzwigl93e",
+      "merchantName": "Hallofbrands",
+      "merchantSlug": "hallofbrands",
+      "websiteUrl": "https://hallofbrands.gr",
+      "finalWebsiteUrl": "https://www.hallofbrands.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.hallofbrands.gr/image/data/Logoetc/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 155
+      },
+      "validatedAsset": {
+        "url": "https://www.hallofbrands.gr/image/data/Logoetc/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 500,
+        "width": 16,
+        "height": 16,
+        "sha256": "240681ed7986cca6d65818cd39dc450787b641af4ef1e3e79df7e0bc234ee121"
+      }
+    },
+    {
+      "merchantId": "cmta1ice000c5q8iyu99sa66p",
+      "merchantName": "Haralas",
+      "merchantSlug": "haralas",
+      "websiteUrl": "https://haralas.gr",
+      "finalWebsiteUrl": "https://www.haralas.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:DYNAMIC_AVIF_VARIANT_NOT_STABLE_FOR_AUDIT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.kalogirou.com/media/logo/websites/2/har_logo_1_1_.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:logo store logo",
+        "declaredWidth": 409,
+        "declaredHeight": 64,
+        "score": 224
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1icso00c7q8iyl4xfcphi",
+      "merchantName": "Harmanis",
+      "merchantSlug": "harmanis",
+      "websiteUrl": "https://harmanis.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4yk9i001isciy8zva7jrw",
+      "merchantName": "Hebekidshome",
+      "merchantSlug": "hebekidshome",
+      "websiteUrl": "https://hebekidshome.gr",
+      "finalWebsiteUrl": "https://hebekidshome.gr/products/e-gift-cards?srsltid=AfmBOoq-qOyKzCFGOgaCanQGsr-cgS8jhXBU-P0TRbTnLIVohtxhQlqP",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "http://hebekidshome.gr/cdn/shop/files/CollectionImage2_3.png?v=1718191286",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1go4c006hq8iyctmnyk3t",
+      "merchantName": "Heelshop",
+      "merchantSlug": "heelshop",
+      "websiteUrl": "https://heelshop.gr",
+      "finalWebsiteUrl": "https://www.heelshop.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.heelshop.gr/assets/website/img/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.heelshop.gr/assets/website/img/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 1150,
+        "width": 16,
+        "height": 16,
+        "sha256": "eb6d092e311e02ecefc873dda340a8244feea4f76e2e510ef3369b0110da9125"
+      }
+    },
+    {
+      "merchantId": "cmta1lbsk00opq8iy6ghmmaan",
+      "merchantName": "Hellenictrain",
+      "merchantSlug": "hellenictrain",
+      "websiteUrl": "https://hellenictrain.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6urdq001z3giyx4g2l4dm",
+      "merchantName": "HelloKids",
+      "merchantSlug": "ηλεκτρονικη-δωροκαρτα",
+      "websiteUrl": "https://hellokids.gr",
+      "finalWebsiteUrl": "https://www.hellokids.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.hellokids.gr/cdn/shop/files/house_logo_32x32.png?v=1673871286",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 139
+      },
+      "validatedAsset": {
+        "url": "https://www.hellokids.gr/cdn/shop/files/house_logo_32x32.png?v=1673871286",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1604,
+        "width": 32,
+        "height": 32,
+        "sha256": "71cd86551050e5beaad639ab1380cf45872541cd47d94a2d8d0b1b59878e876f"
+      }
+    },
+    {
+      "merchantId": "cmta1ifiy00cjq8iy2y5qnddu",
+      "merchantName": "Hepta",
+      "merchantSlug": "hepta",
+      "websiteUrl": "https://hepta.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8faz8700056kiyd92fmy9h",
+      "merchantName": "HomeMarkt",
+      "merchantSlug": "homemarkt",
+      "websiteUrl": "https://www.homemarkt.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8fazwh000a6kiymri92mev",
+      "merchantName": "Hondos Center",
+      "merchantSlug": "hondos-center",
+      "websiteUrl": "https://www.hondoscenter.com",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb77whg0052dkiy9snlz0m5",
+      "merchantName": "Houhouliarika",
+      "merchantSlug": "houhouliarika",
+      "websiteUrl": "https://houhouliarika.gr",
+      "finalWebsiteUrl": "https://houhouliarika.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://houhouliarika.gr/image/catalog/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://houhouliarika.gr/image/catalog/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 2943,
+        "width": 32,
+        "height": 32,
+        "sha256": "0894f9d8fa9efad868358d78ec75ebacdf05b4e51cbebcf60f8c422dddb6e84a"
+      }
+    },
+    {
+      "merchantId": "cmta1ihdj00cpq8iy8h7fdcbs",
+      "merchantName": "Hydrowellness",
+      "merchantSlug": "hydrowellness",
+      "websiteUrl": "https://hydrowellness.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt79if46000n84iyg23kadng",
+      "merchantName": "IKEA",
+      "merchantSlug": "ikea",
+      "websiteUrl": "https://www.ikea.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ii8i00ctq8iysskxlulx",
+      "merchantName": "Inspiral",
+      "merchantSlug": "inspiral",
+      "websiteUrl": "https://inspiral.gr",
+      "finalWebsiteUrl": "https://www.inspiral.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.inspiral.gr/img/layout/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.inspiral.gr/img/layout/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 1150,
+        "width": 16,
+        "height": 16,
+        "sha256": "53b1e8461db25059b46a03b422065f0f6428aaac1cd49f0057215f06b84b4be7"
+      }
+    },
+    {
+      "merchantId": "cmta1limn00pfq8iyfh50asm9",
+      "merchantName": "Instyleshop",
+      "merchantSlug": "instyleshop",
+      "websiteUrl": "https://instyleshop.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gong006jq8iy8ppr191d",
+      "merchantName": "Intersport",
+      "merchantSlug": "intersport",
+      "websiteUrl": "https://intersport.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+      "merchantName": "iQueens",
+      "merchantSlug": "iqueens",
+      "websiteUrl": "https://iqueens.gr",
+      "finalWebsiteUrl": "https://www.iqueens.gr/el/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_400"
+      ],
+      "bestCandidate": {
+        "url": "https://static.qns.digital/themes/default-bootstrap/dist/images/favicons/qns/apple-touch-icon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=apple-touch-icon",
+        "declaredWidth": 180,
+        "declaredHeight": 180,
+        "score": -44
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ijt600d1q8iyxb82btou",
+      "merchantName": "Jonak",
+      "merchantSlug": "jonak",
+      "websiteUrl": "https://jonak.gr",
+      "finalWebsiteUrl": "https://www.jonak-paris.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:WEBSITE_REDIRECTED_TO_DIFFERENT_DOMAIN"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1n82o00w1q8iyo9230d1u",
+      "merchantName": "Kaelego",
+      "merchantSlug": "kaelego",
+      "websiteUrl": "https://kaelego.gr",
+      "finalWebsiteUrl": "https://kaelego.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://kaelego.gr/wp-content/uploads/2024/04/image_2_transparent.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ks4x00mhq8iydfmn5xou",
+      "merchantName": "Kalousos",
+      "merchantSlug": "kalousos",
+      "websiteUrl": "https://kalousos.gr",
+      "finalWebsiteUrl": "https://www.kalousos.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.kalousos.gr/storage/infocube_image_cache/1200x630/site-settings/seo_site_og_image/Artboard-9-100.jpg?ext=jpg&v=1307202202",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 98
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1lj2s00phq8iymc9sy8cd",
+      "merchantName": "Kantarzoglou",
+      "merchantSlug": "kantarzoglou",
+      "websiteUrl": "https://kantarzoglou.gr",
+      "finalWebsiteUrl": "https://www.kantarzoglou.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.kantarzoglou.gr/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.kantarzoglou.gr/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 7358,
+        "width": 48,
+        "height": 48,
+        "sha256": "872602d2fa1b769076040f86bcdc64d81522c30edd4002a475be7bbfc47cc07f"
+      }
+    },
+    {
+      "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+      "merchantName": "Kikoo",
+      "merchantSlug": "kikoo",
+      "websiteUrl": "https://kikoo.gr",
+      "finalWebsiteUrl": "https://kikoo.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://kikoo.gr/image/cache/catalog/Banners/kikoo_LOGO-300x155.png",
+        "source": "JSONLD_LOGO",
+        "evidence": "JSON-LD logo property",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 79
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gqn9006rq8iyvkljeqr1",
+      "merchantName": "Kosmima24",
+      "merchantSlug": "kosmima24",
+      "websiteUrl": "https://kosmima24.gr",
+      "finalWebsiteUrl": "https://www.kosmima24.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.kosmima24.gr/images/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://www.kosmima24.gr/images/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 693,
+        "width": 36,
+        "height": 36,
+        "sha256": "651b6a590ed621d3ab84a3aa541779e3d14f206978622dffc6ecf00d99ba9174"
+      }
+    },
+    {
+      "merchantId": "cmtb77x9d0056dkiyajiro2jy",
+      "merchantName": "Kosmimamakarezos",
+      "merchantSlug": "kosmimamakarezos",
+      "websiteUrl": "https://kosmimamakarezos.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_503",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_503"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4ypfz0024sciyjcie77zg",
+      "merchantName": "Kounelis",
+      "merchantSlug": "kounelis",
+      "websiteUrl": "https://kounelis.com.gr",
+      "finalWebsiteUrl": "https://kounelis.com.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://kounelis.com.gr/media/favicon/default/fav-kounelis.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://kounelis.com.gr/media/favicon/default/fav-kounelis.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 1776,
+        "width": 36,
+        "height": 36,
+        "sha256": "8d9b7be4a2104c1fed728cf2a3f8c7df5fa1eba8a840a767d660176de249f9ba"
+      }
+    },
+    {
+      "merchantId": "cmt79ifor000t84iywm22uls1",
+      "merchantName": "Kulina",
+      "merchantSlug": "kulina",
+      "websiteUrl": "https://kulina.gr",
+      "finalWebsiteUrl": "https://www.kulina.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.kulina.gr/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.kulina.gr/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 15086,
+        "width": 48,
+        "height": 48,
+        "sha256": "2af54a52722f48b587c4fd2a572607f99a0d0e86833fe7f4d369c309a2df74f3"
+      }
+    },
+    {
+      "merchantId": "cmta1nacs00w9q8iybfp66av1",
+      "merchantName": "Lalita",
+      "merchantSlug": "lalita",
+      "websiteUrl": "https://lalita.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "merchantName": "Lonis Tattoo Studio",
+      "merchantSlug": "lts-gift-card-καρτα-δωρου",
+      "websiteUrl": "https://tattooathens.gr",
+      "finalWebsiteUrl": "https://tattooathens.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_HTTP_404",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:ASSET_HTTP_404",
+        "OFFICIAL_GIFT_CARD_PAGE:ASSET_NOT_IMAGE:text/html; charset=utf-8"
+      ],
+      "bestCandidate": {
+        "url": "https://tattooathens.gr/&type=webp",
+        "source": "HEADER_IMAGE",
+        "evidence": "picture:uk-logo Back to home",
+        "declaredWidth": 101,
+        "declaredHeight": 100,
+        "score": 263
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1nba500wdq8iyj8n4yj7q",
+      "merchantName": "Lucejewelry",
+      "merchantSlug": "lucejewelry",
+      "websiteUrl": "https://lucejewelry.gr",
+      "finalWebsiteUrl": "https://www.lucejewelry.gr/gift-card",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/84c261_36539994e1c64d849787f831293c3153%7Emv2.png/v1/fit/w_2500,h_1330,al_c/84c261_36539994e1c64d849787f831293c3153%7Emv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1lx1n00qzq8iyn1ngi4z8",
+      "merchantName": "Lurehouse",
+      "merchantSlug": "lurehouse",
+      "websiteUrl": "https://lurehouse.gr",
+      "finalWebsiteUrl": "https://www.lurehouse.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.lurehouse.gr/assets/website23/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.lurehouse.gr/assets/website23/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 1150,
+        "width": 16,
+        "height": 16,
+        "sha256": "aaff15513453c1ea245f87f27fb6337eaf63204e53f83bcf45a2af7038d4d3d8"
+      }
+    },
+    {
+      "merchantId": "cmtb7r49p000eu8iycsuq1r0y",
+      "merchantName": "MAC Cosmetics Greece",
+      "merchantSlug": "mac-cosmetics",
+      "websiteUrl": "https://maccosmetics.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta5nrxg001654iyoybl2dln",
+      "merchantName": "Madeofglass",
+      "merchantSlug": "madeofglass",
+      "websiteUrl": "https://madeofglass.gr",
+      "finalWebsiteUrl": "https://madeofglass.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://madeofglass.gr/cdn/shop/files/favicon_ed8bdd32-57fa-4328-ad8b-2574936dfaf9.png?crop=center&height=32&v=1764575952&width=32",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://madeofglass.gr/cdn/shop/files/favicon_ed8bdd32-57fa-4328-ad8b-2574936dfaf9.png?crop=center&height=32&v=1764575952&width=32",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 840,
+        "width": 32,
+        "height": 32,
+        "sha256": "bfd86e3f5f5164b7c575257f60d753e3e2a5a7b0629376b0fe2d34caf4a24053"
+      }
+    },
+    {
+      "merchantId": "cmta1is0q00e1q8iyq80c6tz9",
+      "merchantName": "Mango",
+      "merchantSlug": "mango",
+      "websiteUrl": "https://mango.com",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb77bot0022dkiyc1z2at3w",
+      "merchantName": "Manicurious",
+      "merchantSlug": "manicurious",
+      "websiteUrl": "https://manicurious.gr",
+      "finalWebsiteUrl": "https://www.manicurious.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/755fac_7ec05a4f6377404f9de15e00f14a58c7%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/755fac_7ec05a4f6377404f9de15e00f14a58c7%7Emv2.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -60
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1lxzg00r3q8iyk2zswrtf",
+      "merchantName": "Massaha",
+      "merchantSlug": "massaha",
+      "websiteUrl": "https://massaha.gr",
+      "finalWebsiteUrl": "https://www.massaha.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/1046ee_5ca0982e8b874cd2bdaedfc5e806eb76~mv2.jpg/v1/fill/w_1000,h_1000,al_c/1046ee_5ca0982e8b874cd2bdaedfc5e806eb76~mv2.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -45
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1itzx00ebq8iyerir1tmb",
+      "merchantName": "Maziotisjewels",
+      "merchantSlug": "maziotisjewels",
+      "websiteUrl": "https://maziotisjewels.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb7i26i000z04iyas90sthl",
+      "merchantName": "Mindful Touch",
+      "merchantSlug": "massage-gift-card-by-mindful-touch-in-chania-crete",
+      "websiteUrl": "https://massage-crete.com",
+      "finalWebsiteUrl": "https://massage-crete.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://massage-crete.com/Massage%20Crete%20Chania",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 50
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1nfxp00wvq8iy71vxcbpb",
+      "merchantName": "Minotavros",
+      "merchantSlug": "minotavros",
+      "websiteUrl": "https://minotavros.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ixh000etq8iyrstbzf45",
+      "merchantName": "Misa",
+      "merchantSlug": "misa",
+      "websiteUrl": "https://misa.gr",
+      "finalWebsiteUrl": "https://www.misa.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_HTTP_404",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:ASSET_HTTP_404"
+      ],
+      "bestCandidate": {
+        "url": "https://www.misa.gr/quality_auto/MISA%20LOGO.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:gRkIq0 sFiSiq img_comp-joymbfg8 apPOZK MISA LOGO",
+        "declaredWidth": 112,
+        "declaredHeight": 112,
+        "score": 334
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ixuq00evq8iyfw77ryfl",
+      "merchantName": "Moelian",
+      "merchantSlug": "moelian",
+      "websiteUrl": "https://moelian.gr",
+      "finalWebsiteUrl": "https://www.moelian.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/22c144_251042051ed04b6fb824caafab244086~mv2.png/v1/fill/w_1200,h_630,al_c/22c144_251042051ed04b6fb824caafab244086~mv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1izhy00f3q8iya0mr8ool",
+      "merchantName": "Movelab",
+      "merchantSlug": "movelab",
+      "websiteUrl": "https://movelab.gr",
+      "finalWebsiteUrl": "https://www.movelab.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/e9bdb2_b798c5250f9d41249cc73c3e2a6dc54b%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/e9bdb2_b798c5250f9d41249cc73c3e2a6dc54b%7Emv2.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -60
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1j14200f9q8iy4qbjvx5d",
+      "merchantName": "Mycolours",
+      "merchantSlug": "mycolours",
+      "websiteUrl": "https://mycolours.gr",
+      "finalWebsiteUrl": "https://www.mycolours.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/aea10c_94fb46a58122486fb1823b3809a4e452~mv2.png/v1/fill/w_571,h_249,al_c/aea10c_94fb46a58122486fb1823b3809a4e452~mv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta5nu7u001i54iy26l668bf",
+      "merchantName": "Myprotein",
+      "merchantSlug": "myprotein",
+      "websiteUrl": "https://myprotein.gr",
+      "finalWebsiteUrl": "https://www.myprotein.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_FETCH_FAILED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_NOT_IMAGE:binary/octet-stream",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:ASSET_NOT_IMAGE:binary/octet-stream"
+      ],
+      "bestCandidate": {
+        "url": "https://object.gb-lon.thghosting.cloud/gb_lon_li_elysium_test_platform:brand-logos/altitude.svg",
+        "source": "JSONLD_LOGO",
+        "evidence": "JSON-LD logo property",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 184
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1lfel00p3q8iywla7k0oj",
+      "merchantName": "Nakas",
+      "merchantSlug": "nakas",
+      "websiteUrl": "https://nakas.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uxpz002x3giyag7687wz",
+      "merchantName": "Nakasconcept",
+      "merchantSlug": "nakasconcept",
+      "websiteUrl": "https://nakasconcept.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uygv00313giyphdd4xl4",
+      "merchantName": "Nativis",
+      "merchantSlug": "nativis",
+      "websiteUrl": "https://nativis.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_401",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_401"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta421c00000t8iyz2ify6i3",
+      "merchantName": "Netflix",
+      "merchantSlug": "netflix",
+      "websiteUrl": "https://netflix.com",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb77ecy002gdkiyplat2lrt",
+      "merchantName": "North & South Jewelry",
+      "merchantSlug": "north-and-south-jewelry-gift-card",
+      "websiteUrl": "https://northandsouthjewelry.gr",
+      "finalWebsiteUrl": "https://www.northandsouthjewelry.gr/products/north-south-jewelry-gift-card",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "http://www.northandsouthjewelry.gr/cdn/shop/files/GiftCard_1200x.jpg?v=1698262777",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 98
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8fb1qo000e6kiyhr3vcqzi",
+      "merchantName": "Notino",
+      "merchantSlug": "notino",
+      "websiteUrl": "https://notino.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uzla00373giydd6wqbju",
+      "merchantName": "Optika Liolios",
+      "merchantSlug": "δωροκαρτες",
+      "websiteUrl": "https://optikaliolios.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1j64i00ftq8iybi7vezby",
+      "merchantName": "Osteriamamma",
+      "merchantSlug": "osteriamamma",
+      "websiteUrl": "https://osteriamamma.gr",
+      "finalWebsiteUrl": "https://www.osteriamamma.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/18c2b8_9499890b7e0541e78d4e12a1df8a891a%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/18c2b8_9499890b7e0541e78d4e12a1df8a891a%7Emv2.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -60
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6uzyo00393giyijqh9v1h",
+      "merchantName": "Outdoorway",
+      "merchantSlug": "outdoorway-10-ευρω",
+      "websiteUrl": "https://outdoorway.gr",
+      "finalWebsiteUrl": "https://www.outdoorway.gr/product/15647/doroepitagi-Outdoorway-10-eyro",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_GIFT_CARD_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.outdoorway.gr/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.outdoorway.gr/favicon.ico",
+        "contentType": "image/vnd.microsoft.icon",
+        "extension": ".ico",
+        "bytes": 8158,
+        "width": 44,
+        "height": 44,
+        "sha256": "247e78a2096fa61bcd87667d34cd0d61ace1c7d87b793b774a0848198d6493c9"
+      }
+    },
+    {
+      "merchantId": "cmt8pt4mw0006tgiyqx51cb45",
+      "merchantName": "Pat McGrath Labs",
+      "merchantSlug": "pat-mcgrath-labs",
+      "websiteUrl": "https://www.patmcgrath.com",
+      "finalWebsiteUrl": "https://www.patmcgrath.com/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.patmcgrath.com/cdn/shop/files/PMG_Favicon_32x32_Crown.png?crop=center&height=32&v=1695764494&width=32",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://www.patmcgrath.com/cdn/shop/files/PMG_Favicon_32x32_Crown.png?crop=center&height=32&v=1695764494&width=32",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 2171,
+        "width": 32,
+        "height": 32,
+        "sha256": "d48e31436013ce296001736d62062cb70c44a48b841d2515c1cf5974649d90be"
+      }
+    },
+    {
+      "merchantId": "cmta1g4fk004oq8iywtnxd831",
+      "merchantName": "PCP Clothing",
+      "merchantSlug": "pcp-clothing",
+      "websiteUrl": "https://pcpclothing.com",
+      "finalWebsiteUrl": "https://www.pcpclothing.com/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.pcpclothing.com/image/catalog/digital/logos_icons/2022/012/favicon.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 123
+      },
+      "validatedAsset": {
+        "url": "https://www.pcpclothing.com/image/catalog/digital/logos_icons/2022/012/favicon.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 2226,
+        "width": 32,
+        "height": 32,
+        "sha256": "b5e5b0fddea08ec85c1b0efb35a817a9d6948a4971b26225f6fa75c16b09dbef"
+      }
+    },
+    {
+      "merchantId": "cmta1j9v800g9q8iy1nle1uqi",
+      "merchantName": "Pezzetta",
+      "merchantSlug": "pezzetta",
+      "websiteUrl": "https://pezzetta.gr",
+      "finalWebsiteUrl": "https://www.pezzetta.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/72f3dc_8b006bd4cd1b49b695cf33089781f9b5%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/72f3dc_8b006bd4cd1b49b695cf33089781f9b5%7Emv2.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -45
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1f2cv000wq8iyrguy8go3",
+      "merchantName": "PharmNet",
+      "merchantSlug": "pharmnet",
+      "websiteUrl": "https://pharmnet.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1nm6s00xjq8iyb6787fku",
+      "merchantName": "Piccolo Orso",
+      "merchantSlug": "piccolo-orso",
+      "websiteUrl": "https://piccolo-orso.gr",
+      "finalWebsiteUrl": "https://piccolo-orso.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jarh00gdq8iyxtg67ir3",
+      "merchantName": "Pleasurefashion",
+      "merchantSlug": "pleasurefashion",
+      "websiteUrl": "https://pleasurefashion.gr",
+      "finalWebsiteUrl": "https://www.pleasurefashion.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.pleasurefashion.gr/images/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.pleasurefashion.gr/images/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 106389,
+        "width": 256,
+        "height": 256,
+        "sha256": "98bd348168bb57f82860e35141726592bbaef95facbb59ad65150a8005ac34b3"
+      }
+    },
+    {
+      "merchantId": "cmtb78a1e006xdkiyci06sr0y",
+      "merchantName": "Plegmashop",
+      "merchantSlug": "plegmashop",
+      "websiteUrl": "https://plegmashop.gr",
+      "finalWebsiteUrl": "https://plegmashop.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_192,h_192/https://plegmashop.gr/wp-content/uploads/2020/11/cropped-plegma-circle-192x192.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -26
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1g3ys004mq8iy3qs4ol62",
+      "merchantName": "Projectshops",
+      "merchantSlug": "projectshops",
+      "websiteUrl": "https://projectshops.gr",
+      "finalWebsiteUrl": "https://projectshops.gr/gift-card-virtual",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_GIFT_CARD_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://projectshops.gr/media/favicon/default/projectshops-favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://projectshops.gr/media/favicon/default/projectshops-favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 626,
+        "width": 32,
+        "height": 32,
+        "sha256": "b503c15ce3c13f4174aa5c5b95856eb3ba36d755cacb0823f68e0f9770dc4462"
+      }
+    },
+    {
+      "merchantId": "cmta1jcpl00glq8iyiewjd0bh",
+      "merchantName": "Ptbox",
+      "merchantSlug": "ptbox",
+      "websiteUrl": "https://ptbox.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb77y00005adkiya4pa2gzm",
+      "merchantName": "Quad & Buggy Safari Crete",
+      "merchantSlug": "quad-and-buggy-safari-crete",
+      "websiteUrl": "https://offroadcrete.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb62r5h001u94iyasn3pt54",
+      "merchantName": "Radiodaysfashion",
+      "merchantSlug": "radiodaysfashion",
+      "websiteUrl": "https://radiodaysfashion.gr",
+      "finalWebsiteUrl": "https://www.radiodaysfashion.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.radiodaysfashion.gr/app/assets/img/share-image.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 98
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1geq4005lq8iyvs3k2pk8",
+      "merchantName": "Regalinas",
+      "merchantSlug": "regalinas",
+      "websiteUrl": "https://regalinas.gr",
+      "finalWebsiteUrl": "https://www.regalinas.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.regalinas.gr/icons/basic_image.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 98
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1evj10006q8iy32cz89b3",
+      "merchantName": "Rituals",
+      "merchantSlug": "rituals",
+      "websiteUrl": "https://rituals.com",
+      "finalWebsiteUrl": "https://www.rituals.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.rituals.com/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 16,
+        "declaredHeight": 16,
+        "score": -12
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1k1x700jhq8iyxupg6exd",
+      "merchantName": "Romeo",
+      "merchantSlug": "romeo",
+      "websiteUrl": "https://romeo.gr",
+      "finalWebsiteUrl": "https://www.romeo.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c3c625_dc539d9ed94a4f84a748b2df1252228c%7Emv2.png/v1/fit/w_2500,h_1330,al_c/c3c625_dc539d9ed94a4f84a748b2df1252228c%7Emv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb7i1i0000w04iys9w2oqz8",
+      "merchantName": "Santorini Zen Spa",
+      "merchantSlug": "spa-gift-voucher-in-santorini",
+      "websiteUrl": "https://santorinizenspa.com",
+      "finalWebsiteUrl": "https://www.santorinizenspa.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.santorinizenspa.com/uploads/4/6/1/4/46140597/tg010_orig.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb62p1e001i94iydv5ldjzm",
+      "merchantName": "Send gifts and wishes to your beloved ones",
+      "merchantSlug": "send-gifts-and-wishes-to-your-beloved-ones",
+      "websiteUrl": "https://neraidochora.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8fb4oz000o6kiylq2ujw83",
+      "merchantName": "Sephora",
+      "merchantSlug": "sephora",
+      "websiteUrl": "https://giftcard.sephora.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gwxy007dq8iy283ovzsf",
+      "merchantName": "Sfsonline",
+      "merchantSlug": "sfsonline",
+      "websiteUrl": "https://sfsonline.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jepm00gtq8iy5j5m9fet",
+      "merchantName": "Simple City",
+      "merchantSlug": "simple-city",
+      "websiteUrl": "https://simple-city.gr",
+      "finalWebsiteUrl": "https://simple-city.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://simple-city.gr/skin/frontend/base/default/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://simple-city.gr/skin/frontend/base/default/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 826,
+        "width": 45,
+        "height": 45,
+        "sha256": "764ee20bfbbeb687f52eaa2669f77f9d66d1d43d982df149a2289198c852bffe"
+      }
+    },
+    {
+      "merchantId": "cmta1fenw0028q8iy6hk5qrpw",
+      "merchantName": "skakistikokentro.com",
+      "merchantSlug": "skakistikokentro-com",
+      "websiteUrl": "https://skakistikokentro.com",
+      "finalWebsiteUrl": "https://skakistikokentro.com/shop/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_GIFT_CARD_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://skakistikokentro.com/shop/image/catalog/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": {
+        "url": "https://skakistikokentro.com/shop/image/catalog/favicon.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 548,
+        "width": 16,
+        "height": 16,
+        "sha256": "e777305ed07242e617caf8ef6dfc79d0e1aaa64051ef9feec6d2e9cf1ee7958b"
+      }
+    },
+    {
+      "merchantId": "cmta1nrq800y5q8iy9tcv8iqe",
+      "merchantName": "Skinpositive",
+      "merchantSlug": "skinpositive",
+      "websiteUrl": "https://skinpositive.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6v3o2003t3giy697d01nq",
+      "merchantName": "Somatherapy",
+      "merchantSlug": "somatherapy",
+      "websiteUrl": "https://somatherapy.gr",
+      "finalWebsiteUrl": "https://somatherapy.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_HTTP_404",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:ASSET_HTTP_404"
+      ],
+      "bestCandidate": {
+        "url": "https://somatherapy.gr/wp-content/uploads/2015/03/soma-therapy-and-spa-lagonisi-slider-151-300x118.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 98
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gxff007fq8iy28qeo2n2",
+      "merchantName": "Sportcafe",
+      "merchantSlug": "sportcafe",
+      "websiteUrl": "https://sportcafe.gr",
+      "finalWebsiteUrl": "https://sportcafe.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "DUPLICATE_ASSET_HASH_ACROSS_MERCHANTS"
+      ],
+      "bestCandidate": {
+        "url": "https://sportcafe.gr/wp-content/uploads/2025/12/logo_black-100x34.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:no-lazy custom-logo no-lazy custom-logo-link SportCafe",
+        "declaredWidth": 60,
+        "declaredHeight": 105,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://sportcafe.gr/wp-content/uploads/2025/12/logo_black-100x34.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 1745,
+        "width": 100,
+        "height": 34,
+        "sha256": "c74e3a630b8772c7591abe93cdb1bca293388966d0e4c064c9ea7404059e2d43"
+      }
+    },
+    {
+      "merchantId": "cmtb7r5dn000ku8iy3eejddyt",
+      "merchantName": "Sports Direct Greece",
+      "merchantSlug": "sports-direct",
+      "websiteUrl": "https://sportsdirect.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1ezmz000kq8iyr2e7ujvq",
+      "merchantName": "Sportys",
+      "merchantSlug": "sportys",
+      "websiteUrl": "https://sportys.gr",
+      "finalWebsiteUrl": "http://www.sportys.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmt8l6430001b5giytuoenkc9",
+      "merchantName": "Steam",
+      "merchantSlug": "steam",
+      "websiteUrl": "https://store.steampowered.com",
+      "finalWebsiteUrl": "https://store.steampowered.com/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://store.steampowered.com/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://store.steampowered.com/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 38554,
+        "width": 256,
+        "height": 256,
+        "sha256": "9f890a9debcdfccc339149a7943be9aff9e4c9203c2fa37d5671a5b2c88503ad"
+      }
+    },
+    {
+      "merchantId": "cmta1fdbr0022q8iyso2oofv7",
+      "merchantName": "StefanouMarine",
+      "merchantSlug": "stefanoumarine",
+      "websiteUrl": "https://stefanoumarine.net",
+      "finalWebsiteUrl": "https://stefanoumarine.com/el-gr",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:WEBSITE_REDIRECTED_TO_DIFFERENT_DOMAIN",
+        "OFFICIAL_GIFT_CARD_PAGE:WEBSITE_REDIRECTED_TO_DIFFERENT_DOMAIN"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jjvp00hfq8iy74s2thdz",
+      "merchantName": "Storybook",
+      "merchantSlug": "storybook",
+      "websiteUrl": "https://storybook.gr",
+      "finalWebsiteUrl": "https://www.storybook.gr/gift-card",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/a6e7bc_faa4af6faa364d99910b215d4e9bce14%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/a6e7bc_faa4af6faa364d99910b215d4e9bce14%7Emv2.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -44
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jkwi00hjq8iy1ommjcbj",
+      "merchantName": "Sunsandclouds",
+      "merchantSlug": "sunsandclouds",
+      "websiteUrl": "https://sunsandclouds.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed",
+        "OFFICIAL_GIFT_CARD_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb62tbk002694iynay5o1a0",
+      "merchantName": "Sweetnspicy",
+      "merchantSlug": "sweetnspicy",
+      "websiteUrl": "https://sweetnspicy.gr",
+      "finalWebsiteUrl": "https://sweetnspicy.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://sweetnspicy.gr/wp-content/uploads/2016/11/cropped-spices-192x192.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 83
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1nv0400yhq8iywl3ocjxp",
+      "merchantName": "Symmetria",
+      "merchantSlug": "symmetria",
+      "websiteUrl": "https://symmetria.gr",
+      "finalWebsiteUrl": "https://www.symmetria.com/el/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:WEBSITE_REDIRECTED_TO_DIFFERENT_DOMAIN"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jlyd00hnq8iyz32uf5a8",
+      "merchantName": "T Support",
+      "merchantSlug": "t-support",
+      "websiteUrl": "https://t-support.gr",
+      "finalWebsiteUrl": "https://t-support.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://t-support.gr/image/catalog/tsupport.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 84
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jo5l00hvq8iyyy7qivp0",
+      "merchantName": "Tempus",
+      "merchantSlug": "tempus",
+      "websiteUrl": "https://tempus.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb7hygt000g04iyr77czbp5",
+      "merchantName": "The Ultimate Travel Gift",
+      "merchantSlug": "the-ultimate-travel-gift",
+      "websiteUrl": "https://divaniacropolishotel.com",
+      "finalWebsiteUrl": "https://divaniacropolishotel.com/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "DUPLICATE_ASSET_HASH_ACROSS_MERCHANTS"
+      ],
+      "bestCandidate": {
+        "url": "https://divaniacropolishotel.com/wp-content/uploads/2025/05/fav_120x120.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 81
+      },
+      "validatedAsset": {
+        "url": "https://divaniacropolishotel.com/wp-content/uploads/2025/05/fav_120x120.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 5471,
+        "width": 120,
+        "height": 120,
+        "sha256": "d8cdf498aba1399b4cb05ad8867e6e5ee1c85974ea45d425591f8a8f2334a75b"
+      }
+    },
+    {
+      "merchantId": "cmta1m2se00rlq8iybu8clfeq",
+      "merchantName": "Theknittingclub",
+      "merchantSlug": "theknittingclub",
+      "websiteUrl": "https://theknittingclub.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1m3qd00rpq8iyigim5svy",
+      "merchantName": "Theplants",
+      "merchantSlug": "theplants",
+      "websiteUrl": "https://theplants.gr",
+      "finalWebsiteUrl": "https://theplants.gr/cgi-sys/suspendedpage.cgi",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jqky00i5q8iy694cggyt",
+      "merchantName": "Tinytoes",
+      "merchantSlug": "tinytoes",
+      "websiteUrl": "https://tinytoes.gr",
+      "finalWebsiteUrl": "https://www.tinytoes.gr/product-category/gift-ideas/gift-cards/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_GIFT_CARD_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.tinytoes.gr/wp-content/themes/tinytoes/images/favico.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=shortcut icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://www.tinytoes.gr/wp-content/themes/tinytoes/images/favico.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 5430,
+        "width": 32,
+        "height": 32,
+        "sha256": "a67050a688c43c221650221d7cb767098dc5f94f6417d8cbe1fbcc87560bd63c"
+      }
+    },
+    {
+      "merchantId": "cmta1l9iw00ofq8iy7s34mm5k",
+      "merchantName": "Travelagency",
+      "merchantSlug": "travelagency",
+      "websiteUrl": "https://travelagency.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed",
+        "OFFICIAL_GIFT_CARD_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1m4q100rtq8iy63n4cf58",
+      "merchantName": "Tresorjewelry",
+      "merchantSlug": "tresorjewelry",
+      "websiteUrl": "https://tresorjewelry.gr",
+      "finalWebsiteUrl": "https://tresorjewelry.gr/",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1gyrx007lq8iyc6lx7l6y",
+      "merchantName": "Tsakirismallas",
+      "merchantSlug": "tsakirismallas",
+      "websiteUrl": "https://tsakirismallas.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb62w7u002m94iy9i8ttccn",
+      "merchantName": "Tudorhall",
+      "merchantSlug": "tudorhall",
+      "websiteUrl": "https://tudorhall.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4z66f0042sciyfrs0qo0w",
+      "merchantName": "Ullapopken",
+      "merchantSlug": "ullapopken",
+      "websiteUrl": "https://ullapopken.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed",
+        "OFFICIAL_GIFT_CARD_PAGE:fetch failed"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1laev00ojq8iyj7h4kwoj",
+      "merchantName": "Unisport",
+      "merchantSlug": "unisport",
+      "websiteUrl": "https://unisport.gr",
+      "finalWebsiteUrl": "https://www.unisport.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "JSONLD_LOGO",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.unisport.gr/favicon.ico",
+        "source": "JSONLD_LOGO",
+        "evidence": "JSON-LD logo ImageObject",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 228
+      },
+      "validatedAsset": {
+        "url": "https://www.unisport.gr/favicon.ico",
+        "contentType": "image/vnd.microsoft.icon",
+        "extension": ".ico",
+        "bytes": 4286,
+        "width": 32,
+        "height": 32,
+        "sha256": "a3fd65760ff5098dd33d622d216101582d62b3ad2296d9f856e71c3453d2e149"
+      }
+    },
+    {
+      "merchantId": "cmta1juzk00inq8iymdkvh13b",
+      "merchantName": "Verandadelvino",
+      "merchantSlug": "verandadelvino",
+      "websiteUrl": "https://verandadelvino.gr",
+      "finalWebsiteUrl": "https://www.verandadelvino.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/0f013c_8c200634d8484cf082dfa936db730ec8~mv2.jpg/v1/fill/w_800,h_800,al_c/0f013c_8c200634d8484cf082dfa936db730ec8~mv2.jpg",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -45
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1h0ki007tq8iy9qwn9glu",
+      "merchantName": "Vivliopoleiopataki",
+      "merchantSlug": "vivliopoleiopataki",
+      "websiteUrl": "https://vivliopoleiopataki.gr",
+      "finalWebsiteUrl": "https://vivliopoleiopataki.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE",
+        "SITE_ICON",
+        "SAME_SITE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://vivliopoleiopataki.gr/media/favicon/default/favicon.ico",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 68
+      },
+      "validatedAsset": {
+        "url": "https://vivliopoleiopataki.gr/media/favicon/default/favicon.ico",
+        "contentType": "image/x-icon",
+        "extension": ".ico",
+        "bytes": 894,
+        "width": 16,
+        "height": 16,
+        "sha256": "7fbb706c53de50bffd0af1335f32d4c39de5c9fef7ead74671a9ea5ca42515b7"
+      }
+    },
+    {
+      "merchantId": "cmtb7i4fg001a04iyu5nzeowe",
+      "merchantName": "Wellness Gift Cards",
+      "merchantSlug": "wellness-gift-cards",
+      "websiteUrl": "https://omhomestudio.com",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4z8pw004csciymdcih8iu",
+      "merchantName": "Wildsouls",
+      "merchantSlug": "wildsouls",
+      "websiteUrl": "https://wildsouls.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jxbr00ixq8iy0ji2ui9e",
+      "merchantName": "Winewalkers",
+      "merchantSlug": "winewalkers",
+      "websiteUrl": "https://winewalkers.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb6utaw00293giyc40zz7r9",
+      "merchantName": "www.katoflitavern.gr",
+      "merchantSlug": "www-katoflitavern-gr",
+      "websiteUrl": "https://katoflitavern.gr",
+      "finalWebsiteUrl": "https://www.katoflitavern.gr/en/product/dorokarta/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:fetch failed",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://www.katoflitavern.gr/wp-content/uploads/2024/12/cropped-istoria-192x192.webp",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": 83
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jy9c00j1q8iyyfjvma71",
+      "merchantName": "Xmode",
+      "merchantSlug": "xmode",
+      "websiteUrl": "https://xmode.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_TIMEOUT"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1jz6300j5q8iy6awj1k2h",
+      "merchantName": "You",
+      "merchantSlug": "you",
+      "websiteUrl": "https://you.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta1h2f10081q8iyet5ax0sh",
+      "merchantName": "Zalando",
+      "merchantSlug": "zalando",
+      "websiteUrl": "https://zalando.gr",
+      "finalWebsiteUrl": "https://www.zalando.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://mosaic01.ztat.net/zds/assets/favicon/zalando-app-touch-icon-180-lagom-v2.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=apple-touch-icon",
+        "declaredWidth": 180,
+        "declaredHeight": 180,
+        "score": -26
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "merchantName": "Αγοράστε μια δωροεπιταγή",
+      "merchantSlug": "αγοραστε-μια-δωροεπιταγη",
+      "websiteUrl": "https://cheapet.gr",
+      "finalWebsiteUrl": "https://cheapet.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://cheapet.gr/image/data/14-xronia-cheapet.gr.jpg",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 50
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb77srp004idkiywlcqejho",
+      "merchantName": "Αγοράστε μία Δωροκάρτα",
+      "merchantSlug": "αγοραστε-μια-δωροκαρτα",
+      "websiteUrl": "https://bekids.gr",
+      "finalWebsiteUrl": "https://bekids.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_WEBSITE_PAGE:ASSET_TOO_SMALL:271",
+        "OFFICIAL_GIFT_CARD_PAGE:STRONG_CANDIDATE_REJECTED",
+        "OFFICIAL_GIFT_CARD_PAGE:ASSET_TOO_SMALL:271"
+      ],
+      "bestCandidate": {
+        "url": "https://bekids.gr/image/catalog/graphics/favicon.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 66
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "merchantName": "Δωροκάρτα Beababy e",
+      "merchantSlug": "δωροκαρτα-beababy-e",
+      "websiteUrl": "https://beababy.gr",
+      "finalWebsiteUrl": null,
+      "status": "ERROR",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_HTTP_403",
+        "OFFICIAL_GIFT_CARD_PAGE:PAGE_HTTP_403"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4yjki001gsciyo7tcjy02",
+      "merchantName": "Δωροκάρτα από την Harpy Clothing 2026",
+      "merchantSlug": "δωροκαρτα-απο-την-harpy-clothing-2026",
+      "websiteUrl": "https://harpy.gr",
+      "finalWebsiteUrl": "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+      "status": "NONE",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_LOGO_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_LOGO_CANDIDATE"
+      ],
+      "bestCandidate": null,
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmta4yf3d000ysciy2zdlqyzw",
+      "merchantName": "Ηλεκτρονική Δωροκάρτα - SportCafe",
+      "merchantSlug": "ηλεκτρονικη-δωροκαρτα-sportcafe",
+      "websiteUrl": "https://el.sportcafe.gr",
+      "finalWebsiteUrl": "https://el.sportcafe.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "DUPLICATE_ASSET_HASH_ACROSS_MERCHANTS"
+      ],
+      "bestCandidate": {
+        "url": "https://sportcafe.gr/wp-content/uploads/2025/12/logo_black-100x34.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "img:no-lazy custom-logo no-lazy custom-logo-link SportCafe",
+        "declaredWidth": 60,
+        "declaredHeight": 105,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://sportcafe.gr/wp-content/uploads/2025/12/logo_black-100x34.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 1745,
+        "width": 100,
+        "height": 34,
+        "sha256": "c74e3a630b8772c7591abe93cdb1bca293388966d0e4c064c9ea7404059e2d43"
+      }
+    },
+    {
+      "merchantId": "cmta4z1g8003ksciycb0lyswx",
+      "merchantName": "Κάρτα Δώρου Εστιατόριο | Salero Restaurant",
+      "merchantSlug": "καρτα-δωρου-εστιατοριο-salero-restaurant",
+      "websiteUrl": "https://salero.gr",
+      "finalWebsiteUrl": "https://www.salero.gr/gift-card",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:PAGE_TIMEOUT",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/809a2a_11a5d1d63ca9482c8f6a9de5eae7e84f%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/809a2a_11a5d1d63ca9482c8f6a9de5eae7e84f%7Emv2.png",
+        "source": "SITE_ICON",
+        "evidence": "link rel=icon",
+        "declaredWidth": 192,
+        "declaredHeight": 192,
+        "score": -44
+      },
+      "validatedAsset": null
+    },
+    {
+      "merchantId": "cmtb7i0pf000s04iygmr4uj2e",
+      "merchantName": "Μασάζ & Θεραπείας",
+      "merchantSlug": "μασαζ-and-θεραπειας",
+      "websiteUrl": "https://physiowellnessathens.com",
+      "finalWebsiteUrl": "https://www.physiowellnessathens.com/gift-card",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OFFICIAL_WEBSITE_PAGE:NO_AUTO_SAFE_CANDIDATE",
+        "OFFICIAL_GIFT_CARD_PAGE:NO_AUTO_SAFE_CANDIDATE"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/2162ea_016c854c7fb54964ac4976c9c0fd43c4~mv2.png/v1/fill/w_2500,h_4444,al_c/2162ea_016c854c7fb54964ac4976c9c0fd43c4~mv2.png",
+        "source": "OG_IMAGE",
+        "evidence": "og:image",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": -29
+      },
+      "validatedAsset": null
+    }
+  ],
+  "generatedAt": "2026-09-03T10:46:57.109Z",
+  "planId": "101f3afac80a050979fa42b9cb52902cd4bbd569d6752e5934aada14ae8d0576"
+}

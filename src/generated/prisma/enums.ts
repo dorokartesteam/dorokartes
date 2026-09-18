@@ -65,6 +65,14 @@ export const RedemptionChannel = {
 export type RedemptionChannel = (typeof RedemptionChannel)[keyof typeof RedemptionChannel]
 
 
+export const LocationCapabilityType = {
+  PURCHASE_IN_STORE: 'PURCHASE_IN_STORE',
+  REDEEM_IN_STORE: 'REDEEM_IN_STORE'
+} as const
+
+export type LocationCapabilityType = (typeof LocationCapabilityType)[keyof typeof LocationCapabilityType]
+
+
 export const DeliveryMethod = {
   EMAIL: 'EMAIL',
   SMS: 'SMS',
@@ -88,6 +96,17 @@ export const SourceType = {
 } as const
 
 export type SourceType = (typeof SourceType)[keyof typeof SourceType]
+
+
+export const DiscoveryScanStatus = {
+  PENDING: 'PENDING',
+  SCANNED_NO_CANDIDATE: 'SCANNED_NO_CANDIDATE',
+  CANDIDATES_FOUND: 'CANDIDATES_FOUND',
+  BLOCKED: 'BLOCKED',
+  ERROR: 'ERROR'
+} as const
+
+export type DiscoveryScanStatus = (typeof DiscoveryScanStatus)[keyof typeof DiscoveryScanStatus]
 
 
 export const DiscoveryStatus = {
@@ -123,3 +142,69 @@ export const MediaUsageStatus = {
 } as const
 
 export type MediaUsageStatus = (typeof MediaUsageStatus)[keyof typeof MediaUsageStatus]
+
+
+export const VerificationMethod = {
+  HTTP: 'HTTP',
+  PLAYWRIGHT: 'PLAYWRIGHT',
+  LLM: 'LLM',
+  MANUAL: 'MANUAL'
+} as const
+
+export type VerificationMethod = (typeof VerificationMethod)[keyof typeof VerificationMethod]
+
+
+export const VerificationAttemptResult = {
+  PASSED: 'PASSED',
+  FAILED: 'FAILED',
+  AMBIGUOUS: 'AMBIGUOUS',
+  BLOCKED: 'BLOCKED',
+  ERROR: 'ERROR'
+} as const
+
+export type VerificationAttemptResult = (typeof VerificationAttemptResult)[keyof typeof VerificationAttemptResult]
+
+
+export const VerificationPageRole = {
+  CANONICAL_PURCHASE: 'CANONICAL_PURCHASE',
+  CHECKOUT: 'CHECKOUT',
+  TERMS: 'TERMS',
+  PROMOTION: 'PROMOTION',
+  CONTENT: 'CONTENT',
+  GIFT_GUIDE: 'GIFT_GUIDE',
+  GAMING_VOUCHER: 'GAMING_VOUCHER',
+  GENERIC: 'GENERIC',
+  UNKNOWN: 'UNKNOWN'
+} as const
+
+export type VerificationPageRole = (typeof VerificationPageRole)[keyof typeof VerificationPageRole]
+
+
+export const ReviewFlagType = {
+  ROLE_CHANGED: 'ROLE_CHANGED',
+  CANONICAL_URL_CHANGED: 'CANONICAL_URL_CHANGED',
+  FETCH_UNSTABLE: 'FETCH_UNSTABLE',
+  CONTENT_CHANGED: 'CONTENT_CHANGED'
+} as const
+
+export type ReviewFlagType = (typeof ReviewFlagType)[keyof typeof ReviewFlagType]
+
+
+export const ReviewFlagStatus = {
+  OPEN: 'OPEN',
+  RESOLVED: 'RESOLVED',
+  DISMISSED: 'DISMISSED'
+} as const
+
+export type ReviewFlagStatus = (typeof ReviewFlagStatus)[keyof typeof ReviewFlagStatus]
+
+
+export const RediscoveryTaskStatus = {
+  PENDING: 'PENDING',
+  RUNNING: 'RUNNING',
+  RESOLVED: 'RESOLVED',
+  MANUAL_REVIEW: 'MANUAL_REVIEW',
+  FAILED: 'FAILED'
+} as const
+
+export type RediscoveryTaskStatus = (typeof RediscoveryTaskStatus)[keyof typeof RediscoveryTaskStatus]

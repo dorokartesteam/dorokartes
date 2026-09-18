@@ -1,0 +1,21 @@
+{
+  "version": "catalog-recipient-evidence-v5",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-10T14:41:23.487Z",
+  "planId": "296cada553ccb1db3376e7e1757b3c9abc37b8a940af292c037eccce72360f7c",
+  "checked": 4,
+  "passed": 4,
+  "failed": [],
+  "current": {
+    "giftCards": 1135,
+    "activeCards": 1123,
+    "relations": 100,
+    "coveredCards": 63
+  },
+  "invariants": {
+    "giftCardsPreserved": true,
+    "activeCardsPreserved": true,
+    "relationCountMatches": true
+  },
+  "databaseWrites": 0
+}

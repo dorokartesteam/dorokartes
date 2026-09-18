@@ -1,0 +1,64 @@
+{
+  "version": 3,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-07T08:02:01.843Z",
+  "planId": "bfb1aeae67a14115e52f1557136776161f6790015e66dcc49ae696ec3378a983",
+  "appliedCount": 11,
+  "applied": [
+    {
+      "actionId": "update-title:cmta4ybyz000lsciyi05bqwwl",
+      "from": "Δωροκάρτα CandleJuice Gift Card 100€",
+      "to": "Candlejuice Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta4ybyz000lsciyi05bqwwl",
+      "from": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+      "to": "https://candlejuice.gr/product-category/dorokartes-candlejuice-gift-cards/"
+    },
+    {
+      "actionId": "create-digital-variant:cmta4ybyz000lsciyi05bqwwl",
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "variantId": "cmtqycr330000pkiy8auf7kcb"
+    },
+    {
+      "actionId": "update-title:cmtb78fkx007odkiylrl8o7it",
+      "from": "ΔΩΡΟΚΑΡΤΑ 100€",
+      "to": "Hobbywood Gift Card"
+    },
+    {
+      "actionId": "create-digital-variant:cmtb78fkx007odkiylrl8o7it",
+      "cardId": "cmtb78fkx007odkiylrl8o7it",
+      "variantId": "cmtqycrci0005pkiybbo8fh00"
+    },
+    {
+      "actionId": "update-title:cmta5nw9j001t54iybpluaasg",
+      "from": "Δωροκάρτα Poem-Luxury 100",
+      "to": "Poem Luxury Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmta5nw9j001t54iybpluaasg",
+      "from": "https://poem-luxury.gr/product/giftcard-100/",
+      "to": "https://poem-luxury.gr/product-category/wps_wgm_giftcard/"
+    },
+    {
+      "actionId": "create-digital-variant:cmta5nw9j001t54iybpluaasg",
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "variantId": "cmtqycrq9000cpkiy14mx8auk"
+    },
+    {
+      "actionId": "update-title:cmtb77ob5003wdkiyrw1g9la4",
+      "from": "Δωροκάρτα 40",
+      "to": "Tsiantakishome Gift Card"
+    },
+    {
+      "actionId": "update-official-url:cmtb77ob5003wdkiyrw1g9la4",
+      "from": "https://www.tsiantakishome.gr/shop/dwrokartes/dwrokarta-40e/",
+      "to": "https://www.tsiantakishome.gr/c/dwrokartes/"
+    },
+    {
+      "actionId": "create-digital-variant:cmtb77ob5003wdkiyrw1g9la4",
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "variantId": "cmtqycs21000gpkiyfxik8nw0"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "catalog-recipient-evidence-v5",
+  "mode": "APPLY",
+  "appliedAt": "2026-09-10T14:41:03.004Z",
+  "planId": "296cada553ccb1db3376e7e1757b3c9abc37b8a940af292c037eccce72360f7c",
+  "applied": 4,
+  "before": {
+    "giftCards": 1135,
+    "activeCards": 1123,
+    "relations": 96,
+    "coveredCards": 62
+  },
+  "after": {
+    "giftCards": 1135,
+    "activeCards": 1123,
+    "relations": 100,
+    "coveredCards": 63
+  }
+}

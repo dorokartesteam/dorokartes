@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "d4ddb6b60e496c5bf0eae6fe0b9fb9b3a7229e8d9fd623f395d59a479eb2f2c3",
+  "targetCount": 1,
+  "concurrency": 12,
+  "summary": {
+    "safe": 1,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta4z66f0042sciyfrs0qo0w:ad8e826db38b",
+      "merchantId": "cmta4z66f0042sciyfrs0qo0w",
+      "merchantName": "Ullapopken",
+      "merchantSlug": "ullapopken",
+      "websiteUrl": "https://ullapopken.gr/",
+      "sourceUrl": "https://www.ullapopken.gr/wp-content/uploads/2026/08/logo-ullapopken.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 334,
+      "sha256": "ad8e826db38b545f3434fc95cbdbff40a3b80d00d540c2e01ff8a646c3909feb",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 3017,
+      "width": 243,
+      "height": 93,
+      "localUrl": "/merchant-logos/ullapopken-ad8e826db38b.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta4z66f0042sciyfrs0qo0w",
+      "merchantName": "Ullapopken",
+      "merchantSlug": "ullapopken",
+      "websiteUrl": "https://ullapopken.gr",
+      "finalWebsiteUrl": "https://ullapopken.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.ullapopken.gr/wp-content/uploads/2026/08/logo-ullapopken.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": {
+        "url": "https://www.ullapopken.gr/wp-content/uploads/2026/08/logo-ullapopken.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 3017,
+        "width": 243,
+        "height": 93,
+        "sha256": "ad8e826db38b545f3434fc95cbdbff40a3b80d00d540c2e01ff8a646c3909feb"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T18:46:23.246Z",
+  "planId": "ce8728c48cd8421752622b76a5b17fd769b530ee7030234c2aeee2b8650f0b9f"
+}

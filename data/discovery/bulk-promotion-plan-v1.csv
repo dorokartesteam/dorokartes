@@ -1,0 +1,24 @@
+﻿action,discovery_id,merchant_name,official_domain,official_url,existing_merchant,existing_merchant_id,gift_card_title,source_name,reason
+SKIP_REVIEW,cmt9rr2yh000hzkiyraoi1fit,Carpetlinen,,,,,Carpetlinen Δωροκάρτα,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0kgj0004kciyu047mn2y,New Cult,,,,,New Cult Δωροκάρτα E-gift Card,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0kkc0005kciyksogqosl,Theros Jewels,,,,,Theros Jewels Δωροκάρτα Gift Card,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0ko60006kciyy7h7gxow,ΙΑΝΟΣ,,,,,ΙΑΝΟΣ Δωροκάρτα Gift Card,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0krs0007kciyj5q804us,Battery Park,,,,,Battery Park – Δωροκάρτα – Δωροεπιταγή – Gift Card,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0l9c000ckciywpza87j6,SportsPoint,,,,,SportsPoint Δωροκάρτα Gift Card!,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0ln2000gkciyl4fp05qv,FunkyBuddha,,,,,FunkyBuddha Δωροκάρτα – Δωροεπιταγή!,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0lr3000hkciyomsgk1jf,La Millou,,,,,La Millou Δωροκάρτα!,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0lxv000jkciyvvmxc54c,E-string,,,,,E-string Δωροεπιταγή,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+SKIP_REVIEW,cmt9s0m13000kkciy9c0mt2b7,Myikona,,,,,Myikona Δωροκάρτα – Δωροεπιταγή,Kouponia365 Gift Cards,Missing or invalid possibleOfficialUrl
+CREATE_MERCHANT_AND_CARD,cmt9x4fv20067t0iyvdus5mjl,LEGO Store Greece,lego.storegreece.gr,https://www.lego.storegreece.gr/,,,LEGO Store Greece Gift Card,Google Serper Strict v2,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvct0000q0iylqbmocq0,Business Travel,business-travel.gr,https://business-travel.gr/,,,Business Travel Gift Card,Final 13 Import v1,New distinct merchant candidate
+REUSE_MERCHANT_CREATE_CARD,cmtb7qvf20001q0iyy8a9t84d,Chania Culture,shop.chania-culture.gr,https://shop.chania-culture.gr/,Chania Culture,cmtb77ti7004mdkiyn5wn9fgi,Chania Culture Gift Card,Final 13 Import v1,Merchant already exists by exact domain/name; create/reuse card safely
+CREATE_MERCHANT_AND_CARD,cmtb7qvh90002q0iytbynj4d1,Cla Chic,clachic.gr,https://www.clachic.gr/,,,Cla Chic Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvit0003q0iyb36cyvlk,Digas,digas.gr,https://www.digas.gr/,,,Digas Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvl40004q0iysz3owry8,Dioptra,dioptra.gr,https://www.dioptra.gr/,,,Dioptra Gift Card,Final 13 Import v1,New distinct merchant candidate
+REUSE_MERCHANT_CREATE_CARD,cmtb7qvmk0005q0iyvtmv62b6,KOIS Optics,kois.e-pragma.gr,https://kois.e-pragma.gr/,Kois Optics,cmta1in0q00ddq8iy9ou6k8vv,KOIS Optics Gift Card,Final 13 Import v1,Merchant already exists by exact domain/name; create/reuse card safely
+CREATE_MERCHANT_AND_CARD,cmtb7qvql0006q0iygbxxjncq,LVK Premium Fitness,lvk.ufr.gr,https://lvk.ufr.gr/,,,LVK Premium Fitness Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvs50007q0iyhezduigj,MAC Cosmetics Greece,maccosmetics.gr,https://www.maccosmetics.gr/,,,MAC Cosmetics Greece Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvtw0008q0iys1xawogs,Royal Grand Hotel,royalgrandhotel.gr,https://royalgrandhotel.gr/,,,Royal Grand Hotel Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvvi0009q0iyj3n0qjau,Santo Wines,santowines.gr,https://santowines.gr/,,,Santo Wines Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvx4000aq0iy6fkma2kh,Sports Direct Greece,sportsdirect.gr,https://www.sportsdirect.gr/,,,Sports Direct Greece Gift Card,Final 13 Import v1,New distinct merchant candidate
+CREATE_MERCHANT_AND_CARD,cmtb7qvyt000bq0iy66ug0ph7,Summit Gym,summitgym.ufr.gr,https://summitgym.ufr.gr/,,,Summit Gym Gift Card,Final 13 Import v1,New distinct merchant candidate

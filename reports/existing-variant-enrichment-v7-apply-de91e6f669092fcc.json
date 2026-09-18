@@ -1,0 +1,99 @@
+{
+  "version": 7,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-08T14:01:18.986Z",
+  "planId": "de91e6f669092fcce4908d5074a745cb9f0cc9305255820a6a12953bc5ffafb9",
+  "lineagePlanIds": [
+    "f3aca3c7d626eedc32f5a128ab4e1c3fcd672ae80641ede87ebfe9637cb5fbf4"
+  ],
+  "appliedCount": 6,
+  "applied": [
+    {
+      "actionId": "update-official-url:cmta4yw6q002xsciynztac1t7",
+      "from": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "to": "https://www.msystems.gr/gifcards"
+    },
+    {
+      "actionId": "update-variant-fields:cmta4yw6q002xsciynztac1t7",
+      "variantId": "cmtqxzk71000c6oiyzwws7bee",
+      "before": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "10",
+        "maxValue": "10",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+        "validityMonths": 12,
+        "validityText": null,
+        "active": true
+      },
+      "after": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "10",
+        "maxValue": "150",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://www.msystems.gr/gifcards",
+        "validityMonths": 12,
+        "validityText": null,
+        "active": true
+      }
+    },
+    {
+      "actionId": "add-variant-values:cmta4yw6q002xsciynztac1t7",
+      "variantId": "cmtqxzk71000c6oiyzwws7bee",
+      "addedValues": [
+        "20",
+        "30",
+        "50",
+        "100",
+        "150"
+      ]
+    },
+    {
+      "actionId": "update-official-url:cmta1jdvx00gqq8iy4767yu90",
+      "from": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+      "to": "https://secretsofbeauty.gr/doroepitages-spa"
+    },
+    {
+      "actionId": "update-variant-fields:cmta1jdvx00gqq8iy4767yu90",
+      "variantId": "cmtn5x8jc000blsiycqwempns",
+      "before": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "300",
+        "maxValue": "300",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+        "validityMonths": null,
+        "validityText": null,
+        "active": true
+      },
+      "after": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "40",
+        "maxValue": "300",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://secretsofbeauty.gr/doroepitages-spa",
+        "validityMonths": 6,
+        "validityText": null,
+        "active": true
+      }
+    },
+    {
+      "actionId": "add-variant-values:cmta1jdvx00gqq8iy4767yu90",
+      "variantId": "cmtn5x8jc000blsiycqwempns",
+      "addedValues": [
+        "40",
+        "70",
+        "100",
+        "200"
+      ]
+    }
+  ]
+}

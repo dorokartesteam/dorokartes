@@ -1,0 +1,22 @@
+{
+  "version": "occasion-evidence-v7",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-12T09:17:13.626Z",
+  "planId": "85763982d257cf2beeb38e4c666d724f76b2a7d00e4a0cb25729a556c28056f8",
+  "checked": 19,
+  "passed": 19,
+  "failed": [],
+  "current": {
+    "totalGiftCards": 1135,
+    "activeCards": 1123,
+    "relations": 182,
+    "coveredActiveCards": 109
+  },
+  "invariants": {
+    "totalGiftCardsPreserved": true,
+    "activeCardsPreserved": true,
+    "relationCountMatches": true,
+    "coveredCardCountMatches": true
+  },
+  "databaseWrites": 0
+}

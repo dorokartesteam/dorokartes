@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:25:29.081Z",
+  "planId": "efd8cb5a59612b81c3592b15526fa1beec07161b58a33ac3166dab6ee0cbe010",
+  "appliedCount": 4,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb6udw300003giywjrb4w57:8cfbdbe781f8",
+      "merchantId": "cmtb6udw300003giywjrb4w57",
+      "localUrl": "/merchant-logos/5star-travel-8cfbdbe781f8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nlc8000654iynn5wpmru:87da1b4049ab",
+      "merchantId": "cmta5nlc8000654iynn5wpmru",
+      "localUrl": "/merchant-logos/athens-green-apartments-87da1b4049ab.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hn3o009lq8iyhn7qa9mo:ba957a696c1a",
+      "merchantId": "cmta1hn3o009lq8iyhn7qa9mo",
+      "localUrl": "/merchant-logos/bloss-ba957a696c1a.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m5mp00rxq8iyvry3zmpd:a0f56cdae390",
+      "merchantId": "cmta1m5mp00rxq8iyvry3zmpd",
+      "localUrl": "/merchant-logos/cakeshop-a0f56cdae390.png"
+    }
+  ]
+}

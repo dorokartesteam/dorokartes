@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:18:44.151Z",
+  "planId": "4dbe81ed3354f4474bb1e46632a66bfc8b24c9959679f1ad800bb785a6b66f51",
+  "appliedCount": 4,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1mogm00tvq8iye33nmifv:ab329c8b504d",
+      "merchantId": "cmta1mogm00tvq8iye33nmifv",
+      "localUrl": "/merchant-logos/carlamco-ab329c8b504d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hru700a3q8iy6vn9whln:97ee2452401c",
+      "merchantId": "cmta1hru700a3q8iy6vn9whln",
+      "localUrl": "/merchant-logos/cavallo-97ee2452401c.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6upj2001p3giy68izspkm:5ca98348ddae",
+      "merchantId": "cmtb6upj2001p3giy68izspkm",
+      "localUrl": "/merchant-logos/gelia-jewelry-and-creations-5ca98348ddae.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1imn100dbq8iyn4nhj89a:80f07db3eb3f",
+      "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+      "localUrl": "/merchant-logos/kikoo-80f07db3eb3f.png"
+    }
+  ]
+}

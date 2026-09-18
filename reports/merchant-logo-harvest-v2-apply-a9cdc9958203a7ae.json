@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T10:53:29.223Z",
+  "planId": "a9cdc9958203a7aeb4050494a350466b44a8ae4827b7ac89483649416cc8decd",
+  "appliedCount": 10,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmt79icwc000084iyqmpbd9de:0bcc34187942",
+      "merchantId": "cmt79icwc000084iyqmpbd9de",
+      "localUrl": "/merchant-logos/aegean-0bcc34187942.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62j5r000m94iy0ng8c71m:0b7bf5e9745c",
+      "merchantId": "cmtb62j5r000m94iy0ng8c71m",
+      "localUrl": "/merchant-logos/gbroofgarden-0b7bf5e9745c.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8fazwh000a6kiymri92mev:79eab686a5c7",
+      "merchantId": "cmt8fazwh000a6kiymri92mev",
+      "localUrl": "/merchant-logos/hondos-center-79eab686a5c7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79if46000n84iyg23kadng:cefa05ec6a21",
+      "merchantId": "cmt79if46000n84iyg23kadng",
+      "localUrl": "/merchant-logos/ikea-cefa05ec6a21.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gong006jq8iy8ppr191d:ce7c47753beb",
+      "merchantId": "cmta1gong006jq8iy8ppr191d",
+      "localUrl": "/merchant-logos/intersport-ce7c47753beb.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r49p000eu8iycsuq1r0y:fda3169d6c6f",
+      "merchantId": "cmtb7r49p000eu8iycsuq1r0y",
+      "localUrl": "/merchant-logos/mac-cosmetics-fda3169d6c6f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1is0q00e1q8iyq80c6tz9:85ed78901424",
+      "merchantId": "cmta1is0q00e1q8iyq80c6tz9",
+      "localUrl": "/merchant-logos/mango-85ed78901424.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r5dn000ku8iy3eejddyt:21b3bd84c6a4",
+      "merchantId": "cmtb7r5dn000ku8iy3eejddyt",
+      "localUrl": "/merchant-logos/sports-direct-21b3bd84c6a4.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62w7u002m94iy9i8ttccn:fd3945a99d7d",
+      "merchantId": "cmtb62w7u002m94iy9i8ttccn",
+      "localUrl": "/merchant-logos/tudorhall-fd3945a99d7d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jz6300j5q8iy6awj1k2h:fa6162601c80",
+      "merchantId": "cmta1jz6300j5q8iy6awj1k2h",
+      "localUrl": "/merchant-logos/you-fa6162601c80.png"
+    }
+  ]
+}

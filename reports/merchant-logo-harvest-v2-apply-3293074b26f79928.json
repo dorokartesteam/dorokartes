@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T11:09:03.493Z",
+  "planId": "3293074b26f79928759264d6c70caf73c473f879ae9e9b05cf15afc538dfc477",
+  "appliedCount": 5,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb7hyti000i04iyexyvbb7e:d8cdf498aba1",
+      "merchantId": "cmtb7hyti000i04iyexyvbb7e",
+      "localUrl": "/merchant-logos/and-spa-vouchers-d8cdf498aba1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ewc60008q8iydtjsz5cv:d8cdf498aba1",
+      "merchantId": "cmta1ewc60008q8iydtjsz5cv",
+      "localUrl": "/merchant-logos/divani-collection-d8cdf498aba1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gxff007fq8iy28qeo2n2:c74e3a630b87",
+      "merchantId": "cmta1gxff007fq8iy28qeo2n2",
+      "localUrl": "/merchant-logos/sportcafe-c74e3a630b87.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hygt000g04iyr77czbp5:d8cdf498aba1",
+      "merchantId": "cmtb7hygt000g04iyr77czbp5",
+      "localUrl": "/merchant-logos/the-ultimate-travel-gift-d8cdf498aba1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yf3d000ysciy2zdlqyzw:c74e3a630b87",
+      "merchantId": "cmta4yf3d000ysciy2zdlqyzw",
+      "localUrl": "/merchant-logos/sportcafe-c74e3a630b87.png"
+    }
+  ]
+}

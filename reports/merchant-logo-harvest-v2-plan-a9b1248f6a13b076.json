@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "631b0f9cd39a56c23f93be4a6a9afb0e10c4dc0583da0b5d122305e1efa12446",
+  "targetCount": 2,
+  "concurrency": 12,
+  "summary": {
+    "safe": 2,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmtb7i26i000z04iyas90sthl:3dca1e5a62c0",
+      "merchantId": "cmtb7i26i000z04iyas90sthl",
+      "merchantName": "Mindful Touch",
+      "merchantSlug": "massage-gift-card-by-mindful-touch-in-chania-crete",
+      "websiteUrl": "https://massage-crete.com/",
+      "sourceUrl": "https://massage-crete.com/wp-content/uploads/2025/04/FINAL-1-1030x295.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 245,
+      "sha256": "3dca1e5a62c0efa6502011dfb7eb95ad7faf568f1f20cddb9e0d19fafa306793",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 57333,
+      "width": 1030,
+      "height": 295,
+      "localUrl": "/merchant-logos/massage-gift-card-by-mindful-touch-in-chania-crete-3dca1e5a62c0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6utaw00293giyc40zz7r9:f728cbb16f96",
+      "merchantId": "cmtb6utaw00293giyc40zz7r9",
+      "merchantName": "www.katoflitavern.gr",
+      "merchantSlug": "www-katoflitavern-gr",
+      "websiteUrl": "https://katoflitavern.gr/",
+      "sourceUrl": "https://www.katoflitavern.gr/wp-content/uploads/2025/01/logo600px.webp",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 318,
+      "sha256": "f728cbb16f96675fe9c4502ab1ec249738a22149a15bda8aa53b1d82cbbe0c63",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 7462,
+      "width": 600,
+      "height": 74,
+      "localUrl": "/merchant-logos/www-katoflitavern-gr-f728cbb16f96.webp"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb7i26i000z04iyas90sthl",
+      "merchantName": "Mindful Touch",
+      "merchantSlug": "massage-gift-card-by-mindful-touch-in-chania-crete",
+      "websiteUrl": "https://massage-crete.com",
+      "finalWebsiteUrl": "https://massage-crete.com/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://massage-crete.com/wp-content/uploads/2025/04/FINAL-1-1030x295.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 245
+      },
+      "validatedAsset": {
+        "url": "https://massage-crete.com/wp-content/uploads/2025/04/FINAL-1-1030x295.jpg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 57333,
+        "width": 1030,
+        "height": 295,
+        "sha256": "3dca1e5a62c0efa6502011dfb7eb95ad7faf568f1f20cddb9e0d19fafa306793"
+      }
+    },
+    {
+      "merchantId": "cmtb6utaw00293giyc40zz7r9",
+      "merchantName": "www.katoflitavern.gr",
+      "merchantSlug": "www-katoflitavern-gr",
+      "websiteUrl": "https://katoflitavern.gr",
+      "finalWebsiteUrl": "https://katoflitavern.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.katoflitavern.gr/wp-content/uploads/2025/01/logo600px.webp",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": {
+        "url": "https://www.katoflitavern.gr/wp-content/uploads/2025/01/logo600px.webp",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 7462,
+        "width": 600,
+        "height": 74,
+        "sha256": "f728cbb16f96675fe9c4502ab1ec249738a22149a15bda8aa53b1d82cbbe0c63"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T18:54:58.694Z",
+  "planId": "a9b1248f6a13b07623450d817a09f513906aa86d315f4d91c35572a819837def"
+}

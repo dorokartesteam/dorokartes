@@ -1,0 +1,617 @@
+{
+  "checkedAt": "2026-09-15T08:18:35.332Z",
+  "total": 99,
+  "changed": 66,
+  "structured": 28,
+  "kept": 4,
+  "sourceBlockers": 29,
+  "dispositions": [
+    {
+      "cardId": "cmta1ezdj000jq8iyh7o6gmjd",
+      "merchant": "GC-TECH",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage has no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1eztn000lq8iyz17iv7nt",
+      "merchant": "Sportys",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Programme and delivery methods confirmed; current 90 EUR purchase option not yet verified."
+    },
+    {
+      "cardId": "cmta1f09t000nq8iyx3uehika",
+      "merchant": "Adagio",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official site blocks HTTP and browser access (403/security challenge)."
+    },
+    {
+      "cardId": "cmta1f0po000pq8iytwczl1ho",
+      "merchant": "Play-sports",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Gift-card category exists but contains no purchasable gift cards."
+    },
+    {
+      "cardId": "cmta1f16s000rq8iy7vke82nt",
+      "merchant": "John-Andy",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1f888001jq8iyip6oud9c",
+      "merchant": "Theodorou.Shop",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fa1z001rq8iyz9bikmb5",
+      "merchant": "DigiShark",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fahw001tq8iy1xha6nv0",
+      "merchant": "Toys and Gifts",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Browser reaches homepage; no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1fbd9001xq8iy16jadarj",
+      "merchant": "Babydream",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage and voucher form both return Cloudflare 403."
+    },
+    {
+      "cardId": "cmta1feu80029q8iy3p7bdse4",
+      "merchant": "skakistikokentro.com",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1ffa4002bq8iy5k6w34t1",
+      "merchant": "Shopdali",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fgap002dq8iyswsnc8wa",
+      "merchant": "Niceyou",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official site blocks HTTP and browser access with Cloudflare 403."
+    },
+    {
+      "cardId": "cmta1fj1o002lq8iyo5np81fy",
+      "merchant": "Ipatios",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fjhs002nq8iyk0isu1fk",
+      "merchant": "Bonsai Home",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1fk9b002pq8iyf5m36fcm",
+      "merchant": "Grill me",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1flev002rq8iyn4j6f4f1",
+      "merchant": "Kounio",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1fnc4002zq8iy3yrpxjfz",
+      "merchant": "Ekklisiastika Karditsa",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage confirms business identity but no current gift-card offer."
+    },
+    {
+      "cardId": "cmta1foot0035q8iyj3zj3bf1",
+      "merchant": "Chicbee",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1fpyi0039q8iyyzfu0kma",
+      "merchant": "Pragmatic",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fqnv003bq8iy3xbbgzju",
+      "merchant": "PNN Nightwear",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1frxq003fq8iydayuc6sk",
+      "merchant": "Farmakeio4all",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fsds003hq8iywvbrxbq7",
+      "merchant": "LIAKOPOULOS Brands Store",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official gift-card category explicitly has no matching products."
+    },
+    {
+      "cardId": "cmta1fsu3003jq8iy5qqq6jin",
+      "merchant": "Ergaleiogatos",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1fu97003pq8iyip5e1paw",
+      "merchant": "Z-Ergaleia",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage has no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1gg4h005sq8iyehntb76m",
+      "merchant": "Agathou",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1glxb006aq8iyq6z8shi9",
+      "merchant": "Efarmakeio",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1grv5006uq8iye4j038gk",
+      "merchant": "Laloo",
+      "result": "CONFIRMED_KEEP",
+      "reason": "Existing denomination-specific title agrees with official source; no confirmed correction."
+    },
+    {
+      "cardId": "cmta1gsbd006wq8iy8x59y1jr",
+      "merchant": "Maniashome",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1gu640074q8iyaanq8e4u",
+      "merchant": "Paokfc",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Stored URL leads to club news; no verified current PAOK Store gift-card purchase URL."
+    },
+    {
+      "cardId": "cmta1gvbd0078q8iyfrpuq3og",
+      "merchant": "Phoskitchenware",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1gy2c007iq8iysz2lc12v",
+      "merchant": "Toys Shop",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official page times out; browser also cannot load it."
+    },
+    {
+      "cardId": "cmta1h0ab007sq8iyxev6cx5s",
+      "merchant": "Undergroundshop",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage has no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1hb5r008iq8iyqvjs32oy",
+      "merchant": "Ammashop",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official page returns Loading shell; browser returns 403."
+    },
+    {
+      "cardId": "cmta1hgn5008wq8iy1ksubp16",
+      "merchant": "Avvento Shoes",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1hiz30092q8iyqu6sq314",
+      "merchant": "Bbq",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1hjk40094q8iyvworgly4",
+      "merchant": "Beauty Case",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1hkhz0098q8iyjadmmr3n",
+      "merchant": "Beautylink",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1hlab009cq8iyuzff3nxc",
+      "merchant": "Beautyprincess",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1hs0500a4q8iy6cmwyvew",
+      "merchant": "Cavallo",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1hvnc00aiq8iy7f43du8p",
+      "merchant": "Dbsounds",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage has no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1hw4400akq8iykgucmned",
+      "merchant": "Decolight",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1i8n300boq8iydt4qw67b",
+      "merchant": "Fantasea",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1iad800bwq8iyw7ce55ti",
+      "merchant": "Funkymonkeyshoes",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1icyu00c8q8iytwvndmek",
+      "merchant": "Harmanis",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official site blocks HTTP and browser access with Cloudflare 403."
+    },
+    {
+      "cardId": "cmta1ilzk00d8q8iy2h8zeglu",
+      "merchant": "Kazi",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1ims300dcq8iy209yelks",
+      "merchant": "Kikoo",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1inkb00dgq8iyu0pfa6d9",
+      "merchant": "Lamillou",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1iskl00e4q8iy4blzttgs",
+      "merchant": "Maralcrafts",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1iszf00e6q8iyhvyjlqm9",
+      "merchant": "Marketfix",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Marketplace listing identifies Niyamas as issuer; cannot relabel it as a Marketfix card or merge relations without issuer evidence."
+    },
+    {
+      "cardId": "cmta1iw3700emq8iyu2nqv2dn",
+      "merchant": "Mfdayspa",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1ix8a00esq8iyx9vwmckf",
+      "merchant": "Mikelidis",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1iyw100f0q8iyyl3g2m31",
+      "merchant": "Motovinios",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1j77e00fyq8iyr9b9nm78",
+      "merchant": "Parnass",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Current official amounts differ from the stored 120 EUR offer; do not invent continuity between products."
+    },
+    {
+      "cardId": "cmta1j7oa00g0q8iygdnjdv5j",
+      "merchant": "Parousiafashion",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1jay200geq8iyzdfxuwo3",
+      "merchant": "Pleasurefashion",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Gift-card category found, but product links return 404/500; no verified replacement for the 30 EUR card."
+    },
+    {
+      "cardId": "cmta1jgrc00h2q8iylmuzku7m",
+      "merchant": "Sonice",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1jijd00haq8iy0wkujph9",
+      "merchant": "Stickit",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1jsr800ieq8iywfmnl4tl",
+      "merchant": "Turritella",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Digital programme confirmed; current 50 EUR amount not exposed by reachable collection pages."
+    },
+    {
+      "cardId": "cmta1jyv900j4q8iyp2i9pyz5",
+      "merchant": "Yellowstars",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1k33j00jmq8iy7dosx0mg",
+      "merchant": "Wine24shop",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Stored 20 EUR title leads to 100 EUR product; no confirmed current 20 EUR product or equivalence."
+    },
+    {
+      "cardId": "cmta1k3kn00joq8iyvt4mz4a4",
+      "merchant": "Afroditesbeaute",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1k5f500jwq8iyplvt7fkz",
+      "merchant": "Annamariamazaraki",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage has no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1kaap00kgq8iyxyxwrv9r",
+      "merchant": "Medi Shop",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1kard00kiq8iyc8lsfv9b",
+      "merchant": "Melispa",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1kk4900lkq8iyorzj05jc",
+      "merchant": "Celesteshop",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1kqbn00maq8iyrbgsvpn7",
+      "merchant": "Hobbylobby Yarns",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1ktry00moq8iyk8cnm3ts",
+      "merchant": "Luckytravel",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1kyj500n8q8iyln315obv",
+      "merchant": "Palazzodiscarpe",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1l18300niq8iyfjqu39zb",
+      "merchant": "Psaltou",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1ld1900ouq8iyh416pr6o",
+      "merchant": "Petrichor",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1lg2500p6q8iyyuuzs7jr",
+      "merchant": "Woodyline",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1lj9c00piq8iynmfth5h9",
+      "merchant": "Kantarzoglou",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Stored URL is a login-only My Gift Cards account page, not a public purchase offer."
+    },
+    {
+      "cardId": "cmta1lpfx00q6q8iyf11yv5pi",
+      "merchant": "Amourianosoptics",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1m6ad00s0q8iyjl5guf73",
+      "merchant": "Dromeasbikes",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1m6ti00s2q8iyv2uhr92n",
+      "merchant": "E Snacks",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1m7h100s4q8iy0yg57q08",
+      "merchant": "E Socks",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1mtta00ugq8iy0fpw7nra",
+      "merchant": "Dalis",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1myap00uyq8iy05wx63jv",
+      "merchant": "Enchriso",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official TLS certificate failure; browser also cannot load the page."
+    },
+    {
+      "cardId": "cmta1n88i00w2q8iyediptv4s",
+      "merchant": "Kaelego",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official page returns 502; browser retry times out."
+    },
+    {
+      "cardId": "cmta1n9za00w8q8iy7ywbxcsm",
+      "merchant": "Krikisbeauty",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta1ndg700wmq8iy0aym5v5k",
+      "merchant": "Marinospor",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Official homepage has no current gift-card product or amount evidence."
+    },
+    {
+      "cardId": "cmta1nh7b00x0q8iyvpuik4zd",
+      "merchant": "Morfibeauty",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Gift-card text identifies janeiredale.gr and issuer contact; issuer/retailer relationship requires clarification."
+    },
+    {
+      "cardId": "cmta1nnui00xqq8iyverz0w50",
+      "merchant": "Profitstore",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta1o01w00z2q8iyrp45us19",
+      "merchant": "Yourdigitalcourses",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Gift-card description has a January 31 redemption deadline without a year; current validity is unconfirmed."
+    },
+    {
+      "cardId": "cmta4239t000at8iyxdbmhou6",
+      "merchant": "Powerpharm",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmta4ytua002nsciye5jdpjc2",
+      "merchant": "Megafitness",
+      "result": "CONFIRMED_KEEP",
+      "reason": "Existing denomination-specific title agrees with official source; no confirmed correction."
+    },
+    {
+      "cardId": "cmta4yuag002psciyoexjru1o",
+      "merchant": "Mgsound",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmta5nucz001j54iyk2uep1aq",
+      "merchant": "Myprotein",
+      "result": "CONFIRMED_KEEP",
+      "reason": "Existing denomination-specific title agrees with official source; no confirmed correction."
+    },
+    {
+      "cardId": "cmta5ny2d002354iyvhj9mkz0",
+      "merchant": "Smaragdasart",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmtb6ui6j000n3giy2kh8ox6c",
+      "merchant": "Black Lotus Massage",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmtb6v04k003a3giyiu8s30dd",
+      "merchant": "Outdoorway",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmtb7718b000ldkiynw5j1q46",
+      "merchant": "Cordella",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmtb774ej0011dkiy2n93voje",
+      "merchant": "Fagotto Books",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmtb774sd0013dkiy6s1lutst",
+      "merchant": "Feed Me",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmtb7774t001fdkiyhs33c0v6",
+      "merchant": "God Bless Women",
+      "result": "BLOCKED_BY_SOURCE",
+      "reason": "Original CHF gift-card URL returns 404; browser hits security challenge. No verified replacement."
+    },
+    {
+      "cardId": "cmtb779he001rdkiycol4bpk0",
+      "merchant": "Ioannou Cosmetics",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmtb77c840025dkiy8nltursd",
+      "merchant": "Melissinos Sandals",
+      "result": "NORMALIZE_AND_STRUCTURE",
+      "remaining": null
+    },
+    {
+      "cardId": "cmtb77pqn0044dkiykqllgm6x",
+      "merchant": "Vinoteca",
+      "result": "NORMALIZE_CONFIRMED_FIELDS",
+      "remaining": "Delivery type unconfirmed; denomination retained in title."
+    },
+    {
+      "cardId": "cmtb78e22007gdkiyojyhhg7e",
+      "merchant": "Zador",
+      "result": "CONFIRMED_KEEP",
+      "reason": "Existing denomination-specific title agrees with official source; no confirmed correction."
+    }
+  ],
+  "newVariants": 28,
+  "structuredValues": 127,
+  "preservedDenominationsPendingType": 38,
+  "checks": {
+    "databasePassed": 99,
+    "databaseTotal": 99,
+    "productionTitlesAndCtasPassed": 66,
+    "productionTotal": 66,
+    "scopedEslint": "PASS",
+    "fullBuildRun": false
+  },
+  "applicationCodeChanged": false,
+  "schemaChanged": false
+}

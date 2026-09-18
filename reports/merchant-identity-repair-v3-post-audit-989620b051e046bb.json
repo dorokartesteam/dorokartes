@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-07T07:23:42.269Z",
+  "planId": "989620b051e046bb5462e36f042902043243366e0efbfeb8bc20a592b3cc0e62",
+  "checkedTargets": 5,
+  "passed": true,
+  "databaseWrites": 0,
+  "checks": [
+    {
+      "merchantId": "cmtb77srp004idkiywlcqejho",
+      "giftCardId": "cmtb77swu004jdkiyug4cfe0j",
+      "passed": true,
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4ywgf002ysciysp63rctm",
+      "giftCardId": "cmta4ywn6002zsciyr9vasxj3",
+      "passed": true,
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb787zh006ndkiyobzskgz8",
+      "giftCardId": "cmtb78851006odkiyq49ms3f9",
+      "passed": true,
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb77a4l001udkiyprjgdlft",
+      "giftCardId": "cmtb77aa9001vdkiykzcb5zp5",
+      "passed": true,
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb77dz2002edkiyhwhmrr7j",
+      "giftCardId": "cmtb77e4k002fdkiygyq7c6md",
+      "passed": true,
+      "immutableUrlsAndSlugs": true
+    }
+  ]
+}

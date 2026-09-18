@@ -1,0 +1,363 @@
+
+/* ==========================================================================
+   Dorokartes Public v1.3 — UI Repair / Typography / Cards / Footer
+   ========================================================================== */
+
+.dk-public,
+.dk-public *{
+  font-family:"Aptos","Helvetica Neue",Arial,sans-serif !important;
+}
+
+.dk-public{
+  color:#191b27 !important;
+  background:#fbfbfd !important;
+}
+
+.dk-public h1,
+.dk-public h2,
+.dk-public h3,
+.dk-public b,
+.dk-public strong{
+  font-family:"Aptos Display","Aptos","Helvetica Neue",Arial,sans-serif !important;
+}
+
+/* HEADER */
+.dk-public-header{
+  min-height:76px !important;
+  background:rgba(255,255,255,.96) !important;
+  border-bottom:1px solid #ececf2 !important;
+}
+.dk-public-header-inner{
+  height:76px !important;
+  display:flex !important;
+  align-items:center !important;
+  gap:26px !important;
+}
+.dk-public-brand{
+  display:flex !important;
+  align-items:center !important;
+  gap:11px !important;
+  text-decoration:none !important;
+  margin-right:auto !important;
+}
+.dk-public-brand b{
+  display:block !important;
+  font-size:20px !important;
+  font-weight:750 !important;
+}
+.dk-public-brand span{
+  display:block !important;
+  color:#8d93a3 !important;
+  font-size:10px !important;
+}
+.dk-public-nav{
+  display:flex !important;
+  align-items:center !important;
+  gap:4px !important;
+}
+.dk-public-nav a{
+  padding:10px 12px !important;
+  border-radius:10px !important;
+  text-decoration:none !important;
+  color:#626a7a !important;
+  font-size:13px !important;
+  font-weight:650 !important;
+}
+.dk-public-find{
+  height:42px !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  padding:0 16px !important;
+  border-radius:12px !important;
+  background:linear-gradient(135deg,#7e63eb,#634bd1) !important;
+  color:#fff !important;
+  text-decoration:none !important;
+  font-size:13px !important;
+  font-weight:700 !important;
+}
+
+/* SEARCH — force it back and keep it visible */
+.dk-public-search{
+  display:grid !important;
+  grid-template-columns:32px minmax(0,1fr) auto !important;
+  align-items:center !important;
+  width:min(820px,100%) !important;
+  min-height:62px !important;
+  margin:28px 0 0 !important;
+  padding:7px 8px 7px 16px !important;
+  border:1px solid #dddfea !important;
+  border-radius:18px !important;
+  background:#fff !important;
+  box-shadow:0 16px 44px rgba(49,42,91,.11) !important;
+}
+.dk-public-search>span{
+  display:block !important;
+  color:#877ca8 !important;
+  font-size:20px !important;
+}
+.dk-public-search input{
+  display:block !important;
+  width:100% !important;
+  min-width:0 !important;
+  height:46px !important;
+  border:0 !important;
+  outline:0 !important;
+  background:transparent !important;
+  padding:0 10px !important;
+  color:#252837 !important;
+  font-size:15px !important;
+}
+.dk-public-search button{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  height:48px !important;
+  padding:0 22px !important;
+  border:0 !important;
+  border-radius:13px !important;
+  background:#181b25 !important;
+  color:#fff !important;
+  font-size:13px !important;
+  font-weight:700 !important;
+  cursor:pointer !important;
+}
+
+/* HERO typography */
+.dk-public-hero-copy-v11 h1{
+  font-size:64px !important;
+  line-height:1.01 !important;
+  letter-spacing:-.045em !important;
+  font-weight:720 !important;
+}
+.dk-public-hero-copy-v11>p{
+  max-width:730px !important;
+  color:#6f7789 !important;
+  font-size:17px !important;
+  line-height:1.68 !important;
+}
+
+/* CARDS */
+.dk-public-card{
+  position:relative !important;
+  min-height:255px !important;
+  border:1px solid #e7e7ee !important;
+  border-radius:20px !important;
+  background:#fff !important;
+  overflow:hidden !important;
+  box-shadow:0 8px 28px rgba(41,36,68,.045) !important;
+}
+.dk-public-card-main{
+  position:relative !important;
+  display:grid !important;
+  grid-template-columns:62px minmax(0,1fr) 42px !important;
+  gap:15px !important;
+  align-items:start !important;
+  min-height:205px !important;
+  padding:21px 18px 17px 20px !important;
+  text-decoration:none !important;
+}
+.dk-public-card-brand{
+  width:58px !important;
+  height:58px !important;
+  display:grid !important;
+  place-items:center !important;
+  border-radius:16px !important;
+  background:linear-gradient(145deg,#f0edff,#faf8ff) !important;
+  border:1px solid #e6e0ff !important;
+  overflow:hidden !important;
+}
+.dk-public-card-brand img{
+  max-width:46px !important;
+  max-height:46px !important;
+  object-fit:contain !important;
+}
+.dk-public-card-copy{
+  min-width:0 !important;
+}
+.dk-public-card-topline{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:8px !important;
+  color:#807795 !important;
+  font-size:9px !important;
+}
+.dk-public-card h3{
+  margin:14px 0 3px !important;
+  color:#202331 !important;
+  font-size:21px !important;
+  line-height:1.15 !important;
+  font-weight:720 !important;
+  letter-spacing:-.025em !important;
+}
+.dk-public-card p{
+  margin:0 !important;
+  color:#7c8393 !important;
+  font-size:12px !important;
+  line-height:1.45 !important;
+}
+.dk-public-card-meta{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:6px !important;
+  margin-top:16px !important;
+}
+.dk-public-card-meta span{
+  padding:5px 7px !important;
+  border-radius:7px !important;
+  background:#f5f6f9 !important;
+  color:#747c8c !important;
+  font-size:9px !important;
+}
+.dk-public-card-dorokartes{
+  align-self:start !important;
+  justify-self:end !important;
+  width:38px !important;
+  height:38px !important;
+  display:grid !important;
+  place-items:center !important;
+  border-radius:12px !important;
+  background:#fff !important;
+  border:1px solid #ececf2 !important;
+  box-shadow:0 7px 20px rgba(50,42,89,.08) !important;
+}
+.dk-public-card-dorokartes img{
+  width:28px !important;
+  height:28px !important;
+  object-fit:contain !important;
+}
+.dk-public-card-cta{
+  min-height:49px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  padding:0 20px !important;
+  border-top:1px solid #eeeef2 !important;
+  color:#6651c8 !important;
+  text-decoration:none !important;
+  font-size:11px !important;
+  font-weight:700 !important;
+}
+
+/* FOOTER — hard repair */
+.dk-public-footer{
+  display:block !important;
+  margin-top:70px !important;
+  padding:48px 0 22px !important;
+  border-top:1px solid #e5e6ec !important;
+  background:#f5f6f9 !important;
+}
+.dk-public-footer-main{
+  display:grid !important;
+  grid-template-columns:minmax(0,1.8fr) minmax(180px,.8fr) minmax(0,1.2fr) !important;
+  gap:54px !important;
+  align-items:start !important;
+}
+.dk-public-footer-brand{
+  min-width:0 !important;
+}
+.dk-public-footer-logo{
+  display:flex !important;
+  align-items:center !important;
+  gap:12px !important;
+}
+.dk-public-footer-logo img{
+  width:44px !important;
+  height:44px !important;
+  object-fit:contain !important;
+}
+.dk-public-footer-logo b{
+  display:block !important;
+  color:#202331 !important;
+  font-size:18px !important;
+  font-weight:750 !important;
+}
+.dk-public-footer-logo span{
+  display:block !important;
+  margin-top:2px !important;
+  color:#8c93a3 !important;
+  font-size:10px !important;
+}
+.dk-public-footer-brand>p{
+  max-width:600px !important;
+  margin:16px 0 0 !important;
+  color:#767e8e !important;
+  font-size:12px !important;
+  line-height:1.75 !important;
+}
+.dk-public-footer-col{
+  display:block !important;
+}
+.dk-public-footer-col>b{
+  display:block !important;
+  margin-bottom:13px !important;
+  color:#4c5362 !important;
+  font-size:11px !important;
+  font-weight:780 !important;
+  text-transform:uppercase !important;
+  letter-spacing:.06em !important;
+}
+.dk-public-footer-col a{
+  display:block !important;
+  margin:9px 0 !important;
+  color:#697182 !important;
+  text-decoration:none !important;
+  font-size:12px !important;
+}
+.dk-public-footer-col p{
+  margin:0 !important;
+  color:#787f8f !important;
+  font-size:11px !important;
+  line-height:1.7 !important;
+}
+.dk-public-footer-bottom{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:20px !important;
+  margin-top:34px !important;
+  padding-top:20px !important;
+  border-top:1px solid #e1e3e8 !important;
+  color:#989eaa !important;
+  font-size:9px !important;
+}
+
+/* Mobile */
+@media(max-width:760px){
+  .dk-public-header-inner{height:68px !important}
+  .dk-public-brand span,.dk-public-nav{display:none !important}
+  .dk-public-find{height:38px !important;padding:0 12px !important;font-size:11px !important}
+
+  .dk-public-hero-copy-v11 h1{font-size:43px !important}
+  .dk-public-hero-copy-v11>p{font-size:14px !important}
+
+  .dk-public-search{
+    grid-template-columns:28px 1fr !important;
+    min-height:0 !important;
+    padding:11px !important;
+  }
+  .dk-public-search button{
+    grid-column:1/-1 !important;
+    width:100% !important;
+    margin-top:8px !important;
+  }
+
+  .dk-public-card-main{
+    grid-template-columns:58px minmax(0,1fr) 36px !important;
+    padding:18px 15px !important;
+  }
+  .dk-public-card-dorokartes{
+    width:34px !important;
+    height:34px !important;
+  }
+
+  .dk-public-footer-main{
+    grid-template-columns:1fr !important;
+    gap:28px !important;
+  }
+  .dk-public-footer-bottom{
+    align-items:flex-start !important;
+    flex-direction:column !important;
+    gap:6px !important;
+  }
+}

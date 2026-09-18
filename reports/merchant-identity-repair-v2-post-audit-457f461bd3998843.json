@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-07T07:20:43.951Z",
+  "planId": "457f461bd3998843aa449b586111e3842ecbc5978d26a4de4d3267ca59a8e11c",
+  "passed": true,
+  "checkedTargets": 30,
+  "databaseWrites": 0,
+  "checks": [
+    {
+      "merchantId": "cmtb77rj8004cdkiyvmogo621",
+      "giftCardId": "cmtb77rqc004ddkiytzf0x88j",
+      "passed": true,
+      "merchantName": "Armonia Wellness",
+      "cardTitle": "Armonia Wellness Christmas Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb78g7m007rdkiydh03gkcd",
+      "giftCardId": "cmtb78gcm007sdkiyiijij48q",
+      "passed": true,
+      "merchantName": "ΥΜΩΝ",
+      "cardTitle": "ΥΜΩΝ – I Thought Of You Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb78ft1007pdkiylxlrso3f",
+      "giftCardId": "cmtb78fy5007qdkiyxevs1v0x",
+      "passed": true,
+      "merchantName": "Simclub",
+      "cardTitle": "Simclub Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb7i3a3001504iyg9dda4td",
+      "giftCardId": "cmtb7i3f1001604iyarnf8jny",
+      "passed": true,
+      "merchantName": "4 Elements Massage Kefalonia",
+      "cardTitle": "4 Elements Massage Kefalonia Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb77g6g002qdkiyzp7xmoyn",
+      "giftCardId": "cmtb77gbh002rdkiyzvvjbldl",
+      "passed": true,
+      "merchantName": "Paco Art Center",
+      "cardTitle": "Paco Art Center Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb7hz7e000k04iywfxqpaau",
+      "giftCardId": "cmtb7hzca000l04iybffdjgu7",
+      "passed": true,
+      "merchantName": "Explore Messinia",
+      "cardTitle": "Explore Messinia Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb7i4fg001a04iyu5nzeowe",
+      "giftCardId": "cmtb7i4k6001b04iyd3jlw4se",
+      "passed": true,
+      "merchantName": "Om Home",
+      "cardTitle": "Om Home Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb780lh005odkiyslzjq17k",
+      "giftCardId": "cmtb780qd005pdkiy9ptikri3",
+      "passed": true,
+      "merchantName": "Dazzeal",
+      "cardTitle": "Dazzeal Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb6upwi001r3giymvuh6njo",
+      "giftCardId": "cmtb6uq1p001s3giyrbtdkh3t",
+      "passed": true,
+      "merchantName": "Gifts 4 All",
+      "cardTitle": "Gifts 4 All Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb782qf005ydkiyrxvghjux",
+      "giftCardId": "cmtb782wo005zdkiyoydj8owp",
+      "passed": true,
+      "merchantName": "Fifth Element",
+      "cardTitle": "Fifth Element Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb789nc006vdkiyyrzeqiov",
+      "giftCardId": "cmtb789sx006wdkiy2dhrh3x9",
+      "passed": true,
+      "merchantName": "Must Men Fashion",
+      "cardTitle": "Must Men Fashion Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4ym53001qsciyl81j3zu5",
+      "giftCardId": "cmta4ymbf001rsciyxe7d8lyq",
+      "passed": true,
+      "merchantName": "Karfitsomenos Gatos",
+      "cardTitle": "Karfitsomenos Gatos Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4yyrf0038sciyxex3eik0",
+      "giftCardId": "cmta4yyxo0039sciy0650z05i",
+      "passed": true,
+      "merchantName": "Patousaki Shoes",
+      "cardTitle": "Patousaki Shoes Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb6v1hi003h3giyzn8glzoz",
+      "giftCardId": "cmtb6v1m7003i3giyor8l91p3",
+      "passed": true,
+      "merchantName": "Pregnancy Gifts",
+      "cardTitle": "Pregnancy Gifts Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4z43r003usciyabwwtw93",
+      "giftCardId": "cmta4z49k003vsciyj7ag8khc",
+      "passed": true,
+      "merchantName": "Studiofix",
+      "cardTitle": "Studiofix Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4z7n90048sciy1ngsw7es",
+      "giftCardId": "cmta4z7uf0049sciyu0lkupmq",
+      "passed": true,
+      "merchantName": "Vibrant Beauty",
+      "cardTitle": "Vibrant Beauty Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4z5jo0040sciyob5ul4bs",
+      "giftCardId": "cmta4z5vh0041sciye1uhquaq",
+      "passed": true,
+      "merchantName": "Uba",
+      "cardTitle": "Uba Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4ya8v000esciy4fwqlr55",
+      "giftCardId": "cmta4yafm000fsciycmpn7qlk",
+      "passed": true,
+      "merchantName": "Best Wines",
+      "cardTitle": "Best Wines Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4yfnr0010sciyekibu4i4",
+      "giftCardId": "cmta4yfvk0011sciyi5zwgnhr",
+      "passed": true,
+      "merchantName": "Evilio Home",
+      "cardTitle": "Evilio Home Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4yrrv002esciypbuxrrtw",
+      "giftCardId": "cmta4yryo002fsciyhkz02ixr",
+      "passed": true,
+      "merchantName": "Love Generation",
+      "cardTitle": "Love Generation Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb6v4em003x3giyg8ll7r7u",
+      "giftCardId": "cmtb6v4jr003y3giytfu9ztox",
+      "passed": true,
+      "merchantName": "Spaghetti Lab",
+      "cardTitle": "Spaghetti Lab Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4z8an004asciy12oao0hi",
+      "giftCardId": "cmta4z8gh004bsciyrey9tw17",
+      "passed": true,
+      "merchantName": "VIP Art",
+      "cardTitle": "VIP Art Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4ydov000ssciyj77w8hqs",
+      "giftCardId": "cmta4ydvb000tsciyww37i2fq",
+      "passed": true,
+      "merchantName": "Cityzen",
+      "cardTitle": "Cityzen Car Wash Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4yf3d000ysciy2zdlqyzw",
+      "giftCardId": "cmta4yfe1000zsciy02ejjqqf",
+      "passed": true,
+      "merchantName": "SportCafe",
+      "cardTitle": "SportCafe Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb6v0pz003d3giypgi6p23y",
+      "giftCardId": "cmtb6v0uz003e3giyj7if68dc",
+      "passed": true,
+      "merchantName": "PlanToys Greece",
+      "cardTitle": "PlanToys Greece Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb77i700030dkiywamhlbp4",
+      "giftCardId": "cmtb77ibp0031dkiy5l84o2pl",
+      "passed": true,
+      "merchantName": "Proper Cretan Guide",
+      "cardTitle": "Proper Cretan Guide Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmta4z1g8003ksciycb0lyswx",
+      "giftCardId": "cmta4z1mm003lsciyvwvowjdm",
+      "passed": true,
+      "merchantName": "Salero Restaurant",
+      "cardTitle": "Salero Restaurant Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb6uuev002f3giyv39kjoxr",
+      "giftCardId": "cmtb6uukg002g3giyhpszyjx7",
+      "passed": true,
+      "merchantName": "L'Arte di Massaggio",
+      "cardTitle": "L'Arte di Massaggio Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb771uj000odkiywhfjulaj",
+      "giftCardId": "cmtb771ze000pdkiyptng0olp",
+      "passed": true,
+      "merchantName": "Delta Restaurant",
+      "cardTitle": "Delta Restaurant Gift Card",
+      "immutableUrlsAndSlugs": true
+    },
+    {
+      "merchantId": "cmtb6um3e00183giyblwki1yw",
+      "giftCardId": "cmtb6um9000193giyhxszewcb",
+      "passed": true,
+      "merchantName": "District 75",
+      "cardTitle": "District 75 Gift Card",
+      "immutableUrlsAndSlugs": true
+    }
+  ]
+}

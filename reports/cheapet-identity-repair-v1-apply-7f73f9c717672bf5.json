@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-04T16:48:33.160Z",
+  "planId": "7f73f9c717672bf55ddb980bc04b9486cf1ff1b8c7f56c95443eb5ab741e1919",
+  "appliedActions": 2,
+  "changedFields": [
+    "Merchant.name",
+    "GiftCard.title"
+  ],
+  "unchangedFields": [
+    "Merchant.slug",
+    "GiftCard.slug",
+    "Merchant.websiteUrl",
+    "GiftCard.officialUrl"
+  ]
+}

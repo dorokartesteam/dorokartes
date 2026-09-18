@@ -1,0 +1,21 @@
+{
+  "version": "invalid-location-coordinates-v2",
+  "mode": "APPLY",
+  "appliedAt": "2026-09-10T14:34:29.807Z",
+  "planId": "817d8a40537a8a630e4221dce82a0c0e5c0300980a030c09606f42f071f77dc0",
+  "applied": 45,
+  "before": {
+    "giftCards": 1135,
+    "locations": 68,
+    "capabilities": 1,
+    "withCoordinates": 68,
+    "invalidCoordinates": 45
+  },
+  "after": {
+    "giftCards": 1135,
+    "locations": 68,
+    "capabilities": 1,
+    "withCoordinates": 23,
+    "invalidCoordinates": 0
+  }
+}

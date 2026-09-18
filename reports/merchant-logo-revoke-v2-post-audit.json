@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "mode": "POST_AUDIT",
+  "planId": "faafc71e46334c2c7484e4b3909c588a5fd24b2d38bc5e3b991aecad372d62dc",
+  "generatedAt": "2026-09-03T10:34:22.874Z",
+  "checked": 2,
+  "passed": 2,
+  "failed": 0,
+  "results": [
+    {
+      "merchantId": "cmtb62tbk002694iynay5o1a0",
+      "merchantName": "Sweetnspicy",
+      "passed": true,
+      "quarantineHash": "55429d221dcb68b5d8c816b8b15c5d7cefa0dc993d60ba9f02557cc8136191a0"
+    },
+    {
+      "merchantId": "cmtb77ecy002gdkiyplat2lrt",
+      "merchantName": "North & South Jewelry",
+      "passed": true,
+      "quarantineHash": "0812d65c784a5e715f4e4c50fdec23dd48a59c7569f12428b05f9fdac8db4a15"
+    }
+  ]
+}

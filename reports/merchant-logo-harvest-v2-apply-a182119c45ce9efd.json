@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:27:34.576Z",
+  "planId": "a182119c45ce9efdb5cc766da973eb73ddcda5da6ef4b466ff64e2b4af27c43f",
+  "appliedCount": 5,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb62gvm000a94iyyhcgbatv:efc126c86096",
+      "merchantId": "cmtb62gvm000a94iyyhcgbatv",
+      "localUrl": "/merchant-logos/esiot-efc126c86096.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i6nk00bfq8iy5qszzqk8:396a5e6688f5",
+      "merchantId": "cmta1i6nk00bfq8iy5qszzqk8",
+      "localUrl": "/merchant-logos/eubiotica-396a5e6688f5.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yk9i001isciy8zva7jrw:582dac852af5",
+      "merchantId": "cmta4yk9i001isciy8zva7jrw",
+      "localUrl": "/merchant-logos/hebekidshome-582dac852af5.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ifiy00cjq8iy2y5qnddu:d617bf56b84f",
+      "merchantId": "cmta1ifiy00cjq8iy2y5qnddu",
+      "localUrl": "/merchant-logos/hepta-d617bf56b84f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78cqm0079dkiyfu94f14d:acb738a7113f",
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "localUrl": "/merchant-logos/lts-gift-card-acb738a7113f.png"
+    }
+  ]
+}

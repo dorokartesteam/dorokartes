@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "merchantName": "Germanos",
+      "merchantDomain": "germanos.gr",
+      "candidateUrl": "https://www.germanos.gr/category/egift-new/?categoryId=cat4460003",
+      "discoverySource": "External Search Discovery",
+      "evidenceUrl": "https://www.germanos.gr/category/egift-new/?categoryId=cat4460003",
+      "evidenceKind": "OFFICIAL_INDEXED_PAGE",
+      "evidenceSummary": "Official Germanos e-Gift Card page with amount, recipient details and add-to-cart flow.",
+      "expectedRole": "CANONICAL_PURCHASE"
+    },
+    {
+      "merchantName": "Sephora",
+      "merchantDomain": "sephora.gr",
+      "candidateUrl": "https://giftcard.sephora.gr/",
+      "discoverySource": "External Search Discovery",
+      "evidenceUrl": "https://giftcard.sephora.gr/",
+      "evidenceKind": "OFFICIAL_SUBDOMAIN_PURCHASE",
+      "evidenceSummary": "Official Sephora Greece e-Gift Card purchase experience with personalization, amount and email delivery.",
+      "expectedRole": "CHECKOUT"
+    },
+    {
+      "merchantName": "HomeMarkt",
+      "merchantDomain": "homemarkt.gr",
+      "candidateUrl": "https://www.homemarkt.gr/el/doroepitages/",
+      "discoverySource": "External Search Discovery",
+      "evidenceUrl": "https://www.homemarkt.gr/el/doroepitages/",
+      "evidenceKind": "OFFICIAL_INDEXED_PAGE",
+      "evidenceSummary": "Official HomeMarkt gift voucher purchase page with sender, recipient, email, amount and add-to-cart fields.",
+      "expectedRole": "CANONICAL_PURCHASE"
+    },
+    {
+      "merchantName": "Hondos Center",
+      "merchantDomain": "hondoscenter.com",
+      "candidateUrl": "https://www.hondoscenter.com/el/gift-card.html",
+      "discoverySource": "External Search Discovery",
+      "evidenceUrl": "https://www.hondoscenter.com/el/gift-card.html",
+      "evidenceKind": "OFFICIAL_INDEXED_PAGE",
+      "evidenceSummary": "Official Hondos Center e-Gift Card page with recipient email, values and purchase button; crawler may still receive 403.",
+      "expectedRole": "CANONICAL_PURCHASE"
+    }
+  ]
+}

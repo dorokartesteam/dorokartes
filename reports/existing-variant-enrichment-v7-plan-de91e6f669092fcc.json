@@ -1,0 +1,328 @@
+{
+  "version": 7,
+  "mode": "PREVIEW",
+  "sourceReportId": "28dc3739f07ea2373fa3c3e31ac97de895d10938fa9c24a951a2587f753f5266",
+  "lineagePlanIds": [
+    "f3aca3c7d626eedc32f5a128ab4e1c3fcd672ae80641ede87ebfe9637cb5fbf4"
+  ],
+  "targetFingerprint": "7ccc61c1ba577fad1059ff6719b4bd10514889027a1e3bcaa03a2c4a9bd33240",
+  "liveEvidenceFingerprint": "66545b31af7c7dd18b91debd7632e8f89f535edb3faee02f1866d38472a57d6b",
+  "cardCount": 2,
+  "actionCount": 6,
+  "liveEvidence": [
+    {
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "pages": [
+        {
+          "requestedUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+          "finalUrl": "https://msystems.gr/gifcards/msystems-giftcard-10e",
+          "title": "Msystems Δωροκάρτα 10e | Δωροκάρτες | Msystems",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "electronic-only form",
+              "matched": "Η Δωροκάρτα παρέχεται μόνο σε ηλεκτρονική μορφή"
+            },
+            {
+              "label": "online and physical-store redemption",
+              "matched": "στο φυσικό ή διαδικτυακό κατάστημα της Msystems"
+            },
+            {
+              "label": "one-year validity",
+              "matched": "για χρονική περίοδο ενός έτους από την ημερομηνία αγοράς της"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://www.msystems.gr/gifcards",
+          "finalUrl": "https://msystems.gr/gifcards",
+          "title": "Δωροκάρτες | Msystems",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "exact six-product manufacturer count",
+              "matched": "Κατασκευαστής Msystems 6"
+            },
+            {
+              "label": "€10 denomination",
+              "matched": "Msystems Δωροκάρτα 10€ Κωδικός Msystems: 004-00048 Κατάστημα: 1 εργάσιμη Pick Up Point: 1 εργάσιμη 10,00 €"
+            },
+            {
+              "label": "€20 denomination",
+              "matched": "Msystems Δωροκάρτα 20€ Κωδικός Msystems: 004-00043 Κατάστημα: 1 εργάσιμη Pick Up Point: 1 εργάσιμη 20,00 €"
+            },
+            {
+              "label": "€30 denomination",
+              "matched": "Msystems Δωροκάρτα 30€ Κωδικός Msystems: 004-00050 Κατάστημα: 1 εργάσιμη Pick Up Point: 1 εργάσιμη 30,00 €"
+            },
+            {
+              "label": "€50 denomination",
+              "matched": "Msystems Δωροκάρτα 50€ Κωδικός Msystems: 004-00044 Κατάστημα: 1 εργάσιμη Pick Up Point: 1 εργάσιμη 50,00 €"
+            },
+            {
+              "label": "€100 denomination",
+              "matched": "Msystems Δωροκάρτα 100€ Κωδικός Msystems: 004-00045 Κατάστημα: 1 εργάσιμη Pick Up Point: 1 εργάσιμη 100,00 €"
+            },
+            {
+              "label": "€150 denomination",
+              "matched": "Msystems Δωροκάρτα 150€ Κωδικός Msystems: 004-00046 Κατάστημα: 1 εργάσιμη Pick Up Point: 1 εργάσιμη 150,00 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "pages": [
+        {
+          "requestedUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+          "finalUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+          "title": "Δωροκάρτα 300€ | Secrets of Beauty | Θεσσαλονίκη",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "recipient email field",
+              "matched": "Email παραλήπτη"
+            },
+            {
+              "label": "scheduled gift-send field",
+              "matched": "Ημερομηνία αποστολής δώρου"
+            },
+            {
+              "label": "online and venue redemption",
+              "matched": "είτε online είτε στο χώρο μας"
+            },
+            {
+              "label": "online redemption instruction",
+              "matched": "Μέσα από το e-shop"
+            },
+            {
+              "label": "physical venue redemption instruction",
+              "matched": "Στο χώρο του Secrets of Beauty"
+            },
+            {
+              "label": "six-month validity",
+              "matched": "Ισχύει για 6 μήνες από την ημερομηνία αγοράς"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://secretsofbeauty.gr/doroepitages-spa",
+          "finalUrl": "https://secretsofbeauty.gr/doroepitages-spa",
+          "title": "Δωροεπιταγές Spa Archives | secretsofbeauty",
+          "transport": "playwright-chrome",
+          "checks": [
+            {
+              "label": "custom amount option present but unbounded",
+              "matched": "Διάλεξε δικό σου ποσό"
+            },
+            {
+              "label": "€40 fixed denomination",
+              "matched": "Δωροκάρτα 40€ 40.00 €"
+            },
+            {
+              "label": "€70 fixed denomination",
+              "matched": "Δωροκάρτα 70€ 70.00 €"
+            },
+            {
+              "label": "€100 fixed denomination",
+              "matched": "Δωροκάρτα 100€ 100.00 €"
+            },
+            {
+              "label": "€200 fixed denomination",
+              "matched": "Δωροκάρτα 200€ 200.00 €"
+            },
+            {
+              "label": "€300 fixed denomination",
+              "matched": "Δωροκάρτα 300€ 300.00 €"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta4yw6q002xsciynztac1t7",
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "variantId": "cmtqxzk71000c6oiyzwws7bee",
+      "expected": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "value": "https://www.msystems.gr/gifcards",
+      "expectedUpdatedAt": "2026-09-07T07:51:44.704Z",
+      "evidence": [
+        "The applied v2 plan created and verified the current €10 Digital variant.",
+        "Current official product copy still states electronic-only form, online/store redemption and one-year validity.",
+        "The official gift-card category lists exactly six Msystems cards: €10, €20, €30, €50, €100 and €150.",
+        "No EMAIL or SMS delivery method is added: the contact wording refers to redemption OTP, not gift-card delivery.",
+        "The existing variant, value and redemption IDs are preserved; only missing values and general URL fields are added."
+      ]
+    },
+    {
+      "type": "UPDATE_VARIANT_FIELDS",
+      "actionId": "update-variant-fields:cmta4yw6q002xsciynztac1t7",
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "variantId": "cmtqxzk71000c6oiyzwws7bee",
+      "before": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "10",
+        "maxValue": "10",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+        "validityMonths": 12,
+        "validityText": null,
+        "active": true
+      },
+      "after": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "10",
+        "maxValue": "150",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://www.msystems.gr/gifcards",
+        "validityMonths": 12,
+        "validityText": null,
+        "active": true
+      },
+      "expectedUpdatedAt": "2026-09-07T07:51:44.893Z",
+      "evidence": [
+        "The applied v2 plan created and verified the current €10 Digital variant.",
+        "Current official product copy still states electronic-only form, online/store redemption and one-year validity.",
+        "The official gift-card category lists exactly six Msystems cards: €10, €20, €30, €50, €100 and €150.",
+        "No EMAIL or SMS delivery method is added: the contact wording refers to redemption OTP, not gift-card delivery.",
+        "The existing variant, value and redemption IDs are preserved; only missing values and general URL fields are added."
+      ]
+    },
+    {
+      "type": "ADD_VARIANT_VALUES",
+      "actionId": "add-variant-values:cmta4yw6q002xsciynztac1t7",
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "variantId": "cmtqxzk71000c6oiyzwws7bee",
+      "expectedExistingValues": [
+        {
+          "id": "cmtqxzk8b000d6oiy3kagj88c",
+          "value": "10"
+        }
+      ],
+      "valuesToAdd": [
+        "20",
+        "30",
+        "50",
+        "100",
+        "150"
+      ],
+      "finalValues": [
+        "10",
+        "20",
+        "30",
+        "50",
+        "100",
+        "150"
+      ],
+      "evidence": [
+        "The applied v2 plan created and verified the current €10 Digital variant.",
+        "Current official product copy still states electronic-only form, online/store redemption and one-year validity.",
+        "The official gift-card category lists exactly six Msystems cards: €10, €20, €30, €50, €100 and €150.",
+        "No EMAIL or SMS delivery method is added: the contact wording refers to redemption OTP, not gift-card delivery.",
+        "The existing variant, value and redemption IDs are preserved; only missing values and general URL fields are added."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta1jdvx00gqq8iy4767yu90",
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "variantId": "cmtn5x8jc000blsiycqwempns",
+      "expected": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+      "value": "https://secretsofbeauty.gr/doroepitages-spa",
+      "expectedUpdatedAt": "2026-09-04T16:22:48.465Z",
+      "evidence": [
+        "Official product controls and copy preserve recipient-email delivery and scheduled sending.",
+        "Official product copy preserves online and physical-venue redemption and adds six-month validity.",
+        "The official category lists fixed €40, €70, €100, €200 and €300 gift cards.",
+        "The separate custom-amount option is not modeled because the official page exposes no auditable bounds.",
+        "The existing variant, €300 value, delivery and redemption IDs are preserved; no delete or recreate is permitted."
+      ]
+    },
+    {
+      "type": "UPDATE_VARIANT_FIELDS",
+      "actionId": "update-variant-fields:cmta1jdvx00gqq8iy4767yu90",
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "variantId": "cmtn5x8jc000blsiycqwempns",
+      "before": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "300",
+        "maxValue": "300",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+        "validityMonths": null,
+        "validityText": null,
+        "active": true
+      },
+      "after": {
+        "name": "Digital",
+        "type": "DIGITAL",
+        "currency": "EUR",
+        "minValue": "40",
+        "maxValue": "300",
+        "customValueAllowed": false,
+        "purchaseUrl": "https://secretsofbeauty.gr/doroepitages-spa",
+        "validityMonths": 6,
+        "validityText": null,
+        "active": true
+      },
+      "expectedUpdatedAt": "2026-09-04T16:22:48.696Z",
+      "evidence": [
+        "Official product controls and copy preserve recipient-email delivery and scheduled sending.",
+        "Official product copy preserves online and physical-venue redemption and adds six-month validity.",
+        "The official category lists fixed €40, €70, €100, €200 and €300 gift cards.",
+        "The separate custom-amount option is not modeled because the official page exposes no auditable bounds.",
+        "The existing variant, €300 value, delivery and redemption IDs are preserved; no delete or recreate is permitted."
+      ]
+    },
+    {
+      "type": "ADD_VARIANT_VALUES",
+      "actionId": "add-variant-values:cmta1jdvx00gqq8iy4767yu90",
+      "cardId": "cmta1jdvx00gqq8iy4767yu90",
+      "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+      "variantId": "cmtn5x8jc000blsiycqwempns",
+      "expectedExistingValues": [
+        {
+          "id": "cmtn5x8le000clsiyp1z0qwsc",
+          "value": "300"
+        }
+      ],
+      "valuesToAdd": [
+        "40",
+        "70",
+        "100",
+        "200"
+      ],
+      "finalValues": [
+        "40",
+        "70",
+        "100",
+        "200",
+        "300"
+      ],
+      "evidence": [
+        "Official product controls and copy preserve recipient-email delivery and scheduled sending.",
+        "Official product copy preserves online and physical-venue redemption and adds six-month validity.",
+        "The official category lists fixed €40, €70, €100, €200 and €300 gift cards.",
+        "The separate custom-amount option is not modeled because the official page exposes no auditable bounds.",
+        "The existing variant, €300 value, delivery and redemption IDs are preserved; no delete or recreate is permitted."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-08T13:59:52.145Z",
+  "planId": "de91e6f669092fcce4908d5074a745cb9f0cc9305255820a6a12953bc5ffafb9"
+}

@@ -1,0 +1,160 @@
+{
+  "version": "merchant-identity-evidence-v1",
+  "mode": "READ_ONLY_EVIDENCE",
+  "generatedAt": "2026-09-07T07:24:01.154Z",
+  "targetFingerprint": "bc5be002408df965599ec284f0cd63c6f64bcd183ffde7beb860e9314d222261",
+  "targetCount": 3,
+  "summary": {
+    "candidates": 2,
+    "review": 0,
+    "error": 1,
+    "databaseWrites": 0
+  },
+  "findings": [
+    {
+      "merchantId": "cmta4yjki001gsciyo7tcjy02",
+      "merchantName": "Δωροκάρτα από την Harpy Clothing 2026",
+      "merchantSlug": "δωροκαρτα-απο-την-harpy-clothing-2026",
+      "websiteUrl": "https://harpy.gr",
+      "giftCardId": "cmta4yjz8001hsciydalghjrj",
+      "giftCardTitle": "Δωροκάρτα από την Harpy Clothing 2026",
+      "officialUrl": "https://www.harpy.gr/product/gift-card-by-harpy-clothing/?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://harpy.gr",
+        "finalUrl": "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+        "status": 200,
+        "title": "Account Suspended",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.harpy.gr/product/gift-card-by-harpy-clothing/?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+        "finalUrl": "https://www.harpy.gr/cgi-sys/suspendedpage.cgi?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+        "status": 200,
+        "title": "Account Suspended",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Account Suspended",
+          "normalizedValue": "account suspended",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+            "https://www.harpy.gr/cgi-sys/suspendedpage.cgi?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "merchantName": "Δωροκάρτα Beababy e",
+      "merchantSlug": "δωροκαρτα-beababy-e",
+      "websiteUrl": "https://beababy.gr",
+      "giftCardId": "cmta4y9yz000dsciyapuj6g5h",
+      "giftCardTitle": "Δωροκάρτα Beababy e-Gift Card",
+      "officialUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+      "status": "ERROR",
+      "reasonCodes": [
+        "HOME_HTTP_403",
+        "GIFT_HTTP_403",
+        "NO_CLEAN_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://beababy.gr",
+        "finalUrl": "https://beababy.gr/",
+        "status": 403,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "HTTP_403"
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+        "finalUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+        "status": 403,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "HTTP_403"
+      },
+      "candidates": []
+    },
+    {
+      "merchantId": "cmta4yxv60034sciy1eru1cf7",
+      "merchantName": "Mytravelgiftcard",
+      "merchantSlug": "mytravelgiftcard",
+      "websiteUrl": "https://mytravelgiftcard.gr",
+      "giftCardId": "cmta4yy140035sciyg30mvkvh",
+      "giftCardTitle": "My Travel Gift Card - Το δώρο που ταξιδεύει τους ...",
+      "officialUrl": "https://mytravelgiftcard.gr/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://mytravelgiftcard.gr",
+        "finalUrl": "https://mytravelgiftcard.gr/",
+        "status": 200,
+        "title": "My Travel Gift Card - Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+        "ogSiteName": "My Travel Gift Card",
+        "jsonLdOrganizations": [
+          "My Travel Gift Card"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://mytravelgiftcard.gr/",
+        "finalUrl": "https://mytravelgiftcard.gr/",
+        "status": 200,
+        "title": "My Travel Gift Card - Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+        "ogSiteName": "My Travel Gift Card",
+        "jsonLdOrganizations": [
+          "My Travel Gift Card"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+          "normalizedValue": "το δωρο που ταξιδευει τους αγαπημενους σας",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://mytravelgiftcard.gr/"
+          ]
+        }
+      ]
+    }
+  ],
+  "reportId": "4e29aae81e618f23ad9979b5532e5400db3149cf72844da4d80e90a0aba64719"
+}

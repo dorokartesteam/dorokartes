@@ -1,0 +1,267 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "sourceReportId": "28dc3739f07ea2373fa3c3e31ac97de895d10938fa9c24a951a2587f753f5266",
+  "targetFingerprint": "6869167413d598dd7f4d6467cd16c59cea9340ba73ee1006f33dea3053767975",
+  "liveEvidenceFingerprint": "70214c81004620940d3ecde32e434aae72b87db6a1e50c9acf3f2bf256801f59",
+  "cardCount": 4,
+  "actionCount": 8,
+  "liveEvidence": [
+    {
+      "cardId": "cmta1f6090019q8iygnn0tj4u",
+      "officialUrl": "https://www.epiploset.gr/product/gift-card/",
+      "finalUrl": "https://www.epiploset.gr/product/gift-card/",
+      "checks": [
+        {
+          "label": "fixed denomination selector",
+          "matched": "€50 €100 €200 €500"
+        },
+        {
+          "label": "recipient email field",
+          "matched": "πολλές διευθύνσεις ηλεκτρονικού ταχυδρομείου"
+        }
+      ]
+    },
+    {
+      "cardId": "cmta1ksaz00miq8iyz8knfxq5",
+      "officialUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+      "finalUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+      "checks": [
+        {
+          "label": "€50 product identity",
+          "matched": "Δωροκάρτα (Gift Card) 50€"
+        },
+        {
+          "label": "physical card delivery",
+          "matched": "Η κάρτα της φωτογραφίας αποστέλλεται σε εσάς ή απευθείας στον αποδέκτη"
+        },
+        {
+          "label": "online redemption",
+          "matched": "Οnline στο www.kalousos.gr"
+        },
+        {
+          "label": "phone redemption",
+          "matched": "Tηλεφωνικά με απαραίτητη αναφορά"
+        },
+        {
+          "label": "store redemption",
+          "matched": "Στα φυσικά μας καταστήματα Αθήνα και Θεσ/νίκη"
+        },
+        {
+          "label": "six-month validity",
+          "matched": "Η κάρτα ισχύει για 6 μήνες"
+        }
+      ]
+    },
+    {
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "officialUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "finalUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "checks": [
+        {
+          "label": "€10 product identity",
+          "matched": "Msystems Δωροκάρτα 10€"
+        },
+        {
+          "label": "electronic-only form",
+          "matched": "Η Δωροκάρτα παρέχεται μόνο σε ηλεκτρονική μορφή"
+        },
+        {
+          "label": "online and store redemption",
+          "matched": "στο φυσικό ή διαδικτυακό κατάστημα της Msystems"
+        },
+        {
+          "label": "one-year validity",
+          "matched": "για χρονική περίοδο ενός έτους"
+        }
+      ]
+    },
+    {
+      "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+      "officialUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+      "finalUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+      "checks": [
+        {
+          "label": "€50 voucher identity",
+          "matched": "Gift voucher worth 50 €"
+        },
+        {
+          "label": "beneficiary email notification",
+          "matched": "inform by message and email the beneficiary"
+        },
+        {
+          "label": "specific voucher code",
+          "matched": "gift voucher with the specific code"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1f6090019q8iygnn0tj4u",
+      "cardId": "cmta1f6090019q8iygnn0tj4u",
+      "merchantId": "cmta1f5tr0018q8iyo2evq1r0",
+      "expectedTitle": "Δωροκάρτα Ποσό Δωροκάρτας: 50",
+      "titleAfter": "EpiploSet Gift Card",
+      "expectedUpdatedAt": "2026-08-28T08:30:23.536Z",
+      "officialUrl": "https://www.epiploset.gr/product/gift-card/",
+      "evidence": [
+        "Official product selector lists exactly €50, €100, €200 and €500.",
+        "Official recipient form explicitly accepts one or more email addresses."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta1f6090019q8iygnn0tj4u",
+      "cardId": "cmta1f6090019q8iygnn0tj4u",
+      "merchantId": "cmta1f5tr0018q8iyo2evq1r0",
+      "expectedTitleAfter": "EpiploSet Gift Card",
+      "variantName": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "values": [
+        "50",
+        "100",
+        "200",
+        "500"
+      ],
+      "purchaseUrl": "https://www.epiploset.gr/product/gift-card/",
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [],
+      "validityMonths": null,
+      "evidence": [
+        "Official product selector lists exactly €50, €100, €200 and €500.",
+        "Official recipient form explicitly accepts one or more email addresses."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1ksaz00miq8iyz8knfxq5",
+      "cardId": "cmta1ksaz00miq8iyz8knfxq5",
+      "merchantId": "cmta1ks4x00mhq8iydfmn5xou",
+      "expectedTitle": "Δωροκάρτα (Gift Card) 50",
+      "titleAfter": "Kalousos Gift Card",
+      "expectedUpdatedAt": "2026-08-28T10:35:21.174Z",
+      "officialUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+      "evidence": [
+        "Official product page identifies the physical €50 card.",
+        "Official copy says the pictured card is sent to the buyer or recipient.",
+        "Official copy explicitly permits online, phone and physical-store redemption.",
+        "Official copy states six-month validity."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-physical-variant:cmta1ksaz00miq8iyz8knfxq5",
+      "cardId": "cmta1ksaz00miq8iyz8knfxq5",
+      "merchantId": "cmta1ks4x00mhq8iydfmn5xou",
+      "expectedTitleAfter": "Kalousos Gift Card",
+      "variantName": "Physical",
+      "variantType": "PHYSICAL",
+      "currency": "EUR",
+      "values": [
+        "50"
+      ],
+      "purchaseUrl": "https://www.kalousos.gr/el/dorokarta-gift-card-50eur.html",
+      "deliveryMethods": [
+        "PHYSICAL_DELIVERY"
+      ],
+      "redemptionChannels": [
+        "ONLINE",
+        "PHONE",
+        "PHYSICAL_STORE"
+      ],
+      "validityMonths": 6,
+      "evidence": [
+        "Official product page identifies the physical €50 card.",
+        "Official copy says the pictured card is sent to the buyer or recipient.",
+        "Official copy explicitly permits online, phone and physical-store redemption.",
+        "Official copy states six-month validity."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta4yw6q002xsciynztac1t7",
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "expectedTitle": "Msystems Δωροκάρτα 10e | Δωροκάρτες",
+      "titleAfter": "Msystems Gift Card",
+      "expectedUpdatedAt": "2026-08-26T13:35:06.098Z",
+      "officialUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "evidence": [
+        "Official product page and structured data confirm the €10 value.",
+        "Official copy says the gift card is provided only electronically.",
+        "Official copy explicitly permits physical- or online-store redemption.",
+        "Official copy states one-year validity."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta4yw6q002xsciynztac1t7",
+      "cardId": "cmta4yw6q002xsciynztac1t7",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "expectedTitleAfter": "Msystems Gift Card",
+      "variantName": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "values": [
+        "10"
+      ],
+      "purchaseUrl": "https://www.msystems.gr/gifcards/msystems-giftcard-10e",
+      "deliveryMethods": [],
+      "redemptionChannels": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "validityMonths": 12,
+      "evidence": [
+        "Official product page and structured data confirm the €10 value.",
+        "Official copy says the gift card is provided only electronically.",
+        "Official copy explicitly permits physical- or online-store redemption.",
+        "Official copy states one-year validity."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb77n4m003qdkiyjf9v5mzc",
+      "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+      "merchantId": "cmtb77mzs003pdkiyc12og14q",
+      "expectedTitle": "Gift voucher 50€",
+      "titleAfter": "Topgreekwines Gift Card",
+      "expectedUpdatedAt": "2026-08-27T07:25:39.670Z",
+      "officialUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+      "evidence": [
+        "Official product page identifies a €50 gift voucher.",
+        "Official copy says the beneficiary is informed by email and receives a specific code."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmtb77n4m003qdkiyjf9v5mzc",
+      "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+      "merchantId": "cmtb77mzs003pdkiyc12og14q",
+      "expectedTitleAfter": "Topgreekwines Gift Card",
+      "variantName": "Digital",
+      "variantType": "DIGITAL",
+      "currency": "EUR",
+      "values": [
+        "50"
+      ],
+      "purchaseUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [],
+      "validityMonths": null,
+      "evidence": [
+        "Official product page identifies a €50 gift voucher.",
+        "Official copy says the beneficiary is informed by email and receives a specific code."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-07T07:51:12.398Z",
+  "planId": "f3aca3c7d626eedc32f5a128ab4e1c3fcd672ae80641ede87ebfe9637cb5fbf4"
+}

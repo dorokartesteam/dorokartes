@@ -1,0 +1,2 @@
+﻿status,merchantId,merchantName,merchantSlug,websiteUrl,finalWebsiteUrl,reasonCodes,candidateSource,candidateScore,candidateUrl,evidence,sha256,width,height,bytes
+SAFE,cmta4z66f0042sciyfrs0qo0w,Ullapopken,ullapopken,https://ullapopken.gr,https://ullapopken.gr/,OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET|IMAGE_VALIDATED,HEADER_IMAGE,334,https://www.ullapopken.gr/wp-content/uploads/2026/08/logo-ullapopken.png,OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET,ad8e826db38b545f3434fc95cbdbff40a3b80d00d540c2e01ff8a646c3909feb,243,93,3017

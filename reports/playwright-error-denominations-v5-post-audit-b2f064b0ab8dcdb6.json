@@ -1,0 +1,45 @@
+{
+  "version": 5,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-08T07:01:03.666Z",
+  "planId": "b2f064b0ab8dcdb649e076148d7a0fbde3f743316c647bf48205239fe2441d20",
+  "checked": 3,
+  "passed": 3,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+      "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Artcolour",
+        "merchantSlug": "artcolour",
+        "cardSlug": "artcolour-art-and-colour-gift-card-200",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmta1hm2i009gq8iy3vf9bzhy",
+      "merchantId": "cmta1hlx2009fq8iy6fwfj2v1",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Bestpharmacy",
+        "merchantSlug": "bestpharmacy",
+        "cardSlug": "bestpharmacy-δωροκαρτα-50",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmta1f2jh000xq8iyzwanlt71",
+      "merchantId": "cmta1f2cv000wq8iyrguy8go3",
+      "passed": true,
+      "preserved": {
+        "merchantName": "PharmNet",
+        "merchantSlug": "pharmnet",
+        "cardSlug": "pharmnet-δωροεπιταγη-50-ευρω",
+        "status": "ACTIVE"
+      }
+    }
+  ]
+}

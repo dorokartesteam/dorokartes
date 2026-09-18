@@ -1,0 +1,8 @@
+status,giftCardId,merchantName,giftCardTitle,occasionSlug,relevance,evidence,officialUrl,reason,actionId
+SAFE,cmta1mk2p00teq8iywlymg7ut,Babyvalia,GIFT CARD ‣ Βabyvalia,new-baby,90,EXPLICIT_OFFICIAL_URL_PATH,https://babyvalia.gr/product-category/baby-shower/gift-card/,,69439f6794833efbbc24edfdc7c2dff06352bf3bb8126d37d935756ce5982cf6
+SAFE,cmta1najv00waq8iye2j13aza,Lalita,Christmas Gift Card - Lalita,christmas,100,EXPLICIT_CARD_TITLE_OR_SLUG,https://lalita.gr/,,a9b6ed30a1bcd6f128bacb49af588965b3cc1af1d1956c504d4b369e833f9904
+SAFE,cmtb6utt5002c3giyo3joolsl,Kivotos Oniron,Δωροκάρτα - Kivotos Oniron | ideas for kids,for-kids,100,EXPLICIT_CARD_TITLE_OR_SLUG,https://www.kivotosoniron.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/,,066ab614aeee964d0e1b60bd60bb07a38f85826aec0731c6964b5cc46ad4ba28
+SAFE,cmtb77aa9001vdkiykzcb5zp5,Christmas Gift Cards,Christmas Gift Cards,christmas,100,EXPLICIT_CARD_TITLE_OR_SLUG,https://kinesis-gym.gr/christmas-gift-cards/,,b293ac1cbba6d27e8688a038f16790307fd6fa819c39ec8701b7c5ef65d8eb11
+SAFE,cmtb77q3z0046dkiyh7mroiio,WEDDING DAY,Δωροκάρτα - WEDDING DAY,wedding,100,EXPLICIT_CARD_TITLE_OR_SLUG,https://wedday.gr/dorokarta/,,3894e2408adc243bb4c1887dac6fd9d6aa5f638dc304f6b677ac0251ef44931e
+SAFE,cmtb77rqc004ddkiytzf0x88j,Christmas Gift Cards,Christmas Gift Cards,christmas,100,EXPLICIT_CARD_TITLE_OR_SLUG,https://www.armoniawellness.gr/christmas-gift-cards/,,5c7a8b0250f8200f0c40eaf119e4a57a72d663eed6197352a32a30dd8e1180b5
+SAFE,cmtb785to006cdkiy9ubl9s4x,Kotsovolos,Kotsovolos Gift Card,corporate,100,STRUCTURED_CORPORATE_AVAILABILITY,https://www.kotsovolos.gr/pages/e-giftcard,,e38e902b2a31afc54808da57de04cbd7bb321cec31d1d9512e87a33ba40c3b9b

@@ -1,0 +1,891 @@
+{
+  "generatedAt": "2026-09-01T10:03:39.606Z",
+  "total": 54,
+  "counts": {
+    "RECOVERABLE_BRAND": 3,
+    "THIRD_PARTY_CARD": 1,
+    "GENERIC_OR_GARBAGE": 0,
+    "AMOUNT_SPECIFIC_BUT_MERCHANT_OK": 48,
+    "NEEDS_MANUAL_REVIEW": 2
+  },
+  "buckets": {
+    "RECOVERABLE_BRAND": [
+      {
+        "bucket": "RECOVERABLE_BRAND",
+        "reason": "Merchant name is generic/garbage; merchant brand is recoverable from website domain.",
+        "values": [
+          150
+        ],
+        "cardId": "cmtb77zz5005ldkiyl90mvph8",
+        "merchantId": "cmtb77zu6005kdkiygwtlbq6b",
+        "merchantName": "150€ Gift Card",
+        "title": "150€ Gift Card",
+        "websiteUrl": "https://carrotstore.gr",
+        "officialUrl": "https://carrotstore.gr/gift-cards/150e-gift-card/",
+        "domainBrand": "carrotstore",
+        "proposedMerchant": "carrotstore",
+        "proposedCanonicalTitle": "carrotstore Gift Card"
+      },
+      {
+        "bucket": "RECOVERABLE_BRAND",
+        "reason": "Merchant name is generic/garbage; merchant brand is recoverable from website domain.",
+        "values": [
+          20,
+          250
+        ],
+        "cardId": "cmtb787e8006kdkiy96ibaqvy",
+        "merchantId": "cmtb7878x006jdkiypd4q76wf",
+        "merchantName": "20€ - 250€",
+        "title": "Δωροκάρτα 20€ - 250€",
+        "websiteUrl": "https://luckyboutique.gr",
+        "officialUrl": "https://luckyboutique.gr/custom-giftcard.html",
+        "domainBrand": "luckyboutique",
+        "proposedMerchant": "luckyboutique",
+        "proposedCanonicalTitle": "luckyboutique Gift Card"
+      },
+      {
+        "bucket": "RECOVERABLE_BRAND",
+        "reason": "Merchant name is denomination/gift-card polluted but brand can be recovered safely.",
+        "values": [
+          30
+        ],
+        "cardId": "cmta5nzvj002c54iyh4tnx9jy",
+        "merchantId": "cmta5nzqx002b54iyjbin14o4",
+        "merchantName": "DE - 30€ – WARAGOD",
+        "title": "Gift Voucher DE - 30€ – WARAGOD",
+        "websiteUrl": "https://waragod.gr",
+        "officialUrl": "https://www.waragod.gr/en/products/gift-voucher-de-30",
+        "domainBrand": "waragod",
+        "proposedMerchant": "DE - WARAGOD",
+        "proposedCanonicalTitle": "DE - WARAGOD Gift Card"
+      }
+    ],
+    "THIRD_PARTY_CARD": [
+      {
+        "bucket": "THIRD_PARTY_CARD",
+        "reason": "Title appears to name a third-party gift card/product different from merchant.",
+        "values": [
+          15
+        ],
+        "cardId": "cmta1fi60002hq8iyf9s9le0u",
+        "merchantId": "cmta1fhz7002gq8iyyert5tbx",
+        "merchantName": "Astrongameclub",
+        "title": "Nintendo eShop 15 EUR",
+        "websiteUrl": "https://astrongameclub.gr",
+        "officialUrl": "https://www.astrongameclub.gr/gift-card/",
+        "domainBrand": "astrongameclub",
+        "proposedMerchant": null,
+        "proposedCanonicalTitle": null
+      }
+    ],
+    "GENERIC_OR_GARBAGE": [],
+    "AMOUNT_SPECIFIC_BUT_MERCHANT_OK": [
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          200
+        ],
+        "cardId": "cmta1f09t000nq8iyx3uehika",
+        "merchantId": "cmta1f03n000mq8iyzxhzrwvc",
+        "merchantName": "Adagio",
+        "title": "Adagio Gift Voucher 200 euro",
+        "websiteUrl": "https://adagio.gr",
+        "officialUrl": "https://www.adagio.gr/el/",
+        "domainBrand": "adagio",
+        "proposedMerchant": "Adagio",
+        "proposedCanonicalTitle": "Adagio Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          70
+        ],
+        "cardId": "cmta1gg4h005sq8iyehntb76m",
+        "merchantId": "cmta1gfy3005rq8iyb6n5rmq0",
+        "merchantName": "Agathou",
+        "title": "Δωροεπιταγη 70€ - Agathou Beauty & Spa",
+        "websiteUrl": "https://agathou.gr",
+        "officialUrl": "https://www.agathou.gr/product-category/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b5%cf%83/",
+        "domainBrand": "agathou",
+        "proposedMerchant": "Agathou",
+        "proposedCanonicalTitle": "Agathou Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta1hb5r008iq8iyqvjs32oy",
+        "merchantId": "cmta1hayg008hq8iyxn9dz5cg",
+        "merchantName": "Ammashop",
+        "title": "GIFT CARD 100€ - ammashop",
+        "websiteUrl": "https://ammashop.gr",
+        "officialUrl": "https://www.ammashop.gr/gift-cards",
+        "domainBrand": "ammashop",
+        "proposedMerchant": "Ammashop",
+        "proposedCanonicalTitle": "Ammashop Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          200
+        ],
+        "cardId": "cmta1lpfx00q6q8iyf11yv5pi",
+        "merchantId": "cmta1lp9t00q5q8iyz374e7wj",
+        "merchantName": "Amourianosoptics",
+        "title": "GIFT CARD 200€",
+        "websiteUrl": "https://amourianosoptics.gr",
+        "officialUrl": "https://amourianosoptics.gr/en/accessories-html/gift-cards.html",
+        "domainBrand": "amourianosoptics",
+        "proposedMerchant": "Amourianosoptics",
+        "proposedCanonicalTitle": "Amourianosoptics Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1k5f500jwq8iyplvt7fkz",
+        "merchantId": "cmta1k58l00jvq8iyujdntq2y",
+        "merchantName": "Annamariamazaraki",
+        "title": "Gift Card 50 euro. Give the gift of love to your beloved one ...",
+        "websiteUrl": "https://annamariamazaraki.gr",
+        "officialUrl": "https://annamariamazaraki.gr/",
+        "domainBrand": "annamariamazaraki",
+        "proposedMerchant": "Annamariamazaraki",
+        "proposedCanonicalTitle": "Annamariamazaraki Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          200
+        ],
+        "cardId": "cmta1hfcn008sq8iy6i2fe0bp",
+        "merchantId": "cmta1hf65008rq8iyfh7t6wpa",
+        "merchantName": "Artcolour",
+        "title": "Art & Colour Gift Card - €200",
+        "websiteUrl": "https://artcolour.gr",
+        "officialUrl": "https://artcolour.gr/",
+        "domainBrand": "artcolour",
+        "proposedMerchant": "Artcolour",
+        "proposedCanonicalTitle": "Artcolour Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          40
+        ],
+        "cardId": "cmta1hjk40094q8iyvworgly4",
+        "merchantId": "cmta1hjcj0093q8iybfcm521f",
+        "merchantName": "Beauty Case",
+        "title": "Gift Card - 40€ - Beauty Case",
+        "websiteUrl": "https://beauty-case.gr",
+        "officialUrl": "https://www.beauty-case.gr/product-category/giftcard/",
+        "domainBrand": "beauty case",
+        "proposedMerchant": "Beauty Case",
+        "proposedCanonicalTitle": "Beauty Case Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1hlab009cq8iyuzff3nxc",
+        "merchantId": "cmta1hl4z009bq8iydvy08yy9",
+        "merchantName": "Beautyprincess",
+        "title": "Gift Card 50€ | BeautyPrincess – Δώρο Ομορφιάς",
+        "websiteUrl": "https://beautyprincess.gr",
+        "officialUrl": "https://beautyprincess.gr/gifts/gift-cards",
+        "domainBrand": "beautyprincess",
+        "proposedMerchant": "Beautyprincess",
+        "proposedCanonicalTitle": "Beautyprincess Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta4ybyz000lsciyi05bqwwl",
+        "merchantId": "cmta4ybsv000ksciy2wk84kj0",
+        "merchantName": "Candlejuice",
+        "title": "Δωροκάρτα CandleJuice Gift Card 100€",
+        "websiteUrl": "https://candlejuice.gr",
+        "officialUrl": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+        "domainBrand": "candlejuice",
+        "proposedMerchant": "Candlejuice",
+        "proposedCanonicalTitle": "Candlejuice Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1hs0500a4q8iy6cmwyvew",
+        "merchantId": "cmta1hru700a3q8iy6vn9whln",
+        "merchantName": "Cavallo",
+        "title": "Cavallo e-gift card - Δωροκάρτα Αξίας 20€",
+        "websiteUrl": "https://cavallo.gr",
+        "officialUrl": "https://www.cavallo.gr/product/gift-card-100e/",
+        "domainBrand": "cavallo",
+        "proposedMerchant": "Cavallo",
+        "proposedCanonicalTitle": "Cavallo Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          500
+        ],
+        "cardId": "cmtb7718b000ldkiynw5j1q46",
+        "merchantId": "cmtb77130000kdkiy8nzwbibh",
+        "merchantName": "Cordella",
+        "title": "Δωροκάρτα 500€",
+        "websiteUrl": "https://cordella.gr",
+        "officialUrl": "https://www.cordella.gr/shop/empeiries/taxidia-metakiniseis/xenodoxeia-diamones/dorokarta-500_10995",
+        "domainBrand": "cordella",
+        "proposedMerchant": "Cordella",
+        "proposedCanonicalTitle": "Cordella Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          500
+        ],
+        "cardId": "cmta1hvnc00aiq8iy7f43du8p",
+        "merchantId": "cmta1hv0400ahq8iy7wxjbo01",
+        "merchantName": "Dbsounds",
+        "title": "e-Gift Card (Hλεκτρονική Δωροκάρτα) 500€",
+        "websiteUrl": "https://dbsounds.gr",
+        "officialUrl": "https://dbsounds.gr/",
+        "domainBrand": "dbsounds",
+        "proposedMerchant": "Dbsounds",
+        "proposedCanonicalTitle": "Dbsounds Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1hw4400akq8iykgucmned",
+        "merchantId": "cmta1hvy400ajq8iyj0su91kc",
+        "merchantName": "Decolight",
+        "title": "Δωροκάρτα 20€ - 0001",
+        "websiteUrl": "https://decolight.gr",
+        "officialUrl": "https://decolight.gr/",
+        "domainBrand": "decolight",
+        "proposedMerchant": "Decolight",
+        "proposedCanonicalTitle": "Decolight Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          25
+        ],
+        "cardId": "cmta1m6ad00s0q8iyjl5guf73",
+        "merchantId": "cmta1m63d00rzq8iyrm7v5cfk",
+        "merchantName": "Dromeasbikes",
+        "title": "Gift voucher €25",
+        "websiteUrl": "https://dromeasbikes.gr",
+        "officialUrl": "https://dromeasbikes.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%b5%cf%80%ce%b9%cf%84%ce%b1%ce%b3%ce%ae10/",
+        "domainBrand": "dromeasbikes",
+        "proposedMerchant": "Dromeasbikes",
+        "proposedCanonicalTitle": "Dromeasbikes Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1m6ti00s2q8iyv2uhr92n",
+        "merchantId": "cmta1m6np00s1q8iyh8u312hb",
+        "merchantName": "E Snacks",
+        "title": "Gift Card 50€ | E-Snacks",
+        "websiteUrl": "https://e-snacks.gr",
+        "officialUrl": "https://e-snacks.gr/gift-cards",
+        "domainBrand": "e snacks",
+        "proposedMerchant": "E Snacks",
+        "proposedCanonicalTitle": "E Snacks Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1m7h100s4q8iy0yg57q08",
+        "merchantId": "cmta1m7ap00s3q8iyofu6o4ra",
+        "merchantName": "E Socks",
+        "title": "€50 Gift Card",
+        "websiteUrl": "https://e-socks.gr",
+        "officialUrl": "https://e-socks.gr/collections/giftcards",
+        "domainBrand": "e socks",
+        "proposedMerchant": "E Socks",
+        "proposedCanonicalTitle": "E Socks Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta1myap00uyq8iy05wx63jv",
+        "merchantId": "cmta1my4200uxq8iyrtkh2ksx",
+        "merchantName": "Enchriso",
+        "title": "100€ gift card - Κοσμήματα En Chriso",
+        "websiteUrl": "https://enchriso.gr",
+        "officialUrl": "https://enchriso.gr/",
+        "domainBrand": "enchriso",
+        "proposedMerchant": "Enchriso",
+        "proposedCanonicalTitle": "Enchriso Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          30
+        ],
+        "cardId": "cmta1fsu3003jq8iy5qqq6jin",
+        "merchantId": "cmta1fsn8003iq8iy44ffyjo1",
+        "merchantName": "Ergaleiogatos",
+        "title": "30 EUR",
+        "websiteUrl": "https://ergaleiogatos.gr",
+        "officialUrl": "https://www.ergaleiogatos.gr/shop/doroepitagi/",
+        "domainBrand": "ergaleiogatos",
+        "proposedMerchant": "Ergaleiogatos",
+        "proposedCanonicalTitle": "Ergaleiogatos Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          30,
+          40
+        ],
+        "cardId": "cmta1iad800bwq8iyw7ce55ti",
+        "merchantId": "cmta1ia7500bvq8iypdqd66ct",
+        "merchantName": "Funkymonkeyshoes",
+        "title": "ΔΩΡΟΚΑΡΤΑ 30€ | 40€ | 50",
+        "websiteUrl": "https://funkymonkeyshoes.gr",
+        "officialUrl": "https://funkymonkeyshoes.gr/product/gift-card/",
+        "domainBrand": "funkymonkeyshoes",
+        "proposedMerchant": "Funkymonkeyshoes",
+        "proposedCanonicalTitle": "Funkymonkeyshoes Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          150
+        ],
+        "cardId": "cmta1lj9c00piq8iynmfth5h9",
+        "merchantId": "cmta1lj2s00phq8iymc9sy8cd",
+        "merchantName": "Kantarzoglou",
+        "title": "€150.00 Gift Card",
+        "websiteUrl": "https://kantarzoglou.gr",
+        "officialUrl": "https://www.kantarzoglou.gr/el/my-gift-cards/",
+        "domainBrand": "kantarzoglou",
+        "proposedMerchant": "Kantarzoglou",
+        "proposedCanonicalTitle": "Kantarzoglou Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1ims300dcq8iy209yelks",
+        "merchantId": "cmta1imn100dbq8iyn4nhj89a",
+        "merchantName": "Kikoo",
+        "title": "Δωροεπιταγή Kikoo 50€",
+        "websiteUrl": "https://kikoo.gr",
+        "officialUrl": "https://kikoo.gr/",
+        "domainBrand": "kikoo",
+        "proposedMerchant": "Kikoo",
+        "proposedCanonicalTitle": "Kikoo Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1n9za00w8q8iy7ywbxcsm",
+        "merchantId": "cmta1n9sv00w7q8iypja3wgnv",
+        "merchantName": "Krikisbeauty",
+        "title": "Gift Card 20€ | https://krikisbeauty.gr/",
+        "websiteUrl": "https://krikisbeauty.gr",
+        "officialUrl": "https://krikisbeauty.gr/shop/gift-card-100e/",
+        "domainBrand": "krikisbeauty",
+        "proposedMerchant": "Krikisbeauty",
+        "proposedCanonicalTitle": "Krikisbeauty Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          30
+        ],
+        "cardId": "cmta1grv5006uq8iye4j038gk",
+        "merchantId": "cmta1grl4006tq8iy8pmzmbvn",
+        "merchantName": "Laloo",
+        "title": "Laloo Gift Card 30€",
+        "websiteUrl": "https://laloo.gr",
+        "officialUrl": "https://laloo.gr/el/250-gift-cards",
+        "domainBrand": "laloo",
+        "proposedMerchant": "Laloo",
+        "proposedCanonicalTitle": "Laloo Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta1inkb00dgq8iyu0pfa6d9",
+        "merchantId": "cmta1ineu00dfq8iyw5mpx7lq",
+        "merchantName": "Lamillou",
+        "title": "Gift Card 100€ | La Millou",
+        "websiteUrl": "https://lamillou.gr",
+        "officialUrl": "https://lamillou.gr/%CF%80%CF%81%CE%BF%CF%8A%CF%8C%CE%BD/gift-card-100e/",
+        "domainBrand": "lamillou",
+        "proposedMerchant": "Lamillou",
+        "proposedCanonicalTitle": "Lamillou Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100,
+          200
+        ],
+        "cardId": "cmta1ktry00moq8iyk8cnm3ts",
+        "merchantId": "cmta1ktlv00mnq8iym8klu36r",
+        "merchantName": "Luckytravel",
+        "title": "Gift card €100 – €200 - Lucky Travel |",
+        "websiteUrl": "https://luckytravel.gr",
+        "officialUrl": "https://www.luckytravel.gr/product/giftcard/",
+        "domainBrand": "luckytravel",
+        "proposedMerchant": "Luckytravel",
+        "proposedCanonicalTitle": "Luckytravel Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1gsbd006wq8iy8x59y1jr",
+        "merchantId": "cmta1gs4h006vq8iydzfivov7",
+        "merchantName": "Maniashome",
+        "title": "ΔΩΡΟΕΠΙΤΑΓΗ €20",
+        "websiteUrl": "https://maniashome.gr",
+        "officialUrl": "https://maniashome.gr/proion/doroepitagi-e10/",
+        "domainBrand": "maniashome",
+        "proposedMerchant": "Maniashome",
+        "proposedCanonicalTitle": "Maniashome Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1iskl00e4q8iy4blzttgs",
+        "merchantId": "cmta1isf400e3q8iyxulrv2jo",
+        "merchantName": "Maralcrafts",
+        "title": "Gift Card 50 Euro - Maral Crafts",
+        "websiteUrl": "https://maralcrafts.gr",
+        "officialUrl": "https://maralcrafts.gr/product-category/gift-cards/",
+        "domainBrand": "maralcrafts",
+        "proposedMerchant": "Maralcrafts",
+        "proposedCanonicalTitle": "Maralcrafts Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta1ndg700wmq8iy0aym5v5k",
+        "merchantId": "cmta1nd8500wlq8iyt3qqsq3s",
+        "merchantName": "Marinospor",
+        "title": "Gift Card - Gift Card 100€ - Marinospor",
+        "websiteUrl": "https://marinospor.gr",
+        "officialUrl": "https://marinospor.gr/",
+        "domainBrand": "marinospor",
+        "proposedMerchant": "Marinospor",
+        "proposedCanonicalTitle": "Marinospor Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1iszf00e6q8iyhvyjlqm9",
+        "merchantId": "cmta1ists00e5q8iybr7fmy1d",
+        "merchantName": "Marketfix",
+        "title": "Gift Card Niyamas - Ηλεκτρονική Δωροκάρτα 20€",
+        "websiteUrl": "https://marketfix.gr",
+        "officialUrl": "https://marketfix.gr/",
+        "domainBrand": "marketfix",
+        "proposedMerchant": "Marketfix",
+        "proposedCanonicalTitle": "Marketfix Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          300
+        ],
+        "cardId": "cmta4ytua002nsciye5jdpjc2",
+        "merchantId": "cmta4yto2002msciy14cp15ty",
+        "merchantName": "Megafitness",
+        "title": "Megafitness Gift Card 300,00€",
+        "websiteUrl": "https://megafitness.gr",
+        "officialUrl": "https://www.megafitness.gr/en/megafitness-gift-card-300-00%E2%82%AC-104325",
+        "domainBrand": "megafitness",
+        "proposedMerchant": "Megafitness",
+        "proposedCanonicalTitle": "Megafitness Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          30
+        ],
+        "cardId": "cmta1kard00kiq8iyc8lsfv9b",
+        "merchantId": "cmta1kakx00khq8iyslhuttfv",
+        "merchantName": "Melispa",
+        "title": "Gift Card €30",
+        "websiteUrl": "https://melispa.gr",
+        "officialUrl": "https://www.melispa.gr/el/gift-card",
+        "domainBrand": "melispa",
+        "proposedMerchant": "Melispa",
+        "proposedCanonicalTitle": "Melispa Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          300
+        ],
+        "cardId": "cmta4yuag002psciyoexjru1o",
+        "merchantId": "cmta4yu3q002osciyu5jetmw1",
+        "merchantName": "Mgsound",
+        "title": "MGsound Gift Card 300€ | Premium Event Gift Card",
+        "websiteUrl": "https://mgsound.gr",
+        "officialUrl": "https://www.mgsound.gr/product/gift-card-300/?srsltid=AfmBOor9zJIGcmlK-272F6SOU8U2UDBV-AfXv09-bRqilRiHpN2U7TDO",
+        "domainBrand": "mgsound",
+        "proposedMerchant": "Mgsound",
+        "proposedCanonicalTitle": "Mgsound Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          300
+        ],
+        "cardId": "cmta1ix8a00esq8iyx9vwmckf",
+        "merchantId": "cmta1ix3800erq8iyqmw3lkc2",
+        "merchantName": "Mikelidis",
+        "title": "Δώρα :: Gift Card :: Gift Card 300 €",
+        "websiteUrl": "https://mikelidis.gr",
+        "officialUrl": "https://www.mikelidis.gr/dora/gift-card/",
+        "domainBrand": "mikelidis",
+        "proposedMerchant": "Mikelidis",
+        "proposedCanonicalTitle": "Mikelidis Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta1iyw100f0q8iyyl3g2m31",
+        "merchantId": "cmta1iypl00ezq8iypg6kwhfe",
+        "merchantName": "Motovinios",
+        "title": "ΔΩΡΟΚΑΡΤΑ 100€ Το καλύτερο δώρο για τα αγαπημένα ...",
+        "websiteUrl": "https://motovinios.gr",
+        "officialUrl": "https://www.motovinios.gr/c/giftcard",
+        "domainBrand": "motovinios",
+        "proposedMerchant": "Motovinios",
+        "proposedCanonicalTitle": "Motovinios Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          100
+        ],
+        "cardId": "cmta1gvbd0078q8iyfrpuq3og",
+        "merchantId": "cmta1guui0077q8iybyqma2gp",
+        "merchantName": "Phoskitchenware",
+        "title": "GiftCard 100€",
+        "websiteUrl": "https://phoskitchenware.gr",
+        "officialUrl": "https://www.phoskitchenware.gr/en/content/10-giftcards",
+        "domainBrand": "phoskitchenware",
+        "proposedMerchant": "Phoskitchenware",
+        "proposedCanonicalTitle": "Phoskitchenware Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          500
+        ],
+        "cardId": "cmta1nnui00xqq8iyverz0w50",
+        "merchantId": "cmta1nnlj00xpq8iyi0360ygm",
+        "merchantName": "Profitstore",
+        "title": "ΔωροΕπιταγή - Gift Card αξίας 500€ - ProfitStore",
+        "websiteUrl": "https://profitstore.gr",
+        "officialUrl": "https://profitstore.gr/",
+        "domainBrand": "profitstore",
+        "proposedMerchant": "Profitstore",
+        "proposedCanonicalTitle": "Profitstore Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          300
+        ],
+        "cardId": "cmta1jdvx00gqq8iy4767yu90",
+        "merchantId": "cmta1jdpf00gpq8iyjay8pz2w",
+        "merchantName": "Secretsofbeauty",
+        "title": "Δωροκάρτα 300€ | Secrets of Beauty | Θεσσαλονίκη",
+        "websiteUrl": "https://secretsofbeauty.gr",
+        "officialUrl": "https://secretsofbeauty.gr/doroepitages-spa/dorokarta-300e",
+        "domainBrand": "secretsofbeauty",
+        "proposedMerchant": "Secretsofbeauty",
+        "proposedCanonicalTitle": "Secretsofbeauty Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          200
+        ],
+        "cardId": "cmta5ny2d002354iyvhj9mkz0",
+        "merchantId": "cmta5nxxp002254iy4fqx9dbp",
+        "merchantName": "Smaragdasart",
+        "title": "E-Δωροκάρτα 200€",
+        "websiteUrl": "https://smaragdasart.gr",
+        "officialUrl": "https://smaragdasart.gr/el/card/171-e-gift-card-100-.html",
+        "domainBrand": "smaragdasart",
+        "proposedMerchant": "Smaragdasart",
+        "proposedCanonicalTitle": "Smaragdasart Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          10,
+          100
+        ],
+        "cardId": "cmta1jijd00haq8iy0wkujph9",
+        "merchantId": "cmta1jidc00h9q8iy2obggbjm",
+        "merchantName": "Stickit",
+        "title": "Δωροεπιταγή 10 € - 100 €",
+        "websiteUrl": "https://stickit.gr",
+        "officialUrl": "https://stickit.gr/",
+        "domainBrand": "stickit",
+        "proposedMerchant": "Stickit",
+        "proposedCanonicalTitle": "Stickit Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1l69r00o2q8iysx3o77ki",
+        "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+        "merchantName": "Tacticalstore",
+        "title": "Δωροκάρτα 50€ Tactical Store – Digital Gift Card - Tacticalstore ...",
+        "websiteUrl": "https://tacticalstore.gr",
+        "officialUrl": "https://www.tacticalstore.gr/product/dorokarta-tactical-store-100e-pro-gift-card/",
+        "domainBrand": "tacticalstore",
+        "proposedMerchant": "Tacticalstore",
+        "proposedCanonicalTitle": "Tacticalstore Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1fp5c0037q8iy0bte1j9f",
+        "merchantId": "cmta1fozl0036q8iyfva5aozo",
+        "merchantName": "Thomann",
+        "title": "Thomann Gift Certificate 50 EUR",
+        "websiteUrl": "https://thomann.de",
+        "officialUrl": "https://www.thomann.de/gr/index.html",
+        "domainBrand": "thomann",
+        "proposedMerchant": "Thomann",
+        "proposedCanonicalTitle": "Thomann Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmtb77n4m003qdkiyjf9v5mzc",
+        "merchantId": "cmtb77mzs003pdkiyc12og14q",
+        "merchantName": "Topgreekwines",
+        "title": "Gift voucher 50€",
+        "websiteUrl": "https://topgreekwines.gr",
+        "officialUrl": "https://www.topgreekwines.gr/en-gb/gift-voucher-50%E2%82%AC-wines.html",
+        "domainBrand": "topgreekwines",
+        "proposedMerchant": "Topgreekwines",
+        "proposedCanonicalTitle": "Topgreekwines Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          50
+        ],
+        "cardId": "cmta1jsr800ieq8iywfmnl4tl",
+        "merchantId": "cmta1jska00idq8iyoro6mc23",
+        "merchantName": "Turritella",
+        "title": "Δωροκάρτα 50€ - Turritella",
+        "websiteUrl": "https://turritella.gr",
+        "officialUrl": "https://turritella.gr/giftcards/",
+        "domainBrand": "turritella",
+        "proposedMerchant": "Turritella",
+        "proposedCanonicalTitle": "Turritella Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          10
+        ],
+        "cardId": "cmta1h0ab007sq8iyxev6cx5s",
+        "merchantId": "cmta1h047007rq8iyu0fz8xw6",
+        "merchantName": "Undergroundshop",
+        "title": "GIFTCARD 10 EURO GIFTCARD_1",
+        "websiteUrl": "https://undergroundshop.gr",
+        "officialUrl": "https://undergroundshop.gr/",
+        "domainBrand": "undergroundshop",
+        "proposedMerchant": "Undergroundshop",
+        "proposedCanonicalTitle": "Undergroundshop Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          40
+        ],
+        "cardId": "cmta1nyzl00yyq8iy0qetgjxm",
+        "merchantId": "cmta1nys900yxq8iye6g35elk",
+        "merchantName": "Vinylartclothing",
+        "title": "Vinyl gift card 40€",
+        "websiteUrl": "https://vinylartclothing.gr",
+        "officialUrl": "https://vinylartclothing.gr/products/gift-card-40",
+        "domainBrand": "vinylartclothing",
+        "proposedMerchant": "Vinylartclothing",
+        "proposedCanonicalTitle": "Vinylartclothing Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1k33j00jmq8iy7dosx0mg",
+        "merchantId": "cmta1k2vw00jlq8iy0gndm22x",
+        "merchantName": "Wine24shop",
+        "title": "Gift Card 20 euro - Wine24shop",
+        "websiteUrl": "https://wine24shop.gr",
+        "officialUrl": "https://www.wine24shop.gr/dorokarta-100-euro.el.aspx",
+        "domainBrand": "wine24shop",
+        "proposedMerchant": "Wine24shop",
+        "proposedCanonicalTitle": "Wine24shop Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20
+        ],
+        "cardId": "cmta1jyv900j4q8iyp2i9pyz5",
+        "merchantId": "cmta1jyov00j3q8iy67j6xwig",
+        "merchantName": "Yellowstars",
+        "title": "Δωροκάρτα 20€ YellowStars",
+        "websiteUrl": "https://yellowstars.gr",
+        "officialUrl": "https://yellowstars.gr/category/dorokarta",
+        "domainBrand": "yellowstars",
+        "proposedMerchant": "Yellowstars",
+        "proposedCanonicalTitle": "Yellowstars Gift Card"
+      },
+      {
+        "bucket": "AMOUNT_SPECIFIC_BUT_MERCHANT_OK",
+        "reason": "Merchant name already looks valid; only the gift-card title/URL may be denomination-specific.",
+        "values": [
+          20,
+          400
+        ],
+        "cardId": "cmta1fxm40041q8iyf19nk7km",
+        "merchantId": "cmta1fxg20040q8iyzetmsdo8",
+        "merchantName": "iQueens",
+        "title": "iQueens: Το Ιδανικό Δώρο! Δωροκάρτες από 20€ έως 400€",
+        "websiteUrl": "https://iqueens.gr",
+        "officialUrl": "https://www.iqueens.gr/el/dorokartes/309412-ilektroniko-kouponi-aksias-400-.html",
+        "domainBrand": "iqueens",
+        "proposedMerchant": "iQueens",
+        "proposedCanonicalTitle": "iQueens Gift Card"
+      }
+    ],
+    "NEEDS_MANUAL_REVIEW": [
+      {
+        "bucket": "NEEDS_MANUAL_REVIEW",
+        "reason": "Merchant name is polluted but automatic brand recovery is not confident enough.",
+        "values": [
+          100
+        ],
+        "cardId": "cmtb78e22007gdkiyojyhhg7e",
+        "merchantId": "cmtb78dwy007fdkiyd2xzj5l1",
+        "merchantName": "Gift Voucher 100 EUR",
+        "title": "Gift Voucher 100 EUR",
+        "websiteUrl": "https://zador.gr",
+        "officialUrl": "https://www.zador.gr/en/products/gift-voucher-100-eur",
+        "domainBrand": "zador",
+        "proposedMerchant": null,
+        "proposedCanonicalTitle": null
+      },
+      {
+        "bucket": "NEEDS_MANUAL_REVIEW",
+        "reason": "Merchant name is polluted but automatic brand recovery is not confident enough.",
+        "values": [
+          100
+        ],
+        "cardId": "cmtb78fkx007odkiylrl8o7it",
+        "merchantId": "cmtb78ffp007ndkiyn4woc6vx",
+        "merchantName": "ΔΩΡΟΚΑΡΤΑ 100€",
+        "title": "ΔΩΡΟΚΑΡΤΑ 100€",
+        "websiteUrl": "https://hobbywood.gr",
+        "officialUrl": "https://www.hobbywood.gr/GIFTCARD100",
+        "domainBrand": "hobbywood",
+        "proposedMerchant": null,
+        "proposedCanonicalTitle": null
+      }
+    ]
+  }
+}

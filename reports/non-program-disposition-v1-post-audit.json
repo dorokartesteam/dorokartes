@@ -1,0 +1,9 @@
+{
+  "version": "non-program-disposition-v1",
+  "mode": "POST_AUDIT",
+  "planId": "35dca524a250ac866d9fe25b69fc9ff4a1f443a30c65b6098dace0440c0d5778",
+  "auditedAt": "2026-09-04T08:16:20.324Z",
+  "checked": 5,
+  "passed": 5,
+  "failed": []
+}

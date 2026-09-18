@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "1a1f5d402cd4ec36b6d91161a95f185d2b12c699d0ac4e9a644efce3929d3c32",
+  "targetCount": 2,
+  "concurrency": 12,
+  "summary": {
+    "safe": 2,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmtb6ueoq00043giye4hg3ri6:4e637ccc985f",
+      "merchantId": "cmtb6ueoq00043giye4hg3ri6",
+      "merchantName": "Adventure Junkies",
+      "merchantSlug": "90-adventure-junkies",
+      "websiteUrl": "https://adventurejunkies.gr/",
+      "sourceUrl": "https://adventurejunkies.storage.googleapis.com/wp-content/uploads/2022/02/24234105/fav.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 154,
+      "sha256": "4e637ccc985fad884e657ccdfc769cb25d0769ef09bc88cc2b6489d055207e85",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 28619,
+      "width": 91,
+      "height": 98,
+      "localUrl": "/merchant-logos/90-adventure-junkies-4e637ccc985f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nm6s00xjq8iyb6787fku:45056a7151f8",
+      "merchantId": "cmta1nm6s00xjq8iyb6787fku",
+      "merchantName": "Piccolo Orso",
+      "merchantSlug": "piccolo-orso",
+      "websiteUrl": "https://piccolo-orso.gr/",
+      "sourceUrl": "https://piccolo-orso.gr/files/uploads/2024/08/logo_gold2.webp",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 318,
+      "sha256": "45056a7151f893730fab5e3d53b5ebd35405ba9e2d647c12eec2ff7e9bd6b2c1",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 10092,
+      "width": 577,
+      "height": 147,
+      "localUrl": "/merchant-logos/piccolo-orso-45056a7151f8.webp"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmtb6ueoq00043giye4hg3ri6",
+      "merchantName": "Adventure Junkies",
+      "merchantSlug": "90-adventure-junkies",
+      "websiteUrl": "https://adventurejunkies.gr",
+      "finalWebsiteUrl": "https://adventurejunkies.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://adventurejunkies.storage.googleapis.com/wp-content/uploads/2022/02/24234105/fav.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 154
+      },
+      "validatedAsset": {
+        "url": "https://adventurejunkies.storage.googleapis.com/wp-content/uploads/2022/02/24234105/fav.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 28619,
+        "width": 91,
+        "height": 98,
+        "sha256": "4e637ccc985fad884e657ccdfc769cb25d0769ef09bc88cc2b6489d055207e85"
+      }
+    },
+    {
+      "merchantId": "cmta1nm6s00xjq8iyb6787fku",
+      "merchantName": "Piccolo Orso",
+      "merchantSlug": "piccolo-orso",
+      "websiteUrl": "https://piccolo-orso.gr",
+      "finalWebsiteUrl": "https://piccolo-orso.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://piccolo-orso.gr/files/uploads/2024/08/logo_gold2.webp",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 318
+      },
+      "validatedAsset": {
+        "url": "https://piccolo-orso.gr/files/uploads/2024/08/logo_gold2.webp",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 10092,
+        "width": 577,
+        "height": 147,
+        "sha256": "45056a7151f893730fab5e3d53b5ebd35405ba9e2d647c12eec2ff7e9bd6b2c1"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T18:36:30.339Z",
+  "planId": "2fae3c17de30f1b9eb4acb2cdd7b4c33e0000c26c8431922375f8368e34314c7"
+}

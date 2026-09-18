@@ -47,10 +47,24 @@ export { Prisma }
  */
 export type Merchant = Prisma.MerchantModel
 /**
+ * Model MerchantLocation
+ * *
+ *  * A physical merchant point backed by an explicit source URL.
+ *  * Location presence alone never implies gift-card purchase or redemption.
+ */
+export type MerchantLocation = Prisma.MerchantLocationModel
+/**
  * Model GiftCard
  * 
  */
 export type GiftCard = Prisma.GiftCardModel
+/**
+ * Model GiftCardLocationCapability
+ * *
+ *  * Explicit evidence for a card's in-store capability at one location.
+ *  * No row means unknown; `available = false` is an evidenced negative claim.
+ */
+export type GiftCardLocationCapability = Prisma.GiftCardLocationCapabilityModel
 /**
  * Model GiftCardVariant
  * 
@@ -102,6 +116,59 @@ export type SourceRecord = Prisma.SourceRecordModel
  */
 export type DiscoveryItem = Prisma.DiscoveryItemModel
 /**
+ * Model ManualCanonicalOverride
+ * 
+ */
+export type ManualCanonicalOverride = Prisma.ManualCanonicalOverrideModel
+/**
+ * Model ScoringModelVersion
+ * 
+ */
+export type ScoringModelVersion = Prisma.ScoringModelVersionModel
+/**
+ * Model CanonicalizationRun
+ * 
+ */
+export type CanonicalizationRun = Prisma.CanonicalizationRunModel
+/**
+ * Model CanonicalizationDecision
+ * 
+ */
+export type CanonicalizationDecision = Prisma.CanonicalizationDecisionModel
+/**
+ * Model DiscoveryVerificationAttempt
+ * 
+ */
+export type DiscoveryVerificationAttempt = Prisma.DiscoveryVerificationAttemptModel
+/**
+ * Model ManualVerificationOverride
+ * *
+ *  * |--------------------------------------------------------------------------
+ *  * | MANUAL VERIFICATION OVERRIDES
+ *  * |--------------------------------------------------------------------------
+ */
+export type ManualVerificationOverride = Prisma.ManualVerificationOverrideModel
+/**
+ * Model DomainRediscoveryTask
+ * 
+ */
+export type DomainRediscoveryTask = Prisma.DomainRediscoveryTaskModel
+/**
+ * Model VerificationFetchObservation
+ * 
+ */
+export type VerificationFetchObservation = Prisma.VerificationFetchObservationModel
+/**
+ * Model ProductionReviewFlag
+ * 
+ */
+export type ProductionReviewFlag = Prisma.ProductionReviewFlagModel
+/**
+ * Model ProductionVerificationSnapshot
+ * 
+ */
+export type ProductionVerificationSnapshot = Prisma.ProductionVerificationSnapshotModel
+/**
  * Model VerificationEvent
  * 
  */
@@ -131,3 +198,8 @@ export type CrawlJob = Prisma.CrawlJobModel
  * 
  */
 export type SearchEvent = Prisma.SearchEventModel
+/**
+ * Model MerchantDiscoveryScan
+ * 
+ */
+export type MerchantDiscoveryScan = Prisma.MerchantDiscoveryScanModel

@@ -1,0 +1,223 @@
+{
+  "version": "non-program-disposition-v1",
+  "mode": "PREVIEW",
+  "generatedAt": "2026-09-04T08:15:56.388Z",
+  "targetFingerprint": "ad7f79d6bc3069a430b57b1761254ff11662d218d7b1d2191c6489f00d1ea545",
+  "summary": {
+    "archiveGiftCards": 5,
+    "archiveMerchants": 5
+  },
+  "actions": [
+    {
+      "giftCardId": "cmta1gcgz005aq8iybkijogn9",
+      "expectedDomain": "cardlink.gr",
+      "reasonCode": "B2B_GIFT_CARD_MANAGEMENT_PLATFORM",
+      "evidence": "https://cardlink.gr/giftcard/",
+      "rationale": "Cardlink markets a gift-card management service to merchants, not a Cardlink consumer gift card.",
+      "merchantId": "cmta1gcbh0059q8iye9c4jkss",
+      "merchantName": "Cardlink",
+      "merchantSlug": "cardlink",
+      "giftCardTitle": "Υπηρεσία Διαχείρισης Δωροκάρτας | Cardlink giftcard",
+      "giftCardSlug": "cardlink-υπηρεσια-διαχειρισης-δωροκαρτας-cardlink-giftcard",
+      "before": {
+        "giftCardId": "cmta1gcgz005aq8iybkijogn9",
+        "giftCardStatus": "ACTIVE",
+        "verificationStatus": "NEEDS_REVIEW",
+        "merchantId": "cmta1gcbh0059q8iye9c4jkss",
+        "merchantStatus": "ACTIVE",
+        "giftCardRelationCounts": {
+          "variants": 0,
+          "categories": 0,
+          "occasions": 0,
+          "sources": 0,
+          "mediaAssets": 0,
+          "clicks": 0,
+          "verificationEvents": 0,
+          "reviewFlags": 0,
+          "productionVerificationSnapshots": 0
+        },
+        "merchantRelationCounts": {
+          "giftCards": 1,
+          "sources": 0,
+          "mediaAssets": 1,
+          "clicks": 0
+        }
+      },
+      "after": {
+        "giftCardStatus": "ARCHIVED",
+        "verificationStatus": "REJECTED",
+        "merchantStatus": "ARCHIVED"
+      },
+      "actionId": "fb598da59a57e5ce34b5f1bc16df86feba661ee45b459df12b93a385c3dc74ca"
+    },
+    {
+      "giftCardId": "cmta1ipsc00dqq8iyvmd0xco3",
+      "expectedDomain": "liberal.gr",
+      "reasonCode": "EDITORIAL_ARTICLE_NOT_ISSUER",
+      "evidence": "https://liberal.gr/",
+      "rationale": "The record represents editorial coverage of an IKEA gift card; Liberal is not the issuer.",
+      "merchantId": "cmta1ipm700dpq8iya27suf5z",
+      "merchantName": "Liberal",
+      "merchantSlug": "liberal",
+      "giftCardTitle": "Δωροκάρτα ΙΚΕΑ: Tο ιδανικό δώρο για κάθε περίσταση, ...",
+      "giftCardSlug": "liberal-δωροκαρτα-ικεα-tο-ιδανικο-δωρο-για-καθε-περισταση",
+      "before": {
+        "giftCardId": "cmta1ipsc00dqq8iyvmd0xco3",
+        "giftCardStatus": "ACTIVE",
+        "verificationStatus": "VERIFIED",
+        "merchantId": "cmta1ipm700dpq8iya27suf5z",
+        "merchantStatus": "ACTIVE",
+        "giftCardRelationCounts": {
+          "variants": 0,
+          "categories": 0,
+          "occasions": 0,
+          "sources": 0,
+          "mediaAssets": 0,
+          "clicks": 0,
+          "verificationEvents": 0,
+          "reviewFlags": 0,
+          "productionVerificationSnapshots": 0
+        },
+        "merchantRelationCounts": {
+          "giftCards": 1,
+          "sources": 0,
+          "mediaAssets": 1,
+          "clicks": 0
+        }
+      },
+      "after": {
+        "giftCardStatus": "ARCHIVED",
+        "verificationStatus": "REJECTED",
+        "merchantStatus": "ARCHIVED"
+      },
+      "actionId": "c221f48831d9a666b59201780984c519e59d50e9dd5b05aae7108b03a6c8f73d"
+    },
+    {
+      "giftCardId": "cmta1j3ad00fiq8iyn7woqbcd",
+      "expectedDomain": "naftemporiki.gr",
+      "reasonCode": "EDITORIAL_ARTICLE_NOT_ISSUER",
+      "evidence": "https://naftemporiki.gr/",
+      "rationale": "The record represents editorial coverage of an IKEA gift card; Naftemporiki is not the issuer.",
+      "merchantId": "cmta1j34900fhq8iys6e8ls57",
+      "merchantName": "Naftemporiki",
+      "merchantSlug": "naftemporiki",
+      "giftCardTitle": "ΔΩΡΟΚΑΡΤΑ ΙΚΕΑ: Tο ιδανικό δώρο για κάθε περίσταση, ...",
+      "giftCardSlug": "naftemporiki-δωροκαρτα-ικεα-tο-ιδανικο-δωρο-για-καθε-περισταση",
+      "before": {
+        "giftCardId": "cmta1j3ad00fiq8iyn7woqbcd",
+        "giftCardStatus": "ACTIVE",
+        "verificationStatus": "VERIFIED",
+        "merchantId": "cmta1j34900fhq8iys6e8ls57",
+        "merchantStatus": "ACTIVE",
+        "giftCardRelationCounts": {
+          "variants": 0,
+          "categories": 0,
+          "occasions": 0,
+          "sources": 0,
+          "mediaAssets": 0,
+          "clicks": 0,
+          "verificationEvents": 0,
+          "reviewFlags": 0,
+          "productionVerificationSnapshots": 0
+        },
+        "merchantRelationCounts": {
+          "giftCards": 1,
+          "sources": 0,
+          "mediaAssets": 1,
+          "clicks": 0
+        }
+      },
+      "after": {
+        "giftCardStatus": "ARCHIVED",
+        "verificationStatus": "REJECTED",
+        "merchantStatus": "ARCHIVED"
+      },
+      "actionId": "f9797c34559f1e58d903557f7d480940a459f8c891d5075190e04dd664670fe8"
+    },
+    {
+      "giftCardId": "cmta1m0uh00req8iycwbgvctn",
+      "expectedDomain": "printhouse.gr",
+      "reasonCode": "PRINT_SERVICE_NOT_GIFT_CARD_PROGRAM",
+      "evidence": "https://printhouse.gr/ektyposeis-gia-ksenodokheia/gift-voucher",
+      "rationale": "Printhouse sells voucher printing to businesses, not a Printhouse consumer gift-card program.",
+      "merchantId": "cmta1m0nl00rdq8iyz2i93092",
+      "merchantName": "Printhouse",
+      "merchantSlug": "printhouse",
+      "giftCardTitle": "Εκτύπωση Κάρτα Δώρου Gift Voucher",
+      "giftCardSlug": "printhouse-εκτυπωση-καρτα-δωρου-gift-voucher",
+      "before": {
+        "giftCardId": "cmta1m0uh00req8iycwbgvctn",
+        "giftCardStatus": "ACTIVE",
+        "verificationStatus": "NEEDS_REVIEW",
+        "merchantId": "cmta1m0nl00rdq8iyz2i93092",
+        "merchantStatus": "ACTIVE",
+        "giftCardRelationCounts": {
+          "variants": 0,
+          "categories": 0,
+          "occasions": 0,
+          "sources": 0,
+          "mediaAssets": 0,
+          "clicks": 0,
+          "verificationEvents": 0,
+          "reviewFlags": 0,
+          "productionVerificationSnapshots": 0
+        },
+        "merchantRelationCounts": {
+          "giftCards": 1,
+          "sources": 0,
+          "mediaAssets": 1,
+          "clicks": 0
+        }
+      },
+      "after": {
+        "giftCardStatus": "ARCHIVED",
+        "verificationStatus": "REJECTED",
+        "merchantStatus": "ARCHIVED"
+      },
+      "actionId": "60a2247917a121a85ca704ab5d4d10018288da6aae504247be2a5c5b57f5d788"
+    },
+    {
+      "giftCardId": "cmtb77zm2005jdkiy64jdfokt",
+      "expectedDomain": "blue-print.gr",
+      "reasonCode": "PRINT_SERVICE_NOT_GIFT_CARD_PROGRAM",
+      "evidence": "https://blue-print.gr/",
+      "rationale": "Blue Print sells printed voucher/card products, not its own consumer gift-card program.",
+      "merchantId": "cmtb77zgx005idkiyg9qkwj7r",
+      "merchantName": "Δωροεπιταγές",
+      "merchantSlug": "δωροεπιταγες",
+      "giftCardTitle": "Δωροεπιταγές – Gift Cards",
+      "giftCardSlug": "δωροεπιταγες-δωροεπιταγες-gift-cards",
+      "before": {
+        "giftCardId": "cmtb77zm2005jdkiy64jdfokt",
+        "giftCardStatus": "ACTIVE",
+        "verificationStatus": "VERIFIED",
+        "merchantId": "cmtb77zgx005idkiyg9qkwj7r",
+        "merchantStatus": "ACTIVE",
+        "giftCardRelationCounts": {
+          "variants": 0,
+          "categories": 0,
+          "occasions": 0,
+          "sources": 0,
+          "mediaAssets": 0,
+          "clicks": 0,
+          "verificationEvents": 0,
+          "reviewFlags": 0,
+          "productionVerificationSnapshots": 0
+        },
+        "merchantRelationCounts": {
+          "giftCards": 1,
+          "sources": 0,
+          "mediaAssets": 1,
+          "clicks": 0
+        }
+      },
+      "after": {
+        "giftCardStatus": "ARCHIVED",
+        "verificationStatus": "REJECTED",
+        "merchantStatus": "ARCHIVED"
+      },
+      "actionId": "b3c78bd040869a7c263fb2358790ffede4616b1026f9f1b1292dfa63489f9282"
+    }
+  ],
+  "planId": "35dca524a250ac866d9fe25b69fc9ff4a1f443a30c65b6098dace0440c0d5778"
+}

@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "f52e63e37f880fa23e2ae8f5a8784861417f5e597257d3d190b9dbcdbedc445b",
+  "targetCount": 4,
+  "concurrency": 4,
+  "summary": {
+    "safe": 4,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1jcpl00glq8iyiewjd0bh:e66b68e35110",
+      "merchantId": "cmta1jcpl00glq8iyiewjd0bh",
+      "merchantName": "Ptbox",
+      "merchantSlug": "ptbox",
+      "websiteUrl": "https://ptbox.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg/v1/fill/w_168,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 120,
+      "sha256": "e66b68e35110be80fa8ac7902934ace56f8e743b59e856c548d45aaba941668f",
+      "contentType": "image/webp",
+      "extension": ".webp",
+      "bytes": 1672,
+      "width": 168,
+      "height": 168,
+      "localUrl": "/merchant-logos/ptbox-e66b68e35110.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62r5h001u94iyasn3pt54:8ec58eec03ad",
+      "merchantId": "cmtb62r5h001u94iyasn3pt54",
+      "merchantName": "Radiodaysfashion",
+      "merchantSlug": "radiodaysfashion",
+      "websiteUrl": "https://radiodaysfashion.gr/",
+      "sourceUrl": "https://www.radiodaysfashion.gr/app/assets/images/radiodays-logo.svg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 346,
+      "sha256": "8ec58eec03ad4e09a424e7d3237edd24d41f1a64cb98fe60f1a128cd00d85d20",
+      "contentType": "image/svg+xml",
+      "extension": ".svg",
+      "bytes": 4872,
+      "width": 208,
+      "height": 63,
+      "localUrl": "/merchant-logos/radiodaysfashion-8ec58eec03ad.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nv0400yhq8iywl3ocjxp:68dbc75c6ced",
+      "merchantId": "cmta1nv0400yhq8iywl3ocjxp",
+      "merchantName": "Symmetria",
+      "merchantSlug": "symmetria",
+      "websiteUrl": "https://symmetria.gr/",
+      "sourceUrl": "https://www.symmetria.com/images/logos/footer.svg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 221,
+      "sha256": "68dbc75c6ceda6f4a9a1070e805545cb6def2c876932a2b0d1b1462e2c6abf8b",
+      "contentType": "image/svg+xml",
+      "extension": ".svg",
+      "bytes": 5287,
+      "width": 1657,
+      "height": 271,
+      "localUrl": "/merchant-logos/symmetria-68dbc75c6ced.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77twd004odkiyt5u3ep1e:ebfe538955ed",
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "merchantName": "Αγοράστε μια δωροεπιταγή",
+      "merchantSlug": "αγοραστε-μια-δωροεπιταγη",
+      "websiteUrl": "https://cheapet.gr/",
+      "sourceUrl": "https://cheapet.gr/image/data/cpet-logo-new-13.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 316,
+      "sha256": "ebfe538955ed5c3861eda5e3e9036d8474d1ae17c18cdce5f10bc66aeebe1982",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 21688,
+      "width": 372,
+      "height": 52,
+      "localUrl": "/merchant-logos/merchant-ebfe538955ed.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1jcpl00glq8iyiewjd0bh",
+      "merchantName": "Ptbox",
+      "merchantSlug": "ptbox",
+      "websiteUrl": "https://ptbox.gr",
+      "finalWebsiteUrl": "https://ptbox.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg/v1/fill/w_168,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 120
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg/v1/fill/w_168,h_168,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c6d697_09ac46c1e8d74d0ea5581a73a5d1c9d5~mv2.jpg",
+        "contentType": "image/webp",
+        "extension": ".webp",
+        "bytes": 1672,
+        "width": 168,
+        "height": 168,
+        "sha256": "e66b68e35110be80fa8ac7902934ace56f8e743b59e856c548d45aaba941668f"
+      }
+    },
+    {
+      "merchantId": "cmtb62r5h001u94iyasn3pt54",
+      "merchantName": "Radiodaysfashion",
+      "merchantSlug": "radiodaysfashion",
+      "websiteUrl": "https://radiodaysfashion.gr",
+      "finalWebsiteUrl": "https://radiodaysfashion.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.radiodaysfashion.gr/app/assets/images/radiodays-logo.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 346
+      },
+      "validatedAsset": {
+        "url": "https://www.radiodaysfashion.gr/app/assets/images/radiodays-logo.svg",
+        "contentType": "image/svg+xml",
+        "extension": ".svg",
+        "bytes": 4872,
+        "width": 208,
+        "height": 63,
+        "sha256": "8ec58eec03ad4e09a424e7d3237edd24d41f1a64cb98fe60f1a128cd00d85d20"
+      }
+    },
+    {
+      "merchantId": "cmta1nv0400yhq8iywl3ocjxp",
+      "merchantName": "Symmetria",
+      "merchantSlug": "symmetria",
+      "websiteUrl": "https://symmetria.gr",
+      "finalWebsiteUrl": "https://symmetria.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://www.symmetria.com/images/logos/footer.svg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 221
+      },
+      "validatedAsset": {
+        "url": "https://www.symmetria.com/images/logos/footer.svg",
+        "contentType": "image/svg+xml",
+        "extension": ".svg",
+        "bytes": 5287,
+        "width": 1657,
+        "height": 271,
+        "sha256": "68dbc75c6ceda6f4a9a1070e805545cb6def2c876932a2b0d1b1462e2c6abf8b"
+      }
+    },
+    {
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "merchantName": "Αγοράστε μια δωροεπιταγή",
+      "merchantSlug": "αγοραστε-μια-δωροεπιταγη",
+      "websiteUrl": "https://cheapet.gr",
+      "finalWebsiteUrl": "https://cheapet.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://cheapet.gr/image/data/cpet-logo-new-13.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 316
+      },
+      "validatedAsset": {
+        "url": "https://cheapet.gr/image/data/cpet-logo-new-13.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 21688,
+        "width": 372,
+        "height": 52,
+        "sha256": "ebfe538955ed5c3861eda5e3e9036d8474d1ae17c18cdce5f10bc66aeebe1982"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T13:29:46.707Z",
+  "planId": "8fb16d6234b8bb4d4c5c1a242c1a49e7218b86547172ca05e88950f1566c68e2"
+}

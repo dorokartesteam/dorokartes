@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T11:33:06.403Z",
+  "planId": "6f8dd568b263f8a37c9299c0abdd7f3d96c52654bbb8105ca1828d73945020eb",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1fb6o001wq8iy33a59phq:636ab5ebf8d3",
+      "merchantId": "cmta1fb6o001wq8iy33a59phq",
+      "localUrl": "/merchant-logos/babydream-636ab5ebf8d3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4y9p8000csciy38yiy1ff:8dcc22d12fc6",
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "localUrl": "/merchant-logos/beababy-e-8dcc22d12fc6.webp"
+    }
+  ]
+}

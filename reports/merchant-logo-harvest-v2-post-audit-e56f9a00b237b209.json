@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-02T17:02:16.757Z",
+  "planId": "e56f9a00b237b2096bdc0b16a05bc3ca1085e302322592f29a4a75538c84213b",
+  "checked": 14,
+  "passed": 14,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "actionId": "set-merchant-logo:cmta1i8x000bpq8iyan1tyro9:10f8db0be534",
+      "merchantId": "cmta1i8x000bpq8iyan1tyro9",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "10f8db0be5346ae14699757f3331e79e8077bf36846b4ef8f49f11078ef36478"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62hzc000g94iyu8xt54ke:22ac9b9a3c17",
+      "merchantId": "cmtb62hzc000g94iyu8xt54ke",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "22ac9b9a3c176476c45a749775994efecac739b84187aec4ae5d9d295f40fac6"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kq4t00m9q8iynfm2daqb:e9a5bdb9a6ad",
+      "merchantId": "cmta1kq4t00m9q8iynfm2daqb",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "e9a5bdb9a6ad57d20f9bec3818131981d05523945b721952bd33fa3510880fe9"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gdkt005fq8iygplls487:1c39a6caf23f",
+      "merchantId": "cmta1gdkt005fq8iygplls487",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "1c39a6caf23f1072553299dc85e8eb49ab6150e37185bbcd759c7833134695aa"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uwyz002t3giyzb40c9mw:4ad28df50017",
+      "merchantId": "cmtb6uwyz002t3giyzb40c9mw",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "4ad28df50017692f345eb383407b2b9765a759e26de243c4e108ace704c4a9bd"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ihwt001h84iy9ye6u3j2:416cb752880f",
+      "merchantId": "cmt79ihwt001h84iy9ye6u3j2",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "416cb752880f30408136f705f6c2012b54c11d18c9daa772f291e3f4d09465bb"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8fb3lj000j6kiysgaap6u5:cc77c73823b6",
+      "merchantId": "cmt8fb3lj000j6kiysgaap6u5",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "cc77c73823b6663818b26df80c27396bcf5803a3f575c839cc468392c5439b27"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8hesrb000fa8iycuggb6wc:fd09d266a6a4",
+      "merchantId": "cmt8hesrb000fa8iycuggb6wc",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "fd09d266a6a40b820c603c2396f29112c2fa343ab806b002c1645f70bf30c057"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g1rb004eq8iybuvsqb1m:c9f85dd19154",
+      "merchantId": "cmta1g1rb004eq8iybuvsqb1m",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "c9f85dd191541b10f2c124b8466fdaaddb840a06db8f893393c6447a1daf5652"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8l623g00165giyglxj5znv:c860364785c3",
+      "merchantId": "cmt8l623g00165giyglxj5znv",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "c860364785c345a6e9f5ae6602709ace68b8e13734144ff91ef0ecf2033522be"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ewzn000aq8iyq8fpkvwb:b86927108dd4",
+      "merchantId": "cmta1ewzn000aq8iyq8fpkvwb",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "b86927108dd44419558c07e60bfc5c89865a4cc5230bbeed6f0e21d1538cd039"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m13x00rfq8iy5t496suf:938927ab2551",
+      "merchantId": "cmta1m13x00rfq8iy5t496suf",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "938927ab255140287a81a6d8408a86f01ccf83353ba1b6740377416f60a3bd98"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nq7z00xzq8iyb6nd72za:a1957748203a",
+      "merchantId": "cmta1nq7z00xzq8iyb6nd72za",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "a1957748203a31e229e605ac41b6093ade521e8e7d61cc64774a81444ce44de8"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fypk0046q8iyul7h6jis:c21251b20abd",
+      "merchantId": "cmta1fypk0046q8iyul7h6jis",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "c21251b20abdef45c69b2cf00e88f1da2eb3b6eb41d6406ba6cbdeca32c274e7"
+    }
+  ]
+}

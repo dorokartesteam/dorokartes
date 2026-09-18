@@ -1,0 +1,1089 @@
+{
+  "version": "catalog-taxonomy-v2",
+  "mode": "PREVIEW",
+  "generatedAt": "2026-09-04T08:05:18.459Z",
+  "targetFingerprint": "157ce8f9486cb3fc641609f26f353e4f4da9d303a5c2bf92bc524a2b806b2170",
+  "targetCount": 39,
+  "summary": {
+    "safe": 0,
+    "review": 39
+  },
+  "categoryDefinitions": [
+    {
+      "name": "Μόδα",
+      "slug": "fashion",
+      "description": "Ρούχα, παπούτσια, τσάντες και fashion brands.",
+      "icon": "shirt",
+      "sortOrder": 10
+    },
+    {
+      "name": "Ομορφιά",
+      "slug": "beauty",
+      "description": "Καλλυντικά, skincare, αρώματα, μαλλιά και υπηρεσίες ομορφιάς.",
+      "icon": "sparkles",
+      "sortOrder": 20
+    },
+    {
+      "name": "Τεχνολογία",
+      "slug": "technology",
+      "description": "Ηλεκτρονικά, υπολογιστές, κινητά, gadgets και τεχνολογικός εξοπλισμός.",
+      "icon": "laptop",
+      "sortOrder": 30
+    },
+    {
+      "name": "Gaming",
+      "slug": "gaming",
+      "description": "Video games, επιτραπέζια, συλλεκτικά και gaming περιεχόμενο.",
+      "icon": "gamepad-2",
+      "sortOrder": 40
+    },
+    {
+      "name": "Streaming & Digital",
+      "slug": "streaming-digital",
+      "description": "Streaming υπηρεσίες, digital credits και online subscriptions.",
+      "icon": "play",
+      "sortOrder": 50
+    },
+    {
+      "name": "Σπίτι & Διακόσμηση",
+      "slug": "home",
+      "description": "Έπιπλα, φωτισμός, διακόσμηση, κήπος, εργαλεία και οικιακός εξοπλισμός.",
+      "icon": "house",
+      "sortOrder": 60
+    },
+    {
+      "name": "Αθλητισμός",
+      "slug": "sports",
+      "description": "Αθλητικά είδη, fitness, outdoor και θαλάσσια σπορ.",
+      "icon": "dumbbell",
+      "sortOrder": 70
+    },
+    {
+      "name": "Παιδί & Μωρό",
+      "slug": "kids-baby",
+      "description": "Παιδικά και βρεφικά είδη, παιχνίδια και προϊόντα νέων γονέων.",
+      "icon": "baby",
+      "sortOrder": 80
+    },
+    {
+      "name": "Βιβλία",
+      "slug": "books",
+      "description": "Βιβλία, βιβλιοπωλεία και εκδόσεις.",
+      "icon": "book-open",
+      "sortOrder": 90
+    },
+    {
+      "name": "Τέχνη & Χειροτεχνία",
+      "slug": "arts-crafts",
+      "description": "Εικαστικά, χειροτεχνία, υλικά δημιουργίας, πλέξιμο και handmade αντικείμενα.",
+      "icon": "palette",
+      "sortOrder": 95
+    },
+    {
+      "name": "Μουσική & Όργανα",
+      "slug": "music",
+      "description": "Μουσικά όργανα, ήχος, DJ και μουσικός εξοπλισμός.",
+      "icon": "music",
+      "sortOrder": 98
+    },
+    {
+      "name": "Φαγητό & Ποτό",
+      "slug": "food-delivery",
+      "description": "Τρόφιμα, ποτά, κρασί, delicatessen, supermarkets και delivery.",
+      "icon": "utensils",
+      "sortOrder": 100
+    },
+    {
+      "name": "Εστιατόρια",
+      "slug": "restaurants",
+      "description": "Εστιατόρια, καφέ, bars και γαστρονομικές εμπειρίες.",
+      "icon": "chef-hat",
+      "sortOrder": 110
+    },
+    {
+      "name": "Ταξίδια",
+      "slug": "travel",
+      "description": "Αεροπορικές, ταξιδιωτικές υπηρεσίες, μεταφορές και ταξιδιωτικά δώρα.",
+      "icon": "plane",
+      "sortOrder": 120
+    },
+    {
+      "name": "Ξενοδοχεία",
+      "slug": "hotels",
+      "description": "Διαμονές, resorts, villas και hotel gift vouchers.",
+      "icon": "hotel",
+      "sortOrder": 130
+    },
+    {
+      "name": "Εμπειρίες",
+      "slug": "experiences",
+      "description": "Δραστηριότητες, πολιτισμός, events, excursions και μοναδικές εμπειρίες.",
+      "icon": "ticket",
+      "sortOrder": 140
+    },
+    {
+      "name": "Εκπαίδευση & Μαθήματα",
+      "slug": "education",
+      "description": "Μαθήματα, σεμινάρια, σχολές και εκπαιδευτικές υπηρεσίες.",
+      "icon": "graduation-cap",
+      "sortOrder": 145
+    },
+    {
+      "name": "Spa & Wellness",
+      "slug": "spa-wellness",
+      "description": "Spa, massage, yoga, wellness και υπηρεσίες χαλάρωσης.",
+      "icon": "flower-2",
+      "sortOrder": 150
+    },
+    {
+      "name": "Κοσμήματα & Ρολόγια",
+      "slug": "jewelry-watches",
+      "description": "Κοσμήματα, ρολόγια, πολύτιμοι λίθοι και αξεσουάρ.",
+      "icon": "gem",
+      "sortOrder": 160
+    },
+    {
+      "name": "Φαρμακείο & Περιποίηση",
+      "slug": "pharmacy",
+      "description": "Φαρμακεία, dermocosmetics, συμπληρώματα και προϊόντα προσωπικής φροντίδας.",
+      "icon": "heart-pulse",
+      "sortOrder": 170
+    },
+    {
+      "name": "Υγεία & Ιατρικές Υπηρεσίες",
+      "slug": "health-medical",
+      "description": "Κλινικές, διαγνωστικές, οδοντιατρικές και άλλες υπηρεσίες υγείας.",
+      "icon": "stethoscope",
+      "sortOrder": 175
+    },
+    {
+      "name": "Κατοικίδια",
+      "slug": "pets",
+      "description": "Pet shops, κτηνιατρικές υπηρεσίες, τροφές και φροντίδα κατοικιδίων.",
+      "icon": "paw-print",
+      "sortOrder": 178
+    },
+    {
+      "name": "Αυτοκίνητο & Μοτοσυκλέτα",
+      "slug": "automotive",
+      "description": "Αυτοκίνητο, μοτοσυκλέτα, ανταλλακτικά, εξοπλισμός και υπηρεσίες φροντίδας.",
+      "icon": "car-front",
+      "sortOrder": 180
+    },
+    {
+      "name": "Πολυκαταστήματα",
+      "slug": "department-stores",
+      "description": "Μεγάλα πολυκαταστήματα και multi-category retailers.",
+      "icon": "store",
+      "sortOrder": 190
+    },
+    {
+      "name": "Marketplaces",
+      "slug": "marketplaces",
+      "description": "Online marketplaces, deal platforms και multi-merchant καταστήματα.",
+      "icon": "shopping-bag",
+      "sortOrder": 200
+    },
+    {
+      "name": "Δώρα & Concept Stores",
+      "slug": "gifts-concept-stores",
+      "description": "Gift shops, concept stores και επιλεγμένα αντικείμενα δώρου.",
+      "icon": "gift",
+      "sortOrder": 205
+    },
+    {
+      "name": "Εταιρικά Δώρα",
+      "slug": "corporate-gifts",
+      "description": "Gift cards και vouchers για επιχειρήσεις και προσωπικό.",
+      "icon": "briefcase-business",
+      "sortOrder": 210
+    }
+  ],
+  "actions": [],
+  "reviews": [
+    {
+      "giftCardId": "cmta1mf5900syq8iyejmu80s9",
+      "merchantName": "1art",
+      "giftCardTitle": "Gift Cards",
+      "officialUrl": "https://1art.gr/",
+      "websiteUrl": "https://1art.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1f09t000nq8iyx3uehika",
+      "merchantName": "Adagio",
+      "giftCardTitle": "Adagio Gift Voucher 200 euro",
+      "officialUrl": "https://www.adagio.gr/el/",
+      "websiteUrl": "https://adagio.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1hb5r008iq8iyqvjs32oy",
+      "merchantName": "Ammashop",
+      "giftCardTitle": "GIFT CARD 100€ - ammashop",
+      "officialUrl": "https://www.ammashop.gr/gift-cards",
+      "websiteUrl": "https://ammashop.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta5nz6o002854iydldfcozj",
+      "merchantName": "Archives - Two And A Half - twoandahalf.gr",
+      "giftCardTitle": "Gift Card Archives - Two And A Half - twoandahalf.gr",
+      "officialUrl": "https://www.twoandahalf.gr/product-category/gift-card/",
+      "websiteUrl": "https://twoandahalf.gr",
+      "candidates": [
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry"
+          ]
+        },
+        {
+          "categorySlug": "marketplaces",
+          "score": 61,
+          "evidence": [
+            "page-excerpt:marketplace"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta5nkqd000354iye66fxcah",
+      "merchantName": "Atelie",
+      "giftCardTitle": "Atelie Gift Card",
+      "officialUrl": "https://www.atelie.com.gr/178-giftcards",
+      "websiteUrl": "https://atelie.com.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1gcgz005aq8iybkijogn9",
+      "merchantName": "Cardlink",
+      "giftCardTitle": "Υπηρεσία Διαχείρισης Δωροκάρτας | Cardlink giftcard",
+      "officialUrl": "https://cardlink.gr/giftcard/",
+      "websiteUrl": "https://cardlink.gr",
+      "candidates": [
+        {
+          "categorySlug": "automotive",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:automotive-el"
+          ]
+        },
+        {
+          "categorySlug": "health-medical",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:medical-service-el"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    },
+    {
+      "giftCardId": "cmta1kk4900lkq8iyorzj05jc",
+      "merchantName": "Celesteshop",
+      "giftCardTitle": "Gift Card 50",
+      "officialUrl": "https://celesteshop.gr/c/dwrokarta/",
+      "websiteUrl": "https://celesteshop.gr",
+      "candidates": [
+        {
+          "categorySlug": "automotive",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:automotive-el"
+          ]
+        },
+        {
+          "categorySlug": "education",
+          "score": 80,
+          "evidence": [
+            "page-excerpt:education-el"
+          ]
+        },
+        {
+          "categorySlug": "kids-baby",
+          "score": 78,
+          "evidence": [
+            "page-excerpt:kids-baby-el"
+          ]
+        },
+        {
+          "categorySlug": "gaming",
+          "score": 73,
+          "evidence": [
+            "page-excerpt:gaming-el"
+          ]
+        },
+        {
+          "categorySlug": "technology",
+          "score": 72,
+          "evidence": [
+            "page-excerpt:technology",
+            "page-excerpt:technology-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1mq7900u2q8iy41zkg4cg",
+      "merchantName": "Cigarsmoke",
+      "giftCardTitle": "Gift Card Αρχεία",
+      "officialUrl": "https://cigarsmoke.gr/el/gift-cards/",
+      "websiteUrl": "https://cigarsmoke.gr",
+      "candidates": [
+        {
+          "categorySlug": "beauty",
+          "score": 74,
+          "evidence": [
+            "page-excerpt:beauty-el"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 62,
+          "evidence": [
+            "page-excerpt:experience"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb6ul4v00133giyhgnnpf1j",
+      "merchantName": "ColorDrop",
+      "giftCardTitle": "ColorDrop Gift Card",
+      "officialUrl": "https://colordrop.gr/giftcard/",
+      "websiteUrl": "https://colordrop.gr",
+      "candidates": [
+        {
+          "categorySlug": "education",
+          "score": 80,
+          "evidence": [
+            "page-excerpt:education-el"
+          ]
+        },
+        {
+          "categorySlug": "food-delivery",
+          "score": 63,
+          "evidence": [
+            "page-excerpt:food-drink-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb7718b000ldkiynw5j1q46",
+      "merchantName": "Cordella",
+      "giftCardTitle": "Δωροκάρτα 500€",
+      "officialUrl": "https://www.cordella.gr/shop/empeiries/taxidia-metakiniseis/xenodoxeia-diamones/dorokarta-500_10995",
+      "websiteUrl": "https://cordella.gr",
+      "candidates": [
+        {
+          "categorySlug": "hotels",
+          "score": 113,
+          "evidence": [
+            "official-page:hotel",
+            "page-excerpt:hotel",
+            "official-page:hotel-el",
+            "page-excerpt:hotel-el"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 110,
+          "evidence": [
+            "page-excerpt:experience",
+            "official-page:experience-el",
+            "page-excerpt:experience-el"
+          ]
+        },
+        {
+          "categorySlug": "pets",
+          "score": 86,
+          "evidence": [
+            "page-excerpt:pet-industry-el"
+          ]
+        },
+        {
+          "categorySlug": "automotive",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:automotive-el"
+          ]
+        },
+        {
+          "categorySlug": "education",
+          "score": 80,
+          "evidence": [
+            "page-excerpt:education-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1i6dl00beq8iybqfqttuj",
+      "merchantName": "Erero",
+      "giftCardTitle": "Erero Gift Card",
+      "officialUrl": "https://erero.gr/",
+      "websiteUrl": "https://erero.gr",
+      "candidates": [
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1lldv00pqq8iyvvgnzsz2",
+      "merchantName": "Floky",
+      "giftCardTitle": "Gift Card Floky",
+      "officialUrl": "https://floky.gr/products/gift-card-floky",
+      "websiteUrl": "https://floky.gr",
+      "candidates": [
+        {
+          "categorySlug": "sports",
+          "score": 72,
+          "evidence": [
+            "page-excerpt:sports-outdoor-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1f8o2001lq8iy7sedywm0",
+      "merchantName": "Greenpeace",
+      "giftCardTitle": "Δωροκάρτα",
+      "officialUrl": "https://eshop.greenpeacegreece.org/product/dwrokarta/",
+      "websiteUrl": "https://eshop.greenpeacegreece.org",
+      "candidates": [
+        {
+          "categorySlug": "books",
+          "score": 68,
+          "evidence": [
+            "page-excerpt:books-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1icyu00c8q8iytwvndmek",
+      "merchantName": "Harmanis",
+      "giftCardTitle": "Δωροεπιταγή 300 ευρώ",
+      "officialUrl": "https://harmanis.gr/",
+      "websiteUrl": "https://harmanis.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1lj9c00piq8iynmfth5h9",
+      "merchantName": "Kantarzoglou",
+      "giftCardTitle": "€150.00 Gift Card",
+      "officialUrl": "https://www.kantarzoglou.gr/el/my-gift-cards/",
+      "websiteUrl": "https://kantarzoglou.gr",
+      "candidates": [
+        {
+          "categorySlug": "arts-crafts",
+          "score": 81,
+          "evidence": [
+            "page-excerpt:arts-crafts-el"
+          ]
+        },
+        {
+          "categorySlug": "home",
+          "score": 67,
+          "evidence": [
+            "page-excerpt:home-living-el"
+          ]
+        },
+        {
+          "categorySlug": "hotels",
+          "score": 65,
+          "evidence": [
+            "page-excerpt:hotel-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1najv00waq8iye2j13aza",
+      "merchantName": "Lalita",
+      "giftCardTitle": "Christmas Gift Card - Lalita",
+      "officialUrl": "https://lalita.gr/",
+      "websiteUrl": "https://lalita.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1ipsc00dqq8iyvmd0xco3",
+      "merchantName": "Liberal",
+      "giftCardTitle": "Δωροκάρτα ΙΚΕΑ: Tο ιδανικό δώρο για κάθε περίσταση, ...",
+      "officialUrl": "https://liberal.gr/",
+      "websiteUrl": "https://liberal.gr",
+      "candidates": [
+        {
+          "categorySlug": "automotive",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:automotive-el"
+          ]
+        },
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry-el"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    },
+    {
+      "giftCardId": "cmta5nrpi001554iy38lsipa9",
+      "merchantName": "Love It",
+      "giftCardTitle": "Love.it Gift Card Digital",
+      "officialUrl": "https://www.love-it.gr/en/design-product/prid/8281/r/love-it-gift-card-digital?srsltid=AfmBOor7AsdQ_AFodYvX0jyxZK00l9QvefpYawTKuMYoplbS1_PTWrn1",
+      "websiteUrl": "https://love-it.gr",
+      "candidates": [
+        {
+          "categorySlug": "home",
+          "score": 70,
+          "evidence": [
+            "page-excerpt:home-living",
+            "page-excerpt:home-living-el"
+          ]
+        },
+        {
+          "categorySlug": "books",
+          "score": 68,
+          "evidence": [
+            "page-excerpt:books"
+          ]
+        },
+        {
+          "categorySlug": "restaurants",
+          "score": 66,
+          "evidence": [
+            "page-excerpt:restaurant"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1kuab00mqq8iyw8fqsoh4",
+      "merchantName": "Luvnroll",
+      "giftCardTitle": "Gift Voucher",
+      "officialUrl": "https://luvnroll.com/",
+      "websiteUrl": "https://luvnroll.com",
+      "candidates": [
+        {
+          "categorySlug": "fashion",
+          "score": 115,
+          "evidence": [
+            "official-page:fashion",
+            "merchant-page:fashion",
+            "page-excerpt:fashion"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 62,
+          "evidence": [
+            "page-excerpt:experience"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    },
+    {
+      "giftCardId": "cmta1ircx00dyq8iygrrclm5b",
+      "merchantName": "Maiarea",
+      "giftCardTitle": "GIFT CARD-ΔΩΡΟΕΠΙΤΑΓΗ",
+      "officialUrl": "https://maiarea.gr/product-category/giftcard/",
+      "websiteUrl": "https://maiarea.gr",
+      "candidates": [
+        {
+          "categorySlug": "fashion",
+          "score": 70,
+          "evidence": [
+            "page-excerpt:fashion"
+          ]
+        },
+        {
+          "categorySlug": "hotels",
+          "score": 68,
+          "evidence": [
+            "page-excerpt:hotel",
+            "page-excerpt:hotel-el"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 62,
+          "evidence": [
+            "page-excerpt:experience"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1f52d0015q8iyugckloir",
+      "merchantName": "Mar & Mar",
+      "giftCardTitle": "Mar & Mar Gift Card",
+      "officialUrl": "https://www.marandmar.gr/",
+      "websiteUrl": "https://marandmar.gr",
+      "candidates": [
+        {
+          "categorySlug": "automotive",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:automotive-el"
+          ]
+        },
+        {
+          "categorySlug": "education",
+          "score": 80,
+          "evidence": [
+            "page-excerpt:education"
+          ]
+        },
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry-el"
+          ]
+        },
+        {
+          "categorySlug": "kids-baby",
+          "score": 78,
+          "evidence": [
+            "page-excerpt:kids-baby-el"
+          ]
+        },
+        {
+          "categorySlug": "beauty",
+          "score": 74,
+          "evidence": [
+            "page-excerpt:beauty-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb62q8a001p94iypyoj6lpu",
+      "merchantName": "Mideast",
+      "giftCardTitle": "Gift Vouchers",
+      "officialUrl": "https://online.mideast.gr/gift-vouchers/",
+      "websiteUrl": "https://online.mideast.gr",
+      "candidates": [
+        {
+          "categorySlug": "books",
+          "score": 68,
+          "evidence": [
+            "page-excerpt:books"
+          ]
+        },
+        {
+          "categorySlug": "travel",
+          "score": 67,
+          "evidence": [
+            "page-excerpt:travel",
+            "page-excerpt:travel-el"
+          ]
+        },
+        {
+          "categorySlug": "hotels",
+          "score": 65,
+          "evidence": [
+            "page-excerpt:hotel"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1ng3h00wwq8iy0jg8v49x",
+      "merchantName": "Minotavros",
+      "giftCardTitle": "Redeem Gift Certificate",
+      "officialUrl": "https://minotavros.gr/",
+      "websiteUrl": "https://minotavros.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1ixm400euq8iy6w8fh6ah",
+      "merchantName": "Misa",
+      "giftCardTitle": "MISA E-GIFT Card",
+      "officialUrl": "https://www.misa.gr/gift-card",
+      "websiteUrl": "https://misa.gr",
+      "candidates": [
+        {
+          "categorySlug": "home",
+          "score": 107,
+          "evidence": [
+            "merchant-page:home-living-el",
+            "page-excerpt:home-living-el"
+          ]
+        },
+        {
+          "categorySlug": "automotive",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:automotive-el"
+          ]
+        },
+        {
+          "categorySlug": "beauty",
+          "score": 74,
+          "evidence": [
+            "page-excerpt:beauty"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    },
+    {
+      "giftCardId": "cmta1j3ad00fiq8iyn7woqbcd",
+      "merchantName": "Naftemporiki",
+      "giftCardTitle": "ΔΩΡΟΚΑΡΤΑ ΙΚΕΑ: Tο ιδανικό δώρο για κάθε περίσταση, ...",
+      "officialUrl": "https://naftemporiki.gr/",
+      "websiteUrl": "https://naftemporiki.gr",
+      "candidates": [
+        {
+          "categorySlug": "pharmacy",
+          "score": 76,
+          "evidence": [
+            "page-excerpt:pharmacy-el"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 62,
+          "evidence": [
+            "page-excerpt:experience-el"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    },
+    {
+      "giftCardId": "cmta1ky2r00n6q8iy6novjneu",
+      "merchantName": "Oreasoncs",
+      "giftCardTitle": "Gift Certificate",
+      "officialUrl": "https://www.oreasoncs.gr/doroepitagi/",
+      "websiteUrl": "https://oreasoncs.gr",
+      "candidates": [
+        {
+          "categorySlug": "music",
+          "score": 85,
+          "evidence": [
+            "page-excerpt:music-retail",
+            "page-excerpt:music-retail-el"
+          ]
+        },
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry-el"
+          ]
+        },
+        {
+          "categorySlug": "gaming",
+          "score": 73,
+          "evidence": [
+            "page-excerpt:gaming-el"
+          ]
+        },
+        {
+          "categorySlug": "sports",
+          "score": 72,
+          "evidence": [
+            "page-excerpt:sports-outdoor"
+          ]
+        },
+        {
+          "categorySlug": "home",
+          "score": 67,
+          "evidence": [
+            "page-excerpt:home-living-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb6v18b003g3giyvg8zhfi4",
+      "merchantName": "Power Energy",
+      "giftCardTitle": "Power Energy Gift Card",
+      "officialUrl": "https://www.powerenergy.gr/shop/dorokarta/",
+      "websiteUrl": "https://powerenergy.gr",
+      "candidates": [
+        {
+          "categorySlug": "technology",
+          "score": 69,
+          "evidence": [
+            "page-excerpt:technology"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 62,
+          "evidence": [
+            "page-excerpt:experience"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1m0uh00req8iycwbgvctn",
+      "merchantName": "Printhouse",
+      "giftCardTitle": "Εκτύπωση Κάρτα Δώρου Gift Voucher",
+      "officialUrl": "https://printhouse.gr/ektyposeis-gia-ksenodokheia/gift-voucher",
+      "websiteUrl": "https://printhouse.gr",
+      "candidates": [
+        {
+          "categorySlug": "health-medical",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:medical-service-el"
+          ]
+        },
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry-el"
+          ]
+        },
+        {
+          "categorySlug": "hotels",
+          "score": 65,
+          "evidence": [
+            "page-excerpt:hotel-el"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    },
+    {
+      "giftCardId": "cmtb77ju00039dkiy0c3cnw1w",
+      "merchantName": "Sanopwleio",
+      "giftCardTitle": "Αγοράστε μία Δωροεπιταγή",
+      "officialUrl": "https://www.sanopwleio.gr/account/voucher",
+      "websiteUrl": "https://sanopwleio.gr",
+      "candidates": [
+        {
+          "categorySlug": "home",
+          "score": 67,
+          "evidence": [
+            "page-excerpt:home-living-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb62p6j001j94iy0wbk6jyl",
+      "merchantName": "Send gifts and wishes to your beloved ones",
+      "giftCardTitle": "E-Gift card - Send gifts and wishes to your beloved ones",
+      "officialUrl": "https://www.neraidochora.gr/en-gb/e-gift-card?srsltid",
+      "websiteUrl": "https://neraidochora.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb62s09001z94iy1ofsp7v6",
+      "merchantName": "Serkos",
+      "giftCardTitle": "Serkos Gift Card",
+      "officialUrl": "https://www.serkos.gr/en/gift-card?srsltid",
+      "websiteUrl": "https://serkos.gr",
+      "candidates": [
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 82,
+          "evidence": [
+            "page-excerpt:jewelry",
+            "page-excerpt:jewelry-el"
+          ]
+        },
+        {
+          "categorySlug": "gaming",
+          "score": 76,
+          "evidence": [
+            "page-excerpt:gaming",
+            "page-excerpt:gaming-el"
+          ]
+        },
+        {
+          "categorySlug": "home",
+          "score": 67,
+          "evidence": [
+            "page-excerpt:home-living"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1l42f00nuq8iy2f3za3fa",
+      "merchantName": "Snus Bar",
+      "giftCardTitle": "gift card Αρχεία - Snus Bar",
+      "officialUrl": "https://snus-bar.gr/",
+      "websiteUrl": "https://snus-bar.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1jl4p00hkq8iyfg4jho4h",
+      "merchantName": "Sunsandclouds",
+      "giftCardTitle": "Sunsandclouds Gift Card",
+      "officialUrl": "https://sunsandclouds.gr/product-category/gift-cards/",
+      "websiteUrl": "https://sunsandclouds.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta1gzur007qq8iy50tthpsi",
+      "merchantName": "Tuasolea",
+      "giftCardTitle": "Δωροκάρτα με αξία της επιλογής σας",
+      "officialUrl": "https://tuasolea.gr/cat/dorokarta/",
+      "websiteUrl": "https://tuasolea.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb77p0o0040dkiyr700iran",
+      "merchantName": "Valsamakis",
+      "giftCardTitle": "Valsamakis Gift Card",
+      "officialUrl": "https://valsamakis.gr/name-day-gift-card.html",
+      "websiteUrl": "https://valsamakis.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta5nziq002a54iyxymjif5e",
+      "merchantName": "VapeLux",
+      "giftCardTitle": "Δωροκάρτα | VapeLux",
+      "officialUrl": "https://vapelux.gr/product/gift-card/",
+      "websiteUrl": "https://vapelux.gr",
+      "candidates": [
+        {
+          "categorySlug": "beauty",
+          "score": 74,
+          "evidence": [
+            "page-excerpt:beauty-el"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta5no2o000l54iyn0hww43y",
+      "merchantName": "esthai",
+      "giftCardTitle": "E-Gift Card - esthai",
+      "officialUrl": "https://www.esthai.gr/e-gift-card",
+      "websiteUrl": "https://esthai.gr",
+      "candidates": [],
+      "reason": "NO_OFFICIAL_CATEGORY_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmta5nqmr000z54iy6mzkfi9o",
+      "merchantName": "krokodila",
+      "giftCardTitle": "Gift Cards - krokodila",
+      "officialUrl": "https://krokodila.gr/collections/gift-cards",
+      "websiteUrl": "https://krokodila.gr",
+      "candidates": [
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry"
+          ]
+        },
+        {
+          "categorySlug": "home",
+          "score": 67,
+          "evidence": [
+            "page-excerpt:home-living"
+          ]
+        },
+        {
+          "categorySlug": "experiences",
+          "score": 62,
+          "evidence": [
+            "page-excerpt:experience"
+          ]
+        }
+      ],
+      "reason": "AMBIGUOUS_OFFICIAL_EVIDENCE"
+    },
+    {
+      "giftCardId": "cmtb77zm2005jdkiy64jdfokt",
+      "merchantName": "Δωροεπιταγές",
+      "giftCardTitle": "Δωροεπιταγές – Gift Cards",
+      "officialUrl": "https://blue-print.gr/product/doroepitages-gift-cards/",
+      "websiteUrl": "https://blue-print.gr",
+      "candidates": [
+        {
+          "categorySlug": "health-medical",
+          "score": 84,
+          "evidence": [
+            "page-excerpt:medical-service-el"
+          ]
+        },
+        {
+          "categorySlug": "jewelry-watches",
+          "score": 79,
+          "evidence": [
+            "page-excerpt:jewelry-el"
+          ]
+        },
+        {
+          "categorySlug": "books",
+          "score": 68,
+          "evidence": [
+            "page-excerpt:books-el"
+          ]
+        },
+        {
+          "categorySlug": "hotels",
+          "score": 68,
+          "evidence": [
+            "page-excerpt:hotel",
+            "page-excerpt:hotel-el"
+          ]
+        },
+        {
+          "categorySlug": "restaurants",
+          "score": 66,
+          "evidence": [
+            "page-excerpt:restaurant-el"
+          ]
+        }
+      ],
+      "reason": "IDENTITY_OR_PROGRAM_REVIEW_REQUIRED"
+    }
+  ],
+  "planId": "13d4a563c40813b121ef10d990afa8932db86d49d2d53ee95b6ac08e7aefae9a"
+}

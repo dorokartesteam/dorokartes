@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "planId": "faafc71e46334c2c7484e4b3909c588a5fd24b2d38bc5e3b991aecad372d62dc",
+  "appliedAt": "2026-09-03T10:34:11.021Z",
+  "moved": [
+    {
+      "from": "D:\\dorokartes\\public\\merchant-logos\\sweetnspicy-55429d221dcb.jpg",
+      "to": "D:\\dorokartes\\reports\\revoked-merchant-logos\\faafc71e46334c2c\\sweetnspicy-55429d221dcb.jpg"
+    },
+    {
+      "from": "D:\\dorokartes\\public\\merchant-logos\\north-and-south-jewelry-gift-card-0812d65c784a.jpg",
+      "to": "D:\\dorokartes\\reports\\revoked-merchant-logos\\faafc71e46334c2c\\north-and-south-jewelry-gift-card-0812d65c784a.jpg"
+    }
+  ]
+}

@@ -254,6 +254,8 @@ export type DiscoveryItemWhereInput = {
   processedAt?: Prisma.DateTimeNullableFilter<"DiscoveryItem"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"DiscoveryItem"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"DiscoveryItem"> | Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptListRelationFilter
+  fetchObservations?: Prisma.VerificationFetchObservationListRelationFilter
 }
 
 export type DiscoveryItemOrderByWithRelationInput = {
@@ -271,6 +273,8 @@ export type DiscoveryItemOrderByWithRelationInput = {
   processedAt?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptOrderByRelationAggregateInput
+  fetchObservations?: Prisma.VerificationFetchObservationOrderByRelationAggregateInput
 }
 
 export type DiscoveryItemWhereUniqueInput = Prisma.AtLeast<{
@@ -291,6 +295,8 @@ export type DiscoveryItemWhereUniqueInput = Prisma.AtLeast<{
   processedAt?: Prisma.DateTimeNullableFilter<"DiscoveryItem"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"DiscoveryItem"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"DiscoveryItem"> | Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptListRelationFilter
+  fetchObservations?: Prisma.VerificationFetchObservationListRelationFilter
 }, "id" | "fingerprint">
 
 export type DiscoveryItemOrderByWithAggregationInput = {
@@ -348,6 +354,8 @@ export type DiscoveryItemCreateInput = {
   processedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptCreateNestedManyWithoutDiscoveryItemInput
+  fetchObservations?: Prisma.VerificationFetchObservationCreateNestedManyWithoutDiscoveryItemInput
 }
 
 export type DiscoveryItemUncheckedCreateInput = {
@@ -365,6 +373,8 @@ export type DiscoveryItemUncheckedCreateInput = {
   processedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptUncheckedCreateNestedManyWithoutDiscoveryItemInput
+  fetchObservations?: Prisma.VerificationFetchObservationUncheckedCreateNestedManyWithoutDiscoveryItemInput
 }
 
 export type DiscoveryItemUpdateInput = {
@@ -382,6 +392,8 @@ export type DiscoveryItemUpdateInput = {
   processedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptUpdateManyWithoutDiscoveryItemNestedInput
+  fetchObservations?: Prisma.VerificationFetchObservationUpdateManyWithoutDiscoveryItemNestedInput
 }
 
 export type DiscoveryItemUncheckedUpdateInput = {
@@ -399,6 +411,8 @@ export type DiscoveryItemUncheckedUpdateInput = {
   processedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptUncheckedUpdateManyWithoutDiscoveryItemNestedInput
+  fetchObservations?: Prisma.VerificationFetchObservationUncheckedUpdateManyWithoutDiscoveryItemNestedInput
 }
 
 export type DiscoveryItemCreateManyInput = {
@@ -503,10 +517,257 @@ export type DiscoveryItemMinOrderByAggregateInput = {
   updatedAt?: Prisma.SortOrder
 }
 
+export type DiscoveryItemScalarRelationFilter = {
+  is?: Prisma.DiscoveryItemWhereInput
+  isNot?: Prisma.DiscoveryItemWhereInput
+}
+
 export type EnumDiscoveryStatusFieldUpdateOperationsInput = {
   set?: $Enums.DiscoveryStatus
 }
 
+export type DiscoveryItemCreateNestedOneWithoutVerificationAttemptsInput = {
+  create?: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUncheckedCreateWithoutVerificationAttemptsInput>
+  connectOrCreate?: Prisma.DiscoveryItemCreateOrConnectWithoutVerificationAttemptsInput
+  connect?: Prisma.DiscoveryItemWhereUniqueInput
+}
+
+export type DiscoveryItemUpdateOneRequiredWithoutVerificationAttemptsNestedInput = {
+  create?: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUncheckedCreateWithoutVerificationAttemptsInput>
+  connectOrCreate?: Prisma.DiscoveryItemCreateOrConnectWithoutVerificationAttemptsInput
+  upsert?: Prisma.DiscoveryItemUpsertWithoutVerificationAttemptsInput
+  connect?: Prisma.DiscoveryItemWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.DiscoveryItemUpdateToOneWithWhereWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUpdateWithoutVerificationAttemptsInput>, Prisma.DiscoveryItemUncheckedUpdateWithoutVerificationAttemptsInput>
+}
+
+export type DiscoveryItemCreateNestedOneWithoutFetchObservationsInput = {
+  create?: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutFetchObservationsInput, Prisma.DiscoveryItemUncheckedCreateWithoutFetchObservationsInput>
+  connectOrCreate?: Prisma.DiscoveryItemCreateOrConnectWithoutFetchObservationsInput
+  connect?: Prisma.DiscoveryItemWhereUniqueInput
+}
+
+export type DiscoveryItemUpdateOneRequiredWithoutFetchObservationsNestedInput = {
+  create?: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutFetchObservationsInput, Prisma.DiscoveryItemUncheckedCreateWithoutFetchObservationsInput>
+  connectOrCreate?: Prisma.DiscoveryItemCreateOrConnectWithoutFetchObservationsInput
+  upsert?: Prisma.DiscoveryItemUpsertWithoutFetchObservationsInput
+  connect?: Prisma.DiscoveryItemWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.DiscoveryItemUpdateToOneWithWhereWithoutFetchObservationsInput, Prisma.DiscoveryItemUpdateWithoutFetchObservationsInput>, Prisma.DiscoveryItemUncheckedUpdateWithoutFetchObservationsInput>
+}
+
+export type DiscoveryItemCreateWithoutVerificationAttemptsInput = {
+  id?: string
+  sourceType: $Enums.SourceType
+  sourceName: string
+  sourceUrl: string
+  title?: string | null
+  merchantName?: string | null
+  status?: $Enums.DiscoveryStatus
+  possibleOfficialUrl?: string | null
+  fingerprint?: string | null
+  notes?: string | null
+  discoveredAt?: Date | string
+  processedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  fetchObservations?: Prisma.VerificationFetchObservationCreateNestedManyWithoutDiscoveryItemInput
+}
+
+export type DiscoveryItemUncheckedCreateWithoutVerificationAttemptsInput = {
+  id?: string
+  sourceType: $Enums.SourceType
+  sourceName: string
+  sourceUrl: string
+  title?: string | null
+  merchantName?: string | null
+  status?: $Enums.DiscoveryStatus
+  possibleOfficialUrl?: string | null
+  fingerprint?: string | null
+  notes?: string | null
+  discoveredAt?: Date | string
+  processedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  fetchObservations?: Prisma.VerificationFetchObservationUncheckedCreateNestedManyWithoutDiscoveryItemInput
+}
+
+export type DiscoveryItemCreateOrConnectWithoutVerificationAttemptsInput = {
+  where: Prisma.DiscoveryItemWhereUniqueInput
+  create: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUncheckedCreateWithoutVerificationAttemptsInput>
+}
+
+export type DiscoveryItemUpsertWithoutVerificationAttemptsInput = {
+  update: Prisma.XOR<Prisma.DiscoveryItemUpdateWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUncheckedUpdateWithoutVerificationAttemptsInput>
+  create: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUncheckedCreateWithoutVerificationAttemptsInput>
+  where?: Prisma.DiscoveryItemWhereInput
+}
+
+export type DiscoveryItemUpdateToOneWithWhereWithoutVerificationAttemptsInput = {
+  where?: Prisma.DiscoveryItemWhereInput
+  data: Prisma.XOR<Prisma.DiscoveryItemUpdateWithoutVerificationAttemptsInput, Prisma.DiscoveryItemUncheckedUpdateWithoutVerificationAttemptsInput>
+}
+
+export type DiscoveryItemUpdateWithoutVerificationAttemptsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceType?: Prisma.EnumSourceTypeFieldUpdateOperationsInput | $Enums.SourceType
+  sourceName?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceUrl?: Prisma.StringFieldUpdateOperationsInput | string
+  title?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  merchantName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumDiscoveryStatusFieldUpdateOperationsInput | $Enums.DiscoveryStatus
+  possibleOfficialUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  fingerprint?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  discoveredAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  processedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  fetchObservations?: Prisma.VerificationFetchObservationUpdateManyWithoutDiscoveryItemNestedInput
+}
+
+export type DiscoveryItemUncheckedUpdateWithoutVerificationAttemptsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceType?: Prisma.EnumSourceTypeFieldUpdateOperationsInput | $Enums.SourceType
+  sourceName?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceUrl?: Prisma.StringFieldUpdateOperationsInput | string
+  title?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  merchantName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumDiscoveryStatusFieldUpdateOperationsInput | $Enums.DiscoveryStatus
+  possibleOfficialUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  fingerprint?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  discoveredAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  processedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  fetchObservations?: Prisma.VerificationFetchObservationUncheckedUpdateManyWithoutDiscoveryItemNestedInput
+}
+
+export type DiscoveryItemCreateWithoutFetchObservationsInput = {
+  id?: string
+  sourceType: $Enums.SourceType
+  sourceName: string
+  sourceUrl: string
+  title?: string | null
+  merchantName?: string | null
+  status?: $Enums.DiscoveryStatus
+  possibleOfficialUrl?: string | null
+  fingerprint?: string | null
+  notes?: string | null
+  discoveredAt?: Date | string
+  processedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptCreateNestedManyWithoutDiscoveryItemInput
+}
+
+export type DiscoveryItemUncheckedCreateWithoutFetchObservationsInput = {
+  id?: string
+  sourceType: $Enums.SourceType
+  sourceName: string
+  sourceUrl: string
+  title?: string | null
+  merchantName?: string | null
+  status?: $Enums.DiscoveryStatus
+  possibleOfficialUrl?: string | null
+  fingerprint?: string | null
+  notes?: string | null
+  discoveredAt?: Date | string
+  processedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptUncheckedCreateNestedManyWithoutDiscoveryItemInput
+}
+
+export type DiscoveryItemCreateOrConnectWithoutFetchObservationsInput = {
+  where: Prisma.DiscoveryItemWhereUniqueInput
+  create: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutFetchObservationsInput, Prisma.DiscoveryItemUncheckedCreateWithoutFetchObservationsInput>
+}
+
+export type DiscoveryItemUpsertWithoutFetchObservationsInput = {
+  update: Prisma.XOR<Prisma.DiscoveryItemUpdateWithoutFetchObservationsInput, Prisma.DiscoveryItemUncheckedUpdateWithoutFetchObservationsInput>
+  create: Prisma.XOR<Prisma.DiscoveryItemCreateWithoutFetchObservationsInput, Prisma.DiscoveryItemUncheckedCreateWithoutFetchObservationsInput>
+  where?: Prisma.DiscoveryItemWhereInput
+}
+
+export type DiscoveryItemUpdateToOneWithWhereWithoutFetchObservationsInput = {
+  where?: Prisma.DiscoveryItemWhereInput
+  data: Prisma.XOR<Prisma.DiscoveryItemUpdateWithoutFetchObservationsInput, Prisma.DiscoveryItemUncheckedUpdateWithoutFetchObservationsInput>
+}
+
+export type DiscoveryItemUpdateWithoutFetchObservationsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceType?: Prisma.EnumSourceTypeFieldUpdateOperationsInput | $Enums.SourceType
+  sourceName?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceUrl?: Prisma.StringFieldUpdateOperationsInput | string
+  title?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  merchantName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumDiscoveryStatusFieldUpdateOperationsInput | $Enums.DiscoveryStatus
+  possibleOfficialUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  fingerprint?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  discoveredAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  processedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptUpdateManyWithoutDiscoveryItemNestedInput
+}
+
+export type DiscoveryItemUncheckedUpdateWithoutFetchObservationsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceType?: Prisma.EnumSourceTypeFieldUpdateOperationsInput | $Enums.SourceType
+  sourceName?: Prisma.StringFieldUpdateOperationsInput | string
+  sourceUrl?: Prisma.StringFieldUpdateOperationsInput | string
+  title?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  merchantName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumDiscoveryStatusFieldUpdateOperationsInput | $Enums.DiscoveryStatus
+  possibleOfficialUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  fingerprint?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  notes?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  discoveredAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  processedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  verificationAttempts?: Prisma.DiscoveryVerificationAttemptUncheckedUpdateManyWithoutDiscoveryItemNestedInput
+}
+
+
+/**
+ * Count Type DiscoveryItemCountOutputType
+ */
+
+export type DiscoveryItemCountOutputType = {
+  verificationAttempts: number
+  fetchObservations: number
+}
+
+export type DiscoveryItemCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  verificationAttempts?: boolean | DiscoveryItemCountOutputTypeCountVerificationAttemptsArgs
+  fetchObservations?: boolean | DiscoveryItemCountOutputTypeCountFetchObservationsArgs
+}
+
+/**
+ * DiscoveryItemCountOutputType without action
+ */
+export type DiscoveryItemCountOutputTypeDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the DiscoveryItemCountOutputType
+   */
+  select?: Prisma.DiscoveryItemCountOutputTypeSelect<ExtArgs> | null
+}
+
+/**
+ * DiscoveryItemCountOutputType without action
+ */
+export type DiscoveryItemCountOutputTypeCountVerificationAttemptsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.DiscoveryVerificationAttemptWhereInput
+}
+
+/**
+ * DiscoveryItemCountOutputType without action
+ */
+export type DiscoveryItemCountOutputTypeCountFetchObservationsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.VerificationFetchObservationWhereInput
+}
 
 
 export type DiscoveryItemSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -524,6 +785,9 @@ export type DiscoveryItemSelect<ExtArgs extends runtime.Types.Extensions.Interna
   processedAt?: boolean
   createdAt?: boolean
   updatedAt?: boolean
+  verificationAttempts?: boolean | Prisma.DiscoveryItem$verificationAttemptsArgs<ExtArgs>
+  fetchObservations?: boolean | Prisma.DiscoveryItem$fetchObservationsArgs<ExtArgs>
+  _count?: boolean | Prisma.DiscoveryItemCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["discoveryItem"]>
 
 export type DiscoveryItemSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -578,10 +842,20 @@ export type DiscoveryItemSelectScalar = {
 }
 
 export type DiscoveryItemOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "sourceType" | "sourceName" | "sourceUrl" | "title" | "merchantName" | "status" | "possibleOfficialUrl" | "fingerprint" | "notes" | "discoveredAt" | "processedAt" | "createdAt" | "updatedAt", ExtArgs["result"]["discoveryItem"]>
+export type DiscoveryItemInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  verificationAttempts?: boolean | Prisma.DiscoveryItem$verificationAttemptsArgs<ExtArgs>
+  fetchObservations?: boolean | Prisma.DiscoveryItem$fetchObservationsArgs<ExtArgs>
+  _count?: boolean | Prisma.DiscoveryItemCountOutputTypeDefaultArgs<ExtArgs>
+}
+export type DiscoveryItemIncludeCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
+export type DiscoveryItemIncludeUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
 
 export type $DiscoveryItemPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   name: "DiscoveryItem"
-  objects: {}
+  objects: {
+    verificationAttempts: Prisma.$DiscoveryVerificationAttemptPayload<ExtArgs>[]
+    fetchObservations: Prisma.$VerificationFetchObservationPayload<ExtArgs>[]
+  }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
     id: string
     sourceType: $Enums.SourceType
@@ -991,6 +1265,8 @@ readonly fields: DiscoveryItemFieldRefs;
  */
 export interface Prisma__DiscoveryItemClient<T, Null = never, ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
   readonly [Symbol.toStringTag]: "PrismaPromise"
+  verificationAttempts<T extends Prisma.DiscoveryItem$verificationAttemptsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.DiscoveryItem$verificationAttemptsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$DiscoveryVerificationAttemptPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  fetchObservations<T extends Prisma.DiscoveryItem$fetchObservationsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.DiscoveryItem$fetchObservationsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$VerificationFetchObservationPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
    * @param onfulfilled The callback to execute when the Promise is resolved.
@@ -1051,6 +1327,10 @@ export type DiscoveryItemFindUniqueArgs<ExtArgs extends runtime.Types.Extensions
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
+  /**
    * Filter, which DiscoveryItem to fetch.
    */
   where: Prisma.DiscoveryItemWhereUniqueInput
@@ -1069,6 +1349,10 @@ export type DiscoveryItemFindUniqueOrThrowArgs<ExtArgs extends runtime.Types.Ext
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
+  /**
    * Filter, which DiscoveryItem to fetch.
    */
   where: Prisma.DiscoveryItemWhereUniqueInput
@@ -1086,6 +1370,10 @@ export type DiscoveryItemFindFirstArgs<ExtArgs extends runtime.Types.Extensions.
    * Omit specific fields from the DiscoveryItem
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
   /**
    * Filter, which DiscoveryItem to fetch.
    */
@@ -1135,6 +1423,10 @@ export type DiscoveryItemFindFirstOrThrowArgs<ExtArgs extends runtime.Types.Exte
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
+  /**
    * Filter, which DiscoveryItem to fetch.
    */
   where?: Prisma.DiscoveryItemWhereInput
@@ -1182,6 +1474,10 @@ export type DiscoveryItemFindManyArgs<ExtArgs extends runtime.Types.Extensions.I
    * Omit specific fields from the DiscoveryItem
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
   /**
    * Filter, which DiscoveryItems to fetch.
    */
@@ -1231,6 +1527,10 @@ export type DiscoveryItemCreateArgs<ExtArgs extends runtime.Types.Extensions.Int
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
+  /**
    * The data needed to create a DiscoveryItem.
    */
   data: Prisma.XOR<Prisma.DiscoveryItemCreateInput, Prisma.DiscoveryItemUncheckedCreateInput>
@@ -1278,6 +1578,10 @@ export type DiscoveryItemUpdateArgs<ExtArgs extends runtime.Types.Extensions.Int
    * Omit specific fields from the DiscoveryItem
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
   /**
    * The data needed to update a DiscoveryItem.
    */
@@ -1345,6 +1649,10 @@ export type DiscoveryItemUpsertArgs<ExtArgs extends runtime.Types.Extensions.Int
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
+  /**
    * The filter to search for the DiscoveryItem to update in case it exists.
    */
   where: Prisma.DiscoveryItemWhereUniqueInput
@@ -1371,6 +1679,10 @@ export type DiscoveryItemDeleteArgs<ExtArgs extends runtime.Types.Extensions.Int
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
   /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
+  /**
    * Filter which DiscoveryItem to delete.
    */
   where: Prisma.DiscoveryItemWhereUniqueInput
@@ -1391,6 +1703,54 @@ export type DiscoveryItemDeleteManyArgs<ExtArgs extends runtime.Types.Extensions
 }
 
 /**
+ * DiscoveryItem.verificationAttempts
+ */
+export type DiscoveryItem$verificationAttemptsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the DiscoveryVerificationAttempt
+   */
+  select?: Prisma.DiscoveryVerificationAttemptSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the DiscoveryVerificationAttempt
+   */
+  omit?: Prisma.DiscoveryVerificationAttemptOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryVerificationAttemptInclude<ExtArgs> | null
+  where?: Prisma.DiscoveryVerificationAttemptWhereInput
+  orderBy?: Prisma.DiscoveryVerificationAttemptOrderByWithRelationInput | Prisma.DiscoveryVerificationAttemptOrderByWithRelationInput[]
+  cursor?: Prisma.DiscoveryVerificationAttemptWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.DiscoveryVerificationAttemptScalarFieldEnum | Prisma.DiscoveryVerificationAttemptScalarFieldEnum[]
+}
+
+/**
+ * DiscoveryItem.fetchObservations
+ */
+export type DiscoveryItem$fetchObservationsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the VerificationFetchObservation
+   */
+  select?: Prisma.VerificationFetchObservationSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the VerificationFetchObservation
+   */
+  omit?: Prisma.VerificationFetchObservationOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.VerificationFetchObservationInclude<ExtArgs> | null
+  where?: Prisma.VerificationFetchObservationWhereInput
+  orderBy?: Prisma.VerificationFetchObservationOrderByWithRelationInput | Prisma.VerificationFetchObservationOrderByWithRelationInput[]
+  cursor?: Prisma.VerificationFetchObservationWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.VerificationFetchObservationScalarFieldEnum | Prisma.VerificationFetchObservationScalarFieldEnum[]
+}
+
+/**
  * DiscoveryItem without action
  */
 export type DiscoveryItemDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
@@ -1402,4 +1762,8 @@ export type DiscoveryItemDefaultArgs<ExtArgs extends runtime.Types.Extensions.In
    * Omit specific fields from the DiscoveryItem
    */
   omit?: Prisma.DiscoveryItemOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DiscoveryItemInclude<ExtArgs> | null
 }

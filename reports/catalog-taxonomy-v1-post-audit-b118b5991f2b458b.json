@@ -1,0 +1,9 @@
+{
+  "version": "catalog-taxonomy-v1",
+  "mode": "POST_AUDIT",
+  "planId": "b118b5991f2b458b40f696b8c0a58cfb378442130c0473b44bde6580635378b8",
+  "auditedAt": "2026-09-03T18:42:14.163Z",
+  "checked": 98,
+  "passed": 98,
+  "failed": []
+}

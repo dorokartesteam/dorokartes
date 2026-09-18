@@ -1,0 +1,38 @@
+{
+  "version": 16,
+  "appliedAt": "2026-09-02T09:38:46.452Z",
+  "planId": "c489f6b54eb823f9de22cf440ffc4addad6ce3678c823dff3f97cbf19db334fb",
+  "sourceAuditPlanId": "070b23da9bb527d52f06a1a2c0f181225e946c843b561a462133e10a5c555b8a",
+  "appliedCount": 5,
+  "applied": [
+    {
+      "actionId": "update-merchant-name:cmta1fhz7002gq8iyyert5tbx",
+      "merchantId": "cmta1fhz7002gq8iyyert5tbx",
+      "from": "Astrongameclub",
+      "to": "AstronGameClub"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb78cqm0079dkiyfu94f14d",
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "from": "LTS GIFT CARD / ΚΑΡΤΑ ΔΩΡΟΥ",
+      "to": "Lonis Tattoo Studio"
+    },
+    {
+      "actionId": "update-card-title:cmta1fi60002hq8iyf9s9le0u",
+      "cardId": "cmta1fi60002hq8iyf9s9le0u",
+      "from": "Nintendo eShop 15 EUR",
+      "to": "AstronGameClub Gift Card"
+    },
+    {
+      "actionId": "update-card-title:cmtb78cvq007adkiylvhj4shj",
+      "cardId": "cmtb78cvq007adkiylvhj4shj",
+      "from": "LTS GIFT CARD / ΚΑΡΤΑ ΔΩΡΟΥ",
+      "to": "Lonis Tattoo Studio Gift Card"
+    },
+    {
+      "actionId": "create-verified-variant:cmta1fi60002hq8iyf9s9le0u",
+      "cardId": "cmta1fi60002hq8iyf9s9le0u",
+      "variantId": "cmtjwlv420000hgiysscabz65"
+    }
+  ]
+}

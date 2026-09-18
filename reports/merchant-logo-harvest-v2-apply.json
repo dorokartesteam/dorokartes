@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-11T19:50:10.445Z",
+  "planId": "78c36bd8781b7ef6b524a7e2129fdcd52dc9661c5f112703c77416cb4174f2ef",
+  "appliedCount": 4,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1f03n000mq8iyzxhzrwvc:73bda02250d0",
+      "merchantId": "cmta1f03n000mq8iyzxhzrwvc",
+      "localUrl": "/merchant-logos/adagio-73bda02250d0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hren00a1q8iyh9eqqfbk:74056c238477",
+      "merchantId": "cmta1hren00a1q8iyh9eqqfbk",
+      "localUrl": "/merchant-logos/cavadelvino-74056c238477.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k1x700jhq8iyxupg6exd:6f7987eb7a64",
+      "merchantId": "cmta1k1x700jhq8iyxupg6exd",
+      "localUrl": "/merchant-logos/romeo-6f7987eb7a64.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nv0400yhq8iywl3ocjxp:68dbc75c6ced",
+      "merchantId": "cmta1nv0400yhq8iywl3ocjxp",
+      "localUrl": "/merchant-logos/symmetria-68dbc75c6ced.svg"
+    }
+  ]
+}

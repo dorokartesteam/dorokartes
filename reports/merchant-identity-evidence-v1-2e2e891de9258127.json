@@ -1,0 +1,666 @@
+{
+  "version": "merchant-identity-evidence-v1",
+  "mode": "READ_ONLY_EVIDENCE",
+  "generatedAt": "2026-09-07T07:21:21.059Z",
+  "targetFingerprint": "8fc6560033f7e4458919ca4b9be089be40e63ab2ba0f9817848de3e5fe05207e",
+  "targetCount": 8,
+  "summary": {
+    "candidates": 3,
+    "review": 4,
+    "error": 1,
+    "databaseWrites": 0
+  },
+  "findings": [
+    {
+      "merchantId": "cmtb77srp004idkiywlcqejho",
+      "merchantName": "Αγοράστε μία Δωροκάρτα",
+      "merchantSlug": "αγοραστε-μια-δωροκαρτα",
+      "websiteUrl": "https://bekids.gr",
+      "giftCardId": "cmtb77swu004jdkiyug4cfe0j",
+      "giftCardTitle": "Αγοράστε μία Δωροκάρτα",
+      "officialUrl": "https://bekids.gr/index.php?route=account%2Fvoucher",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "CANDIDATE_SUPPORT_TOO_WEAK"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://bekids.gr",
+        "finalUrl": "https://bekids.gr/",
+        "status": 200,
+        "title": "BeKIDS Κατάστημα Παιδικών - Εφηβικών Ρούχων",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://bekids.gr/index.php?route=account%2Fvoucher",
+        "finalUrl": "https://bekids.gr/index.php?route=account%2Fvoucher",
+        "status": 200,
+        "title": "Αγοράστε μία Δωροκάρτα",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Εφηβικών Ρούχων",
+          "normalizedValue": "εφηβικων ρουχων",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bekids.gr/"
+          ]
+        },
+        {
+          "value": "BeKIDS Κατάστημα Παιδικών",
+          "normalizedValue": "bekids καταστημα παιδικων",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bekids.gr/"
+          ]
+        },
+        {
+          "value": "BeKIDS Κατάστημα Παιδικών - Εφηβικών Ρούχων",
+          "normalizedValue": "bekids καταστημα παιδικων εφηβικων ρουχων",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://bekids.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yjki001gsciyo7tcjy02",
+      "merchantName": "Δωροκάρτα από την Harpy Clothing 2026",
+      "merchantSlug": "δωροκαρτα-απο-την-harpy-clothing-2026",
+      "websiteUrl": "https://harpy.gr",
+      "giftCardId": "cmta4yjz8001hsciydalghjrj",
+      "giftCardTitle": "Δωροκάρτα από την Harpy Clothing 2026",
+      "officialUrl": "https://www.harpy.gr/product/gift-card-by-harpy-clothing/?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://harpy.gr",
+        "finalUrl": "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+        "status": 200,
+        "title": "Account Suspended",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.harpy.gr/product/gift-card-by-harpy-clothing/?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+        "finalUrl": "https://www.harpy.gr/cgi-sys/suspendedpage.cgi?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR",
+        "status": 200,
+        "title": "Account Suspended",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Account Suspended",
+          "normalizedValue": "account suspended",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://harpy.gr/cgi-sys/suspendedpage.cgi",
+            "https://www.harpy.gr/cgi-sys/suspendedpage.cgi?srsltid=AfmBOoqKglMRpVOaAMYiXy_vbk1xc6D8v8XkOgteCiWFiJwL2yttvJmR"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4y9p8000csciy38yiy1ff",
+      "merchantName": "Δωροκάρτα Beababy e",
+      "merchantSlug": "δωροκαρτα-beababy-e",
+      "websiteUrl": "https://beababy.gr",
+      "giftCardId": "cmta4y9yz000dsciyapuj6g5h",
+      "giftCardTitle": "Δωροκάρτα Beababy e-Gift Card",
+      "officialUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+      "status": "ERROR",
+      "reasonCodes": [
+        "HOME_HTTP_403",
+        "GIFT_HTTP_403",
+        "NO_CLEAN_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://beababy.gr",
+        "finalUrl": "https://beababy.gr/",
+        "status": 403,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "HTTP_403"
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+        "finalUrl": "https://beababy.gr/product/beababy-gift-card/?srsltid=AfmBOopfFsQeCgenqxkxnHcfPEcbgukJfGp75T_-jLt2z7FYIFy6pLE6",
+        "status": 403,
+        "title": null,
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": "HTTP_403"
+      },
+      "candidates": []
+    },
+    {
+      "merchantId": "cmta4ywgf002ysciysp63rctm",
+      "merchantName": "Δωροκάρτα mybeautybox",
+      "merchantSlug": "δωροκαρτα-mybeautybox",
+      "websiteUrl": "https://mybeautybox.gr",
+      "giftCardId": "cmta4ywn6002zsciyr9vasxj3",
+      "giftCardTitle": "Δωροκάρτα mybeautybox",
+      "officialUrl": "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "IDENTITY_CANDIDATES_CONFLICT"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://mybeautybox.gr",
+        "finalUrl": "https://www.mybeautybox.gr/",
+        "status": 200,
+        "title": "Online Καλλυντικά | Κουτί Ομορφιάς | mybeautybox.gr",
+        "ogSiteName": "mybeautybox",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "mybeautybox.gr"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3",
+        "finalUrl": "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3",
+        "status": 200,
+        "title": "Δωροκάρτα mybeautybox",
+        "ogSiteName": "mybeautybox",
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "mybeautybox.gr"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "mybeautybox.gr",
+          "normalizedValue": "mybeautybox gr",
+          "score": 200,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/",
+            "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3"
+          ]
+        },
+        {
+          "value": "mybeautybox",
+          "normalizedValue": "mybeautybox",
+          "score": 195,
+          "sources": [
+            "GIFT_OG_SITE_NAME",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/",
+            "https://www.mybeautybox.gr/vrefos-paidi/gift-card-mybeautybox-detail?srsltid=AfmBOoo5uaScKw3pUzJgrCdvlsNpfI9-BOScwbl515Mcv6H2OHGQpek3"
+          ]
+        },
+        {
+          "value": "Κουτί Ομορφιάς",
+          "normalizedValue": "κουτι ομορφιας",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/"
+          ]
+        },
+        {
+          "value": "Online Καλλυντικά",
+          "normalizedValue": "online καλλυντικα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/"
+          ]
+        },
+        {
+          "value": "Online Καλλυντικά | Κουτί Ομορφιάς | mybeautybox.gr",
+          "normalizedValue": "online καλλυντικα κουτι ομορφιας mybeautybox gr",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.mybeautybox.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb787zh006ndkiyobzskgz8",
+      "merchantName": "Στείλτε μια Δωροκάρτα",
+      "merchantSlug": "στειλτε-μια-δωροκαρτα",
+      "websiteUrl": "https://maamonpapa.gr",
+      "giftCardId": "cmtb78851006odkiyq49ms3f9",
+      "giftCardTitle": "Στείλτε μια Δωροκάρτα",
+      "officialUrl": "https://www.maamonpapa.gr/index.php?route=account/voucher",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://maamonpapa.gr",
+        "finalUrl": "https://www.maamonpapa.gr/",
+        "status": 200,
+        "title": "MaaMonPapa.gr - Αθλητικά Παπούτσια - Παιδικά Παπούτσια - Παιδικά Sneakers - Παιδικά Πέδιλα",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [
+          "MaaMonPapa.gr"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "MaaMonPapa.gr"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.maamonpapa.gr/index.php?route=account/voucher",
+        "finalUrl": "https://www.maamonpapa.gr/index.php?route=account/voucher",
+        "status": 200,
+        "title": "Αγοράστε μία Δωροεπιταγή",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "MaaMonPapa.gr"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "MaaMonPapa.gr",
+          "normalizedValue": "maamonpapa gr",
+          "score": 255,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_LOGO_ALT",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.maamonpapa.gr/",
+            "https://www.maamonpapa.gr/index.php?route=account/voucher"
+          ]
+        },
+        {
+          "value": "Αθλητικά Παπούτσια",
+          "normalizedValue": "αθλητικα παπουτσια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.maamonpapa.gr/"
+          ]
+        },
+        {
+          "value": "Παιδικά Παπούτσια",
+          "normalizedValue": "παιδικα παπουτσια",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.maamonpapa.gr/"
+          ]
+        },
+        {
+          "value": "Παιδικά Πέδιλα",
+          "normalizedValue": "παιδικα πεδιλα",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.maamonpapa.gr/"
+          ]
+        },
+        {
+          "value": "Παιδικά Sneakers",
+          "normalizedValue": "παιδικα sneakers",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.maamonpapa.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77a4l001udkiyprjgdlft",
+      "merchantName": "Christmas Gift Cards",
+      "merchantSlug": "christmas-gift-cards",
+      "websiteUrl": "https://kinesis-gym.gr",
+      "giftCardId": "cmtb77aa9001vdkiykzcb5zp5",
+      "giftCardTitle": "Christmas Gift Cards",
+      "officialUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "IDENTITY_CANDIDATES_CONFLICT"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://kinesis-gym.gr",
+        "finalUrl": "https://kinesis-gym.gr/",
+        "status": 200,
+        "title": "Kinesis Gym – Γυμναστήριο Κιλκίς",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "dark logo",
+          "light logo",
+          "Mobile Logo"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+        "finalUrl": "https://kinesis-gym.gr/christmas-gift-cards/",
+        "status": 200,
+        "title": "Christmas Gift Cards – Kinesis Gym",
+        "ogSiteName": null,
+        "jsonLdOrganizations": [],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "dark logo",
+          "light logo",
+          "Mobile Logo",
+          "kinesis-gym"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "kinesis-gym",
+          "normalizedValue": "kinesis gym",
+          "score": 190,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "dark logo",
+          "normalizedValue": "dark logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "light logo",
+          "normalizedValue": "light logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "Mobile Logo",
+          "normalizedValue": "mobile logo",
+          "score": 175,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "HOME_LOGO_ALT"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/",
+            "https://kinesis-gym.gr/christmas-gift-cards/"
+          ]
+        },
+        {
+          "value": "Γυμναστήριο Κιλκίς",
+          "normalizedValue": "γυμναστηριο κιλκις",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/"
+          ]
+        },
+        {
+          "value": "Kinesis Gym – Γυμναστήριο Κιλκίς",
+          "normalizedValue": "kinesis gym γυμναστηριο κιλκις",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://kinesis-gym.gr/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmtb77dz2002edkiyhwhmrr7j",
+      "merchantName": "Massage Gift Vouchers in Chania",
+      "merchantSlug": "massage-gift-vouchers-in-chania",
+      "websiteUrl": "https://nirvana-massage.gr",
+      "giftCardId": "cmtb77e4k002fdkiygyq7c6md",
+      "giftCardTitle": "Massage Gift Vouchers in Chania | The Perfect Wellness Gift",
+      "officialUrl": "https://www.nirvana-massage.gr/gift-vouchers/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "IDENTITY_CANDIDATES_CONFLICT"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://nirvana-massage.gr",
+        "finalUrl": "https://www.nirvana-massage.gr/",
+        "status": 200,
+        "title": "NIRVANA Massage & Beauty Spa | Luxury Wellness in Chania",
+        "ogSiteName": "NIRVANA",
+        "jsonLdOrganizations": [
+          "NIRVANA Massage & Beauty Spa"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "NIRVANA"
+        ],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://www.nirvana-massage.gr/gift-vouchers/",
+        "finalUrl": "https://www.nirvana-massage.gr/gift-vouchers/",
+        "status": 200,
+        "title": "Massage Gift Vouchers in Chania | The Perfect Wellness Gift",
+        "ogSiteName": "NIRVANA",
+        "jsonLdOrganizations": [
+          "NIRVANA Massage & Beauty Spa"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [
+          "NIRVANA"
+        ],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "NIRVANA",
+          "normalizedValue": "nirvana",
+          "score": 245,
+          "sources": [
+            "GIFT_LOGO_ALT",
+            "GIFT_OG_SITE_NAME",
+            "HOME_LOGO_ALT",
+            "HOME_OG_SITE_NAME"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/",
+            "https://www.nirvana-massage.gr/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "NIRVANA Massage & Beauty Spa",
+          "normalizedValue": "nirvana massage and beauty spa",
+          "score": 230,
+          "sources": [
+            "GIFT_JSONLD_ORGANIZATION",
+            "HOME_JSONLD_ORGANIZATION",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/",
+            "https://www.nirvana-massage.gr/gift-vouchers/"
+          ]
+        },
+        {
+          "value": "Luxury Wellness in Chania",
+          "normalizedValue": "luxury wellness in chania",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/"
+          ]
+        },
+        {
+          "value": "NIRVANA Massage & Beauty Spa | Luxury Wellness in Chania",
+          "normalizedValue": "nirvana massage and beauty spa luxury wellness in chania",
+          "score": 70,
+          "sources": [
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/"
+          ]
+        },
+        {
+          "value": "The Perfect Wellness Gift",
+          "normalizedValue": "the perfect wellness gift",
+          "score": 50,
+          "sources": [
+            "GIFT_TITLE"
+          ],
+          "sourceUrls": [
+            "https://www.nirvana-massage.gr/gift-vouchers/"
+          ]
+        }
+      ]
+    },
+    {
+      "merchantId": "cmta4yxv60034sciy1eru1cf7",
+      "merchantName": "Mytravelgiftcard",
+      "merchantSlug": "mytravelgiftcard",
+      "websiteUrl": "https://mytravelgiftcard.gr",
+      "giftCardId": "cmta4yy140035sciyg30mvkvh",
+      "giftCardTitle": "My Travel Gift Card - Το δώρο που ταξιδεύει τους ...",
+      "officialUrl": "https://mytravelgiftcard.gr/",
+      "status": "CANDIDATE",
+      "reasonCodes": [
+        "STRONG_OFFICIAL_IDENTITY_CANDIDATE"
+      ],
+      "currentNameLooksPolluted": true,
+      "home": {
+        "requestedUrl": "https://mytravelgiftcard.gr",
+        "finalUrl": "https://mytravelgiftcard.gr/",
+        "status": 200,
+        "title": "My Travel Gift Card - Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+        "ogSiteName": "My Travel Gift Card",
+        "jsonLdOrganizations": [
+          "My Travel Gift Card"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "giftCardPage": {
+        "requestedUrl": "https://mytravelgiftcard.gr/",
+        "finalUrl": "https://mytravelgiftcard.gr/",
+        "status": 200,
+        "title": "My Travel Gift Card - Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+        "ogSiteName": "My Travel Gift Card",
+        "jsonLdOrganizations": [
+          "My Travel Gift Card"
+        ],
+        "jsonLdBrands": [],
+        "logoAlts": [],
+        "error": null
+      },
+      "candidates": [
+        {
+          "value": "Το δώρο που ταξιδεύει τους αγαπημένους σας!",
+          "normalizedValue": "το δωρο που ταξιδευει τους αγαπημενους σας",
+          "score": 155,
+          "sources": [
+            "GIFT_TITLE",
+            "HOME_TITLE"
+          ],
+          "sourceUrls": [
+            "https://mytravelgiftcard.gr/"
+          ]
+        }
+      ]
+    }
+  ],
+  "reportId": "2e2e891de9258127ae03d9baf5caf30b09f5f1152bf1c4f6d4cc4fcefa529cf1"
+}

@@ -1,0 +1,14 @@
+{
+  "calls": 445,
+  "errors": 0,
+  "organic_results": 4259,
+  "blocked_results": 441,
+  "already_known_domains": 782,
+  "low_signal_results": 1037,
+  "new_unique_candidate_domains": 1056,
+  "high_safe_90_plus": 765,
+  "medium_75_89": 263,
+  "review_60_74": 28,
+  "imported_high_safe": 0,
+  "import_skipped_existing": 0
+}

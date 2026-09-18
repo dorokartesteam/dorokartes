@@ -1,0 +1,45 @@
+{
+  "version": 13,
+  "appliedAt": "2026-09-02T09:04:37.951Z",
+  "planId": "65326f1b635c69b854905a60676a92210e5cade9be06662b597e9e310d1562f4",
+  "sourceAuditId": "6dbed4541fdc6bae3a1fe3108f07e289103bab8d49d346bc6bfc34b12f26ee45",
+  "appliedCount": 6,
+  "applied": [
+    {
+      "actionId": "preserve-program-title:cmtb77fxv002pdkiyob6nfyir",
+      "cardId": "cmtb77fxv002pdkiyob6nfyir",
+      "from": "Oxygen Plus Gift Card",
+      "to": "Oxygen Plus Luxurious Day Spa Gift Card"
+    },
+    {
+      "actionId": "preserve-program-title:cmtb78c4x0076dkiyi0rou2i6",
+      "cardId": "cmtb78c4x0076dkiyi0rou2i6",
+      "from": "Stretch & Relax Gift Card",
+      "to": "Stretch & Relax Massage & Pilates Gift Card"
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7hwow000704iyt99hm2lp",
+      "cardId": "cmtb7hwow000704iyt99hm2lp",
+      "from": "Bioaroma Crete Gift Card",
+      "to": "Bioaroma Crete Spa Gift Card"
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7hx2h000904iykt7d99h5",
+      "cardId": "cmtb7hx2h000904iykt7d99h5",
+      "from": "Calisti Oia Gift Card",
+      "to": "Calisti Oia Honeymoon Spa Gift Card"
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7i194000v04iygg8ltr9f",
+      "cardId": "cmtb7i194000v04iygg8ltr9f",
+      "from": "Prepare for Greece Gift Card",
+      "to": "Prepare for Greece Greek Language Course Gift Card"
+    },
+    {
+      "actionId": "preserve-program-title:cmtb7i2ay001004iy2mok8p6r",
+      "cardId": "cmtb7i2ay001004iy2mok8p6r",
+      "from": "Mindful Touch Gift Card",
+      "to": "Mindful Touch Massage Gift Card"
+    }
+  ]
+}

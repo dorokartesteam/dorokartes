@@ -1,0 +1,368 @@
+{
+  "version": 3,
+  "mode": "PREVIEW",
+  "sourceReportId": "28dc3739f07ea2373fa3c3e31ac97de895d10938fa9c24a951a2587f753f5266",
+  "targetFingerprint": "2bdd8ee75a811c396c2376779d2be9562a1c0e408cdb1c7f3f2fa0f693c74eb9",
+  "liveEvidenceFingerprint": "36a51e5eb1ff7669b8ab2fba3c9680d631c1dadb3b05f9b20d30dc7315ec031e",
+  "cardCount": 4,
+  "actionCount": 11,
+  "liveEvidence": [
+    {
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "pages": [
+        {
+          "requestedUrl": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+          "finalUrl": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+          "checks": [
+            {
+              "label": "€100 product identity",
+              "matched": "Δωροκάρτα CandleJuice Gift Card 100€"
+            },
+            {
+              "label": "explicit digital format",
+              "matched": "Elegant digital gifting experience"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://candlejuice.gr/product-category/dorokartes-candlejuice-gift-cards/",
+          "finalUrl": "https://candlejuice.gr/product-category/dorokartes-candlejuice-gift-cards/",
+          "checks": [
+            {
+              "label": "€10 denomination",
+              "matched": "Gift Card 10€"
+            },
+            {
+              "label": "€25 denomination",
+              "matched": "Gift Card 25€"
+            },
+            {
+              "label": "€50 denomination",
+              "matched": "Gift Card 50€"
+            },
+            {
+              "label": "€100 denomination",
+              "matched": "Gift Card 100€"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "pages": [
+        {
+          "requestedUrl": "https://poem-luxury.gr/product/giftcard-100/",
+          "finalUrl": "https://poem-luxury.gr/product/giftcard-100/",
+          "checks": [
+            {
+              "label": "€100 product identity",
+              "matched": "Δωροκάρτα Poem-Luxury 100€"
+            },
+            {
+              "label": "delivery selector",
+              "matched": "Τρόπος Παράδοσης"
+            },
+            {
+              "label": "recipient email delivery",
+              "matched": "Θα το στείλουμε στη διεύθυνση email του παραλήπτη"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://poem-luxury.gr/product-category/wps_wgm_giftcard/",
+          "finalUrl": "https://poem-luxury.gr/product-category/wps_wgm_giftcard/",
+          "checks": [
+            {
+              "label": "€50 denomination",
+              "matched": "Δωροκάρτα Poem-Luxury 50€"
+            },
+            {
+              "label": "€100 denomination",
+              "matched": "Δωροκάρτα Poem-Luxury 100€"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "pages": [
+        {
+          "requestedUrl": "https://www.tsiantakishome.gr/shop/dwrokartes/dwrokarta-40e/",
+          "finalUrl": "https://www.tsiantakishome.gr/shop/dwrokartes/dwrokarta-40e/",
+          "checks": [
+            {
+              "label": "€40 product identity",
+              "matched": "Δωροκάρτα 40€"
+            },
+            {
+              "label": "recipient email delivery",
+              "matched": "διευθύνσεις ηλεκτρονικού ταχυδρομείου των παραληπτών της δωροκάρτας"
+            },
+            {
+              "label": "delivery-date field",
+              "matched": "Ημερομηνία παράδοσης"
+            }
+          ]
+        },
+        {
+          "requestedUrl": "https://www.tsiantakishome.gr/c/dwrokartes/",
+          "finalUrl": "https://www.tsiantakishome.gr/c/dwrokartes/",
+          "checks": [
+            {
+              "label": "€40 denomination",
+              "matched": "Δωροκάρτα 40€"
+            },
+            {
+              "label": "€80 denomination",
+              "matched": "Δωροκάρτα 80€"
+            },
+            {
+              "label": "€90 denomination",
+              "matched": "Δωροκάρτα 90€"
+            },
+            {
+              "label": "€100 denomination",
+              "matched": "Δωροκάρτα 100€"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardId": "cmtb78fkx007odkiylrl8o7it",
+      "pages": [
+        {
+          "requestedUrl": "https://www.hobbywood.gr/GIFTCARD100",
+          "finalUrl": "https://www.hobbywood.gr/GIFTCARD100",
+          "checks": [
+            {
+              "label": "€100 product identity",
+              "matched": "ΔΩΡΟΚΑΡΤΑ 100€"
+            },
+            {
+              "label": "recipient email delivery",
+              "matched": "το e-mail και ονοματεπώνυμο του παραλήπτη"
+            },
+            {
+              "label": "buyer email fallback",
+              "matched": "θα έρθει στο δικό σας e-mail"
+            },
+            {
+              "label": "€10 denomination",
+              "matched": "κάρτα των 10€"
+            },
+            {
+              "label": "€5 denomination",
+              "matched": "κάρτα των 5€"
+            },
+            {
+              "label": "one-year validity",
+              "matched": "Ισχύει για ένα έτος"
+            },
+            {
+              "label": "online and store redemption",
+              "matched": "φυσικό ή το ηλεκτρονικό μας κατάστημα"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta4ybyz000lsciyi05bqwwl",
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "merchantId": "cmta4ybsv000ksciy2wk84kj0",
+      "expected": "Δωροκάρτα CandleJuice Gift Card 100€",
+      "value": "Candlejuice Gift Card",
+      "expectedUpdatedAt": "2026-08-26T13:34:39.899Z",
+      "evidence": [
+        "Official product copy explicitly calls this a digital gifting experience.",
+        "Official gift-card category lists €10, €25, €50 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta4ybyz000lsciyi05bqwwl",
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "merchantId": "cmta4ybsv000ksciy2wk84kj0",
+      "expected": "https://candlejuice.gr/product/dorokarta-candlejuice-gift-card-100e/",
+      "value": "https://candlejuice.gr/product-category/dorokartes-candlejuice-gift-cards/",
+      "evidence": [
+        "Official product copy explicitly calls this a digital gifting experience.",
+        "Official gift-card category lists €10, €25, €50 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta4ybyz000lsciyi05bqwwl",
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "merchantId": "cmta4ybsv000ksciy2wk84kj0",
+      "expectedTitleAfter": "Candlejuice Gift Card",
+      "officialUrlAfter": "https://candlejuice.gr/product-category/dorokartes-candlejuice-gift-cards/",
+      "values": [
+        "10",
+        "25",
+        "50",
+        "100"
+      ],
+      "deliveryMethods": [],
+      "redemptionChannels": [],
+      "validityMonths": null,
+      "evidence": [
+        "Official product copy explicitly calls this a digital gifting experience.",
+        "Official gift-card category lists €10, €25, €50 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmtb78fkx007odkiylrl8o7it",
+      "cardId": "cmtb78fkx007odkiylrl8o7it",
+      "merchantId": "cmtb78ffp007ndkiyn4woc6vx",
+      "expected": "ΔΩΡΟΚΑΡΤΑ 100€",
+      "value": "Hobbywood Gift Card",
+      "expectedUpdatedAt": "2026-08-27T07:26:16.545Z",
+      "evidence": [
+        "Official page says the voucher is emailed to the recipient or buyer.",
+        "Official page confirms €100 and links the €10 and €5 cards as combinable values.",
+        "Official terms state one-year validity and online/physical-store redemption.",
+        "No unverified general URL is substituted, so the exact official product URL is preserved."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmtb78fkx007odkiylrl8o7it",
+      "cardId": "cmtb78fkx007odkiylrl8o7it",
+      "merchantId": "cmtb78ffp007ndkiyn4woc6vx",
+      "expectedTitleAfter": "Hobbywood Gift Card",
+      "officialUrlAfter": "https://www.hobbywood.gr/GIFTCARD100",
+      "values": [
+        "5",
+        "10",
+        "100"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [
+        "ONLINE",
+        "PHYSICAL_STORE"
+      ],
+      "validityMonths": 12,
+      "evidence": [
+        "Official page says the voucher is emailed to the recipient or buyer.",
+        "Official page confirms €100 and links the €10 and €5 cards as combinable values.",
+        "Official terms state one-year validity and online/physical-store redemption.",
+        "No unverified general URL is substituted, so the exact official product URL is preserved."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmta5nw9j001t54iybpluaasg",
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "merchantId": "cmta5nw46001s54iy628m45ik",
+      "expected": "Δωροκάρτα Poem-Luxury 100",
+      "value": "Poem Luxury Gift Card",
+      "expectedUpdatedAt": "2026-08-26T13:54:32.599Z",
+      "evidence": [
+        "Official product page explicitly states delivery to the recipient email address.",
+        "Official gift-card category lists €50 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmta5nw9j001t54iybpluaasg",
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "merchantId": "cmta5nw46001s54iy628m45ik",
+      "expected": "https://poem-luxury.gr/product/giftcard-100/",
+      "value": "https://poem-luxury.gr/product-category/wps_wgm_giftcard/",
+      "evidence": [
+        "Official product page explicitly states delivery to the recipient email address.",
+        "Official gift-card category lists €50 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta5nw9j001t54iybpluaasg",
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "merchantId": "cmta5nw46001s54iy628m45ik",
+      "expectedTitleAfter": "Poem Luxury Gift Card",
+      "officialUrlAfter": "https://poem-luxury.gr/product-category/wps_wgm_giftcard/",
+      "values": [
+        "50",
+        "100"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [],
+      "validityMonths": null,
+      "evidence": [
+        "Official product page explicitly states delivery to the recipient email address.",
+        "Official gift-card category lists €50 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-title:cmtb77ob5003wdkiyrw1g9la4",
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "merchantId": "cmtb77o6f003vdkiysq2nbo5o",
+      "expected": "Δωροκάρτα 40",
+      "value": "Tsiantakishome Gift Card",
+      "expectedUpdatedAt": "2026-08-27T07:25:41.201Z",
+      "evidence": [
+        "Official product form explicitly requests recipient email addresses and a delivery date.",
+        "Official gift-card category lists €40, €80, €90 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "UPDATE_OFFICIAL_URL",
+      "actionId": "update-official-url:cmtb77ob5003wdkiyrw1g9la4",
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "merchantId": "cmtb77o6f003vdkiysq2nbo5o",
+      "expected": "https://www.tsiantakishome.gr/shop/dwrokartes/dwrokarta-40e/",
+      "value": "https://www.tsiantakishome.gr/c/dwrokartes/",
+      "evidence": [
+        "Official product form explicitly requests recipient email addresses and a delivery date.",
+        "Official gift-card category lists €40, €80, €90 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmtb77ob5003wdkiyrw1g9la4",
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "merchantId": "cmtb77o6f003vdkiysq2nbo5o",
+      "expectedTitleAfter": "Tsiantakishome Gift Card",
+      "officialUrlAfter": "https://www.tsiantakishome.gr/c/dwrokartes/",
+      "values": [
+        "40",
+        "80",
+        "90",
+        "100"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "redemptionChannels": [],
+      "validityMonths": null,
+      "evidence": [
+        "Official product form explicitly requests recipient email addresses and a delivery date.",
+        "Official gift-card category lists €40, €80, €90 and €100.",
+        "The official general gift-card category replaces the denomination-specific catalog URL."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-07T08:01:19.935Z",
+  "planId": "bfb1aeae67a14115e52f1557136776161f6790015e66dcc49ae696ec3378a983"
+}

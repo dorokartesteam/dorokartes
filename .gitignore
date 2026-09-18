@@ -41,3 +41,21 @@ yarn-error.log*
 next-env.d.ts
 
 /app/generated/prisma
+
+# Dorokartes discovery/raw data
+/data/discovery/google/
+/data/discovery/bestprice/
+/data/discovery/kouponia365/
+/data/discovery/mass-search/
+
+# Generated discovery datasets / backups
+/data/discovery/mass/*.backup-*
+/data/discovery/mass/*resolution*.jsonl
+/data/discovery/mass/*resolved*.csv
+/data/discovery/mass/*master*.csv
+
+# Local package backup
+/package.pre-unified.json
+
+# Local script backups
+*.backup-before-*

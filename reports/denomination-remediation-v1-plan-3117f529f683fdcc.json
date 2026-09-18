@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "mode": "PREVIEW",
+  "sourceReportId": "8fd3720afadfc2c604c958058b0a38d0f42e9d81268a7966aaec696516f565c7",
+  "targetFingerprint": "66f79fc41f8b7b0bc3ef11e3c461e98119f10ab6db37cd8a94a1b1ff087bdd89",
+  "cardCount": 2,
+  "actionCount": 5,
+  "actions": [
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta1ftm4003mq8iyn7wu2dpi",
+      "merchantId": "cmta1ftm4003mq8iyn7wu2dpi",
+      "cardId": "cmta1ftsh003nq8iyxswky70y",
+      "expected": "ApparelStores",
+      "value": "Apparel Stores",
+      "evidence": [
+        "Official product page identifies the offering as Apparel Stores e-Gift Card.",
+        "Official selector lists €30, €50, €80, €100, €150 and €200.",
+        "Official page says the e-Gift Card is sent immediately by email."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1ftsh003nq8iyxswky70y",
+      "cardId": "cmta1ftsh003nq8iyxswky70y",
+      "merchantId": "cmta1ftm4003mq8iyn7wu2dpi",
+      "expected": "e-Gift Card - 30.00",
+      "value": "Apparel Stores Gift Card",
+      "officialUrl": "https://www.apparelstores.gr/products/e-gift-card",
+      "evidence": [
+        "Official product page identifies the offering as Apparel Stores e-Gift Card.",
+        "Official selector lists €30, €50, €80, €100, €150 and €200.",
+        "Official page says the e-Gift Card is sent immediately by email."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta1ftsh003nq8iyxswky70y",
+      "cardId": "cmta1ftsh003nq8iyxswky70y",
+      "merchantId": "cmta1ftm4003mq8iyn7wu2dpi",
+      "expectedTitleAfter": "Apparel Stores Gift Card",
+      "purchaseUrl": "https://www.apparelstores.gr/products/e-gift-card",
+      "currency": "EUR",
+      "values": [
+        "30",
+        "50",
+        "80",
+        "100",
+        "150",
+        "200"
+      ],
+      "deliveryMethods": [
+        "EMAIL"
+      ],
+      "evidence": [
+        "Official product page identifies the offering as Apparel Stores e-Gift Card.",
+        "Official selector lists €30, €50, €80, €100, €150 and €200.",
+        "Official page says the e-Gift Card is sent immediately by email."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1fdz30025q8iyjgn4n03r",
+      "cardId": "cmta1fdz30025q8iyjgn4n03r",
+      "merchantId": "cmta1fdrv0024q8iy4qoe2q40",
+      "expected": "Ελεκτρονική Δωροκάρτα O-Biotique 50,00",
+      "value": "O-Biotique Gift Card",
+      "officialUrl": "https://obiotique.com/el/products/o-biotique-gift-card",
+      "evidence": [
+        "Official product heading explicitly identifies an electronic O-Biotique gift card.",
+        "Official denomination selector lists €10, €25, €50 and €100.",
+        "Structured product data confirms the same denomination values."
+      ]
+    },
+    {
+      "type": "CREATE_VARIANT",
+      "actionId": "create-digital-variant:cmta1fdz30025q8iyjgn4n03r",
+      "cardId": "cmta1fdz30025q8iyjgn4n03r",
+      "merchantId": "cmta1fdrv0024q8iy4qoe2q40",
+      "expectedTitleAfter": "O-Biotique Gift Card",
+      "purchaseUrl": "https://obiotique.com/el/products/o-biotique-gift-card",
+      "currency": "EUR",
+      "values": [
+        "10",
+        "25",
+        "50",
+        "100"
+      ],
+      "deliveryMethods": [],
+      "evidence": [
+        "Official product heading explicitly identifies an electronic O-Biotique gift card.",
+        "Official denomination selector lists €10, €25, €50 and €100.",
+        "Structured product data confirms the same denomination values."
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-04T16:16:14.169Z",
+  "planId": "3117f529f683fdcc4dcbafc4fdda606552170a3e00a321c6151098c3bbdcd717"
+}

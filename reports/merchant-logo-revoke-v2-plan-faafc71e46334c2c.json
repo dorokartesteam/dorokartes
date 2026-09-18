@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "actions": [
+    {
+      "merchantId": "cmtb62tbk002694iynay5o1a0",
+      "merchantName": "Sweetnspicy",
+      "logoUrl": "/merchant-logos/sweetnspicy-55429d221dcb.jpg",
+      "logoSourceUrl": "https://sweetnspicy.gr/wp-content/uploads/2016/11/cropped-spices-192x192.jpg",
+      "fileHash": "55429d221dcb68b5d8c816b8b15c5d7cefa0dc993d60ba9f02557cc8136191a0",
+      "mediaAssetIds": [
+        "cmtkcbw3e007yvgiydpgfj0hx"
+      ]
+    },
+    {
+      "merchantId": "cmtb77ecy002gdkiyplat2lrt",
+      "merchantName": "North & South Jewelry",
+      "logoUrl": "/merchant-logos/north-and-south-jewelry-gift-card-0812d65c784a.jpg",
+      "logoSourceUrl": "https://www.northandsouthjewelry.gr/cdn/shop/files/DSC_7849_IG.jpg?v=1661672207&width=180",
+      "fileHash": "0812d65c784a5e715f4e4c50fdec23dd48a59c7569f12428b05f9fdac8db4a15",
+      "mediaAssetIds": [
+        "cmtkcbolk006nvgiyukzxd2jj"
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-03T10:33:56.794Z",
+  "planId": "faafc71e46334c2c7484e4b3909c588a5fd24b2d38bc5e3b991aecad372d62dc"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "location-import-v1",
+  "mode": "POST_AUDIT",
+  "planId": "23cda9ec5849e711e24b7601bb5afaf209612f4221f88592472d0b414dab8b6a",
+  "auditedAt": "2026-09-04T08:51:45.252Z",
+  "checked": 67,
+  "passed": 67,
+  "failed": []
+}

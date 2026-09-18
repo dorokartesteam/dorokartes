@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T13:34:25.744Z",
+  "planId": "ea1d8c167024ae74d162ed665aaa24d83a6fa42ba23192d37c612a19598dbb67",
+  "appliedCount": 3,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1mrph00u7q8iydrmvmhtt:c1702fe5c161",
+      "merchantId": "cmta1mrph00u7q8iydrmvmhtt",
+      "localUrl": "/merchant-logos/crudeshop-c1702fe5c161.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kmby00ltq8iyovtwgjv9:fecb2c25ae62",
+      "merchantId": "cmta1kmby00ltq8iyovtwgjv9",
+      "localUrl": "/merchant-logos/dreamypicnics-fecb2c25ae62.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v3o2003t3giy697d01nq:578f82ebbb9a",
+      "merchantId": "cmtb6v3o2003t3giy697d01nq",
+      "localUrl": "/merchant-logos/somatherapy-578f82ebbb9a.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-04T16:49:40.745Z",
+  "planId": "fae458341a0b4b2f96694b9bae084f2033ecaf9d0be316ceb208d7f9809a8f4e",
+  "appliedCount": 3,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmta1mlfc00tjq8iy0c3ybipq:72f7d3866c43",
+      "merchantId": "cmta1mlfc00tjq8iy0c3ybipq",
+      "localUrl": "/merchant-logos/beautyclinic-72f7d3866c43.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77twd004odkiyt5u3ep1e:ebfe538955ed",
+      "merchantId": "cmtb77twd004odkiyt5u3ep1e",
+      "localUrl": "/merchant-logos/merchant-ebfe538955ed.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jlyd00hnq8iyz32uf5a8:c86a66e87a68",
+      "merchantId": "cmta1jlyd00hnq8iyz32uf5a8",
+      "localUrl": "/merchant-logos/t-support-c86a66e87a68.png"
+    }
+  ]
+}

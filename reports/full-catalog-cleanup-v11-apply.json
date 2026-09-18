@@ -1,0 +1,569 @@
+{
+  "version": 11,
+  "appliedAt": "2026-09-01T11:06:35.634Z",
+  "planId": "44bdc65b0a48b738e0280c3839ea25d00db781ab3d9c4ca73bf51ba8dd2f9bc7",
+  "catalogFingerprintBefore": "7bdc92e2142ea1883dcc1fdf773647e7ae14ecdef4426d78c370b91f2d381e99",
+  "appliedCount": 138,
+  "applied": [
+    {
+      "actionId": "ensure-merchant:antithesisclothing.gr",
+      "result": "CREATED",
+      "merchantId": "cmtikaq840000csiynr88cto8"
+    },
+    {
+      "actionId": "ensure-merchant:monkeesofathens.com",
+      "result": "CREATED",
+      "merchantId": "cmtikaqcc0001csiy7aine7eg"
+    },
+    {
+      "actionId": "ensure-merchant:starlightcinemacrete.com",
+      "result": "CREATED",
+      "merchantId": "cmtikaqjt0002csiy4701v743"
+    },
+    {
+      "actionId": "ensure-merchant:tennisgarden.gr",
+      "result": "CREATED",
+      "merchantId": "cmtikaqo00003csiywsh4i0ff"
+    },
+    {
+      "actionId": "reassign-card:cmtb77kvs003edkiy6w6lndbt",
+      "result": "UPDATED",
+      "targetMerchantId": "cmtikaqo00003csiywsh4i0ff"
+    },
+    {
+      "actionId": "reassign-card:cmtb77r83004bdkiycl9k0utt",
+      "result": "UPDATED",
+      "targetMerchantId": "cmtikaq840000csiynr88cto8"
+    },
+    {
+      "actionId": "reassign-card:cmtb7i1yu000y04iy1ud2iyk4",
+      "result": "UPDATED",
+      "targetMerchantId": "cmtikaqjt0002csiy4701v743"
+    },
+    {
+      "actionId": "reassign-card:cmtb7i474001904iye9qfchj3",
+      "result": "UPDATED",
+      "targetMerchantId": "cmtikaqcc0001csiy7aine7eg"
+    },
+    {
+      "actionId": "update-merchant-name:cmta4ymm6001ssciye2mig0rl",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmta4yw0c002wsciyir3okmhf",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmta4z4k4003wsciy9ee1wgu6",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmta5nw46001s54iy628m45ik",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uf2e00063giydxiii0f7",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6ufsn000a3giyjib46xsx",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uhnb000k3giyxddgyqfa",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6ui1t000m3giy66028e8c",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uiej000o3giy9hqeoxbx",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uirb000q3giyu8dm1mgz",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uk9l000y3giypqaa5qta",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6ukm900103giywd8g6bej",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6ukzy00123giywn3ir226",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uldr00143giypfbpoqvn",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6umh9001a3giyub7q7u30",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6unm6001g3giyfxqqp281",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uoby001j3giybkb09ezk",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uorg001l3giy24moh9jp",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uq9b001t3giygowy28vc",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6urdq001z3giyx4g2l4dm",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uvw3002n3giyqr9kvyec",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uy3n002z3giyohz3pcwu",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uz6p00353giyzkow4qml",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uzla00373giydd6wqbju",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6uzyo00393giyijqh9v1h",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6v0di003b3giyxpscbnbo",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6v13b003f3giyxe6vuddf",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6v2jj003n3giy074shjfa",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb6v7qe004f3giyu88xwoub",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb76z7c000adkiy66vik5q1",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb76zyk000edkiyoal0zyeg",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77293000qdkiyuxwy6vfj",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7734h000udkiyga232vnm",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7749h0010dkiy4q022h9a",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb774mt0012dkiyq4k7d2ow",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7764f001adkiyw9hwme1l",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb776zn001edkiyarmmetay",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77axg001ydkiyrprc62wi",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77bbd0020dkiyyi6uurk8",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77cfx0026dkiyp3b4iz9q",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77ecy002gdkiyplat2lrt",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77fsy002odkiypybibga6",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77gmh002sdkiytfif5f3w",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77hgm002wdkiy7a6hmw6n",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77lik003hdkiy87gxmjpc",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77ow4003zdkiyxwfwp2jk",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77p8v0041dkiy4o113qwf",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77qd60047dkiyo2864egs",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77u9k004qdkiy5aipr12d",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77umw004sdkiyct2g9fx2",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77v1h004udkiyfr8vdjju",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb77yct005cdkiy70l66iyx",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7813e005qdkiyiite3fyc",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb783ix0062dkiyciacadlv",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb784go0066dkiy5hfgmr1m",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb785d0006adkiy9cuj1fo5",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb78bzy0075dkiyyeep0ctu",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb78dwy007fdkiyd2xzj5l1",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb78ffp007ndkiyn4woc6vx",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7hwjz000604iy7agycf4r",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7hwwi000804iyxo3b6lop",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7hxbi000a04iy9g6mxmjr",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7hzks000m04iybzukfa8e",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7i12m000u04iynn26j31q",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7i1i0000w04iys9w2oqz8",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7i26i000z04iyas90sthl",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-merchant-name:cmtb7i2wq001304iydhifcqy7",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmta1m5dl00rwq8iyrk8timkq",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmta4ymsn001tsciyyvjfc8uf",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmta4z4qr003xsciyykm8w59d",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmta5nkqd000354iye66fxcah",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uf7q00073giyshj993ld",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6ufxo000b3giyektyl1hg",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uijf000p3giy2w2ofsxh",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uiwb000r3giyfnoob57v",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uke8000z3giy1zoyix8p",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6ukrk00113giy3b51tyv1",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6ul4v00133giyhgnnpf1j",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uli700153giy75i0msk9",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6umlr001b3giycaopqllh",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6unre001h3giyec12nyxq",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uogu001k3giyevih3jt5",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uox1001m3giybq8qyts9",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uqep001u3giya6xdb0l8",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6urib00203giyzhdgmnv4",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uw0e002o3giyafr6pxqp",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uy8d00303giy23wvv4xn",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uzbu00363giyjxgyidjk",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6uzqb00383giyfbh3f5i0",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6v0i7003c3giyqzykbead",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6v18b003g3giyvg8zhfi4",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb6v7un004g3giy4jgauceq",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb76zcu000bdkiy6hek2eml",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7703h000fdkiy6xz320nd",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb772gg000rdkiyb7t4zkvz",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb773a9000vdkiy4ycbnjw9",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb774sd0013dkiy6s1lutst",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7769p001bdkiyujfcxt1s",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77b2g001zdkiygg6f6j59",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77bgd0021dkiyy3u2x8qn",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77ckx0027dkiyltinns4m",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77ei2002hdkiyto50x79b",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77fxv002pdkiyob6nfyir",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77gud002tdkiyoa7zz562",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77hlh002xdkiyk3j9xven",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77kvs003edkiy6w6lndbt",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77lnk003idkiykm5i5vto",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77p0o0040dkiyr700iran",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77pdh0042dkiyjcs75ba2",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77qi60048dkiyu8khlp3s",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77r83004bdkiycl9k0utt",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77uej004rdkiydqqx9ujt",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77urx004tdkiyvtb2mf7m",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77v6h004vdkiy54z2aiui",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb77yht005ddkiykt4vsu49",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb781dk005rdkiy10vs3wvb",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb783oh0063dkiy8ckdn4vm",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb784rw0067dkiy87ryq6qs",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb785hb006bdkiyfv69uwot",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb78c4x0076dkiyi0rou2i6",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7hwow000704iyt99hm2lp",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7hx2h000904iykt7d99h5",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7hxhc000b04iy3qi3vpga",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7hzpu000n04iyfkfu5yll",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7i194000v04iygg8ltr9f",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7i1na000x04iyenncco9w",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7i1yu000y04iy1ud2iyk4",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7i2ay001004iy2mok8p6r",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7i31b001404iy197cb72x",
+      "result": "UPDATED"
+    },
+    {
+      "actionId": "update-card-title:cmtb7i474001904iye9qfchj3",
+      "result": "UPDATED"
+    }
+  ]
+}

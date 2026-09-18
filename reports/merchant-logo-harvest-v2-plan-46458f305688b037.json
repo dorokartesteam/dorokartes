@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "13aac6f9818666099c80071e9e9ad44cc4ee4b3962c3970363598c05ec4a5d9a",
+  "targetCount": 1,
+  "concurrency": 12,
+  "summary": {
+    "safe": 0,
+    "review": 1,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [],
+  "findings": [
+    {
+      "merchantId": "cmt8fb4oz000o6kiylq2ujw83",
+      "merchantName": "Sephora",
+      "merchantSlug": "sephora",
+      "websiteUrl": "https://giftcard.sephora.gr",
+      "finalWebsiteUrl": "https://giftcard.sephora.gr/",
+      "status": "REVIEW",
+      "reasonCodes": [
+        "OPERATOR_CURATED_SOURCE_REJECTED",
+        "ASSET_FETCH_FAILED"
+      ],
+      "bestCandidate": {
+        "url": "https://giftcard.sephora.gr/merchant/logo.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 334
+      },
+      "validatedAsset": null
+    }
+  ],
+  "generatedAt": "2026-09-03T18:45:48.778Z",
+  "planId": "46458f305688b03758c2120cf9fa4ecdfedcb9b1bf9e45c3902047dfb43f2b9a"
+}

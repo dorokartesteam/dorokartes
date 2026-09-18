@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-03T11:11:23.032Z",
+  "planId": "a72a89ab7e15916581baaf80a16325bc2945a7707b0995193350cbc9e52ff499",
+  "checked": 3,
+  "passed": 3,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "actionId": "set-merchant-logo:cmta1g31o004kq8iy8cy0v47p:c1b47bc2802e",
+      "merchantId": "cmta1g31o004kq8iy8cy0v47p",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "c1b47bc2802e1c52d1f664d7b9b0deee03f5d75692c1557cf892e997fa11bd55"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ijt600d1q8iyxb82btou:14e39849a9fe",
+      "merchantId": "cmta1ijt600d1q8iyxb82btou",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "14e39849a9fe59fc69ff55a828ce11f60187431738087bc2b903e87c9dc9d0c5"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fdbr0022q8iyso2oofv7:2a63f79f610f",
+      "merchantId": "cmta1fdbr0022q8iyso2oofv7",
+      "passed": true,
+      "fileExists": true,
+      "fileHash": "2a63f79f610f4be4590630e3d14c07cc5890621ad44f52d6234a4c4bd02aadd3"
+    }
+  ]
+}

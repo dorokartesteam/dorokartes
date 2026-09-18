@@ -1,0 +1,2754 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-02T16:30:46.782Z",
+  "planId": "2053f6493f8704653f5536472a5a2782d92ff1399f9b2d3ddcce24ffc078205b",
+  "appliedCount": 549,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb77seg004gdkiyqxppl0el:85bf32cbd4fe",
+      "merchantId": "cmtb77seg004gdkiyqxppl0el",
+      "localUrl": "/merchant-logos/beauty-hall-85bf32cbd4fe.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb775q90018dkiyeyw4ozut:1908e9dda3fa",
+      "merchantId": "cmtb775q90018dkiyeyw4ozut",
+      "localUrl": "/merchant-logos/5pm-1908e9dda3fa.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uea700023giy45bjoppd:0811820eace1",
+      "merchantId": "cmtb6uea700023giy45bjoppd",
+      "localUrl": "/merchant-logos/abajourmonamour-0811820eace1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62exh000094iy63k6h0wp:6bc9af92520a",
+      "merchantId": "cmtb62exh000094iy63k6h0wp",
+      "localUrl": "/merchant-logos/absolutemassageandspa-6bc9af92520a.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nk6i000054iyo59lds7z:17564a8ce09a",
+      "merchantId": "cmta5nk6i000054iyo59lds7z",
+      "localUrl": "/merchant-logos/access-17564a8ce09a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h3wa0085q8iyn1rdkd0h:f9b20022cbb9",
+      "merchantId": "cmta1h3wa0085q8iyn1rdkd0h",
+      "localUrl": "/merchant-logos/active-fashion-f9b20022cbb9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h4v30087q8iyy554j84c:0de253370124",
+      "merchantId": "cmta1h4v30087q8iyy554j84c",
+      "localUrl": "/merchant-logos/adore-beauty-0de253370124.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k3e400jnq8iyfrp6th99:5fff4ab24df5",
+      "merchantId": "cmta1k3e400jnq8iyfrp6th99",
+      "localUrl": "/merchant-logos/afroditesbeaute-5fff4ab24df5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h8bf0089q8iycn3j15z3:c686f47289f9",
+      "merchantId": "cmta1h8bf0089q8iycn3j15z3",
+      "localUrl": "/merchant-logos/aggouris-c686f47289f9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4y7vg0004sciy2y9wokq6:4c301f83658f",
+      "merchantId": "cmta4y7vg0004sciy2y9wokq6",
+      "localUrl": "/merchant-logos/agigma-4c301f83658f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4y8c30006sciylalyrg2a:c2d98afa1ed3",
+      "merchantId": "cmta4y8c30006sciylalyrg2a",
+      "localUrl": "/merchant-logos/alchemy-c2d98afa1ed3.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb76x780000dkiyixlw1gw5:6a91ab6cc45f",
+      "merchantId": "cmtb76x780000dkiyixlw1gw5",
+      "localUrl": "/merchant-logos/aldo-6a91ab6cc45f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lgfn00p7q8iyx90361iz:cf8e2d374137",
+      "merchantId": "cmta1lgfn00p7q8iyx90361iz",
+      "localUrl": "/merchant-logos/aleyacreations-cf8e2d374137.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uffz00083giyn667ly3j:5a63298834b1",
+      "merchantId": "cmtb6uffz00083giyn667ly3j",
+      "localUrl": "/merchant-logos/alhimistis-bags-5a63298834b1.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h9u1008dq8iyr63git16:916fd77cd29f",
+      "merchantId": "cmta1h9u1008dq8iyr63git16",
+      "localUrl": "/merchant-logos/alohabeauty-916fd77cd29f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4y8rm0008sciyz71rugn9:5a489a0d7755",
+      "merchantId": "cmta4y8rm0008sciyz71rugn9",
+      "localUrl": "/merchant-logos/alouette-5a489a0d7755.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ggey005tq8iyzbtj8kvz:969b38bf9e60",
+      "merchantId": "cmta1ggey005tq8iyzbtj8kvz",
+      "localUrl": "/merchant-logos/alova-969b38bf9e60.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77qqd0049dkiyndnbfp2g:0dafb35f012c",
+      "merchantId": "cmtb77qqd0049dkiyndnbfp2g",
+      "localUrl": "/merchant-logos/alterego-0dafb35f012c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77dlf002cdkiylvcdl5z2:3c841ea9f1d7",
+      "merchantId": "cmtb77dlf002cdkiylvcdl5z2",
+      "localUrl": "/merchant-logos/ambassador-mykonos-3c841ea9f1d7.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lp9t00q5q8iyz374e7wj:5c5e978c4d84",
+      "merchantId": "cmta1lp9t00q5q8iyz374e7wj",
+      "localUrl": "/merchant-logos/amourianosoptics-5c5e978c4d84.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hbn3008jq8iyboyawojz:aec7ddb2d1be",
+      "merchantId": "cmta1hbn3008jq8iyboyawojz",
+      "localUrl": "/merchant-logos/anastasiasstore-aec7ddb2d1be.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mg3500t1q8iy89f1zckz:df25435fb119",
+      "merchantId": "cmta1mg3500t1q8iy89f1zckz",
+      "localUrl": "/merchant-logos/andreoueshop-df25435fb119.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb76xn90002dkiy9b2alpff:06724d297983",
+      "merchantId": "cmtb76xn90002dkiy9b2alpff",
+      "localUrl": "/merchant-logos/anemh-clothing-and-fashion-items-06724d297983.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hdeo008lq8iyzdedzdby:84ef8c92902f",
+      "merchantId": "cmta1hdeo008lq8iyzdedzdby",
+      "localUrl": "/merchant-logos/anemos-84ef8c92902f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ug5t000c3giycd67gr0a:c969d484ccc7",
+      "merchantId": "cmtb6ug5t000c3giycd67gr0a",
+      "localUrl": "/merchant-logos/angelsflowers-c969d484ccc7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kf0q00kzq8iybnro3x4h:2c15ef71cd13",
+      "merchantId": "cmta1kf0q00kzq8iybnro3x4h",
+      "localUrl": "/merchant-logos/annysresidences-2c15ef71cd13.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g2lu004iq8iyuc7d7h3h:8110dfaf81a1",
+      "merchantId": "cmta1g2lu004iq8iyuc7d7h3h",
+      "localUrl": "/merchant-logos/anthemion-flowers-8110dfaf81a1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtikaq840000csiynr88cto8:b5f8b5e2ffee",
+      "merchantId": "cmtikaq840000csiynr88cto8",
+      "localUrl": "/merchant-logos/antithesis-clothing-b5f8b5e2ffee.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lprh00q7q8iyps9ujt99:e85f1447e714",
+      "merchantId": "cmta1lprh00q7q8iyps9ujt99",
+      "localUrl": "/merchant-logos/ao-massage-e85f1447e714.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb776ks001cdkiyblekiezm:30f752a70465",
+      "merchantId": "cmtb776ks001cdkiyblekiezm",
+      "localUrl": "/merchant-logos/archives-3-30f752a70465.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nz1h002754iyxbfujt5i:c9b0364c8dc3",
+      "merchantId": "cmta5nz1h002754iyxbfujt5i",
+      "localUrl": "/merchant-logos/archives-two-and-a-half-twoandahalf-gr-c9b0364c8dc3.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7861h006ddkiyig1e8txl:5e6f04c77bdb",
+      "merchantId": "cmtb7861h006ddkiyig1e8txl",
+      "localUrl": "/merchant-logos/archives-5e6f04c77bdb.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f5ck0016q8iyalh0a7ty:8a7290d9f24e",
+      "merchantId": "cmta1f5ck0016q8iyalh0a7ty",
+      "localUrl": "/merchant-logos/arfie-gr-8a7290d9f24e.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mh6h00t5q8iyy9olrsfi:35f1af3d2165",
+      "merchantId": "cmta1mh6h00t5q8iyy9olrsfi",
+      "localUrl": "/merchant-logos/army-market-35f1af3d2165.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gh86005xq8iydzgewhf3:811b52092732",
+      "merchantId": "cmta1gh86005xq8iydzgewhf3",
+      "localUrl": "/merchant-logos/artmie-811b52092732.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fhz7002gq8iyyert5tbx:e10b7d3a1177",
+      "merchantId": "cmta1fhz7002gq8iyyert5tbx",
+      "localUrl": "/merchant-logos/astrongameclub-e10b7d3a1177.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kfgg00l1q8iywstqh400:76eee8a97043",
+      "merchantId": "cmta1kfgg00l1q8iywstqh400",
+      "localUrl": "/merchant-logos/athanasiakaritsa-76eee8a97043.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mhql00t7q8iyw7yqed2v:3b89e74e3df0",
+      "merchantId": "cmta1mhql00t7q8iyw7yqed2v",
+      "localUrl": "/merchant-logos/athenscentre-3b89e74e3df0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hfri008tq8iyyvmypizt:9737382fa29b",
+      "merchantId": "cmta1hfri008tq8iyyvmypizt",
+      "localUrl": "/merchant-logos/athensmassagecenter-9737382fa29b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nlqy000854iyl8rafyef:3e2aa8fe10c4",
+      "merchantId": "cmta5nlqy000854iyl8rafyef",
+      "localUrl": "/merchant-logos/audio-control-3e2aa8fe10c4.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lqc400q9q8iy6jsg8irh:a7ba2f029bbb",
+      "merchantId": "cmta1lqc400q9q8iy6jsg8irh",
+      "localUrl": "/merchant-logos/aurorajewellery-a7ba2f029bbb.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lkoo00pnq8iy3a0nyj35:3a344cee3b66",
+      "merchantId": "cmta1lkoo00pnq8iy3a0nyj35",
+      "localUrl": "/merchant-logos/avgerinospharmacy-3a344cee3b66.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lqvr00qbq8iyymgbd4rj:0433808164ce",
+      "merchantId": "cmta1lqvr00qbq8iyymgbd4rj",
+      "localUrl": "/merchant-logos/babybluecollections-0433808164ce.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mj0k00tbq8iyprndlmpp:188c0803c91f",
+      "merchantId": "cmta1mj0k00tbq8iyprndlmpp",
+      "localUrl": "/merchant-logos/babyllama-188c0803c91f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77rzv004edkiyu06p2n1l:132e460fcb70",
+      "merchantId": "cmtb77rzv004edkiyu06p2n1l",
+      "localUrl": "/merchant-logos/badila-132e460fcb70.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62fbu000294iyhass0r8j:da5d3bf6a131",
+      "merchantId": "cmtb62fbu000294iyhass0r8j",
+      "localUrl": "/merchant-logos/bags-and-hats-your-trusted-choice-since-1965-da5d3bf6a131.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mkyo00thq8iycmckbrk1:0f9be8c07a4c",
+      "merchantId": "cmta1mkyo00thq8iycmckbrk1",
+      "localUrl": "/merchant-logos/bambinokids-0f9be8c07a4c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kh2c00l7q8iyvz3v307p:e794c0bcbcfc",
+      "merchantId": "cmta1kh2c00l7q8iyvz3v307p",
+      "localUrl": "/merchant-logos/baseandtop-e794c0bcbcfc.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hhhz008zq8iynnf2cwxw:a00b10cbe0e8",
+      "merchantId": "cmta1hhhz008zq8iynnf2cwxw",
+      "localUrl": "/merchant-logos/batterypark-a00b10cbe0e8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hjcj0093q8iybfcm521f:564252071acd",
+      "merchantId": "cmta1hjcj0093q8iybfcm521f",
+      "localUrl": "/merchant-logos/beauty-case-564252071acd.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lexf00p1q8iy3e7gxd0a:bbd3153e7f17",
+      "merchantId": "cmta1lexf00p1q8iy3e7gxd0a",
+      "localUrl": "/merchant-logos/beauty-plus-bbd3153e7f17.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uham000i3giyoogf3rqc:42e4a806b6ba",
+      "merchantId": "cmtb6uham000i3giyoogf3rqc",
+      "localUrl": "/merchant-logos/beauty-queens-42e4a806b6ba.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1giib0061q8iyxtue1dwt:5b58b9d7fd25",
+      "merchantId": "cmta1giib0061q8iyxtue1dwt",
+      "localUrl": "/merchant-logos/beautyandnails-5b58b9d7fd25.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hl4z009bq8iydvy08yy9:4ba27f3e04bf",
+      "merchantId": "cmta1hl4z009bq8iydvy08yy9",
+      "localUrl": "/merchant-logos/beautyprincess-4ba27f3e04bf.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62fq1000494iyp0o9gh07:d8bfb053e572",
+      "merchantId": "cmtb62fq1000494iyp0o9gh07",
+      "localUrl": "/merchant-logos/beautyworldbydg-d8bfb053e572.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1khjf00l9q8iydipxdut2:affa4ff250db",
+      "merchantId": "cmta1khjf00l9q8iydipxdut2",
+      "localUrl": "/merchant-logos/bebestars-affa4ff250db.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb777dj001gdkiyvmgfij22:6288fa376d38",
+      "merchantId": "cmtb777dj001gdkiyvmgfij22",
+      "localUrl": "/merchant-logos/best-mom-6288fa376d38.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mlxn00tlq8iypoqqu9ps:9882aaa9db34",
+      "merchantId": "cmta1mlxn00tlq8iypoqqu9ps",
+      "localUrl": "/merchant-logos/bestmassage-9882aaa9db34.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fv1k003sq8iyuznwlgqd:5ecdbdab2c01",
+      "merchantId": "cmta1fv1k003sq8iyuznwlgqd",
+      "localUrl": "/merchant-logos/big-shoes-5ecdbdab2c01.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hmaz009hq8iygewwbojf:b89c58278236",
+      "merchantId": "cmta1hmaz009hq8iygewwbojf",
+      "localUrl": "/merchant-logos/bilanis-b89c58278236.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lria00qdq8iyziga5anz:5ecf41b34ca7",
+      "merchantId": "cmta1lria00qdq8iyziga5anz",
+      "localUrl": "/merchant-logos/bimboshoes-5ecf41b34ca7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ui1t000m3giy66028e8c:904de18195e1",
+      "merchantId": "cmtb6ui1t000m3giy66028e8c",
+      "localUrl": "/merchant-logos/black-lotus-massage-30-904de18195e1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ki1j00lbq8iyw8k62c1u:bfdace5a7c57",
+      "merchantId": "cmta1ki1j00lbq8iyw8k62c1u",
+      "localUrl": "/merchant-logos/blackroll-bfdace5a7c57.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hmpj009jq8iys0ffo9g0:2c8f6f2f6c1f",
+      "merchantId": "cmta1hmpj009jq8iys0ffo9g0",
+      "localUrl": "/merchant-logos/blinefashion-2c8f6f2f6c1f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nmhv000c54iytgwa5bzg:65d749637ff5",
+      "merchantId": "cmta5nmhv000c54iytgwa5bzg",
+      "localUrl": "/merchant-logos/bliss-nail-bar-65d749637ff5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yaq5000gsciya4mr3gow:bbb3301dd265",
+      "merchantId": "cmta4yaq5000gsciya4mr3gow",
+      "localUrl": "/merchant-logos/bloomingbaby-bbb3301dd265.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uirb000q3giyu8dm1mgz:c0374380311b",
+      "merchantId": "cmtb6uirb000q3giyu8dm1mgz",
+      "localUrl": "/merchant-logos/bodywise-studio-c0374380311b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mmg200tnq8iyn10r9dun:ed52564982b3",
+      "merchantId": "cmta1mmg200tnq8iyn10r9dun",
+      "localUrl": "/merchant-logos/botano-ed52564982b3.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb76zl3000cdkiye2egjbuc:d2efcf664cf2",
+      "merchantId": "cmtb76zl3000cdkiye2egjbuc",
+      "localUrl": "/merchant-logos/brigitteboutique-d2efcf664cf2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r1ne0002u8iym2y3cp16:a262bc5e7861",
+      "merchantId": "cmtb7r1ne0002u8iym2y3cp16",
+      "localUrl": "/merchant-logos/business-travel-a262bc5e7861.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hob9009pq8iyyk64soz7:eab31b116163",
+      "merchantId": "cmta1hob9009pq8iyyk64soz7",
+      "localUrl": "/merchant-logos/buzzsneakers-eab31b116163.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ujie000u3giytq3qzgbv:034847af97df",
+      "merchantId": "cmtb6ujie000u3giytq3qzgbv",
+      "localUrl": "/merchant-logos/cafe-manteio-034847af97df.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ujvy000w3giyyvs94lne:643fd9219217",
+      "merchantId": "cmtb6ujvy000w3giyyvs94lne",
+      "localUrl": "/merchant-logos/calza-643fd9219217.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k66y00jzq8iy7hqkxbg7:a81f472a439c",
+      "merchantId": "cmta1k66y00jzq8iy7hqkxbg7",
+      "localUrl": "/merchant-logos/calzomania-a81f472a439c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62g3y000694iyteu8ef6c:0e74e3b15c82",
+      "merchantId": "cmtb62g3y000694iyteu8ef6c",
+      "localUrl": "/merchant-logos/camperisimo-0e74e3b15c82.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mmwz00tpq8iybl7z5ffl:a4d2ac99c95b",
+      "merchantId": "cmta1mmwz00tpq8iybl7z5ffl",
+      "localUrl": "/merchant-logos/candles-essences-a4d2ac99c95b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nmv2000e54iyxiblv2dp:b9a56f9eb3e2",
+      "merchantId": "cmta5nmv2000e54iyxiblv2dp",
+      "localUrl": "/merchant-logos/caramella-kids-b9a56f9eb3e2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb76zyk000edkiyoal0zyeg:6ef34dad2943",
+      "merchantId": "cmtb76zyk000edkiyoal0zyeg",
+      "localUrl": "/merchant-logos/merchant-6ef34dad2943.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gcbh0059q8iye9c4jkss:bc3d6ed81775",
+      "merchantId": "cmta1gcbh0059q8iye9c4jkss",
+      "localUrl": "/merchant-logos/cardlink-bc3d6ed81775.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77zu6005kdkiygwtlbq6b:b7b360e82b7d",
+      "merchantId": "cmtb77zu6005kdkiygwtlbq6b",
+      "localUrl": "/merchant-logos/150-gift-card-b7b360e82b7d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yc8u000msciy5cddlg38:b8aaaa25955b",
+      "merchantId": "cmta4yc8u000msciy5cddlg38",
+      "localUrl": "/merchant-logos/casagiacomo-b8aaaa25955b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kjxb00ljq8iyqyzzmihw:dee868ae9037",
+      "merchantId": "cmta1kjxb00ljq8iyqyzzmihw",
+      "localUrl": "/merchant-logos/celesteshop-dee868ae9037.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8hel9g0000a8iyg8p0ioj7:d35c778abd8a",
+      "merchantId": "cmt8hel9g0000a8iyg8p0ioj7",
+      "localUrl": "/merchant-logos/celestino-d35c778abd8a.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fx17003yq8iy16pg3s8q:72247fc506cc",
+      "merchantId": "cmta1fx17003yq8iy16pg3s8q",
+      "localUrl": "/merchant-logos/central-72247fc506cc.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mpho00tzq8iy5nyfhbgr:fcc8a9dadc6b",
+      "merchantId": "cmta1mpho00tzq8iy5nyfhbgr",
+      "localUrl": "/merchant-logos/centroboutique-fcc8a9dadc6b.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hs9s00a5q8iy7uqk99as:1ac6a79675f8",
+      "merchantId": "cmta1hs9s00a5q8iy7uqk99as",
+      "localUrl": "/merchant-logos/champselysees-1ac6a79675f8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77ti7004mdkiyn5wn9fgi:df084a69d617",
+      "merchantId": "cmtb77ti7004mdkiyn5wn9fgi",
+      "localUrl": "/merchant-logos/chania-culture-df084a69d617.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hxbi000a04iy9g6mxmjr:e5c43832fea4",
+      "merchantId": "cmtb7hxbi000a04iy9g6mxmjr",
+      "localUrl": "/merchant-logos/christakis-gift-card-e5c43832fea4.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ycq8000osciyt3h5ho7t:09f05d081f9e",
+      "merchantId": "cmta4ycq8000osciyt3h5ho7t",
+      "localUrl": "/merchant-logos/christhellas-09f05d081f9e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yd72000qsciyvlf00o70:738a06742d92",
+      "merchantId": "cmta4yd72000qsciyvlf00o70",
+      "localUrl": "/merchant-logos/christines-738a06742d92.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77a4l001udkiyprjgdlft:4a125dcca7fa",
+      "merchantId": "cmtb77a4l001udkiyprjgdlft",
+      "localUrl": "/merchant-logos/christmas-gift-cards-4a125dcca7fa.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mqjb00u3q8iy15g3dgpr:0fcfd49b6e57",
+      "merchantId": "cmta1mqjb00u3q8iy15g3dgpr",
+      "localUrl": "/merchant-logos/cilek-0fcfd49b6e57.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r2bd0005u8iywh3sbow7:cdb434851859",
+      "merchantId": "cmtb7r2bd0005u8iywh3sbow7",
+      "localUrl": "/merchant-logos/cla-chic-cdb434851859.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hspc00a7q8iy7binx4sm:49d474a6037a",
+      "merchantId": "cmta1hspc00a7q8iy7binx4sm",
+      "localUrl": "/merchant-logos/climber-49d474a6037a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6ukm900103giywd8g6bej:352a700234c0",
+      "merchantId": "cmtb6ukm900103giywd8g6bej",
+      "localUrl": "/merchant-logos/coffeelovers-giftcard-352a700234c0.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k6li00k1q8iye58d7exe:68449c20f8b8",
+      "merchantId": "cmta1k6li00k1q8iye58d7exe",
+      "localUrl": "/merchant-logos/completetravel-68449c20f8b8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1htl000abq8iygmi4oz07:efa0c232eaea",
+      "merchantId": "cmta1htl000abq8iygmi4oz07",
+      "localUrl": "/merchant-logos/constancejewelry-efa0c232eaea.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hu1o00adq8iyc6sb8wrw:1a6304974a40",
+      "merchantId": "cmta1hu1o00adq8iyc6sb8wrw",
+      "localUrl": "/merchant-logos/coolclub-1a6304974a40.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77130000kdkiy8nzwbibh:c334a300f7a9",
+      "merchantId": "cmtb77130000kdkiy8nzwbibh",
+      "localUrl": "/merchant-logos/cordella-c334a300f7a9.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79idzw000b84iysotz7chu:d07aaa4896d3",
+      "merchantId": "cmt79idzw000b84iysotz7chu",
+      "localUrl": "/merchant-logos/cosmos-sport-d07aaa4896d3.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78070005mdkiya67zhiie:d2c3fd4d19b3",
+      "merchantId": "cmtb78070005mdkiya67zhiie",
+      "localUrl": "/merchant-logos/cougarsport-d2c3fd4d19b3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hvr0000204iyhe7dh96g:f3c7e5334287",
+      "merchantId": "cmtb7hvr0000204iyhe7dh96g",
+      "localUrl": "/merchant-logos/coya-mykonos-f3c7e5334287.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hujj00afq8iynv9d4757:05d38ab6695e",
+      "merchantId": "cmta1hujj00afq8iynv9d4757",
+      "localUrl": "/merchant-logos/cre-t-e-05d38ab6695e.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hxpx000c04iyru670dbp:453396903268",
+      "merchantId": "cmtb7hxpx000c04iyru670dbp",
+      "localUrl": "/merchant-logos/cretegolfclub-453396903268.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hy3h000e04iyq74d13gb:55912fa615f0",
+      "merchantId": "cmtb7hy3h000e04iyq74d13gb",
+      "localUrl": "/merchant-logos/cretelocaladventures-55912fa615f0.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77v1h004udkiyfr8vdjju:81322af3916c",
+      "merchantId": "cmtb77v1h004udkiyfr8vdjju",
+      "localUrl": "/merchant-logos/merchant-81322af3916c.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1msog00ubq8iyqvskydgq:e4bf01f8727b",
+      "merchantId": "cmta1msog00ubq8iyqvskydgq",
+      "localUrl": "/merchant-logos/cyclestore-e4bf01f8727b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mt5x00udq8iybswom167:fa4374485fe1",
+      "merchantId": "cmta1mt5x00udq8iybswom167",
+      "localUrl": "/merchant-logos/dahaproject-fa4374485fe1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mtmv00ufq8iy7t79x1wg:46049f8bb635",
+      "merchantId": "cmta1mtmv00ufq8iy7t79x1wg",
+      "localUrl": "/merchant-logos/dalis-46049f8bb635.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77ve9004wdkiypekpezvh:de8b55966aa6",
+      "merchantId": "cmtb77ve9004wdkiypekpezvh",
+      "localUrl": "/merchant-logos/dalisleather-de8b55966aa6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yell000wsciyt9aap5h1:af83f7a115ad",
+      "merchantId": "cmta4yell000wsciyt9aap5h1",
+      "localUrl": "/merchant-logos/dariayoga-af83f7a115ad.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hv0400ahq8iy7wxjbo01:6a35cab7f75d",
+      "merchantId": "cmta1hv0400ahq8iy7wxjbo01",
+      "localUrl": "/merchant-logos/dbsounds-6a35cab7f75d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hvy400ajq8iyj0su91kc:fd6975de4228",
+      "merchantId": "cmta1hvy400ajq8iyj0su91kc",
+      "localUrl": "/merchant-logos/decolight-fd6975de4228.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hwex00alq8iywhyvtt9i:5aae53a40ed0",
+      "merchantId": "cmta1hwex00alq8iywhyvtt9i",
+      "localUrl": "/merchant-logos/decoro-5aae53a40ed0.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77293000qdkiyuxwy6vfj:82f5635dc32c",
+      "merchantId": "cmtb77293000qdkiyuxwy6vfj",
+      "localUrl": "/merchant-logos/s-2-82f5635dc32c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1klv100lrq8iyi3h52q5r:fa70fa96905e",
+      "merchantId": "cmta1klv100lrq8iyi3h52q5r",
+      "localUrl": "/merchant-logos/despykboutique-fa70fa96905e.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62gj0000894iylks0huai:4ef998df0c2b",
+      "merchantId": "cmtb62gj0000894iylks0huai",
+      "localUrl": "/merchant-logos/deximi-4ef998df0c2b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mu4d00uhq8iy0g55jfmf:8871f764f005",
+      "merchantId": "cmta1mu4d00uhq8iy0g55jfmf",
+      "localUrl": "/merchant-logos/diastours-8871f764f005.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r2qe0007u8iyt435y3x9:ef0ea0b6a85d",
+      "merchantId": "cmtb7r2qe0007u8iyt435y3x9",
+      "localUrl": "/merchant-logos/digas-ef0ea0b6a85d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f9vp001qq8iy90mef58l:3d9ade07deab",
+      "merchantId": "cmta1f9vp001qq8iy90mef58l",
+      "localUrl": "/merchant-logos/digishark-3d9ade07deab.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gk420065q8iyatni9z8z:0ed81612826f",
+      "merchantId": "cmta1gk420065q8iyatni9z8z",
+      "localUrl": "/merchant-logos/dimasis-0ed81612826f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nn8a000g54iygk2ekzkz:01577315f6e6",
+      "merchantId": "cmta5nn8a000g54iygk2ekzkz",
+      "localUrl": "/merchant-logos/divingstore-01577315f6e6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mv8000ulq8iyv0ncydhd:8d685efcc681",
+      "merchantId": "cmta1mv8000ulq8iyv0ncydhd",
+      "localUrl": "/merchant-logos/djmania-8d685efcc681.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hxau00apq8iyjo8n4u1o:986037cb750f",
+      "merchantId": "cmta1hxau00apq8iyjo8n4u1o",
+      "localUrl": "/merchant-logos/dmcreations-986037cb750f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8hp8ic0000pgiyqhluxgaw:4991d4b36391",
+      "merchantId": "cmt8hp8ic0000pgiyqhluxgaw",
+      "localUrl": "/merchant-logos/dpam-4991d4b36391.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78d4i007bdkiy1pa6hz2i:ae6e74d10ecf",
+      "merchantId": "cmtb78d4i007bdkiy1pa6hz2i",
+      "localUrl": "/merchant-logos/drive-at-serres-racing-circuit-ae6e74d10ecf.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hyq000avq8iy2l3xmdyg:f893d0c65f08",
+      "merchantId": "cmta1hyq000avq8iy2l3xmdyg",
+      "localUrl": "/merchant-logos/driverstation-f893d0c65f08.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m63d00rzq8iyrm7v5cfk:60443ba5c5a9",
+      "merchantId": "cmta1m63d00rzq8iyrm7v5cfk",
+      "localUrl": "/merchant-logos/dromeasbikes-60443ba5c5a9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1glbo0067q8iy40v705kk:f651f899b7cc",
+      "merchantId": "cmta1glbo0067q8iy40v705kk",
+      "localUrl": "/merchant-logos/drumstore-f651f899b7cc.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mvr800unq8iy2ywxi6z8:07c4d1b5101c",
+      "merchantId": "cmta1mvr800unq8iy2ywxi6z8",
+      "localUrl": "/merchant-logos/dukas-07c4d1b5101c.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ga44004zq8iygkybw7d0:e4e747918935",
+      "merchantId": "cmta1ga44004zq8iygkybw7d0",
+      "localUrl": "/merchant-logos/dwrokartes-e4e747918935.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1hz6n00axq8iy08vjknrc:8affcc28e022",
+      "merchantId": "cmta1hz6n00axq8iy08vjknrc",
+      "localUrl": "/merchant-logos/e-gatos-8affcc28e022.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i2rt00b1q8iy1f6azwdh:c1b47bc2802e",
+      "merchantId": "cmta1i2rt00b1q8iy1f6azwdh",
+      "localUrl": "/merchant-logos/e-c1b47bc2802e.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m6np00s1q8iyh8u312hb:7b2dd87bffd0",
+      "merchantId": "cmta1m6np00s1q8iyh8u312hb",
+      "localUrl": "/merchant-logos/e-snacks-7b2dd87bffd0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m7ap00s3q8iyofu6o4ra:7cd19e3aae28",
+      "merchantId": "cmta1m7ap00s3q8iyofu6o4ra",
+      "localUrl": "/merchant-logos/e-socks-7cd19e3aae28.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fhjh002eq8iyzrz7nhl2:2a539521252b",
+      "merchantId": "cmta1fhjh002eq8iyzrz7nhl2",
+      "localUrl": "/merchant-logos/e-mamouth-2a539521252b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fmo8002wq8iyf0m8cyl2:0d095be7b5c3",
+      "merchantId": "cmta1fmo8002wq8iyf0m8cyl2",
+      "localUrl": "/merchant-logos/e-stathatos-0d095be7b5c3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79iejk000h84iy7juh3r7b:d24e2c2d4894",
+      "merchantId": "cmt79iejk000h84iy7juh3r7b",
+      "localUrl": "/merchant-logos/e-tennis-d24e2c2d4894.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mw7400upq8iy5j5fd7e6:1fd1809f5816",
+      "merchantId": "cmta1mw7400upq8iy5j5fd7e6",
+      "localUrl": "/merchant-logos/ebru-1fd1809f5816.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i3qb00b3q8iy5go5mq9p:b5313a1ac7b3",
+      "merchantId": "cmta1i3qb00b3q8iy5go5mq9p",
+      "localUrl": "/merchant-logos/ecrystal-b5313a1ac7b3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1glqy0069q8iyo9pgurro:bf51c5a33723",
+      "merchantId": "cmta1glqy0069q8iyo9pgurro",
+      "localUrl": "/merchant-logos/efarmakeio-bf51c5a33723.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f8yj001mq8iyg2t30wq4:121ce433e8a3",
+      "merchantId": "cmta1f8yj001mq8iyg2t30wq4",
+      "localUrl": "/merchant-logos/ehunter-121ce433e8a3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1knb800lxq8iymaq8jdwi:4702d7fd11dc",
+      "merchantId": "cmta1knb800lxq8iymaq8jdwi",
+      "localUrl": "/merchant-logos/elenabeautyhall-4702d7fd11dc.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i5j700bbq8iyt7xh8b6z:364fa4c71dd8",
+      "merchantId": "cmta1i5j700bbq8iyt7xh8b6z",
+      "localUrl": "/merchant-logos/enzzo-364fa4c71dd8.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lt7900qjq8iyqrn53at3:819cac795a90",
+      "merchantId": "cmta1lt7900qjq8iyqrn53at3",
+      "localUrl": "/merchant-logos/epidermislaser-819cac795a90.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f5tr0018q8iyo2evq1r0:5b5c2e6ce036",
+      "merchantId": "cmta1f5tr0018q8iyo2evq1r0",
+      "localUrl": "/merchant-logos/epiploset-5b5c2e6ce036.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i5yk00bdq8iyusi2mp60:0bf8cebece7a",
+      "merchantId": "cmta1i5yk00bdq8iyusi2mp60",
+      "localUrl": "/merchant-logos/erero-0bf8cebece7a.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fsn8003iq8iy44ffyjo1:11651c5bf07d",
+      "merchantId": "cmta1fsn8003iq8iy44ffyjo1",
+      "localUrl": "/merchant-logos/ergaleiogatos-11651c5bf07d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i2wq001304iydhifcqy7:0a28fe22590e",
+      "merchantId": "cmtb7i2wq001304iydhifcqy7",
+      "localUrl": "/merchant-logos/eureka-athens-gift-card-0a28fe22590e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g94r004xq8iy50akgakb:71e259e7a0a9",
+      "merchantId": "cmta1g94r004xq8iy50akgakb",
+      "localUrl": "/merchant-logos/evripidis-71e259e7a0a9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uoby001j3giybkb09ezk:1c21acc2f0a3",
+      "merchantId": "cmtb6uoby001j3giybkb09ezk",
+      "localUrl": "/merchant-logos/f-o-r-t-y-boutique-gift-card-the-perfect-gift-for-every-occasion-1c21acc2f0a3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yg5j0012sciy8l4wnt3k:8dca4191b57f",
+      "merchantId": "cmta4yg5j0012sciy8l4wnt3k",
+      "localUrl": "/merchant-logos/face-it-8dca4191b57f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yh320016sciyuh3ghceq:935b62e19292",
+      "merchantId": "cmta4yh320016sciyuh3ghceq",
+      "localUrl": "/merchant-logos/familychef-935b62e19292.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n0uw00v7q8iydyupt686:65cf98fb1fc8",
+      "merchantId": "cmta1n0uw00v7q8iydyupt686",
+      "localUrl": "/merchant-logos/fancynails-65cf98fb1fc8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1i8g400bnq8iyw7ifw6pq:646c49765620",
+      "merchantId": "cmta1i8g400bnq8iyw7ifw6pq",
+      "localUrl": "/merchant-logos/fantasea-646c49765620.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1frr8003eq8iy26h3rb97:4dc37a762c72",
+      "merchantId": "cmta1frr8003eq8iy26h3rb97",
+      "localUrl": "/merchant-logos/farmakeio4all-4dc37a762c72.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n1a500v9q8iywfyos40v:e7689c9f9f83",
+      "merchantId": "cmta1n1a500v9q8iywfyos40v",
+      "localUrl": "/merchant-logos/feelcar-e7689c9f9f83.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb775du0016dkiyxtcevpwz:7ebd6e6cab4c",
+      "merchantId": "cmtb775du0016dkiyxtcevpwz",
+      "localUrl": "/merchant-logos/femmefatale-7ebd6e6cab4c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ll6l00ppq8iy7exq1mp1:dc96f7fdc56a",
+      "merchantId": "cmta1ll6l00ppq8iy7exq1mp1",
+      "localUrl": "/merchant-logos/floky-dc96f7fdc56a.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v5ih00433giy4gygilpd:011852a85b76",
+      "merchantId": "cmtb6v5ih00433giy4gygilpd",
+      "localUrl": "/merchant-logos/for-car-lovers-swissvax-011852a85b76.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62jkr000o94iy4h069iqm:8605b2551bb7",
+      "merchantId": "cmtb62jkr000o94iy4h069iqm",
+      "localUrl": "/merchant-logos/ggio-8605b2551bb7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ib1o00bzq8iy70mwad9c:5348228c88c1",
+      "merchantId": "cmta1ib1o00bzq8iy70mwad9c",
+      "localUrl": "/merchant-logos/giannopoulos-5348228c88c1.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uq9b001t3giygowy28vc:46e5e5e20f25",
+      "merchantId": "cmtb6uq9b001t3giygowy28vc",
+      "localUrl": "/merchant-logos/globi-digital-gift-card-46e5e5e20f25.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n2q600vfq8iycow7sshg:49c0f25a2f8a",
+      "merchantId": "cmta1n2q600vfq8iycow7sshg",
+      "localUrl": "/merchant-logos/gmca-49c0f25a2f8a.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62jyb000q94iyhzw1kap7:0f0f6d4e44c2",
+      "merchantId": "cmtb62jyb000q94iyhzw1kap7",
+      "localUrl": "/merchant-logos/gofishome-0f0f6d4e44c2.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n37l00vhq8iye0dgcnwr:ffa2dcaf07b0",
+      "merchantId": "cmta1n37l00vhq8iye0dgcnwr",
+      "localUrl": "/merchant-logos/goldandwhite-ffa2dcaf07b0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yihm001csciy1b1xu5mp:f663d0ae4663",
+      "merchantId": "cmta4yihm001csciy1b1xu5mp",
+      "localUrl": "/merchant-logos/goldenbeauty-f663d0ae4663.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gmoy006dq8iyhuy4llr8:a173e9ebd73f",
+      "merchantId": "cmta1gmoy006dq8iyhuy4llr8",
+      "localUrl": "/merchant-logos/goldmall-a173e9ebd73f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kopj00m3q8iy0u5dy5tg:082e1a3a17f3",
+      "merchantId": "cmta1kopj00m3q8iy0u5dy5tg",
+      "localUrl": "/merchant-logos/gouves-082e1a3a17f3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8nqyha00050oiyo37488v6:e2876d9528af",
+      "merchantId": "cmt8nqyha00050oiyo37488v6",
+      "localUrl": "/merchant-logos/grecotel-e2876d9528af.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yixe001esciye3v0ltjr:8e89c1009d39",
+      "merchantId": "cmta4yixe001esciye3v0ltjr",
+      "localUrl": "/merchant-logos/green-leaf-8e89c1009d39.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1led100ozq8iyg71o1c43:89c3eaa4aa55",
+      "merchantId": "cmta1led100ozq8iyg71o1c43",
+      "localUrl": "/merchant-logos/greenmall-89c3eaa4aa55.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f8hk001kq8iytp3tt3d9:119db1fbf294",
+      "merchantId": "cmta1f8hk001kq8iytp3tt3d9",
+      "localUrl": "/merchant-logos/greenpeace-119db1fbf294.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fk27002oq8iyhbxv0ee5:079bf2308ecc",
+      "merchantId": "cmta1fk27002oq8iyhbxv0ee5",
+      "localUrl": "/merchant-logos/grill-me-079bf2308ecc.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uqn2001v3giydltjbhyt:8d3834fa984c",
+      "merchantId": "cmtb6uqn2001v3giydltjbhyt",
+      "localUrl": "/merchant-logos/groombox-8d3834fa984c.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ibyg00c3q8iy7eqka0ch:e2f6d99e4996",
+      "merchantId": "cmta1ibyg00c3q8iy7eqka0ch",
+      "localUrl": "/merchant-logos/gymbeam-e2f6d99e4996.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gnmy006fq8iy4mho73h2:baddab65fe1c",
+      "merchantId": "cmta1gnmy006fq8iy4mho73h2",
+      "localUrl": "/merchant-logos/hammam-baddab65fe1c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gd4f005dq8iyu9jftu4f:b85d1599a2de",
+      "merchantId": "cmta1gd4f005dq8iyu9jftu4f",
+      "localUrl": "/merchant-logos/haritidis-b85d1599a2de.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1id9100c9q8iypixzj7p1:17318efee524",
+      "merchantId": "cmta1id9100c9q8iypixzj7p1",
+      "localUrl": "/merchant-logos/harmony-spa-17318efee524.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7785l001kdkiysx9add6j:272cc56a39bf",
+      "merchantId": "cmtb7785l001kdkiysx9add6j",
+      "localUrl": "/merchant-logos/headplus-272cc56a39bf.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ielo00cfq8iyidylcjh7:79dc85b615b6",
+      "merchantId": "cmta1ielo00cfq8iyidylcjh7",
+      "localUrl": "/merchant-logos/healthypetspharmacy-79dc85b615b6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb783ix0062dkiyciacadlv:b0adb6d0a3b4",
+      "merchantId": "cmtb783ix0062dkiyciacadlv",
+      "localUrl": "/merchant-logos/messy-play-gift-card-b0adb6d0a3b4.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1if3i00chq8iy4r1xwv4g:e8fc5ef7b3d3",
+      "merchantId": "cmta1if3i00chq8iy4r1xwv4g",
+      "localUrl": "/merchant-logos/hellenicorchids-e8fc5ef7b3d3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6urqs00213giyqy3j7eq2:1be483bcb98e",
+      "merchantId": "cmtb6urqs00213giyqy3j7eq2",
+      "localUrl": "/merchant-logos/heraklion-improv-theater-1be483bcb98e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hzyg000o04iy31m1lgd4:aacd173a9e43",
+      "merchantId": "cmtb7hzyg000o04iy31m1lgd4",
+      "localUrl": "/merchant-logos/herminaathens-aacd173a9e43.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kpmu00m7q8iyin0vedr6:cec913edfcdf",
+      "merchantId": "cmta1kpmu00m7q8iyin0vedr6",
+      "localUrl": "/merchant-logos/hlcpro-cec913edfcdf.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62kbd000s94iy55au674v:68186bdb26c2",
+      "merchantId": "cmtb62kbd000s94iy55au674v",
+      "localUrl": "/merchant-logos/hobby-68186bdb26c2.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb778jw001mdkiytifpu57h:e536bc22a93a",
+      "merchantId": "cmtb778jw001mdkiytifpu57h",
+      "localUrl": "/merchant-logos/home-made-e536bc22a93a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lm4h00ptq8iyuiufei2z:a7d94c8d531d",
+      "merchantId": "cmta1lm4h00ptq8iyuiufei2z",
+      "localUrl": "/merchant-logos/honeykids-a7d94c8d531d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ighj00cnq8iyulsu7slc:747dce944e8b",
+      "merchantId": "cmta1ighj00cnq8iyulsu7slc",
+      "localUrl": "/merchant-logos/hotelshops-747dce944e8b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77wvc0054dkiymkiztz6e:c5a5ab385ce6",
+      "merchantId": "cmtb77wvc0054dkiymkiztz6e",
+      "localUrl": "/merchant-logos/hshome-c5a5ab385ce6.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n6jy00vvq8iymcveel8b:a911d179278f",
+      "merchantId": "cmta1n6jy00vvq8iymcveel8b",
+      "localUrl": "/merchant-logos/hugshop-a911d179278f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6us5500233giynzltgk33:679cbbab70b2",
+      "merchantId": "cmtb6us5500233giynzltgk33",
+      "localUrl": "/merchant-logos/hypnote-jewelry-679cbbab70b2.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78g7m007rdkiydh03gkcd:aaf8d5c4df3f",
+      "merchantId": "cmtb78g7m007rdkiydh03gkcd",
+      "localUrl": "/merchant-logos/i-thought-of-you-aaf8d5c4df3f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8hpbl40005pgiygrv6zswp:f77322e49dd0",
+      "merchantId": "cmt8hpbl40005pgiygrv6zswp",
+      "localUrl": "/merchant-logos/ianos-f77322e49dd0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ykr0001ksciypzktgyzf:f74c1540e6f5",
+      "merchantId": "cmta4ykr0001ksciypzktgyzf",
+      "localUrl": "/merchant-logos/iaso-f74c1540e6f5.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kr4100mdq8iy9m3twce3:42c6f232baf5",
+      "merchantId": "cmta1kr4100mdq8iy9m3twce3",
+      "localUrl": "/merchant-logos/idil-42c6f232baf5.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1krlc00mfq8iy2aqskjrf:ac52ceea7533",
+      "merchantId": "cmta1krlc00mfq8iy2aqskjrf",
+      "localUrl": "/merchant-logos/imaginationtravel-ac52ceea7533.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m9cz00sbq8iy5lk3cwak:23e8f2169c18",
+      "merchantId": "cmta1m9cz00sbq8iy5lk3cwak",
+      "localUrl": "/merchant-logos/inandela-23e8f2169c18.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb783wx0064dkiyailydu7h:ea09391d3214",
+      "merchantId": "cmtb783wx0064dkiyailydu7h",
+      "localUrl": "/merchant-logos/insidehome-ea09391d3214.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iimz00cvq8iyxyke34hz:f68980681825",
+      "merchantId": "cmta1iimz00cvq8iyxyke34hz",
+      "localUrl": "/merchant-logos/inspirenails-f68980681825.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n71400vxq8iynjup9qnd:4ef85a859130",
+      "merchantId": "cmta1n71400vxq8iynjup9qnd",
+      "localUrl": "/merchant-logos/invoidspa-4ef85a859130.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb779c5001qdkiy6oykrbp5:8db42b2fd504",
+      "merchantId": "cmtb779c5001qdkiy6oykrbp5",
+      "localUrl": "/merchant-logos/ioannou-cosmetics-8db42b2fd504.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fivj002kq8iypy583huf:5df0a36f5b1c",
+      "merchantId": "cmta1fivj002kq8iypy583huf",
+      "localUrl": "/merchant-logos/ipatios-5df0a36f5b1c.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k8qh00k9q8iyaho07xw2:75d7228da884",
+      "merchantId": "cmta1k8qh00k9q8iyaho07xw2",
+      "localUrl": "/merchant-logos/iridaspa-75d7228da884.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yl9j001msciykp5a6baz:eeb0e19277f7",
+      "merchantId": "cmta4yl9j001msciykp5a6baz",
+      "localUrl": "/merchant-logos/irisproject-eeb0e19277f7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb784go0066dkiy5hfgmr1m:e91fbc886fc1",
+      "merchantId": "cmtb784go0066dkiy5hfgmr1m",
+      "localUrl": "/merchant-logos/s-5-e91fbc886fc1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f101000qq8iy6zg8n644:2dc3f149129f",
+      "merchantId": "cmta1f101000qq8iy6zg8n644",
+      "localUrl": "/merchant-logos/john-andy-2dc3f149129f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6usit00253giy8h8i0quo:ecb9b9812db0",
+      "merchantId": "cmtb6usit00253giy8h8i0quo",
+      "localUrl": "/merchant-logos/joykidsboutique-ecb9b9812db0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62lda000y94iy8kydp56s:57489ccf3d37",
+      "merchantId": "cmtb62lda000y94iy8kydp56s",
+      "localUrl": "/merchant-logos/jukebooks-57489ccf3d37.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n7io00vzq8iyfxit9wr6:7321aff77531",
+      "merchantId": "cmta1n7io00vzq8iyfxit9wr6",
+      "localUrl": "/merchant-logos/juniorkids-7321aff77531.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lmlh00pvq8iyaxebdeaf:936448d14c25",
+      "merchantId": "cmta1lmlh00pvq8iyaxebdeaf",
+      "localUrl": "/merchant-logos/justbrazilstore-936448d14c25.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8l5uyt000c5giyccj0b6md:9b89f1bb8daa",
+      "merchantId": "cmt8l5uyt000c5giyccj0b6md",
+      "localUrl": "/merchant-logos/jysk-greece-9b89f1bb8daa.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gp5q006lq8iyjgxm2ocf:d453b2857c66",
+      "merchantId": "cmta1gp5q006lq8iyjgxm2ocf",
+      "localUrl": "/merchant-logos/kaktos-d453b2857c66.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5npg5000s54iyijx1drw9:299566ca0392",
+      "merchantId": "cmta5npg5000s54iyijx1drw9",
+      "localUrl": "/merchant-logos/kalina-concept-299566ca0392.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nps0000u54iywzcctom5:b2d79db8a718",
+      "merchantId": "cmta5nps0000u54iywzcctom5",
+      "localUrl": "/merchant-logos/kantzos-b2d79db8a718.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n8ol00w3q8iydnya6cpm:fbe6c291cae9",
+      "merchantId": "cmta1n8ol00w3q8iydnya6cpm",
+      "localUrl": "/merchant-logos/kare24-fbe6c291cae9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ymm6001ssciye2mig0rl:7c324166932d",
+      "merchantId": "cmta4ymm6001ssciye2mig0rl",
+      "localUrl": "/merchant-logos/gift-voucher-katsudo-7c324166932d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iltx00d7q8iyerhiz1p8:fce097c300a3",
+      "merchantId": "cmta1iltx00d7q8iyerhiz1p8",
+      "localUrl": "/merchant-logos/kazi-fce097c300a3.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gq5h006pq8iykjpkbth5:bb1e465ed104",
+      "merchantId": "cmta1gq5h006pq8iykjpkbth5",
+      "localUrl": "/merchant-logos/keriland-bb1e465ed104.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nq4f000w54iy2r9hlw14:6e64d5ed6dc5",
+      "merchantId": "cmta5nq4f000w54iy2r9hlw14",
+      "localUrl": "/merchant-logos/keybooks-6e64d5ed6dc5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62lqs001094iy882h0srt:391587582a30",
+      "merchantId": "cmtb62lqs001094iy882h0srt",
+      "localUrl": "/merchant-logos/kids-garden-391587582a30.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yn3z001usciyrd2sxl9u:2bc724630200",
+      "merchantId": "cmta4yn3z001usciyrd2sxl9u",
+      "localUrl": "/merchant-logos/kidscom-2bc724630200.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1im9000d9q8iy1y89wy7k:ee35e56c4db2",
+      "merchantId": "cmta1im9000d9q8iy1y89wy7k",
+      "localUrl": "/merchant-logos/kidsfashion-ee35e56c4db2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ynjv001wsciy2ytkjc61:a82100369c7d",
+      "merchantId": "cmta4ynjv001wsciy2ytkjc61",
+      "localUrl": "/merchant-logos/kidsloveplanet-a82100369c7d.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gal70051q8iym1bvqj47:4819a7f2346f",
+      "merchantId": "cmta1gal70051q8iym1bvqj47",
+      "localUrl": "/merchant-logos/kikocosmetics-4819a7f2346f.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1in0q00ddq8iy9ou6k8vv:7b36d39e67cd",
+      "merchantId": "cmta1in0q00ddq8iy9ou6k8vv",
+      "localUrl": "/merchant-logos/kois-optics-7b36d39e67cd.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yoic0020sciydktjw4ee:b0a5a031f9c4",
+      "merchantId": "cmta4yoic0020sciydktjw4ee",
+      "localUrl": "/merchant-logos/kolbo-b0a5a031f9c4.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb785d0006adkiy9cuj1fo5:42d59bcc14c5",
+      "merchantId": "cmtb785d0006adkiy9cuj1fo5",
+      "localUrl": "/merchant-logos/konstantinidis-gift-card-1-42d59bcc14c5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yozb0022sciyzns4tscx:a354721541a1",
+      "merchantId": "cmta4yozb0022sciyzns4tscx",
+      "localUrl": "/merchant-logos/koroneos-a354721541a1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8movdd00055ciyebq5kzv5:6e4ce7653def",
+      "merchantId": "cmt8movdd00055ciyebq5kzv5",
+      "localUrl": "/merchant-logos/korres-6e4ce7653def.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g5ei004sq8iyj1nwtg24:64a32b23c751",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "localUrl": "/merchant-logos/kotsovolos-64a32b23c751.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ksot00mjq8iyvv8zc7up:2af28817e491",
+      "merchantId": "cmta1ksot00mjq8iyvv8zc7up",
+      "localUrl": "/merchant-logos/koukidabookstore-2af28817e491.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fl7h002qq8iyqkgcjboc:141e6abda87e",
+      "merchantId": "cmta1fl7h002qq8iyqkgcjboc",
+      "localUrl": "/merchant-logos/kounio-141e6abda87e.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uu1q002d3giyiqvglssh:620fd3ca5da9",
+      "merchantId": "cmtb6uu1q002d3giyiqvglssh",
+      "localUrl": "/merchant-logos/kouskoufashionproject-620fd3ca5da9.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n9sv00w7q8iypja3wgnv:2f41719aa17a",
+      "merchantId": "cmta1n9sv00w7q8iypja3wgnv",
+      "localUrl": "/merchant-logos/krikisbeauty-2f41719aa17a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nqh1000y54iyttktep8j:3fe706de2c2e",
+      "merchantId": "cmta5nqh1000y54iyttktep8j",
+      "localUrl": "/merchant-logos/krokodila-3fe706de2c2e.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78ea6007hdkiyxf19o1su:437f52aabc0e",
+      "merchantId": "cmtb78ea6007hdkiyxf19o1su",
+      "localUrl": "/merchant-logos/kymasurf-437f52aabc0e.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kt4w00mlq8iy3tq5c7f9:701f70ce8acc",
+      "merchantId": "cmta1kt4w00mlq8iy3tq5c7f9",
+      "localUrl": "/merchant-logos/laaloo-701f70ce8acc.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lvlc00qtq8iy7oxh3lbo:79c817fc65d5",
+      "merchantId": "cmta1lvlc00qtq8iy7oxh3lbo",
+      "localUrl": "/merchant-logos/ladolea-79c817fc65d5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1grl4006tq8iy8pmzmbvn:640fbaaeaeeb",
+      "merchantId": "cmta1grl4006tq8iy8pmzmbvn",
+      "localUrl": "/merchant-logos/laloo-640fbaaeaeeb.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uusr002h3giyhmaoqygo:cdcb0299d618",
+      "merchantId": "cmtb6uusr002h3giyhmaoqygo",
+      "localUrl": "/merchant-logos/lavalmore-cdcb0299d618.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nqv3001054iy0ijpm7zg:381692bde2d7",
+      "merchantId": "cmta5nqv3001054iy0ijpm7zg",
+      "localUrl": "/merchant-logos/lazoptics-381692bde2d7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iorq00dlq8iy37pygft9:ac6d39a91e5f",
+      "merchantId": "cmta1iorq00dlq8iy37pygft9",
+      "localUrl": "/merchant-logos/legacyapparel-ac6d39a91e5f.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ig8y000z84iye5bnelem:51aed9e74de4",
+      "merchantId": "cmt79ig8y000z84iye5bnelem",
+      "localUrl": "/merchant-logos/lentiamo-51aed9e74de4.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lw1x00qvq8iywodveun9:f764ce33edbe",
+      "merchantId": "cmta1lw1x00qvq8iywodveun9",
+      "localUrl": "/merchant-logos/lentijewelry-f764ce33edbe.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62m4n001294iygolu5aid:fb79823f95b3",
+      "merchantId": "cmtb62m4n001294iygolu5aid",
+      "localUrl": "/merchant-logos/leparfum-fb79823f95b3.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ipm700dpq8iya27suf5z:ffe4e48a20f6",
+      "merchantId": "cmta1ipm700dpq8iya27suf5z",
+      "localUrl": "/merchant-logos/liberal-ffe4e48a20f6.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ev3i0004q8iy1n4b8yf3:d49ff220dd6b",
+      "merchantId": "cmta1ev3i0004q8iy1n4b8yf3",
+      "localUrl": "/merchant-logos/lidl-d49ff220dd6b.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m9x600sdq8iy493ubroz:81e21fadf778",
+      "merchantId": "cmta1m9x600sdq8iy493ubroz",
+      "localUrl": "/merchant-logos/lidon-81e21fadf778.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mahb00sfq8iy9eyvpktm:c5187071c0e5",
+      "merchantId": "cmta1mahb00sfq8iy9eyvpktm",
+      "localUrl": "/merchant-logos/littlesubmarine-c5187071c0e5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1natm00wbq8iy80s82kmo:fba27ed882cc",
+      "merchantId": "cmta1natm00wbq8iy80s82kmo",
+      "localUrl": "/merchant-logos/lonsdale-fba27ed882cc.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77bbd0020dkiyyi6uurk8:ff634748fcd3",
+      "merchantId": "cmtb77bbd0020dkiyyi6uurk8",
+      "localUrl": "/merchant-logos/super-dad-ff634748fcd3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ys8n002gsciyy5fep0lh:3aa3264e3c5f",
+      "merchantId": "cmta4ys8n002gsciyy5fep0lh",
+      "localUrl": "/merchant-logos/lovelykids-3aa3264e3c5f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iqf100dtq8iyrfwkidvs:f28ce83e26b2",
+      "merchantId": "cmta1iqf100dtq8iyrfwkidvs",
+      "localUrl": "/merchant-logos/luigi-f28ce83e26b2.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ysow002isciyqqph3225:9f15962a1ce6",
+      "merchantId": "cmta4ysow002isciyqqph3225",
+      "localUrl": "/merchant-logos/lumiere-9f15962a1ce6.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uw8m002p3giys5rg198s:073e6ec2dd1c",
+      "merchantId": "cmtb6uw8m002p3giys5rg198s",
+      "localUrl": "/merchant-logos/lumina-073e6ec2dd1c.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ku2j00mpq8iynyyfszz0:d3de967475a5",
+      "merchantId": "cmta1ku2j00mpq8iynyyfszz0",
+      "localUrl": "/merchant-logos/luvnroll-d3de967475a5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb787mq006ldkiy4ez5pxns:7531984b79af",
+      "merchantId": "cmtb787mq006ldkiy4ez5pxns",
+      "localUrl": "/merchant-logos/luxurycandle-gr-7531984b79af.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k97b00kbq8iyhvxhjjn4:1a88d9c88807",
+      "merchantId": "cmta1k97b00kbq8iyhvxhjjn4",
+      "localUrl": "/merchant-logos/luxurylivingspa-1a88d9c88807.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nbsx00wfq8iyt9ivk3w3:0ac5331d35aa",
+      "merchantId": "cmta1nbsx00wfq8iyt9ivk3w3",
+      "localUrl": "/merchant-logos/luxurymassage-0ac5331d35aa.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lxjy00r1q8iykm9y0ik4:0386ec9f4eba",
+      "merchantId": "cmta1lxjy00r1q8iykm9y0ik4",
+      "localUrl": "/merchant-logos/luxusbags-0386ec9f4eba.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r3vw000cu8iymcg5xfjl:f5f53ed5f71f",
+      "merchantId": "cmtb7r3vw000cu8iymcg5xfjl",
+      "localUrl": "/merchant-logos/lvk-premium-fitness-f5f53ed5f71f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iqt900dvq8iyj67rl5o9:df6796a4e87a",
+      "merchantId": "cmta1iqt900dvq8iyj67rl5o9",
+      "localUrl": "/merchant-logos/magnoliabeauty-df6796a4e87a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ir7c00dxq8iyxs2apzyw:e4c3bbd19965",
+      "merchantId": "cmta1ir7c00dxq8iyxs2apzyw",
+      "localUrl": "/merchant-logos/maiarea-e4c3bbd19965.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nc9g00whq8iya07rnw9x:f1a7024d0add",
+      "merchantId": "cmta1nc9g00whq8iya07rnw9x",
+      "localUrl": "/merchant-logos/maisonnette-f1a7024d0add.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mb2f00shq8iyruklpxok:7ef837a03b78",
+      "merchantId": "cmta1mb2f00shq8iyruklpxok",
+      "localUrl": "/merchant-logos/mamagalia-7ef837a03b78.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k0hw00jbq8iy1thovlmy:4b5079ca92cc",
+      "merchantId": "cmta1k0hw00jbq8iy1thovlmy",
+      "localUrl": "/merchant-logos/mantastravel-4b5079ca92cc.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f4vo0014q8iynmm618rd:efdc1a756624",
+      "merchantId": "cmta1f4vo0014q8iynmm618rd",
+      "localUrl": "/merchant-logos/mar-and-mar-efdc1a756624.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gsoo006xq8iylrtu8eo9:1990841a77df",
+      "merchantId": "cmta1gsoo006xq8iylrtu8eo9",
+      "localUrl": "/merchant-logos/marandmarjewelry-1990841a77df.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gt4j006zq8iyoei66p5q:ca094d39fbb7",
+      "merchantId": "cmta1gt4j006zq8iyoei66p5q",
+      "localUrl": "/merchant-logos/marilynboutique-ca094d39fbb7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nd8500wlq8iyt3qqsq3s:a9048cf46291",
+      "merchantId": "cmta1nd8500wlq8iyt3qqsq3s",
+      "localUrl": "/merchant-logos/marinospor-a9048cf46291.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ists00e5q8iybr7fmy1d:ba6c5a430859",
+      "merchantId": "cmta1ists00e5q8iybr7fmy1d",
+      "localUrl": "/merchant-logos/marketfix-ba6c5a430859.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kukj00mrq8iywb70hzkf:0752c964bb46",
+      "merchantId": "cmta1kukj00mrq8iywb70hzkf",
+      "localUrl": "/merchant-logos/marose-0752c964bb46.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta422r00007t8iylbv8h6ft:2c405f7cfdd9",
+      "merchantId": "cmta422r00007t8iylbv8h6ft",
+      "localUrl": "/merchant-logos/martin-tailored-2c405f7cfdd9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i3a3001504iyg9dda4td:48e9b7a714fe",
+      "merchantId": "cmtb7i3a3001504iyg9dda4td",
+      "localUrl": "/merchant-logos/massage-gift-cards-kefalonia-48e9b7a714fe.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77dz2002edkiyhwhmrr7j:c06eaa4dc65c",
+      "merchantId": "cmtb77dz2002edkiyhwhmrr7j",
+      "localUrl": "/merchant-logos/massage-gift-vouchers-in-chania-c06eaa4dc65c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nsp6001a54iy8w9nska0:074c857a4727",
+      "merchantId": "cmta5nsp6001a54iy8w9nska0",
+      "localUrl": "/merchant-logos/massage-and-magic-hands-074c857a4727.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fc0l001yq8iyu8niunrq:2a4dfb89c7f9",
+      "merchantId": "cmta1fc0l001yq8iyu8niunrq",
+      "localUrl": "/merchant-logos/mastorino-2a4dfb89c7f9.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kv1b00mtq8iyleswt0cj:d182ebbdae91",
+      "merchantId": "cmta1kv1b00mtq8iyleswt0cj",
+      "localUrl": "/merchant-logos/mathimatamageirikis-d182ebbdae91.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1itlq00e9q8iy1bb28dtt:df27a1e92957",
+      "merchantId": "cmta1itlq00e9q8iy1bb28dtt",
+      "localUrl": "/merchant-logos/mavrogiannistravel-df27a1e92957.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iuec00edq8iyhj3hjosj:301b25fbfebb",
+      "merchantId": "cmta1iuec00edq8iyhj3hjosj",
+      "localUrl": "/merchant-logos/mdi-301b25fbfebb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g1ae004cq8iy2qx2dl1u:f9758f3f336f",
+      "merchantId": "cmta1g1ae004cq8iy2qx2dl1u",
+      "localUrl": "/merchant-logos/me-and-joe-f9758f3f336f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ka4i00kfq8iykvii8j6b:f7838570bbb0",
+      "merchantId": "cmta1ka4i00kfq8iykvii8j6b",
+      "localUrl": "/merchant-logos/medi-f7838570bbb0.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ius600efq8iyfvl8spkg:03fea69bd32b",
+      "merchantId": "cmta1ius600efq8iyfvl8spkg",
+      "localUrl": "/merchant-logos/medithea-03fea69bd32b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nev900wrq8iyf4pa423f:0f65c50a09db",
+      "merchantId": "cmta1nev900wrq8iyf4pa423f",
+      "localUrl": "/merchant-logos/mediwellkalamata-0f65c50a09db.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lyko00r5q8iy6k39klty:4873153fecc9",
+      "merchantId": "cmta1lyko00r5q8iy6k39klty",
+      "localUrl": "/merchant-logos/meijewelry-4873153fecc9.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77c2z0024dkiyyehncw02:602341bc4ca4",
+      "merchantId": "cmtb77c2z0024dkiyyehncw02",
+      "localUrl": "/merchant-logos/melissinos-sandals-602341bc4ca4.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nfha00wtq8iyf1tgqx91:1a34de3e485a",
+      "merchantId": "cmta1nfha00wtq8iyf1tgqx91",
+      "localUrl": "/merchant-logos/mellifora-1a34de3e485a.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb788uq006rdkiyhzvz6h0k:d3807ab31df6",
+      "merchantId": "cmtb788uq006rdkiyhzvz6h0k",
+      "localUrl": "/merchant-logos/melloncollection-d3807ab31df6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iv6400ehq8iy0sl0k8i0:6d0373532065",
+      "merchantId": "cmta1iv6400ehq8iy0sl0k8i0",
+      "localUrl": "/merchant-logos/melrose-6d0373532065.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hzks000m04iybzukfa8e:8d7430acac54",
+      "merchantId": "cmtb7hzks000m04iybzukfa8e",
+      "localUrl": "/merchant-logos/mercato-monetary-gift-card-8d7430acac54.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ivy000elq8iy2l2t9htl:51b56676f56d",
+      "merchantId": "cmta1ivy000elq8iy2l2t9htl",
+      "localUrl": "/merchant-logos/mfdayspa-51b56676f56d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iwc000enq8iyn9pudu3y:8db9aa5c9fa1",
+      "merchantId": "cmta1iwc000enq8iyn9pudu3y",
+      "localUrl": "/merchant-logos/mgjewels-8db9aa5c9fa1.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iwph00epq8iyrz9rtzzn:f88464cdc1bc",
+      "merchantId": "cmta1iwph00epq8iyrz9rtzzn",
+      "localUrl": "/merchant-logos/michanossport-f88464cdc1bc.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8o9uxp000530iyeisee5nm:112fec798b78",
+      "merchantId": "cmt8o9uxp000530iyeisee5nm",
+      "localUrl": "/merchant-logos/microsoft-112fec798b78.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62q36001o94iy9pslcwu1:21294f03800e",
+      "merchantId": "cmtb62q36001o94iy9pslcwu1",
+      "localUrl": "/merchant-logos/mideast-21294f03800e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ix3800erq8iyqmw3lkc2:d2bda62df5d3",
+      "merchantId": "cmta1ix3800erq8iyqmw3lkc2",
+      "localUrl": "/merchant-logos/mikelidis-d2bda62df5d3.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yuk6002qsciynl51tmrl:bb2d9570e8a9",
+      "merchantId": "cmta4yuk6002qsciynl51tmrl",
+      "localUrl": "/merchant-logos/milosnails-bb2d9570e8a9.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uxcb002v3giygaluzdri:1729c0b3bc44",
+      "merchantId": "cmtb6uxcb002v3giygaluzdri",
+      "localUrl": "/merchant-logos/missyandme-1729c0b3bc44.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lz7x00r7q8iy3t92x3aw:13f1fca0b647",
+      "merchantId": "cmta1lz7x00r7q8iy3t92x3aw",
+      "localUrl": "/merchant-logos/mistridis-13f1fca0b647.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77cfx0026dkiyp3b4iz9q:828098188a73",
+      "merchantId": "cmtb77cfx0026dkiyp3b4iz9q",
+      "localUrl": "/merchant-logos/digital-gift-card-828098188a73.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kvzh00mxq8iyki8p745z:a3185d6e6331",
+      "merchantId": "cmta1kvzh00mxq8iyki8p745z",
+      "localUrl": "/merchant-logos/mocannella-a3185d6e6331.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtikaqcc0001csiy7aine7eg:71a35cb43fae",
+      "merchantId": "cmtikaqcc0001csiy7aine7eg",
+      "localUrl": "/merchant-logos/monkees-of-athens-71a35cb43fae.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yv1u002ssciyt1ac0eqm:ab7c9dfc1fb1",
+      "merchantId": "cmta4yv1u002ssciyt1ac0eqm",
+      "localUrl": "/merchant-logos/moonboon-ab7c9dfc1fb1.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62muj001694iyt47baoy5:00454d69469f",
+      "merchantId": "cmtb62muj001694iyt47baoy5",
+      "localUrl": "/merchant-logos/morethanthis-00454d69469f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nh0t00wzq8iy8gdyp1w2:39e65eede651",
+      "merchantId": "cmta1nh0t00wzq8iy8gdyp1w2",
+      "localUrl": "/merchant-logos/morfibeauty-39e65eede651.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62n7j001894iyq85t2bse:77447ff5ac0f",
+      "merchantId": "cmtb62n7j001894iyq85t2bse",
+      "localUrl": "/merchant-logos/motorparts-77447ff5ac0f.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iypl00ezq8iypg6kwhfe:b44f24c2dc1d",
+      "merchantId": "cmta1iypl00ezq8iypg6kwhfe",
+      "localUrl": "/merchant-logos/motovinios-b44f24c2dc1d.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1iz4a00f1q8iyyehgeubm:1e8bde6ac9e2",
+      "merchantId": "cmta1iz4a00f1q8iyyehgeubm",
+      "localUrl": "/merchant-logos/moustakisfc-1e8bde6ac9e2.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nhiz00x1q8iy666s3hgl:66eb822c102a",
+      "merchantId": "cmta1nhiz00x1q8iy666s3hgl",
+      "localUrl": "/merchant-logos/msjewels-66eb822c102a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yw0c002wsciyir3okmhf:a01e33b4817e",
+      "merchantId": "cmta4yw0c002wsciyir3okmhf",
+      "localUrl": "/merchant-logos/msystems-10e-a01e33b4817e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5ntg6001e54iymc9l63oi:ce507f64b417",
+      "merchantId": "cmta5ntg6001e54iymc9l63oi",
+      "localUrl": "/merchant-logos/muse-boutique-ce507f64b417.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nkyr000454iyyhuhz99q:b206f88694f6",
+      "merchantId": "cmta5nkyr000454iyyhuhz99q",
+      "localUrl": "/merchant-logos/museumofillusions-b206f88694f6.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kwhj00mzq8iyqv0xws2k:e5892b4694b2",
+      "merchantId": "cmta1kwhj00mzq8iyqv0xws2k",
+      "localUrl": "/merchant-logos/musicland-e5892b4694b2.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lduo00oxq8iyrgzxs75p:11c56a1f3acb",
+      "merchantId": "cmta1lduo00oxq8iyrgzxs75p",
+      "localUrl": "/merchant-logos/musicpal-11c56a1f3acb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j0ma00f7q8iympq1uy5p:0ba13f831cac",
+      "merchantId": "cmta1j0ma00f7q8iympq1uy5p",
+      "localUrl": "/merchant-logos/muststore-0ba13f831cac.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62ny2001c94iyxh7g7yfi:0e7f4ea7ca01",
+      "merchantId": "cmtb62ny2001c94iyxh7g7yfi",
+      "localUrl": "/merchant-logos/myconian-imperial-resort-0e7f4ea7ca01.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nttu001g54iy868uf69b:f023ee771e84",
+      "merchantId": "cmta5nttu001g54iy868uf69b",
+      "localUrl": "/merchant-logos/myconian-naia-boutique-hotel-f023ee771e84.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yxfs0032sciyb1gsiug9:9e20e69d160f",
+      "merchantId": "cmta4yxfs0032sciyb1gsiug9",
+      "localUrl": "/merchant-logos/myconian-utopia-9e20e69d160f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ywx30030sciy1rds52ma:3633d2b0a6eb",
+      "merchantId": "cmta4ywx30030sciy1rds52ma",
+      "localUrl": "/merchant-logos/myconiankorali-3633d2b0a6eb.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62ob8001e94iyw23wxhmt:77b7b193307c",
+      "merchantId": "cmtb62ob8001e94iyw23wxhmt",
+      "localUrl": "/merchant-logos/myconiankyma-77b7b193307c.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lzou00r9q8iyslyb5ll3:4f6532d5133f",
+      "merchantId": "cmta1lzou00r9q8iyslyb5ll3",
+      "localUrl": "/merchant-logos/mylittleland-4f6532d5133f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j2m300ffq8iyt6u5plxe:a69c15f27736",
+      "merchantId": "cmta1j2m300ffq8iyt6u5plxe",
+      "localUrl": "/merchant-logos/myrtia-a69c15f27736.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nij900x5q8iyxvel6ylg:acfc0c66ab20",
+      "merchantId": "cmta1nij900x5q8iyxvel6ylg",
+      "localUrl": "/merchant-logos/naeniam-acfc0c66ab20.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j34900fhq8iys6e8ls57:f5a81ee67140",
+      "merchantId": "cmta1j34900fhq8iys6e8ls57",
+      "localUrl": "/merchant-logos/naftemporiki-f5a81ee67140.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nj0h00x7q8iy2h241z80:e51ca125d5f5",
+      "merchantId": "cmta1nj0h00x7q8iy2h241z80",
+      "localUrl": "/merchant-logos/naira-e51ca125d5f5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62onm001g94iy29ypyygn:a3b77730c4f1",
+      "merchantId": "cmtb62onm001g94iy29ypyygn",
+      "localUrl": "/merchant-logos/najma-a3b77730c4f1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kxed00n3q8iybvnaiccz:36a912805fc2",
+      "merchantId": "cmta1kxed00n3q8iybvnaiccz",
+      "localUrl": "/merchant-logos/nakita-36a912805fc2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uy3n002z3giyohz3pcwu:cc3a24bb6402",
+      "merchantId": "cmtb6uy3n002z3giyohz3pcwu",
+      "localUrl": "/merchant-logos/20-eur-naninails-gr-cc3a24bb6402.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j3mk00fjq8iyayln17bn:df725d3d4523",
+      "merchantId": "cmta1j3mk00fjq8iyayln17bn",
+      "localUrl": "/merchant-logos/natprod-df725d3d4523.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nuxv001m54iyn9rhgeiz:3d6e9824805d",
+      "merchantId": "cmta5nuxv001m54iyn9rhgeiz",
+      "localUrl": "/merchant-logos/naxos-art-3d6e9824805d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nvc7001o54iy9rlqpv1v:b43f8f9ec565",
+      "merchantId": "cmta5nvc7001o54iy9rlqpv1v",
+      "localUrl": "/merchant-logos/neraw-b43f8f9ec565.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j4lf00fnq8iyn87586iy:76e1e879a348",
+      "merchantId": "cmta1j4lf00fnq8iyn87586iy",
+      "localUrl": "/merchant-logos/nespo-76e1e879a348.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ljnq00pjq8iyp8nn5qhl:d9a45a062780",
+      "merchantId": "cmta1ljnq00pjq8iyp8nn5qhl",
+      "localUrl": "/merchant-logos/newaypharmacy-d9a45a062780.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fo1i0032q8iyhf05odt3:9a7107c033e6",
+      "merchantId": "cmta1fo1i0032q8iyhf05odt3",
+      "localUrl": "/merchant-logos/newmom-9a7107c033e6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yybn0036sciy8dd6tcdc:a177b9d25f9d",
+      "merchantId": "cmta4yybn0036sciy8dd6tcdc",
+      "localUrl": "/merchant-logos/niai-a177b9d25f9d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1njj100x9q8iywi68cw12:f68d5321c93b",
+      "merchantId": "cmta1njj100x9q8iywi68cw12",
+      "localUrl": "/merchant-logos/noiretor-f68d5321c93b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g4xm004qq8iytymwcg9a:351fdd54c1e5",
+      "merchantId": "cmta1g4xm004qq8iytymwcg9a",
+      "localUrl": "/merchant-logos/notos-351fdd54c1e5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77eqo002idkiyg6h36cyb:ea7427a38398",
+      "merchantId": "cmtb77eqo002idkiyg6h36cyb",
+      "localUrl": "/merchant-logos/nur-and-co-ea7427a38398.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g6ai004vq8iycxhicxpy:3100ada3e83e",
+      "merchantId": "cmta1g6ai004vq8iycxhicxpy",
+      "localUrl": "/merchant-logos/ofarmakopoiosmou-3100ada3e83e.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62pqs001m94iykid86ucy:d1fd79fac8b4",
+      "merchantId": "cmtb62pqs001m94iykid86ucy",
+      "localUrl": "/merchant-logos/oikosterzis-d1fd79fac8b4.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mblh00sjq8iyi2lanyox:aec4125a2eb5",
+      "merchantId": "cmta1mblh00sjq8iyi2lanyox",
+      "localUrl": "/merchant-logos/olive-era-aec4125a2eb5.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6uz6p00353giyzkow4qml:8054f9aee85d",
+      "merchantId": "cmtb6uz6p00353giyzkow4qml",
+      "localUrl": "/merchant-logos/omg-gift-card-8054f9aee85d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77f3g002kdkiy0229bjps:936334c9f325",
+      "merchantId": "cmtb77f3g002kdkiy0229bjps",
+      "localUrl": "/merchant-logos/omnia-welness-936334c9f325.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kxwb00n5q8iyxd3jn9y1:93665e1b95da",
+      "merchantId": "cmta1kxwb00n5q8iyxd3jn9y1",
+      "localUrl": "/merchant-logos/oreasoncs-93665e1b95da.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j5lp00frq8iyn70407yy:869600f51b59",
+      "merchantId": "cmta1j5lp00frq8iyn70407yy",
+      "localUrl": "/merchant-logos/oser-869600f51b59.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77fsy002odkiypybibga6:a3ff953295e5",
+      "merchantId": "cmtb77fsy002odkiypybibga6",
+      "localUrl": "/merchant-logos/luxurious-day-spa-gift-card-a3ff953295e5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f3lu0012q8iy3sg1zr8w:2a93633e4d46",
+      "merchantId": "cmta1f3lu0012q8iy3sg1zr8w",
+      "localUrl": "/merchant-logos/p-kontopoulos-2a93633e4d46.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fm6t002uq8iyt0ifyaw2:bcf28edecb6a",
+      "merchantId": "cmta1fm6t002uq8iyt0ifyaw2",
+      "localUrl": "/merchant-logos/paidika-symeon-bcf28edecb6a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kbgw00klq8iyycumxx67:c0f922bf8945",
+      "merchantId": "cmta1kbgw00klq8iyycumxx67",
+      "localUrl": "/merchant-logos/paidikaianaptixi-c0f922bf8945.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kycr00n7q8iyw5ymk36g:33de2f976624",
+      "merchantId": "cmta1kycr00n7q8iyw5ymk36g",
+      "localUrl": "/merchant-logos/palazzodiscarpe-33de2f976624.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62qt9001s94iyy65ut1lc:5531ade395bb",
+      "merchantId": "cmtb62qt9001s94iyy65ut1lc",
+      "localUrl": "/merchant-logos/pamemassage-5531ade395bb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gu0d0073q8iyksj58bpb:92ea96a6cdb7",
+      "merchantId": "cmta1gu0d0073q8iyksj58bpb",
+      "localUrl": "/merchant-logos/paokfc-92ea96a6cdb7.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kyyv00n9q8iyejhfubzh:e8d23ae0b60e",
+      "merchantId": "cmta1kyyv00n9q8iyejhfubzh",
+      "localUrl": "/merchant-logos/paraphernalia-e8d23ae0b60e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j70q00fxq8iy9sg5qn8b:fa78149a305e",
+      "merchantId": "cmta1j70q00fxq8iy9sg5qn8b",
+      "localUrl": "/merchant-logos/parnass-fa78149a305e.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nk0l00xbq8iya8vznroi:793529635e32",
+      "merchantId": "cmta1nk0l00xbq8iya8vznroi",
+      "localUrl": "/merchant-logos/parnassoshiking-793529635e32.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77gmh002sdkiytfif5f3w:c11c32096305",
+      "merchantId": "cmtb77gmh002sdkiytfif5f3w",
+      "localUrl": "/merchant-logos/s-3-c11c32096305.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f76v001eq8iyc18zqq0c:5ac564333cc3",
+      "merchantId": "cmta1f76v001eq8iyc18zqq0c",
+      "localUrl": "/merchant-logos/pegabo-shoes-5ac564333cc3.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nkiz00xdq8iy41l5qeb7:cdaf1f453757",
+      "merchantId": "cmta1nkiz00xdq8iy41l5qeb7",
+      "localUrl": "/merchant-logos/pelopslandtravel-cdaf1f453757.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77h30002udkiy5vxxu8z4:826477ecfccd",
+      "merchantId": "cmtb77h30002udkiy5vxxu8z4",
+      "localUrl": "/merchant-logos/pentavras-kes-826477ecfccd.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f37k0010q8iy77tcaeje:e4d3a0c6c533",
+      "merchantId": "cmta1f37k0010q8iy77tcaeje",
+      "localUrl": "/merchant-logos/perdikis-e4d3a0c6c533.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77iki0032dkiyzpn1i0zt:712d58055206",
+      "merchantId": "cmtb77iki0032dkiyzpn1i0zt",
+      "localUrl": "/merchant-logos/perfect-gift-for-any-occasion-712d58055206.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yz7c003asciye4s41wsv:f68f0c7415de",
+      "merchantId": "cmta4yz7c003asciye4s41wsv",
+      "localUrl": "/merchant-logos/perfumeintheair-f68f0c7415de.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j8i300g3q8iy6tehieg8:9983985c0219",
+      "merchantId": "cmta1j8i300g3q8iy6tehieg8",
+      "localUrl": "/merchant-logos/pethellas-9983985c0219.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1j8yp00g5q8iy73dqyf45:74d55fb8e211",
+      "merchantId": "cmta1j8yp00g5q8iy73dqyf45",
+      "localUrl": "/merchant-logos/petiteboutique-74d55fb8e211.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1guer0075q8iy66ovvcm4:d6609aae57ba",
+      "merchantId": "cmta1guer0075q8iy66ovvcm4",
+      "localUrl": "/merchant-logos/petradi-d6609aae57ba.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lcus00otq8iyclnib1y8:86f765655476",
+      "merchantId": "cmta1lcus00otq8iyclnib1y8",
+      "localUrl": "/merchant-logos/petrichor-86f765655476.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79igs4001584iyx1lcaw5f:b8a827e613f2",
+      "merchantId": "cmt79igs4001584iyx1lcaw5f",
+      "localUrl": "/merchant-logos/pharm24-b8a827e613f2.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lk4i00plq8iyidbkj7n0:418fecd4c76b",
+      "merchantId": "cmta1lk4i00plq8iyidbkj7n0",
+      "localUrl": "/merchant-logos/pharmagalaxy-418fecd4c76b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nl7700xfq8iycudfjd9o:6edc0bd8f70e",
+      "merchantId": "cmta1nl7700xfq8iycudfjd9o",
+      "localUrl": "/merchant-logos/philsgranola-6edc0bd8f70e.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1guui0077q8iybyqma2gp:d64074a60dcb",
+      "merchantId": "cmta1guui0077q8iybyqma2gp",
+      "localUrl": "/merchant-logos/phoskitchenware-d64074a60dcb.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77hgm002wdkiy7a6hmw6n:30b5696b789a",
+      "merchantId": "cmtb77hgm002wdkiy7a6hmw6n",
+      "localUrl": "/merchant-logos/massage-gift-card-30b5696b789a.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l02r00ndq8iyx2i3307v:d6820466b496",
+      "merchantId": "cmta1l02r00ndq8iyx2i3307v",
+      "localUrl": "/merchant-logos/pibu-d6820466b496.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gvpr0079q8iys67a9a75:b6de52c77574",
+      "merchantId": "cmta1gvpr0079q8iys67a9a75",
+      "localUrl": "/merchant-logos/piedini-b6de52c77574.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ihcu001b84iy567io27n:8ea4c793d6c8",
+      "merchantId": "cmt79ihcu001b84iy567io27n",
+      "localUrl": "/merchant-logos/plaisio-8ea4c793d6c8.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f0j7000oq8iysl6mrjq4:1850c05269a4",
+      "merchantId": "cmta1f0j7000oq8iysl6mrjq4",
+      "localUrl": "/merchant-logos/play-sports-1850c05269a4.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77htn002ydkiyj6r7p77m:3fa9178753e0",
+      "merchantId": "cmtb77htn002ydkiyj6r7p77m",
+      "localUrl": "/merchant-logos/pleko-3fa9178753e0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fqg6003aq8iyyqfnhn5v:33824eef45d1",
+      "merchantId": "cmta1fqg6003aq8iyyqfnhn5v",
+      "localUrl": "/merchant-logos/pnn-nightwear-33824eef45d1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k1ev00jfq8iymc3ul12q:7a45eb4d1478",
+      "merchantId": "cmta1k1ev00jfq8iymc3ul12q",
+      "localUrl": "/merchant-logos/pnoewave-7a45eb4d1478.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jb8400gfq8iyzptmp6nl:0237d9bd2e5c",
+      "merchantId": "cmta1jb8400gfq8iyzptmp6nl",
+      "localUrl": "/merchant-logos/pocolocojewellery-0237d9bd2e5c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nw46001s54iy628m45ik:0af88d4e6316",
+      "merchantId": "cmta5nw46001s54iy628m45ik",
+      "localUrl": "/merchant-logos/poem-luxury-100-0af88d4e6316.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l0lh00nfq8iy17k2mf17:d30a09a48653",
+      "merchantId": "cmta1l0lh00nfq8iy17k2mf17",
+      "localUrl": "/merchant-logos/pointe-d30a09a48653.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gwic007bq8iyx3baviuz:234f9f782970",
+      "merchantId": "cmta1gwic007bq8iyx3baviuz",
+      "localUrl": "/merchant-logos/polis-hammam-234f9f782970.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gecq005jq8iyyuke43mc:4668d48bef85",
+      "merchantId": "cmta1gecq005jq8iyyuke43mc",
+      "localUrl": "/merchant-logos/politikos-4668d48bef85.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m06000rbq8iy378r21kw:18a88bf01018",
+      "merchantId": "cmta1m06000rbq8iy378r21kw",
+      "localUrl": "/merchant-logos/poupee-18a88bf01018.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i4tc001c04iydbkml154:c7292ad14db2",
+      "merchantId": "cmtb7i4tc001c04iydbkml154",
+      "localUrl": "/merchant-logos/premium-greek-natural-skincare-c7292ad14db2.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i12m000u04iynn26j31q:32832dc2aee0",
+      "merchantId": "cmtb7i12m000u04iynn26j31q",
+      "localUrl": "/merchant-logos/greek-language-course-gift-card-32832dc2aee0.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nn2w00xnq8iysyd20gzz:fc608c5b8620",
+      "merchantId": "cmta1nn2w00xnq8iysyd20gzz",
+      "localUrl": "/merchant-logos/pret-a-beaute-fc608c5b8620.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v1uu003j3giyr57ozj6k:518e9056442d",
+      "merchantId": "cmtb6v1uu003j3giyr57ozj6k",
+      "localUrl": "/merchant-logos/princess-518e9056442d.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m0nl00rdq8iyz2i93092:5ffa5b986c07",
+      "merchantId": "cmta1m0nl00rdq8iyz2i93092",
+      "localUrl": "/merchant-logos/printhouse-5ffa5b986c07.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nnlj00xpq8iyi0360ygm:eaf3f22c95c7",
+      "merchantId": "cmta1nnlj00xpq8iyi0360ygm",
+      "localUrl": "/merchant-logos/profitstore-eaf3f22c95c7.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v27r003l3giypht1hs72:69c2aa85f20c",
+      "merchantId": "cmtb6v27r003l3giypht1hs72",
+      "localUrl": "/merchant-logos/project-soma-69c2aa85f20c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l12800nhq8iy7m1jy4ap:f7ff1a4d4204",
+      "merchantId": "cmta1l12800nhq8iy7m1jy4ap",
+      "localUrl": "/merchant-logos/psaltou-f7ff1a4d4204.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jc6b00gjq8iyiu6ojjwp:612e74af83d6",
+      "merchantId": "cmta1jc6b00gjq8iyiu6ojjwp",
+      "localUrl": "/merchant-logos/psomiadishome-612e74af83d6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nwum001w54iy1kd87zna:e1a060a27501",
+      "merchantId": "cmta5nwum001w54iy1kd87zna",
+      "localUrl": "/merchant-logos/60-eur-purity-vision-com-e1a060a27501.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1non000xtq8iytp353wfo:cf46cebe439d",
+      "merchantId": "cmta1non000xtq8iytp353wfo",
+      "localUrl": "/merchant-logos/revitalash-cf46cebe439d.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l1iv00njq8iy81dvaoy4:a8cbdcdbde65",
+      "merchantId": "cmta1l1iv00njq8iy81dvaoy4",
+      "localUrl": "/merchant-logos/rhythmichouse-a8cbdcdbde65.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yzn7003csciyh731m9hx:cd13959c5f82",
+      "merchantId": "cmta4yzn7003csciyh731m9hx",
+      "localUrl": "/merchant-logos/ricordi-cd13959c5f82.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z03c003esciypzuwqti3:9f4763a5c6a1",
+      "merchantId": "cmta4z03c003esciypzuwqti3",
+      "localUrl": "/merchant-logos/rideonline-9f4763a5c6a1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z0k6003gsciyzuu8lma1:a5012d74533b",
+      "merchantId": "cmta4z0k6003gsciyzuu8lma1",
+      "localUrl": "/merchant-logos/rococo-a5012d74533b.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1np5q00xvq8iy6hktvb7w:456019bb6e5b",
+      "merchantId": "cmta1np5q00xvq8iy6hktvb7w",
+      "localUrl": "/merchant-logos/romina-hairstyle-456019bb6e5b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r4n0000gu8iy4mw4qat5:ebfbbb4f699e",
+      "merchantId": "cmtb7r4n0000gu8iy4mw4qat5",
+      "localUrl": "/merchant-logos/royal-grand-hotel-ebfbbb4f699e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l1zu00nlq8iywld8ilwh:3038e2757c44",
+      "merchantId": "cmta1l1zu00nlq8iywld8ilwh",
+      "localUrl": "/merchant-logos/royalhair-3038e2757c44.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z102003isciy93e67msg:77847492cf24",
+      "merchantId": "cmta4z102003isciy93e67msg",
+      "localUrl": "/merchant-logos/royalmyconian-77847492cf24.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79iigj001n84iyrxcwpcru:d5fe3ae28713",
+      "merchantId": "cmt79iigj001n84iyrxcwpcru",
+      "localUrl": "/merchant-logos/rundome-d5fe3ae28713.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mcn400snq8iy1qn2584x:3b1553a6e168",
+      "merchantId": "cmta1mcn400snq8iy1qn2584x",
+      "localUrl": "/merchant-logos/sacjeans-3b1553a6e168.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l2fz00nnq8iywkc2k8lu:b0c91fc48840",
+      "merchantId": "cmta1l2fz00nnq8iywkc2k8lu",
+      "localUrl": "/merchant-logos/safe-travel-b0c91fc48840.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l2w200npq8iy2rvlbig1:44b1ea9afd0b",
+      "merchantId": "cmta1l2w200npq8iy2rvlbig1",
+      "localUrl": "/merchant-logos/safestep-44b1ea9afd0b.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62riy001w94iy4qqlybg8:0f11cc6b2a58",
+      "merchantId": "cmtb62riy001w94iy4qqlybg8",
+      "localUrl": "/merchant-logos/salondemassage-0f11cc6b2a58.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1md5400spq8iybzvjhvca:2241c7e9f4da",
+      "merchantId": "cmta1md5400spq8iybzvjhvca",
+      "localUrl": "/merchant-logos/saltymoon-2241c7e9f4da.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jd5500gnq8iyeeenv6pf:6108123bc33c",
+      "merchantId": "cmta1jd5500gnq8iyeeenv6pf",
+      "localUrl": "/merchant-logos/sandglass-6108123bc33c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77jay0036dkiy4uehp9j3:67491c096005",
+      "merchantId": "cmtb77jay0036dkiy4uehp9j3",
+      "localUrl": "/merchant-logos/sandinmytoes-67491c096005.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77jp50038dkiyxpafqz6u:bd091c64e60f",
+      "merchantId": "cmtb77jp50038dkiyxpafqz6u",
+      "localUrl": "/merchant-logos/sanopwleio-bd091c64e60f.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r50q000iu8iy46vbkjod:91224955072a",
+      "merchantId": "cmtb7r50q000iu8iy46vbkjod",
+      "localUrl": "/merchant-logos/santo-wines-91224955072a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m1mk00rhq8iyi8c0svge:b20e62398a44",
+      "merchantId": "cmta1m1mk00rhq8iyi8c0svge",
+      "localUrl": "/merchant-logos/sekoia-b20e62398a44.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62rv6001y94iyot2scee1:c19c66fb1627",
+      "merchantId": "cmtb62rv6001y94iyot2scee1",
+      "localUrl": "/merchant-logos/serkos-c19c66fb1627.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nx79001y54iyjatwauue:30a988809ff2",
+      "merchantId": "cmta5nx79001y54iyjatwauue",
+      "localUrl": "/merchant-logos/75-eur-sexodonia-30a988809ff2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62s9p002094iya9cgkef1:de41fe922f33",
+      "merchantId": "cmtb62s9p002094iya9cgkef1",
+      "localUrl": "/merchant-logos/sfinx-de41fe922f33.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nxkc002054iyrperd4fx:e271320ef392",
+      "merchantId": "cmta5nxkc002054iyrperd4fx",
+      "localUrl": "/merchant-logos/shine4ever-gr-e271320ef392.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nqr200y1q8iyf0ryvx34:520cb6dcffbf",
+      "merchantId": "cmta1nqr200y1q8iyf0ryvx34",
+      "localUrl": "/merchant-logos/shoelover-520cb6dcffbf.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nr8200y3q8iy7os9eref:001f38085842",
+      "merchantId": "cmta1nr8200y3q8iy7os9eref",
+      "localUrl": "/merchant-logos/guide-001f38085842.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1je5f00grq8iyglykshx2:0556dae08ab5",
+      "merchantId": "cmta1je5f00grq8iyglykshx2",
+      "localUrl": "/merchant-logos/signature-0556dae08ab5.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78aeq006zdkiywm7as6xi:67e50f2fd750",
+      "merchantId": "cmtb78aeq006zdkiywm7as6xi",
+      "localUrl": "/merchant-logos/skincareplus-67e50f2fd750.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jf6v00gvq8iyxxfmg8jy:bb0423c83cc9",
+      "merchantId": "cmta1jf6v00gvq8iyxxfmg8jy",
+      "localUrl": "/merchant-logos/skinky-bb0423c83cc9.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nsbg00y7q8iypa5wb9tx:3d58d7e70a21",
+      "merchantId": "cmta1nsbg00y7q8iypa5wb9tx",
+      "localUrl": "/merchant-logos/skinu-3d58d7e70a21.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ij0d001t84iy7iqoptyj:932a74b8bcda",
+      "merchantId": "cmt79ij0d001t84iy7iqoptyj",
+      "localUrl": "/merchant-logos/sky-express-932a74b8bcda.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jfp900gxq8iymcgwv1qd:cf7e70018693",
+      "merchantId": "cmta1jfp900gxq8iymcgwv1qd",
+      "localUrl": "/merchant-logos/skynn-cf7e70018693.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1mdm800srq8iyuxna4tt5:6a1c083e4bba",
+      "merchantId": "cmta1mdm800srq8iyuxna4tt5",
+      "localUrl": "/merchant-logos/slalomshop-6a1c083e4bba.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1g26j004gq8iyl0gys375:97143b3f19e3",
+      "merchantId": "cmta1g26j004gq8iyl0gys375",
+      "localUrl": "/merchant-logos/slamdunk-97143b3f19e3.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nxxp002254iy4fqx9dbp:7dd8371061d9",
+      "merchantId": "cmta5nxxp002254iy4fqx9dbp",
+      "localUrl": "/merchant-logos/smaragdasart-7dd8371061d9.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1me2v00stq8iybimssuvy:72e9b1dc1dcd",
+      "merchantId": "cmta1me2v00stq8iybimssuvy",
+      "localUrl": "/merchant-logos/smart-tap-72e9b1dc1dcd.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v2xw003p3giyu8im1u2a:ba475fea0e10",
+      "merchantId": "cmtb6v2xw003p3giyu8im1u2a",
+      "localUrl": "/merchant-logos/smarten-ba475fea0e10.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ijgx001y84iyylpm2wtr:8938dfdfad56",
+      "merchantId": "cmt79ijgx001y84iyylpm2wtr",
+      "localUrl": "/merchant-logos/sneaker10-8938dfdfad56.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l3vn00ntq8iyizbeel2s:3fd115e96861",
+      "merchantId": "cmta1l3vn00ntq8iyizbeel2s",
+      "localUrl": "/merchant-logos/snus-bar-3fd115e96861.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v3as003r3giyth2nwn3m:301a5ee1dac8",
+      "merchantId": "cmtb6v3as003r3giyth2nwn3m",
+      "localUrl": "/merchant-logos/soandjos-301a5ee1dac8.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l4c300nvq8iy4s1unv8t:1f3272e85c23",
+      "merchantId": "cmta1l4c300nvq8iy4s1unv8t",
+      "localUrl": "/merchant-logos/solivagant-1f3272e85c23.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nsuk00y9q8iy09tmoh1x:33c0a803a2e1",
+      "merchantId": "cmta1nsuk00y9q8iy09tmoh1x",
+      "localUrl": "/merchant-logos/somacreations-33c0a803a2e1.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jgl400h1q8iy35u741e6:d29f5de96992",
+      "merchantId": "cmta1jgl400h1q8iy35u741e6",
+      "localUrl": "/merchant-logos/sonice-d29f5de96992.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v41u003v3giy9povfqu7:1c9d589036a4",
+      "merchantId": "cmtb6v41u003v3giy9povfqu7",
+      "localUrl": "/merchant-logos/soul-bags-gentle-calm-conscious-1c9d589036a4.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ntep00ybq8iyha4kk4yc:750819a1586e",
+      "merchantId": "cmta1ntep00ybq8iyha4kk4yc",
+      "localUrl": "/merchant-logos/spaniriides-750819a1586e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z3n3003ssciy33d6n6h0:d7c58cceaa99",
+      "merchantId": "cmta4z3n3003ssciy33d6n6h0",
+      "localUrl": "/merchant-logos/spaprive-d7c58cceaa99.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ntws00ydq8iytpb1ictj:2d2d2fc2d955",
+      "merchantId": "cmta1ntws00ydq8iytpb1ictj",
+      "localUrl": "/merchant-logos/spaspanio-2d2d2fc2d955.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jhg700h5q8iyy0dem6g9:bf69fbef120b",
+      "merchantId": "cmta1jhg700h5q8iyy0dem6g9",
+      "localUrl": "/merchant-logos/spitispa-bf69fbef120b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jhwn00h7q8iyoie0h252:7620f8f56ed9",
+      "merchantId": "cmta1jhwn00h7q8iyoie0h252",
+      "localUrl": "/merchant-logos/star-nails-7620f8f56ed9.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62syn002494iygdlwvzav:b9501856d2da",
+      "merchantId": "cmtb62syn002494iygdlwvzav",
+      "localUrl": "/merchant-logos/stellaisland-b9501856d2da.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78bm30073dkiym0hq9504:e46ef00eb176",
+      "merchantId": "cmtb78bm30073dkiym0hq9504",
+      "localUrl": "/merchant-logos/stemalaser-e46ef00eb176.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jidc00h9q8iy2obggbjm:f2f0cb4e1a8a",
+      "merchantId": "cmta1jidc00h9q8iy2obggbjm",
+      "localUrl": "/merchant-logos/stickit-f2f0cb4e1a8a.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jiwh00hbq8iy68u5cibn:41e82426bead",
+      "merchantId": "cmta1jiwh00hbq8iy68u5cibn",
+      "localUrl": "/merchant-logos/sticky-41e82426bead.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jkec00hhq8iymr4c27mz:180dffc025ee",
+      "merchantId": "cmta1jkec00hhq8iymr4c27mz",
+      "localUrl": "/merchant-logos/strata-180dffc025ee.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kchc00kpq8iyp3aywau4:028093727f0c",
+      "merchantId": "cmta1kchc00kpq8iyp3aywau4",
+      "localUrl": "/merchant-logos/studio83-028093727f0c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nuip00yfq8iygmslqv3o:cc157a600714",
+      "merchantId": "cmta1nuip00yfq8iygmslqv3o",
+      "localUrl": "/merchant-logos/studiocalma-cc157a600714.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7r5rt000mu8iytyaeb0ik:b8c21abbced8",
+      "merchantId": "cmtb7r5rt000mu8iytyaeb0ik",
+      "localUrl": "/merchant-logos/summit-gym-b8c21abbced8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77kf4003cdkiycdnd7aw2:c68bb72f3cd3",
+      "merchantId": "cmtb77kf4003cdkiycdnd7aw2",
+      "localUrl": "/merchant-logos/sun-c68bb72f3cd3.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7i56x001e04iynvm4og8k:145e262f6a9a",
+      "merchantId": "cmtb7i56x001e04iynvm4og8k",
+      "localUrl": "/merchant-logos/sunrisemykonos-145e262f6a9a.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l63n00o1q8iyl0i4a7xt:1540f95fe369",
+      "merchantId": "cmta1l63n00o1q8iyl0i4a7xt",
+      "localUrl": "/merchant-logos/tacticalstore-1540f95fe369.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jmn200hpq8iywjlzcjj1:0e667a59506c",
+      "merchantId": "cmta1jmn200hpq8iywjlzcjj1",
+      "localUrl": "/merchant-logos/talosgems-0e667a59506c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nvh400yjq8iywfdwqhvp:0b40f8018565",
+      "merchantId": "cmta1nvh400yjq8iywfdwqhvp",
+      "localUrl": "/merchant-logos/tea-pot-0b40f8018565.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jnoy00htq8iy4o5uwshb:36e1b577bbf8",
+      "merchantId": "cmta1jnoy00htq8iy4o5uwshb",
+      "localUrl": "/merchant-logos/techframe-36e1b577bbf8.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l6jz00o3q8iyo60gyh43:d100ecbadee7",
+      "merchantId": "cmta1l6jz00o3q8iyo60gyh43",
+      "localUrl": "/merchant-logos/tempiholidays-d100ecbadee7.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtikaqo00003csiywsh4i0ff:eb53c88cad01",
+      "merchantId": "cmtikaqo00003csiywsh4i0ff",
+      "localUrl": "/merchant-logos/tennis-garden-eb53c88cad01.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jola00hxq8iy8j3ij91j:987bddf81fb1",
+      "merchantId": "cmta1jola00hxq8iy8j3ij91j",
+      "localUrl": "/merchant-logos/teo-987bddf81fb1.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62u2p002a94iy2osjhs53:8e21a2594c1c",
+      "merchantId": "cmtb62u2p002a94iy2osjhs53",
+      "localUrl": "/merchant-logos/texni-kosmima-8e21a2594c1c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l72n00o5q8iy2ftwdloq:ed7711bc731c",
+      "merchantId": "cmta1l72n00o5q8iy2ftwdloq",
+      "localUrl": "/merchant-logos/thamon-ed7711bc731c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt79ik0w002484iy5xl5wx4y:1861ed6cb0a7",
+      "merchantId": "cmt79ik0w002484iy5xl5wx4y",
+      "localUrl": "/merchant-logos/the-body-shop-1861ed6cb0a7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l7lu00o7q8iy2bo61te5:1671961ee507",
+      "merchantId": "cmta1l7lu00o7q8iy2bo61te5",
+      "localUrl": "/merchant-logos/the-toy-1671961ee507.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jp4a00hzq8iy7lm2bf4t:76e08575b1ec",
+      "merchantId": "cmta1jp4a00hzq8iy7lm2bf4t",
+      "localUrl": "/merchant-logos/thebrands-76e08575b1ec.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jpka00i1q8iy8se1rhuw:080229c8951e",
+      "merchantId": "cmta1jpka00i1q8iy8se1rhuw",
+      "localUrl": "/merchant-logos/thejacketmaker-080229c8951e.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62ufg002c94iyh87qyncn:a99c8522b54c",
+      "merchantId": "cmtb62ufg002c94iyh87qyncn",
+      "localUrl": "/merchant-logos/thejerkins-a99c8522b54c.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m36x00rnq8iy9oo0yjmh:3b521724e9f0",
+      "merchantId": "cmta1m36x00rnq8iy9oo0yjmh",
+      "localUrl": "/merchant-logos/themagicbox-3b521724e9f0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l91x00odq8iy0ga5jfhh:1e919a958c64",
+      "merchantId": "cmta1l91x00odq8iy0ga5jfhh",
+      "localUrl": "/merchant-logos/themassagesuite-1e919a958c64.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f82b001iq8iyewg8e5b5:891d13eee8d8",
+      "merchantId": "cmta1f82b001iq8iyewg8e5b5",
+      "localUrl": "/merchant-logos/theodorou-891d13eee8d8.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1kdj500ktq8iygzvydrdj:d0f64d612252",
+      "merchantId": "cmta1kdj500ktq8iygzvydrdj",
+      "localUrl": "/merchant-logos/thewinezoo-d0f64d612252.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77lik003hdkiy87gxmjpc:94975f60aa54",
+      "merchantId": "cmtb77lik003hdkiy87gxmjpc",
+      "localUrl": "/merchant-logos/gift-voucher-the-amdaproject-language-school-94975f60aa54.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f9en001oq8iyi97gi0pu:e843f4edbe35",
+      "merchantId": "cmta1f9en001oq8iyi97gi0pu",
+      "localUrl": "/merchant-logos/thinkfit-gr-e843f4edbe35.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77lw0003jdkiy1v29atuj:5d5ff206e81f",
+      "merchantId": "cmtb77lw0003jdkiy1v29atuj",
+      "localUrl": "/merchant-logos/threadboutique-5d5ff206e81f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nwdz00ynq8iymil76g6b:5cbe5fe10445",
+      "merchantId": "cmta1nwdz00ynq8iymil76g6b",
+      "localUrl": "/merchant-logos/tirato-5cbe5fe10445.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v67q00473giy0nlkvmxg:1299261a11b0",
+      "merchantId": "cmtb6v67q00473giy0nlkvmxg",
+      "localUrl": "/merchant-logos/toaromatiseftixias-1299261a11b0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1eu4h0000q8iyj2c2hist:bc69f88696aa",
+      "merchantId": "cmta1eu4h0000q8iyj2c2hist",
+      "localUrl": "/merchant-logos/tofarmakeiomou-bc69f88696aa.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77m99003ldkiysbkdb8yp:a05a3971def0",
+      "merchantId": "cmtb77m99003ldkiysbkdb8yp",
+      "localUrl": "/merchant-logos/tokopeli-a05a3971def0.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1js3e00ibq8iyb1y3ovdc:17de647e2edb",
+      "merchantId": "cmta1js3e00ibq8iyb1y3ovdc",
+      "localUrl": "/merchant-logos/toolman-17de647e2edb.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77mmc003ndkiyzbzlikcd:3e268651422b",
+      "merchantId": "cmtb77mmc003ndkiyzbzlikcd",
+      "localUrl": "/merchant-logos/toolsmania-3e268651422b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1f6r7001cq8iyzdcvwy4u:aa4be5f6f9b4",
+      "merchantId": "cmta1f6r7001cq8iyzdcvwy4u",
+      "localUrl": "/merchant-logos/top-style-aa4be5f6f9b4.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77mzs003pdkiyc12og14q:ed9185adc982",
+      "merchantId": "cmtb77mzs003pdkiyc12og14q",
+      "localUrl": "/merchant-logos/topgreekwines-ed9185adc982.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fac7001sq8iyd2v8yrai:a4e03cd9d4b2",
+      "merchantId": "cmta1fac7001sq8iyd2v8yrai",
+      "localUrl": "/merchant-logos/toys-and-gifts-a4e03cd9d4b2.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nymy002554iydwpf6kus:f7a075bb22ed",
+      "merchantId": "cmta5nymy002554iydwpf6kus",
+      "localUrl": "/merchant-logos/toys-gr-f7a075bb22ed.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1m48h00rrq8iyu405lopv:25b504f7b75f",
+      "merchantId": "cmta1m48h00rrq8iyu405lopv",
+      "localUrl": "/merchant-logos/traisto-25b504f7b75f.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z52g003ysciyahwbipxh:10f62f6a6ae1",
+      "merchantId": "cmta4z52g003ysciyahwbipxh",
+      "localUrl": "/merchant-logos/trapped-10f62f6a6ae1.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77ncn003rdkiyfsaebr8n:9f1101f9fe2d",
+      "merchantId": "cmtb77ncn003rdkiyfsaebr8n",
+      "localUrl": "/merchant-logos/tresjoli-9f1101f9fe2d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77nrs003tdkiymcao32ux:f187db891a81",
+      "merchantId": "cmtb77nrs003tdkiymcao32ux",
+      "localUrl": "/merchant-logos/trimis-f187db891a81.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gybe007jq8iyd7zssi5o:f5dc2bf7d9a4",
+      "merchantId": "cmta1gybe007jq8iyd7zssi5o",
+      "localUrl": "/merchant-logos/trouvaille-f5dc2bf7d9a4.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1ke3c00kvq8iyl66mcec4:7f62862a6554",
+      "merchantId": "cmta1ke3c00kvq8iyl66mcec4",
+      "localUrl": "/merchant-logos/tsakalino-7f62862a6554.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77o6f003vdkiysq2nbo5o:f8535f5ed536",
+      "merchantId": "cmtb77o6f003vdkiysq2nbo5o",
+      "localUrl": "/merchant-logos/tsiantakishome-f8535f5ed536.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gz87007nq8iydaf9y7oo:293438a7d8bb",
+      "merchantId": "cmta1gz87007nq8iydaf9y7oo",
+      "localUrl": "/merchant-logos/tsinekidis-293438a7d8bb.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gzon007pq8iye4ky8f6l:fc5f13c0e33e",
+      "merchantId": "cmta1gzon007pq8iye4ky8f6l",
+      "localUrl": "/merchant-logos/tuasolea-fc5f13c0e33e.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jska00idq8iyoro6mc23:559ca8716be7",
+      "merchantId": "cmta1jska00idq8iyoro6mc23",
+      "localUrl": "/merchant-logos/turritella-559ca8716be7.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1l9yp00ohq8iyaep7aza2:e178e01c1a38",
+      "merchantId": "cmta1l9yp00ohq8iyaep7aza2",
+      "localUrl": "/merchant-logos/twininas-e178e01c1a38.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jt0y00ifq8iydzqgehjo:d0944b171957",
+      "merchantId": "cmta1jt0y00ifq8iydzqgehjo",
+      "localUrl": "/merchant-logos/urban-nomad-d0944b171957.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z6no0044sciyjjoozxtn:8e015a90e9ad",
+      "merchantId": "cmta4z6no0044sciyjjoozxtn",
+      "localUrl": "/merchant-logos/valaora-8e015a90e9ad.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77ow4003zdkiyxwfwp2jk:206c99238c61",
+      "merchantId": "cmtb77ow4003zdkiyxwfwp2jk",
+      "localUrl": "/merchant-logos/name-day-gift-card-206c99238c61.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z75s0046sciy8krzlk3m:fac1698531d6",
+      "merchantId": "cmta4z75s0046sciy8krzlk3m",
+      "localUrl": "/merchant-logos/vassilenas-fac1698531d6.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k2f300jjq8iyus36ufey:8cad1cf78021",
+      "merchantId": "cmta1k2f300jjq8iyus36ufey",
+      "localUrl": "/merchant-logos/vavoulistours-8cad1cf78021.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jui500ilq8iyle3he9fw:b5bf3784538c",
+      "merchantId": "cmta1jui500ilq8iyle3he9fw",
+      "localUrl": "/merchant-logos/veel-b5bf3784538c.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77pls0043dkiy7d0f0hyj:9e34bfb0fc7a",
+      "merchantId": "cmtb77pls0043dkiy7d0f0hyj",
+      "localUrl": "/merchant-logos/vinoteca-9e34bfb0fc7a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nys900yxq8iye6g35elk:9500289f2e8c",
+      "merchantId": "cmta1nys900yxq8iye6g35elk",
+      "localUrl": "/merchant-logos/vinylartclothing-9500289f2e8c.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hva7000004iyrpeaoyzv:c20abe9cc0c1",
+      "merchantId": "cmtb7hva7000004iyrpeaoyzv",
+      "localUrl": "/merchant-logos/virtual-reality-athens-c20abe9cc0c1.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lnka00pzq8iy3xryrxgx:a6ac6c86098d",
+      "merchantId": "cmta1lnka00pzq8iy3xryrxgx",
+      "localUrl": "/merchant-logos/vizadinigonia-a6ac6c86098d.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nzqx002b54iyjbin14o4:f8e23f122abc",
+      "merchantId": "cmta5nzqx002b54iyjbin14o4",
+      "localUrl": "/merchant-logos/de-30-waragod-f8e23f122abc.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h0zy007vq8iymjdaikvf:c473749988d7",
+      "merchantId": "cmta1h0zy007vq8iymjdaikvf",
+      "localUrl": "/merchant-logos/websupplies-c473749988d7.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77pzf0045dkiywazx8oxp:efea2e4826d4",
+      "merchantId": "cmtb77pzf0045dkiywazx8oxp",
+      "localUrl": "/merchant-logos/wedding-day-efea2e4826d4.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k2vw00jlq8iy0gndm22x:7ef31ce0cdf0",
+      "merchantId": "cmta1k2vw00jlq8iy0gndm22x",
+      "localUrl": "/merchant-logos/wine24shop-7ef31ce0cdf0.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lbch00onq8iyqs6rtxeu:57c0cdbd46aa",
+      "merchantId": "cmta1lbch00onq8iyqs6rtxeu",
+      "localUrl": "/merchant-logos/wokshop-57c0cdbd46aa.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lfvh00p5q8iygw2r78qv:b667ebf82229",
+      "merchantId": "cmta1lfvh00p5q8iygw2r78qv",
+      "localUrl": "/merchant-logos/woodyline-b667ebf82229.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jxs200izq8iy28mb6pfr:649a65a70910",
+      "merchantId": "cmta1jxs200izq8iy28mb6pfr",
+      "localUrl": "/merchant-logos/wspc-649a65a70910.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1lo7o00q1q8iy0i2qm59g:8b01c4b62a11",
+      "merchantId": "cmta1lo7o00q1q8iy0i2qm59g",
+      "localUrl": "/merchant-logos/xeiroplathi-8b01c4b62a11.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h1ec007xq8iyzkau2j3p:4db95b8ee0b7",
+      "merchantId": "cmta1h1ec007xq8iyzkau2j3p",
+      "localUrl": "/merchant-logos/xryseio-4db95b8ee0b7.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1h1se007zq8iyy88yfyvw:58a58731464e",
+      "merchantId": "cmta1h1se007zq8iyy88yfyvw",
+      "localUrl": "/merchant-logos/xxlove-58a58731464e.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fxv80042q8iyke2lmo2y:ea967d2a046b",
+      "merchantId": "cmta1fxv80042q8iyke2lmo2y",
+      "localUrl": "/merchant-logos/xxxl-leo-ea967d2a046b.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4z96k004esciyy0awvqwr:adc1e6e37a13",
+      "merchantId": "cmta4z96k004esciyy0awvqwr",
+      "localUrl": "/merchant-logos/yadeshotels-adc1e6e37a13.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1jyov00j3q8iy67j6xwig:b72650bbd32f",
+      "merchantId": "cmta1jyov00j3q8iy67j6xwig",
+      "localUrl": "/merchant-logos/yellowstars-b72650bbd32f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77yq5005edkiyr4glk0s1:d926ea009aed",
+      "merchantId": "cmtb77yq5005edkiyr4glk0s1",
+      "localUrl": "/merchant-logos/younails-d926ea009aed.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nzvg00z1q8iylezj7e09:a5d9ced48e80",
+      "merchantId": "cmta1nzvg00z1q8iylezj7e09",
+      "localUrl": "/merchant-logos/yourdigitalcourses-a5d9ced48e80.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1fu2m003oq8iy4ozx9tlx:4e87bcdebab7",
+      "merchantId": "cmta1fu2m003oq8iy4ozx9tlx",
+      "localUrl": "/merchant-logos/z-ergaleia-4e87bcdebab7.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78dwy007fdkiyd2xzj5l1:96282e035147",
+      "merchantId": "cmtb78dwy007fdkiyd2xzj5l1",
+      "localUrl": "/merchant-logos/gift-voucher-100-eur-96282e035147.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmt8gzx4s000514iyyjmubbja:c94156993d8e",
+      "merchantId": "cmt8gzx4s000514iyyjmubbja",
+      "localUrl": "/merchant-logos/zakcret-c94156993d8e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1k02b00j9q8iyv38rf8g8:96f4a0edab2c",
+      "merchantId": "cmta1k02b00j9q8iyv38rf8g8",
+      "localUrl": "/merchant-logos/zoniou-96f4a0edab2c.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v8rz004l3giyqchbmolt:0a68389c228f",
+      "merchantId": "cmtb6v8rz004l3giyqchbmolt",
+      "localUrl": "/merchant-logos/zooparadise-0a68389c228f.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb7hw5h000404iy4xfknmsr:885228e19aff",
+      "merchantId": "cmtb7hw5h000404iy4xfknmsr",
+      "localUrl": "/merchant-logos/zuma-mykonos-885228e19aff.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1gfio005pq8iyhnk8uqth:d112dc6f4390",
+      "merchantId": "cmta1gfio005pq8iyhnk8uqth",
+      "localUrl": "/merchant-logos/zumbashop-d112dc6f4390.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb780lh005odkiyslzjq17k:dcb34ffd9369",
+      "merchantId": "cmtb780lh005odkiyslzjq17k",
+      "localUrl": "/merchant-logos/merchant-dcb34ffd9369.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6upwi001r3giymvuh6njo:381b5a2e8d24",
+      "merchantId": "cmtb6upwi001r3giymvuh6njo",
+      "localUrl": "/merchant-logos/gifts-4-all-381b5a2e8d24.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta5nul9001k54iy3hr1m5se:0aec4ab7491a",
+      "merchantId": "cmta5nul9001k54iy3hr1m5se",
+      "localUrl": "/merchant-logos/naloo-beauty-bar-0aec4ab7491a.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77w4e0050dkiy7yigzns3:cbcd3c0c8e1a",
+      "merchantId": "cmtb77w4e0050dkiy7yigzns3",
+      "localUrl": "/merchant-logos/merchant-cbcd3c0c8e1a.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb786u2006hdkiyonu3jl9k:eafef83d2b6e",
+      "merchantId": "cmtb786u2006hdkiyonu3jl9k",
+      "localUrl": "/merchant-logos/2-eafef83d2b6e.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb62tp4002894iya2x79xoi:71b42ff29afb",
+      "merchantId": "cmtb62tp4002894iya2x79xoi",
+      "localUrl": "/merchant-logos/teleioplayroom-gr-71b42ff29afb.avif"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78cdp0077dkiyetcw4w0c:54fe3c2acf8c",
+      "merchantId": "cmtb78cdp0077dkiyetcw4w0c",
+      "localUrl": "/merchant-logos/merchant-54fe3c2acf8c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb789nc006vdkiyyrzeqiov:244cf8cc9afd",
+      "merchantId": "cmtb789nc006vdkiyyrzeqiov",
+      "localUrl": "/merchant-logos/2-244cf8cc9afd.webp"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4yyrf0038sciyxex3eik0:047df9d95187",
+      "merchantId": "cmta4yyrf0038sciyxex3eik0",
+      "localUrl": "/merchant-logos/patousaki-shoes-047df9d95187.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ya8v000esciy4fwqlr55:8ddb90fe0f99",
+      "merchantId": "cmta4ya8v000esciy4fwqlr55",
+      "localUrl": "/merchant-logos/best-wines-best-wines-8ddb90fe0f99.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ywgf002ysciysp63rctm:d69d9eed5e93",
+      "merchantId": "cmta4ywgf002ysciysp63rctm",
+      "localUrl": "/merchant-logos/mybeautybox-d69d9eed5e93.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta4ydov000ssciyj77w8hqs:cf56d428c151",
+      "merchantId": "cmta4ydov000ssciyj77w8hqs",
+      "localUrl": "/merchant-logos/cityzen-cf56d428c151.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb773w5000ydkiy24myi3xq:55303a61a107",
+      "merchantId": "cmtb773w5000ydkiy24myi3xq",
+      "localUrl": "/merchant-logos/candles-55303a61a107.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6v0pz003d3giypgi6p23y:0dfa4cdcf73c",
+      "merchantId": "cmtb6v0pz003d3giypgi6p23y",
+      "localUrl": "/merchant-logos/plantoys-0dfa4cdcf73c.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb78eo2007jdkiyv91rvm80:51c5c750cb12",
+      "merchantId": "cmtb78eo2007jdkiyv91rvm80",
+      "localUrl": "/merchant-logos/physis-51c5c750cb12.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77i700030dkiywamhlbp4:836f447e3f5f",
+      "merchantId": "cmtb77i700030dkiywamhlbp4",
+      "localUrl": "/merchant-logos/merchant-836f447e3f5f.svg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77aig001wdkiyv9taxv5p:d926aa3f03da",
+      "merchantId": "cmtb77aig001wdkiyv9taxv5p",
+      "localUrl": "/merchant-logos/outdoor-d926aa3f03da.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb771uj000odkiywhfjulaj:dd4b90349586",
+      "merchantId": "cmtb771uj000odkiywhfjulaj",
+      "localUrl": "/merchant-logos/merchant-dd4b90349586.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb77ojh003xdkiy4cwko7oy:0445af60da0d",
+      "merchantId": "cmtb77ojh003xdkiy4cwko7oy",
+      "localUrl": "/merchant-logos/300-0445af60da0d.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmtb6um3e00183giyblwki1yw:090caf942cee",
+      "merchantId": "cmtb6um3e00183giyblwki1yw",
+      "localUrl": "/merchant-logos/district75-090caf942cee.png"
+    }
+  ]
+}

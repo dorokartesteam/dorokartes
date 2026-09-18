@@ -1,0 +1,229 @@
+
+/* ==========================================================================
+   Dorokartes Public v1.7 — LOCKED MOBILE HERO
+   Mobile visual is intentionally frozen to the supplied reference image.
+   ========================================================================== */
+
+.dk17-hero{
+  padding:28px 0 66px;
+  background:
+    radial-gradient(circle at 8% 0,rgba(95,143,240,.10),transparent 28%),
+    radial-gradient(circle at 92% 2%,rgba(239,103,167,.10),transparent 28%),
+    #f8f9fc;
+}
+
+.dk17-shell{
+  width:min(1320px,calc(100% - 36px));
+  margin:0 auto;
+}
+
+.dk17-mobile{
+  display:none;
+}
+
+/* DESKTOP HERO */
+.dk17-banner-wrap{
+  position:relative;
+  aspect-ratio:1536/1024;
+  min-height:500px;
+  max-height:760px;
+  overflow:hidden;
+  border-radius:30px;
+  background:#081c5b;
+  box-shadow:0 30px 90px rgba(9,31,91,.22);
+}
+
+.dk17-banner{
+  object-fit:cover;
+  object-position:center;
+}
+
+.dk17-banner-shade{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 52%,rgba(4,10,32,.72) 100%);
+  pointer-events:none;
+}
+
+.dk17-banner-actions{
+  position:absolute;
+  left:34px;
+  right:34px;
+  bottom:30px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  color:#fff;
+}
+
+.dk17-banner-copy{
+  max-width:630px;
+}
+
+.dk17-banner-copy>span{
+  display:block;
+  margin-bottom:7px;
+  color:#c8d5ff;
+  font-size:9px;
+  font-weight:850;
+  letter-spacing:.14em;
+}
+
+.dk17-banner-copy>strong{
+  display:block;
+  font-size:30px;
+  line-height:1.08;
+  letter-spacing:-.035em;
+}
+
+.dk17-banner-copy>p{
+  margin:8px 0 0;
+  max-width:580px;
+  color:#dbe4ff;
+  font-size:12px;
+  line-height:1.6;
+}
+
+.dk17-banner-cta{
+  min-height:48px;
+  display:inline-flex;
+  align-items:center;
+  gap:18px;
+  padding:0 18px;
+  border-radius:14px;
+  background:#fff;
+  color:#12172c!important;
+  font-size:11px;
+  font-weight:760;
+  box-shadow:0 12px 30px rgba(0,0,0,.18);
+  white-space:nowrap;
+}
+
+.dk17-search-panel{
+  position:relative;
+  width:min(1050px,calc(100% - 48px));
+  margin:-34px auto 0;
+  padding:26px;
+  border:1px solid #e1e3ec;
+  border-radius:24px;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 24px 65px rgba(35,31,64,.14);
+  backdrop-filter:blur(14px);
+  z-index:3;
+}
+
+.dk17-search-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  margin-bottom:18px;
+}
+
+.dk17-search-head>div:first-child>span{
+  display:block;
+  color:#745ad8;
+  font-size:9px;
+  font-weight:850;
+  letter-spacing:.12em;
+}
+
+.dk17-search-head h1{
+  margin:5px 0 0;
+  font-size:30px;
+  line-height:1.1;
+  letter-spacing:-.04em;
+}
+
+.dk17-search-proof{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.dk17-search-proof>div{
+  min-width:88px;
+  padding-left:18px;
+  border-left:1px solid #e6e7ee;
+}
+
+.dk17-search-proof b{
+  display:block;
+  font-size:19px;
+  line-height:1;
+}
+
+.dk17-search-proof span{
+  display:block;
+  margin-top:4px;
+  color:#8c93a2;
+  font-size:9px;
+}
+
+.dk17-search-panel .dk14-search{
+  margin-top:0!important;
+  width:100%!important;
+}
+
+.dk17-quick{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin-top:13px;
+}
+
+.dk17-quick a{
+  min-height:31px;
+  display:inline-flex;
+  align-items:center;
+  padding:0 11px;
+  border:1px solid #e2e3eb;
+  border-radius:999px;
+  background:#f8f8fb;
+  color:#6b7382;
+  font-size:9px;
+  font-weight:650;
+}
+
+/* EXACT MOBILE LOCK */
+@media(max-width:760px){
+  .dk17-hero{
+    padding:0;
+    background:#07184d;
+  }
+
+  .dk17-shell{
+    width:100%;
+    margin:0;
+  }
+
+  .dk17-desktop{
+    display:none!important;
+  }
+
+  .dk17-mobile{
+    position:relative;
+    display:block!important;
+    width:100%;
+    overflow:hidden;
+    background:#07184d;
+  }
+
+  .dk17-mobile-image{
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    max-width:none!important;
+    margin:0!important;
+    object-fit:contain!important;
+  }
+
+  /* Invisible full-area link preserves exact visual while making it actionable */
+  .dk17-mobile-hotspot{
+    position:absolute;
+    inset:0;
+    z-index:2;
+    background:transparent;
+  }
+}

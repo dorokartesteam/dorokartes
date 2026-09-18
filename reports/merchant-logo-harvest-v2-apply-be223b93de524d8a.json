@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T19:03:12.039Z",
+  "planId": "be223b93de524d8a1a75fe254cf700153db78aca3cc0339ba7825d0e35eb0170",
+  "appliedCount": 1,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb6uygv00313giyphdd4xl4:0efef51c2ad5",
+      "merchantId": "cmtb6uygv00313giyphdd4xl4",
+      "localUrl": "/merchant-logos/nativis-0efef51c2ad5.avif"
+    }
+  ]
+}

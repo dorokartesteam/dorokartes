@@ -1,0 +1,90 @@
+{
+  "version": 14,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-02T09:16:14.769Z",
+  "planId": "4021400943ab2a6f9ed6bce386e628783f9659fba57962cc1718a426ef289643",
+  "checked": 13,
+  "passed": 13,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "actionId": "connect-verified-occasion:cmtb77bgd0021dkiyy3u2x8qn:fathers-day",
+      "cardId": "cmtb77bgd0021dkiyy3u2x8qn",
+      "type": "CONNECT_OCCASION",
+      "passed": true
+    },
+    {
+      "actionId": "connect-verified-occasion:cmtb77p0o0040dkiyr700iran:name-day",
+      "cardId": "cmtb77p0o0040dkiyr700iran",
+      "type": "CONNECT_OCCASION",
+      "passed": true
+    },
+    {
+      "actionId": "connect-verified-occasion:cmtb77qi60048dkiyu8khlp3s:valentines",
+      "cardId": "cmtb77qi60048dkiyu8khlp3s",
+      "type": "CONNECT_OCCASION",
+      "passed": true
+    },
+    {
+      "actionId": "connect-verified-occasion:cmtb77uej004rdkiydqqx9ujt:mothers-day",
+      "cardId": "cmtb77uej004rdkiydqqx9ujt",
+      "type": "CONNECT_OCCASION",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmta4z4qr003xsciyykm8w59d",
+      "cardId": "cmta4z4qr003xsciyykm8w59d",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb6uqep001u3giya6xdb0l8",
+      "cardId": "cmtb6uqep001u3giya6xdb0l8",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb6urib00203giyzhdgmnv4",
+      "cardId": "cmtb6urib00203giyzhdgmnv4",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77ckx0027dkiyltinns4m",
+      "cardId": "cmtb77ckx0027dkiyltinns4m",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77r83004bdkiycl9k0utt",
+      "cardId": "cmtb77r83004bdkiycl9k0utt",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb77yht005ddkiykt4vsu49",
+      "cardId": "cmtb77yht005ddkiykt4vsu49",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb7hxhc000b04iy3qi3vpga",
+      "cardId": "cmtb7hxhc000b04iy3qi3vpga",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "create-verified-variant:cmtb7i474001904iye9qfchj3",
+      "cardId": "cmtb7i474001904iye9qfchj3",
+      "type": "CREATE_VARIANT",
+      "passed": true
+    },
+    {
+      "actionId": "update-verified-url:cmtb7769p001bdkiyujfcxt1s",
+      "cardId": "cmtb7769p001bdkiyujfcxt1s",
+      "type": "UPDATE_OFFICIAL_URL",
+      "passed": true
+    }
+  ]
+}

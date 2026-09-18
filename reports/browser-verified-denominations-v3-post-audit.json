@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-07T08:02:15.592Z",
+  "planId": "bfb1aeae67a14115e52f1557136776161f6790015e66dcc49ae696ec3378a983",
+  "checked": 4,
+  "passed": 4,
+  "failed": 0,
+  "databaseWrites": 0,
+  "results": [
+    {
+      "cardId": "cmta4ybyz000lsciyi05bqwwl",
+      "merchantId": "cmta4ybsv000ksciy2wk84kj0",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Candlejuice",
+        "merchantSlug": "candlejuice",
+        "cardSlug": "candlejuice-δωροκαρτα-candlejuice-gift-card-100",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmtb78fkx007odkiylrl8o7it",
+      "merchantId": "cmtb78ffp007ndkiyn4woc6vx",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Hobbywood",
+        "merchantSlug": "δωροκαρτα-100",
+        "cardSlug": "δωροκαρτα-100-δωροκαρτα-100",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmta5nw9j001t54iybpluaasg",
+      "merchantId": "cmta5nw46001s54iy628m45ik",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Poem Luxury",
+        "merchantSlug": "poem-luxury-100",
+        "cardSlug": "poem-luxury-100-δωροκαρτα-poem-luxury-100",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "cardId": "cmtb77ob5003wdkiyrw1g9la4",
+      "merchantId": "cmtb77o6f003vdkiysq2nbo5o",
+      "passed": true,
+      "preserved": {
+        "merchantName": "Tsiantakishome",
+        "merchantSlug": "tsiantakishome",
+        "cardSlug": "tsiantakishome-δωροκαρτα-40",
+        "status": "ACTIVE"
+      }
+    }
+  ]
+}

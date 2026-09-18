@@ -1,0 +1,2 @@
+﻿status,merchantId,merchantName,merchantSlug,websiteUrl,finalWebsiteUrl,reasonCodes,candidateSource,candidateScore,candidateUrl,evidence,sha256,width,height,bytes
+REVIEW,cmt8fb4oz000o6kiylq2ujw83,Sephora,sephora,https://giftcard.sephora.gr,https://giftcard.sephora.gr/,OPERATOR_CURATED_SOURCE_REJECTED|ASSET_FETCH_FAILED,HEADER_IMAGE,334,https://giftcard.sephora.gr/merchant/logo.png,OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET,,,,

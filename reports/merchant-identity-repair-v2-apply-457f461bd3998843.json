@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-07T07:20:34.906Z",
+  "planId": "457f461bd3998843aa449b586111e3842ecbc5978d26a4de4d3267ca59a8e11c",
+  "targetCount": 30,
+  "appliedActions": 60,
+  "changedFields": [
+    "Merchant.name",
+    "GiftCard.title"
+  ],
+  "unchangedFields": [
+    "Merchant.slug",
+    "Merchant.websiteUrl",
+    "GiftCard.slug",
+    "GiftCard.officialUrl"
+  ]
+}

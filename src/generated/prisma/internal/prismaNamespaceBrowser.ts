@@ -52,7 +52,9 @@ export const AnyNull = runtime.AnyNull
 
 export const ModelName = {
   Merchant: 'Merchant',
+  MerchantLocation: 'MerchantLocation',
   GiftCard: 'GiftCard',
+  GiftCardLocationCapability: 'GiftCardLocationCapability',
   GiftCardVariant: 'GiftCardVariant',
   GiftCardValue: 'GiftCardValue',
   GiftCardRedemption: 'GiftCardRedemption',
@@ -63,12 +65,23 @@ export const ModelName = {
   GiftCardOccasion: 'GiftCardOccasion',
   SourceRecord: 'SourceRecord',
   DiscoveryItem: 'DiscoveryItem',
+  ManualCanonicalOverride: 'ManualCanonicalOverride',
+  ScoringModelVersion: 'ScoringModelVersion',
+  CanonicalizationRun: 'CanonicalizationRun',
+  CanonicalizationDecision: 'CanonicalizationDecision',
+  DiscoveryVerificationAttempt: 'DiscoveryVerificationAttempt',
+  ManualVerificationOverride: 'ManualVerificationOverride',
+  DomainRediscoveryTask: 'DomainRediscoveryTask',
+  VerificationFetchObservation: 'VerificationFetchObservation',
+  ProductionReviewFlag: 'ProductionReviewFlag',
+  ProductionVerificationSnapshot: 'ProductionVerificationSnapshot',
   VerificationEvent: 'VerificationEvent',
   MediaAsset: 'MediaAsset',
   OutboundClick: 'OutboundClick',
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
-  SearchEvent: 'SearchEvent'
+  SearchEvent: 'SearchEvent',
+  MerchantDiscoveryScan: 'MerchantDiscoveryScan'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -108,6 +121,32 @@ export const MerchantScalarFieldEnum = {
 export type MerchantScalarFieldEnum = (typeof MerchantScalarFieldEnum)[keyof typeof MerchantScalarFieldEnum]
 
 
+export const MerchantLocationScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  label: 'label',
+  countryCode: 'countryCode',
+  administrativeArea: 'administrativeArea',
+  city: 'city',
+  area: 'area',
+  addressLine: 'addressLine',
+  postalCode: 'postalCode',
+  latitude: 'latitude',
+  longitude: 'longitude',
+  normalizedKey: 'normalizedKey',
+  sourceUrl: 'sourceUrl',
+  sourceExcerpt: 'sourceExcerpt',
+  active: 'active',
+  verificationStatus: 'verificationStatus',
+  lastVerifiedAt: 'lastVerifiedAt',
+  nextReviewAt: 'nextReviewAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantLocationScalarFieldEnum = (typeof MerchantLocationScalarFieldEnum)[keyof typeof MerchantLocationScalarFieldEnum]
+
+
 export const GiftCardScalarFieldEnum = {
   id: 'id',
   merchantId: 'merchantId',
@@ -133,6 +172,23 @@ export const GiftCardScalarFieldEnum = {
 } as const
 
 export type GiftCardScalarFieldEnum = (typeof GiftCardScalarFieldEnum)[keyof typeof GiftCardScalarFieldEnum]
+
+
+export const GiftCardLocationCapabilityScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  merchantLocationId: 'merchantLocationId',
+  capability: 'capability',
+  available: 'available',
+  verificationStatus: 'verificationStatus',
+  sourceUrl: 'sourceUrl',
+  sourceExcerpt: 'sourceExcerpt',
+  lastVerifiedAt: 'lastVerifiedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type GiftCardLocationCapabilityScalarFieldEnum = (typeof GiftCardLocationCapabilityScalarFieldEnum)[keyof typeof GiftCardLocationCapabilityScalarFieldEnum]
 
 
 export const GiftCardVariantScalarFieldEnum = {
@@ -275,6 +331,173 @@ export const DiscoveryItemScalarFieldEnum = {
 export type DiscoveryItemScalarFieldEnum = (typeof DiscoveryItemScalarFieldEnum)[keyof typeof DiscoveryItemScalarFieldEnum]
 
 
+export const ManualCanonicalOverrideScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  forcedUrl: 'forcedUrl',
+  forcedMerchantName: 'forcedMerchantName',
+  reason: 'reason',
+  setBy: 'setBy',
+  active: 'active',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type ManualCanonicalOverrideScalarFieldEnum = (typeof ManualCanonicalOverrideScalarFieldEnum)[keyof typeof ManualCanonicalOverrideScalarFieldEnum]
+
+
+export const ScoringModelVersionScalarFieldEnum = {
+  id: 'id',
+  key: 'key',
+  description: 'description',
+  config: 'config',
+  active: 'active',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type ScoringModelVersionScalarFieldEnum = (typeof ScoringModelVersionScalarFieldEnum)[keyof typeof ScoringModelVersionScalarFieldEnum]
+
+
+export const CanonicalizationRunScalarFieldEnum = {
+  id: 'id',
+  scoringModelKey: 'scoringModelKey',
+  dryRun: 'dryRun',
+  startedAt: 'startedAt',
+  finishedAt: 'finishedAt',
+  domainsProcessed: 'domainsProcessed',
+  winnersSelected: 'winnersSelected',
+  overridesApplied: 'overridesApplied',
+  errors: 'errors',
+  notes: 'notes'
+} as const
+
+export type CanonicalizationRunScalarFieldEnum = (typeof CanonicalizationRunScalarFieldEnum)[keyof typeof CanonicalizationRunScalarFieldEnum]
+
+
+export const CanonicalizationDecisionScalarFieldEnum = {
+  id: 'id',
+  runId: 'runId',
+  merchantDomain: 'merchantDomain',
+  candidateUrl: 'candidateUrl',
+  candidateKind: 'candidateKind',
+  score: 'score',
+  selected: 'selected',
+  overrideApplied: 'overrideApplied',
+  reasonCodes: 'reasonCodes',
+  notes: 'notes',
+  createdAt: 'createdAt'
+} as const
+
+export type CanonicalizationDecisionScalarFieldEnum = (typeof CanonicalizationDecisionScalarFieldEnum)[keyof typeof CanonicalizationDecisionScalarFieldEnum]
+
+
+export const DiscoveryVerificationAttemptScalarFieldEnum = {
+  id: 'id',
+  discoveryItemId: 'discoveryItemId',
+  method: 'method',
+  result: 'result',
+  pageRole: 'pageRole',
+  requestedUrl: 'requestedUrl',
+  finalUrl: 'finalUrl',
+  httpStatus: 'httpStatus',
+  confidence: 'confidence',
+  modelName: 'modelName',
+  promptVersion: 'promptVersion',
+  contentHash: 'contentHash',
+  temperature: 'temperature',
+  inputTokens: 'inputTokens',
+  outputTokens: 'outputTokens',
+  totalTokens: 'totalTokens',
+  cacheHit: 'cacheHit',
+  reasonCodes: 'reasonCodes',
+  evidence: 'evidence',
+  errorMessage: 'errorMessage',
+  checkedAt: 'checkedAt'
+} as const
+
+export type DiscoveryVerificationAttemptScalarFieldEnum = (typeof DiscoveryVerificationAttemptScalarFieldEnum)[keyof typeof DiscoveryVerificationAttemptScalarFieldEnum]
+
+
+export const ManualVerificationOverrideScalarFieldEnum = {
+  id: 'id',
+  sourceUrl: 'sourceUrl',
+  forcedStatus: 'forcedStatus',
+  forcedPageRole: 'forcedPageRole',
+  forcedMerchantName: 'forcedMerchantName',
+  reason: 'reason',
+  setBy: 'setBy',
+  contentHash: 'contentHash',
+  lockUntilContentChanges: 'lockUntilContentChanges',
+  active: 'active',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type ManualVerificationOverrideScalarFieldEnum = (typeof ManualVerificationOverrideScalarFieldEnum)[keyof typeof ManualVerificationOverrideScalarFieldEnum]
+
+
+export const DomainRediscoveryTaskScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  merchantName: 'merchantName',
+  triggerUrl: 'triggerUrl',
+  triggerReason: 'triggerReason',
+  status: 'status',
+  attempts: 'attempts',
+  lastAttemptAt: 'lastAttemptAt',
+  resolvedUrl: 'resolvedUrl',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type DomainRediscoveryTaskScalarFieldEnum = (typeof DomainRediscoveryTaskScalarFieldEnum)[keyof typeof DomainRediscoveryTaskScalarFieldEnum]
+
+
+export const VerificationFetchObservationScalarFieldEnum = {
+  id: 'id',
+  discoveryItemId: 'discoveryItemId',
+  preflightKind: 'preflightKind',
+  contentHash: 'contentHash',
+  httpStatus: 'httpStatus',
+  fetchTier: 'fetchTier',
+  observedAt: 'observedAt'
+} as const
+
+export type VerificationFetchObservationScalarFieldEnum = (typeof VerificationFetchObservationScalarFieldEnum)[keyof typeof VerificationFetchObservationScalarFieldEnum]
+
+
+export const ProductionReviewFlagScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  type: 'type',
+  status: 'status',
+  oldValue: 'oldValue',
+  newValue: 'newValue',
+  reason: 'reason',
+  createdAt: 'createdAt',
+  resolvedAt: 'resolvedAt'
+} as const
+
+export type ProductionReviewFlagScalarFieldEnum = (typeof ProductionReviewFlagScalarFieldEnum)[keyof typeof ProductionReviewFlagScalarFieldEnum]
+
+
+export const ProductionVerificationSnapshotScalarFieldEnum = {
+  id: 'id',
+  giftCardId: 'giftCardId',
+  officialUrl: 'officialUrl',
+  contentHash: 'contentHash',
+  pageRole: 'pageRole',
+  httpStatus: 'httpStatus',
+  fetchTier: 'fetchTier',
+  preflightKind: 'preflightKind',
+  source: 'source',
+  observedAt: 'observedAt'
+} as const
+
+export type ProductionVerificationSnapshotScalarFieldEnum = (typeof ProductionVerificationSnapshotScalarFieldEnum)[keyof typeof ProductionVerificationSnapshotScalarFieldEnum]
+
+
 export const VerificationEventScalarFieldEnum = {
   id: 'id',
   giftCardId: 'giftCardId',
@@ -366,12 +589,37 @@ export const SearchEventScalarFieldEnum = {
 export type SearchEventScalarFieldEnum = (typeof SearchEventScalarFieldEnum)[keyof typeof SearchEventScalarFieldEnum]
 
 
+export const MerchantDiscoveryScanScalarFieldEnum = {
+  id: 'id',
+  merchantDomain: 'merchantDomain',
+  merchantName: 'merchantName',
+  websiteUrl: 'websiteUrl',
+  category: 'category',
+  status: 'status',
+  candidateCount: 'candidateCount',
+  requestCount: 'requestCount',
+  lastError: 'lastError',
+  lastScannedAt: 'lastScannedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantDiscoveryScanScalarFieldEnum = (typeof MerchantDiscoveryScanScalarFieldEnum)[keyof typeof MerchantDiscoveryScanScalarFieldEnum]
+
+
 export const SortOrder = {
   asc: 'asc',
   desc: 'desc'
 } as const
 
 export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
+
+
+export const JsonNullValueInput = {
+  JsonNull: JsonNull
+} as const
+
+export type JsonNullValueInput = (typeof JsonNullValueInput)[keyof typeof JsonNullValueInput]
 
 
 export const QueryMode = {
@@ -388,4 +636,13 @@ export const NullsOrder = {
 } as const
 
 export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
+
+
+export const JsonNullValueFilter = {
+  DbNull: DbNull,
+  JsonNull: JsonNull,
+  AnyNull: AnyNull
+} as const
+
+export type JsonNullValueFilter = (typeof JsonNullValueFilter)[keyof typeof JsonNullValueFilter]
 

@@ -1,0 +1,55 @@
+﻿status,merchantId,merchantName,merchantSlug,websiteUrl,finalUrl,reasons,candidateUrl,score,sameOfficialDomain,alt,marker,width,height,candidateReasons
+ERROR,cmta1f03n000mq8iyzxhzrwvc,Adagio,adagio,https://adagio.gr,https://adagio.gr/,PAGE_HTTP_403,,,,,,,,
+ERROR,cmta1flpz002sq8iyj9fu06aj,Adidas,adidas,https://adidas.gr,,PAGE_TIMEOUT,,,,,,,,
+NONE,cmta1k58l00jvq8iyujdntq2y,Annamariamazaraki,annamariamazaraki,https://annamariamazaraki.gr,https://www.annamariamazaraki.com/el,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+ERROR,cmta1hf65008rq8iyfh7t6wpa,Artcolour,artcolour,https://artcolour.gr,https://artcolour.gr/?ki-cf-botcl=1,PAGE_HTTP_403,,,,,,,,
+CANDIDATE,cmta1mlfc00tjq8iy0c3ybipq,Beautyclinic,beautyclinic,https://beautyclinic.gr,https://beautyclinic.gr/,RENDERED_OFFICIAL_PAGE|STRONG_HEADER_LOGO_CANDIDATE|VISUAL_REVIEW_REQUIRED,https://beautyclinic.gr/images/loglast.png,185,true,Beautyclinic,IMG#. A#. DIV#.sparky_logo_image DIV#.cell_pad DIV#.cell mp_logo span7,600,237,EXPLICIT_LOGO_COMPONENT|MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|SAME_OFFICIAL_DOMAIN
+ERROR,cmta1hlx2009fq8iy6fwfj2v1,Bestpharmacy,bestpharmacy,https://bestpharmacy.gr,https://bestpharmacy.gr/,PAGE_HTTP_403,,,,,,,,
+NONE,cmta1hren00a1q8iyh9eqqfbk,Cavadelvino,cavadelvino,https://cavadelvino.gr,https://www.cavadelvino.gr/,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+CANDIDATE,cmta1hwv400anq8iyxlzbv2x8,Desenio,desenio,https://desenio.gr,https://desenio.gr/,RENDERED_OFFICIAL_PAGE|STRONG_HEADER_LOGO_CANDIDATE|VISUAL_REVIEW_REQUIRED,https://desenio.gr/_next/static/immutable/media/logo.13n5i0xk0pj1q.svg,235,true,Desenio Logo,IMG#. A#.flex items-center transition-opacity duration-300 active:hover:opacity-60 active:hover:transition-none active:hover:delay-0 opacity-100 w-content:delay-600 DIV#.flex min-w-fit items-center justify-center w-content:me-8 w-content:justify-start NAV#main-navigation.m-auto flex h-14 max-w-header HEADER#site-header.sticky top-0 z-30 border-b border-brand-500/50 bg-brand-white px-2 w-content:px-4,581,116,HEADER_OR_NAV|LOGO_FILENAME|MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|SAME_OFFICIAL_DOMAIN
+ERROR,cmtb781yd005udkiyfu78jt3z,Elbebeboutique,elbebeboutique,https://elbebeboutique.gr,,"page.goto: net::ERR_NAME_NOT_RESOLVED at https://elbebeboutique.gr/
+Call log:
+[2m  - navigating to ""https://elbebeboutique.gr/"", waiting until ""domcontentloaded""[22m
+",,,,,,,,
+ERROR,cmta1my4200uxq8iyrtkh2ksx,Enchriso,enchriso,https://enchriso.gr,,"page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://enchriso.gr/
+Call log:
+[2m  - navigating to ""https://enchriso.gr/"", waiting until ""domcontentloaded""[22m
+",,,,,,,,
+REVIEW,cmta1mz6000v1q8iyvwszf9du,Erato Kosmima,erato-kosmima,https://erato-kosmima.gr,https://erato-kosmima.gr/,NO_AUTO_SAFE_BROWSER_CANDIDATE,https://erato-kosmima.gr/wp-content/uploads/2020/06/logo.png,130,true,ΕΛΤΑ Courier,IMG#. A#. TD#. TR#. TBODY#.,179,126,LOGO_FILENAME|MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|SAME_OFFICIAL_DOMAIN
+ERROR,cmta1i80900blq8iyr9rqvqvt,Eyemazing,eyemazing,https://eyemazing.gr,https://eyemazing.gr/,PAGE_HTTP_403,,,,,,,,
+NONE,cmtb6uorg001l3giy24moh9jp,Francesca,gift-card-2,https://francesca.gr,https://www.francesca.gr/,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+ERROR,cmta1n28m00vdq8iylsiovqrs,Ggbeauty,ggbeauty,https://ggbeauty.gr,https://ggbeauty.gr/,PAGE_HTTP_522,,,,,,,,
+ERROR,cmta1limn00pfq8iyfh50asm9,Instyleshop,instyleshop,https://instyleshop.gr,https://instyleshop.gr/,PAGE_HTTP_403,,,,,,,,
+ERROR,cmtb77x9d0056dkiyajiro2jy,Kosmimamakarezos,kosmimamakarezos,https://kosmimamakarezos.gr,https://www.kosmimamakarezos.gr/,PAGE_HTTP_503,,,,,,,,
+ERROR,cmta1nacs00w9q8iybfp66av1,Lalita,lalita,https://lalita.gr,,"page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://lalita.gr/
+Call log:
+[2m  - navigating to ""https://lalita.gr/"", waiting until ""domcontentloaded""[22m
+",,,,,,,,
+NONE,cmta5nu7u001i54iy26l668bf,Myprotein,myprotein,https://myprotein.gr,https://www.myprotein.gr/,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+NONE,cmtb77ecy002gdkiyplat2lrt,North & South Jewelry,north-and-south-jewelry-gift-card,https://northandsouthjewelry.gr,https://www.northandsouthjewelry.gr/,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+ERROR,cmt8fb1qo000e6kiyhr3vcqzi,Notino,notino,https://notino.gr,https://www.notino.gr/,PAGE_HTTP_403,,,,,,,,
+ERROR,cmtb6uzla00373giydd6wqbju,Optika Liolios,δωροκαρτες,https://optikaliolios.gr,https://optikaliolios.gr/,PAGE_HTTP_403,,,,,,,,
+NONE,cmta1j64i00ftq8iybi7vezby,Osteriamamma,osteriamamma,https://osteriamamma.gr,https://www.osteriamamma.gr/,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+ERROR,cmta1f2cv000wq8iyrguy8go3,PharmNet,pharmnet,https://pharmnet.gr,https://pharmnet.gr/,PAGE_HTTP_403,,,,,,,,
+REVIEW,cmta1k1x700jhq8iyxupg6exd,Romeo,romeo,https://romeo.gr,https://www.romeo.gr/,NO_AUTO_SAFE_BROWSER_CANDIDATE,"https://static.wixstatic.com/media/c3c625_1d73f297a9e945a9994f879a3db69600~mv2.png/v1/crop/x_0,y_367,w_1425,h_866/fill/w_955,h_396,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/ROMEO88.png",75,false,ROMEO88 logo,IMG#img_comp-lusbiz3z.gRkIq0 sFiSiq DIV#.apPOZK DIV#comp-lusbiz3z.W4V2qg comp-lusbiz3z wixui-image DIV#. DIV#.,955,396,MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|PAGE_REFERENCED_EXTERNAL_ASSET
+ERROR,cmtb62p1e001i94iydv5ldjzm,Send gifts and wishes to your beloved ones,send-gifts-and-wishes-to-your-beloved-ones,https://neraidochora.gr,https://neraidochora.gr/,PAGE_HTTP_403,,,,,,,,
+CANDIDATE,cmt8fb4oz000o6kiylq2ujw83,Sephora,sephora,https://giftcard.sephora.gr,https://giftcard.sephora.gr/,RENDERED_OFFICIAL_PAGE|STRONG_HEADER_LOGO_CANDIDATE|VISUAL_REVIEW_REQUIRED,https://giftcard.sephora.gr/merchant/logo.png?v=20260904,320,true,,IMG#.merchant-logo A#. DIV#.header-logo DIV#.header-logo-block DIV#.header-row,200,35,HEADER_OR_NAV|EXPLICIT_LOGO_COMPONENT|LOGO_FILENAME|MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|SAME_OFFICIAL_DOMAIN
+REVIEW,cmta1ezmz000kq8iyr2e7ujvq,Sportys,sportys,https://sportys.gr,http://www.sportys.gr/,NO_AUTO_SAFE_BROWSER_CANDIDATE,http://www.sportys.gr/images/logo_hs.png,115,true,HellasSites,IMG#. A#. P#. DIV#.bottom clearfix DIV#.container,0,0,LOGO_FILENAME|MERCHANT_TOKEN_MATCH|SAME_OFFICIAL_DOMAIN
+ERROR,cmta1jkwi00hjq8iy1ommjcbj,Sunsandclouds,sunsandclouds,https://sunsandclouds.gr,,"page.goto: net::ERR_NAME_NOT_RESOLVED at https://sunsandclouds.gr/
+Call log:
+[2m  - navigating to ""https://sunsandclouds.gr/"", waiting until ""domcontentloaded""[22m
+",,,,,,,,
+REVIEW,cmtb62tbk002694iynay5o1a0,Sweetnspicy,sweetnspicy,https://sweetnspicy.gr,https://sweetnspicy.gr/,NO_AUTO_SAFE_BROWSER_CANDIDATE,https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg,30,false,TripAdvisor,IMG#CDSWIDEXCLOGO.widEXCIMG A#. LI#1aA5Vcev.pX7dn7jxQ4PO UL#gx08ra1.TA_links YcxuKm2fpMHG DIV#TA_excellent824.TA_excellent,3354,713,USABLE_DIMENSIONS|LOGO_LIKE_RATIO|PAGE_REFERENCED_EXTERNAL_ASSET
+REVIEW,cmta1nv0400yhq8iywl3ocjxp,Symmetria,symmetria,https://symmetria.gr,https://www.symmetria.com/el/,NO_AUTO_SAFE_BROWSER_CANDIDATE,https://www.symmetria.com/images/logos/footer.svg,95,true,,IMG#.img-fluid DIV#.container-2 text-center DIV#.page-footer-top is-out is-out-bottom FOOTER#page-footer.ptc-lg-10 position-relative z-1 nk-bg-white BODY#.page-loaded,0,0,LOGO_FILENAME|MERCHANT_TOKEN_MATCH|FOOTER_ONLY|SAME_OFFICIAL_DOMAIN
+CANDIDATE,cmta1jlyd00hnq8iyz32uf5a8,T Support,t-support,https://t-support.gr,https://t-support.gr/,RENDERED_OFFICIAL_PAGE|STRONG_HEADER_LOGO_CANDIDATE|VISUAL_REVIEW_REQUIRED,https://t-support.gr/catalog/view/theme/vitalia/images/logos/logo-tsupport.png,230,true,Υπολογιστές | Laptop | Mac | SSD | CPU | Motherboard | Tech Support - Ηλεκτρονικά Είδη,IMG#. A#. DIV#logo.logo DIV#.grid-left DIV#.row,332,80,EXPLICIT_LOGO_COMPONENT|LOGO_FILENAME|MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|SAME_OFFICIAL_DOMAIN
+NONE,cmta1m3qd00rpq8iyigim5svy,Theplants,theplants,https://theplants.gr,https://theplants.gr/cgi-sys/suspendedpage.cgi,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,
+ERROR,cmta1l9iw00ofq8iy7s34mm5k,Travelagency,travelagency,https://travelagency.gr,,"page.goto: net::ERR_CONNECTION_REFUSED at https://travelagency.gr/
+Call log:
+[2m  - navigating to ""https://travelagency.gr/"", waiting until ""domcontentloaded""[22m
+",,,,,,,,
+REVIEW,cmta1m4q100rtq8iy63n4cf58,Tresorjewelry,tresorjewelry,https://tresorjewelry.gr,https://tresorjewelry.gr/,NO_AUTO_SAFE_BROWSER_CANDIDATE,https://www.tresorjewelry.gr/wp-content/uploads/2020/04/KONS0011-300x300.jpg,85,true,,IMG#.attachment-woocommerce_thumbnail size-woocommerce_thumbnail A#.woocommerce-LoopProduct-link woocommerce-loop-product__link LI#.product type-product post-753 status-publish instock product_cat-kosmimata-style product_cat-kosmimata-antras product_cat-style-goyria product_cat-kosmimata product_cat-kosmimata-antras-kremasta product_cat-kosmimata-paidi-konstantinata product_cat-style-matakia product_cat-kosmimata-paidi product_tag-babybirthgift product_tag-babybirthgold product_tag-babycharm product_tag-brand product_tag-charm product_tag-christening product_tag-fashion product_tag-gold product_tag-goldcharm product_tag-jewellery product_tag-jewelry has-post-thumbnail shipping-taxable purchasable product-type-simple UL#.products columns-4 DIV#.woocommerce columns-4 ,300,300,MERCHANT_TOKEN_MATCH|USABLE_DIMENSIONS|SAME_OFFICIAL_DOMAIN
+ERROR,cmta1gyrx007lq8iyc6lx7l6y,Tsakirismallas,tsakirismallas,https://tsakirismallas.gr,https://tsakirismallas.gr/,PAGE_HTTP_403,,,,,,,,
+ERROR,cmta4z8pw004csciymdcih8iu,Wildsouls,wildsouls,https://wildsouls.gr,https://wildsouls.gr/?ki-cf-botcl=1,PAGE_HTTP_403,,,,,,,,
+CANDIDATE,cmtb77twd004odkiyt5u3ep1e,Αγοράστε μια δωροεπιταγή,αγοραστε-μια-δωροεπιταγη,https://cheapet.gr,https://cheapet.gr/,RENDERED_OFFICIAL_PAGE|STRONG_HEADER_LOGO_CANDIDATE|VISUAL_REVIEW_REQUIRED,https://cheapet.gr/image/data/cpet-logo-new-13.png,275,true,"CheaPet-Pet shop Κατοικίδια, αγορά σκύλων, κουτάβια, τροφές.",IMG#. A#. DIV#logo. DIV#t-header.row DIV#.container,372,52,HEADER_OR_NAV|EXPLICIT_LOGO_COMPONENT|LOGO_FILENAME|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|SAME_OFFICIAL_DOMAIN
+REVIEW,cmtb77srp004idkiywlcqejho,Αγοράστε μία Δωροκάρτα,αγοραστε-μια-δωροκαρτα,https://bekids.gr,https://bekids.gr/,NO_AUTO_SAFE_BROWSER_CANDIDATE,https://bekids.gr/image/catalog/logos/jackjones.png,100,true,,IMG#.ms-layer image DIV#.ms-parallax-layer DIV#.ms-anim-layers custom-slider-wrapper DIV#.ms-slide-layers DIV#.ms-slide  ms-sl-selected,334,76,LOGO_FILENAME|USABLE_DIMENSIONS|LOGO_LIKE_RATIO|SAME_OFFICIAL_DOMAIN
+NONE,cmta4yjki001gsciyo7tcjy02,Δωροκάρτα από την Harpy Clothing 2026,δωροκαρτα-απο-την-harpy-clothing-2026,https://harpy.gr,https://harpy.gr/cgi-sys/suspendedpage.cgi,NO_RENDERED_LOGO_CANDIDATE,,,,,,,,

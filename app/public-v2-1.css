@@ -1,0 +1,385 @@
+
+/* ==========================================================================
+   Dorokartes Public v2.1 — gift-card images + larger premium categories
+   ========================================================================== */
+
+.dk20-card-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  gap:18px !important;
+}
+
+.dk21-giftcard{
+  min-width:0;
+  overflow:hidden;
+  border:1px solid #e5e7ef;
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 12px 36px rgba(39,33,72,.055);
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+
+.dk21-giftcard:hover{
+  transform:translateY(-4px);
+  border-color:#d3ccf3;
+  box-shadow:0 24px 58px rgba(51,40,96,.11);
+}
+
+.dk21-giftcard-link{
+  display:block;
+  height:100%;
+}
+
+.dk21-giftcard-media{
+  position:relative;
+  height:190px;
+  overflow:hidden;
+  background:#f5f3ff;
+}
+
+.dk21-giftcard-media.has-image>img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .25s ease;
+}
+
+.dk21-giftcard:hover .dk21-giftcard-media.has-image>img{
+  transform:scale(1.035);
+}
+
+.dk21-giftcard-media:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,rgba(16,18,31,.04),rgba(16,18,31,.16));
+  pointer-events:none;
+}
+
+.dk21-media-top{
+  position:absolute;
+  z-index:3;
+  top:13px;
+  left:13px;
+  right:13px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+}
+
+.dk21-media-top>span,
+.dk21-media-top>em{
+  min-height:26px;
+  display:inline-flex;
+  align-items:center;
+  padding:0 9px;
+  border:1px solid rgba(255,255,255,.7);
+  border-radius:999px;
+  background:rgba(255,255,255,.88);
+  backdrop-filter:blur(8px);
+  color:#665d78;
+  font-size:8px;
+  font-weight:760;
+  font-style:normal;
+  box-shadow:0 5px 18px rgba(27,24,47,.07);
+}
+
+.dk21-media-top>em{
+  color:#34775e;
+  background:rgba(239,255,247,.92);
+}
+
+.dk21-media-brandmark{
+  position:absolute;
+  z-index:3;
+  right:13px;
+  bottom:13px;
+  width:38px;
+  height:38px;
+  display:grid;
+  place-items:center;
+  border-radius:12px;
+  background:rgba(255,255,255,.92);
+  border:1px solid rgba(255,255,255,.72);
+  box-shadow:0 8px 22px rgba(34,28,71,.12);
+  backdrop-filter:blur(8px);
+}
+
+.dk21-media-brandmark img{
+  width:28px;
+  height:28px;
+  object-fit:contain;
+}
+
+/* fallback illustration when a card has no media yet */
+.dk21-fallback-art{
+  position:absolute;
+  inset:0;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 12% 15%,rgba(95,143,240,.20),transparent 30%),
+    radial-gradient(circle at 92% 18%,rgba(239,103,167,.19),transparent 28%),
+    linear-gradient(145deg,#f5f5ff,#fff8fb);
+}
+
+.dk21-fallback-orb{
+  position:absolute;
+  border-radius:50%;
+}
+
+.dk21-fallback-orb.orb1{
+  width:150px;height:150px;
+  right:-45px;top:-35px;
+  background:#efe0ff;
+}
+
+.dk21-fallback-orb.orb2{
+  width:120px;height:120px;
+  left:-35px;bottom:-45px;
+  background:#dfeaff;
+}
+
+.dk21-fallback-card{
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:205px;
+  height:118px;
+  padding:17px;
+  transform:translate(-50%,-50%) rotate(-5deg);
+  border-radius:18px;
+  color:#fff;
+  background:linear-gradient(135deg,#6d57df,#a15fd7 48%,#eb6d9e 78%,#ff9a55);
+  box-shadow:0 20px 46px rgba(75,48,130,.22);
+}
+
+.dk21-fallback-brand{
+  width:38px;height:38px;
+  display:grid;place-items:center;
+  border-radius:11px;
+  background:#fff;
+  overflow:hidden;
+}
+
+.dk21-fallback-brand img{
+  max-width:31px;
+  max-height:31px;
+  object-fit:contain;
+}
+
+.dk21-fallback-brand span{
+  color:#6652c9;
+  font-size:10px;
+  font-weight:850;
+}
+
+.dk21-fallback-card small{
+  display:block;
+  margin-top:12px;
+  font-size:7px;
+  letter-spacing:.12em;
+  opacity:.74;
+}
+
+.dk21-fallback-card>b{
+  display:block;
+  margin-top:3px;
+  max-width:150px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:15px;
+}
+
+.dk21-giftcard-body{
+  padding:17px 18px 0;
+}
+
+.dk21-merchant-line{
+  display:grid;
+  grid-template-columns:48px minmax(0,1fr);
+  gap:12px;
+  align-items:center;
+}
+
+.dk21-merchant-logo{
+  width:48px;height:48px;
+  display:grid;place-items:center;
+  overflow:hidden;
+  border:1px solid #e8e7ef;
+  border-radius:13px;
+  background:#fff;
+}
+
+.dk21-merchant-logo img{
+  max-width:40px;
+  max-height:40px;
+  object-fit:contain;
+}
+
+.dk21-merchant-logo span{
+  color:#6652c8;
+  font-size:10px;
+  font-weight:850;
+}
+
+.dk21-merchant-line h3{
+  margin:0;
+  color:#202330;
+  font-size:17px;
+  line-height:1.15;
+  letter-spacing:-.025em;
+}
+
+.dk21-merchant-line p{
+  margin:4px 0 0;
+  color:#818898;
+  font-size:10px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.dk21-giftcard-cta{
+  min-height:52px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:16px;
+  border-top:1px solid #eeeef2;
+  color:#6752ca;
+  font-size:10px;
+  font-weight:750;
+}
+
+.dk21-giftcard-cta b{
+  font-size:17px;
+}
+
+/* larger category tiles */
+.dk21-category-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:15px;
+}
+
+.dk21-category-card{
+  position:relative;
+  min-height:126px;
+  display:grid;
+  grid-template-columns:66px minmax(0,1fr) 34px;
+  gap:16px;
+  align-items:center;
+  padding:22px;
+  overflow:hidden;
+  border:1px solid #e4e6ee;
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 12px 34px rgba(40,35,70,.04);
+  transition:transform .17s ease,box-shadow .17s ease,border-color .17s ease;
+}
+
+.dk21-category-card:after{
+  content:"";
+  position:absolute;
+  width:130px;height:130px;
+  right:-52px;top:-52px;
+  border-radius:50%;
+  opacity:.75;
+}
+
+.dk21-category-card.tone-0:after{background:#fff0a9}
+.dk21-category-card.tone-1:after{background:#ffd4bc}
+.dk21-category-card.tone-2:after{background:#f5c9df}
+.dk21-category-card.tone-3:after{background:#decfff}
+.dk21-category-card.tone-4:after{background:#cfe0ff}
+.dk21-category-card.tone-5:after{background:#cdeedd}
+
+.dk21-category-card:hover{
+  transform:translateY(-4px);
+  border-color:#cdc5f2;
+  box-shadow:0 22px 52px rgba(49,39,91,.08);
+}
+
+.dk21-category-icon{
+  position:relative;
+  z-index:2;
+  width:64px;height:64px;
+  display:grid;place-items:center;
+  border-radius:19px;
+  background:#f3f0ff;
+  border:1px solid rgba(255,255,255,.85);
+  box-shadow:0 9px 24px rgba(39,35,67,.06);
+  font-size:27px;
+}
+
+.dk21-category-card.tone-0 .dk21-category-icon{background:#fff6d2}
+.dk21-category-card.tone-1 .dk21-category-icon{background:#ffe8da}
+.dk21-category-card.tone-2 .dk21-category-icon{background:#fae1ed}
+.dk21-category-card.tone-3 .dk21-category-icon{background:#eee6ff}
+.dk21-category-card.tone-4 .dk21-category-icon{background:#e4ecff}
+.dk21-category-card.tone-5 .dk21-category-icon{background:#e2f6ed}
+
+.dk21-category-copy{
+  position:relative;
+  z-index:2;
+}
+
+.dk21-category-copy b{
+  display:block;
+  color:#252733;
+  font-size:17px;
+  line-height:1.15;
+  letter-spacing:-.025em;
+}
+
+.dk21-category-copy span{
+  display:block;
+  margin-top:6px;
+  color:#8d94a3;
+  font-size:10px;
+}
+
+.dk21-category-arrow{
+  position:relative;
+  z-index:2;
+  width:34px;height:34px;
+  display:grid;place-items:center;
+  border:1px solid #e8e8ee;
+  border-radius:10px;
+  background:rgba(255,255,255,.84);
+  color:#7c718d;
+  font-size:16px;
+}
+
+@media(max-width:1050px){
+  .dk21-category-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .dk20-card-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  }
+}
+
+@media(max-width:720px){
+  .dk21-category-grid,
+  .dk20-card-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .dk21-category-card{
+    min-height:112px;
+    grid-template-columns:58px minmax(0,1fr) 34px;
+    padding:18px;
+  }
+
+  .dk21-category-icon{
+    width:56px;height:56px;
+    font-size:24px;
+  }
+
+  .dk21-giftcard-media{
+    height:175px;
+  }
+}

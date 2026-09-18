@@ -1,0 +1,21 @@
+{
+  "version": "catalog-recipient-mapping-v4",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-10T14:25:09.174Z",
+  "planId": "20c1feb8c4cc796ba85bcafcec370feffacdaf38d947825b59628677e7821a01",
+  "checked": 19,
+  "passed": 19,
+  "failed": [],
+  "current": {
+    "totalGiftCards": 1135,
+    "activeCards": 1123,
+    "occasionRelations": 96,
+    "cardsWithOccasion": 62
+  },
+  "invariants": {
+    "totalGiftCardsPreserved": true,
+    "activeCardsPreserved": true,
+    "relationCountMatches": true
+  },
+  "databaseWrites": 0
+}

@@ -1,0 +1,10 @@
+{
+  "version": "occasion-page-evidence-v2",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-04T16:58:30.700Z",
+  "planId": "e5a16184f7e0831c4bd4fa6fc4a97a82e52a0f3e2db3852fd21fc089e071ec92",
+  "checked": 22,
+  "passed": 22,
+  "failed": [],
+  "databaseWrites": 0
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-03T18:36:55.320Z",
+  "planId": "2fae3c17de30f1b9eb4acb2cdd7b4c33e0000c26c8431922375f8368e34314c7",
+  "appliedCount": 2,
+  "applied": [
+    {
+      "actionId": "set-merchant-logo:cmtb6ueoq00043giye4hg3ri6:4e637ccc985f",
+      "merchantId": "cmtb6ueoq00043giye4hg3ri6",
+      "localUrl": "/merchant-logos/90-adventure-junkies-4e637ccc985f.png"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1nm6s00xjq8iyb6787fku:45056a7151f8",
+      "merchantId": "cmta1nm6s00xjq8iyb6787fku",
+      "localUrl": "/merchant-logos/piccolo-orso-45056a7151f8.webp"
+    }
+  ]
+}

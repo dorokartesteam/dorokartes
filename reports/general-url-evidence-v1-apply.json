@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "mode": "APPLY",
+  "appliedAt": "2026-09-04T16:34:10.638Z",
+  "planId": "09c14af688d4610d2690bf7ddce385972eac2d7bab37d16d8d5086a1a4c6be73",
+  "appliedCount": 10,
+  "applied": [
+    {
+      "actionId": "update-validated-general-url:cmtb6uetn00053giyiewpxirq",
+      "cardId": "cmtb6uetn00053giyiewpxirq",
+      "from": "https://www.adventurejunkies.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-90e/",
+      "to": "https://www.adventurejunkies.gr/product-category/giftcards/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmta1k3kn00joq8iyvt4mz4a4",
+      "cardId": "cmta1k3kn00joq8iyvt4mz4a4",
+      "from": "https://afroditesbeaute.gr/product/gift-card-50e/",
+      "to": "https://afroditesbeaute.gr/product-category/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmta1fjhs002nq8iyk0isu1fk",
+      "cardId": "cmta1fjhs002nq8iyk0isu1fk",
+      "from": "https://bonsaihome.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1-%cf%84%cf%89%ce%bd-10e/",
+      "to": "https://bonsaihome.gr/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmta1hs0500a4q8iy6cmwyvew",
+      "cardId": "cmta1hs0500a4q8iy6cmwyvew",
+      "from": "https://www.cavallo.gr/product/gift-card-100e/",
+      "to": "https://www.cavallo.gr/product-tag/gift-card/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmtb7718b000ldkiynw5j1q46",
+      "cardId": "cmtb7718b000ldkiynw5j1q46",
+      "from": "https://www.cordella.gr/shop/empeiries/taxidia-metakiniseis/xenodoxeia-diamones/dorokarta-500_10995",
+      "to": "https://www.cordella.gr/dorokartes"
+    },
+    {
+      "actionId": "update-validated-general-url:cmtb774ej0011dkiy2n93voje",
+      "cardId": "cmtb774ej0011dkiy2n93voje",
+      "from": "https://fagottobooks.gr/en/6005-dorokarta-axias-40-eyro.html",
+      "to": "https://fagottobooks.gr/en/percussion-ekpaideytiko-yliko/dorokartes/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmta1kqbn00maq8iyrbgsvpn7",
+      "cardId": "cmta1kqbn00maq8iyrbgsvpn7",
+      "from": "https://www.hobbylobby-yarns.gr/product/doroepitagi-100e/",
+      "to": "https://www.hobbylobby-yarns.gr/product-category/doroepitages/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmtb779he001rdkiycol4bpk0",
+      "cardId": "cmtb779he001rdkiycol4bpk0",
+      "from": "https://www.ioannou-cosmetics.gr/shop/dwrokartes/dwrokarta-50-e/",
+      "to": "https://www.ioannou-cosmetics.gr/c/dwrokartes/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmta1inkb00dgq8iyu0pfa6d9",
+      "cardId": "cmta1inkb00dgq8iyu0pfa6d9",
+      "from": "https://lamillou.gr/%CF%80%CF%81%CE%BF%CF%8A%CF%8C%CE%BD/gift-card-100e/",
+      "to": "https://lamillou.gr/shop/dorokartes/"
+    },
+    {
+      "actionId": "update-validated-general-url:cmtb77c840025dkiy8nltursd",
+      "cardId": "cmtb77c840025dkiy8nltursd",
+      "from": "http://www.melissinos-sandals.gr/giftvouchers/gift-card-55-detail",
+      "to": "http://www.melissinos-sandals.gr/giftvouchers"
+    }
+  ]
+}

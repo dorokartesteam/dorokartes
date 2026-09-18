@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "mode": "PREVIEW",
+  "wave": "manual-source",
+  "targetFingerprint": "a67e12cf2c31774ac35a7ed3928ab5311b791a7c6aadfe7650d05acf8d6e739a",
+  "targetCount": 2,
+  "concurrency": 12,
+  "summary": {
+    "safe": 2,
+    "review": 0,
+    "none": 0,
+    "error": 0
+  },
+  "actions": [
+    {
+      "actionId": "set-merchant-logo:cmta1i46g00b5q8iy2z5otzf9:5348c0745de8",
+      "merchantId": "cmta1i46g00b5q8iy2z5otzf9",
+      "merchantName": "Eightboutiquegym",
+      "merchantSlug": "eightboutiquegym",
+      "websiteUrl": "https://eightboutiquegym.gr/",
+      "sourceUrl": "https://static.wixstatic.com/media/92628e_68551fde6e9841458bad6fe2b9f6e92a%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/92628e_68551fde6e9841458bad6fe2b9f6e92a%7Emv2.jpeg",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+      "score": 120,
+      "sha256": "5348c0745de81dd7072ab1cc693f5f7dac30a213d6412f06100bc3fbe41b6dc4",
+      "contentType": "image/jpeg",
+      "extension": ".jpg",
+      "bytes": 5087,
+      "width": 192,
+      "height": 192,
+      "localUrl": "/merchant-logos/eightboutiquegym-5348c0745de8.jpg"
+    },
+    {
+      "actionId": "set-merchant-logo:cmta1n82o00w1q8iyo9230d1u:c903115aeacd",
+      "merchantId": "cmta1n82o00w1q8iyo9230d1u",
+      "merchantName": "Kaelego",
+      "merchantSlug": "kaelego",
+      "websiteUrl": "https://kaelego.gr/",
+      "sourceUrl": "https://kaelego.gr/wp-content/uploads/2023/10/cropped-flame_logo_for_webpage_tab_banner-removebg-192x192.png",
+      "source": "HEADER_IMAGE",
+      "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+      "score": 114,
+      "sha256": "c903115aeacdeb8e9296195bd98c031dc036ee6cb661ec09941199a30ec2f6d5",
+      "contentType": "image/png",
+      "extension": ".png",
+      "bytes": 8987,
+      "width": 192,
+      "height": 192,
+      "localUrl": "/merchant-logos/kaelego-c903115aeacd.png"
+    }
+  ],
+  "findings": [
+    {
+      "merchantId": "cmta1i46g00b5q8iy2z5otzf9",
+      "merchantName": "Eightboutiquegym",
+      "merchantSlug": "eightboutiquegym",
+      "websiteUrl": "https://eightboutiquegym.gr",
+      "finalWebsiteUrl": "https://eightboutiquegym.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://static.wixstatic.com/media/92628e_68551fde6e9841458bad6fe2b9f6e92a%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/92628e_68551fde6e9841458bad6fe2b9f6e92a%7Emv2.jpeg",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 120
+      },
+      "validatedAsset": {
+        "url": "https://static.wixstatic.com/media/92628e_68551fde6e9841458bad6fe2b9f6e92a%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/92628e_68551fde6e9841458bad6fe2b9f6e92a%7Emv2.jpeg",
+        "contentType": "image/jpeg",
+        "extension": ".jpg",
+        "bytes": 5087,
+        "width": 192,
+        "height": 192,
+        "sha256": "5348c0745de81dd7072ab1cc693f5f7dac30a213d6412f06100bc3fbe41b6dc4"
+      }
+    },
+    {
+      "merchantId": "cmta1n82o00w1q8iyo9230d1u",
+      "merchantName": "Kaelego",
+      "merchantSlug": "kaelego",
+      "websiteUrl": "https://kaelego.gr",
+      "finalWebsiteUrl": "https://kaelego.gr/",
+      "status": "SAFE",
+      "reasonCodes": [
+        "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET",
+        "OPERATOR_VISUALLY_APPROVED_FILENAME_RISK",
+        "IMAGE_VALIDATED"
+      ],
+      "bestCandidate": {
+        "url": "https://kaelego.gr/wp-content/uploads/2023/10/cropped-flame_logo_for_webpage_tab_banner-removebg-192x192.png",
+        "source": "HEADER_IMAGE",
+        "evidence": "OPERATOR_CURATED_FROM_RENDERED_OFFICIAL_PAGE_ASSET_WITH_VISUAL_FILENAME_OVERRIDE",
+        "declaredWidth": null,
+        "declaredHeight": null,
+        "score": 114
+      },
+      "validatedAsset": {
+        "url": "https://kaelego.gr/wp-content/uploads/2023/10/cropped-flame_logo_for_webpage_tab_banner-removebg-192x192.png",
+        "contentType": "image/png",
+        "extension": ".png",
+        "bytes": 8987,
+        "width": 192,
+        "height": 192,
+        "sha256": "c903115aeacdeb8e9296195bd98c031dc036ee6cb661ec09941199a30ec2f6d5"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-03T18:31:07.937Z",
+  "planId": "19df42762d8cefd18155d3661a5e9fab0dca8b7a79f37c4ec1e73cb9ed37e38f"
+}
