@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import {
+  useDeferredValue,
   useEffect,
   useId,
   useMemo,
@@ -54,6 +55,7 @@ export default function HeroSearch({
   occasion?: string;
 }) {
   const [query, setQuery] = useState(initial);
+  const deferredQuery = useDeferredValue(query);
   const [index, setIndex] = useState<InstantSearchIndexItem[]>(
     cachedIndex ?? [],
   );
@@ -77,7 +79,7 @@ export default function HeroSearch({
         });
     };
 
-    const timer = window.setTimeout(warm, 0);
+    const timer = window.setTimeout(warm, 150);
 
     return () => {
       alive = false;
@@ -99,16 +101,14 @@ export default function HeroSearch({
 
   const filteredIndex = useMemo(() => {
     if (!category && !occasion) return index;
-
-    // Category/occasion filtering continues to be enforced on /browse.
-    // The instant dropdown stays card-only and prioritizes speed.
     return index;
   }, [index, category, occasion]);
 
-  const results = useMemo(
-    () => rankInstantGiftCards(filteredIndex, query, 8),
-    [filteredIndex, query],
-  );
+  const results = useMemo(() => {
+    const value = deferredQuery.trim();
+    if (!value) return [];
+    return rankInstantGiftCards(filteredIndex, value, 8);
+  }, [filteredIndex, deferredQuery]);
 
   const trimmedQuery = query.trim();
   const showDropdown = open && trimmedQuery.length > 0 && results.length > 0;
@@ -155,10 +155,7 @@ export default function HeroSearch({
   }
 
   return (
-    <div
-      className={`dk-search-shell ${styles.shell}`}
-      ref={rootRef}
-    >
+    <div className={`dk-search-shell ${styles.shell}`} ref={rootRef}>
       <form
         className={`dk14-search ${styles.form}`}
         action="/browse"
@@ -193,13 +190,8 @@ export default function HeroSearch({
           maxLength={160}
         />
 
-        {category ? (
-          <input type="hidden" name="category" value={category} />
-        ) : null}
-
-        {occasion ? (
-          <input type="hidden" name="occasion" value={occasion} />
-        ) : null}
+        {category ? <input type="hidden" name="category" value={category} /> : null}
+        {occasion ? <input type="hidden" name="occasion" value={occasion} /> : null}
 
         <button type="submit">Αναζήτηση</button>
       </form>
@@ -229,10 +221,7 @@ export default function HeroSearch({
               >
                 <span className={styles.logo} aria-hidden="true">
                   {item.merchantLogoUrl ? (
-                    <img
-                      src={item.merchantLogoUrl}
-                      alt=""
-                    />
+                    <img src={item.merchantLogoUrl} alt="" />
                   ) : (
                     <span>🎁</span>
                   )}
