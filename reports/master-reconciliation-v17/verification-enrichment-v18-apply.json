@@ -1,0 +1,9 @@
+{
+  "version": "verification-enrichment-v18",
+  "mode": "APPLY",
+  "planId": "2522d43beaf93539c1a24709b1d096d5ee964bc3215c64f608385d45b44c7433",
+  "appliedAt": "2026-09-22T10:53:05.663Z",
+  "updatedCards": 329,
+  "createdSources": 329,
+  "createdEvents": 329
+}

@@ -1,0 +1,10 @@
+{
+  "version": "verified-official-source-backfill-v22",
+  "mode": "APPLY",
+  "planId": "44419fd0b87eb2873bd902bb096dfe7d652e9aef94fa32f28d61676c0e517751",
+  "appliedAt": "2026-09-22T11:46:41.478Z",
+  "createdOfficialSources": 10,
+  "changedVerificationStatuses": 0,
+  "changedUrls": 0,
+  "changedTitles": 0
+}

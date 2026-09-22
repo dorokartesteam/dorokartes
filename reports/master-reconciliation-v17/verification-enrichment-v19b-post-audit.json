@@ -1,0 +1,7 @@
+{
+  "version": "verification-enrichment-v19b",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-22T11:35:39.244Z",
+  "activeNeedsReview": 51,
+  "activeCardsMissingOfficialSource": 62
+}

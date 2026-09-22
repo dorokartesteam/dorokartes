@@ -1,0 +1,185 @@
+{
+  "version": "verified-missing-source-audit-v21",
+  "generatedAt": "2026-09-22T11:38:57.090Z",
+  "totalActiveMissingOfficialSource": 62,
+  "verifiedMissingOfficialSource": 10,
+  "pendingMissingOfficialSource": 1,
+  "rows": [
+    {
+      "id": "cmtb7r657000nu8iy3ciwxqo0",
+      "title": "Summit Gym Gift Card",
+      "slug": "summit-gym-summit-gym-gift-card",
+      "officialUrl": "https://summitgym.ufr.gr/",
+      "verificationStatus": "PENDING",
+      "lastVerifiedAt": "2026-08-27T07:40:50.778Z",
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmtb7r5rt000mu8iytyaeb0ik",
+        "name": "Summit Gym",
+        "slug": "summit-gym",
+        "websiteUrl": "https://summitgym.ufr.gr",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbsc2t0007bsiy33j50zd5",
+      "title": "Bershka Gift Card",
+      "slug": "bershka-gift-card",
+      "officialUrl": "https://www.bershka.com/gr/gift-card.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbsc0y0006bsiyymjx29hq",
+        "name": "Bershka",
+        "slug": "bershka",
+        "websiteUrl": "https://www.bershka.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbsbuq0005bsiy3q6f2mqt",
+      "title": "H&M Gift Card",
+      "slug": "h-m-gift-card",
+      "officialUrl": "https://www2.hm.com/el_gr/customer-service/gift-card.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbsbsm0004bsiy3gafhhb3",
+        "name": "H&M",
+        "slug": "h-m",
+        "websiteUrl": "https://www2.hm.com/el_gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbsd1d000fbsiyya0i8sun",
+      "title": "Massimo Dutti Gift Card",
+      "slug": "massimo-dutti-gift-card",
+      "officialUrl": "https://www.massimodutti.com/gr/gift-card/virtual",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbscyf000ebsiyn9z36isl",
+        "name": "Massimo Dutti",
+        "slug": "massimo-dutti",
+        "websiteUrl": "https://www.massimodutti.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbsbe40001bsiyh2977d4f",
+      "title": "Nike Gift Card",
+      "slug": "nike-gift-card",
+      "officialUrl": "https://www.nike.com/gr/t/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%B1%CF%81%CF%84%CE%B1-2F6OXBmk/GIFTCARD-8089",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbsbbu0000bsiykxpvpuaz",
+        "name": "Nike",
+        "slug": "nike",
+        "websiteUrl": "https://www.nike.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbscsb000dbsiyhe7aydnd",
+      "title": "Oysho Gift Card",
+      "slug": "oysho-gift-card",
+      "officialUrl": "https://www.oysho.com/gr/gift-card/physical.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbscq8000cbsiyj1l0mvso",
+        "name": "Oysho",
+        "slug": "oysho",
+        "websiteUrl": "https://www.oysho.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbscal0009bsiyjh3hgwso",
+      "title": "Pull&Bear Gift Card",
+      "slug": "pull-and-bear-gift-card",
+      "officialUrl": "https://www.pullandbear.com/gr/en/page/services.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbsc8x0008bsiy2nsgst4p",
+        "name": "Pull&Bear",
+        "slug": "pull-and-bear",
+        "websiteUrl": "https://www.pullandbear.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbscjj000bbsiyqiexwdt0",
+      "title": "Stradivarius Gift Card",
+      "slug": "stradivarius-gift-card",
+      "officialUrl": "https://www.stradivarius.com/gr/en/women/clothing/gift-card-n4804",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbscgp000absiyprv3b0f6",
+        "name": "Stradivarius",
+        "slug": "stradivarius",
+        "websiteUrl": "https://www.stradivarius.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmta5nyde002454iyc6vaizw0",
+      "title": "Thomann Gift Card",
+      "slug": "thomann-buy-gift-voucher-at-thomann",
+      "officialUrl": "https://www.thomann.gr/gift_voucher.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": "2026-08-26T13:54:35.329Z",
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmta1fozl0036q8iyfva5aozo",
+        "name": "Thomann",
+        "slug": "thomann",
+        "websiteUrl": "https://thomann.de",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbsbnf0003bsiy2wgnuttu",
+      "title": "Zara Gift Card",
+      "slug": "zara-gift-card",
+      "officialUrl": "https://www.zara.com/gr/el/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%B1%CF%81%CF%84%CE%B1-pT9057969516.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbsbl90002bsiyxabm6ept",
+        "name": "Zara",
+        "slug": "zara",
+        "websiteUrl": "https://www.zara.com/gr/",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "cmucbsda2000hbsiyi2hqvozr",
+      "title": "Zara Home Gift Card",
+      "slug": "zara-home-gift-card",
+      "officialUrl": "https://www.zarahome.com/gr/virtual-card.html",
+      "verificationStatus": "VERIFIED",
+      "lastVerifiedAt": null,
+      "nextReviewAt": null,
+      "merchant": {
+        "id": "cmucbsd7r000gbsiy8pgz96ne",
+        "name": "Zara Home",
+        "slug": "zara-home",
+        "websiteUrl": "https://www.zarahome.com/gr/",
+        "status": "ACTIVE"
+      }
+    }
+  ]
+}

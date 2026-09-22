@@ -1,0 +1,97 @@
+{
+  "version": "verified-official-source-backfill-v22",
+  "actions": [
+    {
+      "giftCardId": "cmucbsc2t0007bsiy33j50zd5",
+      "merchantId": "cmucbsc0y0006bsiyymjx29hq",
+      "merchantName": "Bershka",
+      "title": "Bershka Gift Card",
+      "sourceUrl": "https://www.bershka.com/gr/gift-card.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbsbuq0005bsiy3q6f2mqt",
+      "merchantId": "cmucbsbsm0004bsiy3gafhhb3",
+      "merchantName": "H&M",
+      "title": "H&M Gift Card",
+      "sourceUrl": "https://www2.hm.com/el_gr/customer-service/gift-card.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbsd1d000fbsiyya0i8sun",
+      "merchantId": "cmucbscyf000ebsiyn9z36isl",
+      "merchantName": "Massimo Dutti",
+      "title": "Massimo Dutti Gift Card",
+      "sourceUrl": "https://www.massimodutti.com/gr/gift-card/virtual",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbsbe40001bsiyh2977d4f",
+      "merchantId": "cmucbsbbu0000bsiykxpvpuaz",
+      "merchantName": "Nike",
+      "title": "Nike Gift Card",
+      "sourceUrl": "https://www.nike.com/gr/t/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%B1%CF%81%CF%84%CE%B1-2F6OXBmk/GIFTCARD-8089",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbscsb000dbsiyhe7aydnd",
+      "merchantId": "cmucbscq8000cbsiyj1l0mvso",
+      "merchantName": "Oysho",
+      "title": "Oysho Gift Card",
+      "sourceUrl": "https://www.oysho.com/gr/gift-card/physical.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbscal0009bsiyjh3hgwso",
+      "merchantId": "cmucbsc8x0008bsiy2nsgst4p",
+      "merchantName": "Pull&Bear",
+      "title": "Pull&Bear Gift Card",
+      "sourceUrl": "https://www.pullandbear.com/gr/en/page/services.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbscjj000bbsiyqiexwdt0",
+      "merchantId": "cmucbscgp000absiyprv3b0f6",
+      "merchantName": "Stradivarius",
+      "title": "Stradivarius Gift Card",
+      "sourceUrl": "https://www.stradivarius.com/gr/en/women/clothing/gift-card-n4804",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmta5nyde002454iyc6vaizw0",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "merchantName": "Thomann",
+      "title": "Thomann Gift Card",
+      "sourceUrl": "https://www.thomann.gr/gift_voucher.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbsbnf0003bsiy2wgnuttu",
+      "merchantId": "cmucbsbl90002bsiyxabm6ept",
+      "merchantName": "Zara",
+      "title": "Zara Gift Card",
+      "sourceUrl": "https://www.zara.com/gr/el/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%B1%CF%81%CF%84%CE%B1-pT9057969516.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    },
+    {
+      "giftCardId": "cmucbsda2000hbsiyi2hqvozr",
+      "merchantId": "cmucbsd7r000gbsiy8pgz96ne",
+      "merchantName": "Zara Home",
+      "title": "Zara Home Gift Card",
+      "sourceUrl": "https://www.zarahome.com/gr/virtual-card.html",
+      "sourceType": "OFFICIAL",
+      "action": "CREATE_OFFICIAL_SOURCE"
+    }
+  ],
+  "generatedAt": "2026-09-22T11:42:15.989Z",
+  "planId": "44419fd0b87eb2873bd902bb096dfe7d652e9aef94fa32f28d61676c0e517751"
+}

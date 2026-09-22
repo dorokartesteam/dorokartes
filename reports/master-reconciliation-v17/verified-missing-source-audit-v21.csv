@@ -1,0 +1,12 @@
+verificationStatus,merchantName,giftCardTitle,giftCardId,merchantId,officialUrl,websiteUrl,lastVerifiedAt,nextReviewAt
+"PENDING","Summit Gym","Summit Gym Gift Card","cmtb7r657000nu8iy3ciwxqo0","cmtb7r5rt000mu8iytyaeb0ik","https://summitgym.ufr.gr/","https://summitgym.ufr.gr","2026-08-27T07:40:50.778Z",""
+"VERIFIED","Bershka","Bershka Gift Card","cmucbsc2t0007bsiy33j50zd5","cmucbsc0y0006bsiyymjx29hq","https://www.bershka.com/gr/gift-card.html","https://www.bershka.com/gr/","",""
+"VERIFIED","H&M","H&M Gift Card","cmucbsbuq0005bsiy3q6f2mqt","cmucbsbsm0004bsiy3gafhhb3","https://www2.hm.com/el_gr/customer-service/gift-card.html","https://www2.hm.com/el_gr/","",""
+"VERIFIED","Massimo Dutti","Massimo Dutti Gift Card","cmucbsd1d000fbsiyya0i8sun","cmucbscyf000ebsiyn9z36isl","https://www.massimodutti.com/gr/gift-card/virtual","https://www.massimodutti.com/gr/","",""
+"VERIFIED","Nike","Nike Gift Card","cmucbsbe40001bsiyh2977d4f","cmucbsbbu0000bsiykxpvpuaz","https://www.nike.com/gr/t/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%B1%CF%81%CF%84%CE%B1-2F6OXBmk/GIFTCARD-8089","https://www.nike.com/gr/","",""
+"VERIFIED","Oysho","Oysho Gift Card","cmucbscsb000dbsiyhe7aydnd","cmucbscq8000cbsiyj1l0mvso","https://www.oysho.com/gr/gift-card/physical.html","https://www.oysho.com/gr/","",""
+"VERIFIED","Pull&Bear","Pull&Bear Gift Card","cmucbscal0009bsiyjh3hgwso","cmucbsc8x0008bsiy2nsgst4p","https://www.pullandbear.com/gr/en/page/services.html","https://www.pullandbear.com/gr/","",""
+"VERIFIED","Stradivarius","Stradivarius Gift Card","cmucbscjj000bbsiyqiexwdt0","cmucbscgp000absiyprv3b0f6","https://www.stradivarius.com/gr/en/women/clothing/gift-card-n4804","https://www.stradivarius.com/gr/","",""
+"VERIFIED","Thomann","Thomann Gift Card","cmta5nyde002454iyc6vaizw0","cmta1fozl0036q8iyfva5aozo","https://www.thomann.gr/gift_voucher.html","https://thomann.de","2026-08-26T13:54:35.329Z",""
+"VERIFIED","Zara","Zara Gift Card","cmucbsbnf0003bsiy2wgnuttu","cmucbsbl90002bsiyxabm6ept","https://www.zara.com/gr/el/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%B1%CF%81%CF%84%CE%B1-pT9057969516.html","https://www.zara.com/gr/","",""
+"VERIFIED","Zara Home","Zara Home Gift Card","cmucbsda2000hbsiyi2hqvozr","cmucbsd7r000gbsiy8pgz96ne","https://www.zarahome.com/gr/virtual-card.html","https://www.zarahome.com/gr/","",""
