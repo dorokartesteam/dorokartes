@@ -1,0 +1,11 @@
+{
+  "version": "occasion-semantic-backfill-v8",
+  "mode": "APPLY",
+  "planId": "ecdf4b0ea0e276400673a9fbbd53555dbe50cd5c652168a3be6cb245d6c74ed5",
+  "appliedAt": "2026-09-22T10:29:00.243Z",
+  "appliedRelations": 3511,
+  "newlyCoveredCards": 987,
+  "beforeRelations": 182,
+  "afterRelations": 3693,
+  "remainingWithoutOccasion": 33
+}

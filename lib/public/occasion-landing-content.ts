@@ -16,6 +16,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Ανακάλυψε ιδέες για δώρο γενεθλίων από διαφορετικές κατηγορίες και καταστήματα. Η δωροκάρτα αφήνει τον παραλήπτη να επιλέξει αυτό που θέλει, όταν τον εξυπηρετεί.",
     relatedSlugs: ["for-kids", "thank-you", "mothers-day"],
   },
+
   "for-her": {
     seoTitle: "Δωροκάρτες για Εκείνη: Ιδέες Δώρου",
     metaDescription:
@@ -25,6 +26,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Εξερεύνησε δωροκάρτες από διαφορετικές κατηγορίες και άφησε την τελική επιλογή στην ίδια. Σύγκρινε τις ενεργές επιλογές και βρες ένα δώρο που ταιριάζει στα ενδιαφέροντά της.",
     relatedSlugs: ["birthday", "anniversary", "mothers-day"],
   },
+
   "for-him": {
     seoTitle: "Δωροκάρτες για Εκείνον: Ιδέες Δώρου",
     metaDescription:
@@ -34,6 +36,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Εξερεύνησε δωροκάρτες από διαφορετικές κατηγορίες και άφησε την τελική επιλογή στον ίδιο. Σύγκρινε τις ενεργές επιλογές με βάση τα ενδιαφέροντα και την περίσταση.",
     relatedSlugs: ["birthday", "anniversary", "fathers-day"],
   },
+
   "new-baby": {
     seoTitle: "Δωροκάρτες για Νέο Μωρό & Νέους Γονείς",
     metaDescription:
@@ -43,6 +46,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Μια πρακτική επιλογή για τον ερχομό ενός μωρού, ώστε οι γονείς να διαλέξουν αυτό που χρειάζονται πραγματικά. Δες ενεργές δωροκάρτες για βρεφικά και οικογενειακά δώρα.",
     relatedSlugs: ["for-kids", "mothers-day", "wedding"],
   },
+
   "for-kids": {
     seoTitle: "Δωροκάρτες για Παιδιά: Παιχνίδι & Δημιουργία",
     metaDescription:
@@ -52,6 +56,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Χάρισε στα παιδιά την ευκαιρία να επιλέξουν κάτι που τους αρέσει, μαζί με τους γονείς τους. Δες τις δωροκάρτες που έχουν αντιστοιχιστεί σε παιδικά δώρα και έλεγξε αν ταιριάζουν στην ηλικία και στα ενδιαφέροντά τους.",
     relatedSlugs: ["birthday", "new-baby"],
   },
+
   "thank-you": {
     seoTitle: "Δωροκάρτες για Ευχαριστώ: Δώρα Εκτίμησης",
     metaDescription:
@@ -61,6 +66,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Μια δωροκάρτα μπορεί να συνοδεύσει το ευχαριστώ σου για μια βοήθεια, μια φιλοξενία ή μια καθημερινή πράξη φροντίδας. Εξερεύνησε τις σχετικές επιλογές και διάλεξε με βάση τα ενδιαφέροντα του ανθρώπου που θέλεις να ευχαριστήσεις.",
     relatedSlugs: ["mothers-day", "birthday"],
   },
+
   "mothers-day": {
     seoTitle: "Δωροκάρτες για τη Γιορτή της Μητέρας",
     metaDescription:
@@ -70,6 +76,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Γιόρτασε τη μαμά με ένα δώρο που μπορεί να προσαρμόσει στις δικές της επιθυμίες. Δες τις δωροκάρτες για τη Γιορτή της Μητέρας και συνόδευσε την επιλογή σου με ένα προσωπικό μήνυμα αγάπης.",
     relatedSlugs: ["thank-you", "new-baby", "birthday"],
   },
+
   wedding: {
     seoTitle: "Δωροκάρτες Γάμου: Δώρα για το Ζευγάρι",
     metaDescription:
@@ -79,15 +86,17 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
       "Ευχήσου στο ζευγάρι με μια δωροκάρτα που τους αφήνει να αποφασίσουν μαζί τι χρειάζονται. Εξερεύνησε τις επιλογές που έχουν συνδεθεί με τον γάμο και έλεγξε τη διάρκεια ισχύος και τους τρόπους εξαργύρωσης πριν την αγορά.",
     relatedSlugs: ["new-baby", "thank-you"],
   },
+
   christmas: {
     seoTitle: "Χριστουγεννιάτικες Δωροκάρτες & Ιδέες Δώρου",
     metaDescription:
-      "Ανακάλυψε ενεργές δωροκάρτες για τα Χριστούγεννα, σύγκρινε γιορτινές επιλογές και επισκέψου τον επίσημο έμπορο.",
+      "Ανακάλυψε ενεργές δωροκάρτες για τα Χριστούγεννα, σύγκρινε γιορτινές επιλογές και επισκέψου τον επίσημο έμπορο για αξίες και όρους.",
     heading: "Δωροκάρτες για τα Χριστούγεννα",
     intro:
       "Βρες χριστουγεννιάτικες ιδέες για φίλους, οικογένεια και αγαπημένα πρόσωπα χωρίς να μαντεύεις το σωστό προϊόν. Ο παραλήπτης επιλέγει το δώρο που του ταιριάζει.",
     relatedSlugs: ["for-kids", "for-her", "for-him"],
   },
+
   anniversary: {
     seoTitle: "Δωροκάρτες Επετείου για Ξεχωριστές Στιγμές",
     metaDescription:
@@ -99,12 +108,7 @@ const occasionLandingContent: Record<string, OccasionLandingContent> = {
   },
 };
 
-export const TEMPORARILY_NOINDEXED_OCCASION_SLUGS = [
-  "anniversary",
-  "christmas",
-  "for-her",
-  "for-him",
-] as const;
+export const TEMPORARILY_NOINDEXED_OCCASION_SLUGS = [] as const;
 
 const indexableOccasionSlugs = new Set<string>([
   "birthday",
@@ -113,6 +117,10 @@ const indexableOccasionSlugs = new Set<string>([
   "thank-you",
   "mothers-day",
   "wedding",
+  "anniversary",
+  "christmas",
+  "for-her",
+  "for-him",
 ]);
 
 export const OCCASION_LANDING_SLUGS = Object.freeze(
