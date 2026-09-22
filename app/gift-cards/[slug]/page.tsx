@@ -78,7 +78,11 @@ function decodeSlug(slug: string) {
 
 const getGiftCardPage = cache(async (slug: string) =>
   prisma.giftCard.findFirst({
-    where: { slug: decodeSlug(slug), status: "ACTIVE" },
+    where: {
+      slug: decodeSlug(slug),
+      status: "ACTIVE",
+      merchant: { status: "ACTIVE" },
+    },
     select: {
       id: true,
       title: true,

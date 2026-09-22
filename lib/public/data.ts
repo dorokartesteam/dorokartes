@@ -80,7 +80,10 @@ export function buildPublicCatalogWhere({
   category,
   occasion,
 }: PublicCatalogFilters): Prisma.GiftCardWhereInput {
-  const where: Prisma.GiftCardWhereInput = { status: "ACTIVE" };
+  const where: Prisma.GiftCardWhereInput = {
+    status: "ACTIVE",
+    merchant: { status: "ACTIVE" },
+  };
   const term = q?.trim();
   const categorySlug = category?.trim();
   const occasionSlug = occasion?.trim();
