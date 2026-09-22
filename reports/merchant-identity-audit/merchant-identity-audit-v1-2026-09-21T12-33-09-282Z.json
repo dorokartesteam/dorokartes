@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-09-21T12:33:09.282Z",
+  "readOnly": true,
+  "summary": {
+    "totalMerchants": 1127,
+    "suspiciousMerchants": 7,
+    "genericMerchants": 1,
+    "duplicateGroups": 0,
+    "duplicateMerchantRows": 0,
+    "uniqueAffectedMerchants": 8
+  },
+  "duplicates": [],
+  "affected": [
+    {
+      "id": "cmta1ft43003kq8iy3gcph7ml",
+      "name": "Barequip.gr",
+      "slug": "barequip-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://barequip.gr",
+      "websiteHost": "barequip.gr",
+      "logoUrl": "/merchant-logos/barequip-gr-b439ebe7d3f0.png",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1ftak003lq8iyqic1n4x7 :: Δωροκάρτες 100,00 :: ACTIVE :: http://www.barequip.gr/"
+      ],
+      "cardHosts": [
+        "barequip.gr"
+      ],
+      "sourceNames": [
+        "Verified Production Official URL"
+      ],
+      "sourceHosts": [
+        "barequip.gr"
+      ]
+    },
+    {
+      "id": "cmtb6uy3n002z3giyohz3pcwu",
+      "name": "NaniNails.gr",
+      "slug": "αξιας-20-eur-naninails-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://naninails.gr",
+      "websiteHost": "naninails.gr",
+      "logoUrl": "/merchant-logos/20-eur-naninails-gr-cc3a24bb6402.svg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb6uy8d00303giy23wvv4xn :: NaniNails.gr Gift Card :: ACTIVE :: https://www.naninails.gr/dorokarta-axias-20-eur/"
+      ],
+      "cardHosts": [
+        "naninails.gr"
+      ],
+      "sourceNames": [
+        "Verified Production Official URL"
+      ],
+      "sourceHosts": [
+        "naninails.gr"
+      ]
+    },
+    {
+      "id": "cmtb62tp4002894iya2x79xoi",
+      "name": "TeleioPlayRoom.gr",
+      "slug": "για-γεννηση-η-βαπτιση-teleioplayroom-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://teleioplayroom.gr",
+      "websiteHost": "teleioplayroom.gr",
+      "logoUrl": "/merchant-logos/teleioplayroom-gr-71b42ff29afb.avif",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb62tub002994iy1zvxngz9 :: TeleioPlayRoom.gr Gift Card :: ACTIVE :: https://www.teleioplayroom.gr/products/gift-card"
+      ],
+      "cardHosts": [
+        "teleioplayroom.gr"
+      ],
+      "sourceNames": [
+        "Verified Production Official URL"
+      ],
+      "sourceHosts": [
+        "teleioplayroom.gr"
+      ]
+    },
+    {
+      "id": "cmta1f9en001oq8iyi97gi0pu",
+      "name": "ThinkFit.gr",
+      "slug": "thinkfit-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://thinkfit.gr",
+      "websiteHost": "thinkfit.gr",
+      "logoUrl": "/merchant-logos/thinkfit-gr-e843f4edbe35.webp",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1f9l4001pq8iyfg0m4wfa :: Δωροκάρτα Think Gift :: ACTIVE :: https://thinkfit.gr/product/giftcard/"
+      ],
+      "cardHosts": [
+        "thinkfit.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5nymy002554iydwpf6kus",
+      "name": "Toys.gr",
+      "slug": "toys-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://toys.gr",
+      "websiteHost": "toys.gr",
+      "logoUrl": "/merchant-logos/toys-gr-f7a075bb22ed.png",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5nyst002654iyxa6404qo :: Δωροκάρτα Toys.gr :: ACTIVE :: https://www.toys.gr/giftcard-toysgr"
+      ],
+      "cardHosts": [
+        "toys.gr"
+      ],
+      "sourceNames": [
+        "Verified Production Official URL"
+      ],
+      "sourceHosts": [
+        "toys.gr"
+      ]
+    },
+    {
+      "id": "cmta1i2rt00b1q8iy1f6azwdh",
+      "name": "e-shop.gr",
+      "slug": "e",
+      "status": "ACTIVE",
+      "websiteUrl": "https://e-shop.gr",
+      "websiteHost": "e-shop.gr",
+      "logoUrl": "/merchant-logos/e-c1b47bc2802e.jpg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1i3fk00b2q8iycwvf7d3a :: e-shop.gr Gift Card :: ACTIVE :: https://e-shop.gr/"
+      ],
+      "cardHosts": [
+        "e-shop.gr"
+      ],
+      "sourceNames": [
+        "Verified Production Official URL"
+      ],
+      "sourceHosts": [
+        "e-shop.gr"
+      ]
+    },
+    {
+      "id": "cmta1g31o004kq8iy8cy0v47p",
+      "name": "eshop.gr",
+      "slug": "gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://eshop.gr",
+      "websiteHost": "eshop.gr",
+      "logoUrl": "/merchant-logos/gr-c1b47bc2802e.jpg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1g37z004lq8iyo6oc9hzr :: eshop.gr Δωροκάρτα δωροεπιταγή Gift Card :: ACTIVE :: https://eshop.gr/"
+      ],
+      "cardHosts": [
+        "eshop.gr"
+      ],
+      "sourceNames": [
+        "Verified Production Official URL"
+      ],
+      "sourceHosts": [
+        "eshop.gr"
+      ]
+    },
+    {
+      "id": "cmtb77zgx005idkiyg9qkwj7r",
+      "name": "Δωροεπιταγές",
+      "slug": "δωροεπιταγες",
+      "status": "ARCHIVED",
+      "websiteUrl": "https://blue-print.gr",
+      "websiteHost": "blue-print.gr",
+      "logoUrl": "/merchant-logos/merchant-cdcf519c5f22.webp",
+      "suspicious": false,
+      "generic": true,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 0,
+      "giftCards": [
+        "cmtb77zm2005jdkiy64jdfokt :: Δωροεπιταγές – Gift Cards :: ARCHIVED :: https://blue-print.gr/product/doroepitages-gift-cards/"
+      ],
+      "cardHosts": [
+        "blue-print.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    }
+  ]
+}

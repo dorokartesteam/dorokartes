@@ -1,0 +1,10 @@
+{
+  "version": "source-lineage-backfill-v17-1-1",
+  "mode": "POST_AUDIT",
+  "generatedAt": "2026-09-21T12:32:56.957Z",
+  "remainingAutoSafe": 0,
+  "remainingReview": 1,
+  "alreadyCovered": 619,
+  "passed": true,
+  "databaseWrites": 0
+}

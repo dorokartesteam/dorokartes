@@ -1,20 +1,21 @@
 {
   "version": 11,
-  "generatedAt": "2026-09-12T08:44:39.352Z",
+  "generatedAt": "2026-09-21T12:45:32.037Z",
   "mode": "PREVIEW",
-  "scope": "NON_ARCHIVED",
-  "totalCards": 1123,
-  "catalogFingerprint": "06d192e05be92c11d0f426e570a8eea32cbafeb59a443ec8c0cda1bdef91601a",
-  "planId": "4ea96417c0869844ec5d5d11fa7ff3c21100764ab818d70aad535036dbb91639",
+  "scope": "ALL",
+  "totalCards": 1130,
+  "catalogFingerprint": "0c56c1bccf86cbb5509e7ab814810d9463fd2a4c3cda129be0b7ab023b73970e",
+  "planId": "b23c2f882a402ee13bfecfedceeb8d2c8d5f58f807bd59340025c807e0d117d5",
   "summary": {
     "actions": 0,
     "cardsWithActions": 0,
-    "cardsWithReview": 100,
-    "cleanUnaffected": 1023,
+    "cardsWithReview": 80,
+    "cleanUnaffected": 1050,
     "byAction": {},
     "byReviewIssue": {
-      "TITLE_AMOUNT_NOT_STRUCTURED": 98,
-      "DENOMINATION_SPECIFIC_URL": 11
+      "TITLE_AMOUNT_NOT_STRUCTURED": 72,
+      "DENOMINATION_SPECIFIC_URL": 8,
+      "CROSS_DOMAIN_MERCHANT_CLUSTER": 8
     }
   },
   "actions": [],
@@ -34,33 +35,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1k3kn00joq8iyvt4mz4a4",
-      "merchantId": "cmta1k3e400jnq8iyfrp6th99",
-      "merchantName": "Afroditesbeaute",
-      "title": "Gift card 50",
-      "officialUrl": "https://afroditesbeaute.gr/product-category/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Afroditesbeaute Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -71,7 +48,7 @@
       "cardId": "cmta1gg4h005sq8iyehntb76m",
       "merchantId": "cmta1gfy3005rq8iyb6n5rmq0",
       "merchantName": "Agathou",
-      "title": "Δωροεπιταγη 70€ - Agathou Beauty & Spa",
+      "title": "Agathou Beauty & Spa Δωροεπιταγή 70€",
       "officialUrl": "https://www.agathou.gr/product-category/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b5%cf%83/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -84,7 +61,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -108,7 +85,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -119,7 +96,7 @@
       "cardId": "cmta1lpfx00q6q8iyf11yv5pi",
       "merchantId": "cmta1lp9t00q5q8iyz374e7wj",
       "merchantName": "Amourianosoptics",
-      "title": "GIFT CARD 200€",
+      "title": "Amourianos Optics Gift Card 200€",
       "officialUrl": "https://amourianosoptics.gr/en/accessories-html/gift-cards.html",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -132,7 +109,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -154,9 +131,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 5,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -167,8 +144,8 @@
       "cardId": "cmta1hgn5008wq8iy1ksubp16",
       "merchantId": "cmta1hgfm008vq8iy2pi8rd5p",
       "merchantName": "Avvento Shoes",
-      "title": "GIFT CARD 50",
-      "officialUrl": "https://www.avvento-shoes.gr/avvento/gift-card-100eu-gift-card-100eu-101",
+      "title": "Avvento Shoes Gift Card 50€",
+      "officialUrl": "https://www.avvento-shoes.gr/avvento/gift-card-50eu-gift-card-50eu-101",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -180,7 +157,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -202,130 +179,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1hiz30092q8iyqu6sq314",
-      "merchantId": "cmta1hik80091q8iy7tmtpbi6",
-      "merchantName": "Bbq",
-      "title": "Δωροκάρτα αξίας 1.000€",
-      "officialUrl": "https://bbq.gr/gift-cards",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Bbq Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1hjk40094q8iyvworgly4",
-      "merchantId": "cmta1hjcj0093q8iybfcm521f",
-      "merchantName": "Beauty Case",
-      "title": "Gift Card - 40€ - Beauty Case",
-      "officialUrl": "https://www.beauty-case.gr/product-category/giftcard/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Beauty Case Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1hkhz0098q8iyjadmmr3n",
-      "merchantId": "cmta1hkcg0097q8iyw3ydcbip",
-      "merchantName": "Beautylink",
-      "title": "Gift Card Αξίας 50 Ευρώ",
-      "officialUrl": "https://www.beautylink.gr/shop/mwb_wgm_giftcard/gift-card-%ce%b1%ce%be%ce%af%ce%b1%cf%82-50-%ce%b5%cf%85%cf%81%cf%8e/",
-      "issues": [
-        "DENOMINATION_SPECIFIC_URL",
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. URL gift-card segment repeats the title denomination (50). URL remains unchanged until its parent is independently validated.",
-      "proposedValue": "Beautylink Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1hlab009cq8iyuzff3nxc",
-      "merchantId": "cmta1hl4z009bq8iydvy08yy9",
-      "merchantName": "Beautyprincess",
-      "title": "Gift Card 50€ | BeautyPrincess – Δώρο Ομορφιάς",
-      "officialUrl": "https://beautyprincess.gr/gifts/gift-cards",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Beautyprincess Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmtb6ui6j000n3giy2kh8ox6c",
-      "merchantId": "cmtb6ui1t000m3giy66028e8c",
-      "merchantName": "Black Lotus Massage",
-      "title": "Black Lotus Massage Δωροκάρτα 30 Ευρώ",
-      "officialUrl": "https://blacklotusmassage.gr/product/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-40-%CE%B5%CF%85%CF%81%CF%8E/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Black Lotus Massage Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -336,7 +192,7 @@
       "cardId": "cmta1fjhs002nq8iyk0isu1fk",
       "merchantId": "cmta1fjbc002mq8iyuv5gz856",
       "merchantName": "Bonsai Home",
-      "title": "ΔΩΡΟΚΑΡΤΑ ΤΩΝ 10",
+      "title": "Bonsai Home Δωροκάρτα 10€",
       "officialUrl": "https://bonsaihome.gr/%ce%b4%cf%89%cf%81%ce%bf%ce%ba%ce%b1%cf%81%cf%84%ce%b1/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -349,55 +205,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1hs0500a4q8iy6cmwyvew",
-      "merchantId": "cmta1hru700a3q8iy6vn9whln",
-      "merchantName": "Cavallo",
-      "title": "Cavallo e-gift card - Δωροκάρτα Αξίας 20€",
-      "officialUrl": "https://www.cavallo.gr/product-tag/gift-card/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Cavallo Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1kk4900lkq8iyorzj05jc",
-      "merchantId": "cmta1kjxb00ljq8iyqyzzmihw",
-      "merchantName": "Celesteshop",
-      "title": "Gift Card 50",
-      "officialUrl": "https://celesteshop.gr/c/dwrokarta/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Celesteshop Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -408,8 +216,8 @@
       "cardId": "cmta1foot0035q8iyj3zj3bf1",
       "merchantId": "cmta1foi10034q8iys3xdtw6v",
       "merchantName": "Chicbee",
-      "title": "Δωροκάρτα 20",
-      "officialUrl": "https://chicbee.gr/product/dorokarta-10/",
+      "title": "Chicbee Δωροκάρτα 20€",
+      "officialUrl": "https://chicbee.gr/product-category/dorokartes/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -421,7 +229,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -432,8 +240,8 @@
       "cardId": "cmtb7718b000ldkiynw5j1q46",
       "merchantId": "cmtb77130000kdkiy8nzwbibh",
       "merchantName": "Cordella",
-      "title": "Δωροκάρτα 500€",
-      "officialUrl": "https://www.cordella.gr/dorokartes",
+      "title": "Cordella Δωροκάρτα 500€",
+      "officialUrl": "https://www.cordella.gr/shop/vendor/cordella",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -445,7 +253,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -456,7 +264,7 @@
       "cardId": "cmta1mtta00ugq8iy0fpw7nra",
       "merchantId": "cmta1mtmv00ufq8iy7t79x1wg",
       "merchantName": "Dalis",
-      "title": "Gift Card 20",
+      "title": "Dalis Gift Card 20€",
       "officialUrl": "https://dalis.gr/product-category/gift-cards/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -469,7 +277,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -491,9 +299,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -504,8 +312,8 @@
       "cardId": "cmta1hw4400akq8iykgucmned",
       "merchantId": "cmta1hvy400ajq8iyj0su91kc",
       "merchantName": "Decolight",
-      "title": "Δωροκάρτα 20€ - 0001",
-      "officialUrl": "https://decolight.gr/",
+      "title": "Decolight Δωροκάρτα 20€",
+      "officialUrl": "https://www.decolight.gr/index.php?route=account%2Fvoucher",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -515,33 +323,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1fa1z001rq8iyz9bikmb5",
-      "merchantId": "cmta1f9vp001qq8iy90mef58l",
-      "merchantName": "DigiShark",
-      "title": "Δωροκάρτα 25",
-      "officialUrl": "https://digishark.gr/product/giftcard26/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "DigiShark Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -552,8 +336,8 @@
       "cardId": "cmta1m6ad00s0q8iyjl5guf73",
       "merchantId": "cmta1m63d00rzq8iyrm7v5cfk",
       "merchantName": "Dromeasbikes",
-      "title": "Gift voucher €25",
-      "officialUrl": "https://dromeasbikes.gr/product/%ce%b4%cf%89%cf%81%ce%bf%ce%b5%cf%80%ce%b9%cf%84%ce%b1%ce%b3%ce%ae10/",
+      "title": "DromeasBikes Δωροεπιταγή 25€",
+      "officialUrl": "https://dromeasbikes.gr/product-category/%CE%B4%CF%89%CF%81%CE%BF%CE%B5%CF%80%CE%B9%CF%84%CE%B1%CE%B3%CE%AD%CF%82/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -565,79 +349,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1m6ti00s2q8iyv2uhr92n",
-      "merchantId": "cmta1m6np00s1q8iyh8u312hb",
-      "merchantName": "E Snacks",
-      "title": "Gift Card 50€ | E-Snacks",
-      "officialUrl": "https://e-snacks.gr/gift-cards",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "E Snacks Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1m7h100s4q8iy0yg57q08",
-      "merchantId": "cmta1m7ap00s3q8iyofu6o4ra",
-      "merchantName": "E Socks",
-      "title": "€50 Gift Card",
-      "officialUrl": "https://e-socks.gr/collections/giftcards",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "E Socks Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1glxb006aq8iyq6z8shi9",
-      "merchantId": "cmta1glqy0069q8iyo9pgurro",
-      "merchantName": "Efarmakeio",
-      "title": "Δωροκάρτα Αξίας 25,00",
-      "officialUrl": "https://efarmakeio.gr/gift-cards",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Efarmakeio Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -659,9 +371,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -683,57 +395,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1fsu3003jq8iy5qqq6jin",
-      "merchantId": "cmta1fsn8003iq8iy44ffyjo1",
-      "merchantName": "Ergaleiogatos",
-      "title": "30 EUR",
-      "officialUrl": "https://www.ergaleiogatos.gr/shop/doroepitagi/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Ergaleiogatos Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmtb774ej0011dkiy2n93voje",
-      "merchantId": "cmtb7749h0010dkiy4q022h9a",
-      "merchantName": "Fagotto Books",
-      "title": "Δωροκάρτα αξίας 40 ευρώ",
-      "officialUrl": "https://fagottobooks.gr/en/percussion-ekpaideytiko-yliko/dorokartes/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Fagotto Books Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -744,12 +408,13 @@
       "cardId": "cmta1i8n300boq8iydt4qw67b",
       "merchantId": "cmta1i8g400bnq8iyw7ifw6pq",
       "merchantName": "Fantasea",
-      "title": "Δωροεπιταγή 100",
-      "officialUrl": "https://www.fantasea.gr/product/doroepitagi-30-1032/",
+      "title": "Fantasea Δωροεπιταγή 100€",
+      "officialUrl": "https://www.fantasea.gr/product/doroepitagi-100-1034/",
       "issues": [
+        "DENOMINATION_SPECIFIC_URL",
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
+      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. URL gift-card segment repeats the title denomination (100). URL remains unchanged until its parent is independently validated.",
       "proposedValue": "Fantasea Gift Card",
       "relationCounts": {
         "variants": 0,
@@ -757,7 +422,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -765,23 +430,22 @@
       "structuredAmounts": []
     },
     {
-      "cardId": "cmta1frxq003fq8iydayuc6sk",
-      "merchantId": "cmta1frr8003eq8iy26h3rb97",
-      "merchantName": "Farmakeio4all",
-      "title": "Δωροκάρτα 60 ευρώ",
-      "officialUrl": "https://farmakeio4all.gr/product/dwrokarta-100-evrw-2/",
+      "cardId": "cmta5nnqb000j54iy5h71qhyd",
+      "merchantId": "cmta5nnll000i54iywoggd8zt",
+      "merchantName": "Floraplant",
+      "title": "Floraplant Gift Card",
+      "officialUrl": "https://eshop.floraplant.gr/en/giftcard/",
       "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Farmakeio4all Gift Card",
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
       "relationCounts": {
         "variants": 0,
         "categories": 1,
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -789,19 +453,18 @@
       "structuredAmounts": []
     },
     {
-      "cardId": "cmtb774sd0013dkiy6s1lutst",
-      "merchantId": "cmtb774mt0012dkiyq4k7d2ow",
-      "merchantName": "Feed Me",
-      "title": "Feed Me Gift Card",
-      "officialUrl": "https://www.feedmepetshop.gr/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1-giftcard-25e/",
+      "cardId": "cmtb6uo3d001i3giyiq64l7pb",
+      "merchantId": "cmta5nnll000i54iywoggd8zt",
+      "merchantName": "Floraplant",
+      "title": "GIFT CARD - Δωροκάρτα - Floraplant & Garden Center",
+      "officialUrl": "https://floraplant.gr/gift-card/",
       "issues": [
-        "DENOMINATION_SPECIFIC_URL"
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
       ],
-      "reason": "URL gift-card segment contains an explicit currency amount (25). URL remains unchanged until its parent is independently validated.",
-      "proposedValue": null,
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
       "relationCounts": {
         "variants": 0,
-        "categories": 1,
+        "categories": 0,
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
@@ -816,7 +479,7 @@
       "cardId": "cmta1iad800bwq8iyw7ce55ti",
       "merchantId": "cmta1ia7500bvq8iypdqd66ct",
       "merchantName": "Funkymonkeyshoes",
-      "title": "ΔΩΡΟΚΑΡΤΑ 30€ | 40€ | 50",
+      "title": "Funky Monkey Δωροκάρτα 30€ / 40€ / 50€",
       "officialUrl": "https://funkymonkeyshoes.gr/product/gift-card/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -829,7 +492,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -851,9 +514,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -875,9 +538,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -888,8 +551,8 @@
       "cardId": "cmta1fk9b002pq8iyf5m36fcm",
       "merchantId": "cmta1fk27002oq8iyhbxv0ee5",
       "merchantName": "Grill me",
-      "title": "ΔΩΡΟΚΑΡΤΑ 50 Ευρώ",
-      "officialUrl": "https://grillme.gr/gr/",
+      "title": "Grill me Δωροκάρτα 50€",
+      "officialUrl": "https://grillme.gr/gr/dorokarta",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -899,9 +562,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -923,9 +586,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -936,7 +599,7 @@
       "cardId": "cmta1kqbn00maq8iyrbgsvpn7",
       "merchantId": "cmta1kq4t00m9q8iynfm2daqb",
       "merchantName": "Hobbylobby Yarns",
-      "title": "Δωροεπιταγή 100",
+      "title": "Hobby Lobby Δωροεπιταγή 100€",
       "officialUrl": "https://www.hobbylobby-yarns.gr/product-category/doroepitages/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -949,55 +612,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmtb779he001rdkiycol4bpk0",
-      "merchantId": "cmtb779c5001qdkiy6oykrbp5",
-      "merchantName": "Ioannou Cosmetics",
-      "title": "Δωροκάρτα 50",
-      "officialUrl": "https://www.ioannou-cosmetics.gr/c/dwrokartes/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Ioannou Cosmetics Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1fj1o002lq8iyo5np81fy",
-      "merchantId": "cmta1fivj002kq8iypy583huf",
-      "merchantName": "Ipatios",
-      "title": "Δωροκάρτα 100",
-      "officialUrl": "https://ipatios.gr/c/gynaika/dwrokarta-gynaika/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Ipatios Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1008,8 +623,8 @@
       "cardId": "cmta1f16s000rq8iy7vke82nt",
       "merchantId": "cmta1f101000qq8iy6zg8n644",
       "merchantName": "John-Andy",
-      "title": "JOHN-ANDY Δωροεπιταγή 20 Ευρώ",
-      "officialUrl": "https://www.john-andy.com/",
+      "title": "JOHN-ANDY Δωροεπιταγή 20€",
+      "officialUrl": "https://john-andy.com/gunaika/doroepitages.html",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -1019,9 +634,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1045,7 +660,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1069,7 +684,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1080,7 +695,7 @@
       "cardId": "cmta1ilzk00d8q8iy2h8zeglu",
       "merchantId": "cmta1iltx00d7q8iyerhiz1p8",
       "merchantName": "Kazi",
-      "title": "Gift Card 80",
+      "title": "Kazi Gift Card 80€",
       "officialUrl": "https://kazi.gr/gift-card-519380-1.html",
       "issues": [
         "DENOMINATION_SPECIFIC_URL",
@@ -1094,7 +709,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1105,8 +720,8 @@
       "cardId": "cmta1ims300dcq8iy209yelks",
       "merchantId": "cmta1imn100dbq8iyn4nhj89a",
       "merchantName": "Kikoo",
-      "title": "Δωροεπιταγή Kikoo 50€",
-      "officialUrl": "https://kikoo.gr/",
+      "title": "Kikoo Δωροεπιταγή 50€",
+      "officialUrl": "https://kikoo.gr/index.php?path=216&route=product%2Fcategory",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -1115,6 +730,52 @@
       "relationCounts": {
         "variants": 0,
         "categories": 1,
+        "occasions": 0,
+        "sources": 1,
+        "mediaAssets": 0,
+        "clicks": 3,
+        "verificationEvents": 0,
+        "reviewFlags": 0,
+        "productionVerificationSnapshots": 0
+      },
+      "structuredAmounts": []
+    },
+    {
+      "cardId": "cmtb785to006cdkiy9ubl9s4x",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "merchantName": "Kotsovolos",
+      "title": "Kotsovolos Gift Card",
+      "officialUrl": "https://www.kotsovolos.gr/pages/e-giftcard",
+      "issues": [
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
+      ],
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
+      "relationCounts": {
+        "variants": 2,
+        "categories": 1,
+        "occasions": 1,
+        "sources": 1,
+        "mediaAssets": 0,
+        "clicks": 8,
+        "verificationEvents": 0,
+        "reviewFlags": 0,
+        "productionVerificationSnapshots": 0
+      },
+      "structuredAmounts": []
+    },
+    {
+      "cardId": "cmta1g5lj004tq8iy2gi1o7hn",
+      "merchantId": "cmta1g5ei004sq8iyj1nwtg24",
+      "merchantName": "Kotsovolos",
+      "title": "Kotsovolos Δωροκάρτα – Gift Card!",
+      "officialUrl": "https://kotsovolos-b2b.giftcards-store.com/el",
+      "issues": [
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
+      ],
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
+      "relationCounts": {
+        "variants": 0,
+        "categories": 0,
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
@@ -1129,8 +790,8 @@
       "cardId": "cmta1flev002rq8iyn4j6f4f1",
       "merchantId": "cmta1fl7h002qq8iyqkgcjboc",
       "merchantName": "Kounio",
-      "title": "Δωροκάρτα - Gift Card - 25",
-      "officialUrl": "https://www.kounio.gr/",
+      "title": "Kounio Δωροκάρτα 25€",
+      "officialUrl": "https://kounio.gr/katastima/legacy/%CE%B4%CF%89%CF%81%CE%BF%CE%BA%CE%AC%CF%81%CF%84%CE%B1/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -1140,9 +801,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1153,13 +814,13 @@
       "cardId": "cmta1n9za00w8q8iy7ywbxcsm",
       "merchantId": "cmta1n9sv00w7q8iypja3wgnv",
       "merchantName": "Krikisbeauty",
-      "title": "Gift Card 20€ | https://krikisbeauty.gr/",
-      "officialUrl": "https://krikisbeauty.gr/shop/gift-card-100e/",
+      "title": "Krikis Beauty Gift Card 20€",
+      "officialUrl": "https://krikisbeauty.gr/shop/gift-card-20e-2/",
       "issues": [
         "DENOMINATION_SPECIFIC_URL",
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. URL gift-card segment contains an explicit currency amount (100). URL remains unchanged until its parent is independently validated.",
+      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. URL gift-card segment contains an explicit currency amount (20). URL remains unchanged until its parent is independently validated.",
       "proposedValue": "Krikisbeauty Gift Card",
       "relationCounts": {
         "variants": 0,
@@ -1167,7 +828,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1191,31 +852,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1inkb00dgq8iyu0pfa6d9",
-      "merchantId": "cmta1ineu00dfq8iyw5mpx7lq",
-      "merchantName": "Lamillou",
-      "title": "Gift Card 100€ | La Millou",
-      "officialUrl": "https://lamillou.gr/shop/dorokartes/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Lamillou Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1239,7 +876,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1250,7 +887,7 @@
       "cardId": "cmta1ktry00moq8iyk8cnm3ts",
       "merchantId": "cmta1ktlv00mnq8iym8klu36r",
       "merchantName": "Luckytravel",
-      "title": "Gift card €100 – €200 - Lucky Travel |",
+      "title": "Lucky Travel Gift Card 100€ / 200€ / 300€",
       "officialUrl": "https://www.luckytravel.gr/product/giftcard/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1263,7 +900,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1274,8 +911,8 @@
       "cardId": "cmta1gsbd006wq8iy8x59y1jr",
       "merchantId": "cmta1gs4h006vq8iydzfivov7",
       "merchantName": "Maniashome",
-      "title": "ΔΩΡΟΕΠΙΤΑΓΗ €20",
-      "officialUrl": "https://maniashome.gr/proion/doroepitagi-e10/",
+      "title": "Maniashome Δωροεπιταγή 20€",
+      "officialUrl": "https://maniashome.gr/katigoria/doroepitages/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -1287,7 +924,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1298,7 +935,7 @@
       "cardId": "cmta1iskl00e4q8iy4blzttgs",
       "merchantId": "cmta1isf400e3q8iyxulrv2jo",
       "merchantName": "Maralcrafts",
-      "title": "Gift Card 50 Euro - Maral Crafts",
+      "title": "Maral Crafts Gift Card 50€",
       "officialUrl": "https://maralcrafts.gr/product-category/gift-cards/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1311,7 +948,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1333,9 +970,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1357,9 +994,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1370,8 +1007,8 @@
       "cardId": "cmta1kaap00kgq8iyxyxwrv9r",
       "merchantId": "cmta1ka4i00kfq8iykvii8j6b",
       "merchantName": "Medi Shop",
-      "title": "Gift Card 50",
-      "officialUrl": "https://medi-shop.gr/",
+      "title": "Medi-Shop Δωροκάρτα 50€",
+      "officialUrl": "https://www.medi-shop.gr/el/giftcards",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -1381,9 +1018,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1406,9 +1043,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1419,7 +1056,7 @@
       "cardId": "cmta1kard00kiq8iyc8lsfv9b",
       "merchantId": "cmta1kakx00khq8iyslhuttfv",
       "merchantName": "Melispa",
-      "title": "Gift Card €30",
+      "title": "Meli Spa Gift Card 30€",
       "officialUrl": "https://www.melispa.gr/el/gift-card",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1432,55 +1069,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmtb77c840025dkiy8nltursd",
-      "merchantId": "cmtb77c2z0024dkiyyehncw02",
-      "merchantName": "Melissinos Sandals",
-      "title": "Gift Voucher - 55",
-      "officialUrl": "http://www.melissinos-sandals.gr/giftvouchers",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Melissinos Sandals Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1iw3700emq8iyu2nqv2dn",
-      "merchantId": "cmta1ivy000elq8iy2l2t9htl",
-      "merchantName": "Mfdayspa",
-      "title": "ΔΩΡΟΕΠΙΤΑΓΗ 100",
-      "officialUrl": "https://www.mfdayspa.gr/product-category/gift-ideas/gift-cards/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Mfdayspa Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1491,21 +1080,20 @@
       "cardId": "cmta4yuag002psciyoexjru1o",
       "merchantId": "cmta4yu3q002osciyu5jetmw1",
       "merchantName": "Mgsound",
-      "title": "MGsound Gift Card 300€ | Premium Event Gift Card",
-      "officialUrl": "https://www.mgsound.gr/product/gift-card-300/?srsltid=AfmBOor9zJIGcmlK-272F6SOU8U2UDBV-AfXv09-bRqilRiHpN2U7TDO",
+      "title": "MGsound Gift Card 300€",
+      "officialUrl": "https://www.mgsound.gr/product-category/gift-cards/",
       "issues": [
-        "DENOMINATION_SPECIFIC_URL",
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. URL gift-card segment repeats the title denomination (300). URL remains unchanged until its parent is independently validated.",
+      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
       "proposedValue": "Mgsound Gift Card",
       "relationCounts": {
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1516,7 +1104,7 @@
       "cardId": "cmta1ix8a00esq8iyx9vwmckf",
       "merchantId": "cmta1ix3800erq8iyqmw3lkc2",
       "merchantName": "Mikelidis",
-      "title": "Δώρα :: Gift Card :: Gift Card 300 €",
+      "title": "Mikelidis Gift Card 300€",
       "officialUrl": "https://www.mikelidis.gr/dora/gift-card/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1529,7 +1117,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1553,7 +1141,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1564,7 +1152,7 @@
       "cardId": "cmta1iyw100f0q8iyyl3g2m31",
       "merchantId": "cmta1iypl00ezq8iypg6kwhfe",
       "merchantName": "Motovinios",
-      "title": "ΔΩΡΟΚΑΡΤΑ 100€ Το καλύτερο δώρο για τα αγαπημένα ...",
+      "title": "Motovinios Δωροκάρτα 100€",
       "officialUrl": "https://www.motovinios.gr/c/giftcard",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1577,7 +1165,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1600,9 +1188,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1624,9 +1212,33 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
+        "verificationEvents": 0,
+        "reviewFlags": 0,
+        "productionVerificationSnapshots": 0
+      },
+      "structuredAmounts": []
+    },
+    {
+      "cardId": "cmtb7i4z6001d04iynhzy9379",
+      "merchantId": "cmtb7i4tc001c04iydbkml154",
+      "merchantName": "Oriad Athens",
+      "title": "Oriad Athens Gift Card",
+      "officialUrl": "https://oriadathens.com/product/gift-card-50e/",
+      "issues": [
+        "DENOMINATION_SPECIFIC_URL"
+      ],
+      "reason": "URL gift-card segment contains an explicit currency amount (50). URL remains unchanged until its parent is independently validated.",
+      "proposedValue": null,
+      "relationCounts": {
+        "variants": 0,
+        "categories": 1,
+        "occasions": 0,
+        "sources": 1,
+        "mediaAssets": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1637,45 +1249,20 @@
       "cardId": "cmtb6v04k003a3giyiu8s30dd",
       "merchantId": "cmtb6uzyo00393giyijqh9v1h",
       "merchantName": "Outdoorway",
-      "title": "Δωροεπιταγή Outdoorway 10 Ευρώ",
-      "officialUrl": "https://www.outdoorway.gr/product/15647/doroepitagi-Outdoorway-10-eyro",
+      "title": "Outdoorway Δωροεπιταγή 10€",
+      "officialUrl": "https://www.outdoorway.gr/category/8/dora-anamnistika/1100098/doroepitages",
       "issues": [
-        "DENOMINATION_SPECIFIC_URL",
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. URL gift-card segment repeats the title denomination (10). URL remains unchanged until its parent is independently validated.",
+      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
       "proposedValue": "Outdoorway Gift Card",
       "relationCounts": {
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1kyj500n8q8iyln315obv",
-      "merchantId": "cmta1kycr00n7q8iyw5ymk36g",
-      "merchantName": "Palazzodiscarpe",
-      "title": "Δωροκάρτα 150",
-      "officialUrl": "https://www.palazzodiscarpe.gr/i/giftcards/dwrokarta-70/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Palazzodiscarpe Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1697,9 +1284,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1721,9 +1308,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1734,7 +1321,7 @@
       "cardId": "cmta1j7oa00g0q8iygdnjdv5j",
       "merchantId": "cmta1j7hz00fzq8iy4xlg7dvr",
       "merchantName": "Parousiafashion",
-      "title": "ΔΩΡΟΕΠΙΤΑΓΗ 70",
+      "title": "Parousia Fashion Δωροεπιταγή 70€",
       "officialUrl": "https://parousiafashion.gr/product-category/gift-cards/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1747,7 +1334,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1758,7 +1345,7 @@
       "cardId": "cmta1ld1900ouq8iyh416pr6o",
       "merchantId": "cmta1lcus00otq8iyclnib1y8",
       "merchantName": "Petrichor",
-      "title": "Gift Card 200",
+      "title": "Petrichor Gift Card 200€",
       "officialUrl": "https://www.petrichor.com.gr/en/gift-card",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1771,31 +1358,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1gvbd0078q8iyfrpuq3og",
-      "merchantId": "cmta1guui0077q8iybyqma2gp",
-      "merchantName": "Phoskitchenware",
-      "title": "GiftCard 100€",
-      "officialUrl": "https://www.phoskitchenware.gr/en/content/10-giftcards",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Phoskitchenware Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1819,7 +1382,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1841,9 +1404,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1854,7 +1417,7 @@
       "cardId": "cmta1fqnv003bq8iy3xbbgzju",
       "merchantId": "cmta1fqg6003aq8iyyqfnhn5v",
       "merchantName": "PNN Nightwear",
-      "title": "Δωροκάρτα 15",
+      "title": "PNN Nightwear Δωροκάρτα 15€",
       "officialUrl": "https://pnn-nightwear.gr/product/dorokarta-pnn-nightwear/",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1867,103 +1430,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta4239t000at8iyxdbmhou6",
-      "merchantId": "cmta4234h0009t8iyslvfmbiy",
-      "merchantName": "Powerpharm",
-      "title": "Δωροεπιταγή 30",
-      "officialUrl": "https://powerpharm.gr/product-category/gift-vouchers/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Powerpharm Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1fpyi0039q8iyyzfu0kma",
-      "merchantId": "cmta1fpfj0038q8iyqulj0hwp",
-      "merchantName": "Pragmatic",
-      "title": "Pragmatic Gift Voucher 100",
-      "officialUrl": "https://www.pragmatic.gr/dora/gift-cards/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Pragmatic Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmtb7i4z6001d04iynhzy9379",
-      "merchantId": "cmtb7i4tc001c04iydbkml154",
-      "merchantName": "Premium Greek Natural Skincare",
-      "title": "Gift Card - Premium Greek Natural Skincare",
-      "officialUrl": "https://oriadathens.com/product/gift-card-50e/",
-      "issues": [
-        "DENOMINATION_SPECIFIC_URL"
-      ],
-      "reason": "URL gift-card segment contains an explicit currency amount (50). URL remains unchanged until its parent is independently validated.",
-      "proposedValue": null,
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
-        "verificationEvents": 0,
-        "reviewFlags": 0,
-        "productionVerificationSnapshots": 0
-      },
-      "structuredAmounts": []
-    },
-    {
-      "cardId": "cmta1nnui00xqq8iyverz0w50",
-      "merchantId": "cmta1nnlj00xpq8iyi0360ygm",
-      "merchantName": "Profitstore",
-      "title": "ΔωροΕπιταγή - Gift Card αξίας 500€ - ProfitStore",
-      "officialUrl": "https://profitstore.gr/",
-      "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
-      ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Profitstore Gift Card",
-      "relationCounts": {
-        "variants": 0,
-        "categories": 1,
-        "occasions": 0,
-        "sources": 0,
-        "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1974,7 +1441,7 @@
       "cardId": "cmta1l18300niq8iyfjqu39zb",
       "merchantId": "cmta1l12800nhq8iy7m1jy4ap",
       "merchantName": "Psaltou",
-      "title": "Gift Card Αξίας 70",
+      "title": "Psaltou Gift Card 70€",
       "officialUrl": "https://www.psaltou.gr/gift-cards",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -1987,7 +1454,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -1995,19 +1462,18 @@
       "structuredAmounts": []
     },
     {
-      "cardId": "cmta1ffa4002bq8iy5k6w34t1",
-      "merchantId": "cmta1ff3n002aq8iyrx6zswhx",
-      "merchantName": "Shopdali",
-      "title": "DA|LI Gift Card 50",
-      "officialUrl": "https://shopdali.gr/products/littles-gift-card-100",
+      "cardId": "cmta1g612004uq8iy6ctyhbtp",
+      "merchantId": "cmt8hesrb000fa8iycuggb6wc",
+      "merchantName": "Puma Greece",
+      "title": "Gift Card Terms & Conditions",
+      "officialUrl": "https://giftcard.puma.com/de/en/TERMS_AND_CONDITIONS.html",
       "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Shopdali Gift Card",
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
       "relationCounts": {
         "variants": 0,
-        "categories": 1,
+        "categories": 0,
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
@@ -2019,24 +1485,23 @@
       "structuredAmounts": []
     },
     {
-      "cardId": "cmta1feu80029q8iy3p7bdse4",
-      "merchantId": "cmta1fenw0028q8iy6hk5qrpw",
-      "merchantName": "skakistikokentro.com",
-      "title": "Δωροεπιταγή αξίας 50 ευρώ",
-      "officialUrl": "https://skakistikokentro.com/shop",
+      "cardId": "cmt8hesz5000ga8iykmbj9m8y",
+      "merchantId": "cmt8hesrb000fa8iycuggb6wc",
+      "merchantName": "Puma Greece",
+      "title": "Puma Greece Gift Card",
+      "officialUrl": "https://eu.puma.com/gr/en/pd/digital-gift-card",
       "issues": [
-        "TITLE_AMOUNT_NOT_STRUCTURED"
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "skakistikokentro.com Gift Card",
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
       "relationCounts": {
-        "variants": 0,
+        "variants": 1,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
         "clicks": 3,
-        "verificationEvents": 0,
+        "verificationEvents": 1,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
       },
@@ -2046,7 +1511,7 @@
       "cardId": "cmta5ny2d002354iyvhj9mkz0",
       "merchantId": "cmta5nxxp002254iy4fqx9dbp",
       "merchantName": "Smaragdasart",
-      "title": "E-Δωροκάρτα 200€",
+      "title": "Smaragdas Art E-Δωροκάρτα 200€",
       "officialUrl": "https://smaragdasart.gr/el/card/171-e-gift-card-100-.html",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -2057,9 +1522,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2070,7 +1535,7 @@
       "cardId": "cmta1jgrc00h2q8iylmuzku7m",
       "merchantId": "cmta1jgl400h1q8iy35u741e6",
       "merchantName": "Sonice",
-      "title": "Gift Card 50 -",
+      "title": "Sonice Δωροεπιταγή 50€",
       "officialUrl": "https://www.sonice.gr/el/185-gift-cards",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -2083,7 +1548,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2107,7 +1572,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2118,8 +1583,8 @@
       "cardId": "cmta1jijd00haq8iy0wkujph9",
       "merchantId": "cmta1jidc00h9q8iy2obggbjm",
       "merchantName": "Stickit",
-      "title": "Δωροεπιταγή 10 € - 100 €",
-      "officialUrl": "https://stickit.gr/",
+      "title": "Stickit Δωροεπιταγή 10€ – 100€",
+      "officialUrl": "https://www.stickit.gr/el/doroepitages/doroepitagi",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -2129,9 +1594,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 5,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2139,19 +1604,47 @@
       "structuredAmounts": []
     },
     {
-      "cardId": "cmta1f888001jq8iyip6oud9c",
-      "merchantId": "cmta1f82b001iq8iyewg8e5b5",
-      "merchantName": "Theodorou.Shop",
-      "title": "e-Δωροκάρτα | 300",
-      "officialUrl": "https://theodorou.shop/edorokarta",
+      "cardId": "cmta5nyde002454iyc6vaizw0",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "merchantName": "Thomann",
+      "title": "Thomann Gift Card",
+      "officialUrl": "https://www.thomann.gr/gift_voucher.html",
       "issues": [
+        "CROSS_DOMAIN_MERCHANT_CLUSTER"
+      ],
+      "reason": "Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
+      "relationCounts": {
+        "variants": 1,
+        "categories": 1,
+        "occasions": 0,
+        "sources": 0,
+        "mediaAssets": 0,
+        "clicks": 3,
+        "verificationEvents": 0,
+        "reviewFlags": 0,
+        "productionVerificationSnapshots": 0
+      },
+      "structuredAmounts": [
+        "10",
+        "25",
+        "50"
+      ]
+    },
+    {
+      "cardId": "cmta1fp5c0037q8iy0bte1j9f",
+      "merchantId": "cmta1fozl0036q8iyfva5aozo",
+      "merchantName": "Thomann",
+      "title": "Thomann Gift Certificate 50 EUR",
+      "officialUrl": "https://www.thomann.de/gr/index.html",
+      "issues": [
+        "CROSS_DOMAIN_MERCHANT_CLUSTER",
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
-      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
-      "proposedValue": "Theodorou.Shop Gift Card",
+      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values. Merchant has 2 cards; no merge/archive action is planned without a relation-aware keeper decision.",
+      "proposedValue": "Thomann Gift Card",
       "relationCounts": {
         "variants": 0,
-        "categories": 1,
+        "categories": 0,
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
@@ -2177,9 +1670,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2201,9 +1694,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2227,7 +1720,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2249,9 +1742,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2262,8 +1755,8 @@
       "cardId": "cmtb77pqn0044dkiykqllgm6x",
       "merchantId": "cmtb77pls0043dkiy7d0f0hyj",
       "merchantName": "Vinoteca",
-      "title": "Δωροκάρτα 100",
-      "officialUrl": "https://www.vinoteca.gr/gift-card-100.html",
+      "title": "Vinoteca Δωροκάρτα 100€",
+      "officialUrl": "https://www.vinoteca.gr/gifts/gift-cards.html",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -2273,9 +1766,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2299,7 +1792,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2310,8 +1803,8 @@
       "cardId": "cmta1lg2500p6q8iyyuuzs7jr",
       "merchantId": "cmta1lfvh00p5q8iygw2r78qv",
       "merchantName": "Woodyline",
-      "title": "GIFT CARD 200?",
-      "officialUrl": "https://woodyline.gr/",
+      "title": "Woodyline Δωροκάρτα 200€",
+      "officialUrl": "https://www.woodyline.gr/category/238/dwrokartes.html",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
       ],
@@ -2321,9 +1814,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 2,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2334,7 +1827,7 @@
       "cardId": "cmta1jyv900j4q8iyp2i9pyz5",
       "merchantId": "cmta1jyov00j3q8iy67j6xwig",
       "merchantName": "Yellowstars",
-      "title": "Δωροκάρτα 20€ YellowStars",
+      "title": "YellowStars Δωροκάρτα 20€",
       "officialUrl": "https://yellowstars.gr/category/dorokarta",
       "issues": [
         "TITLE_AMOUNT_NOT_STRUCTURED"
@@ -2347,7 +1840,7 @@
         "occasions": 0,
         "sources": 0,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2370,9 +1863,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 4,
         "verificationEvents": 1,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2394,9 +1887,9 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 3,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0
@@ -2419,9 +1912,33 @@
         "variants": 0,
         "categories": 1,
         "occasions": 0,
-        "sources": 0,
+        "sources": 1,
         "mediaAssets": 0,
-        "clicks": 0,
+        "clicks": 1,
+        "verificationEvents": 0,
+        "reviewFlags": 0,
+        "productionVerificationSnapshots": 0
+      },
+      "structuredAmounts": []
+    },
+    {
+      "cardId": "cmta1feu80029q8iy3p7bdse4",
+      "merchantId": "cmta1fenw0028q8iy6hk5qrpw",
+      "merchantName": "Σκακιστικό Κέντρο Ελλάδος",
+      "title": "Σκακιστικό Κέντρο Ελλάδος Δωροεπιταγή 50€",
+      "officialUrl": "https://skakistikokentro.com/shop/doroepitages",
+      "issues": [
+        "TITLE_AMOUNT_NOT_STRUCTURED"
+      ],
+      "reason": "Amount-bearing title was not rewritten because at least one denomination is missing from variants/values.",
+      "proposedValue": "Σκακιστικό Κέντρο Ελλάδος Gift Card",
+      "relationCounts": {
+        "variants": 0,
+        "categories": 1,
+        "occasions": 0,
+        "sources": 1,
+        "mediaAssets": 0,
+        "clicks": 6,
         "verificationEvents": 0,
         "reviewFlags": 0,
         "productionVerificationSnapshots": 0

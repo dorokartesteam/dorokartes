@@ -6,8 +6,8 @@
   "summary": {
     "safeValueEvidence": 0,
     "supportedAsIs": 12,
-    "review": 85,
-    "error": 10
+    "review": 87,
+    "error": 8
   },
   "findings": [
     {
@@ -1277,12 +1277,16 @@
       ],
       "urlAmounts": [],
       "existingVariantCount": 0,
-      "finalUrl": null,
-      "status": "ERROR",
+      "finalUrl": "https://john-andy.com/gunaika/doroepitages.html",
+      "status": "REVIEW",
       "reasons": [
-        "PAGE_TIMEOUT"
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
       ],
-      "pageIdentity": [],
+      "pageIdentity": [
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ - ΓΥΝΑΙΚΑ",
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ"
+      ],
       "priceEvidence": [],
       "proposedCurrency": "EUR",
       "proposedValues": [],
@@ -2397,12 +2401,18 @@
       ],
       "urlAmounts": [],
       "existingVariantCount": 0,
-      "finalUrl": null,
-      "status": "ERROR",
+      "finalUrl": "https://parousiafashion.gr/product-category/gift-cards/",
+      "status": "REVIEW",
       "reasons": [
-        "PAGE_HTTP_403"
+        "TITLE_AMOUNT_NOT_CONFIRMED_ON_PAGE",
+        "DELIVERY_TYPE_UNRESOLVED"
       ],
-      "pageIdentity": [],
+      "pageIdentity": [
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ – ParousiaFashion.gr | Το Απόλυτο Eshop Γυναικείων Ρούχων & Αξεσουάρ",
+        "Αρχική σελίδα",
+        "Shop",
+        "ΔΩΡΟΕΠΙΤΑΓΕΣ"
+      ],
       "priceEvidence": [],
       "proposedCurrency": "EUR",
       "proposedValues": [],
@@ -3316,25 +3326,25 @@
       ],
       "pageIdentity": [
         "Z-Ergaleia.gr",
-        "Karcher T 11/1 Classic HEPA Re!Plast Σκούπα Ξηρής Αναρρόφησης 850W",
-        "Husqvarna 572 XP-20\\\" Αλυσοπρίονο Βενζίνης+ Μπουφαν",
         "Husqvarna TF338 Σκαπτικό Βενζίνης 212cc",
-        "Kraft Ηλεκτρικό Σκαπτικό/Φρεζάκι 1500W (691148)",
-        "Husqvarna 550XP Mark II Autotune Αλυσοπριονο 18'' + Δωρο Μπουφαν",
-        "Husqvarna 120 Mark II Βενζ/Το Αλυσοπριονο 16\"",
-        "Bosch Gbh 4-32 DFR Περιστροφικό Πιστολέτο Με Sds-Plus (0611332100)",
-        "BOSCH GSS 230 AVE Παλμικό Τριβείο",
-        "Σκούπα στάχτης και ξηρής αναρρόφησης AD 4 Premium",
-        "Husqvarna 525P4S Βενζινοκίνητο Κονταροαλυσοπρίονο",
-        "Husqvarna 562XP Autotune Αλυσοπρίονο 45Cm 4.7hp",
-        "Husqvarna TF230 Σκαπτικό Βενζίνης 196cc",
-        "Karcher RM 732 Απολυμαντικό Απορρυπαντικό 5lt",
         "Husqvarna 525BX Φυσητήρας Βενζίνης",
-        "Husqvarna 215iL με μπαταρία και φορτιστή",
-        "Husqvarna 592XP Autotune 24 Light Αλυσοπρίονο Βενζίνης 7.4kg με Λάμα 60cm και Easy Start",
-        "Husqvarna All Season Λάδι Αλυσίδας (Chain Oil) 20lt",
+        "Karcher RM 732 Απολυμαντικό Απορρυπαντικό 5lt",
         "Husqvarna LS+ Λάδι Μίξης Για Δίχρονους Κινητήρες 1lt",
-        "Bosch GWS 9-125S Γων. Λειαντήρας Με Ρυθμιζόμενη Ταχύτητα 125Mm (0601396104)"
+        "Husqvarna All Season Λάδι Αλυσίδας (Chain Oil) 20lt",
+        "Husqvarna 525P4S Βενζινοκίνητο Κονταροαλυσοπρίονο",
+        "Husqvarna 572 XP-20\\\" Αλυσοπρίονο Βενζίνης+ Μπουφαν",
+        "Bosch GBH 5-40 D Professional Περιστροφικό Πιστολέτο Με Sds Max (0611269001)",
+        "BOSCH GSS 230 AVE Παλμικό Τριβείο",
+        "Bosch Gbh 4-32 DFR Περιστροφικό Πιστολέτο Με Sds-Plus (0611332100)",
+        "Husqvarna 120 Mark II Βενζ/Το Αλυσοπριονο 16\"",
+        "Karcher T 11/1 Classic HEPA Re!Plast Σκούπα Ξηρής Αναρρόφησης 850W",
+        "Husqvarna 550XP Mark II Autotune Αλυσοπριονο 18'' + Δωρο Μπουφαν",
+        "Bosch GWS 9-125S Γων. Λειαντήρας Με Ρυθμιζόμενη Ταχύτητα 125Mm (0601396104)",
+        "Husqvarna 215iL με μπαταρία και φορτιστή",
+        "Σκούπα στάχτης και ξηρής αναρρόφησης AD 4 Premium",
+        "Husqvarna 562XP Autotune Αλυσοπρίονο 45Cm 4.7hp",
+        "Kraft Ηλεκτρικό Σκαπτικό/Φρεζάκι 1500W (691148)",
+        "Husqvarna TF230 Σκαπτικό Βενζίνης 196cc"
       ],
       "priceEvidence": [],
       "proposedCurrency": null,
@@ -3446,7 +3456,7 @@
       "explicitDigitalEvidence": null
     }
   ],
-  "generatedAt": "2026-09-21T12:46:06.660Z",
-  "reportId": "c10fd42509846c5d3409fc7713fc7cecaba23f6aa725aa2e09738bcd949efdbf",
+  "generatedAt": "2026-09-21T11:52:32.301Z",
+  "reportId": "fca336c88680d63dee9d1454115f1a26e3817ed91da03f2ed51eefe459e31615",
   "databaseWrites": 0
 }

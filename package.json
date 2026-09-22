@@ -88,7 +88,9 @@
     "pipeline:mine-review-universe-v5.1": "tsx scripts/pipeline/discovery/review-universe-miner-v5-1.ts",
     "pipeline:import-review-universe-v5.1": "tsx scripts/pipeline/import/import-review-universe-v5-1.ts",
     "pipeline:final-manual-universe": "tsx scripts/pipeline/final/final-manual-universe-v1.ts",
-    "pipeline:final-13-import": "tsx scripts/pipeline/import/final-13-import-v1.ts"
+    "pipeline:final-13-import": "tsx scripts/pipeline/import/final-13-import-v1.ts",
+    "audit:catalog": "tsx scripts/audit/catalog-quality-audit-v10.ts",
+    "fix:merchant-identity-1a": "tsx scripts/cleanup/merchant-identity-fix-1a.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",

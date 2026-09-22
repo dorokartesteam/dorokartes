@@ -1,0 +1,88 @@
+{
+  "version": 16,
+  "mode": "PREVIEW",
+  "sourceAuditPlanId": "070b23da9bb527d52f06a1a2c0f181225e946c843b561a462133e10a5c555b8a",
+  "targetFingerprint": "34e14cbb1a4d949155c987ec31238c19cd525641923f0717eb481ae1c552ab2a",
+  "cardCount": 2,
+  "actionCount": 5,
+  "actions": [
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmta1fhz7002gq8iyyert5tbx",
+      "cardId": "cmta1fi60002hq8iyf9s9le0u",
+      "merchantId": "cmta1fhz7002gq8iyyert5tbx",
+      "expected": "Astrongameclub",
+      "value": "AstronGameClub",
+      "evidence": [
+        "https://www.astrongameclub.gr/gift-card/",
+        "Official structured data names the organization AstronGameClub and the product Δωροκάρτα - AstronGameClub.",
+        "The current URL is the merchant's own program, not the Nintendo product page."
+      ]
+    },
+    {
+      "type": "UPDATE_MERCHANT_NAME",
+      "actionId": "update-merchant-name:cmtb78cqm0079dkiyfu94f14d",
+      "cardId": "cmtb78cvq007adkiylvhj4shj",
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "expected": "LTS GIFT CARD / ΚΑΡΤΑ ΔΩΡΟΥ",
+      "value": "Lonis Tattoo Studio",
+      "evidence": [
+        "https://www.tattooathens.gr/blog/news/53-lts-gift-card",
+        "Official organization schema and page copy expand LTS as Lonis Tattoo Studio."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmta1fi60002hq8iyf9s9le0u",
+      "cardId": "cmta1fi60002hq8iyf9s9le0u",
+      "merchantId": "cmta1fhz7002gq8iyyert5tbx",
+      "expected": "Nintendo eShop 15 EUR",
+      "value": "AstronGameClub Gift Card",
+      "officialUrl": "https://www.astrongameclub.gr/gift-card/",
+      "evidence": [
+        "https://www.astrongameclub.gr/gift-card/",
+        "Official structured data names the organization AstronGameClub and the product Δωροκάρτα - AstronGameClub.",
+        "The current URL is the merchant's own program, not the Nintendo product page."
+      ]
+    },
+    {
+      "type": "UPDATE_CARD_TITLE",
+      "actionId": "update-card-title:cmtb78cvq007adkiylvhj4shj",
+      "cardId": "cmtb78cvq007adkiylvhj4shj",
+      "merchantId": "cmtb78cqm0079dkiyfu94f14d",
+      "expected": "LTS GIFT CARD / ΚΑΡΤΑ ΔΩΡΟΥ",
+      "value": "Lonis Tattoo Studio Gift Card",
+      "officialUrl": "https://www.tattooathens.gr/blog/news/53-lts-gift-card",
+      "evidence": [
+        "https://www.tattooathens.gr/blog/news/53-lts-gift-card",
+        "Official organization schema and page copy expand LTS as Lonis Tattoo Studio."
+      ]
+    },
+    {
+      "cardId": "cmta1fi60002hq8iyf9s9le0u",
+      "merchantId": "cmta1fhz7002gq8iyyert5tbx",
+      "expectedTitleAfter": "AstronGameClub Gift Card",
+      "purchaseUrl": "https://www.astrongameclub.gr/gift-card/",
+      "values": [
+        "10",
+        "20",
+        "25",
+        "40",
+        "50",
+        "100",
+        "120",
+        "150",
+        "200",
+        "500"
+      ],
+      "evidence": [
+        "Official product is marked virtual and requires recipient email.",
+        "Official product exposes exactly €10, €20, €25, €40, €50, €100, €120, €150, €200 and €500."
+      ],
+      "type": "CREATE_VARIANT",
+      "actionId": "create-verified-variant:cmta1fi60002hq8iyf9s9le0u"
+    }
+  ],
+  "generatedAt": "2026-09-02T09:37:32.859Z",
+  "planId": "c489f6b54eb823f9de22cf440ffc4addad6ce3678c823dff3f97cbf19db334fb"
+}

@@ -1,0 +1,218 @@
+{
+  "version": 17,
+  "mode": "PREVIEW",
+  "catalogFingerprint": "0c56c1bccf86cbb5509e7ab814810d9463fd2a4c3cda129be0b7ab023b73970e",
+  "v11PlanId": "b23c2f882a402ee13bfecfedceeb8d2c8d5f58f807bd59340025c807e0d117d5",
+  "totals": {
+    "merchants": 1127,
+    "activeMerchants": 1122,
+    "giftCards": 1130,
+    "activeGiftCards": 1120,
+    "verifiedActiveGiftCards": 620,
+    "localCanonicalMerchantLogos": 1095,
+    "affectedMerchants": 1123,
+    "affectedGiftCards": 1122,
+    "issues": 5928
+  },
+  "qualitySeverityCounts": {
+    "BLOCKER": 0,
+    "HIGH": 1048,
+    "MEDIUM": 1629,
+    "LOW": 3251
+  },
+  "qualityIssueCounts": {
+    "MISSING_META_DESCRIPTION": 1120,
+    "MISSING_SEO_TITLE": 1120,
+    "NO_ACTIVE_VARIANT": 1013,
+    "NO_OCCASION": 1011,
+    "NO_OFFICIAL_MERCHANT_SOURCE": 503,
+    "NO_OFFICIAL_CARD_SOURCE": 501,
+    "ACTIVE_CARD_NOT_VERIFIED": 500,
+    "LOGO_SOURCE_DOMAIN_MISMATCH": 56,
+    "VERY_SPECIFIC_OFFICIAL_URL": 54,
+    "LOGO_MISSING": 32,
+    "SUSPICIOUS_MERCHANT_NAME": 7,
+    "OFFICIAL_URL_DOMAIN_MISMATCH": 3,
+    "LATEST_SNAPSHOT_BAD_HTTP": 2,
+    "VARIANT_PURCHASE_DOMAIN_MISMATCH": 2,
+    "ACTIVE_MERCHANT_WITHOUT_CARDS": 1,
+    "GENERIC_MERCHANT_NAME": 1,
+    "OPEN_PRODUCTION_REVIEW_FLAG": 1,
+    "SUSPICIOUS_CARD_TITLE": 1
+  },
+  "core": {
+    "v11Actions": 0,
+    "v11CardsWithActions": 0,
+    "v11CardsWithReview": 72,
+    "v11CleanUnaffected": 1048,
+    "denominationGroups": 0,
+    "denominationEvidence": {
+      "safeValueEvidence": 0,
+      "supportedAsIs": 12,
+      "review": 85,
+      "error": 10
+    }
+  },
+  "sourceReports": [
+    {
+      "name": "catalog-quality-v10",
+      "path": "reports/catalog-audit/catalog-quality-audit-v10-2026-09-21T12-45-25-628Z.json",
+      "hash": "927b9899f97ee01c9eac5258bbe86733229845b8e2036a770bb72776f8089629"
+    },
+    {
+      "name": "merchant-identity-v1",
+      "path": "reports/merchant-identity-audit/merchant-identity-audit-v1-2026-09-21T12-45-28-814Z.json",
+      "hash": "8efe987ccffdac6db600909f24b6898de612e9e2195825e069bd8c614fe21113"
+    },
+    {
+      "name": "full-catalog-cleanup-v11-plan",
+      "path": "reports/full-catalog-cleanup-v11-plan.json",
+      "hash": "ad3deca6a7bc602a065d9032b17aac17f36ff63b8c460ab57cd1dc5d92889385"
+    },
+    {
+      "name": "full-catalog-cleanup-v11-active-post-audit",
+      "path": "reports/full-catalog-cleanup-v11-active-post-audit.json",
+      "hash": "58d544a13120d39950e960a8b265321bc85452073872b0a8e089ea6ded8cefc2"
+    },
+    {
+      "name": "denomination-groups-v2",
+      "path": "reports/denomination-consolidation-audit-v2.json",
+      "hash": "3dc8860b50a18dec28112734120029bd490e07a930467d90c099445225f3abaa"
+    },
+    {
+      "name": "denomination-evidence-v1",
+      "path": "reports/denomination-evidence-v1-preview.json",
+      "hash": "658e04030b211235d3d5b9b061ec5e323829e5107dd728e6665adcd8de0247c1"
+    },
+    {
+      "name": "merchant-logo-audit-v2",
+      "path": "reports/merchant-logo-audit-v2-2026-09-21T12-46-08-854Z.json",
+      "hash": "bec1f88b096ac05de75059034b875b1138e22261e125d2ccbe938bba882441bb"
+    }
+  ],
+  "buckets": [
+    {
+      "priority": "P0",
+      "disposition": "REVIEW",
+      "code": "DUPLICATE_OR_DOMAIN_MISMATCH",
+      "count": 3,
+      "note": "Requires canonical-program verification; never auto-merged by the master layer."
+    },
+    {
+      "priority": "P0",
+      "disposition": "REVIEW",
+      "code": "V11_REVIEW_CARDS",
+      "count": 72,
+      "note": "Identity/title/denomination review items deliberately withheld by v11 safety rules."
+    },
+    {
+      "priority": "P1",
+      "disposition": "BACKLOG",
+      "code": "ACTIVE_CARD_NOT_VERIFIED",
+      "count": 500,
+      "note": "Verification evidence gap. Prioritize before cosmetic SEO work."
+    },
+    {
+      "priority": "P1",
+      "disposition": "ERROR",
+      "code": "DENOM_ERROR",
+      "count": 10,
+      "note": "Fetch/HTTP failures; require browser/manual verification."
+    },
+    {
+      "priority": "P1",
+      "disposition": "REVIEW",
+      "code": "DENOM_REVIEW",
+      "count": 85,
+      "note": "Insufficient or conflicting live evidence."
+    },
+    {
+      "priority": "P1",
+      "disposition": "KEEP_AS_IS",
+      "code": "DENOM_SUPPORTED_AS_IS",
+      "count": 12,
+      "note": "Official page supports card/value identity but not enough evidence for automatic variant creation."
+    },
+    {
+      "priority": "P1",
+      "disposition": "ERROR",
+      "code": "LATEST_SNAPSHOT_BAD_HTTP",
+      "count": 2,
+      "note": "Needs live/browser verification; HTTP errors never trigger blind URL replacement."
+    },
+    {
+      "priority": "P1",
+      "disposition": "BACKLOG",
+      "code": "NO_ACTIVE_VARIANT",
+      "count": 1013,
+      "note": "Variant structure absent. Must be evidence-backed; title amounts alone are not sufficient."
+    },
+    {
+      "priority": "P1",
+      "disposition": "BACKLOG",
+      "code": "NO_OCCASION",
+      "count": 1011,
+      "note": "Catalog taxonomy/occasion coverage gap."
+    },
+    {
+      "priority": "P1",
+      "disposition": "BACKLOG",
+      "code": "NO_OFFICIAL_CARD_SOURCE",
+      "count": 501,
+      "note": "Active card lacks active OFFICIAL SourceRecord."
+    },
+    {
+      "priority": "P1",
+      "disposition": "BACKLOG",
+      "code": "NO_OFFICIAL_MERCHANT_SOURCE",
+      "count": 503,
+      "note": "Merchant lacks active OFFICIAL source evidence."
+    },
+    {
+      "priority": "P2",
+      "disposition": "BACKLOG",
+      "code": "LOGO_MISSING",
+      "count": 32,
+      "note": "Canonical local merchant logo missing."
+    },
+    {
+      "priority": "P2",
+      "disposition": "REVIEW",
+      "code": "LOGO_SOURCE_DOMAIN_MISMATCH",
+      "count": 56,
+      "note": "Logo source host differs from merchant host; verify provenance before replacement."
+    },
+    {
+      "priority": "P3",
+      "disposition": "BACKLOG",
+      "code": "MISSING_META_DESCRIPTION",
+      "count": 1120,
+      "note": "SEO metadata gap; safe to address after catalog identity/source correctness."
+    },
+    {
+      "priority": "P3",
+      "disposition": "BACKLOG",
+      "code": "MISSING_SEO_TITLE",
+      "count": 1120,
+      "note": "SEO metadata gap; safe to address after catalog identity/source correctness."
+    },
+    {
+      "priority": "P3",
+      "disposition": "REVIEW",
+      "code": "VERY_SPECIFIC_OFFICIAL_URL",
+      "count": 54,
+      "note": "Specific gift-card URLs are often correct; review, do not root-normalize blindly."
+    }
+  ],
+  "autoSafeDelegates": {
+    "v11Actions": [],
+    "denominationSafeFindings": []
+  },
+  "notes": [
+    "Master v17 is an orchestration/reconciliation layer. It does not invent business data.",
+    "--apply delegates only current v11 guarded actions. Denomination/source/logo/SEO findings remain report-only until a dedicated evidence-backed remediator exists.",
+    "No blind slug normalization, duplicate deletion, URL root-normalization, or verification promotion is performed."
+  ],
+  "generatedAt": "2026-09-21T12:46:09.040Z",
+  "planId": "34b29180f80ae20c61c62f950118c56475c72cc204797d795312d17f687aea02"
+}

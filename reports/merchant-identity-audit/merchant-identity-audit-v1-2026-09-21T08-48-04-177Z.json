@@ -1,0 +1,723 @@
+{
+  "generatedAt": "2026-09-21T08:48:04.178Z",
+  "readOnly": true,
+  "summary": {
+    "totalMerchants": 1128,
+    "suspiciousMerchants": 16,
+    "genericMerchants": 2,
+    "duplicateGroups": 3,
+    "duplicateMerchantRows": 8,
+    "uniqueAffectedMerchants": 26
+  },
+  "duplicates": [
+    {
+      "normalizedName": "archives",
+      "merchants": [
+        {
+          "id": "cmtb770ps000idkiyolfowk77",
+          "name": "Archives",
+          "slug": "archives",
+          "status": "ACTIVE",
+          "websiteUrl": "https://cicado.gr",
+          "giftCards": [
+            {
+              "id": "cmtb770up000jdkiys2xgzyjl",
+              "title": "GIft Cards Archives",
+              "status": "ACTIVE",
+              "officialUrl": "https://cicado.gr/en/product-category/gift-cards/"
+            }
+          ]
+        },
+        {
+          "id": "cmtb772qg000sdkiyy1u9nxli",
+          "name": "Archives",
+          "slug": "archives-2",
+          "status": "ACTIVE",
+          "websiteUrl": "https://didocosmetics.gr",
+          "giftCards": [
+            {
+              "id": "cmtb772w1000tdkiycjyct23l",
+              "title": "Δωροκάρτα Archives",
+              "status": "ACTIVE",
+              "officialUrl": "https://www.didocosmetics.gr/product-category/proionta/dwrokarta/"
+            }
+          ]
+        },
+        {
+          "id": "cmtb776ks001cdkiyblekiezm",
+          "name": "Archives",
+          "slug": "archives-3",
+          "status": "ACTIVE",
+          "websiteUrl": "https://gerochristojewelry.gr",
+          "giftCards": [
+            {
+              "id": "cmtb776qx001ddkiyf0qqkxjr",
+              "title": "Gift Card Archives",
+              "status": "ACTIVE",
+              "officialUrl": "https://gerochristojewelry.gr/jewelry/mwb_wgm_giftcard/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalizedName": "sportcafe",
+      "merchants": [
+        {
+          "id": "cmta4yf3d000ysciy2zdlqyzw",
+          "name": "SportCafe",
+          "slug": "ηλεκτρονικη-δωροκαρτα-sportcafe",
+          "status": "ACTIVE",
+          "websiteUrl": "https://el.sportcafe.gr",
+          "giftCards": [
+            {
+              "id": "cmta4yfe1000zsciy02ejjqqf",
+              "title": "SportCafe Gift Card",
+              "status": "ACTIVE",
+              "officialUrl": "https://el.sportcafe.gr/egift-card/"
+            }
+          ]
+        },
+        {
+          "id": "cmta1gxff007fq8iy28qeo2n2",
+          "name": "Sportcafe",
+          "slug": "sportcafe",
+          "status": "ACTIVE",
+          "websiteUrl": "https://sportcafe.gr",
+          "giftCards": [
+            {
+              "id": "cmta1gxm7007gq8iycl9elv83",
+              "title": "eGift Card - SportCafe",
+              "status": "ACTIVE",
+              "officialUrl": "https://sportcafe.gr/egift-card/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalizedName": "αρχεια",
+      "merchants": [
+        {
+          "id": "cmtb77w4e0050dkiy7yigzns3",
+          "name": "Αρχεία",
+          "slug": "αρχεια",
+          "status": "ACTIVE",
+          "websiteUrl": "https://ellievfashion.gr",
+          "giftCards": [
+            {
+              "id": "cmtb77w980051dkiyc5an3okr",
+              "title": "Δωροκάρτα Αρχεία",
+              "status": "ACTIVE",
+              "officialUrl": "https://www.ellievfashion.gr/product-category/giftcard/"
+            }
+          ]
+        },
+        {
+          "id": "cmtb786u2006hdkiyonu3jl9k",
+          "name": "Αρχεία",
+          "slug": "αρχεια-2",
+          "status": "ACTIVE",
+          "websiteUrl": "https://lovelucy.gr",
+          "giftCards": [
+            {
+              "id": "cmtb7870h006idkiywp9f3dvf",
+              "title": "Δωροκάρτα Αρχεία",
+              "status": "ACTIVE",
+              "officialUrl": "https://lovelucy.gr/product-category/wps_wgm_giftcard/"
+            }
+          ]
+        },
+        {
+          "id": "cmtb788gu006pdkiynww25c7m",
+          "name": "Αρχεία",
+          "slug": "αρχεια-3",
+          "status": "ACTIVE",
+          "websiteUrl": "https://malleconcept.gr",
+          "giftCards": [
+            {
+              "id": "cmtb788lp006qdkiy17zrzzhw",
+              "title": "Gift card Αρχεία",
+              "status": "ACTIVE",
+              "officialUrl": "https://www.malleconcept.gr/product-category/gift-card/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affected": [
+    {
+      "id": "cmtb770ps000idkiyolfowk77",
+      "name": "Archives",
+      "slug": "archives",
+      "status": "ACTIVE",
+      "websiteUrl": "https://cicado.gr",
+      "websiteHost": "cicado.gr",
+      "logoUrl": "/merchant-logos/archives-e9905275aa89.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 3,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb770up000jdkiys2xgzyjl :: GIft Cards Archives :: ACTIVE :: https://cicado.gr/en/product-category/gift-cards/"
+      ],
+      "cardHosts": [
+        "cicado.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb772qg000sdkiyy1u9nxli",
+      "name": "Archives",
+      "slug": "archives-2",
+      "status": "ACTIVE",
+      "websiteUrl": "https://didocosmetics.gr",
+      "websiteHost": "didocosmetics.gr",
+      "logoUrl": "/merchant-logos/archives-2-3ec3472002f9.jpg",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 3,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb772w1000tdkiycjyct23l :: Δωροκάρτα Archives :: ACTIVE :: https://www.didocosmetics.gr/product-category/proionta/dwrokarta/"
+      ],
+      "cardHosts": [
+        "didocosmetics.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb776ks001cdkiyblekiezm",
+      "name": "Archives",
+      "slug": "archives-3",
+      "status": "ACTIVE",
+      "websiteUrl": "https://gerochristojewelry.gr",
+      "websiteHost": "gerochristojewelry.gr",
+      "logoUrl": "/merchant-logos/archives-3-30f752a70465.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 3,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb776qx001ddkiyf0qqkxjr :: Gift Card Archives :: ACTIVE :: https://gerochristojewelry.gr/jewelry/mwb_wgm_giftcard/"
+      ],
+      "cardHosts": [
+        "gerochristojewelry.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5nz1h002754iyxbfujt5i",
+      "name": "Archives - Two And A Half - twoandahalf.gr",
+      "slug": "archives-two-and-a-half-twoandahalf-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://twoandahalf.gr",
+      "websiteHost": "twoandahalf.gr",
+      "logoUrl": "/merchant-logos/archives-two-and-a-half-twoandahalf-gr-c9b0364c8dc3.webp",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5nz6o002854iydldfcozj :: Gift Card Archives - Two And A Half - twoandahalf.gr :: ACTIVE :: https://www.twoandahalf.gr/product-category/gift-card/"
+      ],
+      "cardHosts": [
+        "twoandahalf.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5o03q002d54iyhnei1gmz",
+      "name": "Archives - Wellness City Spa Glyfada | Exclusive Services",
+      "slug": "archives-wellness-city-spa-glyfada-exclusive-services",
+      "status": "ACTIVE",
+      "websiteUrl": "https://wellnesscityspa.gr",
+      "websiteHost": "wellnesscityspa.gr",
+      "logoUrl": "/merchant-logos/archives-wellness-city-spa-glyfada-exclusive-services-03d4ced5da6a.jpg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5o08h002e54iylwvhwz6r :: Gift card Archives - Wellness City Spa Glyfada | Exclusive Services :: ACTIVE :: https://wellnesscityspa.gr/product-category/gift-card/"
+      ],
+      "cardHosts": [
+        "wellnesscityspa.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb62fbu000294iyhass0r8j",
+      "name": "Bags & Hats eshop | Your trusted choice since 1965",
+      "slug": "bags-and-hats-your-trusted-choice-since-1965",
+      "status": "ACTIVE",
+      "websiteUrl": "https://bagshats.gr",
+      "websiteHost": "bagshats.gr",
+      "logoUrl": "/merchant-logos/bags-and-hats-your-trusted-choice-since-1965-da5d3bf6a131.jpg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb62fh3000394iyqc1z6qea :: Gift Card - Bags & Hats eshop | Your trusted choice since 1965 :: ACTIVE :: https://bagshats.gr/product/gift-card/"
+      ],
+      "cardHosts": [
+        "bagshats.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta1ft43003kq8iy3gcph7ml",
+      "name": "Barequip.gr",
+      "slug": "barequip-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://barequip.gr",
+      "websiteHost": "barequip.gr",
+      "logoUrl": "/merchant-logos/barequip-gr-b439ebe7d3f0.png",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1ftak003lq8iyqic1n4x7 :: Δωροκάρτες 100,00 :: ACTIVE :: http://www.barequip.gr/"
+      ],
+      "cardHosts": [
+        "barequip.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta1i2rt00b1q8iy1f6azwdh",
+      "name": "E Shop",
+      "slug": "e",
+      "status": "ACTIVE",
+      "websiteUrl": "https://e-shop.gr",
+      "websiteHost": "e-shop.gr",
+      "logoUrl": "/merchant-logos/e-c1b47bc2802e.jpg",
+      "suspicious": false,
+      "generic": true,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1i3fk00b2q8iycwvf7d3a :: Δωροκάρτες | Όλα τα προϊόντα : E-shop.gr :: ACTIVE :: https://e-shop.gr/"
+      ],
+      "cardHosts": [
+        "e-shop.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb6un7q001e3giydasdqnfc",
+      "name": "Espressoshop.gr Νο 1 Κατάστημα πώλησης ...",
+      "slug": "espressoshop-gr-νο-1-καταστημα-πωλησης",
+      "status": "ACTIVE",
+      "websiteUrl": "https://espressoshop.gr",
+      "websiteHost": "espressoshop.gr",
+      "logoUrl": "/merchant-logos/espressoshop-gr-1-324fdeeff319.webp",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb6unda001f3giyh9ahgeme :: Δωροκάρτα - Espressoshop.gr Νο 1 Κατάστημα πώλησης ... :: ACTIVE :: https://espressoshop.gr/dorokarta/"
+      ],
+      "cardHosts": [
+        "espressoshop.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb6uy3n002z3giyohz3pcwu",
+      "name": "NaniNails.gr",
+      "slug": "αξιας-20-eur-naninails-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://naninails.gr",
+      "websiteHost": "naninails.gr",
+      "logoUrl": "/merchant-logos/20-eur-naninails-gr-cc3a24bb6402.svg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb6uy8d00303giy23wvv4xn :: NaniNails.gr Gift Card :: ACTIVE :: https://www.naninails.gr/dorokarta-axias-20-eur/"
+      ],
+      "cardHosts": [
+        "naninails.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5nxkc002054iyrperd4fx",
+      "name": "Shine4ever.gr",
+      "slug": "shine4ever-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://shine4ever.gr",
+      "websiteHost": "shine4ever.gr",
+      "logoUrl": "/merchant-logos/shine4ever-gr-e271320ef392.jpg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5nxp2002154iym24cxgfr :: Gift Voucher - Shine4ever.gr :: ACTIVE :: https://shine4ever.gr/en/gift_voucher/"
+      ],
+      "cardHosts": [
+        "shine4ever.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta4yf3d000ysciy2zdlqyzw",
+      "name": "SportCafe",
+      "slug": "ηλεκτρονικη-δωροκαρτα-sportcafe",
+      "status": "ACTIVE",
+      "websiteUrl": "https://el.sportcafe.gr",
+      "websiteHost": "el.sportcafe.gr",
+      "logoUrl": "/merchant-logos/sportcafe-c74e3a630b87.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 2,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta4yfe1000zsciy02ejjqqf :: SportCafe Gift Card :: ACTIVE :: https://el.sportcafe.gr/egift-card/"
+      ],
+      "cardHosts": [
+        "el.sportcafe.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta1gxff007fq8iy28qeo2n2",
+      "name": "Sportcafe",
+      "slug": "sportcafe",
+      "status": "ACTIVE",
+      "websiteUrl": "https://sportcafe.gr",
+      "websiteHost": "sportcafe.gr",
+      "logoUrl": "/merchant-logos/sportcafe-c74e3a630b87.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 2,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1gxm7007gq8iycl9elv83 :: eGift Card - SportCafe :: ACTIVE :: https://sportcafe.gr/egift-card/"
+      ],
+      "cardHosts": [
+        "sportcafe.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta1f9en001oq8iyi97gi0pu",
+      "name": "ThinkFit.gr",
+      "slug": "thinkfit-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://thinkfit.gr",
+      "websiteHost": "thinkfit.gr",
+      "logoUrl": "/merchant-logos/thinkfit-gr-e843f4edbe35.webp",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1f9l4001pq8iyfg0m4wfa :: Δωροκάρτα Think Gift :: ACTIVE :: https://thinkfit.gr/product/giftcard/"
+      ],
+      "cardHosts": [
+        "thinkfit.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5nymy002554iydwpf6kus",
+      "name": "Toys.gr",
+      "slug": "toys-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://toys.gr",
+      "websiteHost": "toys.gr",
+      "logoUrl": "/merchant-logos/toys-gr-f7a075bb22ed.png",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5nyst002654iyxa6404qo :: Δωροκάρτα Toys.gr :: ACTIVE :: https://www.toys.gr/giftcard-toysgr?srsltid=AfmBOopHe1JYXA8bgQ-3bx7gJAfgE7dW0sC72mBCtGQ3P7XeU7pKi-pd"
+      ],
+      "cardHosts": [
+        "toys.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta1f5ck0016q8iyalh0a7ty",
+      "name": "arfie.gr",
+      "slug": "arfie-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://arfie.gr",
+      "websiteHost": "arfie.gr",
+      "logoUrl": "/merchant-logos/arfie-gr-8a7290d9f24e.avif",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1f5j70017q8iy3ul3t87x :: Arfie Gift Card :: ACTIVE :: https://www.arfie.gr/"
+      ],
+      "cardHosts": [
+        "arfie.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta1g31o004kq8iy8cy0v47p",
+      "name": "eshop.gr",
+      "slug": "gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://eshop.gr",
+      "websiteHost": "eshop.gr",
+      "logoUrl": "/merchant-logos/gr-c1b47bc2802e.jpg",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta1g37z004lq8iyo6oc9hzr :: eshop.gr Δωροκάρτα δωροεπιταγή Gift Card :: ACTIVE :: https://eshop.gr/"
+      ],
+      "cardHosts": [
+        "eshop.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb787mq006ldkiy4ez5pxns",
+      "name": "luxurycandle.gr",
+      "slug": "luxurycandle-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://luxurycandles.gr",
+      "websiteHost": "luxurycandles.gr",
+      "logoUrl": "/merchant-logos/luxurycandle-gr-7531984b79af.png",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb787rq006mdkiykrdjibgr :: Gift Card - luxurycandle.gr :: ACTIVE :: https://luxurycandles.gr/en/product/giftcard/"
+      ],
+      "cardHosts": [
+        "luxurycandles.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb6utaw00293giyc40zz7r9",
+      "name": "www.katoflitavern.gr",
+      "slug": "www-katoflitavern-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://katoflitavern.gr",
+      "websiteHost": "katoflitavern.gr",
+      "logoUrl": "/merchant-logos/www-katoflitavern-gr-f728cbb16f96.webp",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb6utf2002a3giysyv46e18 :: Δωροκάρτα – www.katoflitavern.gr :: ACTIVE :: https://www.katoflitavern.gr/en/product/dorokarta/"
+      ],
+      "cardHosts": [
+        "katoflitavern.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5nul9001k54iy3hr1m5se",
+      "name": "Αισθητικής | Naloo Beauty Bar – Ιδανικό Δώρο",
+      "slug": "αισθητικης-naloo-beauty-bar-ιδανικο-δωρο",
+      "status": "ACTIVE",
+      "websiteUrl": "https://naloobeautybar.gr",
+      "websiteHost": "naloobeautybar.gr",
+      "logoUrl": "/merchant-logos/naloo-beauty-bar-0aec4ab7491a.avif",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5nupu001l54iyijhwtd67 :: Gift Cards Αισθητικής | Naloo Beauty Bar – Ιδανικό Δώρο :: ACTIVE :: https://naloobeautybar.gr/gift-cards/"
+      ],
+      "cardHosts": [
+        "naloobeautybar.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb77w4e0050dkiy7yigzns3",
+      "name": "Αρχεία",
+      "slug": "αρχεια",
+      "status": "ACTIVE",
+      "websiteUrl": "https://ellievfashion.gr",
+      "websiteHost": "ellievfashion.gr",
+      "logoUrl": "/merchant-logos/merchant-cbcd3c0c8e1a.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 3,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb77w980051dkiyc5an3okr :: Δωροκάρτα Αρχεία :: ACTIVE :: https://www.ellievfashion.gr/product-category/giftcard/"
+      ],
+      "cardHosts": [
+        "ellievfashion.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb786u2006hdkiyonu3jl9k",
+      "name": "Αρχεία",
+      "slug": "αρχεια-2",
+      "status": "ACTIVE",
+      "websiteUrl": "https://lovelucy.gr",
+      "websiteHost": "lovelucy.gr",
+      "logoUrl": "/merchant-logos/2-eafef83d2b6e.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 3,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb7870h006idkiywp9f3dvf :: Δωροκάρτα Αρχεία :: ACTIVE :: https://lovelucy.gr/product-category/wps_wgm_giftcard/"
+      ],
+      "cardHosts": [
+        "lovelucy.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb788gu006pdkiynww25c7m",
+      "name": "Αρχεία",
+      "slug": "αρχεια-3",
+      "status": "ACTIVE",
+      "websiteUrl": "https://malleconcept.gr",
+      "websiteHost": "malleconcept.gr",
+      "logoUrl": "/merchant-logos/3-9f310519d073.png",
+      "suspicious": false,
+      "generic": false,
+      "duplicateNormalizedName": true,
+      "duplicateCount": 3,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb788lp006qdkiy17zrzzhw :: Gift card Αρχεία :: ACTIVE :: https://www.malleconcept.gr/product-category/gift-card/"
+      ],
+      "cardHosts": [
+        "malleconcept.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmta5nt2i001c54iybiq2d4h8",
+      "name": "Αρώματος | Mine Perfume Lab",
+      "slug": "αρωματος-mine-perfume-lab",
+      "status": "ACTIVE",
+      "websiteUrl": "https://mineperfumelab.gr",
+      "websiteHost": "mineperfumelab.gr",
+      "logoUrl": "/merchant-logos/mine-perfume-lab-56b2f76beafc.webp",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmta5nt82001d54iysnv9gyou :: Gift Card Αρώματος | Mine Perfume Lab :: ACTIVE :: https://mineperfumelab.gr/products/e-gift-card?srsltid=AfmBOopejP2ha5OXGx719OMo2OnaEnBTLWJTGgde_Toytgmb9sO-aPmR"
+      ],
+      "cardHosts": [
+        "mineperfumelab.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb77zgx005idkiyg9qkwj7r",
+      "name": "Δωροεπιταγές",
+      "slug": "δωροεπιταγες",
+      "status": "ARCHIVED",
+      "websiteUrl": "https://blue-print.gr",
+      "websiteHost": "blue-print.gr",
+      "logoUrl": "/merchant-logos/merchant-cdcf519c5f22.webp",
+      "suspicious": false,
+      "generic": true,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 0,
+      "giftCards": [
+        "cmtb77zm2005jdkiy64jdfokt :: Δωροεπιταγές – Gift Cards :: ARCHIVED :: https://blue-print.gr/product/doroepitages-gift-cards/"
+      ],
+      "cardHosts": [
+        "blue-print.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    },
+    {
+      "id": "cmtb62tp4002894iya2x79xoi",
+      "name": "για Γέννηση ή Βάπτιση – TeleioPlayRoom.gr",
+      "slug": "για-γεννηση-η-βαπτιση-teleioplayroom-gr",
+      "status": "ACTIVE",
+      "websiteUrl": "https://teleioplayroom.gr",
+      "websiteHost": "teleioplayroom.gr",
+      "logoUrl": "/merchant-logos/teleioplayroom-gr-71b42ff29afb.avif",
+      "suspicious": true,
+      "generic": false,
+      "duplicateNormalizedName": false,
+      "duplicateCount": 1,
+      "activeGiftCards": 1,
+      "giftCards": [
+        "cmtb62tub002994iy1zvxngz9 :: Δωροκάρτα για Γέννηση ή Βάπτιση – TeleioPlayRoom.gr :: ACTIVE :: https://www.teleioplayroom.gr/products/gift-card?srsltid"
+      ],
+      "cardHosts": [
+        "teleioplayroom.gr"
+      ],
+      "sourceNames": [],
+      "sourceHosts": []
+    }
+  ]
+}

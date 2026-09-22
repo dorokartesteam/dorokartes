@@ -1,28 +1,16 @@
-# Dorokartes Full Catalog Classifier v10
+# Dorokartes Merchant Cleanup Batch 1
 
-Runs across all 1,135 gift-card rows and turns the v9 issue audit into actionable buckets:
-
-- AUTO_RECOVER_MERCHANT
-- TITLE_ONLY_CLEANUP
-- GENERAL_URL_CANDIDATE
-- POSSIBLE_DUPLICATE_PROGRAM
-- THIRD_PARTY_CARD
-- GENERIC_OR_UNCLEAR
-- CLEAN
-
-No DB changes.
-
-Run:
+Dry-run:
 
 ```powershell
-node --env-file=.env --import tsx scripts/pipeline/admin/classify-full-catalog-v10.ts
+npx tsx scripts/cleanup/merchant-cleanup-batch-1.ts
 ```
 
-Outputs:
+Apply only after review:
 
-```text
-reports/full-catalog-classifier-v10.json
-reports/full-catalog-classifier-v10.csv
+```powershell
+npx tsx scripts/cleanup/merchant-cleanup-batch-1.ts --apply
 ```
 
-Send back the bucket counts.
+Scope: 8 verified merchant display-name cleanups and matching card-title cleanups.
+No slug/URL/logo/SEO/verification/status/relation changes.

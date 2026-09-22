@@ -1,0 +1,11 @@
+{
+  "version": "source-lineage-backfill-v17-1-1",
+  "mode": "APPLY",
+  "planId": "5903783faa5429feca111d453f02665f91bb033c1996bb500038cdf220cc92fa",
+  "appliedAt": "2026-09-21T12:26:03.309Z",
+  "plannedActions": 570,
+  "batchSize": 50,
+  "batches": 12,
+  "databaseWrites": 570,
+  "skippedExisting": 0
+}
