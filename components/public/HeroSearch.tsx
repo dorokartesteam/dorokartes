@@ -75,15 +75,15 @@ export default function HeroSearch({
           if (alive) setIndex(items);
         })
         .catch(() => {
-          // Search form still works through /browse even if preload fails.
+          // Search form still works through /browse if preload fails.
         });
     };
 
-    const timer = window.setTimeout(warm, 150);
+    const timer = globalThis.setTimeout(warm, 200);
 
     return () => {
       alive = false;
-      window.clearTimeout(timer);
+      globalThis.clearTimeout(timer);
     };
   }, []);
 
@@ -106,12 +106,19 @@ export default function HeroSearch({
 
   const results = useMemo(() => {
     const value = deferredQuery.trim();
+
     if (!value) return [];
+
     return rankInstantGiftCards(filteredIndex, value, 8);
   }, [filteredIndex, deferredQuery]);
 
   const trimmedQuery = query.trim();
-  const showDropdown = open && trimmedQuery.length > 0 && results.length > 0;
+
+  const showDropdown =
+    open &&
+    trimmedQuery.length > 0 &&
+    deferredQuery.trim() === trimmedQuery &&
+    results.length > 0;
 
   function ensureIndex() {
     if (index.length) return;
@@ -130,6 +137,7 @@ export default function HeroSearch({
 
     if (event.key === "ArrowDown") {
       if (!results.length) return;
+
       event.preventDefault();
       setOpen(true);
       setActiveIndex((current) =>
@@ -140,6 +148,7 @@ export default function HeroSearch({
 
     if (event.key === "ArrowUp") {
       if (!results.length) return;
+
       event.preventDefault();
       setOpen(true);
       setActiveIndex((current) => Math.max(current - 1, -1));
@@ -148,6 +157,7 @@ export default function HeroSearch({
 
     if (event.key === "Enter" && activeIndex >= 0 && results[activeIndex]) {
       event.preventDefault();
+
       window.location.assign(
         `/gift-cards/${encodeURIComponent(results[activeIndex].slug)}`,
       );
@@ -162,7 +172,9 @@ export default function HeroSearch({
         method="get"
         role="search"
       >
-        <span className="dk14-search-icon" aria-hidden="true">⌕</span>
+        <span className="dk14-search-icon" aria-hidden="true">
+          ⌕
+        </span>
 
         <input
           name="q"
@@ -175,7 +187,10 @@ export default function HeroSearch({
           }}
           onFocus={() => {
             ensureIndex();
-            if (query.trim()) setOpen(true);
+
+            if (query.trim()) {
+              setOpen(true);
+            }
           }}
           onKeyDown={onKeyDown}
           placeholder="Αναζήτησε δωροκάρτα..."
@@ -190,8 +205,13 @@ export default function HeroSearch({
           maxLength={160}
         />
 
-        {category ? <input type="hidden" name="category" value={category} /> : null}
-        {occasion ? <input type="hidden" name="occasion" value={occasion} /> : null}
+        {category ? (
+          <input type="hidden" name="category" value={category} />
+        ) : null}
+
+        {occasion ? (
+          <input type="hidden" name="occasion" value={occasion} />
+        ) : null}
 
         <button type="submit">Αναζήτηση</button>
       </form>
@@ -223,7 +243,7 @@ export default function HeroSearch({
                   {item.merchantLogoUrl ? (
                     <img src={item.merchantLogoUrl} alt="" />
                   ) : (
-                    <span>🎁</span>
+                    <span>•</span>
                   )}
                 </span>
 
@@ -232,7 +252,9 @@ export default function HeroSearch({
                   <small>{item.merchantName}</small>
                 </span>
 
-                <span className={styles.arrow} aria-hidden="true">›</span>
+                <span className={styles.arrow} aria-hidden="true">
+                  ›
+                </span>
               </Link>
             );
           })}

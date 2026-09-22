@@ -34,6 +34,14 @@ const aliasGroups = [
   ["gift card", "giftcard", "giftcards", "δωροκαρτα", "δωροκάρτα", "dorokarta", "δωροεπιταγη", "δωροεπιταγή"],
 ];
 
+const normalizedAliasGroups = aliasGroups.map((group) =>
+  [...new Set(group.flatMap((value) => {
+    const normalized = normalizeSearchText(value);
+    const latin = greekToLatin(value);
+    return [normalized, latin].filter(Boolean);
+  }))],
+);
+
 function formsForQuery(raw: string) {
   const normalized = normalizeSearchText(raw);
   const latin = greekToLatin(raw);
@@ -43,24 +51,18 @@ function formsForQuery(raw: string) {
   if (latin) forms.add(latin);
 
   if (normalized.length >= 2 || latin.length >= 2) {
-    for (const group of aliasGroups) {
-      const normalizedGroup = group.flatMap((value) => [
-        normalizeSearchText(value),
-        greekToLatin(value),
-      ]);
-
-      const matched = normalizedGroup.some((value) =>
-        value &&
-        (
-          normalized === value ||
-          latin === value ||
-          normalized.includes(value) ||
-          latin.includes(value)
-        ),
+    for (const group of normalizedAliasGroups) {
+      const matched = group.some(
+        (value) =>
+          value &&
+          (normalized === value ||
+            latin === value ||
+            normalized.includes(value) ||
+            latin.includes(value)),
       );
 
       if (matched) {
-        for (const value of normalizedGroup) {
+        for (const value of group) {
           if (value) forms.add(value);
         }
       }
@@ -128,6 +130,9 @@ function fuzzyScore(query: string, value: string, base: number) {
     for (const candidate of valueWords) {
       if (candidate.length < 3) continue;
 
+      // Cheap length guard before Levenshtein.
+      if (Math.abs(q.length - candidate.length) > 2) continue;
+
       const maxLen = Math.max(q.length, candidate.length);
       const allowed = maxLen >= 8 ? 2 : 1;
       const distance = levenshtein(q, candidate);
@@ -144,11 +149,14 @@ function fuzzyScore(query: string, value: string, base: number) {
   return best;
 }
 
-function scoreItem(item: InstantSearchIndexItem, query: string) {
-  const forms = formsForQuery(query);
-  if (!forms.length) return 0;
+function addBonuses(item: InstantSearchIndexItem, score: number) {
+  if (!score) return 0;
+  if (item.featured) score += 20;
+  if (item.verified) score += 12;
+  return score;
+}
 
-  const shortQuery = normalizeSearchText(query).length <= 1;
+function exactScore(item: InstantSearchIndexItem, forms: string[], shortQuery: boolean) {
   let best = 0;
 
   for (const form of forms) {
@@ -157,16 +165,34 @@ function scoreItem(item: InstantSearchIndexItem, query: string) {
 
     if (!shortQuery) {
       best = Math.max(best, exactPrefixContainsScore(form, item.contextSearch, 760));
-      best = Math.max(best, fuzzyScore(form, item.titleSearch, 1180));
-      best = Math.max(best, fuzzyScore(form, item.merchantSearch, 1120));
     }
   }
 
-  if (!best) return 0;
-  if (item.featured) best += 20;
-  if (item.verified) best += 12;
+  return addBonuses(item, best);
+}
 
-  return best;
+function fuzzyOnlyScore(item: InstantSearchIndexItem, forms: string[]) {
+  let best = 0;
+
+  for (const form of forms) {
+    best = Math.max(best, fuzzyScore(form, item.titleSearch, 1180));
+    best = Math.max(best, fuzzyScore(form, item.merchantSearch, 1120));
+  }
+
+  return addBonuses(item, best);
+}
+
+type Ranked = {
+  item: InstantSearchIndexItem;
+  score: number;
+};
+
+function sortRanked(a: Ranked, b: Ranked) {
+  return (
+    b.score - a.score ||
+    a.item.merchantName.localeCompare(b.item.merchantName, "el") ||
+    a.item.title.localeCompare(b.item.title, "el")
+  );
 }
 
 export function rankInstantGiftCards(
@@ -177,15 +203,63 @@ export function rankInstantGiftCards(
   const trimmed = query.trim();
   if (!trimmed) return [];
 
-  return items
-    .map((item) => ({ item, score: scoreItem(item, trimmed) }))
-    .filter(({ score }) => score > 0)
-    .sort(
-      (a, b) =>
-        b.score - a.score ||
-        a.item.merchantName.localeCompare(b.item.merchantName, "el") ||
-        a.item.title.localeCompare(b.item.title, "el"),
-    )
+  // Do all query normalization once, never once per item.
+  const forms = formsForQuery(trimmed);
+  if (!forms.length) return [];
+
+  const normalizedLength = normalizeSearchText(trimmed).length;
+  const shortQuery = normalizedLength <= 1;
+
+  // One-character queries: prefix/exact only. No context and absolutely no fuzzy.
+  const exactMatches: Ranked[] = [];
+
+  for (const item of items) {
+    const score = exactScore(item, forms, shortQuery);
+    if (score > 0) exactMatches.push({ item, score });
+  }
+
+  exactMatches.sort(sortRanked);
+
+  if (shortQuery || exactMatches.length >= limit || normalizedLength < 3) {
+    return exactMatches.slice(0, limit).map(({ item }) => item);
+  }
+
+  // Fuzzy is only a fallback when exact/prefix matching cannot fill the dropdown.
+  // Limit it to plausible candidates instead of running edit-distance across the catalog.
+  const exactIds = new Set(exactMatches.map(({ item }) => item.id));
+  const queryFirstChars = new Set(
+    forms
+      .map((form) => form[0])
+      .filter(Boolean),
+  );
+
+  const fuzzyPool: InstantSearchIndexItem[] = [];
+
+  for (const item of items) {
+    if (exactIds.has(item.id)) continue;
+
+    const merchantFirst = item.merchantSearch?.[0];
+    const titleFirst = item.titleSearch?.[0];
+
+    if (
+      (merchantFirst && queryFirstChars.has(merchantFirst)) ||
+      (titleFirst && queryFirstChars.has(titleFirst))
+    ) {
+      fuzzyPool.push(item);
+    }
+
+    if (fuzzyPool.length >= 120) break;
+  }
+
+  const fuzzyMatches: Ranked[] = [];
+
+  for (const item of fuzzyPool) {
+    const score = fuzzyOnlyScore(item, forms);
+    if (score > 0) fuzzyMatches.push({ item, score });
+  }
+
+  return [...exactMatches, ...fuzzyMatches]
+    .sort(sortRanked)
     .slice(0, limit)
     .map(({ item }) => item);
 }
