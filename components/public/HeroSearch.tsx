@@ -64,7 +64,6 @@ export default function HeroSearch({
   const rootRef = useRef<HTMLDivElement>(null);
   const listboxId = useId();
 
-  useEffect(() => setQuery(initial), [initial]);
 
   useEffect(() => {
     let alive = true;
