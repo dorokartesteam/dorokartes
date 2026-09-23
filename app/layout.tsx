@@ -1,4 +1,4 @@
-import type {Metadata} from "next";
+﻿import type {Metadata} from "next";
 import "./globals.css";
 import "./public.css";
 import "./public-v1-3.css";
@@ -11,7 +11,6 @@ import "./public-v2-0.css";
 import "./public-v2-2.css";
 import "./public-v2-7-premium.css";
 import "./public-v3-1-home.css";
-import "./public-v3-2-hero.css";
 import "./public-v3-6-hero.css";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
@@ -29,10 +28,10 @@ export const metadata:Metadata={
     process.env.NEXT_PUBLIC_APP_URL||"https://dorokartes.gr"
   ),
   title:{
-    default:"Dorokartes.gr | Όλες οι δωροκάρτες σε ένα μέρος",
+    default:"Dorokartes.gr | ΞΞ»ΞµΟ‚ ΞΏΞΉ Ξ΄Ο‰ΟΞΏΞΊΞ¬ΟΟ„ΞµΟ‚ ΟƒΞµ Ξ­Ξ½Ξ± ΞΌΞ­ΟΞΏΟ‚",
     template:"%s | Dorokartes.gr"
   },
-  description:"Ανακάλυψε δωροκάρτες από brands και καταστήματα στην Ελλάδα και συνέχισε στο επίσημο site του εμπόρου.",
+  description:"Ξ‘Ξ½Ξ±ΞΊΞ¬Ξ»Ο…ΟΞµ Ξ΄Ο‰ΟΞΏΞΊΞ¬ΟΟ„ΞµΟ‚ Ξ±Ο€Ο brands ΞΊΞ±ΞΉ ΞΊΞ±Ο„Ξ±ΟƒΟ„Ξ®ΞΌΞ±Ο„Ξ± ΟƒΟ„Ξ·Ξ½ Ξ•Ξ»Ξ»Ξ¬Ξ΄Ξ± ΞΊΞ±ΞΉ ΟƒΟ…Ξ½Ξ­Ο‡ΞΉΟƒΞµ ΟƒΟ„ΞΏ ΞµΟ€Ξ―ΟƒΞ·ΞΌΞΏ site Ο„ΞΏΟ… ΞµΞΌΟ€ΟΟΞΏΟ….",
   robots:{index:true,follow:true}
 };
 
@@ -52,3 +51,4 @@ export default function RootLayout({
     </html>
   );
 }
+
