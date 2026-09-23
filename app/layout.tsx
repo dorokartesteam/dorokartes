@@ -11,6 +11,7 @@ import "./public-v2-0.css";
 import "./public-v2-2.css";
 import "./public-v2-7-premium.css";
 import "./public-v3-6-hero.css";
+import "./public-v3-7-mobile.css";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 const configuredGaMeasurementId =
@@ -50,5 +51,6 @@ export default function RootLayout({
     </html>
   );
 }
+
 
 
