@@ -10,7 +10,6 @@ import "./public-v1-9.css";
 import "./public-v2-0.css";
 import "./public-v2-2.css";
 import "./public-v2-7-premium.css";
-import "./public-v3-1-home.css";
 import "./public-v3-6-hero.css";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
@@ -51,4 +50,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 
