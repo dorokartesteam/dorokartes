@@ -160,6 +160,49 @@ enum RediscoveryTaskStatus {
   FAILED
 }
 
+enum MerchantLeadStatus {
+  SUBMITTED
+  UNDER_REVIEW
+  APPROVED
+  REJECTED
+}
+
+enum MerchantMemberStatus {
+  INVITED
+  ACTIVE
+  SUSPENDED
+}
+
+enum MerchantMemberRole {
+  OWNER
+  EDITOR
+}
+
+enum MerchantPlan {
+  PARTNER
+  FEATURED
+  PREMIUM_BANNER
+}
+
+enum MerchantSubscriptionStatus {
+  PENDING
+  ACTIVE
+  PAST_DUE
+  CANCELED
+}
+
+enum MerchantMagicLinkPurpose {
+  INVITE
+  LOGIN
+}
+
+enum PremiumPlacementStatus {
+  RESERVED
+  ACTIVE
+  ENDED
+  CANCELED
+}
+
 /**
  * |--------------------------------------------------------------------------
  * | MERCHANT / BUSINESS
@@ -204,6 +247,12 @@ model Merchant {
   sources     SourceRecord[]
   mediaAssets MediaAsset[]
   clicks      OutboundClick[]
+
+
+  merchantLeads     MerchantLead[]         @relation("MerchantLeadMatch")
+  members           MerchantMember[]       @relation("MerchantMembers")
+  subscription      MerchantSubscription?  @relation("MerchantSubscription")
+  premiumPlacements PremiumPlacement[]      @relation("PremiumPlacements")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -1106,4 +1155,142 @@ model MerchantDiscoveryScan {
   updatedAt DateTime @updatedAt
 
   @@index([status, lastScannedAt])
+}
+
+
+/**
+ * |--------------------------------------------------------------------------
+ * | MERCHANT COMMERCIAL / PORTAL
+ * |--------------------------------------------------------------------------
+ */
+
+model MerchantLead {
+  id String @id @default(cuid())
+
+  businessName   String
+  contactName    String
+  email          String
+  phone          String
+  website        String?
+  businessType   String
+  region         String?
+  category       String
+  giftCardStatus String
+  giftCardUrl    String?
+  requestedPlan  MerchantPlan?
+  message        String?
+
+  status MerchantLeadStatus @default(SUBMITTED)
+
+  matchedMerchantId String?
+  matchedMerchant   Merchant? @relation("MerchantLeadMatch", fields: [matchedMerchantId], references: [id], onDelete: SetNull)
+
+  reviewedAt DateTime?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([status, createdAt])
+  @@index([email])
+  @@index([matchedMerchantId])
+}
+
+model MerchantMember {
+  id String @id @default(cuid())
+
+  merchantId String
+  merchant   Merchant @relation("MerchantMembers", fields: [merchantId], references: [id], onDelete: Cascade)
+
+  email String
+  name  String?
+
+  role   MerchantMemberRole   @default(OWNER)
+  status MerchantMemberStatus @default(INVITED)
+
+  sessions   MerchantSession[]
+  magicLinks MerchantMagicLink[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([merchantId, email])
+  @@index([email])
+  @@index([status])
+}
+
+model MerchantSubscription {
+  id String @id @default(cuid())
+
+  merchantId String   @unique
+  merchant   Merchant @relation("MerchantSubscription", fields: [merchantId], references: [id], onDelete: Cascade)
+
+  plan   MerchantPlan
+  status MerchantSubscriptionStatus @default(PENDING)
+
+  startsAt DateTime?
+  endsAt   DateTime?
+
+  stripeCustomerId     String?
+  stripeSubscriptionId String?
+  stripePriceId        String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([plan])
+}
+
+model MerchantMagicLink {
+  id String @id @default(cuid())
+
+  memberId String
+  member   MerchantMember @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  purpose   MerchantMagicLinkPurpose
+  tokenHash String @unique
+
+  expiresAt DateTime
+  usedAt    DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([memberId])
+  @@index([expiresAt])
+}
+
+model MerchantSession {
+  id String @id @default(cuid())
+
+  memberId String
+  member   MerchantMember @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  tokenHash String @unique
+  expiresAt DateTime
+  lastSeenAt DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([memberId])
+  @@index([expiresAt])
+}
+
+model PremiumPlacement {
+  id String @id @default(cuid())
+
+  merchantId String
+  merchant   Merchant @relation("PremiumPlacements", fields: [merchantId], references: [id], onDelete: Cascade)
+
+  status PremiumPlacementStatus @default(RESERVED)
+
+  startsAt DateTime
+  endsAt   DateTime
+
+  impressions Int @default(0)
+  clicks      Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([merchantId])
+  @@index([status, startsAt, endsAt])
 }

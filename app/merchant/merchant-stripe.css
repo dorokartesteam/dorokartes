@@ -1,0 +1,148 @@
+.dkm-dorokartes-mark {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  display: block;
+  overflow: hidden;
+  border-radius: 13px;
+  background: transparent !important;
+  box-shadow: 0 10px 24px rgba(22, 72, 190, .18);
+}
+
+.dkm-dorokartes-mark img {
+  width: 44px;
+  height: 44px;
+  display: block;
+  object-fit: contain;
+}
+
+.dkm-billing-notice {
+  margin-top: 18px;
+  padding: 13px 15px;
+  border: 1px solid #f0d89f;
+  border-radius: 12px;
+  background: #fff9e9;
+  color: #7d5b13;
+  font-size: 12px;
+}
+
+.dkm-plan-action {
+  margin-top: auto;
+  display: grid;
+  gap: 8px;
+}
+
+.dkm-plan-action button {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2b84f3, #6759e9);
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.dkm-pricing .premium .dkm-plan-action button {
+  background: linear-gradient(135deg, #806aff, #d451bd);
+}
+
+.dkm-plan-action button:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.dkm-plan-error {
+  color: #bb3349;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.dkm-pricing .premium .dkm-plan-error {
+  color: #ffd0d8;
+}
+
+.dkm-manage-subscription {
+  margin-top: 14px;
+  display: grid;
+  gap: 7px;
+  justify-items: start;
+}
+
+.dkm-manage-subscription button {
+  min-height: 42px;
+  padding: 0 14px;
+  border: 1px solid #d5dceb;
+  border-radius: 11px;
+  background: #fff;
+  color: #3151b2;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.dkm-manage-subscription span {
+  color: #b22d40;
+  font-size: 10px;
+}
+
+.dkm-payment-success {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.dkm-payment-check {
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #22c58b, #149a70);
+  color: #fff;
+  font-size: 31px;
+  font-weight: 900;
+}
+
+.dkm-payment-success > small {
+  margin-top: 24px;
+  color: #5a74e9;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .13em;
+}
+
+.dkm-payment-success h1 {
+  margin: 8px 0 0;
+  color: #10213e;
+  font-size: clamp(32px, 4vw, 48px);
+  letter-spacing: -.045em;
+}
+
+.dkm-payment-success p {
+  margin: 15px 0 0;
+  color: #6f7c91;
+  line-height: 1.65;
+}
+
+.dkm-payment-success a {
+  margin-top: 24px;
+  color: #3858c9;
+  font-weight: 900;
+}
+
+@media (max-width: 560px) {
+  .dkm-dorokartes-mark,
+  .dkm-dorokartes-mark img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .dkm-dorokartes-mark {
+    flex-basis: 42px;
+  }
+}

@@ -670,6 +670,142 @@ export type EnumDiscoveryScanStatusWithAggregatesFilter<$PrismaModel = never> = 
   _max?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
 }
 
+export type EnumMerchantPlanNullableFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumMerchantPlanNullableFilter<$PrismaModel> | $Enums.MerchantPlan | null
+}
+
+export type EnumMerchantLeadStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantLeadStatus | Prisma.EnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantLeadStatusFilter<$PrismaModel> | $Enums.MerchantLeadStatus
+}
+
+export type EnumMerchantPlanNullableWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumMerchantPlanNullableWithAggregatesFilter<$PrismaModel> | $Enums.MerchantPlan | null
+  _count?: Prisma.NestedIntNullableFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantPlanNullableFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantPlanNullableFilter<$PrismaModel>
+}
+
+export type EnumMerchantLeadStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantLeadStatus | Prisma.EnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantLeadStatusWithAggregatesFilter<$PrismaModel> | $Enums.MerchantLeadStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantLeadStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantLeadStatusFilter<$PrismaModel>
+}
+
+export type EnumMerchantMemberRoleFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberRole | Prisma.EnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberRoleFilter<$PrismaModel> | $Enums.MerchantMemberRole
+}
+
+export type EnumMerchantMemberStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberStatus | Prisma.EnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberStatusFilter<$PrismaModel> | $Enums.MerchantMemberStatus
+}
+
+export type EnumMerchantMemberRoleWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberRole | Prisma.EnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberRoleWithAggregatesFilter<$PrismaModel> | $Enums.MerchantMemberRole
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantMemberRoleFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantMemberRoleFilter<$PrismaModel>
+}
+
+export type EnumMerchantMemberStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberStatus | Prisma.EnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberStatusWithAggregatesFilter<$PrismaModel> | $Enums.MerchantMemberStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantMemberStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantMemberStatusFilter<$PrismaModel>
+}
+
+export type EnumMerchantPlanFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantPlanFilter<$PrismaModel> | $Enums.MerchantPlan
+}
+
+export type EnumMerchantSubscriptionStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantSubscriptionStatus | Prisma.EnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel> | $Enums.MerchantSubscriptionStatus
+}
+
+export type EnumMerchantPlanWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantPlanWithAggregatesFilter<$PrismaModel> | $Enums.MerchantPlan
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantPlanFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantPlanFilter<$PrismaModel>
+}
+
+export type EnumMerchantSubscriptionStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantSubscriptionStatus | Prisma.EnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantSubscriptionStatusWithAggregatesFilter<$PrismaModel> | $Enums.MerchantSubscriptionStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel>
+}
+
+export type EnumMerchantMagicLinkPurposeFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMagicLinkPurpose | Prisma.EnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel> | $Enums.MerchantMagicLinkPurpose
+}
+
+export type EnumMerchantMagicLinkPurposeWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMagicLinkPurpose | Prisma.EnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMagicLinkPurposeWithAggregatesFilter<$PrismaModel> | $Enums.MerchantMagicLinkPurpose
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel>
+}
+
+export type EnumPremiumPlacementStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.PremiumPlacementStatus | Prisma.EnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumPremiumPlacementStatusFilter<$PrismaModel> | $Enums.PremiumPlacementStatus
+}
+
+export type EnumPremiumPlacementStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.PremiumPlacementStatus | Prisma.EnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumPremiumPlacementStatusWithAggregatesFilter<$PrismaModel> | $Enums.PremiumPlacementStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumPremiumPlacementStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumPremiumPlacementStatusFilter<$PrismaModel>
+}
+
 export type NestedStringFilter<$PrismaModel = never> = {
   equals?: string | Prisma.StringFieldRefInput<$PrismaModel>
   in?: string[] | Prisma.ListStringFieldRefInput<$PrismaModel>
@@ -1299,6 +1435,142 @@ export type NestedEnumDiscoveryScanStatusWithAggregatesFilter<$PrismaModel = nev
   _count?: Prisma.NestedIntFilter<$PrismaModel>
   _min?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
   _max?: Prisma.NestedEnumDiscoveryScanStatusFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantPlanNullableFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumMerchantPlanNullableFilter<$PrismaModel> | $Enums.MerchantPlan | null
+}
+
+export type NestedEnumMerchantLeadStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantLeadStatus | Prisma.EnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantLeadStatusFilter<$PrismaModel> | $Enums.MerchantLeadStatus
+}
+
+export type NestedEnumMerchantPlanNullableWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel> | null
+  not?: Prisma.NestedEnumMerchantPlanNullableWithAggregatesFilter<$PrismaModel> | $Enums.MerchantPlan | null
+  _count?: Prisma.NestedIntNullableFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantPlanNullableFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantPlanNullableFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantLeadStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantLeadStatus | Prisma.EnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantLeadStatus[] | Prisma.ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantLeadStatusWithAggregatesFilter<$PrismaModel> | $Enums.MerchantLeadStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantLeadStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantLeadStatusFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantMemberRoleFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberRole | Prisma.EnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberRoleFilter<$PrismaModel> | $Enums.MerchantMemberRole
+}
+
+export type NestedEnumMerchantMemberStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberStatus | Prisma.EnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberStatusFilter<$PrismaModel> | $Enums.MerchantMemberStatus
+}
+
+export type NestedEnumMerchantMemberRoleWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberRole | Prisma.EnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberRole[] | Prisma.ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberRoleWithAggregatesFilter<$PrismaModel> | $Enums.MerchantMemberRole
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantMemberRoleFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantMemberRoleFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantMemberStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMemberStatus | Prisma.EnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMemberStatus[] | Prisma.ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMemberStatusWithAggregatesFilter<$PrismaModel> | $Enums.MerchantMemberStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantMemberStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantMemberStatusFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantPlanFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantPlanFilter<$PrismaModel> | $Enums.MerchantPlan
+}
+
+export type NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantSubscriptionStatus | Prisma.EnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel> | $Enums.MerchantSubscriptionStatus
+}
+
+export type NestedEnumMerchantPlanWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantPlan | Prisma.EnumMerchantPlanFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantPlan[] | Prisma.ListEnumMerchantPlanFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantPlanWithAggregatesFilter<$PrismaModel> | $Enums.MerchantPlan
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantPlanFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantPlanFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantSubscriptionStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantSubscriptionStatus | Prisma.EnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantSubscriptionStatus[] | Prisma.ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantSubscriptionStatusWithAggregatesFilter<$PrismaModel> | $Enums.MerchantSubscriptionStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantSubscriptionStatusFilter<$PrismaModel>
+}
+
+export type NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMagicLinkPurpose | Prisma.EnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel> | $Enums.MerchantMagicLinkPurpose
+}
+
+export type NestedEnumMerchantMagicLinkPurposeWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.MerchantMagicLinkPurpose | Prisma.EnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  in?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.MerchantMagicLinkPurpose[] | Prisma.ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumMerchantMagicLinkPurposeWithAggregatesFilter<$PrismaModel> | $Enums.MerchantMagicLinkPurpose
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumMerchantMagicLinkPurposeFilter<$PrismaModel>
+}
+
+export type NestedEnumPremiumPlacementStatusFilter<$PrismaModel = never> = {
+  equals?: $Enums.PremiumPlacementStatus | Prisma.EnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumPremiumPlacementStatusFilter<$PrismaModel> | $Enums.PremiumPlacementStatus
+}
+
+export type NestedEnumPremiumPlacementStatusWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.PremiumPlacementStatus | Prisma.EnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  in?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  notIn?: $Enums.PremiumPlacementStatus[] | Prisma.ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumPremiumPlacementStatusWithAggregatesFilter<$PrismaModel> | $Enums.PremiumPlacementStatus
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumPremiumPlacementStatusFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumPremiumPlacementStatusFilter<$PrismaModel>
 }
 
 

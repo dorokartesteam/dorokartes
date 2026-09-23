@@ -208,3 +208,67 @@ export const RediscoveryTaskStatus = {
 } as const
 
 export type RediscoveryTaskStatus = (typeof RediscoveryTaskStatus)[keyof typeof RediscoveryTaskStatus]
+
+
+export const MerchantLeadStatus = {
+  SUBMITTED: 'SUBMITTED',
+  UNDER_REVIEW: 'UNDER_REVIEW',
+  APPROVED: 'APPROVED',
+  REJECTED: 'REJECTED'
+} as const
+
+export type MerchantLeadStatus = (typeof MerchantLeadStatus)[keyof typeof MerchantLeadStatus]
+
+
+export const MerchantMemberStatus = {
+  INVITED: 'INVITED',
+  ACTIVE: 'ACTIVE',
+  SUSPENDED: 'SUSPENDED'
+} as const
+
+export type MerchantMemberStatus = (typeof MerchantMemberStatus)[keyof typeof MerchantMemberStatus]
+
+
+export const MerchantMemberRole = {
+  OWNER: 'OWNER',
+  EDITOR: 'EDITOR'
+} as const
+
+export type MerchantMemberRole = (typeof MerchantMemberRole)[keyof typeof MerchantMemberRole]
+
+
+export const MerchantPlan = {
+  PARTNER: 'PARTNER',
+  FEATURED: 'FEATURED',
+  PREMIUM_BANNER: 'PREMIUM_BANNER'
+} as const
+
+export type MerchantPlan = (typeof MerchantPlan)[keyof typeof MerchantPlan]
+
+
+export const MerchantSubscriptionStatus = {
+  PENDING: 'PENDING',
+  ACTIVE: 'ACTIVE',
+  PAST_DUE: 'PAST_DUE',
+  CANCELED: 'CANCELED'
+} as const
+
+export type MerchantSubscriptionStatus = (typeof MerchantSubscriptionStatus)[keyof typeof MerchantSubscriptionStatus]
+
+
+export const MerchantMagicLinkPurpose = {
+  INVITE: 'INVITE',
+  LOGIN: 'LOGIN'
+} as const
+
+export type MerchantMagicLinkPurpose = (typeof MerchantMagicLinkPurpose)[keyof typeof MerchantMagicLinkPurpose]
+
+
+export const PremiumPlacementStatus = {
+  RESERVED: 'RESERVED',
+  ACTIVE: 'ACTIVE',
+  ENDED: 'ENDED',
+  CANCELED: 'CANCELED'
+} as const
+
+export type PremiumPlacementStatus = (typeof PremiumPlacementStatus)[keyof typeof PremiumPlacementStatus]

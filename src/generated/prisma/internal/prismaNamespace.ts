@@ -80,12 +80,12 @@ export type PrismaVersion = {
 }
 
 /**
- * Prisma Client JS version: 7.9.1
- * Query Engine version: e922089b7d7502aff4249d5da3420f6fa55fc6ad
+ * Prisma Client JS version: 7.10.0
+ * Query Engine version: 0edf323efd1d98336f3f0a68684b56f689b900d3
  */
 export const prismaVersion: PrismaVersion = {
-  client: "7.9.1",
-  engine: "e922089b7d7502aff4249d5da3420f6fa55fc6ad"
+  client: "7.10.0",
+  engine: "0edf323efd1d98336f3f0a68684b56f689b900d3"
 }
 
 /**
@@ -427,7 +427,13 @@ export const ModelName = {
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
   SearchEvent: 'SearchEvent',
-  MerchantDiscoveryScan: 'MerchantDiscoveryScan'
+  MerchantDiscoveryScan: 'MerchantDiscoveryScan',
+  MerchantLead: 'MerchantLead',
+  MerchantMember: 'MerchantMember',
+  MerchantSubscription: 'MerchantSubscription',
+  MerchantMagicLink: 'MerchantMagicLink',
+  MerchantSession: 'MerchantSession',
+  PremiumPlacement: 'PremiumPlacement'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -443,7 +449,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "merchant" | "merchantLocation" | "giftCard" | "giftCardLocationCapability" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan"
+    modelProps: "merchant" | "merchantLocation" | "giftCard" | "giftCardLocationCapability" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan" | "merchantLead" | "merchantMember" | "merchantSubscription" | "merchantMagicLink" | "merchantSession" | "premiumPlacement"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -2741,6 +2747,450 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    MerchantLead: {
+      payload: Prisma.$MerchantLeadPayload<ExtArgs>
+      fields: Prisma.MerchantLeadFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantLeadFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantLeadFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantLeadFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantLeadFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantLeadFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantLeadCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantLeadCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantLeadCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantLeadDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>
+        }
+        update: {
+          args: Prisma.MerchantLeadUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantLeadDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantLeadUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantLeadUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantLeadUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantLeadPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantLeadAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantLead>
+        }
+        groupBy: {
+          args: Prisma.MerchantLeadGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantLeadGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantLeadCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantLeadCountAggregateOutputType> | number
+        }
+      }
+    }
+    MerchantMember: {
+      payload: Prisma.$MerchantMemberPayload<ExtArgs>
+      fields: Prisma.MerchantMemberFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantMemberFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantMemberFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantMemberFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantMemberFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantMemberFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantMemberCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantMemberCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantMemberCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantMemberDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>
+        }
+        update: {
+          args: Prisma.MerchantMemberUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantMemberDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantMemberUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantMemberUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantMemberUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMemberPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantMemberAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantMember>
+        }
+        groupBy: {
+          args: Prisma.MerchantMemberGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantMemberGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantMemberCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantMemberCountAggregateOutputType> | number
+        }
+      }
+    }
+    MerchantSubscription: {
+      payload: Prisma.$MerchantSubscriptionPayload<ExtArgs>
+      fields: Prisma.MerchantSubscriptionFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantSubscriptionFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantSubscriptionFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantSubscriptionFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantSubscriptionFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantSubscriptionFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantSubscriptionCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantSubscriptionCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantSubscriptionCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantSubscriptionDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>
+        }
+        update: {
+          args: Prisma.MerchantSubscriptionUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantSubscriptionDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantSubscriptionUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantSubscriptionUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantSubscriptionUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSubscriptionPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantSubscriptionAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantSubscription>
+        }
+        groupBy: {
+          args: Prisma.MerchantSubscriptionGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantSubscriptionGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantSubscriptionCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantSubscriptionCountAggregateOutputType> | number
+        }
+      }
+    }
+    MerchantMagicLink: {
+      payload: Prisma.$MerchantMagicLinkPayload<ExtArgs>
+      fields: Prisma.MerchantMagicLinkFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantMagicLinkFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantMagicLinkFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantMagicLinkFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantMagicLinkFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantMagicLinkFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantMagicLinkCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantMagicLinkCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantMagicLinkCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantMagicLinkDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>
+        }
+        update: {
+          args: Prisma.MerchantMagicLinkUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantMagicLinkDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantMagicLinkUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantMagicLinkUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantMagicLinkUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantMagicLinkPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantMagicLinkAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantMagicLink>
+        }
+        groupBy: {
+          args: Prisma.MerchantMagicLinkGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantMagicLinkGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantMagicLinkCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantMagicLinkCountAggregateOutputType> | number
+        }
+      }
+    }
+    MerchantSession: {
+      payload: Prisma.$MerchantSessionPayload<ExtArgs>
+      fields: Prisma.MerchantSessionFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MerchantSessionFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MerchantSessionFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>
+        }
+        findFirst: {
+          args: Prisma.MerchantSessionFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MerchantSessionFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>
+        }
+        findMany: {
+          args: Prisma.MerchantSessionFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>[]
+        }
+        create: {
+          args: Prisma.MerchantSessionCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>
+        }
+        createMany: {
+          args: Prisma.MerchantSessionCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MerchantSessionCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>[]
+        }
+        delete: {
+          args: Prisma.MerchantSessionDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>
+        }
+        update: {
+          args: Prisma.MerchantSessionUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>
+        }
+        deleteMany: {
+          args: Prisma.MerchantSessionDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MerchantSessionUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MerchantSessionUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>[]
+        }
+        upsert: {
+          args: Prisma.MerchantSessionUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MerchantSessionPayload>
+        }
+        aggregate: {
+          args: Prisma.MerchantSessionAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMerchantSession>
+        }
+        groupBy: {
+          args: Prisma.MerchantSessionGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantSessionGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MerchantSessionCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MerchantSessionCountAggregateOutputType> | number
+        }
+      }
+    }
+    PremiumPlacement: {
+      payload: Prisma.$PremiumPlacementPayload<ExtArgs>
+      fields: Prisma.PremiumPlacementFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PremiumPlacementFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PremiumPlacementFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>
+        }
+        findFirst: {
+          args: Prisma.PremiumPlacementFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PremiumPlacementFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>
+        }
+        findMany: {
+          args: Prisma.PremiumPlacementFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>[]
+        }
+        create: {
+          args: Prisma.PremiumPlacementCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>
+        }
+        createMany: {
+          args: Prisma.PremiumPlacementCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PremiumPlacementCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>[]
+        }
+        delete: {
+          args: Prisma.PremiumPlacementDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>
+        }
+        update: {
+          args: Prisma.PremiumPlacementUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>
+        }
+        deleteMany: {
+          args: Prisma.PremiumPlacementDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PremiumPlacementUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PremiumPlacementUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>[]
+        }
+        upsert: {
+          args: Prisma.PremiumPlacementUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PremiumPlacementPayload>
+        }
+        aggregate: {
+          args: Prisma.PremiumPlacementAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePremiumPlacement>
+        }
+        groupBy: {
+          args: Prisma.PremiumPlacementGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PremiumPlacementGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PremiumPlacementCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PremiumPlacementCountAggregateOutputType> | number
+        }
+      }
+    }
   }
 } & {
   other: {
@@ -3287,6 +3737,101 @@ export const MerchantDiscoveryScanScalarFieldEnum = {
 export type MerchantDiscoveryScanScalarFieldEnum = (typeof MerchantDiscoveryScanScalarFieldEnum)[keyof typeof MerchantDiscoveryScanScalarFieldEnum]
 
 
+export const MerchantLeadScalarFieldEnum = {
+  id: 'id',
+  businessName: 'businessName',
+  contactName: 'contactName',
+  email: 'email',
+  phone: 'phone',
+  website: 'website',
+  businessType: 'businessType',
+  region: 'region',
+  category: 'category',
+  giftCardStatus: 'giftCardStatus',
+  giftCardUrl: 'giftCardUrl',
+  requestedPlan: 'requestedPlan',
+  message: 'message',
+  status: 'status',
+  matchedMerchantId: 'matchedMerchantId',
+  reviewedAt: 'reviewedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantLeadScalarFieldEnum = (typeof MerchantLeadScalarFieldEnum)[keyof typeof MerchantLeadScalarFieldEnum]
+
+
+export const MerchantMemberScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  email: 'email',
+  name: 'name',
+  role: 'role',
+  status: 'status',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantMemberScalarFieldEnum = (typeof MerchantMemberScalarFieldEnum)[keyof typeof MerchantMemberScalarFieldEnum]
+
+
+export const MerchantSubscriptionScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  plan: 'plan',
+  status: 'status',
+  startsAt: 'startsAt',
+  endsAt: 'endsAt',
+  stripeCustomerId: 'stripeCustomerId',
+  stripeSubscriptionId: 'stripeSubscriptionId',
+  stripePriceId: 'stripePriceId',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantSubscriptionScalarFieldEnum = (typeof MerchantSubscriptionScalarFieldEnum)[keyof typeof MerchantSubscriptionScalarFieldEnum]
+
+
+export const MerchantMagicLinkScalarFieldEnum = {
+  id: 'id',
+  memberId: 'memberId',
+  purpose: 'purpose',
+  tokenHash: 'tokenHash',
+  expiresAt: 'expiresAt',
+  usedAt: 'usedAt',
+  createdAt: 'createdAt'
+} as const
+
+export type MerchantMagicLinkScalarFieldEnum = (typeof MerchantMagicLinkScalarFieldEnum)[keyof typeof MerchantMagicLinkScalarFieldEnum]
+
+
+export const MerchantSessionScalarFieldEnum = {
+  id: 'id',
+  memberId: 'memberId',
+  tokenHash: 'tokenHash',
+  expiresAt: 'expiresAt',
+  lastSeenAt: 'lastSeenAt',
+  createdAt: 'createdAt'
+} as const
+
+export type MerchantSessionScalarFieldEnum = (typeof MerchantSessionScalarFieldEnum)[keyof typeof MerchantSessionScalarFieldEnum]
+
+
+export const PremiumPlacementScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  status: 'status',
+  startsAt: 'startsAt',
+  endsAt: 'endsAt',
+  impressions: 'impressions',
+  clicks: 'clicks',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type PremiumPlacementScalarFieldEnum = (typeof PremiumPlacementScalarFieldEnum)[keyof typeof PremiumPlacementScalarFieldEnum]
+
+
 export const SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -3675,6 +4220,104 @@ export type EnumDiscoveryScanStatusFieldRefInput<$PrismaModel> = FieldRefInputTy
 export type ListEnumDiscoveryScanStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DiscoveryScanStatus[]'>
     
 
+
+/**
+ * Reference to a field of type 'MerchantPlan'
+ */
+export type EnumMerchantPlanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantPlan'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantPlan[]'
+ */
+export type ListEnumMerchantPlanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantPlan[]'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantLeadStatus'
+ */
+export type EnumMerchantLeadStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantLeadStatus'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantLeadStatus[]'
+ */
+export type ListEnumMerchantLeadStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantLeadStatus[]'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantMemberRole'
+ */
+export type EnumMerchantMemberRoleFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantMemberRole'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantMemberRole[]'
+ */
+export type ListEnumMerchantMemberRoleFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantMemberRole[]'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantMemberStatus'
+ */
+export type EnumMerchantMemberStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantMemberStatus'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantMemberStatus[]'
+ */
+export type ListEnumMerchantMemberStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantMemberStatus[]'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantSubscriptionStatus'
+ */
+export type EnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantSubscriptionStatus'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantSubscriptionStatus[]'
+ */
+export type ListEnumMerchantSubscriptionStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantSubscriptionStatus[]'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantMagicLinkPurpose'
+ */
+export type EnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantMagicLinkPurpose'>
+    
+
+
+/**
+ * Reference to a field of type 'MerchantMagicLinkPurpose[]'
+ */
+export type ListEnumMerchantMagicLinkPurposeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MerchantMagicLinkPurpose[]'>
+    
+
+
+/**
+ * Reference to a field of type 'PremiumPlacementStatus'
+ */
+export type EnumPremiumPlacementStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'PremiumPlacementStatus'>
+    
+
+
+/**
+ * Reference to a field of type 'PremiumPlacementStatus[]'
+ */
+export type ListEnumPremiumPlacementStatusFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'PremiumPlacementStatus[]'>
+    
+
 /**
  * Batch Payload for updateMany & deleteMany & createMany
  */
@@ -3857,6 +4500,12 @@ export type GlobalOmitConfig = {
   crawlJob?: Prisma.CrawlJobOmit
   searchEvent?: Prisma.SearchEventOmit
   merchantDiscoveryScan?: Prisma.MerchantDiscoveryScanOmit
+  merchantLead?: Prisma.MerchantLeadOmit
+  merchantMember?: Prisma.MerchantMemberOmit
+  merchantSubscription?: Prisma.MerchantSubscriptionOmit
+  merchantMagicLink?: Prisma.MerchantMagicLinkOmit
+  merchantSession?: Prisma.MerchantSessionOmit
+  premiumPlacement?: Prisma.PremiumPlacementOmit
 }
 
 /* Types for Logging */

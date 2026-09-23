@@ -81,7 +81,13 @@ export const ModelName = {
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
   SearchEvent: 'SearchEvent',
-  MerchantDiscoveryScan: 'MerchantDiscoveryScan'
+  MerchantDiscoveryScan: 'MerchantDiscoveryScan',
+  MerchantLead: 'MerchantLead',
+  MerchantMember: 'MerchantMember',
+  MerchantSubscription: 'MerchantSubscription',
+  MerchantMagicLink: 'MerchantMagicLink',
+  MerchantSession: 'MerchantSession',
+  PremiumPlacement: 'PremiumPlacement'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -605,6 +611,101 @@ export const MerchantDiscoveryScanScalarFieldEnum = {
 } as const
 
 export type MerchantDiscoveryScanScalarFieldEnum = (typeof MerchantDiscoveryScanScalarFieldEnum)[keyof typeof MerchantDiscoveryScanScalarFieldEnum]
+
+
+export const MerchantLeadScalarFieldEnum = {
+  id: 'id',
+  businessName: 'businessName',
+  contactName: 'contactName',
+  email: 'email',
+  phone: 'phone',
+  website: 'website',
+  businessType: 'businessType',
+  region: 'region',
+  category: 'category',
+  giftCardStatus: 'giftCardStatus',
+  giftCardUrl: 'giftCardUrl',
+  requestedPlan: 'requestedPlan',
+  message: 'message',
+  status: 'status',
+  matchedMerchantId: 'matchedMerchantId',
+  reviewedAt: 'reviewedAt',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantLeadScalarFieldEnum = (typeof MerchantLeadScalarFieldEnum)[keyof typeof MerchantLeadScalarFieldEnum]
+
+
+export const MerchantMemberScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  email: 'email',
+  name: 'name',
+  role: 'role',
+  status: 'status',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantMemberScalarFieldEnum = (typeof MerchantMemberScalarFieldEnum)[keyof typeof MerchantMemberScalarFieldEnum]
+
+
+export const MerchantSubscriptionScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  plan: 'plan',
+  status: 'status',
+  startsAt: 'startsAt',
+  endsAt: 'endsAt',
+  stripeCustomerId: 'stripeCustomerId',
+  stripeSubscriptionId: 'stripeSubscriptionId',
+  stripePriceId: 'stripePriceId',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type MerchantSubscriptionScalarFieldEnum = (typeof MerchantSubscriptionScalarFieldEnum)[keyof typeof MerchantSubscriptionScalarFieldEnum]
+
+
+export const MerchantMagicLinkScalarFieldEnum = {
+  id: 'id',
+  memberId: 'memberId',
+  purpose: 'purpose',
+  tokenHash: 'tokenHash',
+  expiresAt: 'expiresAt',
+  usedAt: 'usedAt',
+  createdAt: 'createdAt'
+} as const
+
+export type MerchantMagicLinkScalarFieldEnum = (typeof MerchantMagicLinkScalarFieldEnum)[keyof typeof MerchantMagicLinkScalarFieldEnum]
+
+
+export const MerchantSessionScalarFieldEnum = {
+  id: 'id',
+  memberId: 'memberId',
+  tokenHash: 'tokenHash',
+  expiresAt: 'expiresAt',
+  lastSeenAt: 'lastSeenAt',
+  createdAt: 'createdAt'
+} as const
+
+export type MerchantSessionScalarFieldEnum = (typeof MerchantSessionScalarFieldEnum)[keyof typeof MerchantSessionScalarFieldEnum]
+
+
+export const PremiumPlacementScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  status: 'status',
+  startsAt: 'startsAt',
+  endsAt: 'endsAt',
+  impressions: 'impressions',
+  clicks: 'clicks',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt'
+} as const
+
+export type PremiumPlacementScalarFieldEnum = (typeof PremiumPlacementScalarFieldEnum)[keyof typeof PremiumPlacementScalarFieldEnum]
 
 
 export const SortOrder = {

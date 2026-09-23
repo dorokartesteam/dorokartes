@@ -1,62 +1,34 @@
-Dorokartes Verification Enrichment v18
+Dorokartes Mobile V3.7
 
-Purpose
--------
-Evaluate ACTIVE + NEEDS_REVIEW cards with an existing officialUrl.
+Mobile-only polish based on the approved image.
+It does NOT replace the desktop V3.6 hero.
 
-AUTO_SAFE requires ALL:
-- HTTP 2xx
-- officialUrl registrable domain == merchant website domain
-- final redirect domain == merchant domain
-- gift-card semantic evidence in title/H1/URL/body
-- purchase/value signal (€/$/£, amount/value, cart/checkout/buy etc.)
-- not an obvious terms/privacy/support/gift-set style page
+Changes:
+- smaller, cleaner hero proportions
+- improved mobile typography
+- premium search card
+- Search button stays inside the white search block
+- arrow added to Search button
+- better Categories / Near me cards
+- cleaner trust row
+- 360 / 390 / 430 px responsive handling
 
-Preview performs live network checks and writes NO database changes.
+INSTALL
 
-Install
--------
-Copy:
-scripts\audit\verification-enrichment-v18.ts
-to:
-D:\dorokartes\scripts\audit\verification-enrichment-v18.ts
+1. Extract this ZIP anywhere, for example Downloads\dorokartes-mobile-v3-7
 
-Run
----
-1) PREVIEW:
-npx tsx scripts/audit/verification-enrichment-v18.ts
+2. From PowerShell run:
 
-Optional small pilot:
-npx tsx scripts/audit/verification-enrichment-v18.ts --limit=50
+cd "$HOME\Downloads\dorokartes-mobile-v3-7"
+.\INSTALL.ps1
 
-2) APPLY only after reviewing counts/CSV:
-npx tsx scripts/audit/verification-enrichment-v18.ts --apply --plan-id=<PLAN_ID>
+If PowerShell blocks the script, run instead:
 
-Apply re-validates every AUTO_SAFE URL before DB writes.
+powershell -ExecutionPolicy Bypass -File .\INSTALL.ps1
 
-3) POST-AUDIT:
-npx tsx scripts/audit/verification-enrichment-v18.ts --post-audit
+3. Then:
 
-Then:
-npx tsx scripts/audit/master-catalog-reconciliation-v17.ts
-
-Deployment checkpoint after v18:
+cd D:\dorokartes
 npm run build
-# fix build errors if any
-# then deploy through the project's normal Vercel/Git workflow
 
-v18 does NOT change:
-- slug
-- title
-- officialUrl
-- merchant identity
-- variants
-- occasions
-- logos
-- SEO
-
-It updates only AUTO_SAFE cards:
-- verificationStatus -> VERIFIED
-- lastVerifiedAt / nextReviewAt
-- OFFICIAL SourceRecord if missing
-- PASSED VerificationEvent if missing
+4. Preview the mobile site before git commit.

@@ -1,0 +1,171 @@
+.dkm-business-head,
+.dkm-topbar-business,
+.dkm-member-row,
+.dkm-hero-brand,
+.dkm-profile-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dkm-business-head {
+  align-items: flex-start;
+}
+
+.dkm-business-head > div:last-child,
+.dkm-topbar-business > div:last-child,
+.dkm-profile-brand > div:last-child {
+  min-width: 0;
+}
+
+.dkm-merchant-avatar {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .13);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, .12);
+}
+
+.dkm-merchant-avatar img,
+.dkm-hero-logo img,
+.dkm-profile-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.dkm-merchant-avatar span,
+.dkm-hero-logo span,
+.dkm-profile-logo span {
+  color: #284fb8;
+  font-weight: 900;
+  letter-spacing: -.03em;
+}
+
+.dkm-merchant-avatar-small {
+  flex-basis: 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.dkm-business .dkm-business-head small,
+.dkm-business .dkm-business-head b,
+.dkm-business .dkm-business-head span {
+  display: block;
+}
+
+.dkm-business .dkm-business-head b {
+  margin-top: 5px;
+  line-height: 1.25;
+}
+
+.dkm-business .dkm-business-head span {
+  margin-top: 5px;
+}
+
+.dkm-member-row {
+  margin-bottom: 10px;
+}
+
+.dkm-member-row small {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dkm-topbar-business {
+  min-width: 0;
+}
+
+.dkm-topbar-business b {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dkm-hero-copy {
+  min-width: 0;
+}
+
+.dkm-hero-brand {
+  align-items: center;
+}
+
+.dkm-hero-logo {
+  flex: 0 0 74px;
+  width: 74px;
+  height: 74px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 14px 30px rgba(0,0,0,.16);
+}
+
+.dkm-hero-brand h1 {
+  margin-top: 7px;
+}
+
+.dkm-profile-head {
+  align-items: center;
+}
+
+.dkm-profile-brand {
+  align-items: center;
+}
+
+.dkm-profile-logo {
+  flex: 0 0 88px;
+  width: 88px;
+  height: 88px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid #e1e7f0;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(19, 37, 75, .09);
+}
+
+.dkm-profile-brand h1 {
+  margin: 5px 0 0;
+}
+
+.dkm-profile-brand p {
+  margin: 7px 0 0;
+  color: #7b879a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .dkm-hero-brand,
+  .dkm-profile-brand {
+    align-items: flex-start;
+  }
+
+  .dkm-hero-logo {
+    flex-basis: 62px;
+    width: 62px;
+    height: 62px;
+    border-radius: 17px;
+  }
+
+  .dkm-profile-logo {
+    flex-basis: 68px;
+    width: 68px;
+    height: 68px;
+    border-radius: 18px;
+  }
+}

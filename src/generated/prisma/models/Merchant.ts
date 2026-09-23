@@ -267,6 +267,10 @@ export type MerchantWhereInput = {
   sources?: Prisma.SourceRecordListRelationFilter
   mediaAssets?: Prisma.MediaAssetListRelationFilter
   clicks?: Prisma.OutboundClickListRelationFilter
+  merchantLeads?: Prisma.MerchantLeadListRelationFilter
+  members?: Prisma.MerchantMemberListRelationFilter
+  subscription?: Prisma.XOR<Prisma.MerchantSubscriptionNullableScalarRelationFilter, Prisma.MerchantSubscriptionWhereInput> | null
+  premiumPlacements?: Prisma.PremiumPlacementListRelationFilter
 }
 
 export type MerchantOrderByWithRelationInput = {
@@ -290,6 +294,10 @@ export type MerchantOrderByWithRelationInput = {
   sources?: Prisma.SourceRecordOrderByRelationAggregateInput
   mediaAssets?: Prisma.MediaAssetOrderByRelationAggregateInput
   clicks?: Prisma.OutboundClickOrderByRelationAggregateInput
+  merchantLeads?: Prisma.MerchantLeadOrderByRelationAggregateInput
+  members?: Prisma.MerchantMemberOrderByRelationAggregateInput
+  subscription?: Prisma.MerchantSubscriptionOrderByWithRelationInput
+  premiumPlacements?: Prisma.PremiumPlacementOrderByRelationAggregateInput
 }
 
 export type MerchantWhereUniqueInput = Prisma.AtLeast<{
@@ -316,6 +324,10 @@ export type MerchantWhereUniqueInput = Prisma.AtLeast<{
   sources?: Prisma.SourceRecordListRelationFilter
   mediaAssets?: Prisma.MediaAssetListRelationFilter
   clicks?: Prisma.OutboundClickListRelationFilter
+  merchantLeads?: Prisma.MerchantLeadListRelationFilter
+  members?: Prisma.MerchantMemberListRelationFilter
+  subscription?: Prisma.XOR<Prisma.MerchantSubscriptionNullableScalarRelationFilter, Prisma.MerchantSubscriptionWhereInput> | null
+  premiumPlacements?: Prisma.PremiumPlacementListRelationFilter
 }, "id" | "slug">
 
 export type MerchantOrderByWithAggregationInput = {
@@ -381,6 +393,10 @@ export type MerchantCreateInput = {
   sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUncheckedCreateInput = {
@@ -404,6 +420,10 @@ export type MerchantUncheckedCreateInput = {
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUpdateInput = {
@@ -427,6 +447,10 @@ export type MerchantUpdateInput = {
   sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantUncheckedUpdateInput = {
@@ -450,6 +474,10 @@ export type MerchantUncheckedUpdateInput = {
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantCreateManyInput = {
@@ -666,6 +694,64 @@ export type MerchantUpdateOneWithoutClicksNestedInput = {
   update?: Prisma.XOR<Prisma.XOR<Prisma.MerchantUpdateToOneWithWhereWithoutClicksInput, Prisma.MerchantUpdateWithoutClicksInput>, Prisma.MerchantUncheckedUpdateWithoutClicksInput>
 }
 
+export type MerchantCreateNestedOneWithoutMerchantLeadsInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutMerchantLeadsInput, Prisma.MerchantUncheckedCreateWithoutMerchantLeadsInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutMerchantLeadsInput
+  connect?: Prisma.MerchantWhereUniqueInput
+}
+
+export type MerchantUpdateOneWithoutMerchantLeadsNestedInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutMerchantLeadsInput, Prisma.MerchantUncheckedCreateWithoutMerchantLeadsInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutMerchantLeadsInput
+  upsert?: Prisma.MerchantUpsertWithoutMerchantLeadsInput
+  disconnect?: Prisma.MerchantWhereInput | boolean
+  delete?: Prisma.MerchantWhereInput | boolean
+  connect?: Prisma.MerchantWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.MerchantUpdateToOneWithWhereWithoutMerchantLeadsInput, Prisma.MerchantUpdateWithoutMerchantLeadsInput>, Prisma.MerchantUncheckedUpdateWithoutMerchantLeadsInput>
+}
+
+export type MerchantCreateNestedOneWithoutMembersInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutMembersInput, Prisma.MerchantUncheckedCreateWithoutMembersInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutMembersInput
+  connect?: Prisma.MerchantWhereUniqueInput
+}
+
+export type MerchantUpdateOneRequiredWithoutMembersNestedInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutMembersInput, Prisma.MerchantUncheckedCreateWithoutMembersInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutMembersInput
+  upsert?: Prisma.MerchantUpsertWithoutMembersInput
+  connect?: Prisma.MerchantWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.MerchantUpdateToOneWithWhereWithoutMembersInput, Prisma.MerchantUpdateWithoutMembersInput>, Prisma.MerchantUncheckedUpdateWithoutMembersInput>
+}
+
+export type MerchantCreateNestedOneWithoutSubscriptionInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutSubscriptionInput, Prisma.MerchantUncheckedCreateWithoutSubscriptionInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutSubscriptionInput
+  connect?: Prisma.MerchantWhereUniqueInput
+}
+
+export type MerchantUpdateOneRequiredWithoutSubscriptionNestedInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutSubscriptionInput, Prisma.MerchantUncheckedCreateWithoutSubscriptionInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutSubscriptionInput
+  upsert?: Prisma.MerchantUpsertWithoutSubscriptionInput
+  connect?: Prisma.MerchantWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.MerchantUpdateToOneWithWhereWithoutSubscriptionInput, Prisma.MerchantUpdateWithoutSubscriptionInput>, Prisma.MerchantUncheckedUpdateWithoutSubscriptionInput>
+}
+
+export type MerchantCreateNestedOneWithoutPremiumPlacementsInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutPremiumPlacementsInput, Prisma.MerchantUncheckedCreateWithoutPremiumPlacementsInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutPremiumPlacementsInput
+  connect?: Prisma.MerchantWhereUniqueInput
+}
+
+export type MerchantUpdateOneRequiredWithoutPremiumPlacementsNestedInput = {
+  create?: Prisma.XOR<Prisma.MerchantCreateWithoutPremiumPlacementsInput, Prisma.MerchantUncheckedCreateWithoutPremiumPlacementsInput>
+  connectOrCreate?: Prisma.MerchantCreateOrConnectWithoutPremiumPlacementsInput
+  upsert?: Prisma.MerchantUpsertWithoutPremiumPlacementsInput
+  connect?: Prisma.MerchantWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.MerchantUpdateToOneWithWhereWithoutPremiumPlacementsInput, Prisma.MerchantUpdateWithoutPremiumPlacementsInput>, Prisma.MerchantUncheckedUpdateWithoutPremiumPlacementsInput>
+}
+
 export type MerchantCreateWithoutLocationsInput = {
   id?: string
   name: string
@@ -686,6 +772,10 @@ export type MerchantCreateWithoutLocationsInput = {
   sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUncheckedCreateWithoutLocationsInput = {
@@ -708,6 +798,10 @@ export type MerchantUncheckedCreateWithoutLocationsInput = {
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantCreateOrConnectWithoutLocationsInput = {
@@ -746,6 +840,10 @@ export type MerchantUpdateWithoutLocationsInput = {
   sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantUncheckedUpdateWithoutLocationsInput = {
@@ -768,6 +866,10 @@ export type MerchantUncheckedUpdateWithoutLocationsInput = {
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantCreateWithoutGiftCardsInput = {
@@ -790,6 +892,10 @@ export type MerchantCreateWithoutGiftCardsInput = {
   sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUncheckedCreateWithoutGiftCardsInput = {
@@ -812,6 +918,10 @@ export type MerchantUncheckedCreateWithoutGiftCardsInput = {
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantCreateOrConnectWithoutGiftCardsInput = {
@@ -850,6 +960,10 @@ export type MerchantUpdateWithoutGiftCardsInput = {
   sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantUncheckedUpdateWithoutGiftCardsInput = {
@@ -872,6 +986,10 @@ export type MerchantUncheckedUpdateWithoutGiftCardsInput = {
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantCreateWithoutSourcesInput = {
@@ -894,6 +1012,10 @@ export type MerchantCreateWithoutSourcesInput = {
   locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUncheckedCreateWithoutSourcesInput = {
@@ -916,6 +1038,10 @@ export type MerchantUncheckedCreateWithoutSourcesInput = {
   locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantCreateOrConnectWithoutSourcesInput = {
@@ -954,6 +1080,10 @@ export type MerchantUpdateWithoutSourcesInput = {
   locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantUncheckedUpdateWithoutSourcesInput = {
@@ -976,6 +1106,10 @@ export type MerchantUncheckedUpdateWithoutSourcesInput = {
   locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantCreateWithoutMediaAssetsInput = {
@@ -998,6 +1132,10 @@ export type MerchantCreateWithoutMediaAssetsInput = {
   locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
   sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUncheckedCreateWithoutMediaAssetsInput = {
@@ -1020,6 +1158,10 @@ export type MerchantUncheckedCreateWithoutMediaAssetsInput = {
   locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
   clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantCreateOrConnectWithoutMediaAssetsInput = {
@@ -1058,6 +1200,10 @@ export type MerchantUpdateWithoutMediaAssetsInput = {
   locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
   sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantUncheckedUpdateWithoutMediaAssetsInput = {
@@ -1080,6 +1226,10 @@ export type MerchantUncheckedUpdateWithoutMediaAssetsInput = {
   locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
   clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantCreateWithoutClicksInput = {
@@ -1102,6 +1252,10 @@ export type MerchantCreateWithoutClicksInput = {
   locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
   sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantUncheckedCreateWithoutClicksInput = {
@@ -1124,6 +1278,10 @@ export type MerchantUncheckedCreateWithoutClicksInput = {
   locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
   sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
   mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
 }
 
 export type MerchantCreateOrConnectWithoutClicksInput = {
@@ -1162,6 +1320,10 @@ export type MerchantUpdateWithoutClicksInput = {
   locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
   sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
 }
 
 export type MerchantUncheckedUpdateWithoutClicksInput = {
@@ -1184,6 +1346,490 @@ export type MerchantUncheckedUpdateWithoutClicksInput = {
   locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
   sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
   mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantCreateWithoutMerchantLeadsInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
+}
+
+export type MerchantUncheckedCreateWithoutMerchantLeadsInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardUncheckedCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
+}
+
+export type MerchantCreateOrConnectWithoutMerchantLeadsInput = {
+  where: Prisma.MerchantWhereUniqueInput
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutMerchantLeadsInput, Prisma.MerchantUncheckedCreateWithoutMerchantLeadsInput>
+}
+
+export type MerchantUpsertWithoutMerchantLeadsInput = {
+  update: Prisma.XOR<Prisma.MerchantUpdateWithoutMerchantLeadsInput, Prisma.MerchantUncheckedUpdateWithoutMerchantLeadsInput>
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutMerchantLeadsInput, Prisma.MerchantUncheckedCreateWithoutMerchantLeadsInput>
+  where?: Prisma.MerchantWhereInput
+}
+
+export type MerchantUpdateToOneWithWhereWithoutMerchantLeadsInput = {
+  where?: Prisma.MerchantWhereInput
+  data: Prisma.XOR<Prisma.MerchantUpdateWithoutMerchantLeadsInput, Prisma.MerchantUncheckedUpdateWithoutMerchantLeadsInput>
+}
+
+export type MerchantUpdateWithoutMerchantLeadsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantUncheckedUpdateWithoutMerchantLeadsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUncheckedUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantCreateWithoutMembersInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
+}
+
+export type MerchantUncheckedCreateWithoutMembersInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardUncheckedCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
+}
+
+export type MerchantCreateOrConnectWithoutMembersInput = {
+  where: Prisma.MerchantWhereUniqueInput
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutMembersInput, Prisma.MerchantUncheckedCreateWithoutMembersInput>
+}
+
+export type MerchantUpsertWithoutMembersInput = {
+  update: Prisma.XOR<Prisma.MerchantUpdateWithoutMembersInput, Prisma.MerchantUncheckedUpdateWithoutMembersInput>
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutMembersInput, Prisma.MerchantUncheckedCreateWithoutMembersInput>
+  where?: Prisma.MerchantWhereInput
+}
+
+export type MerchantUpdateToOneWithWhereWithoutMembersInput = {
+  where?: Prisma.MerchantWhereInput
+  data: Prisma.XOR<Prisma.MerchantUpdateWithoutMembersInput, Prisma.MerchantUncheckedUpdateWithoutMembersInput>
+}
+
+export type MerchantUpdateWithoutMembersInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantUncheckedUpdateWithoutMembersInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUncheckedUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantCreateWithoutSubscriptionInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementCreateNestedManyWithoutMerchantInput
+}
+
+export type MerchantUncheckedCreateWithoutSubscriptionInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardUncheckedCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedCreateNestedManyWithoutMerchantInput
+}
+
+export type MerchantCreateOrConnectWithoutSubscriptionInput = {
+  where: Prisma.MerchantWhereUniqueInput
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutSubscriptionInput, Prisma.MerchantUncheckedCreateWithoutSubscriptionInput>
+}
+
+export type MerchantUpsertWithoutSubscriptionInput = {
+  update: Prisma.XOR<Prisma.MerchantUpdateWithoutSubscriptionInput, Prisma.MerchantUncheckedUpdateWithoutSubscriptionInput>
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutSubscriptionInput, Prisma.MerchantUncheckedCreateWithoutSubscriptionInput>
+  where?: Prisma.MerchantWhereInput
+}
+
+export type MerchantUpdateToOneWithWhereWithoutSubscriptionInput = {
+  where?: Prisma.MerchantWhereInput
+  data: Prisma.XOR<Prisma.MerchantUpdateWithoutSubscriptionInput, Prisma.MerchantUncheckedUpdateWithoutSubscriptionInput>
+}
+
+export type MerchantUpdateWithoutSubscriptionInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantUncheckedUpdateWithoutSubscriptionInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUncheckedUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  premiumPlacements?: Prisma.PremiumPlacementUncheckedUpdateManyWithoutMerchantNestedInput
+}
+
+export type MerchantCreateWithoutPremiumPlacementsInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionCreateNestedOneWithoutMerchantInput
+}
+
+export type MerchantUncheckedCreateWithoutPremiumPlacementsInput = {
+  id?: string
+  name: string
+  slug: string
+  legalName?: string | null
+  description?: string | null
+  websiteUrl?: string | null
+  country?: string
+  logoUrl?: string | null
+  logoSourceUrl?: string | null
+  status?: $Enums.MerchantStatus
+  featured?: boolean
+  seoTitle?: string | null
+  metaDescription?: string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  giftCards?: Prisma.GiftCardUncheckedCreateNestedManyWithoutMerchantInput
+  locations?: Prisma.MerchantLocationUncheckedCreateNestedManyWithoutMerchantInput
+  sources?: Prisma.SourceRecordUncheckedCreateNestedManyWithoutMerchantInput
+  mediaAssets?: Prisma.MediaAssetUncheckedCreateNestedManyWithoutMerchantInput
+  clicks?: Prisma.OutboundClickUncheckedCreateNestedManyWithoutMerchantInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedCreateNestedManyWithoutMatchedMerchantInput
+  members?: Prisma.MerchantMemberUncheckedCreateNestedManyWithoutMerchantInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedCreateNestedOneWithoutMerchantInput
+}
+
+export type MerchantCreateOrConnectWithoutPremiumPlacementsInput = {
+  where: Prisma.MerchantWhereUniqueInput
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutPremiumPlacementsInput, Prisma.MerchantUncheckedCreateWithoutPremiumPlacementsInput>
+}
+
+export type MerchantUpsertWithoutPremiumPlacementsInput = {
+  update: Prisma.XOR<Prisma.MerchantUpdateWithoutPremiumPlacementsInput, Prisma.MerchantUncheckedUpdateWithoutPremiumPlacementsInput>
+  create: Prisma.XOR<Prisma.MerchantCreateWithoutPremiumPlacementsInput, Prisma.MerchantUncheckedCreateWithoutPremiumPlacementsInput>
+  where?: Prisma.MerchantWhereInput
+}
+
+export type MerchantUpdateToOneWithWhereWithoutPremiumPlacementsInput = {
+  where?: Prisma.MerchantWhereInput
+  data: Prisma.XOR<Prisma.MerchantUpdateWithoutPremiumPlacementsInput, Prisma.MerchantUncheckedUpdateWithoutPremiumPlacementsInput>
+}
+
+export type MerchantUpdateWithoutPremiumPlacementsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUpdateOneWithoutMerchantNestedInput
+}
+
+export type MerchantUncheckedUpdateWithoutPremiumPlacementsInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  legalName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  description?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  websiteUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  country?: Prisma.StringFieldUpdateOperationsInput | string
+  logoUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  logoSourceUrl?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumMerchantStatusFieldUpdateOperationsInput | $Enums.MerchantStatus
+  featured?: Prisma.BoolFieldUpdateOperationsInput | boolean
+  seoTitle?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  metaDescription?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  giftCards?: Prisma.GiftCardUncheckedUpdateManyWithoutMerchantNestedInput
+  locations?: Prisma.MerchantLocationUncheckedUpdateManyWithoutMerchantNestedInput
+  sources?: Prisma.SourceRecordUncheckedUpdateManyWithoutMerchantNestedInput
+  mediaAssets?: Prisma.MediaAssetUncheckedUpdateManyWithoutMerchantNestedInput
+  clicks?: Prisma.OutboundClickUncheckedUpdateManyWithoutMerchantNestedInput
+  merchantLeads?: Prisma.MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantNestedInput
+  members?: Prisma.MerchantMemberUncheckedUpdateManyWithoutMerchantNestedInput
+  subscription?: Prisma.MerchantSubscriptionUncheckedUpdateOneWithoutMerchantNestedInput
 }
 
 
@@ -1197,6 +1843,9 @@ export type MerchantCountOutputType = {
   sources: number
   mediaAssets: number
   clicks: number
+  merchantLeads: number
+  members: number
+  premiumPlacements: number
 }
 
 export type MerchantCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
@@ -1205,6 +1854,9 @@ export type MerchantCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensio
   sources?: boolean | MerchantCountOutputTypeCountSourcesArgs
   mediaAssets?: boolean | MerchantCountOutputTypeCountMediaAssetsArgs
   clicks?: boolean | MerchantCountOutputTypeCountClicksArgs
+  merchantLeads?: boolean | MerchantCountOutputTypeCountMerchantLeadsArgs
+  members?: boolean | MerchantCountOutputTypeCountMembersArgs
+  premiumPlacements?: boolean | MerchantCountOutputTypeCountPremiumPlacementsArgs
 }
 
 /**
@@ -1252,6 +1904,27 @@ export type MerchantCountOutputTypeCountClicksArgs<ExtArgs extends runtime.Types
   where?: Prisma.OutboundClickWhereInput
 }
 
+/**
+ * MerchantCountOutputType without action
+ */
+export type MerchantCountOutputTypeCountMerchantLeadsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.MerchantLeadWhereInput
+}
+
+/**
+ * MerchantCountOutputType without action
+ */
+export type MerchantCountOutputTypeCountMembersArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.MerchantMemberWhereInput
+}
+
+/**
+ * MerchantCountOutputType without action
+ */
+export type MerchantCountOutputTypeCountPremiumPlacementsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.PremiumPlacementWhereInput
+}
+
 
 export type MerchantSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
   id?: boolean
@@ -1274,6 +1947,10 @@ export type MerchantSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs
   sources?: boolean | Prisma.Merchant$sourcesArgs<ExtArgs>
   mediaAssets?: boolean | Prisma.Merchant$mediaAssetsArgs<ExtArgs>
   clicks?: boolean | Prisma.Merchant$clicksArgs<ExtArgs>
+  merchantLeads?: boolean | Prisma.Merchant$merchantLeadsArgs<ExtArgs>
+  members?: boolean | Prisma.Merchant$membersArgs<ExtArgs>
+  subscription?: boolean | Prisma.Merchant$subscriptionArgs<ExtArgs>
+  premiumPlacements?: boolean | Prisma.Merchant$premiumPlacementsArgs<ExtArgs>
   _count?: boolean | Prisma.MerchantCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["merchant"]>
 
@@ -1338,6 +2015,10 @@ export type MerchantInclude<ExtArgs extends runtime.Types.Extensions.InternalArg
   sources?: boolean | Prisma.Merchant$sourcesArgs<ExtArgs>
   mediaAssets?: boolean | Prisma.Merchant$mediaAssetsArgs<ExtArgs>
   clicks?: boolean | Prisma.Merchant$clicksArgs<ExtArgs>
+  merchantLeads?: boolean | Prisma.Merchant$merchantLeadsArgs<ExtArgs>
+  members?: boolean | Prisma.Merchant$membersArgs<ExtArgs>
+  subscription?: boolean | Prisma.Merchant$subscriptionArgs<ExtArgs>
+  premiumPlacements?: boolean | Prisma.Merchant$premiumPlacementsArgs<ExtArgs>
   _count?: boolean | Prisma.MerchantCountOutputTypeDefaultArgs<ExtArgs>
 }
 export type MerchantIncludeCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
@@ -1351,6 +2032,10 @@ export type $MerchantPayload<ExtArgs extends runtime.Types.Extensions.InternalAr
     sources: Prisma.$SourceRecordPayload<ExtArgs>[]
     mediaAssets: Prisma.$MediaAssetPayload<ExtArgs>[]
     clicks: Prisma.$OutboundClickPayload<ExtArgs>[]
+    merchantLeads: Prisma.$MerchantLeadPayload<ExtArgs>[]
+    members: Prisma.$MerchantMemberPayload<ExtArgs>[]
+    subscription: Prisma.$MerchantSubscriptionPayload<ExtArgs> | null
+    premiumPlacements: Prisma.$PremiumPlacementPayload<ExtArgs>[]
   }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
     id: string
@@ -1767,6 +2452,10 @@ export interface Prisma__MerchantClient<T, Null = never, ExtArgs extends runtime
   sources<T extends Prisma.Merchant$sourcesArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$sourcesArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$SourceRecordPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   mediaAssets<T extends Prisma.Merchant$mediaAssetsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$mediaAssetsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$MediaAssetPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   clicks<T extends Prisma.Merchant$clicksArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$clicksArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$OutboundClickPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  merchantLeads<T extends Prisma.Merchant$merchantLeadsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$merchantLeadsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$MerchantLeadPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  members<T extends Prisma.Merchant$membersArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$membersArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$MerchantMemberPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  subscription<T extends Prisma.Merchant$subscriptionArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$subscriptionArgs<ExtArgs>>): Prisma.Prisma__MerchantSubscriptionClient<runtime.Types.Result.GetResult<Prisma.$MerchantSubscriptionPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+  premiumPlacements<T extends Prisma.Merchant$premiumPlacementsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Merchant$premiumPlacementsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$PremiumPlacementPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
    * @param onfulfilled The callback to execute when the Promise is resolved.
@@ -2321,6 +3010,97 @@ export type Merchant$clicksArgs<ExtArgs extends runtime.Types.Extensions.Interna
   take?: number
   skip?: number
   distinct?: Prisma.OutboundClickScalarFieldEnum | Prisma.OutboundClickScalarFieldEnum[]
+}
+
+/**
+ * Merchant.merchantLeads
+ */
+export type Merchant$merchantLeadsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the MerchantLead
+   */
+  select?: Prisma.MerchantLeadSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the MerchantLead
+   */
+  omit?: Prisma.MerchantLeadOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.MerchantLeadInclude<ExtArgs> | null
+  where?: Prisma.MerchantLeadWhereInput
+  orderBy?: Prisma.MerchantLeadOrderByWithRelationInput | Prisma.MerchantLeadOrderByWithRelationInput[]
+  cursor?: Prisma.MerchantLeadWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.MerchantLeadScalarFieldEnum | Prisma.MerchantLeadScalarFieldEnum[]
+}
+
+/**
+ * Merchant.members
+ */
+export type Merchant$membersArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the MerchantMember
+   */
+  select?: Prisma.MerchantMemberSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the MerchantMember
+   */
+  omit?: Prisma.MerchantMemberOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.MerchantMemberInclude<ExtArgs> | null
+  where?: Prisma.MerchantMemberWhereInput
+  orderBy?: Prisma.MerchantMemberOrderByWithRelationInput | Prisma.MerchantMemberOrderByWithRelationInput[]
+  cursor?: Prisma.MerchantMemberWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.MerchantMemberScalarFieldEnum | Prisma.MerchantMemberScalarFieldEnum[]
+}
+
+/**
+ * Merchant.subscription
+ */
+export type Merchant$subscriptionArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the MerchantSubscription
+   */
+  select?: Prisma.MerchantSubscriptionSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the MerchantSubscription
+   */
+  omit?: Prisma.MerchantSubscriptionOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.MerchantSubscriptionInclude<ExtArgs> | null
+  where?: Prisma.MerchantSubscriptionWhereInput
+}
+
+/**
+ * Merchant.premiumPlacements
+ */
+export type Merchant$premiumPlacementsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the PremiumPlacement
+   */
+  select?: Prisma.PremiumPlacementSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the PremiumPlacement
+   */
+  omit?: Prisma.PremiumPlacementOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.PremiumPlacementInclude<ExtArgs> | null
+  where?: Prisma.PremiumPlacementWhereInput
+  orderBy?: Prisma.PremiumPlacementOrderByWithRelationInput | Prisma.PremiumPlacementOrderByWithRelationInput[]
+  cursor?: Prisma.PremiumPlacementWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.PremiumPlacementScalarFieldEnum | Prisma.PremiumPlacementScalarFieldEnum[]
 }
 
 /**

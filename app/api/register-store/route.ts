@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import { prisma } from "@/lib/prisma";
+import { formPlanToDb, planLabel } from "@/lib/merchant/plans";
 
 export const runtime = "nodejs";
 
@@ -17,13 +19,6 @@ type InterestPayload = {
   message?: unknown;
   consent?: unknown;
   website2?: unknown;
-};
-
-const packageLabels: Record<string, string> = {
-  undecided: "Δεν έχει αποφασίσει ακόμη",
-  partner: "Partner — 9,99€/μήνα",
-  featured: "Featured — 19,99€/μήνα",
-  premium: "Premium Banner — 39,99€/μήνα",
 };
 
 function text(value: unknown, max = 500) {
@@ -57,20 +52,16 @@ export async function POST(request: NextRequest) {
   try {
     raw = (await request.json()) as InterestPayload;
   } catch {
-    return NextResponse.json(
-      { error: "Μη έγκυρα δεδομένα φόρμας." },
-      { status: 400 },
-    );
+    return NextResponse.json({ error: "Μη έγκυρα δεδομένα φόρμας." }, { status: 400 });
   }
 
-  const trap = text(raw.website2, 100);
-  if (trap) {
+  if (text(raw.website2, 100)) {
     return NextResponse.json({ ok: true });
   }
 
   const businessName = text(raw.businessName, 120);
   const contactName = text(raw.contactName, 120);
-  const email = text(raw.email, 180);
+  const email = text(raw.email, 180).toLowerCase();
   const phone = text(raw.phone, 40);
   const website = text(raw.website, 240);
   const businessType = text(raw.businessType, 80);
@@ -78,8 +69,8 @@ export async function POST(request: NextRequest) {
   const category = text(raw.category, 120);
   const giftCardStatus = text(raw.giftCardStatus, 100);
   const giftCardUrl = text(raw.giftCardUrl, 300);
-  const planKey = text(raw.plan, 40) || "undecided";
-  const plan = packageLabels[planKey] || planKey;
+  const planRaw = text(raw.plan, 40);
+  const requestedPlan = formPlanToDb(planRaw);
   const message = text(raw.message, 1600);
   const consent = text(raw.consent, 20);
 
@@ -100,83 +91,81 @@ export async function POST(request: NextRequest) {
   }
 
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return NextResponse.json(
-      { error: "Το email δεν φαίνεται έγκυρο." },
-      { status: 400 },
-    );
+    return NextResponse.json({ error: "Το email δεν φαίνεται έγκυρο." }, { status: 400 });
   }
 
-  const apiKey = process.env.RESEND_API_KEY?.trim();
-  const from = process.env.DOROKARTES_LEADS_FROM?.trim();
-  const to =
-    process.env.DOROKARTES_LEADS_TO?.trim() || "info@dorokartes.gr";
-
-  if (!apiKey || !from) {
-    return NextResponse.json(
-      {
-        error: "Η online αποστολή δεν έχει ρυθμιστεί ακόμα.",
-        fallback: "mailto",
-      },
-      { status: 503 },
-    );
-  }
-
-  const html = `
-    <div style="font-family:Arial,sans-serif;max-width:720px;margin:auto;color:#18263d">
-      <h2 style="margin:0 0 8px">Νέα εκδήλωση ενδιαφέροντος</h2>
-      <p style="margin:0 0 24px;color:#66738a">
-        Νέο merchant lead από το Dorokartes.gr
-      </p>
-
-      <table style="width:100%;border-collapse:collapse;border:1px solid #eef1f6;border-radius:12px;overflow:hidden">
-        ${row("Επιχείρηση", businessName)}
-        ${row("Υπεύθυνος", contactName)}
-        ${row("Email", email)}
-        ${row("Τηλέφωνο", phone)}
-        ${row("Website", website)}
-        ${row("Τύπος επιχείρησης", businessType)}
-        ${row("Περιφέρεια", region)}
-        ${row("Κατηγορία", category)}
-        ${row("Δωροκάρτες", giftCardStatus)}
-        ${row("URL δωροκάρτας", giftCardUrl)}
-        ${row("Πακέτο ενδιαφέροντος", plan)}
-      </table>
-
-      <div style="margin-top:22px;padding:16px;border-radius:12px;background:#f7f9fc">
-        <strong>Μήνυμα</strong>
-        <p style="white-space:pre-wrap;line-height:1.6;margin:8px 0 0">${escapeHtml(message || "-")}</p>
-      </div>
-    </div>
-  `;
-
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      authorization: `Bearer ${apiKey}`,
-      "content-type": "application/json",
+  const lead = await prisma.merchantLead.create({
+    data: {
+      businessName,
+      contactName,
+      email,
+      phone,
+      website: website || null,
+      businessType,
+      region: region || null,
+      category,
+      giftCardStatus,
+      giftCardUrl: giftCardUrl || null,
+      requestedPlan,
+      message: message || null,
     },
-    body: JSON.stringify({
-      from,
-      to: [to],
-      reply_to: email,
-      subject: `Dorokartes: ${businessName} — ${plan}`,
-      html,
-    }),
   });
 
-  if (!response.ok) {
-    const detail = await response.text().catch(() => "");
+  const apiKey = process.env.RESEND_API_KEY?.trim();
+  const from =
+    process.env.DOROKARTES_LEADS_FROM?.trim() ||
+    process.env.DOROKARTES_MERCHANT_FROM?.trim();
+  const to = process.env.DOROKARTES_LEADS_TO?.trim() || "info@dorokartes.gr";
 
-    console.error("Dorokartes interest email failed", {
-      status: response.status,
-      detail: detail.slice(0, 1000),
+  if (apiKey && from) {
+    const plan = requestedPlan ? planLabel(requestedPlan) : "Δεν έχει αποφασίσει ακόμη";
+
+    const html = `
+      <div style="font-family:Arial,sans-serif;max-width:720px;margin:auto;color:#18263d">
+        <h2 style="margin:0 0 8px">Νέα εκδήλωση ενδιαφέροντος</h2>
+        <p style="margin:0 0 24px;color:#66738a">
+          Lead ID: ${escapeHtml(lead.id)}
+        </p>
+        <table style="width:100%;border-collapse:collapse;border:1px solid #eef1f6">
+          ${row("Επιχείρηση", businessName)}
+          ${row("Υπεύθυνος", contactName)}
+          ${row("Email", email)}
+          ${row("Τηλέφωνο", phone)}
+          ${row("Website", website)}
+          ${row("Τύπος", businessType)}
+          ${row("Περιφέρεια", region)}
+          ${row("Κατηγορία", category)}
+          ${row("Δωροκάρτες", giftCardStatus)}
+          ${row("URL δωροκάρτας", giftCardUrl)}
+          ${row("Πακέτο", plan)}
+        </table>
+        <div style="margin-top:22px;padding:16px;border-radius:12px;background:#f7f9fc">
+          <strong>Μήνυμα</strong>
+          <p style="white-space:pre-wrap;line-height:1.6">${escapeHtml(message || "-")}</p>
+        </div>
+      </div>
+    `;
+
+    const response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        authorization: `Bearer ${apiKey}`,
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        from,
+        to: [to],
+        reply_to: email,
+        subject: `Dorokartes lead: ${businessName}`,
+        html,
+      }),
     });
 
-    return NextResponse.json(
-      { error: "Δεν ήταν δυνατή η αποστολή αυτή τη στιγμή." },
-      { status: 502 },
-    );
+    if (!response.ok) {
+      const detail = await response.text().catch(() => "");
+      console.error("Dorokartes lead email failed", response.status, detail.slice(0, 1000));
+    }
   }
 
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ ok: true, leadId: lead.id });
 }

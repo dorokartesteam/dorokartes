@@ -203,3 +203,33 @@ export type SearchEvent = Prisma.SearchEventModel
  * 
  */
 export type MerchantDiscoveryScan = Prisma.MerchantDiscoveryScanModel
+/**
+ * Model MerchantLead
+ * 
+ */
+export type MerchantLead = Prisma.MerchantLeadModel
+/**
+ * Model MerchantMember
+ * 
+ */
+export type MerchantMember = Prisma.MerchantMemberModel
+/**
+ * Model MerchantSubscription
+ * 
+ */
+export type MerchantSubscription = Prisma.MerchantSubscriptionModel
+/**
+ * Model MerchantMagicLink
+ * 
+ */
+export type MerchantMagicLink = Prisma.MerchantMagicLinkModel
+/**
+ * Model MerchantSession
+ * 
+ */
+export type MerchantSession = Prisma.MerchantSessionModel
+/**
+ * Model PremiumPlacement
+ * 
+ */
+export type PremiumPlacement = Prisma.PremiumPlacementModel

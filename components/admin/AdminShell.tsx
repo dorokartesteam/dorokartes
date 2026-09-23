@@ -24,6 +24,7 @@ const groups: NavGroup[] = [
     label: "Catalog",
     items: [
       ["Merchants", "/admin/merchants", "◫"],
+      ["Merchant Leads", "/admin/merchant-leads", "◎"],
       ["Gift Cards", "/admin/gift-cards", "▣"],
       ["Create", "/admin/create", "+"],
       ["Bulk Editor", "/admin/bulk", "☷"],
