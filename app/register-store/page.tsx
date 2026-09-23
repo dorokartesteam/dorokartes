@@ -1,92 +1,118 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import PublicFooter from "@/components/public/PublicFooter";
 import PublicHeader from "@/components/public/PublicHeader";
-
-const registrationEmail =
-  "mailto:info@dorokartes.gr?subject=" +
-  encodeURIComponent("Εγγραφή καταστήματος στο Dorokartes.gr");
+import MerchantInterestForm from "@/components/public/MerchantInterestForm";
+import styles from "./register-store.module.css";
 
 export const metadata: Metadata = {
-  title: "Εγγραφή καταστήματος",
+  title: "Για επιχειρήσεις | Dorokartes",
   description:
-    "Πρόσθεσε το κατάστημά σου και τις επίσημες δωροκάρτες του στον κατάλογο του Dorokartes.gr.",
-  alternates: { canonical: "/register-store" },
-  openGraph: {
-    title: "Εγγραφή καταστήματος στο Dorokartes.gr",
-    description:
-      "Στείλε τα επίσημα στοιχεία του καταστήματος και της δωροκάρτας σου για έλεγχο και καταχώριση.",
-    url: "/register-store",
+    "Εκδήλωσε ενδιαφέρον για να προστεθεί η επιχείρησή σου στο Dorokartes και να παρουσιάσεις τις δωροκάρτες σου σε νέο κοινό.",
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
+const benefits = [
+  {
+    icon: "◎",
+    title: "Νέα προβολή",
+    text: "Παρουσίασε τις δωροκάρτες σου σε ανθρώπους που ψάχνουν ήδη το επόμενο δώρο.",
+  },
+  {
+    icon: "↗",
+    title: "Κίνηση προς το κατάστημά σου",
+    text: "Το Dorokartes οδηγεί τον επισκέπτη στο επίσημο site ή στη σελίδα αγοράς σου.",
+  },
+  {
+    icon: "✦",
+    title: "Premium παρουσία",
+    text: "Δυνατότητα για καλύτερη προβολή, προτεινόμενες θέσεις και μελλοντικές merchant υπηρεσίες.",
+  },
+] as const;
+
 export default function RegisterStorePage() {
   return (
-    <div className="dk-public">
+    <div className={styles.site}>
       <PublicHeader />
-      <main className="dk30-register">
-        <div className="dk20-shell">
-          <section className="dk30-register-hero" aria-labelledby="register-store-title">
-            <div className="dk30-register-copy">
-              <span className="dk30-register-kicker">ΓΙΑ ΚΑΤΑΣΤΗΜΑΤΑ &amp; BRANDS</span>
-              <h1 id="register-store-title">
-                Βάλε τη δωροκάρτα σου εκεί που την αναζητούν.
-              </h1>
-              <p>
-                Στείλε μας τα επίσημα στοιχεία του καταστήματος και της
-                δωροκάρτας σου. Η ομάδα του Dorokartes.gr ελέγχει κάθε
-                καταχώριση πριν δημοσιευτεί στον κατάλογο.
-              </p>
-              <div className="dk30-register-actions">
-                <a className="dk30-register-primary" href={registrationEmail}>
-                  Ξεκίνα την εγγραφή <span aria-hidden="true">→</span>
-                </a>
-                <Link className="dk30-register-secondary" href="/browse">
-                  Δες τον κατάλογο
-                </Link>
+
+      <main className={styles.main}>
+        <section className={styles.hero}>
+          <div className={styles.shell}>
+            <div className={styles.grid}>
+              <div className={styles.copy}>
+                <span className={styles.eyebrow}>DOROKARTES ΓΙΑ ΕΠΙΧΕΙΡΗΣΕΙΣ</span>
+
+                <h1>
+                  Οι δωροκάρτες σου,
+                  <span> μπροστά στο σωστό κοινό.</span>
+                </h1>
+
+                <p className={styles.lead}>
+                  Έχεις επιχείρηση που διαθέτει — ή θέλει να διαθέσει —
+                  δωροκάρτες; Εκδήλωσε ενδιαφέρον και θα επικοινωνήσουμε μαζί
+                  σου για την παρουσία σου στο Dorokartes.
+                </p>
+
+                <div className={styles.benefits}>
+                  {benefits.map((benefit) => (
+                    <div className={styles.benefit} key={benefit.title}>
+                      <div className={styles.benefitIcon} aria-hidden="true">
+                        {benefit.icon}
+                      </div>
+                      <div>
+                        <b>{benefit.title}</b>
+                        <span>{benefit.text}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className={styles.note}>
+                  <span aria-hidden="true">✓</span>
+                  <p>
+                    Η εκδήλωση ενδιαφέροντος δεν σε δεσμεύει σε κάποια
+                    συνδρομή ή υπηρεσία.
+                  </p>
+                </div>
               </div>
-              <small>
-                Δεν εκδίδουμε ούτε πωλούμε δωροκάρτες. Καταχωρίζουμε μόνο
-                στοιχεία που μπορούν να επιβεβαιωθούν από επίσημη πηγή.
-              </small>
+
+              <div className={styles.formColumn}>
+                <MerchantInterestForm />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.after}>
+          <div className={styles.afterInner}>
+            <div>
+              <span>ΤΙ ΓΙΝΕΤΑΙ ΜΕΤΑ;</span>
+              <h2>Απλή διαδικασία, χωρίς περιττά βήματα.</h2>
             </div>
 
-            <aside
-              className="dk30-register-panel"
-              aria-labelledby="register-details-title"
-            >
-              <span className="dk30-register-panel-label">
-                ΤΙ ΝΑ ΜΑΣ ΣΤΕΙΛΕΙΣ
-              </span>
-              <h2 id="register-details-title">
-                Τα βασικά στοιχεία για γρήγορο έλεγχο
-              </h2>
-              <ul>
-                <li>
-                  <span aria-hidden="true">01</span>
-                  <p><b>Επωνυμία</b> καταστήματος ή brand</p>
-                </li>
-                <li>
-                  <span aria-hidden="true">02</span>
-                  <p><b>Επίσημο website</b> και σύνδεσμο δωροκάρτας</p>
-                </li>
-                <li>
-                  <span aria-hidden="true">03</span>
-                  <p><b>Λογότυπο</b> και διαθέσιμες αξίες</p>
-                </li>
-                <li>
-                  <span aria-hidden="true">04</span>
-                  <p><b>Περιοχές</b> και στοιχεία επικοινωνίας</p>
-                </li>
-              </ul>
-              <div className="dk30-register-email">
-                <span>EMAIL ΕΠΙΚΟΙΝΩΝΙΑΣ</span>
-                <a href={registrationEmail}>info@dorokartes.gr</a>
+            <div className={styles.steps}>
+              <div>
+                <i>01</i>
+                <b>Στέλνεις το ενδιαφέρον σου</b>
+                <p>Μας δίνεις τα βασικά στοιχεία της επιχείρησης.</p>
               </div>
-            </aside>
-          </section>
-        </div>
+              <div>
+                <i>02</i>
+                <b>Ελέγχουμε την επιχείρηση</b>
+                <p>Βλέπουμε το brand, τις δωροκάρτες και τον τρόπο αγοράς.</p>
+              </div>
+              <div>
+                <i>03</i>
+                <b>Επικοινωνούμε μαζί σου</b>
+                <p>Σου παρουσιάζουμε τα επόμενα βήματα και τις επιλογές προβολής.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+
       <PublicFooter />
     </div>
   );

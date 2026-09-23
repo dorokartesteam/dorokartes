@@ -1,0 +1,277 @@
+.site {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.hero {
+  padding: 18px 18px 42px;
+}
+
+.shell {
+  width: min(1480px, 100%);
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 77% 17%, rgba(87, 97, 255, .24), transparent 26%),
+    radial-gradient(circle at 96% 74%, rgba(188, 66, 223, .20), transparent 25%),
+    linear-gradient(135deg, #082867 0%, #0e337d 50%, #1b1b6c 100%);
+  box-shadow: 0 28px 70px rgba(14, 35, 88, .14);
+}
+
+.grid {
+  min-height: 720px;
+  padding: 72px clamp(28px, 5vw, 76px);
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(520px, 1.1fr);
+  align-items: center;
+  gap: clamp(46px, 6vw, 94px);
+}
+
+.copy {
+  color: #fff;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 999px;
+  background: rgba(255,255,255,.05);
+  color: #bcd0ff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .15em;
+}
+
+.copy h1 {
+  max-width: 720px;
+  margin: 26px 0 0;
+  color: #fff;
+  font-size: clamp(52px, 5.2vw, 82px);
+  font-weight: 900;
+  line-height: .98;
+  letter-spacing: -.055em;
+}
+
+.copy h1 span {
+  display: block;
+  width: fit-content;
+  margin-top: 8px;
+  background: linear-gradient(90deg, #36c9ff, #7c91ff 42%, #e15dcc 76%, #ff9c35);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lead {
+  max-width: 650px;
+  margin: 26px 0 0;
+  color: #d7e2fa;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.benefits {
+  margin-top: 36px;
+  display: grid;
+  gap: 13px;
+}
+
+.benefit {
+  min-height: 92px;
+  padding: 15px 17px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 18px;
+  background: rgba(255,255,255,.045);
+}
+
+.benefitIcon {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #3d92ff, #7557ed);
+  color: #fff;
+  font-size: 21px;
+  font-weight: 800;
+  box-shadow: 0 10px 22px rgba(59, 81, 222, .28);
+}
+
+.benefit b,
+.benefit span {
+  display: block;
+}
+
+.benefit b {
+  color: #fff;
+  font-size: 14px;
+}
+
+.benefit span {
+  margin-top: 5px;
+  color: #aebfe4;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.note {
+  margin-top: 23px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: #b8c8e8;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.note > span {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(31, 208, 151, .14);
+  color: #56e4b8;
+  font-weight: 900;
+}
+
+.note p {
+  margin: 3px 0 0;
+}
+
+.formColumn {
+  min-width: 0;
+}
+
+.after {
+  padding: 32px 18px 76px;
+}
+
+.afterInner {
+  width: min(1320px, 100%);
+  margin: 0 auto;
+}
+
+.afterInner > div:first-child > span {
+  color: #1769ff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .16em;
+}
+
+.afterInner h2 {
+  max-width: 700px;
+  margin: 9px 0 0;
+  color: #0d1f3b;
+  font-size: clamp(30px, 3.5vw, 48px);
+  letter-spacing: -.045em;
+}
+
+.steps {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.steps > div {
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid #e3e8f3;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(17, 40, 84, .055);
+}
+
+.steps i {
+  display: block;
+  color: #6e7ff1;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+
+.steps b {
+  display: block;
+  margin-top: 24px;
+  color: #0d203d;
+  font-size: 18px;
+}
+
+.steps p {
+  margin: 10px 0 0;
+  color: #6e788b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1050px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .copy h1,
+  .lead {
+    max-width: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding: 8px 8px 24px;
+  }
+
+  .shell {
+    border-radius: 26px;
+  }
+
+  .grid {
+    min-height: 0;
+    padding: 34px 18px 22px;
+    gap: 30px;
+  }
+
+  .copy h1 {
+    font-size: clamp(43px, 13vw, 58px);
+  }
+
+  .lead {
+    font-size: 15px;
+  }
+
+  .benefits {
+    margin-top: 26px;
+  }
+
+  .benefit {
+    min-height: 80px;
+    padding: 13px;
+  }
+
+  .benefit span {
+    font-size: 11px;
+  }
+
+  .after {
+    padding: 26px 12px 56px;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
