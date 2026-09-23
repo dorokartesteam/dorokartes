@@ -94,6 +94,19 @@
   box-shadow: 0 0 0 4px rgba(81, 100, 232, .10);
 }
 
+.packageField {
+  padding: 14px;
+  border: 1px solid #dfe4f7;
+  border-radius: 15px;
+  background: #f6f7ff;
+}
+
+.packageField > small {
+  color: #8a93a6;
+  font-size: 9.5px;
+  line-height: 1.4;
+}
+
 .consent {
   grid-template-columns: 20px 1fr !important;
   align-items: flex-start;
@@ -226,6 +239,33 @@
   color: #6d778b;
   font-size: 14px;
   line-height: 1.65;
+}
+
+.successPlan {
+  width: 100%;
+  margin-top: 21px;
+  padding: 15px;
+  border: 1px solid #e4e8f3;
+  border-radius: 14px;
+  background: #f7f9fc;
+}
+
+.successPlan small,
+.successPlan b {
+  display: block;
+}
+
+.successPlan small {
+  color: #8d97a8;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+.successPlan b {
+  margin-top: 5px;
+  color: #263b5c;
+  font-size: 14px;
 }
 
 .success button {

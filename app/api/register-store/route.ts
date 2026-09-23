@@ -13,9 +13,17 @@ type InterestPayload = {
   category?: unknown;
   giftCardStatus?: unknown;
   giftCardUrl?: unknown;
+  plan?: unknown;
   message?: unknown;
   consent?: unknown;
   website2?: unknown;
+};
+
+const packageLabels: Record<string, string> = {
+  undecided: "Δεν έχει αποφασίσει ακόμη",
+  partner: "Partner — 9,99€/μήνα",
+  featured: "Featured — 19,99€/μήνα",
+  premium: "Premium Banner — 39,99€/μήνα",
 };
 
 function text(value: unknown, max = 500) {
@@ -70,6 +78,8 @@ export async function POST(request: NextRequest) {
   const category = text(raw.category, 120);
   const giftCardStatus = text(raw.giftCardStatus, 100);
   const giftCardUrl = text(raw.giftCardUrl, 300);
+  const planKey = text(raw.plan, 40) || "undecided";
+  const plan = packageLabels[planKey] || planKey;
   const message = text(raw.message, 1600);
   const consent = text(raw.consent, 20);
 
@@ -129,6 +139,7 @@ export async function POST(request: NextRequest) {
         ${row("Κατηγορία", category)}
         ${row("Δωροκάρτες", giftCardStatus)}
         ${row("URL δωροκάρτας", giftCardUrl)}
+        ${row("Πακέτο ενδιαφέροντος", plan)}
       </table>
 
       <div style="margin-top:22px;padding:16px;border-radius:12px;background:#f7f9fc">
@@ -148,7 +159,7 @@ export async function POST(request: NextRequest) {
       from,
       to: [to],
       reply_to: email,
-      subject: `Dorokartes: ${businessName} — εκδήλωση ενδιαφέροντος`,
+      subject: `Dorokartes: ${businessName} — ${plan}`,
       html,
     }),
   });
@@ -162,9 +173,7 @@ export async function POST(request: NextRequest) {
     });
 
     return NextResponse.json(
-      {
-        error: "Δεν ήταν δυνατή η αποστολή αυτή τη στιγμή.",
-      },
+      { error: "Δεν ήταν δυνατή η αποστολή αυτή τη στιγμή." },
       { status: 502 },
     );
   }

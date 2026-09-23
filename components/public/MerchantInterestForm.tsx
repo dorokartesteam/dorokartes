@@ -6,7 +6,7 @@ import styles from "./MerchantInterestForm.module.css";
 type SubmitState =
   | { type: "idle" }
   | { type: "sending" }
-  | { type: "success" }
+  | { type: "success"; plan: string }
   | { type: "error"; message: string };
 
 const regions = [
@@ -39,6 +39,13 @@ const categories = [
   "Άλλο",
 ] as const;
 
+const packageLabels: Record<string, string> = {
+  undecided: "Δεν έχω αποφασίσει ακόμη",
+  partner: "Partner — 9,99€/μήνα",
+  featured: "Featured — 19,99€/μήνα",
+  premium: "Premium Banner — 39,99€/μήνα",
+};
+
 function valueOf(form: FormData, key: string) {
   return String(form.get(key) || "").trim();
 }
@@ -54,6 +61,7 @@ function buildMailto(form: FormData) {
   const category = valueOf(form, "category");
   const giftCardStatus = valueOf(form, "giftCardStatus");
   const giftCardUrl = valueOf(form, "giftCardUrl");
+  const plan = valueOf(form, "plan");
   const message = valueOf(form, "message");
 
   const subject = `Εκδήλωση ενδιαφέροντος Dorokartes — ${businessName}`;
@@ -69,6 +77,7 @@ function buildMailto(form: FormData) {
     `Κατηγορία: ${category}`,
     `Δωροκάρτες: ${giftCardStatus}`,
     `URL δωροκάρτας: ${giftCardUrl || "-"}`,
+    `Πακέτο ενδιαφέροντος: ${packageLabels[plan] || plan || "-"}`,
     "",
     "Μήνυμα:",
     message || "-",
@@ -92,6 +101,7 @@ export default function MerchantInterestForm() {
       return;
     }
 
+    const selectedPlan = valueOf(form, "plan");
     setState({ type: "sending" });
 
     const payload = Object.fromEntries(form.entries());
@@ -107,7 +117,10 @@ export default function MerchantInterestForm() {
 
       if (response.ok) {
         formElement.reset();
-        setState({ type: "success" });
+        setState({
+          type: "success",
+          plan: packageLabels[selectedPlan] || "Θα αποφασιστεί μετά την επικοινωνία",
+        });
         return;
       }
 
@@ -140,9 +153,15 @@ export default function MerchantInterestForm() {
         <span>ΤΟ ΛΑΒΑΜΕ</span>
         <h2>Ευχαριστούμε για το ενδιαφέρον σου.</h2>
         <p>
-          Τα στοιχεία σου καταχωρήθηκαν και θα επικοινωνήσουμε μαζί σου για τα
-          επόμενα βήματα.
+          Τα στοιχεία σου καταχωρήθηκαν. Θα ελέγξουμε την επιχείρηση και θα
+          επικοινωνήσουμε μαζί σου για την ενεργοποίηση της συνεργασίας.
         </p>
+
+        <div className={styles.successPlan}>
+          <small>ΕΠΙΛΟΓΗ ΕΝΔΙΑΦΕΡΟΝΤΟΣ</small>
+          <b>{state.plan}</b>
+        </div>
+
         <button type="button" onClick={() => setState({ type: "idle" })}>
           Νέα εκδήλωση ενδιαφέροντος
         </button>
@@ -292,6 +311,17 @@ export default function MerchantInterestForm() {
             />
           </label>
         </div>
+
+        <label className={styles.packageField}>
+          <span>Ποιο πακέτο σε ενδιαφέρει περισσότερο;</span>
+          <select name="plan" defaultValue="undecided">
+            <option value="undecided">Δεν έχω αποφασίσει ακόμη</option>
+            <option value="partner">Partner — 9,99€/μήνα</option>
+            <option value="featured">Featured — 19,99€/μήνα</option>
+            <option value="premium">Premium Banner — 39,99€/μήνα</option>
+          </select>
+          <small>Προαιρετική επιλογή — δεν αποτελεί αγορά ή χρέωση.</small>
+        </label>
 
         <label>
           <span>Σχόλιο / τι θα ήθελες να συζητήσουμε;</span>
