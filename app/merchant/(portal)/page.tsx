@@ -4,10 +4,17 @@ import { requireMerchantMember } from "@/lib/merchant/auth";
 import { planLabel } from "@/lib/merchant/plans";
 
 function statusLabel(status: string) {
-  if (status === "ACTIVE") return "Ενεργή";
-  if (status === "PAST_DUE") return "Χρειάζεται προσοχή";
-  if (status === "CANCELED") return "Ακυρωμένη";
-  return "Σε αναμονή";
+  if (status === "ACTIVE") return "ΕΝΕΡΓΗ";
+  if (status === "PAST_DUE") return "ΠΡΟΣΟΧΗ";
+  if (status === "CANCELED") return "ΑΚΥΡΩΜΕΝΗ";
+  return "ΑΝΑΜΟΝΗ";
+}
+
+function TinyIcon({ kind }: { kind: "gift" | "chart" | "arrow" }) {
+  const common = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 1.9, strokeLinecap: "round" as const, strokeLinejoin: "round" as const, "aria-hidden": true };
+  if (kind === "gift") return <svg {...common}><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M12 8v12M3 12h18"/><path d="M12 8H8.5A2.5 2.5 0 1 1 11 5.5V8ZM12 8h3.5A2.5 2.5 0 1 0 13 5.5V8Z"/></svg>;
+  if (kind === "chart") return <svg {...common}><path d="M4 20V10M10 20V4M16 20v-7M22 20V8"/></svg>;
+  return <svg {...common}><path d="M5 12h14"/><path d="m14 7 5 5-5 5"/></svg>;
 }
 
 export default async function MerchantDashboardPage() {
@@ -21,13 +28,7 @@ export default async function MerchantDashboardPage() {
     prisma.outboundClick.count({ where: { merchantId, clickedAt: { gte: since } } }),
     prisma.giftCard.findMany({
       where: { merchantId },
-      select: {
-        id: true,
-        title: true,
-        slug: true,
-        status: true,
-        verificationStatus: true,
-      },
+      select: { id: true, title: true, slug: true, status: true, verificationStatus: true },
       orderBy: { updatedAt: "desc" },
       take: 5,
     }),
@@ -36,70 +37,73 @@ export default async function MerchantDashboardPage() {
   const subscription = member.merchant.subscription;
   const currentPlan = subscription?.plan || "PARTNER";
   const currentStatus = subscription?.status || "PENDING";
+  const displayName = member.name || member.merchant.name;
 
   return (
-    <div className="dkm-page-stack">
-      <section className="dkm-hero dkm-v2-hero">
-        <div className="dkm-hero-copy">
-          <span className="dkm-eyebrow">MERCHANT DASHBOARD</span>
-          <h1>Καλώς ήρθες, {member.name || member.merchant.name}.</h1>
+    <div className="dkm-page-stack dkm4-page-stack">
+      <section className="dkm4-hero">
+        <div className="dkm4-hero-glow" />
+        <div className="dkm4-hero-copy">
+          <span className="dkm4-eyebrow">MERCHANT DASHBOARD</span>
+          <h1>Καλώς ήρθες, {displayName}.</h1>
           <p>
-            Διαχειρίσου την παρουσία του brand σου στο Dorokartes, παρακολούθησε
-            τις δωροκάρτες σου και δες το πραγματικό traffic που στέλνουμε προς την επιχείρησή σου.
+            Διαχειρίσου την παρουσία του brand σου στο Dorokartes, παρακολούθησε τις δωροκάρτες σου
+            και δες το πραγματικό traffic που στέλνουμε προς την επιχείρησή σου.
           </p>
-          <div className="dkm-hero-actions">
-            <Link href="/merchant/gift-cards" className="dkm-primary-link">Δες τις δωροκάρτες</Link>
-            <Link href="/merchant/analytics" className="dkm-secondary-link">Άνοιξε Analytics</Link>
+          <div className="dkm4-hero-actions">
+            <Link href="/merchant/gift-cards" className="dkm4-button dkm4-button-primary"><TinyIcon kind="gift" /> Δες τις δωροκάρτες</Link>
+            <Link href="/merchant/analytics" className="dkm4-button dkm4-button-ghost"><TinyIcon kind="chart" /> Άνοιξε Analytics</Link>
           </div>
         </div>
 
-        <div className="dkm-plan-card dkm-v2-plan-card">
-          <div className="dkm-plan-card-top">
+        <div className="dkm4-current-plan-card">
+          <div className="dkm4-current-plan-top">
             <small>ΤΡΕΧΟΝ ΠΑΚΕΤΟ</small>
-            <span className={`dkm-status-pill ${currentStatus.toLowerCase().replaceAll("_", "-")}`}>
-              {statusLabel(currentStatus)}
+            <span className={`dkm4-status-pill ${currentStatus.toLowerCase().replaceAll("_", "-")}`}>
+              <i /> {statusLabel(currentStatus)}
             </span>
           </div>
-          <b>{planLabel(currentPlan)}</b>
+          <h2>{planLabel(currentPlan)}</h2>
           <p>
             {currentStatus === "ACTIVE"
               ? "Η συνδρομή σου είναι ενεργή και το brand σου έχει εμπορική παρουσία στο Dorokartes."
               : "Ολοκλήρωσε την ενεργοποίηση για να ξεκλειδώσεις την πλήρη εμπορική παρουσία."}
           </p>
-          <Link href="/merchant/billing">Διαχείριση πακέτου <span>→</span></Link>
+          <div className="dkm4-plan-divider" />
+          <Link href="/merchant/billing">Διαχείριση πακέτου <TinyIcon kind="arrow" /></Link>
         </div>
       </section>
 
-      <section className="dkm-metrics dkm-v2-metrics">
+      <section className="dkm4-metrics">
         <article>
-          <div className="dkm-metric-icon cards">▣</div>
-          <div><small>ΔΩΡΟΚΑΡΤΕΣ</small><b>{cardCount}</b><span>συνολικά προγράμματα</span></div>
+          <span className="dkm4-metric-badge blue">G</span>
+          <div><small>ΔΩΡΟΚΑΡΤΕΣ</small><b>{cardCount}</b><p>συνολικά προγράμματα</p></div>
         </article>
         <article>
-          <div className="dkm-metric-icon active">✓</div>
-          <div><small>ACTIVE</small><b>{activeCards}</b><span>ενεργές στο Dorokartes</span></div>
+          <span className="dkm4-metric-badge green">✓</span>
+          <div><small>ΕΝΕΡΓΕΣ</small><b>{activeCards}</b><p>δημοσιευμένες στο Dorokartes</p></div>
         </article>
         <article>
-          <div className="dkm-metric-icon clicks">↗</div>
-          <div><small>CLICKS 30 ΗΜΕΡΩΝ</small><b>{clicks30}</b><span>προς τις σελίδες αγοράς</span></div>
+          <span className="dkm4-metric-badge violet">↗</span>
+          <div><small>CLICKS 30 ΗΜΕΡΩΝ</small><b>{clicks30}</b><p>προς τις σελίδες αγοράς</p></div>
         </article>
       </section>
 
-      <section className="dkm-panel dkm-v2-panel">
-        <div className="dkm-panel-head">
+      <section className="dkm-panel dkm-v2-panel dkm4-panel">
+        <div className="dkm-panel-head dkm4-panel-head">
           <div>
             <small>ΠΡΟΣΦΑΤΕΣ ΕΓΓΡΑΦΕΣ</small>
             <h2>Οι δωροκάρτες σου</h2>
             <p>Τα πιο πρόσφατα προγράμματα που είναι συνδεδεμένα με το brand σου.</p>
           </div>
-          <Link href="/merchant/gift-cards" className="dkm-text-action">Δες όλες →</Link>
+          <Link href="/merchant/gift-cards" className="dkm4-text-link">Δες όλες <TinyIcon kind="arrow" /></Link>
         </div>
 
-        <div className="dkm-list dkm-card-list">
+        <div className="dkm-list dkm-card-list dkm4-card-list">
           {recentCards.length ? recentCards.map((card) => (
-            <div className="dkm-list-row" key={card.id}>
+            <div className="dkm-list-row dkm4-list-row" key={card.id}>
               <div className="dkm-list-main">
-                <div className="dkm-list-icon">G</div>
+                <div className="dkm-list-icon dkm4-list-icon">G</div>
                 <div>
                   <b>{card.title}</b>
                   <div className="dkm-inline-statuses">
@@ -112,9 +116,7 @@ export default async function MerchantDashboardPage() {
             </div>
           )) : (
             <div className="dkm-empty dkm-v2-empty">
-              <div>▣</div>
-              <b>Δεν υπάρχουν ακόμη δωροκάρτες</b>
-              <span>Μόλις συνδεθούν προγράμματα με το brand σου θα εμφανιστούν εδώ.</span>
+              <div>▣</div><b>Δεν υπάρχουν ακόμη δωροκάρτες</b><span>Μόλις συνδεθούν προγράμματα με το brand σου θα εμφανιστούν εδώ.</span>
             </div>
           )}
         </div>
