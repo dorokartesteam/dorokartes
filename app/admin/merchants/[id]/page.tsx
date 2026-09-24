@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getMerchantCms } from "@/lib/admin/cms";
 import MerchantEditor from "@/components/admin/MerchantEditor";
+import MerchantDeleteDangerZone from "@/components/admin/MerchantDeleteDangerZone";
 import { Panel, Status } from "@/components/admin/AdminUI";
 
 function host(value?: string | null) {
@@ -44,5 +45,11 @@ export default async function MerchantDetail({params}:{params:Promise<{id:string
         </div>
       </Panel>
     </div>
+
+    <MerchantDeleteDangerZone
+      merchantId={m.id}
+      merchantName={m.name}
+      giftCardCount={cards.length}
+    />
   </>;
 }
