@@ -1156,3 +1156,164 @@
   .dkm-profile-fields-grid { grid-template-columns: 1fr; }
   .dkm-profile-field-wide { grid-column: auto; }
 }
+
+/* ---------- V3.2 readability / stronger hierarchy ----------
+   User feedback: previous portal typography felt too small / sharp / machine-like.
+   This pass intentionally removes micro-type, extreme weights and tight tracking. */
+.dkm-shell,
+.dkm-shell button,
+.dkm-shell input,
+.dkm-shell textarea,
+.dkm-shell select,
+.dkm-login-page,
+.dkm-login-page button,
+.dkm-login-page input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-variant-ligatures: normal !important;
+  font-feature-settings: normal !important;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+/* Stop the compressed / machine feel. */
+.dkm-shell h1,
+.dkm-shell h2,
+.dkm-shell h3,
+.dkm-shell b,
+.dkm-shell strong,
+.dkm-login-page h1,
+.dkm-login-page h2 {
+  letter-spacing: -0.012em !important;
+}
+
+.dkm-eyebrow,
+.dkm-v2-shell .dkm-panel-head small,
+.dkm-nav-label,
+.dkm-logo small,
+.dkm-topbar small,
+.dkm-plan-header-row small,
+.dkm-v2-table thead th {
+  letter-spacing: .045em !important;
+}
+
+/* Sidebar */
+.dkm-v2-shell .dkm-logo b { font-size: 18px !important; font-weight: 750 !important; }
+.dkm-v2-shell .dkm-logo small { font-size: 9px !important; font-weight: 650 !important; }
+.dkm-v2-shell .dkm-business .dkm-business-head b { font-size: 14px !important; font-weight: 720 !important; }
+.dkm-business-meta { font-size: 10.5px !important; line-height: 1.45 !important; }
+.dkm-nav-label { font-size: 9.5px !important; font-weight: 700 !important; }
+.dkm-v2-shell .dkm-sidebar nav.dkm-v2-nav a {
+  min-height: 48px !important;
+  font-size: 13.5px !important;
+  font-weight: 650 !important;
+}
+.dkm-sidebar-promo > b { font-size: 13px !important; }
+.dkm-sidebar-promo > a { font-size: 11.5px !important; }
+
+/* Top bar */
+.dkm-v2-shell .dkm-topbar { min-height: 76px !important; }
+.dkm-v2-shell .dkm-topbar b { font-size: 14px !important; font-weight: 700 !important; }
+.dkm-site-link { min-height: 42px !important; font-size: 13px !important; }
+
+/* Main page titles */
+.dkm-page-heading h1 {
+  font-size: clamp(34px, 3vw, 44px) !important;
+  font-weight: 730 !important;
+  line-height: 1.08 !important;
+}
+.dkm-eyebrow,
+.dkm-v2-shell .dkm-panel-head small {
+  font-size: 10.5px !important;
+  font-weight: 750 !important;
+}
+.dkm-page-heading p,
+.dkm-v2-shell .dkm-panel-head p {
+  font-size: 14.5px !important;
+  line-height: 1.65 !important;
+}
+.dkm-heading-badge,
+.dkm-secure-badge { font-size: 11.5px !important; font-weight: 650 !important; }
+
+/* Dashboard */
+.dkm-v2-hero h1 { font-size: clamp(38px, 3.8vw, 54px) !important; font-weight: 730 !important; line-height: 1.05 !important; }
+.dkm-v2-hero p { font-size: 15px !important; line-height: 1.65 !important; }
+.dkm-v2-hero .dkm-eyebrow { font-size: 11px !important; }
+.dkm-stat-card b,
+.dkm-v2-stat b { font-size: 32px !important; font-weight: 720 !important; }
+.dkm-stat-card span,
+.dkm-v2-stat span { font-size: 12.5px !important; }
+.dkm-v2-shell .dkm-panel-head h2 { font-size: 24px !important; font-weight: 720 !important; }
+
+/* Current subscription */
+.dkm-current-subscription-card h2 { font-size: 27px !important; font-weight: 720 !important; }
+.dkm-current-subscription-card p { font-size: 14px !important; line-height: 1.6 !important; }
+.dkm-current-subscription-card small { font-size: 11px !important; }
+.dkm-current-subscription-card button,
+.dkm-current-subscription-card a { font-size: 13.5px !important; font-weight: 700 !important; }
+
+/* Pricing */
+.dkm-plan-header-row small { font-size: 10px !important; font-weight: 750 !important; }
+.dkm-current-badge { min-height: 27px !important; padding: 0 10px !important; font-size: 10px !important; font-weight: 750 !important; }
+.dkm-v2-pricing > article h2 { font-size: 27px !important; font-weight: 720 !important; }
+.dkm-price b { font-size: 44px !important; font-weight: 760 !important; letter-spacing: -.025em !important; }
+.dkm-price span { font-size: 11.5px !important; padding-bottom: 7px !important; }
+.dkm-v2-pricing > article > p { min-height: 48px !important; font-size: 13px !important; line-height: 1.6 !important; }
+.dkm-v2-pricing li { font-size: 13px !important; line-height: 1.5 !important; }
+.dkm-v2-pricing li > span { width: 20px !important; height: 20px !important; font-size: 10px !important; }
+.dkm-plan-action button { min-height: 50px !important; font-size: 14px !important; font-weight: 720 !important; }
+.dkm-billing-info { font-size: 11.5px !important; line-height: 1.55 !important; }
+
+/* Analytics */
+.dkm-analytics-row { min-height: 76px !important; }
+.dkm-analytics-rank { font-size: 11px !important; }
+.dkm-analytics-label b { font-size: 14px !important; font-weight: 700 !important; }
+.dkm-analytics-label span { font-size: 11.5px !important; }
+
+/* Gift cards table */
+.dkm-v2-table thead th { font-size: 10px !important; font-weight: 750 !important; }
+.dkm-v2-table tbody td { font-size: 13px !important; line-height: 1.5 !important; }
+.dkm-card-title-cell b { font-size: 14px !important; font-weight: 700 !important; }
+.dkm-heading-stats span { font-size: 11.5px !important; }
+
+/* Forms / profile */
+.dkm-profile-image-preview { width: 104px !important; height: 104px !important; flex-basis: 104px !important; font-size: 25px !important; }
+.dkm-profile-image-copy > strong { font-size: 18px !important; font-weight: 720 !important; }
+.dkm-profile-image-copy > p { font-size: 14px !important; }
+.dkm-upload-button,
+.dkm-remove-image { min-height: 44px !important; padding: 0 17px !important; font-size: 14px !important; font-weight: 680 !important; }
+.dkm-upload-success,
+.dkm-upload-error { font-size: 13px !important; }
+.dkm-form label > span,
+.dkm-profile-fields-grid label > span { font-size: 13px !important; font-weight: 700 !important; }
+.dkm-form label > small,
+.dkm-profile-fields-grid label > small { font-size: 11.5px !important; line-height: 1.5 !important; }
+.dkm-form input,
+.dkm-form textarea,
+.dkm-form select,
+.dkm-profile-fields-grid input,
+.dkm-profile-fields-grid textarea { font-size: 14.5px !important; line-height: 1.5 !important; }
+.dkm-form input,
+.dkm-profile-fields-grid input { min-height: 48px !important; }
+.dkm-form-actions button { min-height: 48px !important; font-size: 14px !important; font-weight: 720 !important; }
+.dkm-form-actions .success,
+.dkm-form-actions .error { font-size: 13px !important; }
+
+/* Auth/login */
+.dkm-login-page h1,
+.dkm-v2-auth-card h1 { font-size: clamp(34px, 4vw, 48px) !important; font-weight: 730 !important; }
+.dkm-login-page p,
+.dkm-v2-auth-card p { font-size: 14.5px !important; line-height: 1.65 !important; }
+.dkm-login-page label,
+.dkm-v2-auth-card label { font-size: 13px !important; }
+.dkm-login-page input,
+.dkm-v2-auth-card input { min-height: 50px !important; font-size: 15px !important; }
+.dkm-login-page button,
+.dkm-v2-auth-card button { min-height: 50px !important; font-size: 14px !important; font-weight: 720 !important; }
+
+@media (max-width: 760px) {
+  .dkm-v2-shell .dkm-sidebar nav.dkm-v2-nav a { font-size: 13px !important; }
+  .dkm-page-heading h1 { font-size: 32px !important; }
+  .dkm-v2-hero h1 { font-size: 37px !important; }
+  .dkm-price b { font-size: 40px !important; }
+  .dkm-profile-image-preview { width: 82px !important; height: 82px !important; flex-basis: 82px !important; }
+}
