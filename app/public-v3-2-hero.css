@@ -1,0 +1,594 @@
+/* Dorokartes V3.2 — wide hero + future monetizable promo slot.
+   Scope is intentionally narrow: desktop hero only.
+   The rest of the public site remains on the existing design.
+*/
+
+@media (min-width: 901px) {
+  /* Hide the previous desktop hero implementation if legacy CSS leaves it visible. */
+  .dk18-hero {
+    display: none !important;
+  }
+
+  .dk32-hero {
+    display: block;
+    width: 100%;
+    padding: 12px 10px 0;
+    overflow: hidden;
+    background: #f7f8fc;
+  }
+
+  .dk32-hero-card {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at 79% 50%, rgba(65, 137, 255, 0.20), transparent 23%),
+      radial-gradient(circle at 97% 80%, rgba(226, 72, 195, 0.20), transparent 23%),
+      linear-gradient(113deg, #082b71 0%, #0b347f 43%, #142a82 70%, #171759 100%);
+    box-shadow: 0 22px 70px rgba(12, 28, 75, 0.15);
+  }
+
+  /*
+   * This is the important wide-screen fix:
+   * the blue background is fluid, but the actual content stops growing.
+   * So at 1920/2560px the visual cannot drift away and leave a giant gap.
+   */
+  .dk32-stage {
+    width: min(1660px, calc(100% - 72px));
+    min-height: 640px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(540px, 0.96fr) minmax(560px, 1.04fr);
+    align-items: center;
+    gap: clamp(42px, 5vw, 92px);
+    padding: 54px 0 46px;
+  }
+
+  .dk32-copy {
+    min-width: 0;
+  }
+
+  .dk32-brandline {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 54px;
+    color: #fff;
+  }
+
+  .dk32-mark {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 17px;
+    background: rgba(255,255,255,.07);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+  }
+
+  .dk32-brandline strong,
+  .dk32-brandline span {
+    display: block;
+  }
+
+  .dk32-brandline strong {
+    font-size: 29px;
+    line-height: 1;
+    letter-spacing: -0.035em;
+  }
+
+  .dk32-brandline span {
+    margin-top: 8px;
+    color: #c7d3f4;
+    font-size: 9px;
+    font-weight: 850;
+    letter-spacing: .22em;
+  }
+
+  .dk32-kicker {
+    margin-bottom: 18px;
+    color: #c9d6f5;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .18em;
+  }
+
+  .dk32-copy h1 {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(55px, 4.5vw, 82px);
+    font-weight: 900;
+    line-height: .98;
+    letter-spacing: -.055em;
+  }
+
+  .dk32-copy h1 span {
+    display: block;
+    width: fit-content;
+    margin-top: 6px;
+    background: linear-gradient(90deg, #2dc3ff 0%, #5e8cff 35%, #d34ec7 70%, #ff9d32 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .dk32-copy > p {
+    max-width: 690px;
+    margin: 22px 0 0;
+    color: #d6e0f6;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .dk32-search {
+    width: min(760px, 100%);
+    margin-top: 27px;
+  }
+
+  .dk32-search .dk14-search {
+    min-height: 66px;
+    border-radius: 18px;
+    background: #fff;
+  }
+
+  .dk32-search .dk14-search button {
+    min-height: 50px;
+    border-radius: 13px;
+  }
+
+  .dk32-benefits {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .dk32-benefits > div {
+    min-width: 0;
+    min-height: 72px;
+    padding: 11px 13px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 15px;
+    background: rgba(255,255,255,.045);
+  }
+
+  .dk32-benefits i {
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    font-style: normal;
+    font-size: 18px;
+  }
+
+  .dk32-benefits i.green { background: linear-gradient(135deg,#17d38b,#08a975); }
+  .dk32-benefits i.purple { background: linear-gradient(135deg,#9159f3,#6948dd); }
+  .dk32-benefits i.orange { background: linear-gradient(135deg,#ff9b22,#ff7416); }
+
+  .dk32-benefits span,
+  .dk32-benefits b,
+  .dk32-benefits small {
+    min-width: 0;
+    display: block;
+  }
+
+  .dk32-benefits b {
+    overflow: hidden;
+    color: #fff;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dk32-benefits small {
+    margin-top: 4px;
+    overflow: hidden;
+    color: #9fb3df;
+    font-size: 9px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Right promo/editorial slot */
+  .dk32-promo {
+    position: relative;
+    min-width: 0;
+    min-height: 520px;
+    padding: 32px 32px 32px;
+    display: grid;
+    grid-template-columns: minmax(225px, .76fr) minmax(320px, 1.24fr);
+    align-items: center;
+    gap: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.11);
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at 78% 40%, rgba(39,151,255,.28), transparent 35%),
+      linear-gradient(145deg, rgba(18,65,155,.82), rgba(18,38,112,.78));
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.08),
+      0 30px 70px rgba(5,13,50,.16);
+  }
+
+  .dk32-promo-glow {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    right: -90px;
+    bottom: -120px;
+    border-radius: 999px;
+    background: rgba(202,78,220,.20);
+    filter: blur(20px);
+    pointer-events: none;
+  }
+
+  .dk32-promo-label {
+    position: absolute;
+    z-index: 5;
+    top: 22px;
+    left: 26px;
+    padding: 8px 12px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 999px;
+    background: rgba(15,37,103,.66);
+    color: #e6ecff;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: .12em;
+    backdrop-filter: blur(10px);
+  }
+
+  .dk32-promo-copy {
+    position: relative;
+    z-index: 4;
+    padding-top: 34px;
+  }
+
+  .dk32-promo-copy > span {
+    color: #aebfe9;
+    font-size: 9px;
+    font-weight: 850;
+    letter-spacing: .12em;
+  }
+
+  .dk32-promo-copy h2 {
+    margin: 9px 0 0;
+    color: #fff;
+    font-size: clamp(29px, 2.2vw, 40px);
+    line-height: 1.02;
+    letter-spacing: -.045em;
+  }
+
+  .dk32-promo-copy p {
+    margin: 12px 0 0;
+    color: #c7d4f0;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .dk32-promo-copy a {
+    width: fit-content;
+    min-height: 44px;
+    margin-top: 20px;
+    padding: 0 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    border-radius: 13px;
+    background: #fff;
+    color: #15235f;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 850;
+  }
+
+  .dk32-promo-art {
+    position: relative;
+    z-index: 3;
+    height: 420px;
+    min-width: 0;
+  }
+
+  .dk32-glass-card {
+    position: absolute;
+    width: 72%;
+    height: 250px;
+    right: 1%;
+    top: 74px;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 24px;
+    background: linear-gradient(140deg, rgba(255,255,255,.13), rgba(255,255,255,.025));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+    transform-origin: center;
+  }
+
+  .dk32-glass-card.back-one {
+    transform: rotate(11deg) translate(18px,-12px);
+  }
+
+  .dk32-glass-card.back-two {
+    transform: rotate(-7deg) translate(-20px,42px);
+    opacity: .72;
+  }
+
+  .dk32-feature-card {
+    position: absolute;
+    z-index: 4;
+    width: min(330px, 82%);
+    min-height: 220px;
+    right: 8%;
+    top: 102px;
+    padding: 28px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 25px;
+    background:
+      radial-gradient(circle at 80% 5%, rgba(89,122,255,.16), transparent 36%),
+      #fff;
+    box-shadow: 0 26px 65px rgba(0,0,0,.22);
+    transform: rotate(-4deg);
+  }
+
+  .dk32-feature-logo {
+    position: absolute;
+    top: 27px;
+    left: 26px;
+    width: 74px;
+    height: 74px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    background: #eff2ff;
+  }
+
+  .dk32-feature-card strong {
+    color: #171828;
+    font-size: 23px;
+    line-height: 1;
+  }
+
+  .dk32-feature-card span {
+    margin-top: 7px;
+    color: #777b8e;
+    font-size: 11px;
+  }
+
+  .dk32-mini-card {
+    position: absolute;
+    z-index: 5;
+    width: 142px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 17px;
+    box-shadow: 0 18px 40px rgba(0,0,0,.17);
+  }
+
+  .dk32-mini-card b,
+  .dk32-mini-card span {
+    display: block;
+  }
+
+  .dk32-mini-card b {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .dk32-mini-card span {
+    margin-top: 7px;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .08em;
+    opacity: .72;
+  }
+
+  .dk32-mini-card.beauty {
+    left: -7%;
+    top: 16px;
+    background: #20243d;
+    color: #fff;
+    transform: rotate(10deg);
+  }
+
+  .dk32-mini-card.travel {
+    right: -6%;
+    top: -3px;
+    background: linear-gradient(135deg,#1b7ef2,#33a5ff);
+    color: #fff;
+    transform: rotate(11deg);
+  }
+
+  .dk32-mini-card.gaming {
+    left: -12%;
+    top: 170px;
+    background: linear-gradient(135deg,#1767cf,#078ff4);
+    color: #fff;
+    transform: rotate(12deg);
+  }
+
+  .dk32-mini-card.home {
+    left: 4%;
+    bottom: 3px;
+    background: linear-gradient(135deg,#ffcc29,#ff7c41);
+    color: #172244;
+    transform: rotate(-9deg);
+  }
+
+  .dk32-promo-dots {
+    position: absolute;
+    z-index: 6;
+    left: 50%;
+    bottom: 18px;
+    display: flex;
+    gap: 8px;
+    transform: translateX(-50%);
+  }
+
+  .dk32-promo-dots i {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.32);
+  }
+
+  .dk32-promo-dots i.active {
+    width: 28px;
+    background: #fff;
+  }
+
+  /* Category strip stays visually close to the current hero. */
+  .dk32-category-strip {
+    border-top: 1px solid rgba(255,255,255,.08);
+    background: rgba(9,15,69,.55);
+  }
+
+  .dk32-category-strip-inner {
+    width: min(1660px, calc(100% - 72px));
+    min-height: 88px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 10px;
+    align-items: center;
+  }
+
+  .dk32-category-link {
+    min-width: 0;
+    min-height: 62px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255,255,255,.11);
+    border-radius: 14px;
+    background: rgba(255,255,255,.05);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .dk32-category-link:hover {
+    background: rgba(255,255,255,.085);
+  }
+
+  .dk32-category-link b {
+    min-width: 0;
+    overflow: hidden;
+    font-size: 11px;
+    font-weight: 850;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dk32-cat-icon {
+    flex: 0 0 39px;
+    width: 39px;
+    height: 39px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background: #fff;
+    font-size: 19px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.34);
+  }
+
+  .dk32-cat-icon.pink { background: linear-gradient(135deg,#e65bd0,#f196e8); }
+  .dk32-cat-icon.orange { background: linear-gradient(135deg,#ff8f4b,#ffc391); }
+  .dk32-cat-icon.blue { background: linear-gradient(135deg,#4a70ef,#86a7ff); }
+  .dk32-cat-icon.cyan { background: linear-gradient(135deg,#39bcec,#8ce8ff); }
+  .dk32-cat-icon.mint { background: linear-gradient(135deg,#56cdb4,#a4eedb); }
+  .dk32-cat-icon.purple { background: linear-gradient(135deg,#9355dd,#c59df3); }
+
+  .dk32-category-link.more {
+    justify-content: center;
+    background: rgba(126,64,154,.27);
+  }
+
+  .dk32-cat-icon.more-icon {
+    background: rgba(255,255,255,.11);
+    color: #fff;
+  }
+}
+
+/* Mid-width desktop/tablet: keep both columns but reduce artwork complexity. */
+@media (min-width: 901px) and (max-width: 1280px) {
+  .dk32-stage {
+    width: min(1180px, calc(100% - 44px));
+    grid-template-columns: minmax(470px, 1fr) minmax(420px, .88fr);
+    gap: 28px;
+    min-height: 600px;
+  }
+
+  .dk32-brandline {
+    margin-bottom: 38px;
+  }
+
+  .dk32-copy h1 {
+    font-size: clamp(50px, 5.4vw, 68px);
+  }
+
+  .dk32-promo {
+    min-height: 465px;
+    grid-template-columns: 170px minmax(260px,1fr);
+    padding-inline: 22px;
+  }
+
+  .dk32-promo-art {
+    height: 365px;
+  }
+
+  .dk32-mini-card {
+    width: 118px;
+    height: 76px;
+    padding: 12px;
+  }
+
+  .dk32-mini-card b {
+    font-size: 15px;
+  }
+
+  .dk32-mini-card.gaming {
+    left: -9%;
+  }
+
+  .dk32-feature-card {
+    width: min(280px, 84%);
+    min-height: 190px;
+  }
+
+  .dk32-category-strip-inner {
+    width: min(1180px, calc(100% - 44px));
+  }
+
+  .dk32-category-link {
+    padding-inline: 8px;
+    gap: 7px;
+  }
+
+  .dk32-cat-icon {
+    flex-basis: 34px;
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile remains the existing mobile hero, not the desktop promo layout. */
+@media (max-width: 900px) {
+  .dk32-hero {
+    display: none !important;
+  }
+}
+
+/* Ultra-wide: intentionally do not stretch the internal composition. */
+@media (min-width: 1900px) {
+  .dk32-stage,
+  .dk32-category-strip-inner {
+    width: min(1660px, calc(100% - 96px));
+  }
+}

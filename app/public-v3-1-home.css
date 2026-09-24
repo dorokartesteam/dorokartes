@@ -1,0 +1,269 @@
+/* Dorokartes V3.1 — minimal homepage refinement only.
+   Keeps the existing blue hero and the rest of the site intact.
+   Changes: wider desktop hero + visual category cards + responsive tuning.
+*/
+
+/* Desktop: keep the existing hero design, just let it breathe much wider. */
+@media (min-width: 901px) {
+  .dk18-hero {
+    padding: 18px 18px 0 !important;
+  }
+
+  .dk18-shell {
+    width: min(1760px, calc(100% - 12px)) !important;
+    max-width: none !important;
+    margin-inline: auto !important;
+  }
+
+  .dk18-hero-card {
+    border-radius: 30px !important;
+    overflow: hidden !important;
+  }
+
+  .dk18-grid {
+    grid-template-columns: minmax(0, 1.04fr) minmax(500px, 0.96fr) !important;
+  }
+
+  .dk18-copy {
+    padding-left: clamp(46px, 5vw, 90px) !important;
+  }
+
+  .dk18-search-wrap {
+    width: min(760px, 100%) !important;
+  }
+
+  .dk18-visual {
+    transform: scale(1.03);
+    transform-origin: center;
+  }
+}
+
+/* Hero category strip: retain the dark strip, add actual visual art. */
+.dk31-hero-categories {
+  display: grid !important;
+  grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+  padding: 16px 42px !important;
+}
+
+.dk31-hero-category,
+.dk31-hero-more {
+  min-width: 0;
+  min-height: 72px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  padding: 9px 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.11) !important;
+  border-radius: 15px !important;
+  background: rgba(255, 255, 255, 0.045) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: transform 150ms ease, background 150ms ease, border-color 150ms ease;
+}
+
+.dk31-hero-category:hover,
+.dk31-hero-more:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.22) !important;
+  background: rgba(255, 255, 255, 0.085) !important;
+}
+
+.dk31-hero-category-art {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.dk31-hero-category-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dk31-hero-category b,
+.dk31-hero-more b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.dk31-hero-more {
+  justify-content: center !important;
+  background: linear-gradient(135deg, rgba(121, 79, 211, 0.36), rgba(242, 82, 143, 0.22)) !important;
+}
+
+.dk31-hero-more > span {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.11);
+  font-size: 17px;
+}
+
+/* Main category section: more visual, marketplace-like cards. */
+.dk31-category-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 16px !important;
+}
+
+.dk31-category-card {
+  min-height: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(28, 28, 45, 0.08) !important;
+  border-radius: 20px !important;
+  background: #fff !important;
+  box-shadow: 0 8px 24px rgba(31, 28, 50, 0.045) !important;
+  text-decoration: none !important;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease !important;
+}
+
+.dk31-category-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(80, 61, 157, 0.16) !important;
+  box-shadow: 0 18px 42px rgba(31, 28, 50, 0.095) !important;
+}
+
+.dk31-category-art {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.58 / 1;
+  overflow: hidden;
+  background: #f3f2f7;
+}
+
+.dk31-category-art::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 34%;
+  background: linear-gradient(to top, rgba(21, 18, 34, 0.08), transparent);
+  pointer-events: none;
+}
+
+.dk31-category-art img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 220ms ease;
+}
+
+.dk31-category-card:hover .dk31-category-art img {
+  transform: scale(1.035);
+}
+
+.dk31-category-fallback {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #f4f0ff, #eef6ff);
+  font-size: 54px;
+}
+
+.dk31-category-meta {
+  min-height: 76px;
+  padding: 14px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.dk31-category-meta .dk21-category-copy {
+  min-width: 0;
+}
+
+.dk31-category-meta .dk21-category-copy b {
+  display: block;
+  color: #201b29;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.dk31-category-meta .dk21-category-copy span {
+  display: block;
+  margin-top: 5px;
+  color: #85808e;
+  font-size: 11px;
+}
+
+.dk31-category-arrow {
+  flex: 0 0 34px !important;
+  width: 34px !important;
+  height: 34px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 999px !important;
+  background: #f4f1fa !important;
+  color: #6847d9 !important;
+  font-size: 14px !important;
+}
+
+@media (max-width: 1180px) and (min-width: 641px) {
+  .dk31-category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .dk31-hero-categories {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Do not touch the existing mobile hero; only style its categories section. */
+  .dk18-hero {
+    display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .dk31-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+  }
+
+  .dk31-category-card {
+    border-radius: 16px !important;
+  }
+
+  .dk31-category-art {
+    aspect-ratio: 1.2 / 1;
+  }
+
+  .dk31-category-meta {
+    min-height: 68px;
+    padding: 11px 12px 12px;
+  }
+
+  .dk31-category-meta .dk21-category-copy b {
+    font-size: 13.5px;
+  }
+
+  .dk31-category-meta .dk21-category-copy span {
+    margin-top: 3px;
+    font-size: 9.5px;
+  }
+
+  .dk31-category-arrow {
+    width: 30px !important;
+    height: 30px !important;
+    flex-basis: 30px !important;
+    font-size: 12px !important;
+  }
+}
