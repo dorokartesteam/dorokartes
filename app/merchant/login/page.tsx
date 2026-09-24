@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import MerchantLoginForm from "@/components/merchant/MerchantLoginForm";
 
@@ -15,29 +16,44 @@ export default async function MerchantLoginPage({
   const p = await searchParams;
 
   return (
-    <main className="dkm-auth-page">
-      <div className="dkm-auth-card">
-        <Link className="dkm-auth-brand" href="/">Dorokartes</Link>
-        <span className="dkm-kicker">MERCHANT PORTAL</span>
-        <h1>Η επιχείρησή σου στο Dorokartes.</h1>
-        <p>
-          Βάλε το επαγγελματικό email που έχει εγκριθεί για την επιχείρησή σου
-          και θα σου στείλουμε ασφαλές link σύνδεσης.
-        </p>
+    <main className="dkm-auth-page dkm-v2-auth-page">
+      <section className="dkm-auth-shell">
+        <div className="dkm-auth-visual">
+          <Link href="/" className="dkm-auth-logo">
+            <Image src="/brand/dorokartes-mark.png" alt="Dorokartes" width={48} height={48} priority />
+            <div><b>Dorokartes</b><small>MERCHANT PORTAL</small></div>
+          </Link>
 
-        {p.error ? (
-          <div className="dkm-alert error">
-            Ο σύνδεσμος δεν είναι πλέον έγκυρος. Ζήτησε νέο link σύνδεσης.
+          <div className="dkm-auth-message">
+            <span>ΓΙΑ ΣΥΝΕΡΓΑΤΕΣ</span>
+            <h1>Η παρουσία του brand σου, σε ένα μέρος.</h1>
+            <p>Δωροκάρτες, πραγματικό outbound traffic, προβολή και billing σε ένα καθαρό merchant workspace.</p>
           </div>
-        ) : null}
 
-        <MerchantLoginForm />
+          <div className="dkm-auth-points">
+            <div><i>✓</i><span>Διαχείριση merchant profile</span></div>
+            <div><i>✓</i><span>Πραγματικά click analytics</span></div>
+            <div><i>✓</i><span>Stripe subscription billing</span></div>
+          </div>
+        </div>
 
-        <small>
-          Δεν έχεις ακόμη πρόσβαση;{" "}
-          <Link href="/register-store">Εκδήλωση ενδιαφέροντος →</Link>
-        </small>
-      </div>
+        <div className="dkm-auth-card dkm-v2-auth-card">
+          <div className="dkm-auth-card-head">
+            <span className="dkm-kicker">SECURE ACCESS</span>
+            <h2>Σύνδεση στο Merchant Portal</h2>
+            <p>Βάλε το επαγγελματικό email που έχει εγκριθεί για την επιχείρησή σου. Θα σου στείλουμε ασφαλές magic link σύνδεσης.</p>
+          </div>
+
+          {p.error ? <div className="dkm-alert error">Ο σύνδεσμος δεν είναι πλέον έγκυρος. Ζήτησε νέο link σύνδεσης.</div> : null}
+
+          <MerchantLoginForm />
+
+          <div className="dkm-auth-footer">
+            <small>Δεν έχεις ακόμη πρόσβαση;</small>
+            <Link href="/register-store">Εκδήλωση ενδιαφέροντος →</Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

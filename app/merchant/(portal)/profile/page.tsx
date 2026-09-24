@@ -15,10 +15,19 @@ export default async function MerchantProfilePage() {
   const merchant = member.merchant;
 
   return (
-    <section className="dkm-panel">
-      <div className="dkm-panel-head dkm-profile-head">
-        <div className="dkm-profile-brand">
-          <div className="dkm-profile-logo">
+    <div className="dkm-page-stack">
+      <section className="dkm-page-heading">
+        <div>
+          <span className="dkm-eyebrow">BRAND PROFILE</span>
+          <h1>Στοιχεία επιχείρησης</h1>
+          <p>Τα βασικά στοιχεία που χρησιμοποιεί το Dorokartes για την εμπορική παρουσία του brand σου.</p>
+        </div>
+      </section>
+
+      <section className="dkm-profile-layout">
+        <aside className="dkm-brand-preview-card">
+          <span className="dkm-eyebrow">PUBLIC BRAND</span>
+          <div className="dkm-profile-logo dkm-v2-profile-logo">
             {merchant.logoUrl ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={merchant.logoUrl} alt={`${merchant.name} logo`} />
@@ -26,24 +35,31 @@ export default async function MerchantProfilePage() {
               <span>{initials(merchant.name) || "D"}</span>
             )}
           </div>
+          <h2>{merchant.name}</h2>
+          <p>{merchant.websiteUrl || "Δεν έχει οριστεί website"}</p>
+          <div className="dkm-preview-note">Το public brand name και το logo αλλάζουν μετά από έλεγχο για προστασία της ταυτότητας του merchant.</div>
+        </aside>
 
-          <div>
-            <small>ΕΠΙΣΗΜΟ ΠΡΟΦΙΛ</small>
-            <h1>{merchant.name}</h1>
-            <p>Αυτά είναι τα στοιχεία που συνδέονται με την παρουσία σου στο Dorokartes.</p>
+        <section className="dkm-panel dkm-v2-panel dkm-profile-form-panel">
+          <div className="dkm-panel-head">
+            <div>
+              <small>ΕΠΙΣΗΜΟ ΠΡΟΦΙΛ</small>
+              <h2>Εταιρικά στοιχεία</h2>
+              <p>Ενημέρωσε τα στοιχεία που μπορείς να διαχειριστείς απευθείας.</p>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <MerchantProfileForm
-        merchant={{
-          name: merchant.name,
-          legalName: merchant.legalName,
-          description: merchant.description,
-          websiteUrl: merchant.websiteUrl,
-          logoUrl: merchant.logoUrl,
-        }}
-      />
-    </section>
+          <MerchantProfileForm
+            merchant={{
+              name: merchant.name,
+              legalName: merchant.legalName,
+              description: merchant.description,
+              websiteUrl: merchant.websiteUrl,
+              logoUrl: merchant.logoUrl,
+            }}
+          />
+        </section>
+      </section>
+    </div>
   );
 }

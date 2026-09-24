@@ -31,33 +31,67 @@ export default async function MerchantAnalyticsPage() {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10);
 
+  const maxClicks = Math.max(...topCards.map(([, count]) => count), 1);
+  const weeklyShare = clicks30 > 0 ? Math.round((clicks7 / clicks30) * 100) : 0;
+
   return (
-    <>
-      <section className="dkm-metrics">
-        <article><small>Clicks 7 ημερών</small><b>{clicks7}</b><span>προς την επιχείρησή σου</span></article>
-        <article><small>Clicks 30 ημερών</small><b>{clicks30}</b><span>καταγεγραμμένα outbound clicks</span></article>
-        <article><small>Top tracked cards</small><b>{topCards.length}</b><span>με clicks τις τελευταίες 30 ημέρες</span></article>
+    <div className="dkm-page-stack">
+      <section className="dkm-page-heading">
+        <div>
+          <span className="dkm-eyebrow">PERFORMANCE</span>
+          <h1>Analytics</h1>
+          <p>Πραγματικά outbound clicks που στέλνει το Dorokartes προς την επιχείρησή σου.</p>
+        </div>
+        <div className="dkm-heading-badge">Τελευταίες 30 ημέρες</div>
       </section>
 
-      <section className="dkm-panel">
+      <section className="dkm-metrics dkm-v2-metrics">
+        <article>
+          <div className="dkm-metric-icon clicks">7</div>
+          <div><small>CLICKS 7 ΗΜΕΡΩΝ</small><b>{clicks7}</b><span>προς την επιχείρησή σου</span></div>
+        </article>
+        <article>
+          <div className="dkm-metric-icon analytics">30</div>
+          <div><small>CLICKS 30 ΗΜΕΡΩΝ</small><b>{clicks30}</b><span>καταγεγραμμένα outbound clicks</span></div>
+        </article>
+        <article>
+          <div className="dkm-metric-icon share">%</div>
+          <div><small>7-DAY SHARE</small><b>{weeklyShare}%</b><span>του traffic 30 ημερών</span></div>
+        </article>
+      </section>
+
+      <section className="dkm-panel dkm-v2-panel">
         <div className="dkm-panel-head">
-          <div><small>30 ΗΜΕΡΕΣ</small><h1>Clicks ανά δωροκάρτα</h1></div>
+          <div>
+            <small>TOP PERFORMANCE</small>
+            <h2>Clicks ανά δωροκάρτα</h2>
+            <p>Ποια προγράμματα τραβούν περισσότερο ενδιαφέρον τις τελευταίες 30 ημέρες.</p>
+          </div>
         </div>
 
-        <div className="dkm-list">
-          {topCards.length ? topCards.map(([name, count]) => (
-            <div className="dkm-list-row" key={name}>
-              <div><b>{name}</b><small>Outbound traffic</small></div>
-              <strong>{count}</strong>
+        <div className="dkm-analytics-list">
+          {topCards.length ? topCards.map(([name, count], index) => (
+            <div className="dkm-analytics-row" key={name}>
+              <div className="dkm-analytics-rank">{String(index + 1).padStart(2, "0")}</div>
+              <div className="dkm-analytics-data">
+                <div className="dkm-analytics-label"><b>{name}</b><span>{count} clicks</span></div>
+                <div className="dkm-analytics-track"><i style={{ width: `${Math.max(8, (count / maxClicks) * 100)}%` }} /></div>
+              </div>
             </div>
-          )) : <div className="dkm-empty">Δεν υπάρχουν ακόμη clicks στο επιλεγμένο διάστημα.</div>}
+          )) : (
+            <div className="dkm-empty dkm-v2-empty">
+              <div>↗</div>
+              <b>Δεν υπάρχουν ακόμη clicks</b>
+              <span>Τα outbound clicks θα εμφανιστούν εδώ μόλις υπάρξει traffic.</span>
+            </div>
+          )}
         </div>
 
-        <p className="dkm-footnote">
-          Στην πρώτη έκδοση εμφανίζουμε τα πραγματικά outbound clicks που ήδη καταγράφει το Dorokartes.
-          Impression analytics θα προστεθούν σε επόμενο βήμα.
-        </p>
+        <div className="dkm-info-strip">
+          <span>i</span>
+          <p>Εμφανίζονται μόνο τα πραγματικά outbound clicks που καταγράφονται ήδη από το Dorokartes. Δεν εμφανίζουμε εκτιμώμενες πωλήσεις ή conversions.</p>
+        </div>
       </section>
-    </>
+    </div>
   );
 }
