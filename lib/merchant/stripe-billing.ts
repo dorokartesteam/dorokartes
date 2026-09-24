@@ -189,23 +189,44 @@ export async function syncStripeSubscription(
   });
 
   if (plan === "PREMIUM_BANNER" && status === "ACTIVE") {
-    await prisma.$transaction([
-      prisma.premiumPlacement.updateMany({
-        where: {
-          merchantId,
-          status: { in: ["RESERVED", "ACTIVE"] },
-        },
-        data: { status: "CANCELED" },
-      }),
-      prisma.premiumPlacement.create({
+    const currentPlacement = await prisma.premiumPlacement.findFirst({
+      where: {
+        merchantId,
+        status: { in: ["RESERVED", "ACTIVE"] },
+      },
+      orderBy: { createdAt: "desc" },
+      select: { id: true },
+    });
+
+    if (currentPlacement) {
+      await prisma.$transaction([
+        prisma.premiumPlacement.updateMany({
+          where: {
+            merchantId,
+            id: { not: currentPlacement.id },
+            status: { in: ["RESERVED", "ACTIVE"] },
+          },
+          data: { status: "CANCELED" },
+        }),
+        prisma.premiumPlacement.update({
+          where: { id: currentPlacement.id },
+          data: {
+            status: "ACTIVE",
+            startsAt,
+            endsAt,
+          },
+        }),
+      ]);
+    } else {
+      await prisma.premiumPlacement.create({
         data: {
           merchantId,
           status: "ACTIVE",
           startsAt,
           endsAt,
         },
-      }),
-    ]);
+      });
+    }
   } else if (plan !== "PREMIUM_BANNER" || status !== "ACTIVE") {
     await prisma.premiumPlacement.updateMany({
       where: {

@@ -10,6 +10,7 @@ import { getRelatedCards } from "@/lib/public/data";
 import { prisma } from "@/lib/prisma";
 import CatalogView from "@/components/analytics/CatalogView";
 import CatalogOutboundLink from "@/components/analytics/CatalogOutboundLink";
+import { merchantPartnerBadge, merchantPublicTier } from "@/lib/public/merchant-entitlements";
 
 export const dynamic = "force-dynamic";
 
@@ -78,11 +79,7 @@ function decodeSlug(slug: string) {
 
 const getGiftCardPage = cache(async (slug: string) =>
   prisma.giftCard.findFirst({
-    where: {
-      slug: decodeSlug(slug),
-      status: "ACTIVE",
-      merchant: { status: "ACTIVE" },
-    },
+    where: { slug: decodeSlug(slug), status: "ACTIVE" },
     select: {
       id: true,
       title: true,
@@ -106,6 +103,7 @@ const getGiftCardPage = cache(async (slug: string) =>
           slug: true,
           websiteUrl: true,
           logoUrl: true,
+          subscription: { select: { plan: true, status: true, endsAt: true } },
         },
       },
       categories: {
@@ -231,6 +229,8 @@ export default async function GiftCardPage({
 
   const logo = card.merchant.logoUrl || null;
   const verified = card.verificationStatus === "VERIFIED";
+  const partnerTier = merchantPublicTier(card.merchant.subscription);
+  const partnerBadge = merchantPartnerBadge(partnerTier);
   const relatedCards = await getRelatedCards({ ...card, merchantId: card.merchant.id });
   const analyticsContext = {
     merchantId: card.merchant.id, giftCardId: card.id,
@@ -269,10 +269,11 @@ export default async function GiftCardPage({
             </div>
 
             <div className="dk24-detail-info">
-              {verified && (
+              {(verified || partnerBadge) && (
                 <div className="dk24-detail-kicker">
-                  <span className="verified">✓ Επιβεβαιωμένη καταχώρηση</span>
-                  <span>Επίσημος έμπορος</span>
+                  {verified ? <span className="verified">✓ Επιβεβαιωμένη καταχώρηση</span> : null}
+                  {verified ? <span>Επίσημος έμπορος</span> : null}
+                  {partnerBadge ? <span className="dk-paid-detail-badge">✓ {partnerBadge}</span> : null}
                 </div>
               )}
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MerchantLogo from "@/components/public/MerchantLogo";
+import { merchantPartnerBadge, merchantPublicTier } from "@/lib/public/merchant-entitlements";
 
 type RegionLocationCardProps = {
   distanceKm?: number | null;
@@ -15,6 +16,7 @@ type RegionLocationCardProps = {
       name: string;
       slug: string;
       logoUrl: string | null;
+      subscription: { plan: string; status: string; endsAt: Date | string | null } | null;
       _count: { giftCards: number };
       giftCards: Array<{
         id: string;
@@ -50,12 +52,14 @@ export default function RegionLocationCard({ location, distanceKm }: RegionLocat
     (capability) => capability.capability === "REDEEM_IN_STORE",
   );
   const cardCount = location.merchant._count.giftCards;
+  const tier = merchantPublicTier(location.merchant.subscription);
+  const partnerBadge = merchantPartnerBadge(tier);
   const cardsHref = cardCount > 1
     ? `/brands/${location.merchant.slug}`
     : `/gift-cards/${card.slug}`;
 
   return (
-    <article className="dk28-location-card">
+    <article className={`dk28-location-card ${tier ? `dk-paid-${tier.toLowerCase().replaceAll("_", "-")}` : ""}`.trim()}>
       <div className="dk28-location-brand">
         <div className="dk28-location-logo">
           <MerchantLogo name={location.merchant.name} src={location.merchant.logoUrl} variant="location" />
@@ -63,6 +67,7 @@ export default function RegionLocationCard({ location, distanceKm }: RegionLocat
         <div>
           <span>{cardCount > 1 ? `${cardCount} διαθέσιμες δωροκάρτες` : category}</span>
           <h3>{location.merchant.name}</h3>
+          {partnerBadge ? <em className="dk-paid-location-badge">✓ {partnerBadge}</em> : null}
           {location.label && location.label !== location.merchant.name ? <p>{location.label}</p> : null}
         </div>
       </div>

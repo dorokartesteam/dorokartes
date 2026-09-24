@@ -8,8 +8,10 @@ import OccasionsSection from "@/components/public/OccasionsSection";
 import BrandsSection from "@/components/public/BrandsSection";
 import GrowthSection from "@/components/public/GrowthSection";
 import PublicFooter from "@/components/public/PublicFooter";
+import PremiumMerchantBanner, { type PremiumMerchantSlide } from "@/components/public/PremiumMerchantBanner";
 import { getHomeData, publicCardSelect, type PublicCard } from "@/lib/public/data";
 import { prisma } from "@/lib/prisma";
+import { merchantPublicTier } from "@/lib/public/merchant-entitlements";
 
 export const dynamic = "force-dynamic";
 
@@ -89,7 +91,8 @@ function mergeCards(
 }
 
 export default async function HomePage() {
-  const [data, preferredMerchants, preferredCardsRaw] = await Promise.all([
+  const now = new Date();
+  const [data, preferredMerchants, preferredCardsRaw, premiumPlacements] = await Promise.all([
     getHomeData(),
 
     prisma.merchant.findMany({
@@ -129,6 +132,45 @@ export default async function HomePage() {
       },
       select: publicCardSelect,
     }),
+
+    prisma.premiumPlacement.findMany({
+      where: {
+        status: "ACTIVE",
+        startsAt: { lte: now },
+        endsAt: { gt: now },
+        merchant: {
+          status: "ACTIVE",
+          giftCards: { some: { status: "ACTIVE" } },
+        },
+      },
+      orderBy: [{ startsAt: "asc" }, { id: "asc" }],
+      take: 8,
+      select: {
+        id: true,
+        merchant: {
+          select: {
+            id: true,
+            name: true,
+            slug: true,
+            logoUrl: true,
+            description: true,
+            subscription: {
+              select: { plan: true, status: true, endsAt: true },
+            },
+            giftCards: {
+              where: { status: "ACTIVE" },
+              orderBy: [{ featured: "desc" }, { updatedAt: "desc" }],
+              take: 4,
+              select: {
+                title: true,
+                slug: true,
+                verificationStatus: true,
+              },
+            },
+          },
+        },
+      },
+    }),
   ]);
 
   const curatedMerchants = preferredMerchants
@@ -145,6 +187,29 @@ export default async function HomePage() {
   });
 
   const homepageCards = mergeCards(preferredCards, data.cards, 9);
+  const premiumSlides: PremiumMerchantSlide[] = premiumPlacements
+    .flatMap((placement) => {
+      if (merchantPublicTier(placement.merchant.subscription, now) !== "PREMIUM_BANNER") {
+        return [];
+      }
+
+      const card =
+        placement.merchant.giftCards.find((item) => item.verificationStatus === "VERIFIED") ||
+        placement.merchant.giftCards[0] ||
+        null;
+
+      return [{
+        placementId: placement.id,
+        merchantId: placement.merchant.id,
+        name: placement.merchant.name,
+        slug: placement.merchant.slug,
+        logoUrl: placement.merchant.logoUrl,
+        description: placement.merchant.description,
+        cardTitle: card?.title || null,
+        cardSlug: card?.slug || null,
+      }];
+    })
+    .slice(0, 4);
 
   return (
     <div className="dk14-site">
@@ -152,6 +217,7 @@ export default async function HomePage() {
 
       <main>
         <PublicHero totalCards={data.totalCards} />
+        {premiumSlides.length > 0 ? <PremiumMerchantBanner slides={premiumSlides} /> : null}
         <WhyDorokartes />
 
         {data.categories.length > 0 && (

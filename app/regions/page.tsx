@@ -5,6 +5,7 @@ import PublicHeader from "@/components/public/PublicHeader";
 import NearMeButton from "@/components/public/NearMeButton";
 import RegionLocationCard from "@/components/public/RegionLocationCard";
 import { prisma } from "@/lib/prisma";
+import { merchantPromotionRank } from "@/lib/public/merchant-entitlements";
 
 export const dynamic = "force-dynamic";
 
@@ -76,6 +77,7 @@ export default async function RegionsPage({
           name: true,
           slug: true,
           logoUrl: true,
+          subscription: { select: { plan: true, status: true, endsAt: true } },
           _count: {
             select: { giftCards: { where: { status: "ACTIVE" } } },
           },
@@ -155,7 +157,15 @@ export default async function RegionsPage({
         location.area,
       ].filter(Boolean).join(" ")).includes(normalizedQuery);
     })
-    .sort((a, b) => hasUserLocation ? (a.distanceKm ?? Number.POSITIVE_INFINITY) - (b.distanceKm ?? Number.POSITIVE_INFINITY) : 0);
+    .sort((a, b) => {
+      if (hasUserLocation) {
+        return (a.distanceKm ?? Number.POSITIVE_INFINITY) -
+          (b.distanceKm ?? Number.POSITIVE_INFINITY);
+      }
+
+      return merchantPromotionRank(b.merchant.subscription) -
+        merchantPromotionRank(a.merchant.subscription);
+    });
   const regionsHref = (city = "") => {
     const next = new URLSearchParams();
     if (city) next.set("city", city);

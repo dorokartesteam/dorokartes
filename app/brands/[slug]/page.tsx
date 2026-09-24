@@ -11,6 +11,7 @@ import { publicCardSelect } from "@/lib/public/data";
 import { getMerchantProfileDetails, publicHttpUrl } from "@/lib/public/merchant-profile";
 import CatalogView from "@/components/analytics/CatalogView";
 import CatalogOutboundLink from "@/components/analytics/CatalogOutboundLink";
+import { merchantPartnerBadge, merchantPublicTier } from "@/lib/public/merchant-entitlements";
 
 export const dynamic = "force-dynamic";
 
@@ -34,6 +35,7 @@ const getBrandPage = cache((slug: string) =>
       logoUrl: true,
       seoTitle: true,
       metaDescription: true,
+      subscription: { select: { plan: true, status: true, endsAt: true } },
       giftCards: {
         where: { status: "ACTIVE" },
         orderBy: [{ featured: "desc" }, { title: "asc" }],
@@ -91,6 +93,8 @@ export default async function BrandPage({
 
   const profile = getMerchantProfileDetails(brand.giftCards);
   const websiteUrl = publicHttpUrl(brand.websiteUrl);
+  const partnerTier = merchantPublicTier(brand.subscription);
+  const partnerBadge = merchantPartnerBadge(partnerTier);
   const analyticsContext = { merchantId: brand.id, pageType: "brand" as const, sourcePath: `/brands/${encodeURIComponent(brand.slug)}` };
 
   return (
@@ -115,6 +119,7 @@ export default async function BrandPage({
 
             <div className="dk25-taxonomy-copy">
               <span>ΚΑΤΑΣΤΗΜΑ</span>
+              {partnerBadge ? <em className="dk-paid-profile-badge">✓ {partnerBadge}</em> : null}
               <h1>{brand.name}</h1>
               <p>{brand.description || `Δες τις ενεργές δωροκάρτες από ${brand.name}.`}</p>
               <p>{profile.verifiedCount > 0

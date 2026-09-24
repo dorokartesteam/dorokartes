@@ -2,11 +2,12 @@ import { prisma } from "@/lib/prisma";
 import type { Prisma } from "@/src/generated/prisma/client";
 import { isSearchScoreRelevant, scoreSearchFields } from "@/lib/public/search";
 import { rankRelatedCards, type RelatedCard } from "./catalog-search";
+import { getPromotedMerchantBuckets, merchantPromotionRank } from "./merchant-entitlements";
 
 export const publicCardSelect = {
   id:true,title:true,slug:true,shortDescription:true,officialUrl:true,featured:true,verificationStatus:true,validityText:true,validityMonths:true,
   merchant:{select:{id:true,name:true,
-      logoUrl: true,slug:true,websiteUrl:true,featured:true}},
+      logoUrl: true,slug:true,websiteUrl:true,featured:true,subscription:{select:{plan:true,status:true,endsAt:true}}}},
   categories:{where:{category:{active:true}},take:3,orderBy:{primary:"desc" as const},select:{primary:true,category:{select:{id:true,name:true,slug:true,icon:true}}}},
   occasions:{where:{occasion:{active:true}},take:3,orderBy:{relevance:"desc" as const},select:{relevance:true,occasion:{select:{id:true,name:true,slug:true,icon:true}}}},
   variants:{where:{active:true},take:6,select:{id:true,type:true,minValue:true,maxValue:true,customValueAllowed:true,purchaseUrl:true,values:{take:8,orderBy:{value:"asc" as const},select:{value:true}},redemptions:{select:{channel:true}},deliveries:{select:{method:true}}}},
@@ -51,26 +52,71 @@ export async function getPublicCardPage(
   const safePageSize = Number.isSafeInteger(pageSize) && pageSize > 0
     ? pageSize
     : PUBLIC_CATALOG_PAGE_SIZE;
-  const totalCount = await prisma.giftCard.count({ where });
+  const { premiumMerchantIds, featuredMerchantIds, promotedMerchantIds } =
+    await getPromotedMerchantBuckets();
+
+  const premiumWhere: Prisma.GiftCardWhereInput = premiumMerchantIds.length
+    ? { AND: [where, { merchantId: { in: premiumMerchantIds } }] }
+    : { id: { in: [] } };
+  const featuredWhere: Prisma.GiftCardWhereInput = featuredMerchantIds.length
+    ? { AND: [where, { merchantId: { in: featuredMerchantIds } }] }
+    : { id: { in: [] } };
+  const standardWhere: Prisma.GiftCardWhereInput = promotedMerchantIds.length
+    ? { AND: [where, { merchantId: { notIn: promotedMerchantIds } }] }
+    : where;
+
+  const [totalCount, premiumCount, featuredCount] = await Promise.all([
+    prisma.giftCard.count({ where }),
+    premiumMerchantIds.length ? prisma.giftCard.count({ where: premiumWhere }) : 0,
+    featuredMerchantIds.length ? prisma.giftCard.count({ where: featuredWhere }) : 0,
+  ]);
+
+  const standardCount = Math.max(0, totalCount - premiumCount - featuredCount);
   const totalPages = Math.max(1, Math.ceil(totalCount / safePageSize));
   const currentPage = Math.min(
     Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1,
     totalPages,
   );
-  const cards = totalCount > 0
-    ? await prisma.giftCard.findMany({
-        where,
-        orderBy: [
-          { featured: "desc" },
-          { merchant: { name: "asc" } },
-          { title: "asc" },
-          { id: "asc" },
-        ],
-        skip: (currentPage - 1) * safePageSize,
-        take: safePageSize,
-        select: publicCardSelect,
-      })
-    : [];
+
+  const orderBy: Prisma.GiftCardOrderByWithRelationInput[] = [
+    { featured: "desc" },
+    { merchant: { name: "asc" } },
+    { title: "asc" },
+    { id: "asc" },
+  ];
+  const cards: PublicCard[] = [];
+  let remainingSkip = (currentPage - 1) * safePageSize;
+  let remainingTake = safePageSize;
+
+  const appendBucket = async (
+    bucketWhere: Prisma.GiftCardWhereInput,
+    bucketCount: number,
+  ) => {
+    if (remainingTake <= 0 || bucketCount <= 0) return;
+    if (remainingSkip >= bucketCount) {
+      remainingSkip -= bucketCount;
+      return;
+    }
+
+    const take = Math.min(remainingTake, bucketCount - remainingSkip);
+    const rows = await prisma.giftCard.findMany({
+      where: bucketWhere,
+      orderBy,
+      skip: remainingSkip,
+      take,
+      select: publicCardSelect,
+    });
+
+    cards.push(...rows);
+    remainingTake -= rows.length;
+    remainingSkip = 0;
+  };
+
+  if (totalCount > 0) {
+    await appendBucket(premiumWhere, premiumCount);
+    await appendBucket(featuredWhere, featuredCount);
+    await appendBucket(standardWhere, standardCount);
+  }
 
   return { cards, totalCount, currentPage, totalPages, pageSize: safePageSize };
 }
@@ -159,7 +205,7 @@ export async function browseCards(
       shortDescription: true,
       featured: true,
       verificationStatus: true,
-      merchant: { select: { name: true } },
+      merchant: { select: { name: true, subscription: { select: { plan: true, status: true, endsAt: true } } } },
       categories: {
         where: { category: { active: true } },
         select: { category: { select: { name: true, slug: true } } },
@@ -173,7 +219,7 @@ export async function browseCards(
 
   const ranked = candidates
     .map((card) => {
-      let score = scoreSearchFields(term, [
+      const relevanceScore = scoreSearchFields(term, [
         { value: card.merchant.name, weight: 1200 },
         { value: card.title, weight: 1060 },
         ...card.categories.map((item) => ({
@@ -187,12 +233,18 @@ export async function browseCards(
         { value: card.shortDescription, weight: 260 },
       ]);
 
+      if (!isSearchScoreRelevant(relevanceScore)) return null;
+
+      let score = relevanceScore;
+      const promotionRank = merchantPromotionRank(card.merchant.subscription);
+      if (promotionRank === 2) score += 90;
+      if (promotionRank === 1) score += 55;
       if (card.featured) score += 18;
       if (card.verificationStatus === "VERIFIED") score += 12;
 
       return { id: card.id, score };
     })
-    .filter((item) => isSearchScoreRelevant(item.score))
+    .filter((item): item is { id: string; score: number } => item !== null)
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 
   const totalCount = ranked.length;
