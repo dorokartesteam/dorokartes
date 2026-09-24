@@ -1,0 +1,40 @@
+.dk-revenue-metrics{margin-bottom:22px}
+.dk-revenue-grid{align-items:start}
+.dk-revenue-mix{display:grid;gap:18px;padding:4px 0 10px}
+.dk-revenue-mix-row{display:grid;grid-template-columns:minmax(135px,1fr) minmax(120px,2fr) 38px;align-items:center;gap:16px}
+.dk-revenue-mix-row>div:first-child{display:flex;flex-direction:column;gap:3px}
+.dk-revenue-mix-row b{font-size:14px;color:#f5f7ff}
+.dk-revenue-mix-row small{font-size:12px;color:#8f9ab2}
+.dk-revenue-mix-row>strong{text-align:right;font-size:19px;color:#fff}
+.dk-revenue-mix-bar{height:9px;border-radius:999px;background:#172033;overflow:hidden;border:1px solid #26324b}
+.dk-revenue-mix-bar i{display:block;height:100%;min-width:0;border-radius:inherit;background:linear-gradient(90deg,#7957ff,#9c7cff)}
+.dk-revenue-status-grid,.dk-revenue-lead-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
+.dk-revenue-status-grid a,.dk-revenue-lead-stats a{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:13px 14px;border-radius:12px;border:1px solid #26324b;background:#0c1422;color:#b8c1d3;text-decoration:none;transition:.15s ease}
+.dk-revenue-status-grid a:hover,.dk-revenue-lead-stats a:hover{border-color:#765df2;transform:translateY(-1px)}
+.dk-revenue-status-grid b,.dk-revenue-lead-stats b{font-size:18px;color:#fff}
+.dk-revenue-funnel{display:grid;gap:16px}
+.dk-revenue-funnel-step{display:grid;gap:8px}
+.dk-revenue-funnel-head{display:flex;justify-content:space-between;align-items:center;gap:18px}
+.dk-revenue-funnel-head>div{display:flex;flex-direction:column;gap:3px}
+.dk-revenue-funnel-head b{font-size:14px;color:#f4f6ff}
+.dk-revenue-funnel-head small{font-size:12px;color:#8e98ae}
+.dk-revenue-funnel-head strong{font-size:20px;color:#fff}
+.dk-revenue-funnel-track{height:9px;border-radius:999px;background:#151e30;border:1px solid #26324b;overflow:hidden}
+.dk-revenue-funnel-track i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#7456f4,#ad76ff)}
+.dk-revenue-conversion-note{display:flex;align-items:baseline;gap:9px;margin-top:20px;padding:14px 16px;border-radius:13px;background:rgba(116,86,244,.10);border:1px solid rgba(129,99,255,.26)}
+.dk-revenue-conversion-note b{font-size:23px;color:#a991ff}
+.dk-revenue-conversion-note span{font-size:13px;color:#b8c0d3}
+.dk-revenue-requested{margin-top:18px;padding-top:16px;border-top:1px solid #202b40;display:grid;grid-template-columns:1.3fr repeat(4,1fr);gap:10px;align-items:center}
+.dk-revenue-requested>span{color:#8e98ad;font-size:12px;text-transform:uppercase;letter-spacing:.07em}
+.dk-revenue-requested>div{display:flex;flex-direction:column;gap:3px;padding:10px;border-radius:10px;background:#0b1320;border:1px solid #202b40}
+.dk-revenue-requested b{font-size:12px;color:#aab4c7;font-weight:600}.dk-revenue-requested strong{font-size:18px;color:#fff}
+.dk-revenue-latest-list{display:grid}
+.dk-revenue-latest-list>a{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:13px 0;border-bottom:1px solid #202a3d;text-decoration:none}
+.dk-revenue-latest-list>a:last-child{border-bottom:0}
+.dk-revenue-latest-list>a>div{display:flex;flex-direction:column;gap:4px;min-width:0}
+.dk-revenue-latest-list b{font-size:14px;color:#f4f6ff}.dk-revenue-latest-list small{font-size:12px;color:#8f99ae;overflow:hidden;text-overflow:ellipsis}
+.dk-revenue-latest-list>a>div:last-child{align-items:flex-end}
+.dk-revenue-table td{vertical-align:middle}.dk-revenue-stripe-id{display:block;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8d98ae}
+.dk-revenue-note{margin-top:22px}
+@media(max-width:900px){.dk-revenue-mix-row{grid-template-columns:110px 1fr 32px}.dk-revenue-requested{grid-template-columns:repeat(2,minmax(0,1fr))}.dk-revenue-requested>span{grid-column:1/-1}}
+@media(max-width:640px){.dk-revenue-status-grid,.dk-revenue-lead-stats{grid-template-columns:1fr}.dk-revenue-mix-row{grid-template-columns:1fr 32px}.dk-revenue-mix-bar{grid-column:1/-1;grid-row:2}.dk-revenue-requested{grid-template-columns:1fr 1fr}}

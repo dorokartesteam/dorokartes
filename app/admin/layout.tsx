@@ -14,6 +14,7 @@ import "@/app/admin/v4-2-verification.css";
 import "@/app/admin/v4-3-premium-readability.css";
 import "@/app/admin/v4-4-detail-workspace.css";
 import "@/app/admin/v4-5-merchant-management.css";
+import "@/app/admin/v4-6-revenue.css";
 
 const geist = Geist({
   subsets: ["latin"],
