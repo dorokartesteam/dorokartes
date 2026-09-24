@@ -44,6 +44,7 @@ type IconName =
   | "cards"
   | "analytics"
   | "billing"
+  | "orders"
   | "external"
   | "logout"
   | "menu"
@@ -70,6 +71,7 @@ function Icon({ name }: { name: IconName }) {
     cards: <><rect x="3.5" y="5" width="17" height="14" rx="2.5"/><path d="M3.5 9.3h17"/><path d="M7 15h4"/></>,
     analytics: <><path d="M4 19V9"/><path d="M10 19V5"/><path d="M16 19v-7"/><path d="M22 19V3"/></>,
     billing: <><path d="m12 3 2.2 2.4 3.2-.4.8 3.1 2.7 1.7-1.3 2.9 1.3 2.9-2.7 1.7-.8 3.1-3.2-.4L12 22l-2.2-2.4-3.2.4-.8-3.1-2.7-1.7 1.3-2.9-1.3-2.9 2.7-1.7.8-3.1 3.2.4L12 3Z"/><path d="m9.3 12.3 1.8 1.8 3.8-4"/></>,
+    orders: <><path d="M6 3h12l2 4v14H4V7l2-4Z"/><path d="M4 8h16"/><path d="M8 12h8"/><path d="M8 16h5"/></>,
     external: <><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M20 13v5.5A1.5 1.5 0 0 1 18.5 20h-13A1.5 1.5 0 0 1 4 18.5v-13A1.5 1.5 0 0 1 5.5 4H11"/></>,
     logout: <><path d="M10 5H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h4"/><path d="m15 8 4 4-4 4"/><path d="M19 12H9"/></>,
     menu: <><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></>,
@@ -86,11 +88,13 @@ const navItems: Array<{ href: string; label: string; icon: IconName }> = [
   { href: "/merchant/analytics", label: "Στατιστικά", icon: "analytics" },
   { href: "/merchant/gift-cards", label: "Δωροκάρτες", icon: "cards" },
   { href: "/merchant/profile", label: "Προφίλ", icon: "profile" },
+  { href: "/merchant/orders", label: "Παραγγελίες", icon: "orders" },
   { href: "/merchant/billing", label: "Συνδρομή & Πακέτα", icon: "billing" },
 ];
 
 function pageTitle(pathname: string) {
   if (pathname.startsWith("/merchant/billing")) return "Συνδρομή & Πακέτα";
+  if (pathname.startsWith("/merchant/orders")) return "Παραγγελίες";
   if (pathname.startsWith("/merchant/analytics")) return "Στατιστικά";
   if (pathname.startsWith("/merchant/gift-cards")) return "Δωροκάρτες";
   if (pathname.startsWith("/merchant/profile")) return "Προφίλ";
