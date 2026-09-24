@@ -98,16 +98,24 @@ export async function getDashboardData() {
   };
 }
 
-export async function getMerchants(search = "", status = "") {
+export async function getMerchants(search = "", status = "", commercial = "") {
   const where: any = {};
   if (search) {
     where.OR = [
       { name: { contains: search, mode: "insensitive" } },
       { websiteUrl: { contains: search, mode: "insensitive" } },
       { slug: { contains: search, mode: "insensitive" } },
+      { members: { some: { email: { contains: search, mode: "insensitive" } } } },
     ];
   }
   if (status) where.status = status;
+
+  if (commercial === "PORTAL") where.members = { some: {} };
+  if (commercial === "NO_PORTAL") where.members = { none: {} };
+  if (commercial === "ACTIVE_SUB") where.subscription = { is: { status: "ACTIVE" } };
+  if (commercial === "PENDING_SUB") where.subscription = { is: { status: "PENDING" } };
+  if (commercial === "PAST_DUE") where.subscription = { is: { status: "PAST_DUE" } };
+  if (commercial === "CANCELED_SUB") where.subscription = { is: { status: "CANCELED" } };
 
   return safeFindMany("merchant", {
     take: 150,
@@ -116,9 +124,47 @@ export async function getMerchants(search = "", status = "") {
     select: {
       id: true, name: true, slug: true, websiteUrl: true, logoUrl: true,
       status: true, country: true, description: true, createdAt: true, updatedAt: true,
-      _count: { select: { giftCards: true } },
+      members: {
+        orderBy: { createdAt: "asc" },
+        select: { id: true, email: true, name: true, status: true, role: true },
+      },
+      subscription: {
+        select: {
+          plan: true,
+          status: true,
+          startsAt: true,
+          endsAt: true,
+          stripeCustomerId: true,
+          stripeSubscriptionId: true,
+        },
+      },
+      _count: { select: { giftCards: true, members: true } },
     },
   });
+}
+
+export async function getMerchantCommercialSummary() {
+  const now = new Date();
+  const [portalMerchants, activeSubscriptions, pendingSubscriptions, pastDueSubscriptions, premiumSlots] =
+    await Promise.all([
+      safeCount("merchant", { members: { some: {} } }),
+      safeCount("merchantSubscription", { status: "ACTIVE" }),
+      safeCount("merchantSubscription", { status: "PENDING" }),
+      safeCount("merchantSubscription", { status: "PAST_DUE" }),
+      safeCount("premiumPlacement", {
+        status: "ACTIVE",
+        startsAt: { lte: now },
+        endsAt: { gt: now },
+      }),
+    ]);
+
+  return {
+    portalMerchants,
+    activeSubscriptions,
+    pendingSubscriptions,
+    pastDueSubscriptions,
+    premiumSlots: Math.min(4, premiumSlots),
+  };
 }
 
 export async function getGiftCards(search = "", status = "", verification = "") {

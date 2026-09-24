@@ -1,0 +1,75 @@
+/* Dorokartes Admin v4.5 — merchant commercial management */
+
+.dk-main .dk-merchant-commercial-metrics{margin-bottom:18px!important}
+.dk-main .dk-merchant-filterbar{grid-template-columns:minmax(260px,1.35fr) minmax(150px,.7fr) minmax(190px,.9fr) auto auto auto!important}
+.dk-main .dk-admin-muted{color:#5f6d80!important}
+.dk-main .dk-plan-label{color:#d9d3ff!important;font-size:12px!important;font-weight:720!important}
+.dk-main .dk-merchant-commercial-table th:nth-child(1){min-width:220px}
+.dk-main .dk-merchant-commercial-table th:nth-child(2){min-width:140px}
+.dk-main .dk-merchant-commercial-table th:nth-child(4),
+.dk-main .dk-merchant-commercial-table th:nth-child(5),
+.dk-main .dk-merchant-commercial-table th:nth-child(6){min-width:120px}
+
+.dk-main .dk-merchant-commercial-layout{align-items:start!important;margin-bottom:22px!important}
+.dk-main .dk-merchant-giftcards-panel{margin-top:2px!important}
+.dk-main .dk-merchant-stats-commercial>div strong{font-size:17px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.dk-commercial-admin{display:grid;gap:16px;padding:2px}
+.dk-commercial-section{border:1px solid #273247;border-radius:16px;background:linear-gradient(180deg,#0f1724,#0b121d);overflow:hidden}
+.dk-commercial-sectionhead{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:16px 17px;border-bottom:1px solid #202a3b;background:#101824}
+.dk-commercial-sectionhead h3{margin:0;color:#eef3fb;font-size:15px;letter-spacing:-.01em}
+.dk-commercial-sectionhead p{margin:4px 0 0;color:#708098;font-size:11px;line-height:1.45}
+.dk-commercial-sectionhead>b{color:#9daac0;font-size:11px}
+
+.dk-subscription-hero{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:9px;padding:14px 15px 8px}
+.dk-subscription-hero>div{padding:13px 14px;border:1px solid #27334a;border-radius:12px;background:#0a111b;min-width:0}
+.dk-subscription-hero span,.dk-stripe-ids span,.dk-premium-placement-summary span{display:block;color:#6f7f96;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.dk-subscription-hero strong{display:block;margin-top:6px;color:#b9abff;font-size:18px;line-height:1.15}
+.dk-subscription-hero b{display:block;margin-top:6px;color:#dfe6f1;font-size:11px;line-height:1.4}
+
+.dk-benefit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:7px 15px 14px}
+.dk-benefit-grid>div{display:flex;align-items:center;gap:8px;min-height:39px;padding:9px 11px;border:1px solid #252e3f;border-radius:11px;background:#0a111b;color:#66758a;font-size:11px;font-weight:650}
+.dk-benefit-grid>div i{display:inline-flex;width:20px;height:20px;align-items:center;justify-content:center;border-radius:50%;background:#141c28;color:#65748a;font-style:normal;font-size:10px}
+.dk-benefit-grid>div.is-active{border-color:#31564c;background:#0d1b19;color:#b8ddd1}
+.dk-benefit-grid>div.is-active i{background:#17372f;color:#78d6b9}
+
+.dk-stripe-ids{display:grid;gap:7px;padding:0 15px 15px}
+.dk-stripe-ids>div{display:grid;grid-template-columns:95px minmax(0,1fr);align-items:center;gap:10px;padding:9px 11px;border:1px solid #222d3f;border-radius:10px;background:#091019}
+.dk-stripe-ids code{color:#9ba9bc;font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.dk-premium-placement-summary{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:8px;margin:0 15px 15px;padding-top:13px;border-top:1px solid #222c3d}
+.dk-premium-placement-summary>div{padding:10px 11px;border-radius:10px;background:#121226}
+.dk-premium-placement-summary b{display:block;margin-top:5px;color:#d7cdff;font-size:12px}
+
+.dk-member-list{display:grid;gap:9px;padding:14px 15px}
+.dk-member-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px;border:1px solid #253047;border-radius:13px;background:#0a111b}
+.dk-member-main{display:flex;align-items:center;gap:11px;min-width:0}
+.dk-member-avatar{width:38px;height:38px;flex:0 0 38px;border-radius:11px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#2a2750,#1b2135);border:1px solid #4a4375;color:#dcd4ff;font-size:11px;font-weight:800}
+.dk-member-main>div:last-child{min-width:0}
+.dk-member-main strong{display:block;color:#e9eef7;font-size:12px}
+.dk-member-main a{display:block;margin-top:3px;color:#9b8cff;font-size:11px;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dk-member-main small{display:block;margin-top:4px;color:#64748a;font-size:9px}
+.dk-member-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:7px}
+.dk-member-actions button{min-height:34px;padding:0 10px;border:1px solid #31405a;border-radius:9px;background:#111a28;color:#aebacc;font:inherit;font-size:10px;font-weight:700;cursor:pointer}
+.dk-member-actions button:hover{border-color:#5b528d;color:#ddd6ff}
+.dk-member-actions button.danger{border-color:#553038;color:#d99aa2;background:#191014}
+.dk-member-actions button.good{border-color:#31564c;color:#8bd9c0;background:#0e1a18}
+.dk-member-actions button:disabled{opacity:.55;cursor:not-allowed}
+
+.dk-commercial-empty{margin:14px 15px;padding:14px;border:1px dashed #334057;border-radius:12px;color:#73839a;font-size:11px;line-height:1.5}
+.dk-commercial-note{margin:0;padding:0 15px 14px;color:#68778d;font-size:9px;line-height:1.5}
+.dk-commercial-message{margin:0 15px 14px;padding:10px 12px;border-radius:10px;font-size:10px;font-weight:650}
+.dk-commercial-message.good{border:1px solid #31564c;background:#0d1b19;color:#8bd9c0}
+.dk-commercial-message.bad{border:1px solid #58323a;background:#1a1014;color:#dfa1a9}
+
+@media(max-width:1180px){
+  .dk-main .dk-merchant-filterbar{grid-template-columns:1fr 1fr!important}
+  .dk-subscription-hero{grid-template-columns:1fr!important}
+  .dk-benefit-grid{grid-template-columns:1fr!important}
+  .dk-member-row{grid-template-columns:1fr!important}
+  .dk-member-actions{justify-content:flex-start}
+}
+@media(max-width:760px){
+  .dk-main .dk-merchant-filterbar{grid-template-columns:1fr!important}
+  .dk-premium-placement-summary{grid-template-columns:1fr!important}
+}

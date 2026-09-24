@@ -26,9 +26,20 @@ export async function getMerchantMember() {
 
   if (!session) return null;
 
-  if (session.expiresAt <= new Date() || session.member.status !== "ACTIVE") {
+  const now = new Date();
+
+  if (session.expiresAt <= now || session.member.status !== "ACTIVE") {
     await prisma.merchantSession.deleteMany({ where: { tokenHash } });
     return null;
+  }
+
+  // Keep a lightweight activity signal for the admin merchant workspace without
+  // writing on every request. At most one touch is stored per 15-minute window.
+  if (!session.lastSeenAt || now.getTime() - session.lastSeenAt.getTime() >= 15 * 60_000) {
+    await prisma.merchantSession.update({
+      where: { id: session.id },
+      data: { lastSeenAt: now },
+    }).catch(() => null);
   }
 
   return session.member;

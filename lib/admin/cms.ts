@@ -12,6 +12,25 @@ export async function getMerchantCms(id: string) {
           _count: { select: { variants: true, categories: true, occasions: true, mediaAssets: true } },
         },
       },
+      members: {
+        orderBy: [{ role: "asc" }, { createdAt: "asc" }],
+        include: {
+          sessions: {
+            take: 1,
+            orderBy: [{ lastSeenAt: "desc" }, { createdAt: "desc" }],
+            select: { createdAt: true, lastSeenAt: true, expiresAt: true },
+          },
+        },
+      },
+      subscription: true,
+      premiumPlacements: {
+        take: 8,
+        orderBy: { createdAt: "desc" },
+      },
+      merchantLeads: {
+        take: 5,
+        orderBy: { createdAt: "desc" },
+      },
     },
   });
 }
