@@ -95,6 +95,7 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "^7.9.1",
+    "@vercel/blob": "^2.8.0",
     "cheerio": "^1.1.2",
     "fast-xml-parser": "^5.2.5",
     "next": "16.3.2",
