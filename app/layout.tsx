@@ -10,11 +10,15 @@ import "./public-v1-9.css";
 import "./public-v2-0.css";
 import "./public-v2-2.css";
 import "./public-v2-7-premium.css";
+import "./public-v3-1-home.css";
+import "./public-v3-2-hero.css";
+import "./public-v3-6-hero.css";
 import "./public-v3-0-merchant-benefits.css";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 const configuredGaMeasurementId =
   process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() ?? "";
+
 const productionGaMeasurementId =
   process.env.VERCEL_ENV === "production" &&
   /^G-[A-Z0-9]+$/.test(configuredGaMeasurementId)
