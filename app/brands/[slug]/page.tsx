@@ -36,6 +36,7 @@ const getBrandPage = cache((slug: string) =>
       seoTitle: true,
       metaDescription: true,
       subscription: { select: { plan: true, status: true, endsAt: true } },
+      members: { select: { id: true }, take: 1 },
       giftCards: {
         where: { status: "ACTIVE" },
         orderBy: [{ featured: "desc" }, { title: "asc" }],
@@ -96,6 +97,7 @@ export default async function BrandPage({
   const partnerTier = merchantPublicTier(brand.subscription);
   const partnerBadge = merchantPartnerBadge(partnerTier);
   const analyticsContext = { merchantId: brand.id, pageType: "brand" as const, sourcePath: `/brands/${encodeURIComponent(brand.slug)}` };
+  const canBeClaimed = brand.members.length === 0;
 
   return (
     <div className="dk-public">
@@ -133,6 +135,52 @@ export default async function BrandPage({
               </a>
             )}
           </section>
+
+          {canBeClaimed ? (
+            <section
+              style={{
+                margin: "18px 0 24px",
+                padding: "20px 22px",
+                border: "1px solid #e2e7f0",
+                borderRadius: 20,
+                background: "linear-gradient(135deg,#f8f9ff 0%,#ffffff 70%)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: 18,
+                flexWrap: "wrap",
+              }}
+              aria-label="Διεκδίκηση επιχείρησης"
+            >
+              <div style={{ display: "grid", gap: 5 }}>
+                <b style={{ color: "#17264a", fontSize: 16 }}>
+                  Είναι η επιχείρησή σου;
+                </b>
+                <span style={{ color: "#68758b", fontSize: 13, lineHeight: 1.55 }}>
+                  Διεκδίκησε το προφίλ για να διαχειρίζεσαι την παρουσία και τις
+                  δωροκάρτες σου στο Dorokartes.
+                </span>
+              </div>
+              <Link
+                href={`/register-store?claim=${encodeURIComponent(brand.slug)}`}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  minHeight: 44,
+                  padding: "0 18px",
+                  borderRadius: 12,
+                  background: "#315fe9",
+                  color: "#fff",
+                  fontWeight: 800,
+                  fontSize: 13,
+                  textDecoration: "none",
+                }}
+              >
+                Διεκδίκηση επιχείρησης →
+              </Link>
+            </section>
+          ) : null}
 
           {profile.officialCards.length > 0 && (
             <section className="dk24-info-card" aria-labelledby="brand-official-links">

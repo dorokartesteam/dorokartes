@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PublicFooter from "@/components/public/PublicFooter";
 import PublicHeader from "@/components/public/PublicHeader";
 import MerchantInterestForm from "@/components/public/MerchantInterestForm";
+import { prisma } from "@/lib/prisma";
 import styles from "./register-store.module.css";
 
 export const metadata: Metadata = {
@@ -90,7 +91,27 @@ const plans = [
   },
 ] as const;
 
-export default function RegisterStorePage() {
+export default async function RegisterStorePage({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const params = await searchParams;
+  const claimSlug = Array.isArray(params.claim) ? params.claim[0] : params.claim;
+  const claimMerchant = claimSlug
+    ? await prisma.merchant.findFirst({
+        where: { slug: claimSlug, status: "ACTIVE" },
+        select: {
+          id: true,
+          name: true,
+          websiteUrl: true,
+          members: { select: { id: true }, take: 1 },
+        },
+      })
+    : null;
+
+  const claimAvailable = Boolean(claimMerchant && claimMerchant.members.length === 0);
+
   return (
     <div className={styles.site}>
       <PublicHeader />
@@ -101,18 +122,27 @@ export default function RegisterStorePage() {
             <div className={styles.grid}>
               <div className={styles.copy}>
                 <span className={styles.eyebrow}>
-                  DOROKARTES ΓΙΑ ΕΠΙΧΕΙΡΗΣΕΙΣ
+                  {claimAvailable ? "ΔΙΕΚΔΙΚΗΣΗ ΕΠΙΧΕΙΡΗΣΗΣ" : "DOROKARTES ΓΙΑ ΕΠΙΧΕΙΡΗΣΕΙΣ"}
                 </span>
 
                 <h1>
-                  Οι δωροκάρτες σου,
-                  <span> μπροστά στο σωστό κοινό.</span>
+                  {claimAvailable ? (
+                    <>
+                      Διεκδίκησε το προφίλ
+                      <span> {claimMerchant?.name}.</span>
+                    </>
+                  ) : (
+                    <>
+                      Οι δωροκάρτες σου,
+                      <span> μπροστά στο σωστό κοινό.</span>
+                    </>
+                  )}
                 </h1>
 
                 <p className={styles.lead}>
-                  Η επιχείρησή σου μπορεί ήδη να εμφανίζεται στο Dorokartes.
-                  Ως συνεργάτης αποκτάς ενεργή εμπορική παρουσία, δυνατότητες
-                  προβολής και direct traffic προς τις δωροκάρτες σου.
+                  {claimAvailable
+                    ? "Το προφίλ υπάρχει ήδη στον κατάλογο. Συμπλήρωσε τα στοιχεία επικοινωνίας και, μετά τον έλεγχο, θα αποκτήσεις πρόσβαση στο Merchant Portal."
+                    : "Η επιχείρησή σου μπορεί ήδη να εμφανίζεται στο Dorokartes. Ως συνεργάτης αποκτάς ενεργή εμπορική παρουσία, δυνατότητες προβολής και direct traffic προς τις δωροκάρτες σου."}
                 </p>
 
                 <div className={styles.priceHint}>
@@ -139,7 +169,11 @@ export default function RegisterStorePage() {
               </div>
 
               <div className={styles.formColumn} id="interest-form">
-                <MerchantInterestForm />
+                <MerchantInterestForm
+                  initialBusinessName={claimAvailable ? claimMerchant?.name || "" : ""}
+                  initialWebsite={claimAvailable ? claimMerchant?.websiteUrl || "" : ""}
+                  claimMerchantId={claimAvailable ? claimMerchant?.id || "" : ""}
+                />
               </div>
             </div>
           </div>

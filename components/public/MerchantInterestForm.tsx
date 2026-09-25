@@ -88,8 +88,17 @@ function buildMailto(form: FormData) {
   )}&body=${encodeURIComponent(body)}`;
 }
 
-export default function MerchantInterestForm() {
+export default function MerchantInterestForm({
+  initialBusinessName = "",
+  initialWebsite = "",
+  claimMerchantId = "",
+}: {
+  initialBusinessName?: string;
+  initialWebsite?: string;
+  claimMerchantId?: string;
+}) {
   const [state, setState] = useState<SubmitState>({ type: "idle" });
+  const isClaim = Boolean(claimMerchantId);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -151,10 +160,11 @@ export default function MerchantInterestForm() {
       <div className={styles.success}>
         <div className={styles.successIcon}>✓</div>
         <span>ΤΟ ΛΑΒΑΜΕ</span>
-        <h2>Ευχαριστούμε για το ενδιαφέρον σου.</h2>
+        <h2>{isClaim ? "Το αίτημα διεκδίκησης καταχωρήθηκε." : "Ευχαριστούμε για το ενδιαφέρον σου."}</h2>
         <p>
-          Τα στοιχεία σου καταχωρήθηκαν. Θα ελέγξουμε την επιχείρηση και θα
-          επικοινωνήσουμε μαζί σου για την ενεργοποίηση της συνεργασίας.
+          {isClaim
+            ? "Η επιχείρηση αντιστοιχίστηκε στο υπάρχον προφίλ. Θα ελέγξουμε τα στοιχεία και θα σου στείλουμε πρόσκληση για το Merchant Portal."
+            : "Τα στοιχεία σου καταχωρήθηκαν. Θα ελέγξουμε την επιχείρηση και θα επικοινωνήσουμε μαζί σου για την ενεργοποίηση της συνεργασίας."}
         </p>
 
         <div className={styles.successPlan}>
@@ -178,6 +188,28 @@ export default function MerchantInterestForm() {
       </div>
 
       <form className={styles.form} onSubmit={onSubmit}>
+        {claimMerchantId ? (
+          <input type="hidden" name="claimMerchantId" value={claimMerchantId} />
+        ) : null}
+
+        {isClaim ? (
+          <div
+            style={{
+              padding: "12px 14px",
+              borderRadius: 12,
+              border: "1px solid #dbe3ff",
+              background: "#f4f7ff",
+              color: "#29488f",
+              fontSize: 12,
+              lineHeight: 1.55,
+              fontWeight: 650,
+            }}
+          >
+            Διεκδικείς υπάρχον προφίλ στο Dorokartes. Η αντιστοίχιση θα γίνει
+            αυτόματα και θα ελέγξουμε τα στοιχεία πριν ενεργοποιηθεί η πρόσβαση.
+          </div>
+        ) : null}
+
         <div className={styles.hiddenTrap} aria-hidden="true">
           <label>
             Website
@@ -193,6 +225,8 @@ export default function MerchantInterestForm() {
               required
               maxLength={120}
               placeholder="π.χ. Example Store"
+              defaultValue={initialBusinessName}
+              readOnly={isClaim}
             />
           </label>
 
@@ -241,6 +275,7 @@ export default function MerchantInterestForm() {
             type="url"
             maxLength={240}
             placeholder="https://..."
+            defaultValue={initialWebsite}
           />
         </label>
 

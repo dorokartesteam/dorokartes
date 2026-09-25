@@ -114,6 +114,58 @@ export async function sendMerchantLoginLinks(input: {
   });
 }
 
+
+export async function sendMerchantLeadFollowUp(input: {
+  to: string;
+  contactName?: string | null;
+  businessName: string;
+  status: "SUBMITTED" | "UNDER_REVIEW" | "APPROVED" | "REJECTED";
+  portalUrl?: string | null;
+}) {
+  const greeting = input.contactName
+    ? `Γεια σου ${escapeHtml(input.contactName)},`
+    : "Γεια σου,";
+
+  const approved = input.status === "APPROVED" && input.portalUrl;
+
+  return sendEmail({
+    to: input.to,
+    subject: approved
+      ? `Dorokartes — επόμενο βήμα για το ${input.businessName}`
+      : `Dorokartes — ενημέρωση για το ${input.businessName}`,
+    html: `
+      <div style="font-family:Arial,sans-serif;max-width:620px;margin:auto;color:#14213d">
+        <h2 style="margin:0 0 18px">${
+          approved
+            ? "Η πρόσβασή σου στο Dorokartes είναι έτοιμη"
+            : "Ενημέρωση για το αίτημά σου στο Dorokartes"
+        }</h2>
+        <p>${greeting}</p>
+        <p style="line-height:1.7">
+          ${
+            approved
+              ? `Το προφίλ <strong>${escapeHtml(input.businessName)}</strong> έχει εγκριθεί. Μπορείς να μπεις στο Merchant Portal για να ολοκληρώσεις το προφίλ σου, να δεις τα διαθέσιμα πακέτα και τα analytics σου.`
+              : `Έχουμε λάβει το αίτημα για το <strong>${escapeHtml(input.businessName)}</strong> και βρίσκεται σε έλεγχο. Θα επικοινωνήσουμε μαζί σου μόλις ολοκληρωθεί η επαλήθευση.`
+          }
+        </p>
+        ${
+          approved
+            ? `<p style="margin:28px 0">
+                <a href="${escapeHtml(input.portalUrl || "")}"
+                   style="display:inline-block;padding:14px 20px;border-radius:12px;background:#315fe9;color:white;text-decoration:none;font-weight:700">
+                  Σύνδεση στο Merchant Portal
+                </a>
+              </p>
+              <p style="font-size:12px;color:#77839a;line-height:1.6">
+                Ο σύνδεσμος σύνδεσης λήγει σε 15 λεπτά.
+              </p>`
+            : ""
+        }
+      </div>
+    `,
+  });
+}
+
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")

@@ -19,6 +19,7 @@ type InterestPayload = {
   message?: unknown;
   consent?: unknown;
   website2?: unknown;
+  claimMerchantId?: unknown;
 };
 
 function text(value: unknown, max = 500) {
@@ -73,6 +74,7 @@ export async function POST(request: NextRequest) {
   const requestedPlan = formPlanToDb(planRaw);
   const message = text(raw.message, 1600);
   const consent = text(raw.consent, 20);
+  const claimMerchantId = text(raw.claimMerchantId, 80);
 
   if (
     !businessName ||
@@ -94,13 +96,45 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Το email δεν φαίνεται έγκυρο." }, { status: 400 });
   }
 
+  const claimMerchant = claimMerchantId
+    ? await prisma.merchant.findFirst({
+        where: { id: claimMerchantId, status: "ACTIVE" },
+        select: {
+          id: true,
+          name: true,
+          websiteUrl: true,
+          members: { select: { id: true }, take: 1 },
+        },
+      })
+    : null;
+
+  if (claimMerchantId && !claimMerchant) {
+    return NextResponse.json(
+      { error: "Το προφίλ επιχείρησης δεν είναι πλέον διαθέσιμο για διεκδίκηση." },
+      { status: 409 },
+    );
+  }
+
+  if (claimMerchant && claimMerchant.members.length > 0) {
+    return NextResponse.json(
+      {
+        error:
+          "Η επιχείρηση έχει ήδη Merchant Portal. Χρησιμοποίησε τη σελίδα σύνδεσης ή επικοινώνησε μαζί μας.",
+      },
+      { status: 409 },
+    );
+  }
+
+  const leadBusinessName = claimMerchant?.name || businessName;
+  const leadWebsite = website || claimMerchant?.websiteUrl || null;
+
   const lead = await prisma.merchantLead.create({
     data: {
-      businessName,
+      businessName: leadBusinessName,
       contactName,
       email,
       phone,
-      website: website || null,
+      website: leadWebsite,
       businessType,
       region: region || null,
       category,
@@ -108,6 +142,8 @@ export async function POST(request: NextRequest) {
       giftCardUrl: giftCardUrl || null,
       requestedPlan,
       message: message || null,
+      matchedMerchantId: claimMerchant?.id || null,
+      status: claimMerchant ? "UNDER_REVIEW" : "SUBMITTED",
     },
   });
 
@@ -127,17 +163,18 @@ export async function POST(request: NextRequest) {
           Lead ID: ${escapeHtml(lead.id)}
         </p>
         <table style="width:100%;border-collapse:collapse;border:1px solid #eef1f6">
-          ${row("Επιχείρηση", businessName)}
+          ${row("Επιχείρηση", leadBusinessName)}
           ${row("Υπεύθυνος", contactName)}
           ${row("Email", email)}
           ${row("Τηλέφωνο", phone)}
-          ${row("Website", website)}
+          ${row("Website", leadWebsite || "")}
           ${row("Τύπος", businessType)}
           ${row("Περιφέρεια", region)}
           ${row("Κατηγορία", category)}
           ${row("Δωροκάρτες", giftCardStatus)}
           ${row("URL δωροκάρτας", giftCardUrl)}
           ${row("Πακέτο", plan)}
+          ${row("Τύπος lead", claimMerchant ? "Διεκδίκηση υπάρχοντος προφίλ" : "Νέα συνεργασία")}
         </table>
         <div style="margin-top:22px;padding:16px;border-radius:12px;background:#f7f9fc">
           <strong>Μήνυμα</strong>
@@ -156,7 +193,7 @@ export async function POST(request: NextRequest) {
         from,
         to: [to],
         reply_to: email,
-        subject: `Dorokartes lead: ${businessName}`,
+        subject: `${claimMerchant ? "Dorokartes claim" : "Dorokartes lead"}: ${leadBusinessName}`,
         html,
       }),
     });

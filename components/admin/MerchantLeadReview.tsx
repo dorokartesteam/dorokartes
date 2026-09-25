@@ -22,6 +22,7 @@ export default function MerchantLeadReview({
     | { type: "idle" }
     | { type: "busy" }
     | { type: "success"; inviteUrl: string; emailSent: boolean }
+    | { type: "followup"; message: string }
     | { type: "error"; message: string }
   >({ type: "idle" });
 
@@ -84,6 +85,28 @@ export default function MerchantLeadReview({
     window.location.reload();
   }
 
+  async function sendFollowUp() {
+    setState({ type: "busy" });
+
+    const response = await fetch(`/api/admin/merchant-leads/${lead.id}/follow-up`, {
+      method: "POST",
+    });
+    const data = await response.json().catch(() => null);
+
+    if (!response.ok) {
+      setState({
+        type: "error",
+        message: data?.error || "Το follow-up email απέτυχε.",
+      });
+      return;
+    }
+
+    setState({
+      type: "followup",
+      message: data?.message || "Το follow-up email στάλθηκε.",
+    });
+  }
+
   return (
     <div style={{ display: "grid", gap: 14 }}>
       <div>
@@ -114,89 +137,42 @@ export default function MerchantLeadReview({
       </label>
 
       <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-        <button
-          className="dk-btn primary"
-          type="button"
-          onClick={approve}
-          disabled={state.type === "busy"}
-        >
+        <button className="dk-btn primary" type="button" onClick={approve} disabled={state.type === "busy"}>
           Approve & create portal access
         </button>
-        <button
-          className="dk-btn"
-          type="button"
-          onClick={reject}
-          disabled={state.type === "busy"}
-        >
+        <button className="dk-btn" type="button" onClick={reject} disabled={state.type === "busy"}>
           Reject
         </button>
+        {lead.status !== "REJECTED" ? (
+          <button className="dk-btn" type="button" onClick={sendFollowUp} disabled={state.type === "busy"}>
+            Send follow-up email
+          </button>
+        ) : null}
       </div>
 
       {state.type === "success" ? (
-        <div
-          style={{
-            padding: 16,
-            borderRadius: 14,
-            background: "#ecfdf5",
-            border: "1px solid #86efac",
-            color: "#14532d",
-            boxShadow: "0 8px 24px rgba(20, 83, 45, 0.08)",
-          }}
-        >
-          <b
-            style={{
-              display: "block",
-              color: "#14532d",
-              fontSize: 15,
-              marginBottom: 6,
-            }}
-          >
-            Portal invitation created.
-          </b>
-
-          <p
-            style={{
-              margin: "0 0 12px",
-              color: "#166534",
-              fontSize: 13,
-              lineHeight: 1.5,
-            }}
-          >
-            {state.emailSent
-              ? "Το invitation email στάλθηκε."
-              : "Το email service δεν είναι ρυθμισμένο — αντέγραψε το link."}
+        <div style={{ padding: 14, borderRadius: 12, background: "#eefbf6", border: "1px solid #bfead8" }}>
+          <b>Portal invitation created.</b>
+          <p style={{ margin: "7px 0" }}>
+            {state.emailSent ? "Το invitation email στάλθηκε." : "Το email service δεν είναι ρυθμισμένο — αντέγραψε το link."}
           </p>
-
           <input
             readOnly
             value={state.inviteUrl}
             onFocus={(e) => e.currentTarget.select()}
-            style={{
-              width: "100%",
-              minHeight: 42,
-              boxSizing: "border-box",
-              padding: "0 12px",
-              border: "1px solid #a7f3d0",
-              borderRadius: 10,
-              background: "#ffffff",
-              color: "#16324a",
-              fontSize: 12,
-              fontFamily: "monospace",
-              outline: "none",
-            }}
+            style={{ width: "100%" }}
           />
         </div>
       ) : null}
 
+      {state.type === "followup" ? (
+        <div style={{ padding: 12, borderRadius: 10, background: "#eefbf6", color: "#176a4d" }}>
+          {state.message}
+        </div>
+      ) : null}
+
       {state.type === "error" ? (
-        <div
-          style={{
-            padding: 12,
-            borderRadius: 10,
-            background: "#fff1f2",
-            color: "#a51f32",
-          }}
-        >
+        <div style={{ padding: 12, borderRadius: 10, background: "#fff1f2", color: "#a51f32" }}>
           {state.message}
         </div>
       ) : null}
