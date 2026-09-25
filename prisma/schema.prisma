@@ -1208,6 +1208,11 @@ model MerchantLead {
   matchedMerchant   Merchant? @relation("MerchantLeadMatch", fields: [matchedMerchantId], references: [id], onDelete: SetNull)
 
   reviewedAt DateTime?
+
+  lastFollowUpAt    DateTime?
+  lastFollowUpStage String?
+  followUpCount     Int       @default(0)
+
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
 

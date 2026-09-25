@@ -20,8 +20,18 @@ export type MerchantLeadModel = runtime.Types.Result.DefaultSelection<Prisma.$Me
 
 export type AggregateMerchantLead = {
   _count: MerchantLeadCountAggregateOutputType | null
+  _avg: MerchantLeadAvgAggregateOutputType | null
+  _sum: MerchantLeadSumAggregateOutputType | null
   _min: MerchantLeadMinAggregateOutputType | null
   _max: MerchantLeadMaxAggregateOutputType | null
+}
+
+export type MerchantLeadAvgAggregateOutputType = {
+  followUpCount: number | null
+}
+
+export type MerchantLeadSumAggregateOutputType = {
+  followUpCount: number | null
 }
 
 export type MerchantLeadMinAggregateOutputType = {
@@ -41,6 +51,9 @@ export type MerchantLeadMinAggregateOutputType = {
   status: $Enums.MerchantLeadStatus | null
   matchedMerchantId: string | null
   reviewedAt: Date | null
+  lastFollowUpAt: Date | null
+  lastFollowUpStage: string | null
+  followUpCount: number | null
   createdAt: Date | null
   updatedAt: Date | null
 }
@@ -62,6 +75,9 @@ export type MerchantLeadMaxAggregateOutputType = {
   status: $Enums.MerchantLeadStatus | null
   matchedMerchantId: string | null
   reviewedAt: Date | null
+  lastFollowUpAt: Date | null
+  lastFollowUpStage: string | null
+  followUpCount: number | null
   createdAt: Date | null
   updatedAt: Date | null
 }
@@ -83,11 +99,22 @@ export type MerchantLeadCountAggregateOutputType = {
   status: number
   matchedMerchantId: number
   reviewedAt: number
+  lastFollowUpAt: number
+  lastFollowUpStage: number
+  followUpCount: number
   createdAt: number
   updatedAt: number
   _all: number
 }
 
+
+export type MerchantLeadAvgAggregateInputType = {
+  followUpCount?: true
+}
+
+export type MerchantLeadSumAggregateInputType = {
+  followUpCount?: true
+}
 
 export type MerchantLeadMinAggregateInputType = {
   id?: true
@@ -106,6 +133,9 @@ export type MerchantLeadMinAggregateInputType = {
   status?: true
   matchedMerchantId?: true
   reviewedAt?: true
+  lastFollowUpAt?: true
+  lastFollowUpStage?: true
+  followUpCount?: true
   createdAt?: true
   updatedAt?: true
 }
@@ -127,6 +157,9 @@ export type MerchantLeadMaxAggregateInputType = {
   status?: true
   matchedMerchantId?: true
   reviewedAt?: true
+  lastFollowUpAt?: true
+  lastFollowUpStage?: true
+  followUpCount?: true
   createdAt?: true
   updatedAt?: true
 }
@@ -148,6 +181,9 @@ export type MerchantLeadCountAggregateInputType = {
   status?: true
   matchedMerchantId?: true
   reviewedAt?: true
+  lastFollowUpAt?: true
+  lastFollowUpStage?: true
+  followUpCount?: true
   createdAt?: true
   updatedAt?: true
   _all?: true
@@ -191,6 +227,18 @@ export type MerchantLeadAggregateArgs<ExtArgs extends runtime.Types.Extensions.I
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
    * 
+   * Select which fields to average
+  **/
+  _avg?: MerchantLeadAvgAggregateInputType
+  /**
+   * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+   * 
+   * Select which fields to sum
+  **/
+  _sum?: MerchantLeadSumAggregateInputType
+  /**
+   * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+   * 
    * Select which fields to find the minimum value
   **/
   _min?: MerchantLeadMinAggregateInputType
@@ -221,6 +269,8 @@ export type MerchantLeadGroupByArgs<ExtArgs extends runtime.Types.Extensions.Int
   take?: number
   skip?: number
   _count?: MerchantLeadCountAggregateInputType | true
+  _avg?: MerchantLeadAvgAggregateInputType
+  _sum?: MerchantLeadSumAggregateInputType
   _min?: MerchantLeadMinAggregateInputType
   _max?: MerchantLeadMaxAggregateInputType
 }
@@ -242,9 +292,14 @@ export type MerchantLeadGroupByOutputType = {
   status: $Enums.MerchantLeadStatus
   matchedMerchantId: string | null
   reviewedAt: Date | null
+  lastFollowUpAt: Date | null
+  lastFollowUpStage: string | null
+  followUpCount: number
   createdAt: Date
   updatedAt: Date
   _count: MerchantLeadCountAggregateOutputType | null
+  _avg: MerchantLeadAvgAggregateOutputType | null
+  _sum: MerchantLeadSumAggregateOutputType | null
   _min: MerchantLeadMinAggregateOutputType | null
   _max: MerchantLeadMaxAggregateOutputType | null
 }
@@ -284,6 +339,9 @@ export type MerchantLeadWhereInput = {
   status?: Prisma.EnumMerchantLeadStatusFilter<"MerchantLead"> | $Enums.MerchantLeadStatus
   matchedMerchantId?: Prisma.StringNullableFilter<"MerchantLead"> | string | null
   reviewedAt?: Prisma.DateTimeNullableFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpAt?: Prisma.DateTimeNullableFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpStage?: Prisma.StringNullableFilter<"MerchantLead"> | string | null
+  followUpCount?: Prisma.IntFilter<"MerchantLead"> | number
   createdAt?: Prisma.DateTimeFilter<"MerchantLead"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"MerchantLead"> | Date | string
   matchedMerchant?: Prisma.XOR<Prisma.MerchantNullableScalarRelationFilter, Prisma.MerchantWhereInput> | null
@@ -306,6 +364,9 @@ export type MerchantLeadOrderByWithRelationInput = {
   status?: Prisma.SortOrder
   matchedMerchantId?: Prisma.SortOrderInput | Prisma.SortOrder
   reviewedAt?: Prisma.SortOrderInput | Prisma.SortOrder
+  lastFollowUpAt?: Prisma.SortOrderInput | Prisma.SortOrder
+  lastFollowUpStage?: Prisma.SortOrderInput | Prisma.SortOrder
+  followUpCount?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
   matchedMerchant?: Prisma.MerchantOrderByWithRelationInput
@@ -331,6 +392,9 @@ export type MerchantLeadWhereUniqueInput = Prisma.AtLeast<{
   status?: Prisma.EnumMerchantLeadStatusFilter<"MerchantLead"> | $Enums.MerchantLeadStatus
   matchedMerchantId?: Prisma.StringNullableFilter<"MerchantLead"> | string | null
   reviewedAt?: Prisma.DateTimeNullableFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpAt?: Prisma.DateTimeNullableFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpStage?: Prisma.StringNullableFilter<"MerchantLead"> | string | null
+  followUpCount?: Prisma.IntFilter<"MerchantLead"> | number
   createdAt?: Prisma.DateTimeFilter<"MerchantLead"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"MerchantLead"> | Date | string
   matchedMerchant?: Prisma.XOR<Prisma.MerchantNullableScalarRelationFilter, Prisma.MerchantWhereInput> | null
@@ -353,11 +417,16 @@ export type MerchantLeadOrderByWithAggregationInput = {
   status?: Prisma.SortOrder
   matchedMerchantId?: Prisma.SortOrderInput | Prisma.SortOrder
   reviewedAt?: Prisma.SortOrderInput | Prisma.SortOrder
+  lastFollowUpAt?: Prisma.SortOrderInput | Prisma.SortOrder
+  lastFollowUpStage?: Prisma.SortOrderInput | Prisma.SortOrder
+  followUpCount?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
   _count?: Prisma.MerchantLeadCountOrderByAggregateInput
+  _avg?: Prisma.MerchantLeadAvgOrderByAggregateInput
   _max?: Prisma.MerchantLeadMaxOrderByAggregateInput
   _min?: Prisma.MerchantLeadMinOrderByAggregateInput
+  _sum?: Prisma.MerchantLeadSumOrderByAggregateInput
 }
 
 export type MerchantLeadScalarWhereWithAggregatesInput = {
@@ -380,6 +449,9 @@ export type MerchantLeadScalarWhereWithAggregatesInput = {
   status?: Prisma.EnumMerchantLeadStatusWithAggregatesFilter<"MerchantLead"> | $Enums.MerchantLeadStatus
   matchedMerchantId?: Prisma.StringNullableWithAggregatesFilter<"MerchantLead"> | string | null
   reviewedAt?: Prisma.DateTimeNullableWithAggregatesFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpAt?: Prisma.DateTimeNullableWithAggregatesFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpStage?: Prisma.StringNullableWithAggregatesFilter<"MerchantLead"> | string | null
+  followUpCount?: Prisma.IntWithAggregatesFilter<"MerchantLead"> | number
   createdAt?: Prisma.DateTimeWithAggregatesFilter<"MerchantLead"> | Date | string
   updatedAt?: Prisma.DateTimeWithAggregatesFilter<"MerchantLead"> | Date | string
 }
@@ -400,6 +472,9 @@ export type MerchantLeadCreateInput = {
   message?: string | null
   status?: $Enums.MerchantLeadStatus
   reviewedAt?: Date | string | null
+  lastFollowUpAt?: Date | string | null
+  lastFollowUpStage?: string | null
+  followUpCount?: number
   createdAt?: Date | string
   updatedAt?: Date | string
   matchedMerchant?: Prisma.MerchantCreateNestedOneWithoutMerchantLeadsInput
@@ -422,6 +497,9 @@ export type MerchantLeadUncheckedCreateInput = {
   status?: $Enums.MerchantLeadStatus
   matchedMerchantId?: string | null
   reviewedAt?: Date | string | null
+  lastFollowUpAt?: Date | string | null
+  lastFollowUpStage?: string | null
+  followUpCount?: number
   createdAt?: Date | string
   updatedAt?: Date | string
 }
@@ -442,6 +520,9 @@ export type MerchantLeadUpdateInput = {
   message?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   matchedMerchant?: Prisma.MerchantUpdateOneWithoutMerchantLeadsNestedInput
@@ -464,6 +545,9 @@ export type MerchantLeadUncheckedUpdateInput = {
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   matchedMerchantId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -485,6 +569,9 @@ export type MerchantLeadCreateManyInput = {
   status?: $Enums.MerchantLeadStatus
   matchedMerchantId?: string | null
   reviewedAt?: Date | string | null
+  lastFollowUpAt?: Date | string | null
+  lastFollowUpStage?: string | null
+  followUpCount?: number
   createdAt?: Date | string
   updatedAt?: Date | string
 }
@@ -505,6 +592,9 @@ export type MerchantLeadUpdateManyMutationInput = {
   message?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -526,6 +616,9 @@ export type MerchantLeadUncheckedUpdateManyInput = {
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   matchedMerchantId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -557,8 +650,15 @@ export type MerchantLeadCountOrderByAggregateInput = {
   status?: Prisma.SortOrder
   matchedMerchantId?: Prisma.SortOrder
   reviewedAt?: Prisma.SortOrder
+  lastFollowUpAt?: Prisma.SortOrder
+  lastFollowUpStage?: Prisma.SortOrder
+  followUpCount?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+}
+
+export type MerchantLeadAvgOrderByAggregateInput = {
+  followUpCount?: Prisma.SortOrder
 }
 
 export type MerchantLeadMaxOrderByAggregateInput = {
@@ -578,6 +678,9 @@ export type MerchantLeadMaxOrderByAggregateInput = {
   status?: Prisma.SortOrder
   matchedMerchantId?: Prisma.SortOrder
   reviewedAt?: Prisma.SortOrder
+  lastFollowUpAt?: Prisma.SortOrder
+  lastFollowUpStage?: Prisma.SortOrder
+  followUpCount?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
 }
@@ -599,8 +702,15 @@ export type MerchantLeadMinOrderByAggregateInput = {
   status?: Prisma.SortOrder
   matchedMerchantId?: Prisma.SortOrder
   reviewedAt?: Prisma.SortOrder
+  lastFollowUpAt?: Prisma.SortOrder
+  lastFollowUpStage?: Prisma.SortOrder
+  followUpCount?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+}
+
+export type MerchantLeadSumOrderByAggregateInput = {
+  followUpCount?: Prisma.SortOrder
 }
 
 export type MerchantLeadCreateNestedManyWithoutMatchedMerchantInput = {
@@ -669,6 +779,9 @@ export type MerchantLeadCreateWithoutMatchedMerchantInput = {
   message?: string | null
   status?: $Enums.MerchantLeadStatus
   reviewedAt?: Date | string | null
+  lastFollowUpAt?: Date | string | null
+  lastFollowUpStage?: string | null
+  followUpCount?: number
   createdAt?: Date | string
   updatedAt?: Date | string
 }
@@ -689,6 +802,9 @@ export type MerchantLeadUncheckedCreateWithoutMatchedMerchantInput = {
   message?: string | null
   status?: $Enums.MerchantLeadStatus
   reviewedAt?: Date | string | null
+  lastFollowUpAt?: Date | string | null
+  lastFollowUpStage?: string | null
+  followUpCount?: number
   createdAt?: Date | string
   updatedAt?: Date | string
 }
@@ -739,6 +855,9 @@ export type MerchantLeadScalarWhereInput = {
   status?: Prisma.EnumMerchantLeadStatusFilter<"MerchantLead"> | $Enums.MerchantLeadStatus
   matchedMerchantId?: Prisma.StringNullableFilter<"MerchantLead"> | string | null
   reviewedAt?: Prisma.DateTimeNullableFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpAt?: Prisma.DateTimeNullableFilter<"MerchantLead"> | Date | string | null
+  lastFollowUpStage?: Prisma.StringNullableFilter<"MerchantLead"> | string | null
+  followUpCount?: Prisma.IntFilter<"MerchantLead"> | number
   createdAt?: Prisma.DateTimeFilter<"MerchantLead"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"MerchantLead"> | Date | string
 }
@@ -759,6 +878,9 @@ export type MerchantLeadCreateManyMatchedMerchantInput = {
   message?: string | null
   status?: $Enums.MerchantLeadStatus
   reviewedAt?: Date | string | null
+  lastFollowUpAt?: Date | string | null
+  lastFollowUpStage?: string | null
+  followUpCount?: number
   createdAt?: Date | string
   updatedAt?: Date | string
 }
@@ -779,6 +901,9 @@ export type MerchantLeadUpdateWithoutMatchedMerchantInput = {
   message?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -799,6 +924,9 @@ export type MerchantLeadUncheckedUpdateWithoutMatchedMerchantInput = {
   message?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -819,6 +947,9 @@ export type MerchantLeadUncheckedUpdateManyWithoutMatchedMerchantInput = {
   message?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumMerchantLeadStatusFieldUpdateOperationsInput | $Enums.MerchantLeadStatus
   reviewedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  lastFollowUpStage?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  followUpCount?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
@@ -842,6 +973,9 @@ export type MerchantLeadSelect<ExtArgs extends runtime.Types.Extensions.Internal
   status?: boolean
   matchedMerchantId?: boolean
   reviewedAt?: boolean
+  lastFollowUpAt?: boolean
+  lastFollowUpStage?: boolean
+  followUpCount?: boolean
   createdAt?: boolean
   updatedAt?: boolean
   matchedMerchant?: boolean | Prisma.MerchantLead$matchedMerchantArgs<ExtArgs>
@@ -864,6 +998,9 @@ export type MerchantLeadSelectCreateManyAndReturn<ExtArgs extends runtime.Types.
   status?: boolean
   matchedMerchantId?: boolean
   reviewedAt?: boolean
+  lastFollowUpAt?: boolean
+  lastFollowUpStage?: boolean
+  followUpCount?: boolean
   createdAt?: boolean
   updatedAt?: boolean
   matchedMerchant?: boolean | Prisma.MerchantLead$matchedMerchantArgs<ExtArgs>
@@ -886,6 +1023,9 @@ export type MerchantLeadSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.
   status?: boolean
   matchedMerchantId?: boolean
   reviewedAt?: boolean
+  lastFollowUpAt?: boolean
+  lastFollowUpStage?: boolean
+  followUpCount?: boolean
   createdAt?: boolean
   updatedAt?: boolean
   matchedMerchant?: boolean | Prisma.MerchantLead$matchedMerchantArgs<ExtArgs>
@@ -908,11 +1048,14 @@ export type MerchantLeadSelectScalar = {
   status?: boolean
   matchedMerchantId?: boolean
   reviewedAt?: boolean
+  lastFollowUpAt?: boolean
+  lastFollowUpStage?: boolean
+  followUpCount?: boolean
   createdAt?: boolean
   updatedAt?: boolean
 }
 
-export type MerchantLeadOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "businessName" | "contactName" | "email" | "phone" | "website" | "businessType" | "region" | "category" | "giftCardStatus" | "giftCardUrl" | "requestedPlan" | "message" | "status" | "matchedMerchantId" | "reviewedAt" | "createdAt" | "updatedAt", ExtArgs["result"]["merchantLead"]>
+export type MerchantLeadOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "businessName" | "contactName" | "email" | "phone" | "website" | "businessType" | "region" | "category" | "giftCardStatus" | "giftCardUrl" | "requestedPlan" | "message" | "status" | "matchedMerchantId" | "reviewedAt" | "lastFollowUpAt" | "lastFollowUpStage" | "followUpCount" | "createdAt" | "updatedAt", ExtArgs["result"]["merchantLead"]>
 export type MerchantLeadInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   matchedMerchant?: boolean | Prisma.MerchantLead$matchedMerchantArgs<ExtArgs>
 }
@@ -945,6 +1088,9 @@ export type $MerchantLeadPayload<ExtArgs extends runtime.Types.Extensions.Intern
     status: $Enums.MerchantLeadStatus
     matchedMerchantId: string | null
     reviewedAt: Date | null
+    lastFollowUpAt: Date | null
+    lastFollowUpStage: string | null
+    followUpCount: number
     createdAt: Date
     updatedAt: Date
   }, ExtArgs["result"]["merchantLead"]>
@@ -1387,6 +1533,9 @@ export interface MerchantLeadFieldRefs {
   readonly status: Prisma.FieldRef<"MerchantLead", 'MerchantLeadStatus'>
   readonly matchedMerchantId: Prisma.FieldRef<"MerchantLead", 'String'>
   readonly reviewedAt: Prisma.FieldRef<"MerchantLead", 'DateTime'>
+  readonly lastFollowUpAt: Prisma.FieldRef<"MerchantLead", 'DateTime'>
+  readonly lastFollowUpStage: Prisma.FieldRef<"MerchantLead", 'String'>
+  readonly followUpCount: Prisma.FieldRef<"MerchantLead", 'Int'>
   readonly createdAt: Prisma.FieldRef<"MerchantLead", 'DateTime'>
   readonly updatedAt: Prisma.FieldRef<"MerchantLead", 'DateTime'>
 }

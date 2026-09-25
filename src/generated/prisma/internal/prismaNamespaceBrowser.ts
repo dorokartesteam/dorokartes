@@ -644,6 +644,9 @@ export const MerchantLeadScalarFieldEnum = {
   status: 'status',
   matchedMerchantId: 'matchedMerchantId',
   reviewedAt: 'reviewedAt',
+  lastFollowUpAt: 'lastFollowUpAt',
+  lastFollowUpStage: 'lastFollowUpStage',
+  followUpCount: 'followUpCount',
   createdAt: 'createdAt',
   updatedAt: 'updatedAt'
 } as const

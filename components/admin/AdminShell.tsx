@@ -19,6 +19,7 @@ const groups: NavGroup[] = [
       ["Launch", "/admin/launch", "◉"],
       ["Analytics", "/admin/analytics", "↗"],
       ["Revenue", "/admin/revenue", "€"],
+      ["Activation", "/admin/activation", "◎"],
     ],
   },
   {

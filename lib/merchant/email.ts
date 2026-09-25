@@ -224,3 +224,46 @@ function escapeHtml(value: string) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
+
+export async function sendMerchantActivationReminder(input: {
+  to: string;
+  contactName?: string | null;
+  merchantName: string;
+  stage: "INVITE_PENDING" | "SUBSCRIPTION_PENDING";
+  actionUrl: string;
+  loginUrl: string;
+}) {
+  const greeting = input.contactName
+    ? `Γεια σου ${escapeHtml(input.contactName)},`
+    : "Γεια σου,";
+
+  const invitePending = input.stage === "INVITE_PENDING";
+
+  return sendEmail({
+    to: input.to,
+    subject: invitePending
+      ? `Dorokartes — ενεργοποίησε το προφίλ ${input.merchantName}`
+      : `Dorokartes — ολοκλήρωσε το setup για το ${input.merchantName}`,
+    html: `
+      <div style="font-family:Arial,sans-serif;max-width:640px;margin:auto;color:#14213d">
+        <div style="padding:28px;border:1px solid #e7ebf3;border-radius:18px;background:#ffffff">
+          <p style="margin:0 0 8px;font-size:12px;font-weight:700;color:#6b7ca4;letter-spacing:.06em">DOROKARTES MERCHANT</p>
+          <h2 style="margin:0 0 18px;font-size:25px">${invitePending ? "Η πρόσβασή σου είναι έτοιμη" : "Απομένει ένα τελευταίο βήμα"}</h2>
+          <p>${greeting}</p>
+          <p style="line-height:1.7">
+            ${invitePending
+              ? `Το προφίλ <strong>${escapeHtml(input.merchantName)}</strong> έχει εγκριθεί, αλλά η πρόσβαση στο Merchant Portal δεν έχει ενεργοποιηθεί ακόμη. Ο νέος σύνδεσμος παρακάτω είναι ενεργός για 7 ημέρες.`
+              : `Το Merchant Portal για το <strong>${escapeHtml(input.merchantName)}</strong> είναι ενεργό. Για να ενεργοποιηθούν τα Partner / Featured / Premium benefits, επίλεξε το πακέτο που ταιριάζει στην επιχείρησή σου.`}
+          </p>
+          <p style="margin:28px 0">
+            <a href="${escapeHtml(input.actionUrl)}" style="display:inline-block;padding:14px 20px;border-radius:12px;background:#315fe9;color:white;text-decoration:none;font-weight:700">
+              ${invitePending ? "Ενεργοποίηση Merchant Portal" : "Δες τα πακέτα"}
+            </a>
+          </p>
+          ${invitePending ? "" : `<p style="font-size:12px;color:#77839a;line-height:1.6">Αν δεν είσαι ήδη συνδεδεμένος, μπες πρώτα από <a href="${escapeHtml(input.loginUrl)}" style="color:#315fe9">Merchant Login</a>.</p>`}
+        </div>
+      </div>
+    `,
+  });
+}

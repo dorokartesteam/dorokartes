@@ -1,0 +1,4 @@
+ALTER TABLE "MerchantLead"
+ADD COLUMN "lastFollowUpAt" TIMESTAMP(3),
+ADD COLUMN "lastFollowUpStage" TEXT,
+ADD COLUMN "followUpCount" INTEGER NOT NULL DEFAULT 0;

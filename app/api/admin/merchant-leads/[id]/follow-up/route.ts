@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { addMinutes, hashToken, newToken, normalizeEmail } from "@/lib/merchant/security";
 import { sendMerchantLeadFollowUp } from "@/lib/merchant/email";
+import { sendActivationFollowUp } from "@/lib/merchant/follow-up";
 
 export const runtime = "nodejs";
 
@@ -31,50 +31,27 @@ export async function POST(
     );
   }
 
-  let portalUrl: string | null = null;
-
   if (lead.status === "APPROVED") {
-    if (!lead.matchedMerchantId || !lead.matchedMerchant) {
+    try {
+      const result = await sendActivationFollowUp({
+        leadId: lead.id,
+        origin: new URL(request.url).origin,
+        automated: false,
+      });
+
+      return NextResponse.json({
+        ok: true,
+        message:
+          result.stage === "INVITE_PENDING"
+            ? "Στάλθηκε νέο activation reminder."
+            : "Στάλθηκε reminder για ολοκλήρωση πακέτου.",
+      });
+    } catch (error) {
       return NextResponse.json(
-        { error: "Το approved lead δεν έχει matched merchant." },
+        { error: error instanceof Error ? error.message : "Το follow-up email απέτυχε." },
         { status: 409 },
       );
     }
-
-    const email = normalizeEmail(lead.email);
-    const member = await prisma.merchantMember.findUnique({
-      where: {
-        merchantId_email: {
-          merchantId: lead.matchedMerchantId,
-          email,
-        },
-      },
-    });
-
-    if (!member || member.status === "SUSPENDED") {
-      return NextResponse.json(
-        { error: "Δεν υπάρχει ενεργό portal member για αυτό το lead." },
-        { status: 409 },
-      );
-    }
-
-    const token = newToken();
-    const tokenHash = hashToken(token);
-
-    await prisma.merchantMagicLink.create({
-      data: {
-        memberId: member.id,
-        purpose: "LOGIN",
-        tokenHash,
-        expiresAt: addMinutes(new Date(), 15),
-      },
-    });
-
-    const baseUrl =
-      process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") ||
-      new URL(request.url).origin;
-
-    portalUrl = `${baseUrl}/merchant/invite?token=${encodeURIComponent(token)}`;
   }
 
   const mail = await sendMerchantLeadFollowUp({
@@ -82,7 +59,7 @@ export async function POST(
     contactName: lead.contactName,
     businessName: lead.matchedMerchant?.name || lead.businessName,
     status: lead.status,
-    portalUrl,
+    portalUrl: null,
   });
 
   if (!mail.sent) {
@@ -94,9 +71,6 @@ export async function POST(
 
   return NextResponse.json({
     ok: true,
-    message:
-      lead.status === "APPROVED"
-        ? "Στάλθηκε νέο Merchant Portal login link."
-        : "Στάλθηκε ενημέρωση ότι το αίτημα βρίσκεται σε έλεγχο.",
+    message: "Στάλθηκε ενημέρωση ότι το αίτημα βρίσκεται σε έλεγχο.",
   });
 }
