@@ -166,6 +166,56 @@ export async function sendMerchantLeadFollowUp(input: {
   });
 }
 
+
+export async function sendMerchantWelcome(input: {
+  to: string;
+  contactName?: string | null;
+  merchantName: string;
+  dashboardUrl: string;
+  profileUrl: string;
+  billingUrl: string;
+}) {
+  const greeting = input.contactName
+    ? `Γεια σου ${escapeHtml(input.contactName)},`
+    : "Γεια σου,";
+
+  return sendEmail({
+    to: input.to,
+    subject: `Dorokartes — καλώς ήρθες στο Merchant Portal`,
+    html: `
+      <div style="font-family:Arial,sans-serif;max-width:640px;margin:auto;color:#14213d">
+        <div style="padding:28px;border:1px solid #e7ebf3;border-radius:18px;background:#ffffff">
+          <p style="margin:0 0 8px;font-size:12px;font-weight:700;color:#6b7ca4;letter-spacing:.06em">MERCHANT ONBOARDING</p>
+          <h2 style="margin:0 0 18px;font-size:26px">Καλώς ήρθες στο Dorokartes</h2>
+          <p>${greeting}</p>
+          <p style="line-height:1.7">
+            Ο λογαριασμός για το <strong>${escapeHtml(input.merchantName)}</strong> ενεργοποιήθηκε.
+            Από εδώ και πέρα μπορείς να ολοκληρώσεις μόνος σου τα βασικά βήματα μέσα από το Merchant Portal.
+          </p>
+
+          <div style="margin:24px 0;padding:18px;border-radius:14px;background:#f6f8fd">
+            <p style="margin:0 0 12px"><strong>1.</strong> Έλεγξε το προφίλ και το λογότυπό σου.</p>
+            <p style="margin:0 0 12px"><strong>2.</strong> Επιβεβαίωσε τις δωροκάρτες που είναι συνδεδεμένες με το brand.</p>
+            <p style="margin:0"><strong>3.</strong> Επίλεξε Partner, Featured ή Premium Banner.</p>
+          </div>
+
+          <p style="margin:28px 0 18px">
+            <a href="${escapeHtml(input.dashboardUrl)}"
+               style="display:inline-block;padding:14px 20px;border-radius:12px;background:#315fe9;color:white;text-decoration:none;font-weight:700">
+              Άνοιξε το Merchant Portal
+            </a>
+          </p>
+
+          <p style="margin:0;font-size:12px;line-height:1.7;color:#77839a">
+            Προφίλ: <a href="${escapeHtml(input.profileUrl)}" style="color:#315fe9">${escapeHtml(input.profileUrl)}</a><br>
+            Πακέτα: <a href="${escapeHtml(input.billingUrl)}" style="color:#315fe9">${escapeHtml(input.billingUrl)}</a>
+          </p>
+        </div>
+      </div>
+    `,
+  });
+}
+
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")

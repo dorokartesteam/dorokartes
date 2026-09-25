@@ -1,0 +1,183 @@
+/* Dorokartes Merchant Portal V4.3 — guided merchant onboarding */
+
+.dkm43-onboarding {
+  padding: 24px;
+  border: 1px solid #dde5f1;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff 0%, #fbfcff 100%);
+  box-shadow: 0 10px 34px rgba(24, 44, 91, .055);
+}
+
+.dkm43-onboarding-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.dkm43-onboarding-head > div:first-child > span {
+  display: block;
+  margin-bottom: 7px;
+  color: #6477a2;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 780;
+  letter-spacing: .075em;
+}
+
+.dkm43-onboarding-head h2 {
+  margin: 0;
+  color: #102142;
+  font-size: 23px;
+  line-height: 1.18;
+  font-weight: 730;
+  letter-spacing: -.018em;
+}
+
+.dkm43-onboarding-head p {
+  margin: 8px 0 0;
+  color: #7786a1;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.dkm43-progress-copy {
+  flex: 0 0 auto;
+  min-width: 94px;
+  text-align: right;
+}
+
+.dkm43-progress-copy b {
+  display: block;
+  color: #243d91;
+  font-size: 23px;
+  line-height: 1;
+  font-weight: 760;
+}
+
+.dkm43-progress-copy span {
+  display: block;
+  margin-top: 6px;
+  color: #8b98ad;
+  font-size: 10.5px;
+}
+
+.dkm43-progress {
+  height: 7px;
+  margin: 20px 0 18px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #edf1f7;
+}
+
+.dkm43-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #315fe9, #7554ee);
+  transition: width .25s ease;
+}
+
+.dkm43-onboarding-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.dkm43-onboarding-grid article {
+  min-height: 118px;
+  padding: 17px;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-items: start;
+  gap: 0 13px;
+  border: 1px solid #e2e8f2;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.dkm43-onboarding-grid article.is-done {
+  border-color: #d7eee6;
+  background: #fbfffd;
+}
+
+.dkm43-step-number {
+  grid-row: 1 / span 2;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #eef2ff;
+  color: #5369db;
+  font-size: 12px;
+  font-weight: 780;
+}
+
+.is-done .dkm43-step-number {
+  background: #e8f8f1;
+  color: #0a9368;
+  font-size: 17px;
+}
+
+.dkm43-step-copy b {
+  display: block;
+  color: #182b4b;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.dkm43-step-copy p {
+  margin: 6px 0 0;
+  color: #7a89a2;
+  font-size: 11.5px;
+  line-height: 1.48;
+}
+
+.dkm43-onboarding-grid article > a,
+.dkm43-done-label {
+  grid-column: 2;
+  margin-top: 12px;
+  min-height: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+}
+
+.dkm43-onboarding-grid article > a {
+  padding: 0 10px;
+  border: 1px solid #dce4f2;
+  border-radius: 9px;
+  background: #f9fbff;
+  color: #3159ca;
+  font-size: 10.5px;
+  font-weight: 690;
+  text-decoration: none;
+}
+
+.dkm43-onboarding-grid article > a svg {
+  width: 14px;
+  height: 14px;
+}
+
+.dkm43-done-label {
+  color: #0b8c65;
+  font-size: 9.5px;
+  font-weight: 760;
+  letter-spacing: .045em;
+}
+
+@media (max-width: 900px) {
+  .dkm43-onboarding-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .dkm43-onboarding { padding: 20px 17px; border-radius: 17px; }
+  .dkm43-onboarding-head { align-items: flex-start; flex-direction: column; gap: 14px; }
+  .dkm43-progress-copy { text-align: left; }
+  .dkm43-onboarding-grid article { grid-template-columns: 38px minmax(0, 1fr); padding: 15px; }
+  .dkm43-step-number { width: 38px; height: 38px; }
+}

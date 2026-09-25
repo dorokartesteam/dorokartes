@@ -6,6 +6,7 @@ import {
   MERCHANT_SESSION_COOKIE,
   newToken,
 } from "@/lib/merchant/security";
+import { sendMerchantWelcome } from "@/lib/merchant/email";
 
 export const runtime = "nodejs";
 
@@ -18,7 +19,15 @@ export async function GET(request: NextRequest) {
   const tokenHash = hashToken(token);
   const link = await prisma.merchantMagicLink.findUnique({
     where: { tokenHash },
-    include: { member: true },
+    include: {
+      member: {
+        include: {
+          merchant: {
+            select: { name: true },
+          },
+        },
+      },
+    },
   });
 
   if (
@@ -30,6 +39,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.redirect(new URL("/merchant/login?error=expired-link", request.url));
   }
 
+  const firstActivation = link.purpose === "INVITE" && link.member.status === "INVITED";
   const sessionToken = newToken();
   const sessionHash = hashToken(sessionToken);
   const expiresAt = addDays(new Date(), 30);
@@ -52,7 +62,28 @@ export async function GET(request: NextRequest) {
     }),
   ]);
 
-  const response = NextResponse.redirect(new URL("/merchant", request.url));
+  if (firstActivation) {
+    const baseUrl =
+      process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") ||
+      new URL(request.url).origin;
+
+    try {
+      await sendMerchantWelcome({
+        to: link.member.email,
+        contactName: link.member.name,
+        merchantName: link.member.merchant.name,
+        dashboardUrl: `${baseUrl}/merchant`,
+        profileUrl: `${baseUrl}/merchant/profile`,
+        billingUrl: `${baseUrl}/merchant/billing`,
+      });
+    } catch (error) {
+      console.error("Dorokartes merchant welcome email failed", error);
+    }
+  }
+
+  const response = NextResponse.redirect(
+    new URL(firstActivation ? "/merchant?welcome=1" : "/merchant", request.url),
+  );
 
   response.cookies.set({
     name: MERCHANT_SESSION_COOKIE,

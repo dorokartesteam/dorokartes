@@ -11,11 +11,51 @@ function statusLabel(status: string) {
 }
 
 function TinyIcon({ kind }: { kind: "gift" | "chart" | "arrow" }) {
-  const common = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 1.9, strokeLinecap: "round" as const, strokeLinejoin: "round" as const, "aria-hidden": true };
-  if (kind === "gift") return <svg {...common}><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M12 8v12M3 12h18"/><path d="M12 8H8.5A2.5 2.5 0 1 1 11 5.5V8ZM12 8h3.5A2.5 2.5 0 1 0 13 5.5V8Z"/></svg>;
-  if (kind === "chart") return <svg {...common}><path d="M4 20V10M10 20V4M16 20v-7M22 20V8"/></svg>;
-  return <svg {...common}><path d="M5 12h14"/><path d="m14 7 5 5-5 5"/></svg>;
+  const common = {
+    width: 18,
+    height: 18,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 1.9,
+    strokeLinecap: "round" as const,
+    strokeLinejoin: "round" as const,
+    "aria-hidden": true,
+  };
+
+  if (kind === "gift") {
+    return (
+      <svg {...common}>
+        <rect x="3" y="8" width="18" height="12" rx="2" />
+        <path d="M12 8v12M3 12h18" />
+        <path d="M12 8H8.5A2.5 2.5 0 1 1 11 5.5V8ZM12 8h3.5A2.5 2.5 0 1 0 13 5.5V8Z" />
+      </svg>
+    );
+  }
+
+  if (kind === "chart") {
+    return (
+      <svg {...common}>
+        <path d="M4 20V10M10 20V4M16 20v-7M22 20V8" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg {...common}>
+      <path d="M5 12h14" />
+      <path d="m14 7 5 5-5 5" />
+    </svg>
+  );
 }
+
+type OnboardingStep = {
+  title: string;
+  text: string;
+  done: boolean;
+  href: string;
+  action: string;
+};
 
 export default async function MerchantDashboardPage() {
   const member = await requireMerchantMember();
@@ -28,7 +68,13 @@ export default async function MerchantDashboardPage() {
     prisma.outboundClick.count({ where: { merchantId, clickedAt: { gte: since } } }),
     prisma.giftCard.findMany({
       where: { merchantId },
-      select: { id: true, title: true, slug: true, status: true, verificationStatus: true },
+      select: {
+        id: true,
+        title: true,
+        slug: true,
+        status: true,
+        verificationStatus: true,
+      },
       orderBy: { updatedAt: "desc" },
       take: 5,
     }),
@@ -38,6 +84,46 @@ export default async function MerchantDashboardPage() {
   const currentPlan = subscription?.plan || "PARTNER";
   const currentStatus = subscription?.status || "PENDING";
   const displayName = member.name || member.merchant.name;
+
+  const profileComplete = Boolean(
+    member.merchant.websiteUrl?.trim() && member.merchant.logoUrl?.trim(),
+  );
+  const subscriptionActive = currentStatus === "ACTIVE";
+
+  const onboardingSteps: OnboardingStep[] = [
+    {
+      title: "Merchant account",
+      text: "Η πρόσβασή σου στο Merchant Portal είναι ενεργή.",
+      done: member.status === "ACTIVE",
+      href: "/merchant",
+      action: "Έτοιμο",
+    },
+    {
+      title: "Ολοκλήρωσε το προφίλ",
+      text: "Πρόσθεσε website και λογότυπο για ολοκληρωμένη εταιρική παρουσία.",
+      done: profileComplete,
+      href: "/merchant/profile",
+      action: "Άνοιξε προφίλ",
+    },
+    {
+      title: "Έλεγξε τις δωροκάρτες",
+      text: "Βεβαιώσου ότι τουλάχιστον μία δωροκάρτα είναι συνδεδεμένη με το brand σου.",
+      done: cardCount > 0,
+      href: "/merchant/gift-cards",
+      action: "Δες δωροκάρτες",
+    },
+    {
+      title: "Ενεργοποίησε πακέτο",
+      text: "Επίλεξε Partner, Featured ή Premium για να ενεργοποιηθούν τα εμπορικά benefits.",
+      done: subscriptionActive,
+      href: "/merchant/billing",
+      action: "Δες πακέτα",
+    },
+  ];
+
+  const completedSteps = onboardingSteps.filter((step) => step.done).length;
+  const onboardingComplete = completedSteps === onboardingSteps.length;
+  const onboardingPercent = Math.round((completedSteps / onboardingSteps.length) * 100);
 
   return (
     <div className="dkm-page-stack dkm4-page-stack">
@@ -51,8 +137,12 @@ export default async function MerchantDashboardPage() {
             και δες το πραγματικό traffic που στέλνουμε προς την επιχείρησή σου.
           </p>
           <div className="dkm4-hero-actions">
-            <Link href="/merchant/gift-cards" className="dkm4-button dkm4-button-primary"><TinyIcon kind="gift" /> Δες τις δωροκάρτες</Link>
-            <Link href="/merchant/analytics" className="dkm4-button dkm4-button-ghost"><TinyIcon kind="chart" /> Άνοιξε Analytics</Link>
+            <Link href="/merchant/gift-cards" className="dkm4-button dkm4-button-primary">
+              <TinyIcon kind="gift" /> Δες τις δωροκάρτες
+            </Link>
+            <Link href="/merchant/analytics" className="dkm4-button dkm4-button-ghost">
+              <TinyIcon kind="chart" /> Άνοιξε Analytics
+            </Link>
           </div>
         </div>
 
@@ -65,14 +155,53 @@ export default async function MerchantDashboardPage() {
           </div>
           <h2>{planLabel(currentPlan)}</h2>
           <p>
-            {currentStatus === "ACTIVE"
+            {subscriptionActive
               ? "Η συνδρομή σου είναι ενεργή και το brand σου έχει εμπορική παρουσία στο Dorokartes."
               : "Ολοκλήρωσε την ενεργοποίηση για να ξεκλειδώσεις την πλήρη εμπορική παρουσία."}
           </p>
           <div className="dkm4-plan-divider" />
-          <Link href="/merchant/billing">Διαχείριση πακέτου <TinyIcon kind="arrow" /></Link>
+          <Link href="/merchant/billing">
+            {subscriptionActive ? "Διαχείριση πακέτου" : "Ενεργοποίηση πακέτου"} <TinyIcon kind="arrow" />
+          </Link>
         </div>
       </section>
+
+      {!onboardingComplete ? (
+        <section className="dkm43-onboarding" aria-labelledby="merchant-onboarding-title">
+          <div className="dkm43-onboarding-head">
+            <div>
+              <span>ΓΡΗΓΟΡΗ ΕΚΚΙΝΗΣΗ</span>
+              <h2 id="merchant-onboarding-title">Ολοκλήρωσε το setup της επιχείρησής σου</h2>
+              <p>Τέσσερα βήματα μέχρι να είναι πλήρως ενεργή η εμπορική παρουσία σου στο Dorokartes.</p>
+            </div>
+            <div className="dkm43-progress-copy">
+              <b>{completedSteps}/{onboardingSteps.length}</b>
+              <span>ολοκληρωμένα</span>
+            </div>
+          </div>
+
+          <div className="dkm43-progress" aria-label={`Onboarding ${onboardingPercent}%`}>
+            <span style={{ width: `${onboardingPercent}%` }} />
+          </div>
+
+          <div className="dkm43-onboarding-grid">
+            {onboardingSteps.map((step, index) => (
+              <article className={step.done ? "is-done" : ""} key={step.title}>
+                <div className="dkm43-step-number">{step.done ? "✓" : String(index + 1).padStart(2, "0")}</div>
+                <div className="dkm43-step-copy">
+                  <b>{step.title}</b>
+                  <p>{step.text}</p>
+                </div>
+                {step.done ? (
+                  <span className="dkm43-done-label">ΟΛΟΚΛΗΡΩΘΗΚΕ</span>
+                ) : (
+                  <Link href={step.href}>{step.action} <TinyIcon kind="arrow" /></Link>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="dkm4-metrics">
         <article>
