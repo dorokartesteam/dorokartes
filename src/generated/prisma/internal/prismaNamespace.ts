@@ -80,12 +80,12 @@ export type PrismaVersion = {
 }
 
 /**
- * Prisma Client JS version: 7.10.0
- * Query Engine version: 0edf323efd1d98336f3f0a68684b56f689b900d3
+ * Prisma Client JS version: 7.9.1
+ * Query Engine version: e922089b7d7502aff4249d5da3420f6fa55fc6ad
  */
 export const prismaVersion: PrismaVersion = {
-  client: "7.10.0",
-  engine: "0edf323efd1d98336f3f0a68684b56f689b900d3"
+  client: "7.9.1",
+  engine: "e922089b7d7502aff4249d5da3420f6fa55fc6ad"
 }
 
 /**
@@ -424,6 +424,7 @@ export const ModelName = {
   VerificationEvent: 'VerificationEvent',
   MediaAsset: 'MediaAsset',
   OutboundClick: 'OutboundClick',
+  CatalogViewEvent: 'CatalogViewEvent',
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
   SearchEvent: 'SearchEvent',
@@ -449,7 +450,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "merchant" | "merchantLocation" | "giftCard" | "giftCardLocationCapability" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan" | "merchantLead" | "merchantMember" | "merchantSubscription" | "merchantMagicLink" | "merchantSession" | "premiumPlacement"
+    modelProps: "merchant" | "merchantLocation" | "giftCard" | "giftCardLocationCapability" | "giftCardVariant" | "giftCardValue" | "giftCardRedemption" | "giftCardDelivery" | "category" | "giftCardCategory" | "occasion" | "giftCardOccasion" | "sourceRecord" | "discoveryItem" | "manualCanonicalOverride" | "scoringModelVersion" | "canonicalizationRun" | "canonicalizationDecision" | "discoveryVerificationAttempt" | "manualVerificationOverride" | "domainRediscoveryTask" | "verificationFetchObservation" | "productionReviewFlag" | "productionVerificationSnapshot" | "verificationEvent" | "mediaAsset" | "outboundClick" | "catalogViewEvent" | "importSource" | "crawlJob" | "searchEvent" | "merchantDiscoveryScan" | "merchantLead" | "merchantMember" | "merchantSubscription" | "merchantMagicLink" | "merchantSession" | "premiumPlacement"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -2451,6 +2452,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    CatalogViewEvent: {
+      payload: Prisma.$CatalogViewEventPayload<ExtArgs>
+      fields: Prisma.CatalogViewEventFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.CatalogViewEventFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.CatalogViewEventFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>
+        }
+        findFirst: {
+          args: Prisma.CatalogViewEventFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.CatalogViewEventFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>
+        }
+        findMany: {
+          args: Prisma.CatalogViewEventFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>[]
+        }
+        create: {
+          args: Prisma.CatalogViewEventCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>
+        }
+        createMany: {
+          args: Prisma.CatalogViewEventCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.CatalogViewEventCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>[]
+        }
+        delete: {
+          args: Prisma.CatalogViewEventDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>
+        }
+        update: {
+          args: Prisma.CatalogViewEventUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>
+        }
+        deleteMany: {
+          args: Prisma.CatalogViewEventDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.CatalogViewEventUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.CatalogViewEventUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>[]
+        }
+        upsert: {
+          args: Prisma.CatalogViewEventUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$CatalogViewEventPayload>
+        }
+        aggregate: {
+          args: Prisma.CatalogViewEventAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateCatalogViewEvent>
+        }
+        groupBy: {
+          args: Prisma.CatalogViewEventGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.CatalogViewEventGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.CatalogViewEventCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.CatalogViewEventCountAggregateOutputType> | number
+        }
+      }
+    }
     ImportSource: {
       payload: Prisma.$ImportSourcePayload<ExtArgs>
       fields: Prisma.ImportSourceFieldRefs
@@ -3672,6 +3747,19 @@ export const OutboundClickScalarFieldEnum = {
 export type OutboundClickScalarFieldEnum = (typeof OutboundClickScalarFieldEnum)[keyof typeof OutboundClickScalarFieldEnum]
 
 
+export const CatalogViewEventScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  giftCardId: 'giftCardId',
+  sessionId: 'sessionId',
+  pageType: 'pageType',
+  sourcePath: 'sourcePath',
+  viewedAt: 'viewedAt'
+} as const
+
+export type CatalogViewEventScalarFieldEnum = (typeof CatalogViewEventScalarFieldEnum)[keyof typeof CatalogViewEventScalarFieldEnum]
+
+
 export const ImportSourceScalarFieldEnum = {
   id: 'id',
   name: 'name',
@@ -4496,6 +4584,7 @@ export type GlobalOmitConfig = {
   verificationEvent?: Prisma.VerificationEventOmit
   mediaAsset?: Prisma.MediaAssetOmit
   outboundClick?: Prisma.OutboundClickOmit
+  catalogViewEvent?: Prisma.CatalogViewEventOmit
   importSource?: Prisma.ImportSourceOmit
   crawlJob?: Prisma.CrawlJobOmit
   searchEvent?: Prisma.SearchEventOmit

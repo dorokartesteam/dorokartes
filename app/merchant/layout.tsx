@@ -5,6 +5,7 @@ import "./merchant-v2.css";
 import "./merchant-v3.css";
 import "./merchant-v4.css";
 import "./merchant-v4-1.css";
+import "./merchant-v4-2-analytics.css";
 
 export default function MerchantRootLayout({ children }: { children: React.ReactNode }) {
   return children;

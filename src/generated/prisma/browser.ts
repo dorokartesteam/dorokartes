@@ -160,6 +160,11 @@ export type MediaAsset = Prisma.MediaAssetModel
  */
 export type OutboundClick = Prisma.OutboundClickModel
 /**
+ * Model CatalogViewEvent
+ * 
+ */
+export type CatalogViewEvent = Prisma.CatalogViewEventModel
+/**
  * Model ImportSource
  * 
  */

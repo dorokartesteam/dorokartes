@@ -247,6 +247,7 @@ model Merchant {
   sources     SourceRecord[]
   mediaAssets MediaAsset[]
   clicks      OutboundClick[]
+  catalogViews CatalogViewEvent[]
 
 
   merchantLeads     MerchantLead[]         @relation("MerchantLeadMatch")
@@ -358,6 +359,7 @@ model GiftCard {
   sources     SourceRecord[]
   mediaAssets MediaAsset[]
   clicks      OutboundClick[]
+  catalogViews CatalogViewEvent[]
 
   verificationEvents VerificationEvent[]
 
@@ -1059,6 +1061,26 @@ model OutboundClick {
  * | IMPORT SOURCES / CRAWLER JOBS
  * |--------------------------------------------------------------------------
  */
+
+model CatalogViewEvent {
+  id String @id @default(cuid())
+
+  merchantId String
+  merchant   Merchant @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+
+  giftCardId String?
+  giftCard   GiftCard? @relation(fields: [giftCardId], references: [id], onDelete: Cascade)
+
+  sessionId  String
+  pageType   String
+  sourcePath String
+  viewedAt   DateTime @default(now())
+
+  @@index([merchantId, viewedAt])
+  @@index([giftCardId, viewedAt])
+  @@index([sessionId, viewedAt])
+  @@index([pageType, viewedAt])
+}
 
 model ImportSource {
   id String @id @default(cuid())

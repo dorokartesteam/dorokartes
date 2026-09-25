@@ -78,6 +78,7 @@ export const ModelName = {
   VerificationEvent: 'VerificationEvent',
   MediaAsset: 'MediaAsset',
   OutboundClick: 'OutboundClick',
+  CatalogViewEvent: 'CatalogViewEvent',
   ImportSource: 'ImportSource',
   CrawlJob: 'CrawlJob',
   SearchEvent: 'SearchEvent',
@@ -546,6 +547,19 @@ export const OutboundClickScalarFieldEnum = {
 } as const
 
 export type OutboundClickScalarFieldEnum = (typeof OutboundClickScalarFieldEnum)[keyof typeof OutboundClickScalarFieldEnum]
+
+
+export const CatalogViewEventScalarFieldEnum = {
+  id: 'id',
+  merchantId: 'merchantId',
+  giftCardId: 'giftCardId',
+  sessionId: 'sessionId',
+  pageType: 'pageType',
+  sourcePath: 'sourcePath',
+  viewedAt: 'viewedAt'
+} as const
+
+export type CatalogViewEventScalarFieldEnum = (typeof CatalogViewEventScalarFieldEnum)[keyof typeof CatalogViewEventScalarFieldEnum]
 
 
 export const ImportSourceScalarFieldEnum = {
