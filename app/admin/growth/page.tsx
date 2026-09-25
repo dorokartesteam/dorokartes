@@ -98,6 +98,45 @@ function FunnelStep({
   );
 }
 
+function GscPeriod({
+  label,
+  period,
+}: {
+  label: string;
+  period:
+    | {
+        clicks: number;
+        impressions: number;
+        ctr: number;
+        averagePosition: number;
+        clickDelta: number | null;
+        impressionDelta: number | null;
+      }
+    | null;
+}) {
+  if (!period) {
+    return (
+      <div className={styles.gscPeriod}>
+        <strong>{label}</strong>
+        <span>—</span>
+        <small>Not connected</small>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.gscPeriod}>
+      <strong>{label}</strong>
+      <span>{number(period.clicks)} clicks</span>
+      <small>
+        {number(period.impressions)} impressions · {period.ctr}% CTR · pos.{" "}
+        {period.averagePosition}
+      </small>
+      <Change value={period.clickDelta} suffix={label.toLowerCase()} />
+    </div>
+  );
+}
+
 export default async function GrowthPage() {
   const d = await getGrowthEvidenceData();
   const gsc = d.integrations.searchConsole;
@@ -202,6 +241,49 @@ export default async function GrowthPage() {
         </section>
       </div>
 
+      <section className={styles.panel}>
+        <header>
+          <div>
+            <span>GOOGLE SEARCH CONSOLE</span>
+            <h3>Organic search evidence</h3>
+          </div>
+          <strong className={gsc.connected ? styles.gscConnected : styles.gscDisconnected}>
+            {gsc.connected ? "CONNECTED" : "NOT CONNECTED"}
+          </strong>
+        </header>
+
+        <div className={styles.gscPeriods}>
+          <GscPeriod label="7d" period={gsc.periods.d7} />
+          <GscPeriod label="30d" period={gsc.periods.d30} />
+          <GscPeriod label="90d" period={gsc.periods.d90} />
+        </div>
+
+        <div className={styles.gscSummary}>
+          <div>
+            <span>30d organic clicks</span>
+            <b>{gsc.clicks === null ? "—" : number(gsc.clicks)}</b>
+          </div>
+          <div>
+            <span>30d impressions</span>
+            <b>{gsc.impressions === null ? "—" : number(gsc.impressions)}</b>
+          </div>
+          <div>
+            <span>30d CTR</span>
+            <b>{gsc.ctr === null ? "—" : `${gsc.ctr}%`}</b>
+          </div>
+          <div>
+            <span>30d avg. position</span>
+            <b>{gsc.averagePosition === null ? "—" : gsc.averagePosition}</b>
+          </div>
+        </div>
+
+        <p className={styles.microNote}>
+          {gsc.connected
+            ? `Property: ${gsc.siteUrl} · data through ${gsc.dataThrough} · ${gsc.lagDays}d reporting lag.`
+            : gsc.reason}
+        </p>
+      </section>
+
       <div className={styles.grid2}>
         <section className={styles.panel}>
           <header>
@@ -276,8 +358,8 @@ export default async function GrowthPage() {
             </div>
             <div>
               <span>Google indexed pages</span>
-              <b>{d.catalog.indexedPages === null ? "N/A" : number(d.catalog.indexedPages)}</b>
-              <small>Only populated from real Search Console evidence</small>
+              <b>N/A</b>
+              <small>Not fabricated from Search Analytics traffic data</small>
             </div>
             <div>
               <span>Category landings</span>
@@ -317,16 +399,17 @@ export default async function GrowthPage() {
               <strong>{d.integrations.gaConfigured ? "CONFIGURED" : "MISSING"}</strong>
             </div>
             <div>
-              <i className={styles.warn} />
+              <i className={gsc.connected ? styles.ok : styles.warn} />
               <div>
                 <b>Google Search Console</b>
-                <small>Adapter contract ready; API source not connected in this project snapshot.</small>
+                <small>{gsc.siteUrl || "Search Analytics API"}</small>
               </div>
-              <strong>READY</strong>
+              <strong>{gsc.connected ? "LIVE" : "CONFIGURE"}</strong>
             </div>
           </div>
           <p className={styles.note}>
-            Search Console clicks, impressions, CTR, average position and indexed-page counts stay blank until a real API integration is connected. No synthetic Google metrics.
+            Search Console organic metrics come only from Google Search Analytics API.
+            Site-wide indexed-page totals stay N/A rather than being inferred from clicks or sitemap size.
           </p>
         </section>
       </div>
@@ -361,24 +444,10 @@ export default async function GrowthPage() {
         </section>
       </div>
 
-      <section className={styles.gsc}>
-        <div>
-          <span>SEARCH CONSOLE ARCHITECTURE</span>
-          <h3>Ready for real Google evidence</h3>
-          <p>{gsc.reason}</p>
-        </div>
-        <div className={styles.gscMetrics}>
-          <div><span>Organic clicks</span><b>—</b></div>
-          <div><span>Impressions</span><b>—</b></div>
-          <div><span>CTR</span><b>—</b></div>
-          <div><span>Avg. position</span><b>—</b></div>
-        </div>
-      </section>
-
       <footer className={styles.footer}>
-        Generated {d.generatedAt.toLocaleString("el-GR")} · First-party view
-        history starts from the Analytics V2 deployment. Premium metrics are
-        lifetime counters unless event-level tracking is added later.
+        Generated {d.generatedAt.toLocaleString("el-GR")} · Search Console uses
+        a configurable reporting lag to avoid treating incomplete recent data
+        as a full period.
       </footer>
     </div>
   );
