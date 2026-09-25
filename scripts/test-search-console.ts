@@ -22,6 +22,11 @@ async function main() {
   console.log(`30d impressions: ${evidence.impressions}`);
   console.log(`30d CTR: ${evidence.ctr}%`);
   console.log(`30d average position: ${evidence.averagePosition}`);
+  console.log(`Top queries: ${evidence.topQueries.length}`);
+  console.log(`Top pages: ${evidence.topPages.length}`);
+  console.log(`SEO opportunities: ${evidence.opportunities.length}`);
+  console.log(`Branded click share: ${evidence.branded?.shareOfClicks ?? 0}%`);
+  console.log(`Non-branded click share: ${evidence.nonBranded?.shareOfClicks ?? 0}%`);
 }
 
 main().catch((error) => {

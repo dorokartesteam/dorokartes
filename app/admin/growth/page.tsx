@@ -80,6 +80,50 @@ function QueryList({
   );
 }
 
+
+function GscTable({
+  rows,
+  kind,
+  empty,
+}: {
+  rows: Array<{
+    key: string;
+    clicks: number;
+    impressions: number;
+    ctr: number;
+    averagePosition: number;
+  }>;
+  kind: "query" | "page";
+  empty: string;
+}) {
+  if (!rows.length) return <div className={styles.empty}>{empty}</div>;
+
+  return (
+    <div className={styles.gscTable}>
+      <div className={styles.gscTableHead}>
+        <span>{kind === "query" ? "Query" : "Landing page"}</span>
+        <span>Clicks</span>
+        <span>Impr.</span>
+        <span>CTR</span>
+        <span>Pos.</span>
+      </div>
+      {rows.map((row) => (
+        <div className={styles.gscTableRow} key={row.key}>
+          <span title={row.key}>
+            {kind === "page"
+              ? row.key.replace(/^https?:\/\/[^/]+/i, "") || "/"
+              : row.key}
+          </span>
+          <b>{number(row.clicks)}</b>
+          <b>{number(row.impressions)}</b>
+          <b>{row.ctr}%</b>
+          <b>{row.averagePosition}</b>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function FunnelStep({
   label,
   value,
@@ -283,6 +327,94 @@ export default async function GrowthPage() {
             : gsc.reason}
         </p>
       </section>
+
+
+      {gsc.connected ? (
+        <>
+          <div className={styles.grid2}>
+            <section className={styles.panel}>
+              <header>
+                <div>
+                  <span>GSC · 30D</span>
+                  <h3>Top organic queries</h3>
+                </div>
+              </header>
+              <GscTable
+                rows={gsc.topQueries}
+                kind="query"
+                empty="Δεν υπάρχουν query rows στο Search Console."
+              />
+            </section>
+
+            <section className={styles.panel}>
+              <header>
+                <div>
+                  <span>GSC · 30D</span>
+                  <h3>Top organic landing pages</h3>
+                </div>
+              </header>
+              <GscTable
+                rows={gsc.topPages}
+                kind="page"
+                empty="Δεν υπάρχουν page rows στο Search Console."
+              />
+            </section>
+          </div>
+
+          <div className={styles.grid2}>
+            <section className={styles.panel}>
+              <header>
+                <div>
+                  <span>SEO OPPORTUNITIES · 30D</span>
+                  <h3>High-impression / low-CTR queries</h3>
+                </div>
+              </header>
+              <GscTable
+                rows={gsc.opportunities}
+                kind="query"
+                empty="Δεν υπάρχουν ακόμη queries που περνούν το opportunity threshold."
+              />
+              <p className={styles.microNote}>
+                Threshold: ≥10 impressions, CTR &lt;3%, average position ≤20.
+                Πρόκειται για prioritization signal, όχι εγγύηση αύξησης traffic.
+              </p>
+            </section>
+
+            <section className={styles.panel}>
+              <header>
+                <div>
+                  <span>QUERY MIX · 30D</span>
+                  <h3>Branded vs non-branded</h3>
+                </div>
+              </header>
+              <div className={styles.brandSplit}>
+                <div>
+                  <span>Branded</span>
+                  <b>{number(gsc.branded?.clicks || 0)} clicks</b>
+                  <small>
+                    {number(gsc.branded?.impressions || 0)} impressions ·{" "}
+                    {gsc.branded?.ctr || 0}% CTR ·{" "}
+                    {gsc.branded?.shareOfClicks || 0}% click share
+                  </small>
+                </div>
+                <div>
+                  <span>Non-branded</span>
+                  <b>{number(gsc.nonBranded?.clicks || 0)} clicks</b>
+                  <small>
+                    {number(gsc.nonBranded?.impressions || 0)} impressions ·{" "}
+                    {gsc.nonBranded?.ctr || 0}% CTR ·{" "}
+                    {gsc.nonBranded?.shareOfClicks || 0}% click share
+                  </small>
+                </div>
+              </div>
+              <p className={styles.microNote}>
+                Branded classification currently matches Dorokartes / δωροκάρτες
+                variants only. Everything else is shown as non-branded.
+              </p>
+            </section>
+          </div>
+        </>
+      ) : null}
 
       <div className={styles.grid2}>
         <section className={styles.panel}>

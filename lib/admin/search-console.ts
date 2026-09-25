@@ -19,6 +19,10 @@ type PeriodEvidence = PeriodMetrics & {
   impressionDelta: number | null;
 };
 
+export type SearchConsoleDimensionRow = PeriodMetrics & {
+  key: string;
+};
+
 export type SearchConsoleEvidence = {
   adapterReady: true;
   connected: boolean;
@@ -35,11 +39,27 @@ export type SearchConsoleEvidence = {
   ctr: number | null;
   averagePosition: number | null;
   indexedPages: null;
+  topQueries: SearchConsoleDimensionRow[];
+  topPages: SearchConsoleDimensionRow[];
+  opportunities: SearchConsoleDimensionRow[];
+  branded: {
+    clicks: number;
+    impressions: number;
+    ctr: number;
+    shareOfClicks: number;
+  } | null;
+  nonBranded: {
+    clicks: number;
+    impressions: number;
+    ctr: number;
+    shareOfClicks: number;
+  } | null;
   reason: string;
   requiredEnv: string[];
 };
 
 type SearchAnalyticsRow = {
+  keys?: string[];
   clicks?: number;
   impressions?: number;
   ctr?: number;
@@ -98,6 +118,35 @@ function normalizeMetrics(row?: SearchAnalyticsRow): PeriodMetrics {
   };
 }
 
+function normalizeDimensionRow(row: SearchAnalyticsRow): SearchConsoleDimensionRow {
+  return {
+    key: row.keys?.[0] || "",
+    ...normalizeMetrics(row),
+  };
+}
+
+function share(part: number, total: number) {
+  if (!total) return 0;
+  return Math.round((part / total) * 1000) / 10;
+}
+
+function aggregateRows(rows: SearchConsoleDimensionRow[]) {
+  const totals = rows.reduce(
+    (acc, row) => {
+      acc.clicks += row.clicks;
+      acc.impressions += row.impressions;
+      return acc;
+    },
+    { clicks: 0, impressions: 0 },
+  );
+  return {
+    ...totals,
+    ctr: totals.impressions
+      ? Math.round((totals.clicks / totals.impressions) * 10000) / 100
+      : 0,
+  };
+}
+
 async function getAccessToken() {
   const clientEmail = env("GOOGLE_SEARCH_CONSOLE_CLIENT_EMAIL");
   const key = privateKey();
@@ -107,9 +156,7 @@ async function getAccessToken() {
   }
 
   const now = Math.floor(Date.now() / 1000);
-  const header = base64Url(
-    JSON.stringify({ alg: "RS256", typ: "JWT" }),
-  );
+  const header = base64Url(JSON.stringify({ alg: "RS256", typ: "JWT" }));
   const claim = base64Url(
     JSON.stringify({
       iss: clientEmail,
@@ -155,12 +202,14 @@ async function getAccessToken() {
   return payload.access_token;
 }
 
-async function queryPeriod(args: {
+async function querySearchAnalytics(args: {
   token: string;
   siteUrl: string;
   startDate: string;
   endDate: string;
-}): Promise<PeriodMetrics> {
+  dimensions?: Array<"query" | "page">;
+  rowLimit?: number;
+}) {
   const endpoint = `${SEARCH_ANALYTICS_BASE}/${encodeURIComponent(
     args.siteUrl,
   )}/searchAnalytics/query`;
@@ -176,7 +225,8 @@ async function queryPeriod(args: {
       endDate: args.endDate,
       type: "web",
       aggregationType: "auto",
-      rowLimit: 1,
+      dimensions: args.dimensions || [],
+      rowLimit: args.rowLimit ?? 1,
     }),
     cache: "no-store",
   });
@@ -198,8 +248,39 @@ async function queryPeriod(args: {
     );
   }
 
-  const data = payload as SearchAnalyticsResponse;
+  return payload as SearchAnalyticsResponse;
+}
+
+async function queryPeriod(args: {
+  token: string;
+  siteUrl: string;
+  startDate: string;
+  endDate: string;
+}): Promise<PeriodMetrics> {
+  const data = await querySearchAnalytics({ ...args, rowLimit: 1 });
   return normalizeMetrics(data.rows?.[0]);
+}
+
+async function queryDimension(args: {
+  token: string;
+  siteUrl: string;
+  startDate: string;
+  endDate: string;
+  dimension: "query" | "page";
+  rowLimit?: number;
+}) {
+  const data = await querySearchAnalytics({
+    token: args.token,
+    siteUrl: args.siteUrl,
+    startDate: args.startDate,
+    endDate: args.endDate,
+    dimensions: [args.dimension],
+    rowLimit: args.rowLimit ?? 100,
+  });
+
+  return (data.rows || [])
+    .map(normalizeDimensionRow)
+    .filter((row) => row.key);
 }
 
 async function getPeriodEvidence(args: {
@@ -239,6 +320,34 @@ async function getPeriodEvidence(args: {
   };
 }
 
+function emptyEvidence(args: {
+  siteUrl: string | null;
+  lagDays: number;
+  reason: string;
+  requiredEnv: string[];
+}): SearchConsoleEvidence {
+  return {
+    adapterReady: true,
+    connected: false,
+    siteUrl: args.siteUrl,
+    dataThrough: null,
+    lagDays: args.lagDays,
+    periods: { d7: null, d30: null, d90: null },
+    clicks: null,
+    impressions: null,
+    ctr: null,
+    averagePosition: null,
+    indexedPages: null,
+    topQueries: [],
+    topPages: [],
+    opportunities: [],
+    branded: null,
+    nonBranded: null,
+    reason: args.reason,
+    requiredEnv: args.requiredEnv,
+  };
+}
+
 export async function getSearchConsoleEvidence(): Promise<SearchConsoleEvidence> {
   const requiredEnv = requiredEnvNames();
   const siteUrl = env("GOOGLE_SEARCH_CONSOLE_SITE_URL");
@@ -255,33 +364,60 @@ export async function getSearchConsoleEvidence(): Promise<SearchConsoleEvidence>
       : 3;
 
   if (!configured) {
-    return {
-      adapterReady: true,
-      connected: false,
+    return emptyEvidence({
       siteUrl: siteUrl || null,
-      dataThrough: null,
       lagDays,
-      periods: { d7: null, d30: null, d90: null },
-      clicks: null,
-      impressions: null,
-      ctr: null,
-      averagePosition: null,
-      indexedPages: null,
+      requiredEnv,
       reason:
         "Search Console integration is installed but credentials are not configured.",
-      requiredEnv,
-    };
+    });
   }
 
   try {
     const token = await getAccessToken();
     const endDate = shiftDays(new Date(), -lagDays);
+    const start30 = shiftDays(endDate, -29);
 
-    const [d7, d30, d90] = await Promise.all([
+    const [d7, d30, d90, queryRows, pageRows] = await Promise.all([
       getPeriodEvidence({ token, siteUrl, days: 7, endDate }),
       getPeriodEvidence({ token, siteUrl, days: 30, endDate }),
       getPeriodEvidence({ token, siteUrl, days: 90, endDate }),
+      queryDimension({
+        token,
+        siteUrl,
+        startDate: isoDate(start30),
+        endDate: isoDate(endDate),
+        dimension: "query",
+        rowLimit: 250,
+      }),
+      queryDimension({
+        token,
+        siteUrl,
+        startDate: isoDate(start30),
+        endDate: isoDate(endDate),
+        dimension: "page",
+        rowLimit: 250,
+      }),
     ]);
+
+    const brandedRows = queryRows.filter((row) =>
+      /\b(dorokartes?|δωροκαρτες?|δωροκάρτες?)\b/i.test(row.key),
+    );
+    const nonBrandedRows = queryRows.filter(
+      (row) => !brandedRows.includes(row),
+    );
+    const brandedTotals = aggregateRows(brandedRows);
+    const nonBrandedTotals = aggregateRows(nonBrandedRows);
+
+    const opportunities = [...queryRows]
+      .filter((row) => row.impressions >= 10 && row.ctr < 3 && row.averagePosition <= 20)
+      .sort(
+        (a, b) =>
+          b.impressions - a.impressions ||
+          a.ctr - b.ctr ||
+          a.averagePosition - b.averagePosition,
+      )
+      .slice(0, 12);
 
     return {
       adapterReady: true,
@@ -295,28 +431,34 @@ export async function getSearchConsoleEvidence(): Promise<SearchConsoleEvidence>
       ctr: d30.ctr,
       averagePosition: d30.averagePosition,
       indexedPages: null,
+      topQueries: [...queryRows]
+        .sort((a, b) => b.clicks - a.clicks || b.impressions - a.impressions)
+        .slice(0, 12),
+      topPages: [...pageRows]
+        .sort((a, b) => b.clicks - a.clicks || b.impressions - a.impressions)
+        .slice(0, 12),
+      opportunities,
+      branded: {
+        ...brandedTotals,
+        shareOfClicks: share(brandedTotals.clicks, d30.clicks),
+      },
+      nonBranded: {
+        ...nonBrandedTotals,
+        shareOfClicks: share(nonBrandedTotals.clicks, d30.clicks),
+      },
       reason:
         "Connected to Google Search Console Search Analytics API. Indexed-page totals remain unset because Search Analytics does not provide a site-wide indexed-page count.",
       requiredEnv,
     };
   } catch (error) {
-    return {
-      adapterReady: true,
-      connected: false,
+    return emptyEvidence({
       siteUrl,
-      dataThrough: null,
       lagDays,
-      periods: { d7: null, d30: null, d90: null },
-      clicks: null,
-      impressions: null,
-      ctr: null,
-      averagePosition: null,
-      indexedPages: null,
+      requiredEnv,
       reason:
         error instanceof Error
           ? error.message
           : "Unknown Search Console integration error.",
-      requiredEnv,
-    };
+    });
   }
 }
