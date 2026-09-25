@@ -1,0 +1,321 @@
+/* Dorokartes Admin V5 — portal-style redesign
+   Loaded LAST so it normalizes legacy admin CSS without touching public/merchant UI. */
+
+.dka5-shell {
+  --dka5-navy: #071a45;
+  --dka5-navy-2: #102b72;
+  --dka5-blue: #3368f0;
+  --dka5-violet: #6847e8;
+  --dka5-purple: #7c3eb8;
+  --dka5-text: #13213f;
+  --dka5-muted: #73819e;
+  --dka5-line: #e1e7f1;
+  --dka5-line-strong: #d3dbea;
+  --dka5-bg: #f4f7fc;
+  --dka5-card: #fff;
+  --dka5-success: #11956f;
+  --dka5-warning: #b7791f;
+  --dka5-danger: #c74757;
+  min-height: 100vh !important;
+  display: grid !important;
+  grid-template-columns: 272px minmax(0, 1fr) !important;
+  background: var(--dka5-bg) !important;
+  color: var(--dka5-text) !important;
+  font-family: "Segoe UI Variable", "Aptos", "Segoe UI", Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dka5-shell *, .dka5-shell *::before, .dka5-shell *::after { box-sizing: border-box; }
+.dka5-shell button, .dka5-shell input, .dka5-shell select, .dka5-shell textarea { font: inherit; letter-spacing: 0; }
+.dka5-shell a { color: inherit; }
+
+/* Sidebar */
+.dka5-shell .dka5-sidebar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 60 !important;
+  width: 272px !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 22px 19px 18px !important;
+  background:
+    radial-gradient(circle at 26% -4%, rgba(61, 105, 240, .28), transparent 31%),
+    linear-gradient(180deg, #08183e 0%, #071945 54%, #10163d 100%) !important;
+  border-right: 1px solid rgba(255,255,255,.05) !important;
+  box-shadow: 16px 0 48px rgba(10,24,67,.08) !important;
+  color: #dce6ff !important;
+}
+.dka5-sidebar::-webkit-scrollbar { width: 5px; }
+.dka5-sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,.12); border-radius: 99px; }
+.dka5-sidebar-head { display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
+.dka5-logo { display: flex !important; align-items: center !important; gap: 12px !important; text-decoration: none !important; color: #fff !important; min-width: 0; }
+.dka5-logo-mark { width: 41px; height: 41px; flex: 0 0 41px; display: grid; place-items: center; }
+.dka5-logo-mark img { width: 41px !important; height: 41px !important; object-fit: contain !important; }
+.dka5-logo-copy { min-width: 0; }
+.dka5-logo-copy b { display: block; color: #fff !important; font-size: 18px !important; line-height: 1.05; font-weight: 780 !important; }
+.dka5-logo-copy small { display: block; margin-top: 4px; color: #a8b9df !important; font-size: 10px !important; font-weight: 650; }
+.dka5-mobile-close { display: none; border: 0; background: transparent; color: #fff; padding: 8px; }
+
+.dka5-environment-card { margin: 26px 0 21px; padding: 13px 14px; display: grid; grid-template-columns: 10px minmax(0,1fr) auto; align-items: center; gap: 10px; border: 1px solid rgba(159,184,255,.13); border-radius: 14px; background: rgba(255,255,255,.055); box-shadow: inset 0 1px rgba(255,255,255,.04); }
+.dka5-env-dot { width: 9px; height: 9px; border-radius: 50%; background: #35d399; box-shadow: 0 0 13px rgba(53,211,153,.55); }
+.dka5-environment-card b { display: block; color: #f6f8ff !important; font-size: 12px !important; }
+.dka5-environment-card small { display: block; margin-top: 2px; color: #90a3ca !important; font-size: 10px !important; }
+.dka5-env-live { color: #75e2bc; font-size: 9px; font-weight: 850; letter-spacing: .1em; }
+
+.dka5-shell .dka5-nav { display: grid !important; gap: 18px !important; padding: 0 !important; }
+.dka5-nav-group { display: grid; gap: 4px; }
+.dka5-nav-label { padding: 0 11px 6px; color: #7185ae; font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.dka5-shell .dka5-nav-item {
+  min-height: 42px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 11px !important;
+  padding: 9px 11px !important;
+  border: 1px solid transparent !important;
+  border-radius: 11px !important;
+  text-decoration: none !important;
+  color: #aab9d9 !important;
+  background: transparent !important;
+  font-size: 13px !important;
+  font-weight: 640 !important;
+  transition: .16s ease !important;
+}
+.dka5-shell .dka5-nav-item:hover { color: #fff !important; background: rgba(255,255,255,.06) !important; border-color: rgba(255,255,255,.04) !important; transform: none !important; }
+.dka5-shell .dka5-nav-item.active { color: #fff !important; background: linear-gradient(135deg, rgba(67,103,236,.40), rgba(111,64,187,.27)) !important; border-color: rgba(127,151,255,.18) !important; box-shadow: 0 8px 22px rgba(1,9,35,.16) !important; }
+.dka5-nav-icon { width: 21px; height: 21px; flex: 0 0 21px; display: grid; place-items: center; color: #8498c7; }
+.dka5-nav-item.active .dka5-nav-icon, .dka5-nav-item:hover .dka5-nav-icon { color: #c7d4ff; }
+.dka5-sidebar-spacer { flex: 1 1 24px; min-height: 24px; }
+
+.dka5-quick-card { padding: 14px; border-radius: 15px; border: 1px solid rgba(145,164,227,.14); background: rgba(255,255,255,.05); display: grid; grid-template-columns: 30px minmax(0,1fr); gap: 9px 10px; }
+.dka5-quick-icon { width: 28px; height: 28px; display: grid; place-items: center; color: #b8c9f6; background: rgba(115,89,234,.17); border-radius: 9px; }
+.dka5-quick-card b { color: #fff !important; font-size: 11px !important; }
+.dka5-quick-card p { margin: 3px 0 0; color: #8499c1 !important; font-size: 10px !important; line-height: 1.4; }
+.dka5-quick-card button { grid-column: 1 / -1; margin-top: 3px; border: 0; background: transparent; color: #aec2ef; display: flex; align-items: center; justify-content: space-between; padding: 5px 0 0; cursor: pointer; font-size: 10px; font-weight: 700; }
+.dka5-quick-card button svg { width: 14px; height: 14px; }
+.dka5-sidebar-links { display: grid; gap: 3px; margin-top: 14px; padding-top: 13px; border-top: 1px solid rgba(255,255,255,.07); }
+.dka5-sidebar-links a { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 5px; color: #8fa2c9 !important; text-decoration: none; font-size: 10px; font-weight: 650; }
+.dka5-sidebar-links a:hover { color: #fff !important; }
+.dka5-sidebar-links svg { width: 14px; height: 14px; }
+
+/* Main + top bar */
+.dka5-shell .dka5-main { min-width: 0 !important; min-height: 100vh !important; background: var(--dka5-bg) !important; color: var(--dka5-text) !important; }
+.dka5-shell .dka5-topbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 40 !important;
+  height: 78px !important;
+  min-height: 78px !important;
+  padding: 0 34px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  background: rgba(255,255,255,.94) !important;
+  border-bottom: 1px solid #e5eaf2 !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 1px 0 rgba(17,33,64,.02) !important;
+}
+.dka5-topbar-left { display: flex; align-items: center; gap: 13px; min-width: 0; }
+.dka5-topbar-left span { display: block; color: #8996ad !important; font-size: 10px !important; font-weight: 750 !important; letter-spacing: .045em; }
+.dka5-shell .dka5-topbar h1 { margin: 3px 0 0 !important; color: #13213f !important; font-size: 20px !important; line-height: 1.08 !important; font-weight: 760 !important; letter-spacing: -.02em !important; }
+.dka5-topbar-actions { display: flex; align-items: center; gap: 9px; }
+.dka5-command-button, .dka5-public-button { min-height: 38px; display: inline-flex; align-items: center; gap: 8px; padding: 0 12px; border-radius: 10px; text-decoration: none; cursor: pointer; }
+.dka5-command-button { border: 1px solid #e0e6f0; background: #fff; color: #53617c; font-size: 11px; font-weight: 700; }
+.dka5-command-button:hover { border-color: #c9d3e6; background: #f9fbff; }
+.dka5-command-button svg, .dka5-public-button svg { width: 16px; height: 16px; }
+.dka5-command-button kbd { padding: 3px 6px; border-radius: 6px; background: #f1f4f9; border: 1px solid #e2e7ef; color: #8490a5; font: 650 9px/1 "Segoe UI", sans-serif; }
+.dka5-public-button { border: 1px solid #dce4f2; background: #f8faff; color: #344563 !important; font-size: 11px; font-weight: 750; }
+.dka5-public-button:hover { color: #17346e !important; background: #f1f5ff; border-color: #cbd7ee; }
+.dka5-mobile-menu { display: none; border: 0; background: transparent; color: #243554; padding: 7px; }
+
+.dka5-shell .dka5-content { width: 100% !important; max-width: 1680px !important; margin: 0 auto !important; padding: 30px 34px 58px !important; color: var(--dka5-text) !important; }
+
+/* Universal admin content normalization */
+.dka5-shell .dk-pageintro { margin: 0 0 24px !important; padding: 0 !important; background: transparent !important; border: 0 !important; box-shadow: none !important; }
+.dka5-shell .dk-pageintro h2 { margin: 0 !important; color: #111f3b !important; font-size: 29px !important; line-height: 1.12 !important; font-weight: 780 !important; letter-spacing: -.035em !important; }
+.dka5-shell .dk-pageintro p { max-width: 880px !important; margin: 8px 0 0 !important; color: #71809b !important; font-size: 13px !important; line-height: 1.65 !important; }
+
+.dka5-shell .dk-metricgrid { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: 14px !important; margin-bottom: 22px !important; }
+.dka5-shell .dk-metricgrid.small { grid-template-columns: repeat(3, minmax(0,1fr)) !important; }
+.dka5-shell .dk-metric, .dka5-shell [class*="dk-metric "] { min-width: 0 !important; padding: 19px 19px 17px !important; border: 1px solid var(--dka5-line) !important; border-radius: 16px !important; background: #fff !important; box-shadow: 0 8px 24px rgba(25,45,88,.045) !important; color: var(--dka5-text) !important; }
+.dka5-shell .dk-metriclabel { color: #7b89a3 !important; font-size: 10px !important; font-weight: 800 !important; letter-spacing: .045em !important; text-transform: uppercase !important; }
+.dka5-shell .dk-metricvalue { margin-top: 9px !important; color: #13213f !important; font-size: 31px !important; line-height: 1 !important; font-weight: 790 !important; letter-spacing: -.035em !important; }
+.dka5-shell .dk-metricdetail { margin-top: 8px !important; color: #8693aa !important; font-size: 11px !important; line-height: 1.45 !important; }
+.dka5-shell .dk-metric.purple, .dka5-shell .dk-metric.tone-purple { background: linear-gradient(145deg, #f7f5ff, #fff) !important; border-color: #ddd6f7 !important; }
+.dka5-shell .dk-metric.good, .dka5-shell .dk-metric.tone-good { background: linear-gradient(145deg, #f4fbf8, #fff) !important; border-color: #d6eee5 !important; }
+.dka5-shell .dk-metric.warn, .dka5-shell .dk-metric.tone-warn { background: linear-gradient(145deg, #fff9ef, #fff) !important; border-color: #f0dfbd !important; }
+
+.dka5-shell .dk-grid2, .dka5-shell .dk-grid3 { display: grid !important; align-items: start !important; gap: 18px !important; margin-bottom: 20px !important; }
+.dka5-shell .dk-grid2 { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+.dka5-shell .dk-grid3 { grid-template-columns: repeat(3, minmax(0,1fr)) !important; }
+
+.dka5-shell .dk-panel { min-width: 0 !important; margin: 0 0 20px !important; border: 1px solid var(--dka5-line) !important; border-radius: 17px !important; background: #fff !important; box-shadow: 0 8px 26px rgba(27,45,86,.045) !important; overflow: hidden !important; color: var(--dka5-text) !important; }
+.dka5-shell .dk-panelhead { min-height: 68px !important; padding: 17px 19px !important; display: flex !important; align-items: center !important; justify-content: space-between !important; gap: 16px !important; border-bottom: 1px solid #edf0f5 !important; background: #fff !important; }
+.dka5-shell .dk-panelhead h2 { margin: 0 !important; color: #172541 !important; font-size: 15px !important; line-height: 1.25 !important; font-weight: 760 !important; }
+.dka5-shell .dk-panelhead p { margin: 4px 0 0 !important; color: #8390a6 !important; font-size: 11px !important; line-height: 1.45 !important; }
+.dka5-shell .dk-panelbody { color: #283955 !important; background: #fff !important; }
+
+/* Tables */
+.dka5-shell .dk-tablewrap { width: 100% !important; overflow-x: auto !important; background: #fff !important; }
+.dka5-shell .dk-table { width: 100% !important; border-collapse: collapse !important; border-spacing: 0 !important; background: #fff !important; color: #263650 !important; font-size: 12px !important; }
+.dka5-shell .dk-table thead { background: #f8faff !important; }
+.dka5-shell .dk-table th { padding: 11px 14px !important; border-bottom: 1px solid #e7ebf2 !important; color: #7b879d !important; background: #f8faff !important; font-size: 9px !important; font-weight: 850 !important; letter-spacing: .065em !important; text-transform: uppercase !important; text-align: left !important; white-space: nowrap !important; }
+.dka5-shell .dk-table td { padding: 13px 14px !important; border-bottom: 1px solid #edf0f5 !important; background: #fff !important; color: #35445e !important; vertical-align: middle !important; }
+.dka5-shell .dk-table tbody tr:last-child td { border-bottom: 0 !important; }
+.dka5-shell .dk-table tbody tr:hover td { background: #fafbfe !important; }
+.dka5-shell .dk-table td b, .dka5-shell .dk-table td strong { color: #1e2c46 !important; font-size: 12px !important; }
+.dka5-shell .dk-table td small { color: #8490a5 !important; font-size: 10px !important; }
+.dka5-shell .dk-table a { color: #315fd8 !important; text-decoration: none !important; }
+.dka5-shell .dk-table a:hover { color: #1f4ac2 !important; }
+.dka5-shell .dk-entity { display: flex !important; align-items: center !important; gap: 11px !important; min-width: 0 !important; }
+.dka5-shell .dk-avatar { width: 38px !important; height: 38px !important; flex: 0 0 38px !important; display: grid !important; place-items: center !important; border-radius: 11px !important; background: linear-gradient(145deg,#eef3ff,#f6f2ff) !important; border: 1px solid #dce4f3 !important; color: #5269a8 !important; font-size: 10px !important; font-weight: 850 !important; }
+.dka5-shell .dk-entitylink { display: grid !important; gap: 3px !important; color: #20304d !important; text-decoration: none !important; }
+.dka5-shell .dk-entitylink b { color: #20304d !important; }
+.dka5-shell .dk-entitylink small { color: #8290a8 !important; }
+
+/* Status pills */
+.dka5-shell .dk-status { min-height: 23px !important; width: max-content !important; max-width: 100% !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; padding: 4px 8px !important; border: 1px solid #dfe5ef !important; border-radius: 999px !important; background: #f5f7fa !important; color: #67748b !important; font-size: 9px !important; line-height: 1 !important; font-weight: 850 !important; letter-spacing: .035em !important; box-shadow: none !important; }
+.dka5-shell .dk-status.good, .dka5-shell .dk-status.active, .dka5-shell .dk-status.verified, .dka5-shell .dk-status.configured { background: #edf9f5 !important; border-color: #cdebe0 !important; color: #137655 !important; }
+.dka5-shell .dk-status.warn, .dka5-shell .dk-status.pending, .dka5-shell .dk-status.under-review { background: #fff8ea !important; border-color: #f1dfb5 !important; color: #996213 !important; }
+.dka5-shell .dk-status.bad, .dka5-shell .dk-status.missing, .dka5-shell .dk-status.rejected, .dka5-shell .dk-status.past-due { background: #fff1f3 !important; border-color: #f1ced4 !important; color: #a73548 !important; }
+
+/* Filters / forms / buttons */
+.dka5-shell .dk-filterbar, .dka5-shell .dk-merchant-filterbar { margin: 0 0 18px !important; padding: 13px !important; display: flex !important; align-items: center !important; gap: 9px !important; flex-wrap: wrap !important; border: 1px solid var(--dka5-line) !important; border-radius: 15px !important; background: #fff !important; box-shadow: 0 6px 22px rgba(28,45,84,.035) !important; }
+.dka5-shell input:not([type="checkbox"]):not([type="radio"]), .dka5-shell select, .dka5-shell textarea { min-height: 39px !important; border: 1px solid #dce3ed !important; border-radius: 10px !important; background: #fff !important; color: #263650 !important; outline: none !important; box-shadow: none !important; font-size: 11px !important; }
+.dka5-shell input:not([type="checkbox"]):not([type="radio"]), .dka5-shell select { padding: 0 11px !important; }
+.dka5-shell textarea { padding: 10px 11px !important; }
+.dka5-shell input:focus, .dka5-shell select:focus, .dka5-shell textarea:focus { border-color: #9eb3ec !important; box-shadow: 0 0 0 3px rgba(78,111,224,.10) !important; }
+.dka5-shell .dk-filterbar button, .dka5-shell .dk-btn { min-height: 38px !important; padding: 0 13px !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; border: 1px solid #315fdc !important; border-radius: 10px !important; background: #315fdc !important; color: #fff !important; text-decoration: none !important; font-size: 10px !important; font-weight: 800 !important; cursor: pointer !important; box-shadow: 0 6px 14px rgba(49,95,220,.12) !important; }
+.dka5-shell .dk-filterbar button:hover, .dka5-shell .dk-btn:hover { background: #294fc0 !important; border-color: #294fc0 !important; transform: none !important; }
+.dka5-shell .dk-filterbar a { min-height: 38px; display: inline-flex; align-items: center; padding: 0 10px; color: #66748c !important; text-decoration: none !important; font-size: 10px; font-weight: 750; }
+.dka5-shell .dk-resultcount { margin-left: auto; color: #8793a8 !important; font-size: 10px !important; font-weight: 700 !important; }
+
+.dka5-shell .dk-admin-note { margin: 20px 0 !important; padding: 16px 18px !important; display: flex !important; align-items: center !important; justify-content: space-between !important; gap: 16px !important; border: 1px solid #dce4f3 !important; border-radius: 15px !important; background: #f8faff !important; color: #43536f !important; }
+.dka5-shell .dk-admin-note b { display: block; color: #22324f !important; font-size: 12px !important; }
+.dka5-shell .dk-admin-note span { display: block; margin-top: 4px; color: #7c899f !important; font-size: 11px !important; line-height: 1.5 !important; }
+.dka5-shell .dk-admin-note a { color: #315fd8 !important; text-decoration: none !important; font-size: 11px !important; font-weight: 800 !important; white-space: nowrap; }
+.dka5-shell .dk-empty-state, .dka5-shell .dk-commandempty { padding: 24px !important; color: #8591a5 !important; background: #fff !important; font-size: 12px !important; line-height: 1.55 !important; }
+.dka5-shell .dk-admin-muted, .dka5-shell .dk-block-small { color: #8995a8 !important; }
+.dka5-shell .dk-plan-label { color: #4b3fa6 !important; }
+
+/* Analytics / lists */
+.dka5-shell .dk-analytics-list, .dka5-shell .dk-duplicate-list { background: #fff !important; padding: 4px 16px !important; }
+.dka5-shell .dk-analytics-row { padding: 13px 0 !important; border-bottom: 1px solid #edf0f5 !important; color: #4a5871 !important; }
+.dka5-shell .dk-analytics-row b { color: #20304d !important; }
+.dka5-shell .dk-analytics-row small, .dka5-shell .dk-analytics-row span { color: #8490a5 !important; }
+
+/* Revenue */
+.dka5-shell .dk-revenue-mix-row b, .dka5-shell .dk-revenue-funnel-head b, .dka5-shell .dk-revenue-latest-list b { color: #20304d !important; }
+.dka5-shell .dk-revenue-mix-row small, .dka5-shell .dk-revenue-funnel-head small, .dka5-shell .dk-revenue-latest-list small { color: #8490a5 !important; }
+.dka5-shell .dk-revenue-mix-row > strong, .dka5-shell .dk-revenue-funnel-head strong { color: #1c2a45 !important; }
+.dka5-shell .dk-revenue-mix-bar, .dka5-shell .dk-revenue-funnel-track { background: #edf1f7 !important; border-color: #e0e6ef !important; }
+.dka5-shell .dk-revenue-mix-bar i, .dka5-shell .dk-revenue-funnel-track i { background: linear-gradient(90deg,#4b68e8,#7750d7) !important; }
+.dka5-shell .dk-revenue-status-grid a, .dka5-shell .dk-revenue-lead-stats a { border-color: #e1e6ef !important; background: #fafbfe !important; color: #66758e !important; }
+.dka5-shell .dk-revenue-status-grid a:hover, .dka5-shell .dk-revenue-lead-stats a:hover { border-color: #cbd7ef !important; background: #f5f8ff !important; transform: none !important; }
+.dka5-shell .dk-revenue-status-grid b, .dka5-shell .dk-revenue-lead-stats b { color: #20304d !important; }
+.dka5-shell .dk-revenue-conversion-note { background: #f5f2ff !important; border-color: #ded5f7 !important; }
+.dka5-shell .dk-revenue-conversion-note b { color: #6042bb !important; }
+.dka5-shell .dk-revenue-conversion-note span { color: #6f7d96 !important; }
+.dka5-shell .dk-revenue-requested { border-color: #edf0f5 !important; }
+.dka5-shell .dk-revenue-requested > span { color: #8793a7 !important; }
+.dka5-shell .dk-revenue-requested > div { background: #fafbfe !important; border-color: #e5e9f1 !important; }
+.dka5-shell .dk-revenue-requested b { color: #71809a !important; }
+.dka5-shell .dk-revenue-requested strong { color: #1f2e49 !important; }
+.dka5-shell .dk-revenue-latest-list > a { border-color: #edf0f5 !important; }
+.dka5-shell .dk-revenue-stripe-id { color: #8390a5 !important; }
+
+/* Activation */
+.dka5-shell .dk-activation-automation > div { border-color: #edf0f5 !important; }
+.dka5-shell .dk-activation-automation span { color: #7e8ba2 !important; }
+.dka5-shell .dk-activation-automation b { color: #263650 !important; }
+.dka5-shell .dk-activation-rules p { border-color: #e5eaf2 !important; background: #fafbfe !important; }
+.dka5-shell .dk-activation-rules b { color: #21314e !important; }
+.dka5-shell .dk-activation-rules span { color: #7a879d !important; }
+.dka5-shell .dk-activation-stategrid > a { border-color: #e3e8f0 !important; background: #fff !important; }
+.dka5-shell .dk-activation-stategrid > a:hover { border-color: #cfd8ea !important; background: #fafbfe !important; }
+.dka5-shell .dk-activation-stategrid b { color: #23334f !important; }
+.dka5-shell .dk-activation-stategrid small { color: #8490a5 !important; }
+.dka5-shell .dk-activation-ok { color: #14805e !important; }
+.dka5-shell .dk-activation-muted { color: #9b6873 !important; }
+
+/* Merchant commercial management */
+.dka5-shell .dk-commercial-admin, .dka5-shell .dk-commercial-section, .dka5-shell .dk-subscription-hero, .dka5-shell .dk-member-row, .dka5-shell .dk-stripe-ids > div { color: #263650 !important; }
+.dka5-shell .dk-commercial-section { border-color: #e2e7ef !important; background: #fff !important; }
+.dka5-shell .dk-commercial-sectionhead { border-color: #edf0f5 !important; background: #fafbfe !important; }
+.dka5-shell .dk-commercial-sectionhead h3, .dka5-shell .dk-commercial-sectionhead b { color: #20304d !important; }
+.dka5-shell .dk-commercial-sectionhead p, .dka5-shell .dk-commercial-sectionhead span { color: #8490a5 !important; }
+.dka5-shell .dk-subscription-hero > div, .dka5-shell .dk-benefit-grid > div, .dka5-shell .dk-stripe-ids > div, .dka5-shell .dk-member-row, .dka5-shell .dk-premium-placement-summary > div { border-color: #e3e8f0 !important; background: #fafbfe !important; }
+.dka5-shell .dk-benefit-grid > div.is-active { border-color: #cce9df !important; background: #f2faf7 !important; color: #2c6b59 !important; }
+.dka5-shell .dk-benefit-grid > div.is-active i { background: #ddf3eb !important; color: #147255 !important; }
+.dka5-shell .dk-stripe-ids code { color: #66758e !important; }
+.dka5-shell .dk-member-avatar { background: linear-gradient(145deg,#edf2ff,#f5f1ff) !important; border-color: #dbe2f2 !important; color: #5b61a7 !important; }
+.dka5-shell .dk-member-main strong { color: #22324f !important; }
+.dka5-shell .dk-member-main a { color: #315fd8 !important; }
+.dka5-shell .dk-member-main small { color: #8793a6 !important; }
+.dka5-shell .dk-member-actions button { border-color: #dce3ed !important; background: #fff !important; color: #60708b !important; }
+.dka5-shell .dk-member-actions button.danger { border-color: #efcdd3 !important; background: #fff5f6 !important; color: #a43b4d !important; }
+.dka5-shell .dk-member-actions button.good { border-color: #cde8de !important; background: #f3faf7 !important; color: #1b785b !important; }
+.dka5-shell .dk-commercial-empty { border-color: #d9e1ed !important; color: #7d899e !important; background: #fafbfe !important; }
+.dka5-shell .dk-commercial-note { color: #8490a5 !important; }
+.dka5-shell .dk-commercial-message.good { border-color: #cde8de !important; background: #f3faf7 !important; color: #1b785b !important; }
+.dka5-shell .dk-commercial-message.bad { border-color: #efcdd3 !important; background: #fff5f6 !important; color: #a43b4d !important; }
+
+/* Taxonomy / route cards / miscellaneous legacy blocks */
+.dka5-shell .dk-taxcard-v4, .dka5-shell .dk-route-list, .dka5-shell .dk-duplicate-cluster, .dka5-shell .dk-seo-health { border-color: #e2e7ef !important; background: #fff !important; color: #263650 !important; box-shadow: none !important; }
+.dka5-shell .dk-taxcopy b, .dka5-shell .dk-duplicate-head b { color: #21314e !important; }
+.dka5-shell .dk-taxcopy span, .dka5-shell .dk-taxcopy small, .dka5-shell .dk-duplicate-head small { color: #8490a5 !important; }
+
+/* Command palette */
+.dka5-command-backdrop { position: fixed; inset: 0; z-index: 200; display: grid; place-items: start center; padding-top: min(14vh, 130px); background: rgba(8,18,43,.45); backdrop-filter: blur(5px); }
+.dka5-command-modal { width: min(620px, calc(100vw - 28px)); max-height: min(620px, 74vh); overflow: hidden; border: 1px solid #dce3ed; border-radius: 18px; background: #fff; box-shadow: 0 28px 80px rgba(13,29,65,.25); }
+.dka5-command-search { min-height: 64px; padding: 0 16px; display: grid; grid-template-columns: 22px minmax(0,1fr) 36px; align-items: center; gap: 9px; border-bottom: 1px solid #edf0f5; color: #7d8ba3; }
+.dka5-command-search input { min-height: 48px !important; border: 0 !important; box-shadow: none !important; background: transparent !important; padding: 0 !important; color: #20304d !important; font-size: 14px !important; }
+.dka5-command-search button { border: 0; background: #f3f5f9; color: #6d7b93; width: 31px; height: 31px; border-radius: 9px; display: grid; place-items: center; cursor: pointer; }
+.dka5-command-search button svg { width: 16px; height: 16px; }
+.dka5-command-results { max-height: 510px; overflow-y: auto; padding: 8px; }
+.dka5-command-results a { min-height: 54px; display: grid; grid-template-columns: 36px minmax(0,1fr) 18px; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 11px; text-decoration: none; color: #263650; }
+.dka5-command-results a:hover { background: #f5f7fc; }
+.dka5-command-result-icon { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: #eef2fb; color: #5268a4; }
+.dka5-command-result-icon svg { width: 17px; height: 17px; }
+.dka5-command-results b { display: block; color: #20304d; font-size: 12px; }
+.dka5-command-results small { display: block; margin-top: 3px; color: #8995a8; font-size: 10px; }
+.dka5-command-results > a > svg { width: 15px; height: 15px; color: #9aa5b7; }
+.dka5-command-empty { padding: 26px; text-align: center; color: #8995a8; font-size: 12px; }
+.dka5-mobile-overlay { display: none; }
+
+@media (max-width: 1220px) {
+  .dka5-shell .dk-metricgrid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+  .dka5-shell .dk-grid3 { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+}
+
+@media (max-width: 980px) {
+  .dka5-shell { display: block !important; }
+  .dka5-shell .dka5-sidebar { position: fixed !important; left: 0 !important; top: 0 !important; transform: translateX(-105%); transition: transform .2s ease; box-shadow: 24px 0 60px rgba(5,16,42,.25) !important; }
+  .dka5-shell .dka5-sidebar.is-open { transform: translateX(0); }
+  .dka5-mobile-overlay { display: block; position: fixed; inset: 0; z-index: 55; border: 0; background: rgba(10,22,50,.42); opacity: 0; pointer-events: none; transition: opacity .2s ease; }
+  .dka5-mobile-overlay.is-visible { opacity: 1; pointer-events: auto; }
+  .dka5-mobile-close, .dka5-mobile-menu { display: grid; place-items: center; }
+  .dka5-shell .dka5-main { width: 100% !important; }
+  .dka5-shell .dka5-topbar { padding: 0 20px !important; }
+  .dka5-shell .dka5-content { padding: 24px 20px 48px !important; }
+}
+
+@media (max-width: 760px) {
+  .dka5-shell .dk-metricgrid, .dka5-shell .dk-metricgrid.small, .dka5-shell .dk-grid2, .dka5-shell .dk-grid3 { grid-template-columns: 1fr !important; }
+  .dka5-topbar-actions .dka5-command-button span, .dka5-topbar-actions .dka5-command-button kbd, .dka5-public-button span { display: none; }
+  .dka5-command-button, .dka5-public-button { width: 38px; padding: 0; justify-content: center; }
+  .dka5-shell .dka5-topbar { height: 70px !important; min-height: 70px !important; padding: 0 14px !important; }
+  .dka5-shell .dka5-topbar h1 { font-size: 18px !important; }
+  .dka5-topbar-left span { font-size: 9px !important; }
+  .dka5-shell .dka5-content { padding: 20px 13px 40px !important; }
+  .dka5-shell .dk-pageintro h2 { font-size: 25px !important; }
+  .dka5-shell .dk-filterbar, .dka5-shell .dk-merchant-filterbar { align-items: stretch !important; }
+  .dka5-shell .dk-filterbar > *, .dka5-shell .dk-merchant-filterbar > * { width: 100% !important; }
+  .dka5-shell .dk-resultcount { margin-left: 0 !important; }
+  .dka5-shell .dk-admin-note { align-items: flex-start !important; flex-direction: column !important; }
+}
