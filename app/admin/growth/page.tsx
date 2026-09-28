@@ -368,6 +368,7 @@ export default async function GrowthPage() {
                   <span>SEO OPPORTUNITIES · 30D</span>
                   <h3>High-impression / low-CTR queries</h3>
                 </div>
+                <Link href="/admin/growth/opportunities">Action center →</Link>
               </header>
               <GscTable
                 rows={gsc.opportunities}

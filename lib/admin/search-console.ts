@@ -23,6 +23,17 @@ export type SearchConsoleDimensionRow = PeriodMetrics & {
   key: string;
 };
 
+export type SearchConsoleQueryPageRow = PeriodMetrics & {
+  query: string;
+  page: string;
+};
+
+export type SearchConsoleActionRow = SearchConsoleQueryPageRow & {
+  actionType: "CTR_OPPORTUNITY" | "POSITION_4_10" | "POSITION_11_20";
+  actionLabel: string;
+  rationale: string;
+};
+
 export type SearchConsoleEvidence = {
   adapterReady: true;
   connected: boolean;
@@ -42,6 +53,7 @@ export type SearchConsoleEvidence = {
   topQueries: SearchConsoleDimensionRow[];
   topPages: SearchConsoleDimensionRow[];
   opportunities: SearchConsoleDimensionRow[];
+  actionRows: SearchConsoleActionRow[];
   branded: {
     clicks: number;
     impressions: number;
@@ -121,6 +133,14 @@ function normalizeMetrics(row?: SearchAnalyticsRow): PeriodMetrics {
 function normalizeDimensionRow(row: SearchAnalyticsRow): SearchConsoleDimensionRow {
   return {
     key: row.keys?.[0] || "",
+    ...normalizeMetrics(row),
+  };
+}
+
+function normalizeQueryPageRow(row: SearchAnalyticsRow): SearchConsoleQueryPageRow {
+  return {
+    query: row.keys?.[0] || "",
+    page: row.keys?.[1] || "",
     ...normalizeMetrics(row),
   };
 }
@@ -283,6 +303,85 @@ async function queryDimension(args: {
     .filter((row) => row.key);
 }
 
+async function queryQueryPage(args: {
+  token: string;
+  siteUrl: string;
+  startDate: string;
+  endDate: string;
+  rowLimit?: number;
+}) {
+  const data = await querySearchAnalytics({
+    token: args.token,
+    siteUrl: args.siteUrl,
+    startDate: args.startDate,
+    endDate: args.endDate,
+    dimensions: ["query", "page"],
+    rowLimit: args.rowLimit ?? 500,
+  });
+
+  return (data.rows || [])
+    .map(normalizeQueryPageRow)
+    .filter((row) => row.query && row.page);
+}
+
+function buildActionRows(rows: SearchConsoleQueryPageRow[]) {
+  const actions: SearchConsoleActionRow[] = [];
+
+  for (const row of rows) {
+    if (row.impressions < 10 || row.averagePosition <= 0 || row.averagePosition > 20) {
+      continue;
+    }
+
+    if (row.averagePosition <= 10 && row.ctr < 3) {
+      actions.push({
+        ...row,
+        actionType: "CTR_OPPORTUNITY",
+        actionLabel: "Improve snippet / intent match",
+        rationale:
+          "Already visible on page 1 with measurable impressions, but CTR is below 3%. Review title, meta description and how closely the landing page matches the query intent.",
+      });
+      continue;
+    }
+
+    if (row.averagePosition >= 4 && row.averagePosition <= 10) {
+      actions.push({
+        ...row,
+        actionType: "POSITION_4_10",
+        actionLabel: "Strengthen page-1 position",
+        rationale:
+          "The query already ranks on page 1 outside the top 3. Review content depth, internal linking and query-to-page relevance before creating new content.",
+      });
+      continue;
+    }
+
+    if (row.averagePosition > 10 && row.averagePosition <= 20) {
+      actions.push({
+        ...row,
+        actionType: "POSITION_11_20",
+        actionLabel: "Push toward page 1",
+        rationale:
+          "The query is close to page 1 and has real impressions. Check whether the current landing page sufficiently answers the query before considering a dedicated landing page.",
+      });
+    }
+  }
+
+  return actions
+    .sort((a, b) => {
+      const typeOrder = {
+        CTR_OPPORTUNITY: 0,
+        POSITION_4_10: 1,
+        POSITION_11_20: 2,
+      } as const;
+      return (
+        typeOrder[a.actionType] - typeOrder[b.actionType] ||
+        b.impressions - a.impressions ||
+        b.clicks - a.clicks ||
+        a.averagePosition - b.averagePosition
+      );
+    })
+    .slice(0, 50);
+}
+
 async function getPeriodEvidence(args: {
   token: string;
   siteUrl: string;
@@ -341,6 +440,7 @@ function emptyEvidence(args: {
     topQueries: [],
     topPages: [],
     opportunities: [],
+    actionRows: [],
     branded: null,
     nonBranded: null,
     reason: args.reason,
@@ -378,7 +478,7 @@ export async function getSearchConsoleEvidence(): Promise<SearchConsoleEvidence>
     const endDate = shiftDays(new Date(), -lagDays);
     const start30 = shiftDays(endDate, -29);
 
-    const [d7, d30, d90, queryRows, pageRows] = await Promise.all([
+    const [d7, d30, d90, queryRows, pageRows, queryPageRows] = await Promise.all([
       getPeriodEvidence({ token, siteUrl, days: 7, endDate }),
       getPeriodEvidence({ token, siteUrl, days: 30, endDate }),
       getPeriodEvidence({ token, siteUrl, days: 90, endDate }),
@@ -397,6 +497,13 @@ export async function getSearchConsoleEvidence(): Promise<SearchConsoleEvidence>
         endDate: isoDate(endDate),
         dimension: "page",
         rowLimit: 250,
+      }),
+      queryQueryPage({
+        token,
+        siteUrl,
+        startDate: isoDate(start30),
+        endDate: isoDate(endDate),
+        rowLimit: 500,
       }),
     ]);
 
@@ -438,6 +545,7 @@ export async function getSearchConsoleEvidence(): Promise<SearchConsoleEvidence>
         .sort((a, b) => b.clicks - a.clicks || b.impressions - a.impressions)
         .slice(0, 12),
       opportunities,
+      actionRows: buildActionRows(queryPageRows),
       branded: {
         ...brandedTotals,
         shareOfClicks: share(brandedTotals.clicks, d30.clicks),

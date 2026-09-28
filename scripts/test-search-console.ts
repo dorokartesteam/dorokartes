@@ -25,6 +25,7 @@ async function main() {
   console.log(`Top queries: ${evidence.topQueries.length}`);
   console.log(`Top pages: ${evidence.topPages.length}`);
   console.log(`SEO opportunities: ${evidence.opportunities.length}`);
+  console.log(`Action-center rows: ${evidence.actionRows.length}`);
   console.log(`Branded click share: ${evidence.branded?.shareOfClicks ?? 0}%`);
   console.log(`Non-branded click share: ${evidence.nonBranded?.shareOfClicks ?? 0}%`);
 }
