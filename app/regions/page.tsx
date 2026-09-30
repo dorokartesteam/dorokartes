@@ -257,7 +257,25 @@ export default async function RegionsPage({
                 );
               })}
             </div>
-          </section>
+          
+            <nav
+              className="dk-public-filter-row"
+              aria-label="Σελίδες δωροκαρτών ανά περιοχή"
+              style={{ marginTop: "18px" }}
+            >
+              {regionOptions
+                .filter((entry) => entry.count >= 3)
+                .map((entry) => (
+                  <Link
+                    key={`landing-${entry.slug}`}
+                    prefetch={false}
+                    href={`/regions/${encodeURIComponent(entry.slug)}`}
+                  >
+                    Δωροκάρτες σε {entry.label}
+                  </Link>
+                ))}
+            </nav>
+</section>
 
           <section className="dk28-location-results" aria-labelledby="location-results-title">
             <div className="dk28-section-heading">
