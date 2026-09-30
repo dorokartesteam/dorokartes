@@ -15,6 +15,24 @@ import { merchantPartnerBadge, merchantPublicTier } from "@/lib/public/merchant-
 
 export const dynamic = "force-dynamic";
 
+function jsonLd(value: unknown) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+const fallbackBaseUrl = "https://dorokartes.gr";
+
+function getBaseUrl() {
+  const configured = process.env.NEXT_PUBLIC_APP_URL || fallbackBaseUrl;
+
+  try {
+    const url = new URL(configured);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return fallbackBaseUrl;
+    return url.toString().replace(/\/+$/, "");
+  } catch {
+    return fallbackBaseUrl;
+  }
+}
+
 function decodeSlug(slug: string) {
   try {
     return decodeURIComponent(slug);
@@ -92,6 +110,66 @@ export default async function BrandPage({
 
   if (!brand) notFound();
 
+  const baseUrl = getBaseUrl();
+  const brandUrl = `${baseUrl}/brands/${encodeURIComponent(brand.slug)}`;
+  const description =
+    brand.metaDescription?.trim() ||
+    brand.description?.trim() ||
+    `Δες τις διαθέσιμες δωροκάρτες από ${brand.name} στο Dorokartes.gr.`;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${brandUrl}#collection`,
+        name: brand.name,
+        description,
+        url: brandUrl,
+        inLanguage: "el-GR",
+        mainEntity: {
+          "@id": `${brandUrl}#itemlist`,
+        },
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${brandUrl}#itemlist`,
+        name: `Δωροκάρτες ${brand.name}`,
+        numberOfItems: brand.giftCards.length,
+        itemListElement: brand.giftCards.map((card, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: card.title,
+          url: `${baseUrl}/gift-cards/${encodeURIComponent(card.slug)}`,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${brandUrl}#breadcrumbs`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Αρχική",
+            item: `${baseUrl}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Δωροκάρτες",
+            item: `${baseUrl}/browse`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: brand.name,
+            item: brandUrl,
+          },
+        ],
+      },
+    ],
+  };
+
   const profile = getMerchantProfileDetails(brand.giftCards);
   const websiteUrl = publicHttpUrl(brand.websiteUrl);
   const partnerTier = merchantPublicTier(brand.subscription);
@@ -101,6 +179,10 @@ export default async function BrandPage({
 
   return (
     <div className="dk-public">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }}
+      />
       <CatalogView {...analyticsContext} />
       <PublicHeader />
 
