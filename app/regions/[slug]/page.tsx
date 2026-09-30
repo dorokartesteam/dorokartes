@@ -118,6 +118,30 @@ export default async function RegionPage({
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "BreadcrumbList",
+        "@id": `${regionUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Αρχική",
+            item: `${base}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Περιοχές",
+            item: `${base}/regions`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: region.label,
+            item: regionUrl,
+          },
+        ],
+      },
+      {
         "@type": "CollectionPage",
         "@id": `${regionUrl}#collection`,
         url: regionUrl,
