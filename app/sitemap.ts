@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
+import { getRegionOptions } from "@/lib/regions/region-assignment";
 import { CATEGORY_LANDING_SLUGS } from "@/lib/public/category-landing-content";
 import {
   OCCASION_LANDING_SLUGS,
@@ -24,7 +25,8 @@ function getBaseUrl() {
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = getBaseUrl();
-  const [cards, merchants, categories, occasions] = await Promise.all([
+
+  const [cards, merchants, categories, occasions, regions] = await Promise.all([
     prisma.giftCard.findMany({
       where: { status: "ACTIVE", verificationStatus: "VERIFIED" },
       orderBy: { slug: "asc" },
@@ -60,6 +62,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       orderBy: { slug: "asc" },
       select: { slug: true, updatedAt: true },
     }),
+    getRegionOptions(),
   ]);
 
   return [
@@ -68,29 +71,41 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/categories`, changeFrequency: "weekly", priority: 0.85 },
     { url: `${base}/occasions`, changeFrequency: "weekly", priority: 0.82 },
     { url: `${base}/regions`, changeFrequency: "weekly", priority: 0.8 },
+
     ...cards.map((card) => ({
       url: `${base}/gift-cards/${encodeURIComponent(card.slug)}`,
       lastModified: card.updatedAt,
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
+
     ...merchants.map((merchant) => ({
       url: `${base}/brands/${encodeURIComponent(merchant.slug)}`,
       lastModified: merchant.updatedAt,
       changeFrequency: "weekly" as const,
       priority: 0.7,
     })),
+
     ...categories.map((category) => ({
       url: `${base}/categories/${encodeURIComponent(category.slug)}`,
       lastModified: category.updatedAt,
       changeFrequency: "weekly" as const,
       priority: 0.72,
     })),
+
     ...occasions.map((occasion) => ({
       url: `${base}/occasions/${encodeURIComponent(occasion.slug)}`,
       lastModified: occasion.updatedAt,
       changeFrequency: "weekly" as const,
       priority: 0.68,
     })),
+
+    ...regions
+      .filter((region) => region.count >= 3)
+      .map((region) => ({
+        url: `${base}/regions/${encodeURIComponent(region.slug)}`,
+        changeFrequency: "weekly" as const,
+        priority: 0.62,
+      })),
   ];
 }
