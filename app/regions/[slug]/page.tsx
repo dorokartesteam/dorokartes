@@ -14,6 +14,7 @@ import {
   getGiftCardIdsForRegion,
   getRegionOptions,
 } from "@/lib/regions/region-assignment";
+import { getRegionLandingContent } from "@/lib/regions/region-landing-content";
 
 export const dynamic = "force-dynamic";
 
@@ -110,6 +111,8 @@ export default async function RegionPage({
   const region = await getRegion(slug);
 
   if (!region) notFound();
+
+  const landingContent = getRegionLandingContent(region.slug);
 
   const currentPage = parsePublicPage(query.page);
   const ids = await getGiftCardIdsForRegion(region.slug);
@@ -235,11 +238,18 @@ export default async function RegionPage({
               Δωροκάρτες σε {region.label}
               {currentPage > 1 ? ` – Σελίδα ${currentPage}` : ""}
             </h1>
-            <p>
-              Ανακάλυψε δωροκάρτες από επιχειρήσεις με επαληθευμένη φυσική παρουσία
-              στην περιοχή {region.label}. Η φυσική παρουσία ενός εμπόρου δεν σημαίνει
-              απαραίτητα ότι κάθε δωροκάρτα αγοράζεται ή εξαργυρώνεται στο κατάστημα.
-            </p>
+            {landingContent ? (
+              <>
+                <p>{landingContent.intro}</p>
+                <p>{landingContent.supporting}</p>
+              </>
+            ) : (
+              <p>
+                Ανακάλυψε δωροκάρτες από επιχειρήσεις με επαληθευμένη φυσική παρουσία
+                στην περιοχή {region.label}. Η φυσική παρουσία ενός εμπόρου δεν σημαίνει
+                απαραίτητα ότι κάθε δωροκάρτα αγοράζεται ή εξαργυρώνεται στο κατάστημα.
+              </p>
+            )}
           </div>
         </section>
 
