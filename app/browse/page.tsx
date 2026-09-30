@@ -53,11 +53,23 @@ export async function generateMetadata({
   const page = parsePublicPage(params.page);
   const filtered = Boolean(q || category || occasion || page > 1);
 
+  const title = q ? `Αναζήτηση «${q}» – Δωροκάρτες` : "Όλες οι δωροκάρτες";
+  const description =
+    "Αναζήτησε και σύγκρινε ενεργές δωροκάρτες ανά κατάστημα, κατηγορία και περίσταση.";
+
   return {
-    title: q ? `Αναζήτηση «${q}» – Δωροκάρτες` : "Όλες οι δωροκάρτες",
-    description: "Αναζήτησε και σύγκρινε ενεργές δωροκάρτες ανά κατάστημα, κατηγορία και περίσταση.",
+    title,
+    description,
     alternates: { canonical: "/browse" },
     robots: filtered ? { index: false, follow: true } : { index: true, follow: true },
+    openGraph: {
+      type: "website",
+      url: "/browse",
+      siteName: "Dorokartes.gr",
+      title,
+      description,
+      locale: "el_GR",
+    },
   };
 }
 
