@@ -13,12 +13,30 @@ import {
 
 export const dynamic = "force-dynamic";
 
+const fallbackBaseUrl = "https://dorokartes.gr";
+
+function getBaseUrl() {
+  const configured = process.env.NEXT_PUBLIC_APP_URL || fallbackBaseUrl;
+
+  try {
+    const url = new URL(configured);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return fallbackBaseUrl;
+    return url.toString().replace(/\/+$/, "");
+  } catch {
+    return fallbackBaseUrl;
+  }
+}
+
 function decodeSlug(slug: string) {
   try {
     return decodeURIComponent(slug);
   } catch {
     return slug;
   }
+}
+
+function jsonLd(value: unknown) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
 }
 
 async function getRegion(slug: string) {
@@ -90,9 +108,56 @@ export default async function RegionPage({
       })
     : [];
 
+  const base = getBaseUrl();
+  const regionUrl = `${base}/regions/${encodeURIComponent(region.slug)}`;
+  const description =
+    `Ανακάλυψε δωροκάρτες από επιχειρήσεις με επαληθευμένη φυσική παρουσία σε ${region.label}. ` +
+    `${cards.length} διαθέσιμες επιλογές στο Dorokartes.gr.`;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${regionUrl}#collection`,
+        url: regionUrl,
+        name: `Δωροκάρτες σε ${region.label}`,
+        description,
+        inLanguage: "el-GR",
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `${base}/#website`,
+          url: base,
+          name: "Dorokartes.gr",
+        },
+        mainEntity: {
+          "@id": `${regionUrl}#itemlist`,
+        },
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${regionUrl}#itemlist`,
+        name: `Δωροκάρτες σε ${region.label}`,
+        numberOfItems: cards.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: cards.map((card, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `${base}/gift-cards/${encodeURIComponent(card.slug)}`,
+          name: card.title,
+        })),
+      },
+    ],
+  };
+
   return (
     <div className="dk-public">
       <PublicHeader />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }}
+      />
 
       <main>
         <section className="dk20-shell" style={{ paddingTop: "48px", paddingBottom: "24px" }}>
