@@ -9,6 +9,24 @@ import {
 } from "@/lib/public/category-landing-content";
 import { PUBLIC_CATALOG_PAGE_SIZE, getPublicCardPage, parsePublicPage } from "@/lib/public/data";
 
+function taxonomyJsonLd(value: unknown) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+const taxonomyFallbackBaseUrl = "https://dorokartes.gr";
+
+function getTaxonomyBaseUrl() {
+  const configured = process.env.NEXT_PUBLIC_APP_URL || taxonomyFallbackBaseUrl;
+
+  try {
+    const url = new URL(configured);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return taxonomyFallbackBaseUrl;
+    return url.toString().replace(/\/+$/, "");
+  } catch {
+    return taxonomyFallbackBaseUrl;
+  }
+}
+
 export const dynamic = "force-dynamic";
 
 const approvedCategorySlugs = new Set(CATEGORY_LANDING_SLUGS);
@@ -125,8 +143,80 @@ export default async function CategoryPage({
     getRelatedCategories(landingContent?.relatedSlugs ?? []),
   ]);
 
+  const taxonomyBaseUrl = getTaxonomyBaseUrl();
+  const taxonomyPath = `/categories/${encodeURIComponent(
+      String((landingContent?.heading) ?? "").toLowerCase().replace(/\s+/g, "-")
+    )}`;
+  const taxonomyRootUrl = `${taxonomyBaseUrl}${taxonomyPath}`;
+  const taxonomyPageUrl =
+    cardPage.currentPage > 1
+      ? `${taxonomyRootUrl}?page=${cardPage.currentPage}`
+      : taxonomyRootUrl;
+  const taxonomyName = landingContent?.heading;
+  const taxonomyDescription = landingContent?.intro || category.description;
+  const taxonomyPositionOffset =
+    (cardPage.currentPage - 1) * PUBLIC_CATALOG_PAGE_SIZE;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${taxonomyPageUrl}#collection`,
+        name: taxonomyName,
+        description: taxonomyDescription,
+        url: taxonomyPageUrl,
+        inLanguage: "el-GR",
+        mainEntity: {
+          "@id": `${taxonomyPageUrl}#itemlist`,
+        },
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${taxonomyPageUrl}#itemlist`,
+        name: taxonomyName,
+        numberOfItems: cardPage.totalCount,
+        itemListElement: cardPage.cards.map((card, index) => ({
+          "@type": "ListItem",
+          position: taxonomyPositionOffset + index + 1,
+          name: card.title,
+          url: `${taxonomyBaseUrl}/gift-cards/${encodeURIComponent(card.slug)}`,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${taxonomyPageUrl}#breadcrumbs`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Αρχική",
+            item: `${taxonomyBaseUrl}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Κατηγορίες",
+            item: `${taxonomyBaseUrl}/categories`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: taxonomyName,
+            item: taxonomyRootUrl,
+          },
+        ],
+      },
+    ],
+  };
+
   return (
-    <TaxonomyLanding
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: taxonomyJsonLd(structuredData) }}
+      />
+      <TaxonomyLanding
       kind="category"
       name={category.name}
       slug={category.slug}
@@ -139,5 +229,6 @@ export default async function CategoryPage({
       currentPage={cardPage.currentPage}
       totalPages={cardPage.totalPages}
     />
+    </>
   );
 }
