@@ -6,6 +6,7 @@ import NearMeButton from "@/components/public/NearMeButton";
 import RegionLocationCard from "@/components/public/RegionLocationCard";
 import { prisma } from "@/lib/prisma";
 import { merchantPromotionRank } from "@/lib/public/merchant-entitlements";
+import { getRegionOptions, regionLabelFromLocation, regionSlug } from "@/lib/regions/region-assignment";
 
 export const dynamic = "force-dynamic";
 
@@ -48,12 +49,13 @@ function distanceKm(fromLat: number, fromLng: number, toLat: number, toLng: numb
 export default async function RegionsPage({
   searchParams,
 }: {
-  searchParams: Promise<{ city?: string; q?: string; lat?: string; lng?: string }>;
+  searchParams: Promise<{ region?: string; q?: string; lat?: string; lng?: string }>;
 }) {
   const params = await searchParams;
   const userLat = validCoordinate(params.lat, -90, 90);
   const userLng = validCoordinate(params.lng, -180, 180);
   const hasUserLocation = userLat != null && userLng != null;
+  const regionOptions = await getRegionOptions();
   const allLocations = await prisma.merchantLocation.findMany({
     where: {
       active: true,
@@ -132,7 +134,12 @@ export default async function RegionsPage({
     .sort((a, b) => b.count - a.count || a.city.localeCompare(b.city, "el"));
   const regionCount = new Set(allLocations.map((location) => location.administrativeArea).filter(Boolean)).size;
   const merchantCount = new Set(allLocations.map((location) => location.merchant.name)).size;
-  const selectedCity = params.city && cityCounts.some((entry) => entry.city === params.city) ? params.city : "";
+  const selectedRegionSlug =
+    params.region && regionOptions.some((entry) => entry.slug === params.region)
+      ? params.region
+      : "";
+  const selectedRegion =
+    regionOptions.find((entry) => entry.slug === selectedRegionSlug)?.label || "";
   const query = params.q?.trim() || "";
   const normalizedQuery = normalizedSearch(query);
   const visibleLocations = allLocations
@@ -146,7 +153,10 @@ export default async function RegionsPage({
       };
     })
     .filter((location) => {
-      if (selectedCity && location.city !== selectedCity) return false;
+      if (selectedRegionSlug) {
+        const label = regionLabelFromLocation(location);
+        if (!label || regionSlug(label) !== selectedRegionSlug) return false;
+      }
       if (!normalizedQuery) return true;
       return normalizedSearch([
         location.merchant.name,
@@ -166,9 +176,9 @@ export default async function RegionsPage({
       return merchantPromotionRank(b.merchant.subscription) -
         merchantPromotionRank(a.merchant.subscription);
     });
-  const regionsHref = (city = "") => {
+  const regionsHref = (region = "") => {
     const next = new URLSearchParams();
-    if (city) next.set("city", city);
+    if (region) next.set("region", region);
     if (query) next.set("q", query);
     if (hasUserLocation) {
       next.set("lat", String(userLat));
@@ -195,7 +205,7 @@ export default async function RegionsPage({
                 <label htmlFor="region-query">Αναζήτησε πόλη, περιοχή ή κατάστημα</label>
                 <div>
                   <input id="region-query" name="q" defaultValue={query} placeholder="π.χ. Περιστέρι ή spa" />
-                  {selectedCity ? <input type="hidden" name="city" value={selectedCity} /> : null}
+                  {selectedRegionSlug ? <input type="hidden" name="region" value={selectedRegionSlug} /> : null}
                   {hasUserLocation ? <input type="hidden" name="lat" value={String(userLat)} /> : null}
                   {hasUserLocation ? <input type="hidden" name="lng" value={String(userLng)} /> : null}
                   <button type="submit">Αναζήτηση</button>
@@ -226,23 +236,23 @@ export default async function RegionsPage({
             <div className="dk28-city-pills">
               <Link
                 prefetch={false}
-                className={!selectedCity ? "active" : ""}
-                aria-current={!selectedCity ? "page" : undefined}
+                className={!selectedRegionSlug ? "active" : ""}
+                aria-current={!selectedRegionSlug ? "page" : undefined}
                 href={regionsHref()}
               >
                 Όλες <span>{allLocations.length}</span>
               </Link>
-              {cityCounts.map((entry) => {
-                const active = selectedCity === entry.city;
+              {regionOptions.map((entry) => {
+                const active = selectedRegionSlug === entry.slug;
                 return (
                   <Link
                     prefetch={false}
                     className={active ? "active" : ""}
                     aria-current={active ? "page" : undefined}
-                    href={regionsHref(entry.city)}
-                    key={entry.city}
+                    href={regionsHref(entry.slug)}
+                    key={entry.slug}
                   >
-                    {entry.city} <span>{entry.count}</span>
+                    {entry.label} <span>{entry.count}</span>
                   </Link>
                 );
               })}
@@ -252,10 +262,10 @@ export default async function RegionsPage({
           <section className="dk28-location-results" aria-labelledby="location-results-title">
             <div className="dk28-section-heading">
               <div>
-                <span>{hasUserLocation ? "ΤΑΞΙΝΟΜΗΣΗ ΜΕ ΒΑΣΗ ΤΗΝ ΑΠΟΣΤΑΣΗ" : selectedCity ? `ΠΕΡΙΟΧΗ · ${selectedCity}` : "ΠΡΑΓΜΑΤΙΚΕΣ ΔΙΕΥΘΥΝΣΕΙΣ"}</span>
+                <span>{hasUserLocation ? "ΤΑΞΙΝΟΜΗΣΗ ΜΕ ΒΑΣΗ ΤΗΝ ΑΠΟΣΤΑΣΗ" : selectedRegion ? `ΠΕΡΙΟΧΗ · ${selectedRegion}` : "ΠΡΑΓΜΑΤΙΚΕΣ ΔΙΕΥΘΥΝΣΕΙΣ"}</span>
                 <h2 id="location-results-title">{visibleLocations.length} φυσικά σημεία</h2>
               </div>
-              {(selectedCity || query || hasUserLocation) ? <Link href="/regions">Καθαρισμός φίλτρων</Link> : null}
+              {(selectedRegionSlug || query || hasUserLocation) ? <Link href="/regions">Καθαρισμός φίλτρων</Link> : null}
             </div>
             {visibleLocations.length ? (
               <div className="dk28-location-grid">
