@@ -69,6 +69,10 @@ function getBaseUrl() {
   }
 }
 
+function jsonLd(value: unknown) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
 function decodeSlug(slug: string) {
   try {
     return decodeURIComponent(slug);
@@ -232,6 +236,73 @@ export default async function GiftCardPage({
   const partnerTier = merchantPublicTier(card.merchant.subscription);
   const partnerBadge = merchantPartnerBadge(partnerTier);
   const relatedCards = await getRelatedCards({ ...card, merchantId: card.merchant.id });
+  const baseUrl = getBaseUrl();
+  const cardUrl = `${baseUrl}/gift-cards/${encodeURIComponent(card.slug)}`;
+  const brandUrl = `${baseUrl}/brands/${encodeURIComponent(card.merchant.slug)}`;
+  const structuredDescription =
+    card.metaDescription?.trim() ||
+    card.shortDescription?.trim() ||
+    card.description?.trim() ||
+    `${card.title} από ${card.merchant.name}`;
+  const primaryCategory = card.categories.find((item) => item.primary)?.category || card.categories[0]?.category;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Product",
+        "@id": `${cardUrl}#product`,
+        name: card.title,
+        description: structuredDescription,
+        url: cardUrl,
+        brand: {
+          "@type": "Brand",
+          name: card.merchant.name,
+          url: brandUrl,
+        },
+        ...(card.merchant.logoUrl
+          ? {
+              image: new URL(card.merchant.logoUrl, `${baseUrl}/`).toString(),
+            }
+          : {}),
+        ...(primaryCategory
+          ? {
+              category: primaryCategory.name,
+            }
+          : {}),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${cardUrl}#breadcrumbs`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Αρχική",
+            item: `${baseUrl}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Δωροκάρτες",
+            item: `${baseUrl}/browse`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: card.merchant.name,
+            item: brandUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: card.title,
+            item: cardUrl,
+          },
+        ],
+      },
+    ],
+  };
   const analyticsContext = {
     merchantId: card.merchant.id, giftCardId: card.id,
     category: card.categories[0]?.category.slug,
@@ -240,6 +311,10 @@ export default async function GiftCardPage({
 
   return (
     <div className="dk-public">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }}
+      />
       <CatalogView {...analyticsContext} />
       <PublicHeader />
 
