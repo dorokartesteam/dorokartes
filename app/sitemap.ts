@@ -68,6 +68,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     { url: base, changeFrequency: "daily", priority: 1 },
     { url: `${base}/browse`, changeFrequency: "daily", priority: 0.9 },
+    { url: `${base}/kaliteres-dorokartes`, changeFrequency: "weekly", priority: 0.88 },
     { url: `${base}/categories`, changeFrequency: "weekly", priority: 0.85 },
     { url: `${base}/occasions`, changeFrequency: "weekly", priority: 0.82 },
     { url: `${base}/regions`, changeFrequency: "weekly", priority: 0.8 },
