@@ -4,8 +4,12 @@ import { notFound } from "next/navigation";
 import PublicHeader from "@/components/public/PublicHeader";
 import PublicFooter from "@/components/public/PublicFooter";
 import GiftCardCard from "@/components/public/GiftCardCard";
+import PublicPagination from "@/components/public/PublicPagination";
 import { prisma } from "@/lib/prisma";
-import { publicCardSelect } from "@/lib/public/data";
+import {
+  parsePublicPage,
+  publicCardSelect,
+} from "@/lib/public/data";
 import {
   getGiftCardIdsForRegion,
   getRegionOptions,
@@ -14,6 +18,7 @@ import {
 export const dynamic = "force-dynamic";
 
 const fallbackBaseUrl = "https://dorokartes.gr";
+const REGION_PAGE_SIZE = 24;
 
 function getBaseUrl() {
   const configured = process.env.NEXT_PUBLIC_APP_URL || fallbackBaseUrl;
@@ -47,10 +52,12 @@ async function getRegion(slug: string) {
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string | string[] }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const [{ slug }, query] = await Promise.all([params, searchParams]);
   const region = await getRegion(slug);
 
   if (!region) {
@@ -60,18 +67,26 @@ export async function generateMetadata({
     };
   }
 
-  const indexable = region.count >= 3;
-  const title = `Δωροκάρτες σε ${region.label}`;
+  const currentPage = parsePublicPage(query.page);
+  const totalPages = Math.max(1, Math.ceil(region.count / REGION_PAGE_SIZE));
+  const validPage = currentPage <= totalPages;
+  const indexable = region.count >= 3 && validPage;
+
+  const baseTitle = `Δωροκάρτες σε ${region.label}`;
+  const title = currentPage > 1 ? `${baseTitle} – Σελίδα ${currentPage}` : baseTitle;
   const description =
     `Ανακάλυψε δωροκάρτες από επιχειρήσεις με επαληθευμένη φυσική παρουσία σε ${region.label}. ` +
     `${region.count} διαθέσιμες επιλογές στο Dorokartes.gr.`;
 
+  const canonical =
+    currentPage > 1
+      ? `/regions/${encodeURIComponent(region.slug)}?page=${currentPage}`
+      : `/regions/${encodeURIComponent(region.slug)}`;
+
   return {
     title,
     description,
-    alternates: {
-      canonical: `/regions/${encodeURIComponent(region.slug)}`,
-    },
+    alternates: { canonical },
     robots: {
       index: indexable,
       follow: true,
@@ -79,27 +94,37 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `/regions/${encodeURIComponent(region.slug)}`,
+      url: canonical,
     },
   };
 }
 
 export default async function RegionPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string | string[] }>;
 }) {
-  const { slug } = await params;
+  const [{ slug }, query] = await Promise.all([params, searchParams]);
   const region = await getRegion(slug);
 
   if (!region) notFound();
 
+  const currentPage = parsePublicPage(query.page);
   const ids = await getGiftCardIdsForRegion(region.slug);
+  const totalCards = ids.length;
+  const totalPages = Math.max(1, Math.ceil(totalCards / REGION_PAGE_SIZE));
 
-  const cards = ids.length
+  if (currentPage > totalPages) notFound();
+
+  const start = (currentPage - 1) * REGION_PAGE_SIZE;
+  const pageIds = ids.slice(start, start + REGION_PAGE_SIZE);
+
+  const cards = pageIds.length
     ? await prisma.giftCard.findMany({
         where: {
-          id: { in: ids },
+          id: { in: pageIds },
           status: "ACTIVE",
           verificationStatus: "VERIFIED",
         },
@@ -109,10 +134,15 @@ export default async function RegionPage({
     : [];
 
   const base = getBaseUrl();
-  const regionUrl = `${base}/regions/${encodeURIComponent(region.slug)}`;
+  const regionPath = `/regions/${encodeURIComponent(region.slug)}`;
+  const regionUrl =
+    currentPage > 1
+      ? `${base}${regionPath}?page=${currentPage}`
+      : `${base}${regionPath}`;
+
   const description =
     `Ανακάλυψε δωροκάρτες από επιχειρήσεις με επαληθευμένη φυσική παρουσία σε ${region.label}. ` +
-    `${cards.length} διαθέσιμες επιλογές στο Dorokartes.gr.`;
+    `${totalCards} διαθέσιμες επιλογές στο Dorokartes.gr.`;
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -137,7 +167,7 @@ export default async function RegionPage({
             "@type": "ListItem",
             position: 3,
             name: region.label,
-            item: regionUrl,
+            item: currentPage > 1 ? `${base}${regionPath}` : regionUrl,
           },
         ],
       },
@@ -145,7 +175,10 @@ export default async function RegionPage({
         "@type": "CollectionPage",
         "@id": `${regionUrl}#collection`,
         url: regionUrl,
-        name: `Δωροκάρτες σε ${region.label}`,
+        name:
+          currentPage > 1
+            ? `Δωροκάρτες σε ${region.label} – Σελίδα ${currentPage}`
+            : `Δωροκάρτες σε ${region.label}`,
         description,
         inLanguage: "el-GR",
         isPartOf: {
@@ -154,6 +187,9 @@ export default async function RegionPage({
           url: base,
           name: "Dorokartes.gr",
         },
+        breadcrumb: {
+          "@id": `${regionUrl}#breadcrumb`,
+        },
         mainEntity: {
           "@id": `${regionUrl}#itemlist`,
         },
@@ -161,12 +197,15 @@ export default async function RegionPage({
       {
         "@type": "ItemList",
         "@id": `${regionUrl}#itemlist`,
-        name: `Δωροκάρτες σε ${region.label}`,
+        name:
+          currentPage > 1
+            ? `Δωροκάρτες σε ${region.label} – Σελίδα ${currentPage}`
+            : `Δωροκάρτες σε ${region.label}`,
         numberOfItems: cards.length,
         itemListOrder: "https://schema.org/ItemListOrderAscending",
         itemListElement: cards.map((card, index) => ({
           "@type": "ListItem",
-          position: index + 1,
+          position: start + index + 1,
           url: `${base}/gift-cards/${encodeURIComponent(card.slug)}`,
           name: card.title,
         })),
@@ -192,7 +231,10 @@ export default async function RegionPage({
 
           <div style={{ maxWidth: "820px", marginTop: "28px" }}>
             <span>ΔΩΡΟΚΑΡΤΕΣ ΑΝΑ ΠΕΡΙΟΧΗ</span>
-            <h1>Δωροκάρτες σε {region.label}</h1>
+            <h1>
+              Δωροκάρτες σε {region.label}
+              {currentPage > 1 ? ` – Σελίδα ${currentPage}` : ""}
+            </h1>
             <p>
               Ανακάλυψε δωροκάρτες από επιχειρήσεις με επαληθευμένη φυσική παρουσία
               στην περιοχή {region.label}. Η φυσική παρουσία ενός εμπόρου δεν σημαίνει
@@ -205,7 +247,7 @@ export default async function RegionPage({
           <div className="dk28-section-heading">
             <div>
               <span>{region.label}</span>
-              <h2>{cards.length} δωροκάρτες</h2>
+              <h2>{totalCards} δωροκάρτες</h2>
             </div>
             <Link href={`/regions?region=${encodeURIComponent(region.slug)}`}>
               Δες τα φυσικά σημεία
@@ -225,6 +267,14 @@ export default async function RegionPage({
               <Link href="/regions">Δες όλες τις περιοχές</Link>
             </div>
           )}
+
+          <PublicPagination
+            basePath={regionPath}
+            currentPage={currentPage}
+            totalPages={totalPages}
+            query={{}}
+            ariaLabel={`Σελιδοποίηση δωροκαρτών για ${region.label}`}
+          />
         </section>
       </main>
 
